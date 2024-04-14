@@ -14,13 +14,13 @@ O objetivo principal é melhorar a experiência do usuário, reduzir o tempo de 
 Clone o projeto
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/alinepmarcondes/chatbot-iws.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd my-project
+  cd chatbot-iws
 ```
 
 Instale as dependências
