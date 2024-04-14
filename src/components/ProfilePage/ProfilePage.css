@@ -4,7 +4,7 @@
   left: 0;
   width: 30%;
   height: 100%;
-  background-color: #f0f0f0;
+  background-color: #FFFFFF;
   overflow: auto;
   display: flex; 
   flex-direction: column; 
@@ -37,7 +37,7 @@
 }
 
 .go-button {
-  background-color: #b8b2b2;
+  background-color: #F1F1F1;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
