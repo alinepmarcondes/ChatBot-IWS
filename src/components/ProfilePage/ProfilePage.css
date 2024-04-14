@@ -1,0 +1,93 @@
+.profile-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-color: #f0f0f0;
+  overflow: auto;
+  display: flex; 
+  flex-direction: column; 
+}
+
+.profile-header {
+  padding: 10px;
+  text-align: right;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+}
+
+.close-button img {
+  width: 100%;
+  height: auto;
+}
+
+.profile-content {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex; 
+  flex-direction: column; 
+}
+
+.go-button {
+  background-color: #b8b2b2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex; 
+  align-items: center; 
+  width: 100%;
+  margin-bottom: 20px; 
+}
+
+.profile-icon {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.hello-user {
+  font-weight: bold;
+  color: black;
+}
+
+.historic {
+  margin-top: 20px; 
+}
+
+.historic-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.historic-button img {
+  width: 20px; 
+  height: 20px; 
+  margin-left: 20px;
+}
+
+.profile-footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.exit-button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
