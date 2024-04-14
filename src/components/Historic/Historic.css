@@ -1,0 +1,54 @@
+.historic-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-color: #f0f0f0;
+  overflow: auto;
+}
+
+.historic-header {
+  padding: 10px;
+  text-align: right;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+}
+
+.close-button img {
+  width: 100%;
+  height: auto;
+}
+
+.historic-content {
+  padding: 20px;
+}
+
+.historic-content h2 {
+  margin-top: 0;
+}
+
+.historic-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.historic-content li {
+  margin-bottom: 10px;
+}
+
+.historic-content a {
+  text-decoration: none;
+  color: #333;
+}
+
+.historic-content a:hover {
+  text-decoration: underline;
+}
