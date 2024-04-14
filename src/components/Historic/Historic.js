@@ -10,7 +10,7 @@ function Historic({ onClose }) {
         <button className="close-button" onClick={onClose}><img src={closeButtonIcon} alt="Fechar" /></button>
       </div>
       <div className="historic-content">
-        <h2>Histórico</h2>
+        <h2>Historic</h2>
         <ul>
           <li><a href="#">Topic 1</a></li>
           <li><a href="#">Topic 2</a></li>

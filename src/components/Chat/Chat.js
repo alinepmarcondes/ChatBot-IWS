@@ -24,7 +24,7 @@ function Chat() {
         <button className="chat-manual-button" onClick={openManual}>
           <img src={manualButtonIcon} alt="Manual" />
         </button>
-        <h1 className="chat-title">New Chat</h1>
+        <h1 className="chat-title">Starting a new chat</h1>
         <button className="chat-add-button">
           <img src={newChatButtonIcon} alt="Add" />
           </button>
