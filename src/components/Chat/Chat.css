@@ -75,6 +75,10 @@
   font-weight: bold;
 }
 
+h1 {
+  font-weight: 400;
+}
+
 @media screen and (max-width: 736px) {  
   .chat-container {
     display: flex;
@@ -152,4 +156,8 @@
     cursor: pointer;
     font-weight: bold;
   }
+
+  h1 {
+    font-weight: 400;
+}
 }
