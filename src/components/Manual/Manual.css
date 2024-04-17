@@ -89,3 +89,97 @@
 .manual-topics a:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 736px) {
+  .manual-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    background-color: #FFFFFF;
+    overflow: auto;
+  }
+  
+  .manual-header {
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .back-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+  }
+  
+  .back-button img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .manual-content {
+    padding: 20px;
+  }
+  
+  .go-to-profile {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .go-button {
+    background-color: #b8b2b2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .profile-icon {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .hello-user {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .manual-topics {
+    text-align: left;
+    margin: 0 auto;
+  }
+  
+  .manual-topics h2 {
+    margin-top: 0;
+  }
+  
+  .manual-topics ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .manual-topics li {
+    margin-bottom: 10px;
+  }
+  
+  .manual-topics a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .manual-topics a:hover {
+    text-decoration: underline;
+  }  
+}
