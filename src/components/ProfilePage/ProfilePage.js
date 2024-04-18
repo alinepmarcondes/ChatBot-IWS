@@ -6,10 +6,10 @@ import goTo from "../../images/go-to-icon.png";
 import Historic from "../Historic/Historic";
 import { useNavigate } from "react-router-dom";
 
-//let isAdmin = true;
+let isAdmin = true;
 
 function ProfilePage({ onClose }) {
-  // const [showManage, setShowManage] = useState(false); //alteração lucas
+  const [showManage, setShowManage] = useState(isAdmin); //alteração lucas
   const [showHistoric, setShowHistoric] = useState(false);
   const navigate = useNavigate();
 
@@ -17,14 +17,15 @@ function ProfilePage({ onClose }) {
     setShowHistoric(!showHistoric);
   };
 
+  const handleManageToggle = () => {
+    navigate('/newuser');
+  };
+
   const handleExit = () => {
     navigate('/');
   };
 
-  const handleNewUser = () => {
-    navigate('/newuser');
-  };
-
+  
   return (
     <div className="profile-page">
       <div className="profile-header">
@@ -39,16 +40,16 @@ function ProfilePage({ onClose }) {
           <span className="hello-user">User</span>
         </button>
 
-        <div className="navigate">
+        <div className="historic">
           <span>Historic</span>
-          <button className="navigate-button" onClick={handleHistoricToggle}>
+          <button className="historic-button" onClick={handleHistoricToggle}>
             <img src={goTo} alt="Historico" />
           </button>
         </div>
 
-        <div className="navigate">
+        <div className="manage" style={{ display: showManage ? 'block' : 'none' }}>
           <span>Manage</span>
-          <button className="navigate-button" onClick={handleNewUser}>
+          <button className="manage-button" onClick={handleManageToggle}>
             <img src={goTo} alt="Manage" />
           </button>
         </div>
