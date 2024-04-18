@@ -6,6 +6,8 @@ import Historic from './components/Historic/Historic';
 import ProfilePage from './components/ProfilePage/ProfilePage';
 import Manual from './components/Manual/Manual';
 import NewUser from './components/NewUser/NewUser';
+import Create from './components/Create/Create';
+import Edit from './components/Edit/Edit';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/historic" element={<Historic />} />
         <Route path="/manual" element={<Manual />} />
         <Route path="/newuser" element={<NewUser />} />
+        <Route path="/create" element={<Create />} />
+        <Route path="/edit" element={<Edit />} />
       </Routes>
     </Router>
   );
