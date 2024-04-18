@@ -76,6 +76,24 @@
   margin-left: 20px;
 }
 
+.manage {
+  margin-top: 20px; 
+  display: none;
+}
+
+.manage-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.manage-button img {
+  width: 20px; 
+  height: 20px; 
+  margin-left: 20px;
+}
+
 .profile-footer {
   padding: 20px;
   text-align: center;
