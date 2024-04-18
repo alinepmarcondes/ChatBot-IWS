@@ -1,0 +1,105 @@
+.create-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+  
+  .create-title {
+    color: #1B4B66;
+    font-weight: bold;
+    font-size: 30px; 
+    text-align: center;     
+    width: 325px; 
+  }
+
+  .id-user-input,
+  .login-newuser-input,
+  .password-newuser-input {
+    background-color: #F1F1F1;
+    margin: 10px;
+    padding: 10px 0; 
+    width: 300px; 
+    border-radius: 8px; 
+    border: none; 
+  }
+  
+  .create-newuser-button {
+    margin-top: 20px;
+    background-color: #1B4B66;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 300px; 
+    border-radius: 8px; 
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .back-create-button {
+    margin-top: 20px;
+    background-color: #1B4B66;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 300px; 
+    border-radius: 8px; 
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+/*conversao de tamanho de tela*/
+
+@media screen and (max-width: 736px) {
+  .create-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+  
+  .create-title {
+    color: #1B4B66;
+    font-weight: bold;
+    font-size: 30px; 
+    text-align: center;     
+    width: 325px; 
+  }
+
+  .id-user-input,
+  .login-newuser-input,
+  .password-newuser-input {
+    background-color: #F1F1F1;
+    margin: 10px;
+    padding: 10px 0; 
+    width: 300px; 
+    border-radius: 8px; 
+    border: none; 
+  }
+  
+  .create-newuser-button {
+    margin-top: 20px;
+    background-color: #1B4B66;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 300px; 
+    border-radius: 8px; 
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .back-create-button {
+    margin-top: 20px;
+    background-color: #1B4B66;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 300px; 
+    border-radius: 8px; 
+    font-size: 20px;
+    font-weight: normal;
+  }
+}
