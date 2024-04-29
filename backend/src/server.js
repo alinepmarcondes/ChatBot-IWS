@@ -1,8 +1,9 @@
-// backend-project/src/index.js
+// backend/src/server.js
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const userRoutes = require('./routes/userRoutes');
+const chatRoutes = require('./routes/chatRoutes'); // Importe as rotas do chat
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -23,9 +24,8 @@ mongoose.connection.on('error', (err) => {
   console.error('MongoDB connection error:', err);
 });
 
-
 app.use('/users', userRoutes);
-
+app.use('/chats', chatRoutes); // Use as rotas do chat
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
