@@ -27,6 +27,7 @@ Instale as dependências
 
 ```bash
   npm install
+  npm install axios
 ```
 
 Inicie o servidor
