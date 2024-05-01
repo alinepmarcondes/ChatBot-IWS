@@ -10,37 +10,12 @@ function Create() {
 
   const handleCreate = async () => {
     try {
-      await axios.post('http://localhost:5000/Users', { login:login, password:password, type: 'user'});
-      console.log('Opção enviada para o servidor com sucesso!');
+      await axios.post('http://localhost:5000/users', { login: login, password: password, type: 'user' });
+      console.log('Usuário criado com sucesso!');
     } catch (error) {
-      console.error('Erro ao enviar a opção para o servidor:', error);
+      console.error('Erro ao criar usuário:', error);
     } 
   };
-
-/*   const handleCreate = async () => {
-    try {
-      console.log('Trying to create user...');
-
-      const newUser = { login, password };
-      console.log('New user data:', newUser);
-
-      // Enviar requisição para o backend
-      const response = await axios.post('http://localhost:5000/users', newUser);
-
-      console.log('Response from server:', response);
-
-      // Verifica o código de status da resposta
-      if (response.status === 201) {
-        console.log('User created successfully:', response.data);
-        // Redireciona ou executa outras ações necessárias após a criação do usuário
-        navigate('/newuser');
-      } else {
-        console.error('Failed to create user:', response.statusText);
-      }
-    } catch (error) {
-      console.error('Error creating user:', error);
-    }
-  }; */
 
   const handleBackNewUser = () => {
     navigate('/newuser');
