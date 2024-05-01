@@ -8,10 +8,11 @@
 
 .login-title {
   color: #1B4B66;
-  font-weight: bold;
-  font-size: 50px; 
-  text-align: left; 
-  width: 325px; 
+    font-weight: bold;
+    font-size: 45px; 
+    text-align: left;     
+    width: 325px; 
+    margin-bottom: 100px;
 }
 
 .login-input {
@@ -30,6 +31,7 @@
   width: 300px; 
   border-radius: 8px; 
   border: none;
+  margin-bottom: 330px;
 }
 
 .login-button {
@@ -41,8 +43,7 @@
   cursor: pointer;
   width: 325px; 
   border-radius: 8px; 
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 736px) {
@@ -56,18 +57,20 @@
   
   .login-title {
     color: #1B4B66;
-    font-weight: bold;
-    font-size: 50px; 
-    text-align: left; 
-    width: 325px; 
+      font-weight: bold;
+      font-size: 45px; 
+      text-align: left;     
+      width: 325px; 
+      margin-bottom: 100px;
   }
   
   .login-input {
     background-color: #F1F1F1;
     margin: 10px;
     padding: 10px;
-    width: 300px; 
-    border-radius: 8px; 
+    width: 300px;
+    border-radius: 8px;
+    border: none;
   }
   
   .password-input {
@@ -76,6 +79,8 @@
     padding: 10px;
     width: 300px; 
     border-radius: 8px; 
+    border: none;
+    margin-bottom: 330px;
   }
   
   .login-button {
@@ -87,7 +92,6 @@
     cursor: pointer;
     width: 325px; 
     border-radius: 8px; 
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 15px;
   }
 }
