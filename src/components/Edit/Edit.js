@@ -11,13 +11,12 @@ function Edit() {
 
   return (
     <div className="edit-page">
-      <h2 className="edit-title">Edit<br />a User</h2>
-      <input type="text" placeholder=" ID User " className="edit-id-user-input" />
-      <input type="text" placeholder=" Login " className="edit-login-input" />
-      <input type="password" placeholder=" Password " className="edit-password-input" />
+      <h2 className="edit-title">Edit<br />  </h2>
+      <input type="text" placeholder=" New Login " className="edit-login-input" />
+      <input type="password" placeholder=" New Password " className="edit-password-input" />
       <button className="edit-button" onClick={handleEdit}>Update</button>
-      <button className="back-edit-button" onClick={handleEdit}>Back</button>
       <button className="delete-button" onClick={handleEdit}>Delete</button>
+      <button className="back-edit-button" onClick={handleEdit}>Back</button>
     </div>
   );
 }

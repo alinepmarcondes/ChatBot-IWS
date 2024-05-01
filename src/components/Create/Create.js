@@ -23,7 +23,7 @@ function Create() {
 
   return (
     <div className="create-page">
-      <h2 className="create-title">Create<br />New User</h2>
+      <h2 className="create-title">Create<br />  </h2>
       <input type="text" placeholder=" Login " className="login-newuser-input" value={login} onChange={(e) => setLogin(e.target.value)} />
       <input type="password" placeholder=" Password " className="password-newuser-input" value={password} onChange={(e) => setPassword(e.target.value)}  />
       <button className="create-newuser-button" onClick={handleCreate}>Create</button>

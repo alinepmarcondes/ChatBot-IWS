@@ -2,104 +2,104 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     height: 100vh;
   }
   
   .create-title {
     color: #1B4B66;
-    font-weight: bold;
-    font-size: 30px; 
-    text-align: center;     
+    font-size: 45px; 
+    text-align: left;     
     width: 325px; 
+    margin-bottom: 250px;
   }
 
-  .id-user-input,
   .login-newuser-input,
   .password-newuser-input {
     background-color: #F1F1F1;
     margin: 10px;
-    padding: 10px 0; 
+    padding: 10px;
     width: 300px; 
     border-radius: 8px; 
-    border: none; 
+    border: none;
   }
   
   .create-newuser-button {
-    margin-top: 20px;
+    padding: 10px;
     background-color: #1B4B66;
     color: white;
     border: none;
     cursor: pointer;
-    width: 300px; 
+    width: 325px; 
     border-radius: 8px; 
-    font-size: 20px;
-    font-weight: normal;
+    font-size: 15px;
+    margin-top: 150px;
+    margin-bottom: 20px;
   }
 
   .back-create-button {
-    margin-top: 20px;
+    padding: 10px;
     background-color: #1B4B66;
     color: white;
     border: none;
     cursor: pointer;
-    width: 300px; 
+    width: 325px; 
     border-radius: 8px; 
-    font-size: 20px;
-    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 20px;
   }
 
 /*conversao de tamanho de tela*/
 
 @media screen and (max-width: 736px) {
   .create-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    height: 100vh;
-  }
-  
-  .create-title {
-    color: #1B4B66;
-    font-weight: bold;
-    font-size: 30px; 
-    text-align: center;     
-    width: 325px; 
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
-  .id-user-input,
-  .login-newuser-input,
-  .password-newuser-input {
-    background-color: #F1F1F1;
-    margin: 10px;
-    padding: 10px 0; 
-    width: 300px; 
-    border-radius: 8px; 
-    border: none; 
-  }
-  
-  .create-newuser-button {
-    margin-top: 20px;
-    background-color: #1B4B66;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 300px; 
-    border-radius: 8px; 
-    font-size: 20px;
-    font-weight: normal;
-  }
+.create-title {
+  color: #1B4B66;
+  font-size: 45px; 
+  text-align: left;     
+  width: 325px; 
+  margin-bottom: 250px;
+}
 
-  .back-create-button {
-    margin-top: 20px;
-    background-color: #1B4B66;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 300px; 
-    border-radius: 8px; 
-    font-size: 20px;
-    font-weight: normal;
-  }
+.login-newuser-input,
+.password-newuser-input {
+  background-color: #F1F1F1;
+  margin: 10px;
+  padding: 10px;
+  width: 300px; 
+  border-radius: 8px; 
+  border: none;
+}
+
+.create-newuser-button {
+  padding: 10px;
+  background-color: #1B4B66;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 325px; 
+  border-radius: 8px; 
+  font-size: 15px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.back-create-button {
+  padding: 10px;
+  background-color: #1B4B66;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 325px; 
+  border-radius: 8px; 
+  font-size: 15px;
+  margin-bottom: 20px;
+}
 }

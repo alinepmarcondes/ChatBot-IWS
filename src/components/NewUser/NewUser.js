@@ -68,11 +68,13 @@ const NewUser = () => {
           </div>
         </div>
         <div className="new-user-buttons">
+          <button className="new-user-next" onClick={handleNextButton}>
+            <i className="fas fa-arrow-left"></i> Next
+          </button>
+        </div>
+        <div className="new-user-buttons">
           <button className="new-user-back" onClick={handleBackButton}>
             <i className="fas fa-arrow-left"></i> Back
-          </button>
-          <button className="new-user-next" onClick={handleNextButton}>
-            <i className="fas fa-arrow-right"></i> Next
           </button>
         </div>
       </div>

@@ -2,128 +2,128 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     height: 100vh;
   }
   
   .edit-title {
     color: #1B4B66;
-    font-weight: bold;
-    font-size: 30px; 
-    text-align: center;      
+    font-size: 45px; 
+    text-align: left;      
     width: 325px; 
+    margin-bottom: 140px;
   }
   
-  .edit-id-user-input,
   .edit-login-input,
   .edit-password-input {
     background-color: #F1F1F1;
     margin: 10px;
-    padding: 10px 0; 
+    padding: 10px;
     width: 300px; 
     border-radius: 8px; 
     border: none; 
   }
   
   .edit-button {
-    margin-top: 20px; 
+    padding: 10px;
     background-color: #1B4B66;
     color: white;
     border: none;
     cursor: pointer;
-    width: 300px; 
+    width: 325px; 
     border-radius: 8px; 
-    font-size: 20px;
-    font-weight: normal;
-  }
-
-  .back-edit-button {
-    margin-top: 20px;
-    background-color: #1B4B66;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 300px; 
-    border-radius: 8px; 
-    font-size: 20px;
-    font-weight: normal;
+    font-size: 15px;
+    margin-top: 150px;
+    margin-bottom: 20px;
   }
 
   .delete-button {
-    margin-top: 20px;
+    padding: 10px;
     background-color: #B00020;
     color: white;
     border: none;
     cursor: pointer;
-    width: 300px; 
+    width: 325px; 
     border-radius: 8px; 
-    font-size: 20px;
-    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .back-edit-button {
+    padding: 10px;
+    background-color: #1B4B66;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 325px; 
+    border-radius: 8px; 
+    font-size: 15px;
+    margin-bottom: 20px;
   }
 
 /*conversao de tamanho de tela*/
 
 @media screen and (max-width: 736px) {
   .edit-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    height: 100vh;
-  }
-  
-  .edit-title {
-    color: #1B4B66;
-    font-weight: bold;
-    font-size: 30px; 
-    text-align: center;      
-    width: 325px; 
-  }
-  
-  .edit-id-user-input,
-  .edit-login-input,
-  .edit-password-input {
-    background-color: #F1F1F1;
-    margin: 10px;
-    padding: 10px 0; 
-    width: 300px; 
-    border-radius: 8px; 
-    border: none; 
-  }
-  
-  .edit-button {
-    margin-top: 20px; 
-    background-color: #1B4B66;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 300px; 
-    border-radius: 8px; 
-    font-size: 20px;
-    font-weight: normal;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
-  .back-edit-button {
-    margin-top: 20px;
-    background-color: #1B4B66;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 300px; 
-    border-radius: 8px; 
-    font-size: 20px;
-    font-weight: normal;
-  }
+.edit-title {
+  color: #1B4B66;
+  font-size: 45px; 
+  text-align: left;      
+  width: 325px; 
+  margin-bottom: 140px;
+}
 
-  .delete-button {
-    margin-top: 20px;
-    background-color: #B00020;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 300px; 
-    border-radius: 8px; 
-    font-size: 20px;
-    font-weight: normal;
-  }
+.edit-login-input,
+.edit-password-input {
+  background-color: #F1F1F1;
+  margin: 10px;
+  padding: 10px;
+  width: 300px; 
+  border-radius: 8px; 
+  border: none; 
+}
+
+.edit-button {
+  padding: 10px;
+  background-color: #1B4B66;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 325px; 
+  border-radius: 8px; 
+  font-size: 15px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.delete-button {
+  padding: 10px;
+  background-color: #B00020;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 325px; 
+  border-radius: 8px; 
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.back-edit-button {
+  padding: 10px;
+  background-color: #1B4B66;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 325px; 
+  border-radius: 8px; 
+  font-size: 15px;
+  margin-bottom: 20px;
+}
 }

@@ -29,12 +29,14 @@ function Manual({ onClose }) {
         <div className="manual-topics">
           <h2>Manual topics</h2>
           <ul>
-            <li><a href="#">Cotação Online</a></li>
+            <li><a href="#">Cotação Online Mobile</a></li>
+            <li><a href="#">Cotação Online Web</a></li>
             <li><a href="#">EasyCash</a></li>
             <li><a href="#">EasyCheckOut</a></li>
             <li><a href="#">Instalação Web Service</a></li>
             <li><a href="#">IntelliCash</a></li>
-            <li><a href="#">Intelligroup</a></li>
+            <li><a href="#">Intelligroup Mobile</a></li>
+            <li><a href="#">Intelligroup Web</a></li>
             <li><a href="#">IntelliStock</a></li>
             <li><a href="#">Intelliweb</a></li>
             <li><a href="#">Venda assistida</a></li>
