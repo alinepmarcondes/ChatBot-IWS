@@ -33,8 +33,7 @@ const userSchema = new mongoose.Schema({
 
 const messageContentSchema = new mongoose.Schema({
   timestamp: {
-    type: Date,
-    default: Date.now
+    type: String,
   },
   sender: {
     type: String,
@@ -42,25 +41,18 @@ const messageContentSchema = new mongoose.Schema({
   },
   message: {
     type: String,
-    required: true
   }
 });
 
 const chatSchema = new mongoose.Schema({
   title: {
-    type: String,
-    required: true
+    type: String
   },
-  content: [{
-    title: {
-      type: String
-    },
-    messages: [messageContentSchema] // Array de mensagens
-  }]
-});
+  content: [messageContentSchema]
+}); 
+
 
 const Chat = mongoose.model('Chat', chatSchema);
-
 const User = mongoose.model('User', userSchema);
 
 mongoose.connection.on('connected', () => {
@@ -71,7 +63,8 @@ mongoose.connection.on('error', (err) => {
   console.error('MongoDB connection error:', err);
 });
 
-app.post('/Users', async (req, res) => {
+// users -------------------------------------------
+app.post('/users', async (req, res) => {
   try {
     const { login, password, type } = req.body;
     let usuario;
@@ -89,6 +82,47 @@ app.post('/Users', async (req, res) => {
     res.status(500).json({ error: 'Erro ao salvar o usuário.' });
   }
 });
+
+// chat ------------------------------
+
+
+// Rota para criar um novo chat
+app.post('/chats', async (req, res) => {
+  try {
+    const { title, content } = req.body;
+    const chat = new Chat({ title, content });
+    await chat.save();
+    res.status(201).json({ message: 'Chat criado com sucesso!', chat });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao criar o chat.' });
+  }
+});
+
+app.post('/chats/:chatId/content', async (req, res) => {
+  try {
+    const { chatId } = req.params;
+    const { message } = req.body;
+    const chat = await Chat.findById(chatId);
+    if (!chat) {
+      return res.status(404).json({ error: 'Chat não encontrado.' });
+    }
+    const newMessage = {
+      _id: new mongoose.Types.ObjectId(),
+      timestamp: String(new Date()),
+      sender: 'user',
+      message: message
+    };
+    chat.content.push(newMessage);
+    await chat.save();
+    res.status(201).json({ message: 'Mensagem adicionada com sucesso!', chat });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao adicionar mensagem ao chat.' });
+  }
+});
+
+// ----------------------------------------------------
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
