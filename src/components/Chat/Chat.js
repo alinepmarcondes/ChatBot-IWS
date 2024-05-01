@@ -1,9 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
+import mongoose from "mongoose";
 import axios from "axios";
 import "./Chat.css";
 import Manual from "../Manual/Manual";
 import manualButtonIcon from "../../images/manual-button-icon.png";
 import newChatButtonIcon from "../../images/new-chat-button-icon.png";
+const ObjectId = mongoose.Types.ObjectId;
 
 function Chat() {
   const [showManual, setShowManual] = useState(false);
@@ -30,55 +32,59 @@ function Chat() {
     setShowManual(false);
   };
 
-  const addNewChat = () => {
-    const newChat = {
-      _id: Math.random().toString(36).substr(2, 9), // Gerando um ID único
-      title: "",
-      content: []
-    };
-    setCurrentChat(newChat); // Definindo novo chat como chat atual
-    setChats([...chats, newChat]); // Adicionando novo chat ao array de chats
+  const addNewChat = async () => {
+    try {
+      const content = inputValue !== "" ? [{timestamp: String(new Date()), sender: 'user',  message: inputValue}] : [];
+      
+      const newChat = {
+        title: "title",
+        content: content
+      };
+  
+      const response = await axios.post('http://localhost:5000/chats', newChat);
+      const createdChat = response.data.chat;
+  
+      setCurrentChat(createdChat);
+      setChats([...chats, createdChat]);
+      
+      console.log('Chat criado com sucesso!');
+    } catch (error) {
+      console.error('Erro ao criar chat:', error);
+    }
   };
-
- const sendMessage = async () => {
+  
+  const sendMessage = async () => {
     if (inputValue.trim() !== "") {
       const newMessage = {
-        timestamp: new Date().toISOString(),
+        timestamp: String(new Date()),
         sender: 'user',
         message: inputValue
       };
 
-      if (!currentChat) {
-        // Se não houver um chat atual, crie um novo chat com o título e adicione a mensagem ao conteúdo
-        const newChat = {
-          _id: Math.random().toString(36).substr(2, 9),
-          title: inputValue.split('.')[0], // Título é a primeira frase da mensagem
-          content: [newMessage]
-        };
-        setCurrentChat(newChat); // Definindo novo chat como chat atual
-        setChats([...chats, newChat]); // Adicionando novo chat ao array de chats
-      } else {
-        // Se houver um chat atual, adicione a mensagem ao seu conteúdo
-        const updatedChats = [...chats];
-        const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
-        if (updatedChatIndex !== -1) {
-          updatedChats[updatedChatIndex].content.push(newMessage);
-          setChats(updatedChats);
-        }
-      }
-
       try {
-        // Salve a nova mensagem no backend
-        const response = await axios.post('http://localhost:5000/chats', newMessage);
-        console.log(response.data);
-      } catch (error) {
-        console.error('Error sending message:', error);
-      }
+        if (!currentChat) {
+          await addNewChat();
+        } else {
+          const updatedChats = [...chats];
+          const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
+          if (updatedChatIndex !== -1) {
+            updatedChats[updatedChatIndex].content.push(newMessage);
+            setChats(updatedChats);
+          }
+        } 
 
+        if (currentChat) {
+          await axios.post(`http://localhost:5000/chats/${currentChat._id}/content`, newMessage);
+          console.log('Mensagem enviada com sucesso!');
+        }
+      } catch (error) {
+        console.error('Erro ao enviar mensagem:', error);
+      }
+  
       setInputValue("");
     }
   };
-
+  
   return (
     <div className="chat-container">
       {showManual && <Manual onClose={closeManual} />}
