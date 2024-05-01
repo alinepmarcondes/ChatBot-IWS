@@ -1,9 +1,23 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useState, useEffect } from "react";
 import './Historic.css';
 import closeButtonIcon from "../../images/close-button-icon.png";
+import axios from 'axios';
 
 function Historic({ onClose }) {
+  const [chats, setChats] = useState([]);
+
+  useEffect(() => {
+    async function fetchChats() {
+      try {
+        const response = await axios.get('http://localhost:5000/chats');
+        setChats(response.data);
+      } catch (error) {
+        console.error('Erro ao buscar chats:', error);
+      }
+    }
+    fetchChats();
+  }, []);
+
   return (
     <div className="historic-page">
       <div className="historic-header">
@@ -12,9 +26,13 @@ function Historic({ onClose }) {
       <div className="historic-content">
         <h2>Historic</h2>
         <ul>
-          <li><a href="#">Topic 1</a></li>
-          <li><a href="#">Topic 2</a></li>
-          <li><a href="#">Topic 3</a></li>
+          {chats.map(chat => (
+            <li key={chat._id}>
+              <a href="#" onClick={() => console.log(chat)}>
+                {chat.title} {/* Supondo que o título do chat seja armazenado em uma propriedade chamada 'title' */}
+              </a>
+            </li>
+          ))}
         </ul>
       </div>
     </div>

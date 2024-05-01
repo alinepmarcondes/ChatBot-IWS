@@ -85,6 +85,17 @@ app.post('/users', async (req, res) => {
 
 // chat ------------------------------
 
+app.get('/chats', async (req, res) => {
+  try {
+    const chats = await Chat.find();
+    res.status(200).json(chats);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao buscar chats.' });
+  }
+});
+
+
 
 // Rota para criar um novo chat
 app.post('/chats', async (req, res) => {
