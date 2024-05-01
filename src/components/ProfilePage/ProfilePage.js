@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './ProfilePage.css';
 import closeButtonIcon from "../../images/close-button-icon.png";
 import profileIcon from "../../images/profile-icon.png";
-import goTo from "../../images/go-to-icon.png";
+import goTo from "../../images/go-to-icon-2.png";
 import Historic from "../Historic/Historic";
 import { useNavigate } from "react-router-dom";
 
