@@ -57,7 +57,7 @@ function ProfilePage({ onClose }) {
       </div>
 
       <div className="profile-footer">
-        <button className="exit-button" onClick={handleExit}>Sair</button>
+        <button className="exit-button" onClick={handleExit}>Exit</button>
       </div>
 
       {showHistoric && <Historic onClose={handleHistoricToggle} />}
