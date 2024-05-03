@@ -10,12 +10,14 @@ function Login() {
   };
 
   return (
-    <div className="login-page">
-      <h2 className="login-title">Enter your<br />account</h2>
-      <input type="text" placeholder="Login" className="login-input" />
-      <input type="password" placeholder="Password" className="password-input" />
-      <button className="login-button" onClick={handleLogin}>Next</button>
+  <div class="login-page">
+    <div class="login-container">
+      <h2 class="login-title">Enter your<br />account</h2>
+      <input type="text" placeholder="Login" class="login-input" />
+      <input type="password" placeholder="Password" class="password-input" />
+      <button class="login-button" onClick={handleLogin}>Next</button>
     </div>
+  </div>
   );
 }
 
