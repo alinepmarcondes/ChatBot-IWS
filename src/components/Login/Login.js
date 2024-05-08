@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Login.css';
 import { useNavigate } from "react-router-dom";
+import { validateInputs } from './utils/validation';
 
 function Login() {
   const navigate = useNavigate();
@@ -8,16 +9,8 @@ function Login() {
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
-  const validateInputs = () => {
-    if (!login.trim() || !password.trim()) {
-      setErrorMessage('Please fill in all fields');
-      return false;
-    }
-    return true;
-  };
-
   const handleLogin = () => {
-    if (validateInputs()) {
+    if (validateInputs(login, password, setErrorMessage)) {
       navigate('/chat');
     }
   };
