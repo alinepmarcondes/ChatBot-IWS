@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Login.css';
 import { useNavigate } from "react-router-dom";
-import { validateInputs } from './utils/validation';
+import { validateInputs } from '../utils/validation';
 
 function Login() {
   const navigate = useNavigate();
