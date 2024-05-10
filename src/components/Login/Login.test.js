@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, fireEvent, getByText, getByPlaceholderText } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'; // Import this to extend jest expect functionalities
+import '@testing-library/jest-dom/extend-expect'; 
 import Login from './Login';
-import { validateInputs } from './utils/validation';
+import { validateInputs } from '../utils/validation';
 
 jest.mock('react-router-dom', () => ({
   ...jest.requireActual('react-router-dom'),
@@ -10,7 +10,7 @@ jest.mock('react-router-dom', () => ({
 }));
 
 describe('validateInputs', () => {
-  it('returns false and sets error message if login and password are empty', () => {
+  it('Loging in without filling the fields', () => {
     // Arrange
     const login = '';
     const password = '';
@@ -24,7 +24,7 @@ describe('validateInputs', () => {
     expect(setErrorMessage).toHaveBeenCalledWith('Please fill in all fields');
   });
 
-  it('returns false and sets error message if login is empty', () => {
+  it('loging in without filling the login field', () => {
     // Arrange
     const login = '';
     const password = 'password';
@@ -38,7 +38,7 @@ describe('validateInputs', () => {
     expect(setErrorMessage).toHaveBeenCalledWith('Please fill in all fields');
   });
 
-  it('returns false and sets error message if password is empty', () => {
+  it('loging in without filling the password field', () => {
     // Arrange
     const login = 'username';
     const password = '';
@@ -52,7 +52,7 @@ describe('validateInputs', () => {
     expect(setErrorMessage).toHaveBeenCalledWith('Please fill in all fields');
   });
 
-  it('returns true if login and password are not empty', () => {
+  it('Successfully loging in', () => {
     // Arrange
     const login = 'username';
     const password = 'password';
