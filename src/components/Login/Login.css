@@ -48,6 +48,11 @@
   margin-top: 50px;
 }
 
+.error-message {
+  font-size: 14px; 
+  color: #B00020; 
+}
+
 @media screen and (max-width: 736px) {
   .login-page {
     background-color: #F4F4F4;
@@ -96,5 +101,10 @@
     width: 325px; 
     border-radius: 8px; 
     font-size: 15px;
+  }
+
+  .error-message {
+    font-size: 14px; 
+    color: #B00020; 
   }
 }

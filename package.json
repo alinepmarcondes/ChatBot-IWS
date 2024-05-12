@@ -24,7 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest --silent",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -46,6 +46,19 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "@babel/preset-react": "^7.24.1",
+    "concurrently": "^8.2.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "transformIgnorePatterns": [
+      "/node_modules/",
+      "\\.css$"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
   }
 }
