@@ -1,11 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
-import mongoose from "mongoose";
 import axios from "axios";
 import "./Chat.css";
 import Manual from "../Manual/Manual";
 import manualButtonIcon from "../../images/manual-button-icon.png";
 import newChatButtonIcon from "../../images/new-chat-button-icon.png";
-const ObjectId = mongoose.Types.ObjectId;
+
 
 function Chat() {
   const [showManual, setShowManual] = useState(false);
@@ -43,6 +42,8 @@ function Chat() {
   
       const response = await axios.post('http://localhost:5000/chats', newChat);
       const createdChat = response.data.chat;
+
+      await updateChatTitle(createdChat._id, inputValue);
   
       setCurrentChat(createdChat);
       setChats([...chats, createdChat]);
@@ -50,6 +51,19 @@ function Chat() {
       console.log('Chat criado com sucesso!');
     } catch (error) {
       console.error('Erro ao criar chat:', error);
+    }
+  };
+
+  const updateChatTitle = async (chatId, firstMessage) => {
+    try {
+      // Extrair as primeiras 5 palavras da primeira mensagem
+      const title = firstMessage.split(' ').slice(0, 5).join(' ');
+  
+      // Fazer uma chamada PUT para atualizar o título do chat
+      await axios.put(`http://localhost:5000/chats/${chatId}/title`, { newTitle: title });
+      console.log('Título do chat atualizado com sucesso!');
+    } catch (error) {
+      console.error('Erro ao atualizar título do chat:', error);
     }
   };
   

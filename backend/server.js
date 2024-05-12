@@ -64,6 +64,8 @@ mongoose.connection.on('error', (err) => {
 });
 
 // users -------------------------------------------
+
+// Rota para criar um novo usuário
 app.post('/users', async (req, res) => {
   try {
     const { login, password, type } = req.body;
@@ -85,6 +87,7 @@ app.post('/users', async (req, res) => {
 
 // chat ------------------------------
 
+// Rota para obter chats
 app.get('/chats', async (req, res) => {
   try {
     const chats = await Chat.find();
@@ -94,8 +97,6 @@ app.get('/chats', async (req, res) => {
     res.status(500).json({ error: 'Erro ao buscar chats.' });
   }
 });
-
-
 
 // Rota para criar um novo chat
 app.post('/chats', async (req, res) => {
@@ -110,6 +111,7 @@ app.post('/chats', async (req, res) => {
   }
 });
 
+// Rota para inserir mensagem em um chat
 app.post('/chats/:chatId/content', async (req, res) => {
   try {
     const { chatId } = req.params;
@@ -130,6 +132,24 @@ app.post('/chats/:chatId/content', async (req, res) => {
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Erro ao adicionar mensagem ao chat.' });
+  }
+});
+
+// Rota para atualizar o título de um chat
+app.put('/chats/:chatId/title', async (req, res) => {
+  try {
+    const { chatId } = req.params;
+    const { newTitle } = req.body; // Supondo que você envie o novo título no corpo da requisição
+    const chat = await Chat.findById(chatId);
+    if (!chat) {
+      return res.status(404).json({ error: 'Chat não encontrado.' });
+    }
+    chat.title = newTitle;
+    await chat.save();
+    res.status(200).json({ message: 'Título do chat atualizado com sucesso!', chat });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao atualizar o título do chat.' });
   }
 });
 
