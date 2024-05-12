@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 let isAdmin = true;
 
 function ProfilePage({ onClose }) {
-  const [showManage, setShowManage] = useState(isAdmin); //alteração lucas
+  const [showManage] = useState(isAdmin); //alteração lucas
   const [showHistoric, setShowHistoric] = useState(false);
   const navigate = useNavigate();
 
