@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import './Historic.css';
 import closeButtonIcon from "../../images/close-button-icon.png";
 import axios from 'axios';
+import { useNavigate } from "react-router-dom"; // Importe useNavigate
 
 function Historic({ onClose }) {
   const [chats, setChats] = useState([]);
+  const navigate = useNavigate(); // Use o hook useNavigate
 
   useEffect(() => {
     async function fetchChats() {
@@ -18,6 +20,10 @@ function Historic({ onClose }) {
     fetchChats();
   }, []);
 
+  const handleChatClick = (chat) => {
+    navigate('/chat', { state: { chat } }); // Navegue para a tela de chat e passe o chat clicado como estado
+  };
+
   return (
     <div className="historic-page">
       <div className="historic-header">
@@ -28,8 +34,8 @@ function Historic({ onClose }) {
         <ul>
           {chats.map(chat => (
             <li key={chat._id}>
-              <a href="#" onClick={() => console.log(chat)}>
-                {chat.title} {/* Supondo que o título do chat seja armazenado em uma propriedade chamada 'title' */}
+              <a href="#" onClick={() => handleChatClick(chat)}> {/* Chame a função handleChatClick ao clicar */}
+                {chat.title}
               </a>
             </li>
           ))}
