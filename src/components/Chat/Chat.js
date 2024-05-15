@@ -1,5 +1,3 @@
-// Chat.js
-
 import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import "./Chat.css";
@@ -31,24 +29,29 @@ function Chat() {
 
   const addNewChat = async () => {
     try {
-      const content = inputValue !== "" ? [{timestamp: String(new Date()), sender: 'user',  message: inputValue}] : [];
-      
-      const newChat = {
-        title: "New Chat", // Defina o título como 'New Chat'
-        content: content
-      };
+      if (inputValue.trim() !== "") {
+        const content = [{ timestamp: String(new Date()), sender: 'user', message: inputValue }];
   
-      const response = await axios.post('http://localhost:5000/chats', newChat);
-      const createdChat = response.data.chat;
-
-      setCurrentChat(createdChat);
-      setChats([...chats, createdChat]);
-      
-      console.log('Chat criado com sucesso!');
+        const newChat = {
+          title: inputValue.split(' ').slice(0, 5).join(' '),
+          content: content
+        };
+  
+        const response = await axios.post('http://localhost:5000/chats', newChat);
+        const createdChat = response.data.chat;
+  
+        setCurrentChat(createdChat);
+        setChats([...chats, createdChat]);
+  
+        console.log('Chat criado com sucesso!');
+      } else {
+        setCurrentChat(null); 
+      }
     } catch (error) {
       console.error('Erro ao criar chat:', error);
     }
   };
+  
 
   const sendMessage = async () => {
     if (inputValue.trim() !== "") {
@@ -66,10 +69,10 @@ function Chat() {
           const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
           if (updatedChatIndex !== -1) {
             updatedChats[updatedChatIndex].content.push(newMessage);
-            if (updatedChats[updatedChatIndex].title === "New Chat") { // Atualize o título apenas se ainda for 'New Chat'
-              const title = inputValue.split(' ').slice(0, 5).join(' '); // Extrair as primeiras 5 palavras da mensagem
-              await axios.put(`http://localhost:5000/chats/${currentChat._id}/title`, { newTitle: title }); // Atualizar o título do chat
-              updatedChats[updatedChatIndex].title = title; // Atualizar o título localmente
+            if (updatedChats[updatedChatIndex].title === "New Chat") { 
+              const title = inputValue.split(' ').slice(0, 5).join(' '); 
+              await axios.put(`http://localhost:5000/chats/${currentChat._id}/title`, { newTitle: title }); 
+              updatedChats[updatedChatIndex].title = title; 
             }
             setChats(updatedChats);
           }
