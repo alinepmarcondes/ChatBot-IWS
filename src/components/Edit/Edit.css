@@ -4,27 +4,40 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #1B4B66;
   }
   
+  .edit-container {
+    background-color: #F4F4F4;
+    padding: 250px 350px;
+    border-radius: 8px; 
+    text-align: center;
+  }
+
   .edit-title {
     color: #1B4B66;
     font-size: 45px; 
-    text-align: left;      
+    text-align: left;  
+    font-weight: bold;    
     width: 325px; 
-    margin-bottom: 140px;
+    margin-bottom: 50px;
+    margin-left: 5px;
   }
   
   .edit-login-input,
   .edit-password-input {
-    background-color: #F1F1F1;
+    background-color: #F4F4F4;
     margin: 10px;
     padding: 10px;
     width: 300px; 
     border-radius: 8px; 
     border: none; 
+    display: block;
+    border: 2px solid #1B4B66; /* Largura, estilo e cor da borda */
   }
   
   .edit-button {
+    margin: 10px;
     padding: 10px;
     background-color: #1B4B66;
     color: white;
@@ -33,8 +46,9 @@
     width: 325px; 
     border-radius: 8px; 
     font-size: 15px;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 20px;
+    display: block;
   }
 
   .delete-button {
@@ -47,6 +61,8 @@
     border-radius: 8px; 
     font-size: 15px;
     margin-bottom: 20px;
+    display: block;
+    margin-left: 10px;
   }
 
   .back-edit-button {
@@ -58,7 +74,9 @@
     width: 325px; 
     border-radius: 8px; 
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: 10px;
   }
 
 /*conversao de tamanho de tela*/
@@ -77,7 +95,7 @@
   font-size: 45px; 
   text-align: left;      
   width: 325px; 
-  margin-bottom: 140px;
+  margin-bottom: 200px;
 }
 
 .edit-login-input,
@@ -88,6 +106,7 @@
   width: 300px; 
   border-radius: 8px; 
   border: none; 
+  border: 2px solid #1B4B66; /* Largura, estilo e cor da borda */
 }
 
 .edit-button {
