@@ -31,51 +31,53 @@ const NewUser = () => {
   };
 
   return (
-    <div className="new-user-container">
-      <div className="new-user-form">
-        <button className="new-user-new" onClick={handleCreateNewUserButton}>New user</button> {/* Botão "New user" */}  
-        <div className="new-user-input">
-          <button
-            className={`user-button ${selectedUser === 'User 1' ? 'selected' : ''}`}
-            onClick={() => handleUserClick('User 1')}
-          >
-            User 1
-          </button>
-          <div className="new-user-icon">
-            <i className="fas fa-times"></i>
+    <div className="new-user-page">
+      <div className="sub-container">
+        <div className="new-user-form">
+          <button className="new-user-new" onClick={handleCreateNewUserButton}>New user</button> {/* Botão "New user" */}  
+          <div className="new-user-input">
+            <button
+              className={`user-button ${selectedUser === 'User 1' ? 'selected' : ''}`}
+              onClick={() => handleUserClick('User 1')}
+            >
+              User 1
+            </button>
+            <div className="new-user-icon">
+              <i className="fas fa-times"></i>
+            </div>
           </div>
-        </div>
-        <div className="new-user-input">
-          <button
-            className={`user-button ${selectedUser === 'User 2' ? 'selected' : ''}`}
-            onClick={() => handleUserClick('User 2')}
-          >
-            User 2
-          </button>
-          <div className="new-user-icon">
-            <i className="fas fa-times"></i>
+          <div className="new-user-input">
+            <button
+              className={`user-button ${selectedUser === 'User 2' ? 'selected' : ''}`}
+              onClick={() => handleUserClick('User 2')}
+            >
+              User 2
+            </button>
+            <div className="new-user-icon">
+              <i className="fas fa-times"></i>
+            </div>
           </div>
-        </div>
-        <div className="new-user-input">
-          <button
-            className={`user-button ${selectedUser === 'User 3' ? 'selected' : ''}`}
-            onClick={() => handleUserClick('User 3')}
-          >
-            User 3
-          </button>
-          <div className="new-user-icon">
-            <i className="fas fa-times"></i>
+          <div className="new-user-input">
+            <button
+              className={`user-button ${selectedUser === 'User 3' ? 'selected' : ''}`}
+              onClick={() => handleUserClick('User 3')}
+            >
+              User 3
+            </button>
+            <div className="new-user-icon">
+              <i className="fas fa-times"></i>
+            </div>
           </div>
-        </div>
-        <div className="new-user-buttons">
-          <button className="new-user-next" onClick={handleNextButton}>
-            <i className="fas fa-arrow-left"></i> Next
-          </button>
-        </div>
-        <div className="new-user-buttons">
-          <button className="new-user-back" onClick={handleBackButton}>
-            <i className="fas fa-arrow-left"></i> Back
-          </button>
+          <div className="new-user-buttons">
+            <button className="new-user-next" onClick={handleNextButton}>
+              <i className="fas fa-arrow-left"></i> Next
+            </button>
+          </div>
+          <div className="new-user-buttons">
+            <button className="new-user-back" onClick={handleBackButton}>
+              <i className="fas fa-arrow-left"></i> Back
+            </button>
+          </div>
         </div>
       </div>
     </div>
