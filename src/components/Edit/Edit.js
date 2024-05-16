@@ -31,23 +31,25 @@ function Edit() {
 
   return (
     <div className="edit-page">
-      <h2 className="edit-title">Edit<br />  </h2>
-      <input 
-        type="text" 
-        placeholder=" New Login " 
-        className="edit-login-input" 
-        onChange={handleNewLoginChange}
-      />
-      <input 
-        type="password" 
-        placeholder=" New Password " 
-        className="edit-password-input" 
-        onChange={handleNewPasswordChange}
-      />
-      {errorMessage && <p className="error-message">{errorMessage}</p>}
-      <button className="edit-button" onClick={handleEdit}>Update</button>
-      <button className="delete-button" onClick={handleEdit}>Delete</button>
-      <button className="back-edit-button" onClick={handleBack}>Back</button>
+      <div className="create-container">
+        <h2 className="edit-title">Edit<br />  </h2>
+        <input 
+         type="text" 
+          placeholder=" New Login " 
+          className="edit-login-input" 
+          onChange={handleNewLoginChange}
+        />
+        <input 
+          type="password" 
+          placeholder=" New Password " 
+          className="edit-password-input" 
+          onChange={handleNewPasswordChange}
+        />
+        {errorMessage && <p className="error-message">{errorMessage}</p>}
+        <button className="edit-button" onClick={handleEdit}>Update</button>
+        <button className="delete-button" onClick={handleEdit}>Delete</button>
+        <button className="back-edit-button" onClick={handleBack}>Back</button>
+      </div>
     </div>
   );
 }
