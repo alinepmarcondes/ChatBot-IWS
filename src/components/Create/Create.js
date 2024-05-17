@@ -37,30 +37,32 @@ function Create() {
 
   return (
     <div className="create-page">
-      <h2 className="create-title">Create<br />  </h2>
-      <input 
-        type="text" 
-        placeholder=" Login " 
-        className="login-newuser-input" 
-        value={login} 
-        onChange={(e) => {
-          setLogin(e.target.value);
-          handleLoginChange(e); 
-        }} 
+      <div className="create-container">
+        <h2 className="create-title">Create<br />  </h2>
+        <input 
+          type="text" 
+          placeholder=" Login " 
+          className="login-newuser-input" 
+          value={login} 
+          onChange={(e) => {
+            setLogin(e.target.value);
+            handleLoginChange(e); 
+          }} 
+          />
+        <input 
+          type="password" 
+          placeholder=" Password " 
+          className="password-newuser-input" 
+          value={password} 
+          onChange={(e) => {
+            setPassword(e.target.value);
+            handlePasswordChange(e);
+          }}  
         />
-      <input 
-        type="password" 
-        placeholder=" Password " 
-        className="password-newuser-input" 
-        value={password} 
-        onChange={(e) => {
-          setPassword(e.target.value);
-          handlePasswordChange(e);
-        }}  
-      />
-      {errorMessage && <p className="error-message">{errorMessage}</p>}
-      <button className="create-newuser-button" onClick={handleCreate}>Create</button>
-      <button className="back-create-button" onClick={handleBackNewUser}>Back</button>
+        {errorMessage && <p className="error-message">{errorMessage}</p>}
+        <button className="create-newuser-button" onClick={handleCreate}>Create</button>
+        <button className="back-create-button" onClick={handleBackNewUser}>Back</button>
+      </div>
     </div>
   );
 }
