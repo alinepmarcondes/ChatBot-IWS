@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/alinepmarcondes/chatbot-iws/.github/workflows/node.js.yml/badge.svg)](alinepmarcondes/chatbot-iws/.github/workflows/node.js.yml)
+
 # ChatBot-IWS
 
 O projeto em desenvolvimento é uma aplicação PWA de um chat bot projetado para fornecer atendimento eficiente e personalizado aos usuários.
