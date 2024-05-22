@@ -12,17 +12,17 @@ const NewUser = () => {
     const fetchUsers = async () => {
       try {
         const response = await axios.get('http://localhost:5000/users');
-        setUsers(response.data); 
+        setUsers(response.data);
       } catch (error) {
         console.error('Erro ao buscar usuários:', error);
       }
     };
 
-    fetchUsers(); 
-  }, []); 
+    fetchUsers();
+  }, []);
 
-  const handleUserClick = (user) => {
-    setSelectedUser(user === selectedUser ? null : user); 
+  const handleUserClick = (userId) => {
+    setSelectedUser(userId === selectedUser ? null : userId);
   };
 
   const handleBackButton = () => {
@@ -40,47 +40,27 @@ const NewUser = () => {
     } else {
       console.error('Please select a user.');
     }
-    navigate('/edit')
+    navigate('/edit');
   };
 
   return (
     <div className="new-user-page">
       <div className="sub-container">
         <div className="new-user-form">
-          <button className="new-user-new" onClick={handleCreateNewUserButton}>New user</button> {/* Botão "New user" */}  
-          <div className="new-user-input">
-            <button
-              className={`user-button ${selectedUser === 'User 1' ? 'selected' : ''}`}
-              onClick={() => handleUserClick('User 1')}
-            >
-              User 1
-            </button>
-            <div className="new-user-icon">
-              <i className="fas fa-times"></i>
+          <button className="new-user-new" onClick={handleCreateNewUserButton}>New user</button>
+          {users.map(user => (
+            <div key={user._id} className="new-user-input">
+              <button
+                className={`user-button ${selectedUser === user._id ? 'selected' : ''}`}
+                onClick={() => handleUserClick(user._id)}
+              >
+                {user.login}
+              </button>
+              <div className="new-user-icon">
+                <i className="fas fa-times"></i>
+              </div>
             </div>
-          </div>
-          <div className="new-user-input">
-            <button
-              className={`user-button ${selectedUser === 'User 2' ? 'selected' : ''}`}
-              onClick={() => handleUserClick('User 2')}
-            >
-              User 2
-            </button>
-            <div className="new-user-icon">
-              <i className="fas fa-times"></i>
-            </div>
-          </div>
-          <div className="new-user-input">
-            <button
-              className={`user-button ${selectedUser === 'User 3' ? 'selected' : ''}`}
-              onClick={() => handleUserClick('User 3')}
-            >
-              User 3
-            </button>
-            <div className="new-user-icon">
-              <i className="fas fa-times"></i>
-            </div>
-          </div>
+          ))}
           <div className="new-user-buttons">
             <button className="new-user-next" onClick={handleNextButton}>
               <i className="fas fa-arrow-left"></i> Next
