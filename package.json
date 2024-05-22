@@ -50,6 +50,7 @@
     "concurrently": "^8.2.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
+    "jest-html-reporters": "^3.1.7",
     "jest-junit": "^16.0.0"
   },
   "jest": {
@@ -66,10 +67,14 @@
     },
     "reporters": [
       "default",
-      ["jest-junit", {
-        "outputDirectory": "./test-reports",
-        "outputName": "junit.xml"
-      }]
+      [
+        "./node_modules/jest-html-reporters",
+        {
+          "publicPath": "./html-report",
+          "filename": "report.html",
+          "expand": true
+        }
+      ]
     ]
-  }
+  }  
 }
