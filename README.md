@@ -1,4 +1,4 @@
-[![Node.js CI](https://github.com/alinepmarcondes/chatbot-iws/.github/workflows/node.js.yml/badge.svg)](alinepmarcondes/chatbot-iws/.github/workflows/node.js.yml)
+(https://github.com/alinepmarcondes/chatbot-iws/.github/workflows/node.js.yml/badge.svg)](alinepmarcondes/chatbot-iws/.github/workflows/node.js.yml)
 
 # ChatBot-IWS
 
