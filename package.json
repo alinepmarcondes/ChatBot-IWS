@@ -59,6 +59,9 @@
     ],
     "moduleNameMapper": {
       "\\.(css|less)$": "identity-obj-proxy"
+    },
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
     }
   }
 }
