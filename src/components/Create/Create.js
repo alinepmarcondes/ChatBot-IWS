@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Create.css';
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
-import { validateInputs } from '../utils/validation';
+import { validateInputs, validateInputsType } from '../utils/validation';
 
 function Create() {
   const navigate = useNavigate();
@@ -11,7 +11,7 @@ function Create() {
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleCreate = async () => {
-    if (validateInputs(login, password, setErrorMessage)) {
+    if (validateInputs(login, password, setErrorMessage) && validateInputsType( password, setErrorMessage)) {
       try {
         await axios.post('http://localhost:5000/users', { login: login, password: password, type: 'user' });
         console.log('Usuário criado com sucesso!');
@@ -59,6 +59,7 @@ function Create() {
             handlePasswordChange(e);
           }}  
         />
+        
         {errorMessage && <p className="error-message">{errorMessage}</p>}
         <button className="create-newuser-button" onClick={handleCreate}>Create</button>
         <button className="back-create-button" onClick={handleBackNewUser}>Back</button>
