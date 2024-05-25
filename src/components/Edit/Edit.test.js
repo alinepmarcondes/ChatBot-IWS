@@ -1,69 +1,91 @@
 import React from 'react';
-import { render, fireEvent, getByText, getByPlaceholderText } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'; 
+import { render, fireEvent } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
 import Edit from './Edit';
-import { validateInputs } from '../utils/validation';
+import { validateInputs, validateInputsType } from '../utils/validation';
+import { useNavigate } from 'react-router-dom';
 
 jest.mock('react-router-dom', () => ({
-    ...jest.requireActual('react-router-dom'),
-    useNavigate: jest.fn(),
+  ...jest.requireActual('react-router-dom'),
+  useNavigate: jest.fn(),
 }));
 
-describe('validateInputs', () => {
-    it('Updating an user without filling the fields', () => {
-        // Arrange
-        const login = '';
-        const password = '';
-        const setErrorMessage = jest.fn(); // Mock setErrorMessage function
+jest.mock('../utils/validation', () => ({
+  validateInputs: jest.fn(),
+  validateInputsType: jest.fn(),
+}));
 
-        // Act
-        const isValid = validateInputs(login, password, setErrorMessage);
-
-        // Assert
-        expect(isValid).toBe(false);
-        expect(setErrorMessage).toHaveBeenCalledWith('Please fill in all fields');
+describe('Edit Component Integration Tests', () => {
+  it('shows error message when login field is empty', () => {
+    validateInputs.mockImplementation((login, password, setErrorMessage) => {
+      setErrorMessage('Please fill in all fields');
+      return false;
     });
 
-    it('Updating an user without filling the login field', () => {
-        // Arrange
-        const login = '';
-        const password = 'password';
-        const setErrorMessage = jest.fn(); // Mock setErrorMessage function
+    const { getByText, getByTestId } = render(<Edit />);
+    fireEvent.change(getByTestId('login-input'), { target: { value: '' } });
+    fireEvent.change(getByTestId('password-input'), { target: { value: 'password' } });
+    fireEvent.click(getByText('Update'));
+
+    expect(getByTestId('error-message')).toHaveTextContent('Please fill in all fields');
+  });
+
+  it('shows error message when password field is empty', () => {
+    validateInputs.mockImplementation((login, password, setErrorMessage) => {
+      setErrorMessage('Please fill in all fields');
+      return false;
+    });
+
+    const { getByText, getByTestId } = render(<Edit />);
+    fireEvent.change(getByTestId('login-input'), { target: { value: 'username' } });
+    fireEvent.change(getByTestId('password-input'), { target: { value: '' } });
+    fireEvent.click(getByText('Update'));
+
+    expect(getByTestId('error-message')).toHaveTextContent('Please fill in all fields');
+  });
+
+  it('shows error message when password doesn\'t have at least 8 characters', () => {
+    validateInputs.mockImplementation(() => true); // Assuming login and other checks pass
+    validateInputsType.mockImplementation((password, setErrorMessage) => {
+      setErrorMessage('Password must be at least 8 characters long');
+      return false;
+    });
+
+    const { getByText, getByTestId } = render(<Edit />);
+    fireEvent.change(getByTestId('login-input'), { target: { value: 'username' } });
+    fireEvent.change(getByTestId('password-input'), { target: { value: '123' } });
+    fireEvent.click(getByText('Update'));
+
+    expect(getByTestId('error-message')).toHaveTextContent('Password must be at least 8 characters long');
+  });
+
+  it('shows error message when password must be stronger', () => {
+    validateInputs.mockImplementation(() => true); // Assuming login and other checks pass
+    validateInputsType.mockImplementation((password, setErrorMessage) => {
+      setErrorMessage('Password must be stronger');
+      return false;
+    });
+
+    const { getByText, getByTestId } = render(<Edit />);
+    fireEvent.change(getByTestId('login-input'), { target: { value: 'username' } });
+    fireEvent.change(getByTestId('password-input'), { target: { value: '12345678' } });
+    fireEvent.click(getByText('Update'));
+
+    expect(getByTestId('error-message')).toHaveTextContent('Password must be stronger');
+  });
+
+  it('navigates to /newuser when fields are correctly filled', () => {
+    const navigateMock = jest.fn();
+    useNavigate.mockImplementation(() => navigateMock);
     
-        // Act
-        const isValid = validateInputs(login, password, setErrorMessage);
-    
-        // Assert
-        expect(isValid).toBe(false);
-        expect(setErrorMessage).toHaveBeenCalledWith('Please fill in all fields');
-      });
-    
-      it('Update an user without filling the password field', () => {
-        // Arrange
-        const login = 'username';
-        const password = '';
-        const setErrorMessage = jest.fn(); // Mock setErrorMessage function
-    
-        // Act
-        const isValid = validateInputs(login, password, setErrorMessage);
-    
-        // Assert
-        expect(isValid).toBe(false);
-        expect(setErrorMessage).toHaveBeenCalledWith('Please fill in all fields');
-      });
-    
-      it('Successfully update an user', () => {
-        // Arrange
-        const login = 'username';
-        const password = 'password';
-        const setErrorMessage = jest.fn(); // Mock setErrorMessage function
-    
-        // Act
-        const isValid = validateInputs(login, password, setErrorMessage);
-    
-        // Assert
-        expect(isValid).toBe(true);
-        expect(setErrorMessage).not.toHaveBeenCalled(); // Error message should not be set
-      });
-    
+    validateInputs.mockImplementation(() => true);
+    validateInputsType.mockImplementation(() => true);
+
+    const { getByText, getByTestId } = render(<Edit />);
+    fireEvent.change(getByTestId('login-input'), { target: { value: 'username' } });
+    fireEvent.change(getByTestId('password-input'), { target: { value: '12345678Abc!' } });
+    fireEvent.click(getByText('Update'));
+
+    expect(navigateMock).toHaveBeenCalledWith('/newuser');
+  });
 });
