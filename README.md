@@ -25,15 +25,23 @@ Entre no diretório do projeto
   cd chatbot-iws
 ```
 
-Instale as dependências
-
-```bash
-  npm install
-  npm install axios
-```
-
-Inicie o servidor
+Inicie o programa
 
 ```bash
   npm run start
 ```
+
+Inicie o MongoDB
+```bash
+  cd backend
+  node server.js
+```
+Utilizando o MongoDB Compass
+Faça uma conexão na porta padrão, terá acesso ao histórico de chat e usuários criados (feat. Admin) 
+
+# Testes Automatizados
+```bash
+  npm run tests
+```
+* **Artifact com Html-Report dos Testes disponível em Actions "Node.js CI"**
+
