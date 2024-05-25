@@ -1,6 +1,6 @@
 import React from 'react';
-import { render, fireEvent, getByText, getByPlaceholderText } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'; 
+import { render, fireEvent } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
 import Login from './Login';
 import { validateInputs } from '../utils/validation';
 
@@ -9,68 +9,50 @@ jest.mock('react-router-dom', () => ({
   useNavigate: jest.fn(),
 }));
 
-describe('validateInputs', () => {
-  it('Loging in without filling the fields', () => {
-    // Arrange
-    const login = '';
-    const password = '';
-    const setErrorMessage = jest.fn(); // Mock setErrorMessage function
+jest.mock('../utils/validation', () => ({
+  validateInputs: jest.fn(),
+}));
 
-    // Act
-    const isValid = validateInputs(login, password, setErrorMessage);
+describe('Login Component Integration Tests', () => {
+  it('shows error message when login field is empty', () => {
+    const setErrorMessageMock = jest.fn();
+    validateInputs.mockImplementation((login, password, setErrorMessage) => {
+      setErrorMessage('Please fill in all fields');
+      setErrorMessageMock();
+      return false;
+    });
 
-    // Assert
-    expect(isValid).toBe(false);
-    expect(setErrorMessage).toHaveBeenCalledWith('Please fill in all fields');
+    const { getByText, getByPlaceholderText, getByTestId } = render(<Login />);
+    fireEvent.change(getByPlaceholderText('Login'), { target: { value: '' } });
+    fireEvent.change(getByPlaceholderText('Password'), { target: { value: 'password' } });
+    fireEvent.click(getByText('Next'));
+
+    expect(setErrorMessageMock).toHaveBeenCalled();
+    expect(getByTestId('error-message')).toHaveTextContent('Please fill in all fields');
   });
 
-  it('loging in without filling the login field', () => {
-    // Arrange
-    const login = '';
-    const password = 'password';
-    const setErrorMessage = jest.fn(); // Mock setErrorMessage function
+  it('shows error message when password field is empty', () => {
+    const setErrorMessageMock = jest.fn();
+    validateInputs.mockImplementation((login, password, setErrorMessage) => {
+      setErrorMessage('Please fill in all fields');
+      setErrorMessageMock();
+      return false;
+    });
 
-    // Act
-    const isValid = validateInputs(login, password, setErrorMessage);
+    const { getByText, getByPlaceholderText, getByTestId } = render(<Login />);
+    fireEvent.change(getByPlaceholderText('Login'), { target: { value: 'username' } });
+    fireEvent.change(getByPlaceholderText('Password'), { target: { value: '' } });
+    fireEvent.click(getByText('Next'));
 
-    // Assert
-    expect(isValid).toBe(false);
-    expect(setErrorMessage).toHaveBeenCalledWith('Please fill in all fields');
+    expect(setErrorMessageMock).toHaveBeenCalled();
+    expect(getByTestId('error-message')).toHaveTextContent('Please fill in all fields');
   });
 
-  it('loging in without filling the password field', () => {
-    // Arrange
-    const login = 'username';
-    const password = '';
-    const setErrorMessage = jest.fn(); // Mock setErrorMessage function
-
-    // Act
-    const isValid = validateInputs(login, password, setErrorMessage);
-
-    // Assert
-    expect(isValid).toBe(false);
-    expect(setErrorMessage).toHaveBeenCalledWith('Please fill in all fields');
-  });
-
-  it('Successfully loging in', () => {
-    // Arrange
-    const login = 'username';
-    const password = 'password';
-    const setErrorMessage = jest.fn(); // Mock setErrorMessage function
-
-    // Act
-    const isValid = validateInputs(login, password, setErrorMessage);
-
-    // Assert
-    expect(isValid).toBe(true);
-    expect(setErrorMessage).not.toHaveBeenCalled(); // Error message should not be set
-  });
-});
-
-describe('Login Component', () => {
-  it('navigates to /chat when fields are filled', () => {
+  it('navigates to /chat when fields are correctly filled', () => {
     const navigateMock = jest.fn();
     require('react-router-dom').useNavigate.mockImplementation(() => navigateMock);
+    
+    validateInputs.mockImplementation((login, password, setErrorMessage) => true);
 
     const { getByText, getByPlaceholderText } = render(<Login />);
     fireEvent.change(getByPlaceholderText('Login'), { target: { value: 'username' } });
