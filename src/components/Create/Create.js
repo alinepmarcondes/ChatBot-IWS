@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Create.css';
-import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 import { validateInputs, validateInputsType } from '../utils/validation';
 
@@ -11,14 +10,24 @@ function Create() {
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleCreate = async () => {
-    if (validateInputs(login, password, setErrorMessage) && validateInputsType( password, setErrorMessage)) {
+    if (validateInputs(login, password, setErrorMessage) && validateInputsType(password, setErrorMessage)) {
       try {
-        await axios.post('http://localhost:5000/users', { login: login, password: password, type: 'user' });
-        console.log('Usuário criado com sucesso!');
+        const response = await fetch('http://localhost:5000/users', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ login: login, password: password, type: 'user' })
+        });
+        if (response.ok) {
+          console.log('Usuário criado com sucesso!');
+        } else {
+          throw new Error('Erro ao criar usuário');
+        }
       } catch (error) {
         console.error('Erro ao criar usuário:', error);
-      } 
-    }  
+      }
+    }
   };
 
   const handleLoginChange = (e) => {
@@ -41,7 +50,7 @@ function Create() {
         <h2 className="create-title">Create<br />  </h2>
         <input 
           type="text" 
-          placeholder=" Login " 
+          placeholder="Login" 
           className="login-newuser-input" 
           value={login} 
           onChange={(e) => {
@@ -51,7 +60,7 @@ function Create() {
           />
         <input 
           type="password" 
-          placeholder=" Password " 
+          placeholder="Password" 
           className="password-newuser-input" 
           value={password} 
           onChange={(e) => {
@@ -61,7 +70,7 @@ function Create() {
         />
         
         {errorMessage && <p className="error-message">{errorMessage}</p>}
-        <button className="create-newuser-button" onClick={handleCreate}>Create</button>
+        <button className="create-newuser-button" onClick={handleCreate}>Create User</button>
         <button className="back-create-button" onClick={handleBackNewUser}>Back</button>
       </div>
     </div>
