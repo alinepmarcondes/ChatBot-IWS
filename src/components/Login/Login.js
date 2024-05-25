@@ -43,7 +43,7 @@ function Login() {
           value={password}
           onChange={handlePasswordChange}
         />
-        {errorMessage && <p className="error-message">{errorMessage}</p>}
+        {errorMessage && <p data-testid="error-message" className="error-message">{errorMessage}</p>}
         <button className="login-button" onClick={handleLogin}>Next</button>
       </div>
     </div>
