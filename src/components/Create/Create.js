@@ -13,7 +13,7 @@ function Create() {
   const [userCreated, setUserCreated] = useState(false);
 
 
-  const showToastMessage = (message) => {
+  const showToastMessage = (message, type) => {
     setToastMessage(message);
     setShowToast(true);
     setTimeout(() => {
@@ -95,7 +95,7 @@ function Create() {
         <button className="back-create-button" onClick={handleBackNewUser}>Back</button>
 
         {showToast && (
-          <div className="toast">
+          <div className={`toast ${toastMessage.includes('successfully')?'success':'error'}`}>
             <p>{toastMessage}</p>
             <button onClick={hideToastMessage}>Close</button>
           </div>
