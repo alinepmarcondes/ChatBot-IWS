@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Create.css';
-import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 import { validateInputs, validateInputsType } from '../utils/validation';
 
@@ -9,16 +8,45 @@ function Create() {
   const [login, setLogin] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const [showToast, setShowToast] = useState(false);
+  const [toastMessage, setToastMessage] = useState('');
+  const [userCreated, setUserCreated] = useState(false);
+
+
+  const showToastMessage = (message, type) => {
+    setToastMessage(message);
+    setShowToast(true);
+    setTimeout(() => {
+      setShowToast(false);
+    }, 5000); // Toast will disappear after 5 seconds
+  };
+  
+
+  const hideToastMessage = () => {
+    setShowToast(false);
+  };
 
   const handleCreate = async () => {
-    if (validateInputs(login, password, setErrorMessage) && validateInputsType( password, setErrorMessage)) {
+    if (validateInputs(login, password, setErrorMessage) && validateInputsType(password, setErrorMessage)) {
       try {
-        await axios.post('http://localhost:5000/users', { login: login, password: password, type: 'user' });
-        console.log('Usuário criado com sucesso!');
+        const response = await fetch('http://localhost:5000/users', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ login: login, password: password, type: 'user' })
+        });
+        if (response.ok) {
+          showToastMessage('User created successfully!', 'success');
+          setUserCreated(true);
+        } else {
+          showToastMessage('Error creating user!', 'error');
+        }
       } catch (error) {
-        console.error('Erro ao criar usuário:', error);
-      } 
-    }  
+        showToastMessage('Error creating user!', 'error');
+        console.error('Error creating user:', error);
+      }
+    }
   };
 
   const handleLoginChange = (e) => {
@@ -38,20 +66,20 @@ function Create() {
   return (
     <div className="create-page">
       <div className="create-container">
-        <h2 className="create-title">Create<br />  </h2>
+        <h2 className="create-title">Create<br /></h2>
         <input 
           type="text" 
-          placeholder=" Login " 
+          placeholder="Login" 
           className="login-newuser-input" 
           value={login} 
           onChange={(e) => {
             setLogin(e.target.value);
             handleLoginChange(e); 
           }} 
-          />
+        />
         <input 
           type="password" 
-          placeholder=" Password " 
+          placeholder="Password" 
           className="password-newuser-input" 
           value={password} 
           onChange={(e) => {
@@ -61,8 +89,17 @@ function Create() {
         />
         
         {errorMessage && <p className="error-message">{errorMessage}</p>}
-        <button className="create-newuser-button" onClick={handleCreate}>Create</button>
+        <button className={`create-newuser-button ${userCreated ? 'disabled' : ''}`} onClick={handleCreate} disabled={userCreated}>
+          Create User
+        </button>
         <button className="back-create-button" onClick={handleBackNewUser}>Back</button>
+
+        {showToast && (
+          <div className={`toast ${toastMessage.includes('successfully')?'success':'error'}`}>
+            <p>{toastMessage}</p>
+            <button onClick={hideToastMessage}>Close</button>
+          </div>
+        )}
       </div>
     </div>
   );
