@@ -48,19 +48,21 @@ const NewUser = () => {
       <div className="sub-container">
         <div className="new-user-form">
           <button className="new-user-new" onClick={handleCreateNewUserButton}>New user</button>
-          {users.map(user => (
-            <div key={user._id} className="new-user-input">
-              <button
-                className={`user-button ${selectedUser === user._id ? 'selected' : ''}`}
-                onClick={() => handleUserClick(user._id)}
-              >
-                {user.login}
-              </button>
-              <div className="new-user-icon">
-                <i className="fas fa-times"></i>
+          <div className="user-list-container"> {/* Container for user list with scroll */}
+            {users.map(user => (
+              <div key={user._id} className="new-user-input">
+                <button
+                  className={`user-button ${selectedUser === user._id ? 'selected' : ''}`}
+                  onClick={() => handleUserClick(user._id)}
+                >
+                  {user.login}
+                </button>
+                <div className="new-user-icon">
+                  <i className="fas fa-times"></i>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
           <div className="new-user-buttons">
             <button className="new-user-next" onClick={handleNextButton}>
               <i className="fas fa-arrow-left"></i> Next
