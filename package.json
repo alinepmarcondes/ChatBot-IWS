@@ -6,12 +6,14 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.6.8",
+    "axios": "^1.7.2",
+    "axios-mock-adapter": "^1.22.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "fs": "^0.0.1-security",
+    "jest-mock": "^29.7.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.3",
     "react": "^18.2.0",
@@ -63,7 +65,7 @@
       "\\.(css|less)$": "identity-obj-proxy"
     },
     "transform": {
-      "^.+\\.jsx?$": "babel-jest"
+      "^.+\\.[jt]sx?$": "babel-jest"
     },
     "reporters": [
       "default",
@@ -76,5 +78,5 @@
         }
       ]
     ]
-  }  
+  }
 }
