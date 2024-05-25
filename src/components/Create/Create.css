@@ -52,6 +52,11 @@
     display: block;
   }
 
+  .create-newuser-button.disabled {
+    background-color: #607d8b; /* Change to your desired disabled color */
+    cursor: not-allowed;
+  }
+
   .back-create-button {
     padding: 10px;
     background-color: #1B4B66;
@@ -71,12 +76,20 @@
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #333;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1000;
+    max-width: 90%; /* Adjust as needed */
+  }
+  
+  .toast.success {
+    background-color: #5cb85c; /* Light green */
+  }
+  
+  .toast.error {
+    background-color: #f0ad4e; /* Light yellowish */
   }
   
   .toast p {
