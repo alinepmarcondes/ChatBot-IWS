@@ -25,6 +25,10 @@
   width: 325px; 
   text-align: left; 
 }
+.user-list-container {
+  max-height: 200px; /* Adjust height as needed */
+  overflow-y: auto;
+}
 
 .user-button {
   width: 100%;
