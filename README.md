@@ -37,7 +37,7 @@ Inicie o MongoDB
   node server.js
 ```
 Utilizando o MongoDB Compass
-Faça uma conexão na porta padrão, terá acesso ao histórico de chat e usuários criados (feat. Admin) 
+* Faça uma conexão na porta padrão, terá acesso ao histórico de chat e usuários criados (feat. Admin) 
 
 # Testes Automatizados
 ```bash
