@@ -37,10 +37,10 @@ const NewUser = () => {
   const handleNextButton = () => {
     if (selectedUser) {
       console.log('Selected user:', selectedUser);
+      navigate(`/edit/${selectedUser}`);
     } else {
       console.error('Please select a user.');
     }
-    navigate('/edit');
   };
 
   return (
@@ -65,7 +65,7 @@ const NewUser = () => {
           </div>
           <div className="new-user-buttons">
             <button className="new-user-next" onClick={handleNextButton}>
-              <i className="fas fa-arrow-left"></i> Next
+              <i className="fas fa-arrow-right"></i> Next
             </button>
           </div>
           <div className="new-user-buttons">
