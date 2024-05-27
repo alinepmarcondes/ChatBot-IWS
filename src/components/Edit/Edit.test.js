@@ -76,10 +76,10 @@ describe('Testing Error Responses - Edit Component Integration Tests', () => {
 });
 
 describe('Testing Successful Workflow - Edit Component Integration Tests', () => {
-  it('navigates to /newuser when fields are correctly filled', () => {
+  it('navigates to /newuser when fields are correctly filled', async () => {
     const navigateMock = jest.fn();
     useNavigate.mockImplementation(() => navigateMock);
-    
+
     validateInputs.mockImplementation(() => true);
     validateInputsType.mockImplementation(() => true);
 
@@ -88,6 +88,8 @@ describe('Testing Successful Workflow - Edit Component Integration Tests', () =>
     fireEvent.change(getByTestId('password-input'), { target: { value: '12345678Abc!' } });
     fireEvent.click(getByText('Update'));
 
-    expect(navigateMock).toHaveBeenCalledWith('/newuser');
+    await waitFor(() => {
+      expect(navigateMock).toHaveBeenCalledWith('/newuser');
+    });
   });
 });
