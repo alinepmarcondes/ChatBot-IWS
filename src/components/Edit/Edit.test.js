@@ -15,7 +15,7 @@ jest.mock('../utils/validation', () => ({
   validateInputsType: jest.fn(),
 }));
 
-describe('Edit Component Integration Tests', () => {
+describe('Testing Error Responses - Edit Component Integration Tests', () => {
   it('shows error message when login field is empty', () => {
     validateInputs.mockImplementation((login, password, setErrorMessage) => {
       setErrorMessage('Please fill in all fields');
@@ -73,7 +73,9 @@ describe('Edit Component Integration Tests', () => {
 
     expect(getByTestId('error-message')).toHaveTextContent('Password must be stronger');
   });
+});
 
+describe('Testing Successful Workflow - Edit Component Integration Tests', () => {
   it('navigates to /newuser when fields are correctly filled', () => {
     const navigateMock = jest.fn();
     useNavigate.mockImplementation(() => navigateMock);

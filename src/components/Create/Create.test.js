@@ -15,7 +15,7 @@ jest.mock('../utils/validation', () => ({
   validateInputsType: jest.fn(),
 }));
 
-describe('Create Component', () => {
+describe('Testing Successful Workflow - Create Component', () => {
   beforeEach(() => {
     global.fetch = jest.fn(); // Mocking fetch globally
   });

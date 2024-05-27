@@ -13,7 +13,7 @@ jest.mock('../utils/validation', () => ({
   validateInputs: jest.fn(),
 }));
 
-describe('Login Component Integration Tests', () => {
+describe('Testing Error Responses - Login Component Integration Tests', () => {
   it('shows error message when login field is empty', () => {
     const setErrorMessageMock = jest.fn();
     validateInputs.mockImplementation((login, password, setErrorMessage) => {
@@ -47,7 +47,9 @@ describe('Login Component Integration Tests', () => {
     expect(setErrorMessageMock).toHaveBeenCalled();
     expect(getByTestId('error-message')).toHaveTextContent('Please fill in all fields');
   });
+});
 
+describe('Testing Successful Workflow - Login Component Integration Tests', () => {
   it('navigates to /chat when fields are correctly filled', () => {
     const navigateMock = jest.fn();
     require('react-router-dom').useNavigate.mockImplementation(() => navigateMock);
