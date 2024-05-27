@@ -26,8 +26,8 @@ const userSchema = new mongoose.Schema({
   },
   type: {
     type: String,
-    enum: ['admin', 'user'], // type de usuário pode ser 'admin' ou 'regular'
-    default: 'user' // Valor padrão é 'regular'
+    enum: ['admin', 'user'],
+    default: 'user' 
   }
 });
 
@@ -37,7 +37,7 @@ const messageContentSchema = new mongoose.Schema({
   },
   sender: {
     type: String,
-    enum: ['user', 'bot'] // O remetente pode ser 'user' ou 'bot'
+    enum: ['user', 'bot'] 
   },
   message: {
     type: String,
@@ -84,6 +84,65 @@ app.post('/users', async (req, res) => {
     res.status(500).json({ error: 'Erro ao salvar o usuário.' });
   }
 });
+
+// Rota para obter todos os usuários
+app.get('/users', async (req, res) => {
+  try {
+    const users = await User.find();
+    res.status(200).json(users);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao buscar usuários.' });
+  }
+});
+
+// Rota para obter um usuário por ID
+app.get('/users/:id', async (req, res) => {
+  try {
+    const user = await User.findById(req.params.id);
+    if (!user) {
+      return res.status(404).json({ error: 'Usuário não encontrado.' });
+    }
+    res.status(200).json(user);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao buscar o usuário.' });
+  }
+});
+
+// Rota para editar um usuário por ID
+app.put('/users/:id', async (req, res) => {
+  try {
+    const { login, password } = req.body;
+    const user = await User.findByIdAndUpdate(
+      req.params.id,
+      { login, password },
+      { new: true, runValidators: true }
+    );
+    if (!user) {
+      return res.status(404).json({ error: 'Usuário não encontrado.' });
+    }
+    res.status(200).json(user);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao editar o usuário.' });
+  }
+});
+
+// Rota para deletar um usuário por ID
+app.delete('/users/:id', async (req, res) => {
+  try {
+    const user = await User.findByIdAndDelete(req.params.id);
+    if (!user) {
+      return res.status(404).json({ error: 'Usuário não encontrado.' });
+    }
+    res.status(200).json({ message: 'Usuário deletado com sucesso.' });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao deletar o usuário.' });
+  }
+});
+
 
 // chat ------------------------------
 
@@ -153,20 +212,9 @@ app.put('/chats/:chatId/title', async (req, res) => {
   }
 });
 
-// Rota para obter todos os usuários
-app.get('/users', async (req, res) => {
-  try {
-    const users = await User.find();
-    res.status(200).json(users);
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: 'Erro ao buscar usuários.' });
-  }
-});
 
 // ----------------------------------------------------
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-
