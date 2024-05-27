@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './NewUser.css';
-import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 
 const NewUser = () => {
@@ -11,8 +10,13 @@ const NewUser = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/users');
-        setUsers(response.data);
+        const response = await fetch('http://localhost:5000/users');
+        if (response.ok) {
+          const data = await response.json();
+          setUsers(data);
+        } else {
+          console.error('Erro ao buscar usuários:', response.statusText);
+        }
       } catch (error) {
         console.error('Erro ao buscar usuários:', error);
       }
@@ -37,10 +41,10 @@ const NewUser = () => {
   const handleNextButton = () => {
     if (selectedUser) {
       console.log('Selected user:', selectedUser);
+      navigate(`/edit/${selectedUser}`);
     } else {
       console.error('Please select a user.');
     }
-    navigate('/edit');
   };
 
   return (
