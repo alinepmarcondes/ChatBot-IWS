@@ -1,5 +1,6 @@
 import React from 'react';
 import { render, fireEvent, waitFor } from '@testing-library/react';
+import { act } from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import { useNavigate } from 'react-router-dom';
 import Create from './Create';
@@ -35,9 +36,12 @@ describe('Testing Successful Workflow - Create Component', () => {
     });
 
     const { getByText, getByPlaceholderText } = render(<Create />);
-    fireEvent.change(getByPlaceholderText('Login'), { target: { value: 'username' } });
-    fireEvent.change(getByPlaceholderText('Password'), { target: { value: 'Password1!' } });
-    fireEvent.click(getByText('Create User')); // Simulate button click
+    
+    await act(async () => {
+      fireEvent.change(getByPlaceholderText('Login'), { target: { value: 'username' } });
+      fireEvent.change(getByPlaceholderText('Password'), { target: { value: 'Password1!' } });
+      fireEvent.click(getByText('Create User')); // Simulate button click
+    });
 
     // Wait for async operation to complete
     await waitFor(() => expect(global.fetch).toHaveBeenCalledTimes(1));
@@ -52,12 +56,16 @@ describe('Testing Successful Workflow - Create Component', () => {
     });
   });
 
-  it('navigates to /newuser when the Back button is clicked', () => {
+  it('navigates to /newuser when the Back button is clicked', async () => {
     const navigateMock = jest.fn(); // Mocking navigate function
     useNavigate.mockReturnValue(navigateMock); // Setting up the mock for useNavigate
 
     const { getByText } = render(<Create />);
-    fireEvent.click(getByText('Back'));
+    
+    await act(async () => {
+      fireEvent.click(getByText('Back'));
+    });
+
     expect(navigateMock).toHaveBeenCalledWith('/newuser');
   });
 });

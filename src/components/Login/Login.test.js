@@ -1,5 +1,6 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
+import { act } from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import Login from './Login';
 import { validateInputs } from '../utils/validation';
@@ -14,7 +15,7 @@ jest.mock('../utils/validation', () => ({
 }));
 
 describe('Testing Error Responses - Login Component Integration Tests', () => {
-  it('shows error message when login field is empty', () => {
+  it('shows error message when login field is empty', async () => {
     const setErrorMessageMock = jest.fn();
     validateInputs.mockImplementation((login, password, setErrorMessage) => {
       setErrorMessage('Please fill in all fields');
@@ -23,15 +24,18 @@ describe('Testing Error Responses - Login Component Integration Tests', () => {
     });
 
     const { getByText, getByPlaceholderText, getByTestId } = render(<Login />);
-    fireEvent.change(getByPlaceholderText('Login'), { target: { value: '' } });
-    fireEvent.change(getByPlaceholderText('Password'), { target: { value: 'password' } });
-    fireEvent.click(getByText('Next'));
+
+    await act(async () => {
+      fireEvent.change(getByPlaceholderText('Login'), { target: { value: '' } });
+      fireEvent.change(getByPlaceholderText('Password'), { target: { value: 'password' } });
+      fireEvent.click(getByText('Next'));
+    });
 
     expect(setErrorMessageMock).toHaveBeenCalled();
     expect(getByTestId('error-message')).toHaveTextContent('Please fill in all fields');
   });
 
-  it('shows error message when password field is empty', () => {
+  it('shows error message when password field is empty', async () => {
     const setErrorMessageMock = jest.fn();
     validateInputs.mockImplementation((login, password, setErrorMessage) => {
       setErrorMessage('Please fill in all fields');
@@ -40,9 +44,12 @@ describe('Testing Error Responses - Login Component Integration Tests', () => {
     });
 
     const { getByText, getByPlaceholderText, getByTestId } = render(<Login />);
-    fireEvent.change(getByPlaceholderText('Login'), { target: { value: 'username' } });
-    fireEvent.change(getByPlaceholderText('Password'), { target: { value: '' } });
-    fireEvent.click(getByText('Next'));
+
+    await act(async () => {
+      fireEvent.change(getByPlaceholderText('Login'), { target: { value: 'username' } });
+      fireEvent.change(getByPlaceholderText('Password'), { target: { value: '' } });
+      fireEvent.click(getByText('Next'));
+    });
 
     expect(setErrorMessageMock).toHaveBeenCalled();
     expect(getByTestId('error-message')).toHaveTextContent('Please fill in all fields');
@@ -50,16 +57,19 @@ describe('Testing Error Responses - Login Component Integration Tests', () => {
 });
 
 describe('Testing Successful Workflow - Login Component Integration Tests', () => {
-  it('navigates to /chat when fields are correctly filled', () => {
+  it('navigates to /chat when fields are correctly filled', async () => {
     const navigateMock = jest.fn();
     require('react-router-dom').useNavigate.mockImplementation(() => navigateMock);
     
     validateInputs.mockImplementation((login, password, setErrorMessage) => true);
 
     const { getByText, getByPlaceholderText } = render(<Login />);
-    fireEvent.change(getByPlaceholderText('Login'), { target: { value: 'username' } });
-    fireEvent.change(getByPlaceholderText('Password'), { target: { value: 'password' } });
-    fireEvent.click(getByText('Next'));
+
+    await act(async () => {
+      fireEvent.change(getByPlaceholderText('Login'), { target: { value: 'username' } });
+      fireEvent.change(getByPlaceholderText('Password'), { target: { value: 'password' } });
+      fireEvent.click(getByText('Next'));
+    });
 
     expect(navigateMock).toHaveBeenCalledWith('/chat');
   });
