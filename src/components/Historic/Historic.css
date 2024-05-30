@@ -58,6 +58,15 @@
   text-decoration: underline;
 }
 
+.link-button {
+  background: none;
+  color: #1B4B66;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+
 @media screen and (max-width: 736px) {
   .historic-page {
     position: fixed;
@@ -117,5 +126,14 @@
   
   .historic-content a:hover {
     text-decoration: underline;
+  }
+
+  .link-button {
+    background: none;
+    color: #1B4B66;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
   }
 }
