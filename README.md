@@ -11,6 +11,14 @@ O objetivo principal é melhorar a experiência do usuário, reduzir o tempo de 
 
 **Front end:**  React   |   **Back end:** Node.js   |   **Persistência:** Mongo DB
 
+## Processo de instalação
+Instalar o Node.js e npm (Node Package Manager)
+
+Instalar o Create React 
+```bash
+  npm install -g create-react-app
+```
+
 ## Rodando localmente
 
 Clone o projeto
@@ -39,7 +47,13 @@ Inicie o MongoDB
 Utilizando o MongoDB Compass
 * Faça uma conexão na porta padrão, terá acesso ao histórico de chat e usuários criados (feat. Admin) 
 
-# Testes Automatizados
+## Testes Automatizados
+Instale a biblioteca 
+```bash
+  npm install @testing-library/react @testing-library/jest-dom jest-fetch-mock
+```
+
+Rode os testes
 ```bash
   npm run tests
 ```
