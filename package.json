@@ -48,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-react": "^7.24.1",
     "concurrently": "^8.2.2",
     "identity-obj-proxy": "^3.0.0",
