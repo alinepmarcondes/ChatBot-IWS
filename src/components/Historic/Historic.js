@@ -27,16 +27,21 @@ function Historic({ onClose }) {
   return (
     <div className="historic-page">
       <div className="historic-header">
-        <button className="close-button" onClick={onClose}><img src={closeButtonIcon} alt="Fechar" /></button>
+        <button className="close-button" onClick={onClose}>
+          <img src={closeButtonIcon} alt="Fechar" />
+        </button>
       </div>
       <div className="historic-content">
         <h2>Historic</h2>
         <ul>
           {chats.map(chat => (
             <li key={chat._id}>
-              <a href="#" onClick={() => handleChatClick(chat)}> {/* Chame a função handleChatClick ao clicar */}
+              <button 
+                className="link-button" 
+                onClick={() => handleChatClick(chat)}
+              >
                 {chat.title}
-              </a>
+              </button>
             </li>
           ))}
         </ul>
