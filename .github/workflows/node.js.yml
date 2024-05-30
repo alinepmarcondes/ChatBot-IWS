@@ -26,3 +26,22 @@ jobs:
         with:
           name: test-results
           path: ./html-report/
+
+  build:
+    runs-on: ubuntu-latest
+    needs: test 
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js 20.11.1
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.11.1
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build 
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifacts
+          path: build/ 
