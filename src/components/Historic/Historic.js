@@ -1,18 +1,21 @@
 import React, { useState, useEffect } from "react";
 import './Historic.css';
 import CloseButtonIcon from "../icons/closeButtonIcon";
-import axios from 'axios';
-import { useNavigate } from "react-router-dom"; // Importe useNavigate
+import { useNavigate } from "react-router-dom";
 
 function Historic({ onClose }) {
   const [chats, setChats] = useState([]);
-  const navigate = useNavigate(); // Use o hook useNavigate
+  const navigate = useNavigate();
 
   useEffect(() => {
     async function fetchChats() {
       try {
-        const response = await axios.get('http://localhost:5000/chats');
-        setChats(response.data);
+        const response = await fetch('http://localhost:5000/chats');
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+        setChats(data);
       } catch (error) {
         console.error('Erro ao buscar chats:', error);
       }
@@ -21,7 +24,7 @@ function Historic({ onClose }) {
   }, []);
 
   const handleChatClick = (chat) => {
-    navigate('/chat', { state: { chat } }); // Navegue para a tela de chat e passe o chat clicado como estado
+    navigate('/chat', { state: { chat } });
   };
 
   return (
