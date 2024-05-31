@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import './Manual.css';
-import closeButtonIcon from "../../images/close-button-icon.png";
-import profileIcon from "../../images/profile-icon.png";
+import CloseButtonIcon from "../icons/closeButtonIcon";
+import ProfileIcon from "../icons/profileIcon";
 import ProfilePage from "../ProfilePage/ProfilePage";
 
 function Manual({ onClose }) {
@@ -16,13 +16,13 @@ function Manual({ onClose }) {
     <div className="manual-screen">
       <div className="manual-header">
         <button className="back-button" onClick={onClose}>
-          <img src={closeButtonIcon} alt="Fechar" />
+          <CloseButtonIcon className="close-button"/>
         </button>
       </div>
       <div className="manual-content">
         <div className="go-to-profile">
           <button className="go-button" onClick={handleProfileToggle}>
-            <img src={profileIcon} alt="Profile" className="profile-icon" />
+            <ProfileIcon className="profile-icon"/>
             <span className="hello-user">Hello, User!</span>
           </button>
         </div>

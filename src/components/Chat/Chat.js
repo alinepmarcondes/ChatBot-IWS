@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Chat.css";
 import Manual from "../Manual/Manual";
-import manualButtonIcon from "../../images/manual-button-icon.png";
-import newChatButtonIcon from "../../images/new-chat-button-icon.png";
+import ListIcon from "../icons/listIcon";
+import NewIcon from "../icons/newIcon";
 import { useLocation } from "react-router-dom";
 
 function Chat() {
@@ -127,11 +127,11 @@ function Chat() {
       {showManual && <Manual onClose={closeManual} />}
       <div className="chat-header">
         <button className="chat-manual-button" onClick={openManual}>
-          <img src={manualButtonIcon} alt="Manual" />
+          <ListIcon className="chat-manual-button" />
         </button>
         <h1 className="chat-title">{currentChat ? currentChat.title : "Starting a new chat"}</h1>
         <button className="chat-add-button" onClick={addNewChat}>
-          <img src={newChatButtonIcon} alt="Add" />
+          <NewIcon className="chat-add-button"/>
         </button>
       </div>
       <div className="chat-body">
