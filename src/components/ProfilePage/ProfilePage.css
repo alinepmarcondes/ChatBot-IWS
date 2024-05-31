@@ -36,7 +36,7 @@
   flex-direction: column; 
 }
 
-.go-button {
+.profile-button {
   background-color: #F1F1F1;
   border: none;
   padding: 10px 20px;
@@ -108,6 +108,36 @@
   cursor: pointer;
   width: 100%;
   font-weight: bold;
+}
+.profile-options {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.option span {
+  margin-right: 10px;
+}
+
+.option-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.option-button:focus {
+  outline: none;
 }
 
 @media screen and (max-width: 736px) {

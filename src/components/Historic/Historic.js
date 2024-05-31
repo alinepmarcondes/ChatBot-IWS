@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './Historic.css';
-import closeButtonIcon from "../../images/close-button-icon.png";
+import CloseButtonIcon from "../icons/closeButtonIcon";
 import axios from 'axios';
 import { useNavigate } from "react-router-dom"; // Importe useNavigate
 
@@ -28,7 +28,7 @@ function Historic({ onClose }) {
     <div className="historic-page">
       <div className="historic-header">
         <button className="close-button" onClick={onClose}>
-          <img src={closeButtonIcon} alt="Fechar" />
+          <CloseButtonIcon />
         </button>
       </div>
       <div className="historic-content">
