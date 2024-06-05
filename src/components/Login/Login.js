@@ -9,9 +9,28 @@ function Login() {
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
-  const handleLogin = () => {
+  const handleLogin = async () => {
     if (validateInputs(login, password, setErrorMessage)) {
-      navigate('/chat');
+      try {
+        const response = await fetch('http://localhost:5000/users/authenticate', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ login, password }),
+        });
+
+        if (response.ok) {
+          await response.json();
+          navigate('/chat');
+        } else {
+          const errorData = await response.json();
+          setErrorMessage(errorData.error);
+        }
+      } catch (error) {
+        console.error('Erro ao autenticar:', error);
+        setErrorMessage('Erro ao autenticar o usuário.');
+      }
     }
   };
 
