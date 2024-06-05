@@ -1,15 +1,17 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import { act } from 'react';
+import { act } from 'react-dom/test-utils';
 import '@testing-library/jest-dom/extend-expect';
 import Login from './Login';
 import { validateInputs } from '../utils/validation';
 
+// Mock para o hook useNavigate
 jest.mock('react-router-dom', () => ({
   ...jest.requireActual('react-router-dom'),
   useNavigate: jest.fn(),
 }));
 
+// Mock para a função validateInputs
 jest.mock('../utils/validation', () => ({
   validateInputs: jest.fn(),
 }));
@@ -60,17 +62,27 @@ describe('Testing Successful Workflow - Login Component Integration Tests', () =
   it('navigates to /chat when fields are correctly filled', async () => {
     const navigateMock = jest.fn();
     require('react-router-dom').useNavigate.mockImplementation(() => navigateMock);
-    
+
+    // Simular que a validação de entrada retorna true
     validateInputs.mockImplementation((login, password, setErrorMessage) => true);
+
+    // Simular uma resposta bem-sucedida do servidor
+    const mockResponse = jest.fn().mockResolvedValueOnce({
+      ok: true,
+      json: () => Promise.resolve({}),
+    });
+    global.fetch = jest.fn().mockImplementation(() => Promise.resolve(mockResponse()));
 
     const { getByText, getByPlaceholderText } = render(<Login />);
 
+    // Simular a interação do usuário preenchendo os campos e clicando no botão
     await act(async () => {
       fireEvent.change(getByPlaceholderText('Login'), { target: { value: 'username' } });
       fireEvent.change(getByPlaceholderText('Password'), { target: { value: 'password' } });
       fireEvent.click(getByText('Next'));
     });
 
+    // Verificar se a função navigate foi chamada com '/chat'
     expect(navigateMock).toHaveBeenCalledWith('/chat');
   });
 });
