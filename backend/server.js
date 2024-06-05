@@ -143,6 +143,23 @@ app.delete('/users/:id', async (req, res) => {
   }
 });
 
+// Rota para autenticar o usuário
+app.post('/users/authenticate', async (req, res) => {
+  try {
+    const { login, password } = req.body;
+    const user = await User.findOne({ login, password });
+
+    if (!user) {
+      return res.status(401).json({ error: 'Credenciais inválidas.' });
+    }
+
+    res.status(200).json({ message: 'Autenticação bem-sucedida!', user });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao autenticar o usuário.' });
+  }
+});
+
 
 // chat ------------------------------
 
