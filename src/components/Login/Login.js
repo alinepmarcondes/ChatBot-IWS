@@ -21,7 +21,7 @@ function Login() {
         });
 
         if (response.ok) {
-          const data = await response.json();
+          await response.json();
           navigate('/chat');
         } else {
           const errorData = await response.json();
