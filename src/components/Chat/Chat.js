@@ -3,7 +3,7 @@ import "./Chat.css";
 import Manual from "../Manual/Manual";
 import ListIcon from "../icons/listIcon";
 import NewIcon from "../icons/newIcon";
-import { useLocation } from "react-router-dom";
+import { useNavigationState } from "../hooks/useNavigationState"; 
 
 function Chat() {
   const [showManual, setShowManual] = useState(false);
@@ -11,14 +11,14 @@ function Chat() {
   const [currentChat, setCurrentChat] = useState(null);
   const [inputValue, setInputValue] = useState("");
   const messagesEndRef = useRef(null);
-  const location = useLocation();
+  const navigationState = useNavigationState();
 
   useEffect(() => {
     scrollToBottom();
-    if (location.state && location.state.chat) {
-      setCurrentChat(location.state.chat);
+    if (navigationState.chat) {
+      setCurrentChat(navigationState.chat);
     }
-  }, [chats, currentChat, location.state]);
+  }, [chats, currentChat, navigationState]);
 
   const scrollToBottom = () => {
     if (messagesEndRef.current) {
