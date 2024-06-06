@@ -14,11 +14,15 @@ function Chat() {
   const navigationState = useNavigationState();
 
   useEffect(() => {
-    scrollToBottom();
+    fetchChats(); 
     if (navigationState.chat) {
       setCurrentChat(navigationState.chat);
     }
-  }, [chats, currentChat, navigationState]);
+  }, [navigationState]);
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [currentChat]);
 
   const scrollToBottom = () => {
     if (messagesEndRef.current) {
@@ -30,12 +34,14 @@ function Chat() {
     try {
       if (inputValue.trim() !== "") {
         const content = [{ timestamp: String(new Date()), sender: 'user', message: inputValue }];
-
+        const userId = localStorage.getItem('userId');  // Obter o ID do usuário do localStorage
+  
         const newChat = {
           title: inputValue.split(' ').slice(0, 5).join(' '),
-          content: content
+          content: content,
+          userId: userId  // Incluir o ID do usuário
         };
-
+  
         const response = await fetch('http://localhost:5000/chats', {
           method: 'POST',
           headers: {
@@ -45,16 +51,27 @@ function Chat() {
         });
         const data = await response.json();
         const createdChat = data.chat;
-
+  
         setCurrentChat(createdChat);
         setChats([...chats, createdChat]);
-
+  
         console.log('Chat criado com sucesso!');
       } else {
         setCurrentChat(null);
       }
     } catch (error) {
       console.error('Erro ao criar chat:', error);
+    }
+  };
+
+  const fetchChats = async () => {
+    try {
+      const userId = localStorage.getItem('userId');  // Obter o ID do usuário do localStorage
+      const response = await fetch(`http://localhost:5000/chats?userId=${userId}`);
+      const data = await response.json();
+      setChats(data);
+    } catch (error) {
+      console.error('Erro ao buscar chats:', error);
     }
   };
 
@@ -73,31 +90,23 @@ function Chat() {
           const updatedChats = [...chats];
           const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
           if (updatedChatIndex !== -1) {
-            updatedChats[updatedChatIndex].content.push(newMessage);
-            if (updatedChats[updatedChatIndex].title === "New Chat") {
-              const title = inputValue.split(' ').slice(0, 5).join(' ');
-              await fetch(`http://localhost:5000/chats/${currentChat._id}/title`, {
-                method: 'PUT',
-                headers: {
-                  'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ newTitle: title })
-              });
-              updatedChats[updatedChatIndex].title = title;
-            }
+            const updatedChat = {
+              ...updatedChats[updatedChatIndex],
+              content: [...updatedChats[updatedChatIndex].content, newMessage]
+            };
+            updatedChats[updatedChatIndex] = updatedChat;
             setChats(updatedChats);
-          }
-        }
+            setCurrentChat(updatedChat);
 
-        if (currentChat) {
-          await fetch(`http://localhost:5000/chats/${currentChat._id}/content`, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(newMessage)
-          });
-          console.log('Mensagem enviada com sucesso!');
+            await fetch(`http://localhost:5000/chats/${currentChat._id}/content`, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(newMessage)
+            });
+            console.log('Mensagem enviada com sucesso!');
+          }
         }
       } catch (error) {
         console.error('Erro ao enviar mensagem:', error);

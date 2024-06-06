@@ -19,9 +19,10 @@ function Login() {
           },
           body: JSON.stringify({ login, password }),
         });
-
+  
         if (response.ok) {
-          await response.json();
+          const data = await response.json();
+          localStorage.setItem('userId', data.user._id);  // Armazenar o ID do usuário no localStorage
           navigate('/chat');
         } else {
           const errorData = await response.json();

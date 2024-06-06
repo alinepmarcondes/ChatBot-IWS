@@ -11,7 +11,8 @@ function Historic({ onClose }) {
   useEffect(() => {
     async function fetchChats() {
       try {
-        const response = await axios.get('http://localhost:5000/chats');
+        const userId = localStorage.getItem('userId');  // Obter o ID do usuário do localStorage
+        const response = await axios.get(`http://localhost:5000/chats?userId=${userId}`);
         setChats(response.data);
       } catch (error) {
         console.error('Erro ao buscar chats:', error);
@@ -19,6 +20,7 @@ function Historic({ onClose }) {
     }
     fetchChats();
   }, []);
+  
 
   const handleChatClick = (chat) => {
     navigate('/chat', { state: { chat } }); // Navegue para a tela de chat e passe o chat clicado como estado

@@ -48,9 +48,13 @@ const chatSchema = new mongoose.Schema({
   title: {
     type: String
   },
-  content: [messageContentSchema]
-}); 
-
+  content: [messageContentSchema],
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    required: true
+  }
+});
 
 const Chat = mongoose.model('Chat', chatSchema);
 const User = mongoose.model('User', userSchema);
@@ -166,7 +170,8 @@ app.post('/users/authenticate', async (req, res) => {
 // Rota para obter chats
 app.get('/chats', async (req, res) => {
   try {
-    const chats = await Chat.find();
+    const { userId } = req.query;  // Assume que o ID do usuário é passado como parâmetro de consulta
+    const chats = await Chat.find({ user: userId });
     res.status(200).json(chats);
   } catch (error) {
     console.error(error);
@@ -174,11 +179,12 @@ app.get('/chats', async (req, res) => {
   }
 });
 
+
 // Rota para criar um novo chat
 app.post('/chats', async (req, res) => {
   try {
-    const { title, content } = req.body;
-    const chat = new Chat({ title, content });
+    const { title, content, userId } = req.body;
+    const chat = new Chat({ title, content, user: userId });
     await chat.save();
     res.status(201).json({ message: 'Chat criado com sucesso!', chat });
   } catch (error) {

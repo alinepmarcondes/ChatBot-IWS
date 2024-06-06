@@ -4,6 +4,7 @@ import { act } from 'react-dom/test-utils';
 import '@testing-library/jest-dom/extend-expect';
 import Login from './Login';
 import { validateInputs } from '../utils/validation';
+import { useNavigate } from 'react-router-dom';
 
 // Mock para o hook useNavigate
 jest.mock('react-router-dom', () => ({
@@ -67,11 +68,11 @@ describe('Testing Successful Workflow - Login Component Integration Tests', () =
     validateInputs.mockImplementation((login, password, setErrorMessage) => true);
 
     // Simular uma resposta bem-sucedida do servidor
-    const mockResponse = jest.fn().mockResolvedValueOnce({
+    const mockResponse = {
       ok: true,
-      json: () => Promise.resolve({}),
-    });
-    global.fetch = jest.fn().mockImplementation(() => Promise.resolve(mockResponse()));
+      json: jest.fn().mockResolvedValue({ user: { _id: '12345' } }), // Ajuste para retornar um ID de usuário
+    };
+    global.fetch = jest.fn().mockResolvedValue(mockResponse);
 
     const { getByText, getByPlaceholderText } = render(<Login />);
 
