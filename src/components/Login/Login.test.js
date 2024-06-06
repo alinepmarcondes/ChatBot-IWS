@@ -62,7 +62,7 @@ describe('Testing Error Responses - Login Component Integration Tests', () => {
 describe('Testing Successful Workflow - Login Component Integration Tests', () => {
   it('navigates to /chat when fields are correctly filled', async () => {
     const navigateMock = jest.fn();
-    useNavigate.mockImplementation(() => navigateMock);
+    require('react-router-dom').useNavigate.mockImplementation(() => navigateMock);
 
     // Simular que a validação de entrada retorna true
     validateInputs.mockImplementation((login, password, setErrorMessage) => true);
@@ -70,7 +70,7 @@ describe('Testing Successful Workflow - Login Component Integration Tests', () =
     // Simular uma resposta bem-sucedida do servidor
     const mockResponse = {
       ok: true,
-      json: jest.fn().mockResolvedValue({}),
+      json: jest.fn().mockResolvedValue({ user: { _id: '12345' } }), // Ajuste para retornar um ID de usuário
     };
     global.fetch = jest.fn().mockResolvedValue(mockResponse);
 
