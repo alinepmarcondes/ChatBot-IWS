@@ -29,17 +29,36 @@ function Manual({ onClose }) {
         <div className="manual-topics">
           <h2>Manual topics</h2>
           <ul>
-            <li><a href="#">Cotação Online Mobile</a></li>
-            <li><a href="#">Cotação Online Web</a></li>
-            <li><a href="#">EasyCash</a></li>
-            <li><a href="#">EasyCheckOut</a></li>
-            <li><a href="#">Instalação Web Service</a></li>
-            <li><a href="#">IntelliCash</a></li>
-            <li><a href="#">Intelligroup Mobile</a></li>
-            <li><a href="#">Intelligroup Web</a></li>
-            <li><a href="#">IntelliStock</a></li>
-            <li><a href="#">Intelliweb</a></li>
-            <li><a href="#">Venda assistida</a></li>
+            <li class="level1"><div class="li"> <strong>Cotação Online</strong></div>
+            <ul>
+            <li class="level2"><div class="li"> <a href="https://wiki.iws.com.br/doku.php?id=manuais:cotacao:mobile" class="wikilink1" target="_blank" title="manuais:cotacao:mobile" rel="noreferrer">Mobile</a></div>
+            </li>
+            <li class="level2"><div class="li"> <a href="https://wiki.iws.com.br/doku.php?id=manuais:cotacao:web" class="wikilink1" target="_blank" title="manuais:cotacao:web" rel="noreferrer">Web</a></div>
+            </li>
+            </ul>
+            </li>
+            <li class="level1"><div class="li"> <a href="https://wiki.iws.com.br/doku.php?id=easycash" class="wikilink1" target="_blank" title="easycash" rel="noreferrer">EasyCash</a></div>
+            </li>
+            <li class="level1"><div class="li"> <a href="https://wiki.iws.com.br/doku.php?id=easycheckout" class="wikilink1" target="_blank" title="easycheckout" rel="noreferrer">EasyCheckOut</a></div>
+            </li>
+            <li class="level1"><div class="li"> <a href="https://wiki.iws.com.br/doku.php?id=instalacao_web_service" class="wikilink1" target="_blank" title="instalacao_web_service" rel="noreferrer">Instalação Web Service</a></div>
+            </li>
+            <li class="level1"><div class="li"> <a href="https://wiki.iws.com.br/doku.php?id=intellicash" class="wikilink1" target="_blank" title="intellicash" rel="noreferrer">IntelliCash</a></div>
+            </li>
+            <li class="level1"><div class="li"> <strong>Intelligroup</strong></div>
+            <ul>
+            <li class="level2"><div class="li"> <a href="https://wiki.iws.com.br/doku.php?id=manuais:intelligroup:mobile" class="wikilink1" target="_blank" title="manuais:intelligroup:mobile" rel="noreferrer">Mobile</a></div>
+            </li>
+            <li class="level2"><div class="li"> <a href="https://wiki.iws.com.br/doku.php?id=manuais:intelligroup:web" class="wikilink1" target="_blank" title="manuais:intelligroup:web" rel="noreferrer">Web</a></div>
+            </li>
+            </ul>
+            </li>
+            <li class="level1"><div class="li"> <a href="https://wiki.iws.com.br/doku.php?id=intellistock" class="wikilink1" target="_blank" title="intellistock" rel="noreferrer">IntelliStock</a></div>
+            </li>
+            <li class="level1"><div class="li"> <a href="https://wiki.iws.com.br/doku.php?id=intelliweb" class="wikilink1" target="_blank" title="intelliweb" rel="noreferrer">Intelliweb</a></div>
+            </li>
+            <li class="level1"><div class="li"> <a href="https://wiki.iws.com.br/doku.php?id=manuais:vendaassistida:versao-1" class="wikilink1" target="_blank" title="manuais:vendaassistida:versao-1" rel="noreferrer">Venda Assistida</a></div>
+            </li>
           </ul>
         </div>
       </div>
