@@ -3,7 +3,8 @@ import "./Chat.css";
 import Manual from "../Manual/Manual";
 import ListIcon from "../icons/listIcon";
 import NewIcon from "../icons/newIcon";
-import { useNavigationState } from "../hooks/useNavigationState"; 
+import { useNavigationState } from "../hooks/useNavigationState";
+import llm from "../utils/lmStudio";
 
 function Chat() {
   const [showManual, setShowManual] = useState(false);
@@ -14,7 +15,11 @@ function Chat() {
   const navigationState = useNavigationState();
 
   useEffect(() => {
-    fetchChats(); 
+    llm();
+    }, []);
+
+  useEffect(() => {
+    fetchChats();
     if (navigationState.chat) {
       setCurrentChat(navigationState.chat);
     }
@@ -24,24 +29,26 @@ function Chat() {
     scrollToBottom();
   }, [currentChat]);
 
+  // Function to scroll to the bottom of the chat messages
   const scrollToBottom = () => {
     if (messagesEndRef.current) {
       messagesEndRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
+  // Function to add a new chat
   const addNewChat = async () => {
     try {
       if (inputValue.trim() !== "") {
         const content = [{ timestamp: String(new Date()), sender: 'user', message: inputValue }];
-        const userId = localStorage.getItem('userId');  // Obter o ID do usuário do localStorage
-  
+        const userId = localStorage.getItem('userId');
+
         const newChat = {
           title: inputValue.split(' ').slice(0, 5).join(' '),
           content: content,
-          userId: userId  // Incluir o ID do usuário
+          userId: userId
         };
-  
+
         const response = await fetch('http://localhost:5000/chats', {
           method: 'POST',
           headers: {
@@ -51,10 +58,10 @@ function Chat() {
         });
         const data = await response.json();
         const createdChat = data.chat;
-  
+
         setCurrentChat(createdChat);
         setChats([...chats, createdChat]);
-  
+
         console.log('Chat criado com sucesso!');
       } else {
         setCurrentChat(null);
@@ -64,9 +71,10 @@ function Chat() {
     }
   };
 
+  // Function to fetch chats for the logged-in user
   const fetchChats = async () => {
     try {
-      const userId = localStorage.getItem('userId');  // Obter o ID do usuário do localStorage
+      const userId = localStorage.getItem('userId');
       const response = await fetch(`http://localhost:5000/chats?userId=${userId}`);
       const data = await response.json();
       setChats(data);
@@ -75,6 +83,7 @@ function Chat() {
     }
   };
 
+  // Function to send a message within the current chat
   const sendMessage = async () => {
     if (inputValue.trim() !== "") {
       const newMessage = {
@@ -116,14 +125,17 @@ function Chat() {
     }
   };
 
+  // Function to open the manual
   const openManual = () => {
     setShowManual(true);
   };
 
+  // Function to close the manual
   const closeManual = () => {
     setShowManual(false);
   };
 
+  // Function to handle key down events (e.g., pressing Enter to send message)
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
       event.preventDefault();
@@ -131,6 +143,7 @@ function Chat() {
     }
   };
 
+  // JSX returned by the component
   return (
     <div className="chat-container">
       {showManual && <Manual onClose={closeManual} />}
