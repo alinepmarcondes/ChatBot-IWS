@@ -1,5 +1,3 @@
-// lmStudioExample.js
-
 const { LMStudioClient } = require("@lmstudio/sdk");
 
 async function llm() {

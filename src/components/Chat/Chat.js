@@ -16,7 +16,7 @@ function Chat() {
 
   useEffect(() => {
     llm();
-    }, []);
+  }, []);
 
   useEffect(() => {
     fetchChats();
@@ -28,6 +28,10 @@ function Chat() {
   useEffect(() => {
     scrollToBottom();
   }, [currentChat]);
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [currentChat.content]);
 
   // Function to scroll to the bottom of the chat messages
   const scrollToBottom = () => {
@@ -86,44 +90,64 @@ function Chat() {
   // Function to send a message within the current chat
   const sendMessage = async () => {
     if (inputValue.trim() !== "") {
-      const newMessage = {
-        timestamp: String(new Date()),
-        sender: 'user',
-        message: inputValue
-      };
+        const newMessage = {
+            timestamp: String(new Date()),
+            sender: 'user',
+            message: inputValue
+        };
 
-      try {
-        if (!currentChat) {
-          await addNewChat();
-        } else {
-          const updatedChats = [...chats];
-          const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
-          if (updatedChatIndex !== -1) {
-            const updatedChat = {
-              ...updatedChats[updatedChatIndex],
-              content: [...updatedChats[updatedChatIndex].content, newMessage]
-            };
-            updatedChats[updatedChatIndex] = updatedChat;
-            setChats(updatedChats);
-            setCurrentChat(updatedChat);
+        try {
+            if (!currentChat) {
+                await addNewChat();
+            } else {
+                const updatedChats = [...chats];
+                const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
+                if (updatedChatIndex !== -1) {
+                    const updatedChat = {
+                        ...updatedChats[updatedChatIndex],
+                        content: [...updatedChats[updatedChatIndex].content, newMessage]
+                    };
+                    updatedChats[updatedChatIndex] = updatedChat;
+                    setChats(updatedChats);
+                    setCurrentChat(updatedChat);
 
-            await fetch(`http://localhost:5000/chats/${currentChat._id}/content`, {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json'
-              },
-              body: JSON.stringify(newMessage)
-            });
-            console.log('Mensagem enviada com sucesso!');
-          }
+                    const responseStream = await llm(inputValue);
+
+                    let responseMessage = "";
+                    for await (const fragment of responseStream) {
+                        responseMessage += fragment;
+
+                        const botMessage = {
+                            timestamp: String(new Date()),
+                            sender: 'bot',
+                            message: responseMessage
+                        };
+
+                        // Update the current chat state with the new fragment
+                        updatedChats[updatedChatIndex].content = [...updatedChat.content, botMessage];
+                        setChats([...updatedChats]);
+                        setCurrentChat({ ...updatedChat, content: [...updatedChat.content, botMessage] });
+                    }
+
+                    // Save the final response to the backend
+                    await fetch(`http://localhost:5000/chats/${currentChat._id}/content`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ ...newMessage, sender: 'bot', message: responseMessage })
+                    });
+                    console.log('Mensagem enviada com sucesso!');
+                }
+            }
+        } catch (error) {
+            console.error('Erro ao enviar mensagem:', error);
         }
-      } catch (error) {
-        console.error('Erro ao enviar mensagem:', error);
-      }
 
-      setInputValue("");
+        setInputValue("");
     }
   };
+
 
   // Function to open the manual
   const openManual = () => {
@@ -157,20 +181,20 @@ function Chat() {
         </button>
       </div>
       <div className="chat-body">
-        <div className="chat-messages">
-          {currentChat && currentChat.content.map((message, index) => (
+      <div className="chat-messages">
+        {currentChat && currentChat.content.map((message, index) => (
             <div
-              key={index}
-              className={`message-box ${message.sender === 'user' ? "sent" : "received"}`}
+                key={index}
+                className={`message-box ${message.sender === 'user' ? "sent" : "received"}`}
             >
-              <div className="message-text">{message.message}</div>
-              <div className="message-info">
-                <span className="timestamp">{new Date(message.timestamp).toLocaleString()}</span>
-              </div>
+                <div className="message-text">{message.message}</div>
+                <div className="message-info">
+                    <span className="timestamp">{new Date(message.timestamp).toLocaleString()}</span>
+                </div>
             </div>
-          ))}
-          <div ref={messagesEndRef} />
-        </div>
+        ))}
+        <div ref={messagesEndRef} />
+      </div>
         <div className="chat-input">
           <input
             type="text"
