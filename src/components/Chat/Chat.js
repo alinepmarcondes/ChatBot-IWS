@@ -3,7 +3,8 @@ import "./Chat.css";
 import Manual from "../Manual/Manual";
 import ListIcon from "../icons/listIcon";
 import NewIcon from "../icons/newIcon";
-import { useNavigationState } from "../hooks/useNavigationState"; 
+import { useNavigationState } from "../hooks/useNavigationState";
+import llm from "../utils/llm";
 
 function Chat() {
   const [showManual, setShowManual] = useState(false);
@@ -14,7 +15,11 @@ function Chat() {
   const navigationState = useNavigationState();
 
   useEffect(() => {
-    fetchChats(); 
+    llm(); // Initial call to ensure the model is loaded
+  }, []);
+
+  useEffect(() => {
+    fetchChats();
     if (navigationState.chat) {
       setCurrentChat(navigationState.chat);
     }
@@ -23,6 +28,10 @@ function Chat() {
   useEffect(() => {
     scrollToBottom();
   }, [currentChat]);
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [currentChat?.content]);
 
   const scrollToBottom = () => {
     if (messagesEndRef.current) {
@@ -34,14 +43,14 @@ function Chat() {
     try {
       if (inputValue.trim() !== "") {
         const content = [{ timestamp: String(new Date()), sender: 'user', message: inputValue }];
-        const userId = localStorage.getItem('userId');  // Obter o ID do usuário do localStorage
-  
+        const userId = localStorage.getItem('userId');
+
         const newChat = {
           title: inputValue.split(' ').slice(0, 5).join(' '),
           content: content,
-          userId: userId  // Incluir o ID do usuário
+          userId: userId
         };
-  
+
         const response = await fetch('http://localhost:5000/chats', {
           method: 'POST',
           headers: {
@@ -51,10 +60,10 @@ function Chat() {
         });
         const data = await response.json();
         const createdChat = data.chat;
-  
+
         setCurrentChat(createdChat);
         setChats([...chats, createdChat]);
-  
+        setInputValue("");
         console.log('Chat criado com sucesso!');
       } else {
         setCurrentChat(null);
@@ -66,7 +75,7 @@ function Chat() {
 
   const fetchChats = async () => {
     try {
-      const userId = localStorage.getItem('userId');  // Obter o ID do usuário do localStorage
+      const userId = localStorage.getItem('userId');
       const response = await fetch(`http://localhost:5000/chats?userId=${userId}`);
       const data = await response.json();
       setChats(data);
@@ -98,18 +107,22 @@ function Chat() {
             setChats(updatedChats);
             setCurrentChat(updatedChat);
 
-            await fetch(`http://localhost:5000/chats/${currentChat._id}/content`, {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json'
-              },
-              body: JSON.stringify(newMessage)
-            });
-            console.log('Mensagem enviada com sucesso!');
+            // Call the llm function to get the response
+            const botResponse = await llm(inputValue);
+
+            const botMessage = {
+              timestamp: String(new Date()),
+              sender: 'bot',
+              message: botResponse
+            };
+
+            updatedChats[updatedChatIndex].content = [...updatedChat.content, botMessage];
+            setChats([...updatedChats]);
+            setCurrentChat({ ...updatedChat, content: [...updatedChat.content, botMessage] });
           }
         }
       } catch (error) {
-        console.error('Erro ao enviar mensagem:', error);
+        console.error('Error sending message:', error);
       }
 
       setInputValue("");
