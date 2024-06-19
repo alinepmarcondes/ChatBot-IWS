@@ -1,8 +1,7 @@
-const path = require('path');
+import data from './embeddings.json';
+import { ChromaClient } from "chromadb";
 const axios = require('axios');
 const LMStudioClient = require('@lmstudio/sdk');
-const ChromaClient = require('chromadb').Client;
-const ChromaSettings = require('chromadb').Settings;
 
 // Function to get text embeddings
 async function getTextEmbeddings(text, modelIdentifier, serverUrl = 'http://localhost:1234') {
@@ -29,11 +28,8 @@ async function getTextEmbeddings(text, modelIdentifier, serverUrl = 'http://loca
     }
 }
 
-function loadEmbeddings(jsonPath) {
-    // Using require to load the JSON data
-    const metadata = require(jsonPath);
-
-    const embeddings = metadata.map((data, idx) => ({
+function loadEmbeddings() {
+    const embeddings = data.map((data, idx) => ({
         embedding: data.embedding,
         id: data.id,
         metadata: data.metadata
@@ -44,9 +40,9 @@ function loadEmbeddings(jsonPath) {
 
 // Function to initialize Chroma and insert embeddings
 async function initializeChromaAndInsertEmbeddings(embeddings) {
-    const settings = new ChromaSettings();
-    const client = new ChromaClient(settings);
-    const collection = await client.createCollection('iws_sistemas', true);
+
+    const chroma = new ChromaClient({ path: "http://localhost:8000" });
+    const collection = await chroma.createCollection({ name: "iws_sistemas"});
 
     for (const record of embeddings) {
         await collection.add({
@@ -72,8 +68,7 @@ async function llm(userInput) {
     const modelIdentifier = "nomic-ai/nomic-embed-text-v1.5-GGUF/nomic-embed-text-v1.5.Q5_K_M.gguf";
 
     // Load embeddings from files
-    const jsonPath = path.resolve(__dirname, './embeddings.json');
-    const embeddings = loadEmbeddings(jsonPath);
+    const embeddings = loadEmbeddings();
 
     // Initialize Chroma and insert embeddings
     const collection = await initializeChromaAndInsertEmbeddings(embeddings);
@@ -116,5 +111,4 @@ async function llm(userInput) {
     }
     return response;
 }
-
-module.exports = llm;
+export default llm;
