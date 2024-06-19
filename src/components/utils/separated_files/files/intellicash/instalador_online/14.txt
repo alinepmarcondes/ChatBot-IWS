@@ -1,0 +1,9 @@
+Title: Código 002
+
+Content:
+Mensagem de erro: //Erro na conexão com o servidor!//
+
+Soluções possíveis:
+* Verique se há conexão de Internet.
+* Verique se Serivor IWS está online.
+* Verique as configurações de proxy e o firewall.

@@ -1,0 +1,20 @@
+Title: = Relatório de Agendamentos não Sincronizados
+
+Content:
+=
+
+----
+
+Foi criado o Relatório de Agendamentos não Sincronizadas para auxiliar clientes que usam a Sincronização entre Matriz e Filiais a acompanhar a sincronização de dados.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Agendamentos não Sincronizados||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Neste relatório o usuário irá selecionar a Empresa que deseja verificar quais os agendamentos (contas a receber/pagar) que estão para serem sincronizados. Ao aplicar o sistema irá conectar na Empresa solicitada para verificar dados pendentes.

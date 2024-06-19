@@ -1,0 +1,14 @@
+Title: == Promoções Especiais
+
+Content:
+==
+
+----
+
+As chamadas **Promoções Especiais** são promoções em que os usuários podem criar condições especificas para conceder descontos diferenciado aos clientes.\\
+
+Esse tipo de promoção não altera o preço do produto como a promoção tradicional, o valor promocional é obtido a partir do desconto dado no item.\\
+
+
+
+----

@@ -1,0 +1,22 @@
+Title: = Apuração dos Documentos Fiscais
+
+Content:
+=
+
+
+
+Na parte superior da tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+* **Exportar:** Para exportar os dados do relatório para um arquivo pdf.
+* **Bloquear Lançamentos:** Marcar esta opção bloqueia todos os lançamentos financeiro no periodo que estará apurando o ICMS.
+
+Nesta interface há 4 tabelas, a primeira mostra todos os CFOPs de entradas e os seus dados.
+
+Na segunda tabela mostra as naturezas operacionais dos CFOPs de entradas. No fim desta tabela mostra os valores totalizados.
+
+A terceira tabela mostra todos os CFOPs de saídas e os seus dados.
+
+Por fim, a quarta tabela mostra as naturezas operacionais dos CFOPs de saídas e os seu dados. No fim desta tabela mostra os valores totalizados.

@@ -1,0 +1,8 @@
+Title: = Sugestão de compra
+
+Content:
+=
+
+1 - Menu Pedido->Sugestão de Compra.
+
+Para realizar pedidos na tela de sugestão de compra, o usuário deverá clicar sobre a sugestão de compra desejada conforme demonstra a figura abaixo.

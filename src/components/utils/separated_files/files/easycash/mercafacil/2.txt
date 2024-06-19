@@ -1,0 +1,6 @@
+Title: = Dependências
+
+Content:
+=
+
+Para realizar a sincronização dos dados do sistema para a plataforma do Mercafacil deve-se colocar o sincronizador dentro da pasta IWS:

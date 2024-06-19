@@ -1,0 +1,26 @@
+Title: Aplicando Preço Detalhado
+
+Content:
+Além de aplicar o preço detalhado atráves da tela de cadastrado é possivel aplicar também na tela de atributos, no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Atributos||
+
+Clicando com o botão direito sobre um atributo e escolhendo a opção Preço Detalhado, será aberta uma janela para escolha do Preço Detalhado que deseja aplicar, ao aplicar o preço detalhado por essa opção será aplicada em todos os itens do atributo. \\
+
+
+
+Caso o usuário deseja aplicar o preço detalhado só para alguns itens do atributo, bastar selecionar o atributo, ir até a aba Produtos e selecionar os produtos que deseja aplicar, após selecionar basta fazer o mesmo procedimento citado acima para aplicar o preço detalhado. \\
+
+Se o banco for multi empresa o sistema mostrará uma mensagem informando se o usuário deseja replicar para todas as empresas.
+
+
+
+Quando replico o preço para todas as empresas, se o produto estiver sem custo para determinada empresa será dado uma mensagem informativa avisando que o produto não foi inserido.
+
+
+
+Também foi adicionado a opção de aplicar o preço detalhado na inteface Geral de produtos, no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→Geral||
+
+Nessa inteface funciona da mesma forma da tela de atributos, basta selecionar os produtos que deseja aplicar a tabela e clicar com botão direito sobre a opção "//**Preço Detalhado**//".

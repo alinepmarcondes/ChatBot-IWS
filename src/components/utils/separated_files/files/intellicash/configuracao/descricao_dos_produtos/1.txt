@@ -1,0 +1,28 @@
+Title: == Configuração da Descrição dos Produtos
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de criar uma configuração automática para que, ao cadastrar um produto, crie uma pré definição da descrição dos produtos.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Descrição dos Produtos||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os tipos de descrição:
+
+* **Livre** escolhendo essa função, ao cadastrar um produto será livre ao cliente preencher a descrição;
+* **Automática** ao escolher essa opção, a descrição dos produtos será automaticamente criada, e também alterará a descrição de produtos já cadastrados no sistema;
+* **Sugestão Automática** ao escolher esta opção o sistema irá sugerir uma descrição, mais não mudará automaticamente;
+
+Ao escolher a opção automática ou sugestão automática, é necessário criar a configuração nas duas colunas abaixo. À esquerda são os itens da descrição que mudará automaticamente, e à direita os itens disponíveis, para escolher os itens que estarão na descrição basta selecionar um item da coluna direita e clicar na seta à esquerda e para fazer o contrário basta selecionar o item da coluna à esquerda e clicar na seta a direita.
+
+Após selecionados os itens que estarão na descrição , há um nível de prioridade ou ordem do itens da descrição. Para colocar um atributo em primeiro basta clicar na seta para cima e para colocar um atributo em ultimo, basta selecionar a seta para baixo, esta ordem influencia no nome da descrição da descrição do produto.

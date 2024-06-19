@@ -1,0 +1,31 @@
+Title: = Cadastro de Preço Detalhado
+
+Content:
+=
+
+Antes de cadastrar o preço detalhado é preciso cadastrar os detalhes que podem fazer parte dele, para isso basta ir no menu em: 
+
+||Gerenciamento->Configurações->Geral||
+
+É necessário localizar o item "//**Preços Detalhado**//" e cadastrar os seu Sub-Itens.
+ \\
+
+Após fazer o cadastro dos detalhes, basta ir no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Preços Detalhado||
+
+ \\
+
+Ao clicar em novo será aberta uma interface para o usuário digitar o nome do Preço Detalhado e as porcentagens dos itens que iram compor. Caso tenha algum item que o usuário não queira que faça parte do preço detalhado, basta deixar esse item sem valor e clicar em gravar para salvar.
+
+ \\
+
+No grid da esquerda são exibidos os preços detalhados cadastrados, ao selecionar um item, no lado direito temos duas abas, a primeira, "//**Detalhes**//", mostra os detalhes que compõem o preço detalhado e suas porcentagens, a outra, "//**Produtos**//", mostra os produtos que estão associados ao preço detalhado. Na aba Produtos existe dois botões, "//**Adicionar Produto**//" e "//**Remover Produto**//" que permitem ao usuário adicionar ou remover itens. Ao adicionar um produto automaticamente o preço já é alterado de acordo com a porcentagem dao preço detalhado. Essa alteração é feita com o calculo do Markup-Down (//[CUSTO/ ([100 - Porcentagem_Tabela] / 100)//).
+
+
+
+Se o banco for multi empresa o sistema mostrará uma mensagem informando se o usuário deseja replicar para todas as empresas.
+
+
+
+Quando replico o preço para todas as empresas, se o produto estiver sem custo para determinada empresa será dado uma mensagem informativa avisando que o produto não foi inserido.

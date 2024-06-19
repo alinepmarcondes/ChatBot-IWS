@@ -1,0 +1,16 @@
+Title: = Kits e Produção
+
+Content:
+=
+
+
+
+A aba "//**Kits e Produção**//" tem a função de criar um kit de vários produtos ou um tipo de produção que possa agregar valor neste produto.
+
+* **Kit (cesta)**
+* **Produto manual (com ordem de produção)**
+* **Produção automática (sem ordem de produção)**
+* **Desmembramento**
+* **Produção Vasilhame**
+
+Abaixo há uma pequena janela mostrando a descrição de todos os tipos citados e há o botão "//**Novo**//" para criar um novo tipo de kit/produção. lembrando que só é possível escolher um tipo de kit/produção;

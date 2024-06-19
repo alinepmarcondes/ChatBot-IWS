@@ -1,0 +1,4 @@
+Title: Usuários
+
+Content:
+Para acessar a tela **Cadastro de usuários** clique no menu **Cadastrar** e depois em **Usuários**.

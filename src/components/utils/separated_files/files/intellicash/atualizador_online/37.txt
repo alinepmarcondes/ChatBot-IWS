@@ -1,0 +1,21 @@
+Title: Código 501
+
+Content:
+Mensagem de erro: //Não há espaço suficiente em disco para realizar a cópia de segurança!//
+
+Procedimentos realizados:
+* Download dos Arquivos;
+* Extraídos os arquivos baixados;
+* Alterado o modo do Banco de Dados para o modo //**ShutDown**//;
+
+Erro no procedimento: 
+* Realizar cópia de segurança do Banco de Dados;
+
+Soluções possíveis: 
+* Libere espaço em disco;
+* Verifique tem backups do Banco de Dados das últimas atualizações.
+
+Realize estes procedimentos a seguir:
+* Finalize o programa de atualização;
+* Faça possíveis soluções;
+* Tente executar o //**Atualizador Online**// novamente.

@@ -1,0 +1,30 @@
+Title: == Sugestão de Compras
+
+Content:
+==
+
+----
+
+Esta ferramenta tem por objetivo auxiliar o varejista na tomada de decisão para a compra de mercadoria baseando em períodos.
+É valido lembrar que se trata apenas de uma sugestão baseando na movimentação interna do supermercado.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Compras→Sugestão de Compras||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes botões:
+
+* **Tipo:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Categoria:** Para selecionar uma categoria do atributo selecionado;
+- Período Para o Pedido: onde irá informar a data em que desejará realizar o pedido(geralmente um período futuro).
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Margem Seg.:** Para informar uma margem de segurança adicional para sugestão do preço;
+- Basear Sugestão nas Vendas dos Seguintes Períodos: onde irá informar os períodos anteriores para o sistema basear-se nesse periodo para gerar o relatório.
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* : Para Enviar à coluna ao lado os períodos que serão baseados a movimentação;

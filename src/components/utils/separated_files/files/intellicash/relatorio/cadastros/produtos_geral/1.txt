@@ -1,0 +1,52 @@
+Title: == Relatório Geral de Produtos
+
+Content:
+==
+
+----
+
+Esta ferramenta mostra um relatório geral dos produtos, mostrando todas as suas informações. Nesta interface pode-se alterar alguns campos e o mesmo será alterado no cadastro do produto.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→Geral||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte inferior desta tela há os seguintes campos:
+
+* **Permitir Seleção Múltipla:** Marcar esta opção permite selecionar vários produtos;
+* **Alterar Automaticamente a Descrição Sucinta:** marcar esta opção, ao alterar a descrição do produto nesta interface alterará também a descrição sucinta do produto automaticamente;
+* **Busca:** para pesquisar um produto em específico;
+* **Etiquetas:** para imprimir etiqueta do(s) produto(s) selecionado(s);
+
+Ao clicar com o botão direito do mouse sobre a tela mostra alguma opções:
+
+
+
+* **Alterar MVA(Ctrl+V):** Para alterar o MVA dos produtos;
+* **Alterar Tributação(Ctrl+T):** Para alterar a tributação dos produtos;
+* **Alterar Grupo(Ctrl+G):** Para alterar o grupo dos produtos;
+* **Alterar SubGrupo(Ctrl+B):** Para alterar o subgrupo dos produtos;
+* **Alterar Marca(Ctrl+M):** Para alterar a marca dos produtos;
+* **Alterar Seção(Ctrl+S):** Para alterar a seção dos produtos;
+* **Alterar Coleção(Ctrl+C):** Para alterar a coleção dos produtos;
+* **Alterar Fabricante(Ctrl+F):** Para alterar o fabricante dos produtos;
+* **Alterar Cód. NCM(Ctrl+N):** Para alterar o código NCM dos produtos;
+* **Alterar Estoque Mínimo(Ctrl+I):** Para alterar o estoque mínimo dos produtos;
+* **Alterar Estoque Máximo(Ctrl+X):** Para alterar o esroque máximo dos produtos;
+* **Alterar MarkUp Padrão(Ctrl+K):** Para alterar o markup padrão dos produtos;
+* **Alterar Finalidade(Ctrl+X):** Para alterar a finalidade dos produtos;
+* **Permitir Multiplicar PDV:** Para permitir a multiplicação dos produtos no PDV;
+* **Produto de Cotação:** Para informar se os produtos são de cotação;
+* **Alterar Pis/Cofins:** Para alterar a tributação de Pis e Cofins dos produtos;
+* **Cadastrar/Alterar MarkUp Padrão:** Para cadastrar ou alterar o markup padrão dos produtos;
+* **Alterar Código CEST:** Para alterar o código CEST dos produtos;
+* **Reclassificar Centro de Custo:** Para reclassificar o centro de custo dos produtos;
+* **Acabamento:** Para informar um acabamento para o produto;
+* **Preço Detalhado:** Preço Detalhado é uma ferramenta que permite ao usuário customizar a forma de compor o preço dos produtos;
+* **Excluir Centro de Custo:** Para excluir o centro de custo do produto;

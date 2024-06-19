@@ -1,0 +1,22 @@
+Title: = Exportando
+
+Content:
+=
+
+Para exportar uma tabela, uma vez que já temos configurado nosso layout de Exportação configurado, podemos carregar uma lista de produtos selecionando um filtro de produtos:
+
+
+
+Podemos também definir o diretório onde será salvo o arquivo de exportação.
+
+Os botões **“Aplicar”** e **“Recarregar”** fazem o mesmo papel de aplicar os filtros e recarregar a lista de produtos de acordo com as configurações.
+
+Antes de Exportar podemos definir quais produtos serão exportados selecionando a coluna **“Expt.”** como mostra a figura abaixo:
+
+
+
+Há ainda um facilitador de seleção que pode ser utilizado clicando com o botão direito na tabela onde teremos as opções Marcar Todas, Desmarcar Todas e Inverter Seleção.
+
+
+
+O botão** “Exportar”** abrirá uma caixa de dialogo perguntando qual será o nome do arquivo a ser salvo e o diretório, que a princípio será o escolhido na barra **Destino** que se encontra na parte superior da janela de exportação.

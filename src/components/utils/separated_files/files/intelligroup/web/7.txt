@@ -1,0 +1,12 @@
+Title: == Recuperar senha
+
+Content:
+==
+
+Para recuperar a senha o usuário deverá clicar no link "Esqueceu a senha?" na tela de login. 
+
+Será aberto um formulário onde deverá ser informado o nome de usuário e o documento (CPF ou CNPJ) do associado.
+
+
+
+Para concluir, o usuário deverá clicar sobre o botão Recuperar. Se as informações estiverem corretas, será enviado uma notificação para o e-mail de cadastro do associado com a nova senha.

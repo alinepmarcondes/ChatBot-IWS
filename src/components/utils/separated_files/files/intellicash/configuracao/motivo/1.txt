@@ -1,0 +1,25 @@
+Title: == Configurar Motivos
+
+Content:
+==
+
+----
+
+Esta tela serve para criar uma parametrização para os motivos de devolução e perda de mercadoria.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Motivo||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte inferior desta tela há os seguintes botões:
+
+* **Novo Sub Item:** para criar um novo motivo de devolução/perda, e ao clicar neste botão é necessário informar a descrição do motivo;
+* **Alterar:** para alterar a descrição do motivo selecionado;
+* **Excluir:** para excluir um motivo selecionado;
+* **Fechar:** para sair desta tela;

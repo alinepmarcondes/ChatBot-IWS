@@ -1,0 +1,10 @@
+Title: Novo/Alterar
+
+Content:
+Exibe uma janela para cadastro ou edição dos dados do tanque.
+
+
+
+* **Descrição:** Onde é inserido o nome do Tanque. Esta caixa "Novo Tanque" apresenta-se tanto para cadastrar um **Novo** tanque quanto para **Alterar** um tanque já cadastrado;
+* **Tamanho:** É o campo onde é descrita a capacidade volumétrica do tanque.
+* **Observações:** Campo para inserir outras observações.

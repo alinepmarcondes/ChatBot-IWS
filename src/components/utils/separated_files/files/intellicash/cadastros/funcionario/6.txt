@@ -1,0 +1,41 @@
+Title: Dados Adicionais
+
+Content:
+A aba "//**Dados Adicionais**//" mostram os dados adicionais do funcionário, em janelas, pode maximizar ou minimizar essas telas de acordo com o que deseja e também pode adicionar dados, alterar e excluir, se desejar.
+
+
+
+Existem também os seguintes botões para as operações a seguir em cada janela se disponível:
+
+*Para adicionar dados do funcionário;
+*Para alterar dados do funcionário;
+*Para excluir dados do funcionário;
+
+Ao clicar no botão "//**Alterar**//" ou "//**Adicionar**//" em uma determinada janela, esta abrirá a mesma interface de cadastro visto anteriormente na tela de cadastros.
+
+Na primeira janela, mostra os endereços do funcionário:
+
+
+
+Nesta aba existem dois botões distintos:
+
+*Para traçar a rota do endereço de seu cliente até o local de funcionamento de seu estabelecimento;
+*Mostrar no Google Maps o endereço do cliente;
+
+Na segunda janela, há à aba de contato do cliente, referente a telefones e emails:
+
+
+
+E de extrema importância o preenchimento dos dados adicionais, pois sem fica difícil em caso de necessidade de entrar em contato com o desejado funcionário ou mesmo na criação de algum tipo de relatório que necessite de informações como o endereço, telefone ou e-mail do mesmo. 
+
+Ao clicar no botão para adicionar um novo endereço aparecerá a seguinte interface:
+
+
+
+Nesta interface deverão ser preenchidos os campos “//**Tipo**//” (para informar o tipo de endereço do cliente), “//**CEP**//”, “//**Logradouro**//”, “//**Nº**//”, “//**Complemento**//”, “//**Bairro**//”, “//**Cidade**//”, “//**UF**//”, “//**País**//”, “//**Ponto de Referência**//”, “//**I.E. Isento**//” (no caso de ser uma pessoa jurídica) e “//**I.E.**//”.
+
+Ao clicar no botão para adicionar um novo telefone aparecerá a seguinte interface:
+
+
+
+Nesta interface deverão ser preenchidos os campos “//**Tipo**//” (para informar o tipo de telefone do cliente), “//**Telefone**//”, “//**Operadora**//” e “//**Contato**//”.

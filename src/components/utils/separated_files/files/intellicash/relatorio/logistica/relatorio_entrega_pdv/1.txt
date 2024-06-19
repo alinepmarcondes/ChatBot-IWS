@@ -1,0 +1,38 @@
+Title: == Relatório de Entrega do PDV
+
+Content:
+==
+
+----
+
+ Relatório criado para permitir visualizar detalhes das entregas agendadas por meio da [[manuais:intellicash:estoque:vendas:entrega_pdv|Ferramenta de Controle de Entrega do PDV]] e que já foram entregues ao cliente.
+
+----
+
+Para abrir este relatório basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Logística→Entregas Solicitadas no PDV||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado. Eles virão preenchidos com o intervalo de um dia, podendo ser alterado;
+* **Filtrar:** Para realizar a pesquisa;
+* **Limpar:** Para limpar os campos do filtro;
+
+Após efetuar a pesquisa, uma lista com todos registros encontrados será apresentada no campo "//**Registros**//". Esta lista permite persolizar seus filtros fazendo com que as linhas com conteúdo semelhante das colunas escolhidas sejam agrupadas. Desta forma, há a possibilidade de se extrair diversas informações invisíveis no leiaute padrão. 
+Para adicionar um novo filtro, basta arrastar o cabeçalho da coluna desejada à barra azul acima dela. Por exemplo, temos os registros preenchidos conforme a figura abaixo:
+
+
+
+Agora agrupada pela coluna "Bairro":
+
+
+
+Note que todas as entregas comuns ao mesmo bairro foram agrupadas e, para cada grupo, foi gerado um cabeçalho contendo o nome do bairro, o valor total e a quantidade de entrega efetuada.
+
+
+Por fim, há a possibilidade de imprimir os dados do grid ou de exportá-los para o Excel. 
+Para gerar uma **impressão**, basta filtar os dados pelo período desejado e clicar no botão "Imprimir". É possível configurar um leiaute de impressão personalizado. Para tanto, basta clicar com o botão direito do mouse sobre o botão "Imprimir" seguido pela opção "Configurar".
+Já para gerar uma **planilha do Excel**, basta clicar sobre o botão "Excel". Uma janela padrão do windows será aberta para escolha do caminho e nome do arquivo. A planilha, no formato xls, possuirá o leiaute apresentado na listagem principal ou seja, com os mesmos agrupamentos, colunas e filtros escolhidos.

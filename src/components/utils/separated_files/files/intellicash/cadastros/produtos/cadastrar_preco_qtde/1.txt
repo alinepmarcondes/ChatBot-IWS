@@ -1,0 +1,36 @@
+Title: == Cadastrar Preço Por Quantidade
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de facilitar o cadastro dos produtos que terão preço por quantidade.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Cadastrar Preço Por Quantidade||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao clicar neste botão automaticamente entrará na aba **seleção**.
+
+Na parte superior da tela há o campo de texto para pesquisar um produto por código ou descrição e as opções de pesquisa como:
+- Ao lado os botões para definir a pesquisa pelas palavras a escolher entre:
+* **Contendo**, se a palavra a ser pesquisada pode estar no começo meio ou fim;
+* **Iniciando**, se palavra a ser pesquisada estiver apenas no inicio da palavra;
+
+Feito uma pesquisa após apertar enter aparecerá a lista de resultados da pesquisa e o curso do teclado já partirá automaticamente para os produtos sem precisar do mouse e, após selecionar o produto e apertar enter, o curso já irá para a caixa de texto novo preço para alterar o preço e, após apertar enter novamente o item estará selecionado ou ao clicar no botão **selecionar** realizará a mesma operação.
+
+Ao clicar na aba itens aparecerá a seguinte tela:
+
+
+
+Nesta tela mostra todos os itens alterados na tela anterior para confirmação já que por um sistema rápido e prático pode haver erros imperceptíveis e nesta tela há os seguintes botões
+* **Excluir** para excluir algum item da lista selecionado;
+* **Cancelar** para cancelar e fechar esta operação;
+* **Confirmar** para salvar e confirmar a operação;

@@ -1,0 +1,59 @@
+Title: Tipos de Promoções Especiais
+
+Content:
+Os tipos de **Promoções Especiais** são:\\
+**Item de Presente**\\
+Ao levar um combo de itens, alguns serão de presente. (Existem itens diversos) \\
+Exemplos: \\
+• Na compra de 3 sabonetes, ganhe uma esponja.\\
+• Na compra de um Shampoo e um condicionador, ganhe um creme para mãos de presente.\\
+----
+**Pague X Leve Y**\\
+Levando uma quantidade de itens, alguns deles serão de presente.\\
+Exemplos: \\
+• Na compra de 3 sabonetes pague apenas 2.\\
+• Na compra de 15 cervejas pague apenas 10.\\
+
+----
+**Desconto Porcentual**\\
+Desconto porcentual em um ou mais itens do mesmo tipo.\\
+Exemplos: \\
+• Shampoo com 10% de desconto.\\
+• Na compra de 3 condicionadores, 10% de desconto.\\
+• Na compra de 2 desodorante, o segundo com 50% de desconto.\\
+
+Obs. O preço do produto não é alterado, de forma que, caso tenha algum reajuste no preço esse reajuste será considerado mesmo durante a promoção.\\
+
+----
+ **Combo com Desconto Porcentual**\\
+Desconto porcentual em kit ou parte dele.\\
+Exemplo: \\
+• Na compra de um shampoo e um desodorante, ganhe 25% de desconto no condicionador.\\
+• Na compra de um shampoo e um condicionador, ganhe 10% de desconto.\\
+
+Obs. Idem ao Desconto Porcentual\\
+
+----
+**Preço Fixo**\\
+Promoção com preço fixo, condicionado ou não com quantidade.\\
+Exemplo: \\
+• Na compra de um vinho pague R$35,00\\
+• Na compra de 6 cervejas pague R$18,00\\
+
+----
+**Combo de Preço Fixo**\\
+Promoção com preço fixo para um combo de itens.\\
+Exemplo: \\
+• Na compra de um shampoo e um condicionador pague R$10,00\\
+• Na compra de uma cerveja e dois copos pague R$15,00\\
+
+Obs.: idem ao Preço Fixo. Verificar se preço fixo pode ser em um dos itens \\
+
+----
+**Desconto Fixo**\\
+Na compra de um ou mais itens, ganhe um valor fixo de desconto.\\
+Exemplo:\\
+• Na compra de 3 potes de geleia, ganhe R$2,00 de desconto.\\
+
+Obs.: verificar se podem ser itens distintos.\\
+----

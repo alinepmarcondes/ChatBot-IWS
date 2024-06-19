@@ -1,0 +1,24 @@
+Title: = Localizar
+
+Content:
+=
+
+
+
+Nessa interface é possível localizar os agendamentos cadastrados ou cadastrar um novo orçamento.
+
+A localização pode ser feita de diversas formas, como:
+
+***Informando apenas uma descrição e a situação do agendamento:** Nesse caso o sistema irá localizar todos os agendamentos que contenham aquela descrição e que se encontrem na situação escolhida.
+***Informando apenas o Cliente:** Nesse caso o sistema irá listar todos os agendamentos desse cliente na situação escolhida.
+***Informando uma descrição, escolhendo um cliente e uma situação:** Nesse caso o sistema irá listar todos os agendamentos daquele cliente que contenham aquela descrição e que esteja naquela situação.
+***Informando um período:** Nesse caso o sistema irá listar todos os agendamentos de acordo com o tipo de período escolhido:
+- **Data de Cadastro:** Lista todos os agendamentos cadastrados no período que for passado.
+- **Data do Próx. Orçamento:** Lista todos os agendamentos que terão pedidos gerados no período que for passado.
+
+Ao escolher uma das opções listadas acima basta clicar no botão **__Aplicar__** para listar os dados na tela. \\
+**Botão Todos:** Nesse caso será listados todos os agendamentos, independente da situação, período ou cliente.
+
+
+
+**Botão Novo:** Ao clicar no botão novo será exibida uma interface para cadastrar um novo agendamento.\\

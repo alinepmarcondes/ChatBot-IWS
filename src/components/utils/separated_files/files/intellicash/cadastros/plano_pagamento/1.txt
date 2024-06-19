@@ -1,0 +1,43 @@
+Title: == Cadastrar Planos de Pagamento
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada para cadastrar os tipos de pagamento em que um cliente pode realizar:
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→cadastros→Planos de Pagamento||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os planos de pagamento cadastrados com os seus dados e abaixo há os dados das parcelas de uma forma de pagamento selecionada;
+
+Na parte inferior da tela há os seguintes botões:
+
+**Novo:** cria um novo plano de pagamento e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela é necessário preencher os campos abaixo com os seguintes atributos:
+
+* **Descrição:** defini o nome ou algum tipo de descrição para a nova forma de pagamento;
+* **Nº parcelas:** para informar quantas parcelas esta forma de pagamento poderá ter;
+* **Acréscimo %:** para informar se esta forma de pagamento terá algum acréscimo;
+* **Com entrada:** ao marcar esta opção, defini-se que esta forma de pagamento haverá entrada;
+* **Dia fixo:** ao marcar esta opção, defini-se que esta forma de pagamento terá um dia fixo para pagamento caso seja em parcelas;
+* **Intervalo:** para definir o intervalo de pagamento entre uma parcela e outra, em dias.
+* **Limite inferior:** para informar o valor mínimo de uma parcela;
+* **Limite superior:** para informar o valor máximo de uma parcela;
+
+**Alterar:** altera os dados do plano de pagamento e ao clicar neste botão aparecerá a mesma tela mostrada acima;
+
+**Excluir:** exclui um plano de pagamento selecionado;
+
+**Fechar:** fecha e salva todas as alterações feitas no sistema.

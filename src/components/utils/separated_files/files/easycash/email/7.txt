@@ -1,0 +1,12 @@
+Title: Retaguarda
+
+Content:
+Na tela de configuração do EasyCash no IntelliCash foi criada a aba **E-Mail** conforme a imagem a seguir:
+
+
+
+Ao clicar no botão **Alterar** será aberta para cada aba a tela para edição conforme as imagens:
+
+
+
+Ao exportar **CONFIGURAÇÃO** as informações acima serão enviadas para o frente de caixa.

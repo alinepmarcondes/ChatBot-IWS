@@ -1,0 +1,12 @@
+Title: = Sincronizador
+
+Content:
+=
+
+O sincronizador na parte financeira funcionará da seguinte forma:
+
+
+
+
+Neste exemplo o erro ocorreu na rotina 4 (Exportação dos Agendamentos) onde não foi associado o Centro de Custo na tela de Sincronização conforme mencionado no tópico Sincronização Matriz x Filial deste manual. \\
+Se caso der certo o envio de dados o sistema irá mostrar que o registro foi enviado com sucesso.

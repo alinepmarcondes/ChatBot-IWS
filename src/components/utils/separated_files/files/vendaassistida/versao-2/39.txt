@@ -1,0 +1,6 @@
+Title: == Configuração
+
+Content:
+==
+
+Para acessar a configuração, o usuário deverá acessar o menu lateral, deslizando o dedo na tela horizontalmente da esquerda para a direita na tela de orçamento.

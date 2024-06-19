@@ -1,0 +1,13 @@
+Title: == Beneficiamento Interno
+
+Content:
+==
+
+----
+
+No Beneficiamento Interno (Industrialização sob encomenda), a empresa recebe matéria prima de terceiros para industrialização.\\
+A característica marcante deste recurso é poder consumir durante o processo de produção a matéria prima que vem de clientes sem perder o controle do saldo da matéria-prima que pertence ao seu cliente e a quantidade de material que será devolvido, simbolicamente ou efetivamente.\\
+
+----
+
+**Beneficiado** : São os produtos resultado de um beneficiamento. Os de Beneficiamento Interno ainda tem a particularidade de que em sua composição foi utilizada matéria prima vinda do próprio cliente (terceiro). Esta matéria-prima não irá agregar custo ao produto final, uma vez que foi enviada a empresa pelo cliente, não foi comprada pela empresa\\

@@ -1,0 +1,13 @@
+Title: = Localizar
+
+Content:
+=
+
+A aba "//**Localizar**//" é uma ferramenta para localizar e cadastrar transportadoras.
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Localizar:** Para localizar uma transportadora;
+* **Novo:** para cadastrar uma nova transportadora.

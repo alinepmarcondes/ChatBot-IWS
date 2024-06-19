@@ -1,0 +1,28 @@
+Title: == Status do Cliente
+
+Content:
+==
+
+----
+
+Relatorio que permite filtrar os clientes por seu status.
+lembrando que é possivel configurar o status [[manuais:intellicash:configuracao:config_status|Clicando Aqui]].
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Clientes→Status Clientes||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes botões:
+
+* **Status:** para selecionar a situação do cliente com a empresa;
+* **Busca:** para realizar uma busca de um cliente em específico;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Após isso mostrará na tela os resultados da pesquisa com os clientes e na parte inferior da tela há o botão "//**Bloquear Selecionados**//" para bloquear os clientes, para isso é necessário selecionar o cliente marcando a opção e após isso clicar no botão para bloquear os clientes;

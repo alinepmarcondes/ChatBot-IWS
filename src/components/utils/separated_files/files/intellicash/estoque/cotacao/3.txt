@@ -1,0 +1,20 @@
+Title: = Itens
+
+Content:
+=
+
+
+
+Nessa aba é que serão adicionados os itens para a cotação.
+
+Nessa interface serão listados os itens que fazem parte da cotação, com seu código, descrição, QTDE Pedida (É a quantidade que deseja comprar), custo atual, seção e grupo.
+
+Na parte inferior da tela há os seguintes botões:
+
+* **Inserir:** Abre um interface para localizar um item no cadastro e insere na cotação;
+* **Item Genérico:** Insere um Item Genéricona cotação, um item que não está cadastrado. Serve para fazer a cotação de um item que você não sabe a marca, por exemplo: Fazer uma cotação de arroz para uma cesta básica, evocê que o mais barato possível, ai insere um item genérico com uma descrição ARROZ MAIS BARATO. Quando o fornecedor for fazer a cotação ao colocar o valor do produto ele precisa especificar qual produto é (Uma descrição para informar a qual arroz se refere aquele preço). Na hora de fazer o fechamento da cotação é preciso associar o Item Genérico a um produto cadastrado no sistema;
+* **Importar:** Importa um arquivo de texto contendo o código de barras e a quantidade separados por ponto e virgula, virgula ou pipe (; , |);
+* **Excluir:** Exclui um item da lista;
+* **Imprimir:** Imprime a relação de Itens da cotação;
+* **Exportar:** Exporta o código, descrição e a quantidade pedida dos itens para excel. Após salvar o arquivo o sistema pergunta se deseja enviar por e-mail;
+* **Lançamentos:** Efetua o lançamento manual por fornecedor. Ao clicar nesse botão será exibida a interface abaixo.\\ \\ Nessa interface deve-se informar um fornecedor no campo "__//Novo Fornecedor//__" e um "__//Prazo//__", este prazo é um prazo para pagamento. Ao inserir o fornecedor serão listados os itens no grid de baixo para que possa ser feita a cotação. Os únicos campos editáveis nesse grid é o __//Valor Final//__ e a __//Qtde Mínima//__ (A quantidade mínima é uma quantidade mínima que devera ser pedida para conseguir o preço cotado).

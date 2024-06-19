@@ -1,0 +1,28 @@
+Title: == Produtos SFA
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de adicionar ou remover produtos para a força de venda.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Produtos SFA||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tela há os seguintes botões:
+
+* **Tipo:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Filtro:** Para selecionar uma categoria do atributo selecionado;
+* **Mostrar Um Código Por Produto:** para mostrar apenas um código EAN por produto;
+* **Aplicar:** Para realizar a pesquisa;
+* **Gravar:** Para gravar as alterações feitas no sistema;
+
+Após isso mostrará o resultado da pesquisa na coluna há esquerda e na direita há todos os produtos que já estão selecionados para a força de venda. Para selecionar o produto para a força de venda basta selecionar o produto disponível e clicar sobre o botão que indica a seta para há direita e para retirar um produto da força de venda basta selecionar o mesmo e clicar com o botão que indica a seta à esquerda.

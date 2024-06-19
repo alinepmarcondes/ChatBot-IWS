@@ -1,0 +1,6 @@
+Title: == Integração com a API da DMCard
+
+Content:
+==
+
+A partir da versão 1.4.013.001 o sistema tornou-se integrado com a API da DMCard.

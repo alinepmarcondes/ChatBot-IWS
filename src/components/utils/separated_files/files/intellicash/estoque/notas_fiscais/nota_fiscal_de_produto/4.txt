@@ -1,0 +1,18 @@
+Title: 2. Sobre a Capa da Nota
+
+Content:
+Dados relacionados à capa da nota:
+
+* **Modelo:** Para informar o modelo da nota fiscal;
+* **Série:** Para informar a série da nota fiscal;
+* **Número:** Para informar o número da nota fiscal;
+* **Data Entrada/Saída:** Para informar a data de entrada da nota fiscal;
+
+* **Data Emissão:** Para informar a data de emissão da nota fiscal;
+* **CFOP (Receptor):** Para informar o CFOP do receptor;
+* **CFOP (Emitente):** Para informar o CFOP do emitente;
+* **Tipo NF**: Qual a finalidade da Nota Fiscal, pode ser:
+- NF-e normal;
+- NF-e Complementar;
+- NF-e de ajuste;
+- NF-e Devolução/Retorno.

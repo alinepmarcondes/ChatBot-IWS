@@ -1,0 +1,8 @@
+Title: == Integração com a API da Mercafacil
+
+Content:
+==
+
+
+
+A partir da versão 1.4.016.000 do Easycash, o sistema tornou-se integrado com a API da Mercafacil.

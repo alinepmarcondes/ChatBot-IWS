@@ -1,0 +1,37 @@
+Title: == Produtos Com Acabamento
+
+Content:
+==
+
+----
+
+Relatorio que permite visualizar os produtos com acabmentos. Além de permitir cadastrar novos produtos a acabamentos ja cadastrados.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→Produtos Com Acabamento||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há duas colunas, na primeira mostra todos os tipos de acabamento cadastrados no sistema, e na coluna abaixo mostra todos os produtos que estão vinculados ao acabamento selecionado.
+
+Na parte inferior desta tela há os seguintes botões:
+
+* **Add. Prod.:** Para adicionar um produto na lista de acabamentos que está selecionada. Ao clicar neste botão aparecerá a seguinte interface:
+
+
+
+Nesta tela basta pesquisar pelo produto, procurando por uma de suas características ou selecionar alguma classificação generalizada, e ao clicar com o botão direito, háverá a opção para adicionar o acabamento.
+
+
+
+Nesta interface basta selecionar o acabamento desejado.
+
+* **Add. Acab.:** Para adicionar um outro tipo de acabamento a um produto que esteja na lista de acabamentos. Ao clicar neste botão aparecerá a mesma interface para selecionar o acabamento citado acima.
+* **Excluir:** Para excluir um produto do acabamento;
+* **Permitir Seleção Múltipla:** para permitir múltipla seleção de produtos no grid;
+* **Imprimir:** para imprimir dados do acabamento;

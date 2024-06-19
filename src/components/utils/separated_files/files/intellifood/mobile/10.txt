@@ -1,0 +1,9 @@
+Title: Número de pessoas
+
+Content:
+Para alterar o número de pessoas da comanda clique no botãono canto superior direito e depois em **Nº de pessoas**, conforme demonstra a figura abaixo.
+
+
+
+
+Após alterar o número de pessoas para a comanda clique no botão **Ok** para concluir ou no botão **Cancelar**.

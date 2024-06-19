@@ -1,0 +1,29 @@
+Title: == Notas Fiscais Coletadas
+
+Content:
+==
+
+----
+
+Relatório que mostra as notas fiscais que foram coletadas de um recebimento de mercadoria.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Logística→Notas Fiscais Coletadas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Arquivo:** Para informar o caminho do arquivo xml da NF-e;
+* **Data:** Para informar a data de recebimento da nota fiscal;
+* **Carregar:** Irá carregar todas as informações do xml da nota;
+* **Exibir Todas as Notas Coletadas:** irá exibir todas as notas coletadas;
+* **CNPJ:** Para informar o CNPJ da empresa;
+* **Número:** Para informar ;
+
+Após realizada a pesquisa será informada na primeira coluna as notas fiscais coletadas e na segunda coluna os itens da nota selecionada na coluna acima.

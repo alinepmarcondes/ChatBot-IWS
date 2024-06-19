@@ -1,0 +1,8 @@
+Title: = Aba Cadastro
+
+Content:
+=
+
+Aqui iremos configurar se o sistema de frente de caixa irá validar o código de barras do EAN,o código da balança e a sua quantidade de dígitos que por padrão virá marcada como 14, ou seja, o sistema de frente de caixa irá trabalhar com 14 dígitos estabelecidos pelas regras do PAF.
+
+Se marcada a opção **//Checksum do código de barra//**, o código irá passar por uma validação, ou seja, o dígito verificador será calculado com base nos primeiros dígitos do código. Se o valor calculado pelo algoritmo bater com o último dígito do código significa que o código de barras segue determinado padrão, tipo GTIN-14.

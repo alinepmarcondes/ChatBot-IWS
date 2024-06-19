@@ -1,0 +1,43 @@
+Title: = Cadastro
+
+Content:
+=
+
+A aba "//**Cadastro**//" tem a função de cadastrar, alterar ou excluir convênios;
+
+
+
+Na parte inferior há alguns botões:
+
+* **Novo** para cadastrar um novo convênio e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela a primeira coisa a se fazer é preencher o campo CPF/CNPJ para poder prosseguir com o cadastro, caso o CPF/CNPJ digitado no campo não esteja cadastrado no sistema, o próprio sistema envia uma mensagem para um rápido cadastro:
+
+
+
+Após clicar no botão sim para confirmar aparecerá a seguinte tela:
+
+
+
+Nesta tela basta preencher os botões corretamente e após isso clicar no botão "//**Ok**//" para confirmar ouse desejar "//**Cancelar**//" para cancelar a operação.
+
+Após selecionado uma empresa basta continuar o preenchimento do cadastro dos demais campos para prosseguir. Após isso há os botões ok para cadastrar o novo convênio e cancelar para cancelar e fechar esta operação.
+
+* **Alterar:** Para alterar os dados do convênio. Ao clicar nesta tela aparecerá a mesma interface do botão "//**Novo**//"
+* **Excluir:** Para excluir um convênio selecionado;
+* **Localizar** para localizar um convênio já cadastrado. Ao clicar neste botão aparecerá a seguinte interface:
+
+
+
+Nesta tela há o campo de texto a pesquisar um convênio, por nome ou documento. Há também a opção de marcação "//**Mostrar todos os convênios**//" que ao marcar ela lista todos os convênios cadastrados.\\
+Após localizado um convênio basta clicar no botão ok para confirmar. Após isso os dados do cadastro estarão preenchidos.
+
+
+
+Após localizado um convênio os botões "alterar" e "excluir" estão habilitados no sistema, e ao clicar no botão alterar aparecerá a mesma interface para criação de um novo convênio, e ao clicar no botão excluir aparecerá a seguinte mensagem:
+
+
+
+Há as opções "//**Sim**//", "//**Não**//" e "//**Cancelar**//" para esta operação.

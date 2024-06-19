@@ -1,0 +1,4 @@
+Title: Exibir Log
+
+Content:
+Exibe os logs gerados pela integração entre **IntelliCash** e **ScannTech**.

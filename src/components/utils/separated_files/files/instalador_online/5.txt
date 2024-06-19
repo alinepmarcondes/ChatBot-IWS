@@ -1,0 +1,4 @@
+Title: Aplicações em uso
+
+Content:
+A tela de //"Aplicações em uso"// será exibida somente se alguma aplicação marcada para instalação estiver em uso. Marque a opção //"Encerrar aplicações e continuar instalação. Recomendado"// e clique em //"Avançar"//.

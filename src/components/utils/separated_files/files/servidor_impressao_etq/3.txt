@@ -1,0 +1,72 @@
+Title: Layout de Etiqueta
+
+Content:
+O layout da etiqueta para o servidor reconhecer e traduzir para linguagem PPL deve seguir um padrão:
+Os parametros devem ser precedito por ;
+
+
+primeiro parametro é **TIPO**
+txt = Texto
+br = Código de Barras
+cx = Caixa
+ln = Linha
+
+Para o tipo **Texto** temos:
+**Orientação** {N,2,1,9} .: 
+N = Normal
+	2 = rotação 270 graus
+	1 = rotação 180 graus
+	9 = rotação 90 graus
+**Fonte**	{1 .. 6} .: de acordo com o index de fonte da impressora
+**Multiplicado Horizontal** : para aumentar horizontalmente a fonte
+**Multiplicado Vertical**	: para aumentar verticalmente a fonte
+**Horizontal** 	: posição horizontal inicial do texto
+**Vertical** 	: posição vertical inicial do texto
+**SubFonte**		: padrão 0 .: é o index de alguma fonte inserida pelo usuario na impressora, depende do modelo
+**Imprimir Reverso**: padrão 0 (Falso) .: caso seja eviado 1, faz impressão no negativo
+
+
+Para tipo **Código de Barras** temos:
+**Orientação** {N,2,1,9} .: 
+	N = Normal
+	2 = rotação 270 graus
+	1 = rotação 180 graus
+	9 = rotação 90 graus
+**Tipo** {0,1,2,3,4,5,6,7,8,9,10} .:
+	0= EAN13
+	1= EAN8
+	2= STANDARD
+	3= INTERLEAVED
+	4= CODE128
+	5= CODE39
+	6= CODE93
+	7= UPCA
+	8= CODABAR
+	9= MSI
+	10 = CODE11
+**LarguraBarraLarga**	: (padrão 2) propriedade especifica de alguns tipos de código de barras 
+**LarguraBarraFina**	: (padrão 2) propriedade especifica de alguns tipos de código de barras
+**Vertical**		: posição inicial verticalmente
+**Horizontal**		: posição inicial horizontalmente
+**Texto** 			: texto a ser escrito como codigo de barras
+**AlturaCodBarras** 	: altura do código de barras
+**ExibeCodigo** {0,1,2} .:
+	0 = Padrão
+	1 = SIM
+	2 = NÃO
+	
+
+Para tipo de **Caixa** temos:
+**Vertical**		: posição inicial vertical
+**Horizontal**		: posição inicial horizontal
+**Largura**			: largura da caixa
+**Altura**			: altura da caixa
+**EspessuraVertical**	: espessura da linha vertical
+**EspessuraHorizontal**	: espessura da linha horizontal
+**Canto**			: padrão 0
+
+Para tipo **Linha** temos:
+**Vertical**		: posição inicial vertical
+**Horizontal**		: posição inicial horizontal
+**Largura**			: largura da linha
+**Altura**			: altura da linha

@@ -1,0 +1,4 @@
+Title: Instalação do Intellicash
+
+Content:
+Assim que executado o instalador clique no botão **Próximo** porém atenção é recomendado que você feche todos os aplicativos antes de continuar a instalação.

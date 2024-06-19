@@ -1,0 +1,15 @@
+Title: Individual
+
+Content:
+A aba "//**Individual**//" é uma ferramenta usada para designar o que cada operador pode ou não fazer no frente de caixa.
+
+
+
+Nesta tela há duas colunas, à esquerda mostra todos os operadores de caixas do sistema e seu login de acesso ao sitema EasyCash. Na coluna à direita mostra as permissões disponíveis para cada operador.\\
+Para Alterar esses dados basta marcar ou desmarcar as permissões do operador. No caso do desconto máximo percentual basta selecionar o campo de texto e alterar o valor, após isso é necessário clicar no botão "//**Gravar**//" no canto inferior direito da tela.\\
+Feito isso as permissões do operador selecionado já estarão alteradas sendo necessário exportar para que os frentes de caixa carreguem as modificações.
+Para ver a exportação [[manuais:intellicash:cadastros:exportacao:easycash|Clique Aqui]]
+
+A permissão de "//**Venda Bloqueada**//" libera no frente de caixa, as vendas de clientes que estejam bloqueadas e libera venda, caso o produto não tenha estoque disponível.
+
+A aba "//**Geral**//" exibe todos os operadores de caixas cadastrados.

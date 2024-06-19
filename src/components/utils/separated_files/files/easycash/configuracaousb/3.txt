@@ -1,0 +1,30 @@
+Title: = Configuração da Elgin I9
+
+Content:
+=
+
+No aplicativo **Elgin Utility** deve-se estar mostrando o acesso a impressora normalmente conforme a imagem abaixo:
+
+
+
+Acesse:
+
+
+
+No arquivo de configuração do EasyCash, o **EasyCash1.ini**, teremos então setado:
+
+
+
+No log da impressora dentro da pasta **LOG\POS** fica setado que o acesso é diretamente via USB conforme a imagem:
+
+
+
+Na configuração de impressora do EasyCash irá ficar setado conforme a imagem a seguir:
+
+
+
+Com o acesso USB na tela de configuração do EasyCash ficará habilitada o botão **Informações USB**, que abrirá uma tela mostrando todas as informações de USB que o sistema conseguiu detectar conforme a imagem a seguir:
+
+
+
+Foi adicionado também no sistema um sistema de detecção para caso conecte algum dispositivo USB quando o sistema estiver aberto. Com isso, será mostrado o **nome do dispositivo**(__desde que seja reconhecido propriamente__) e o **tipo de ação**(ON/OFF) que está sendo executada conforme as imagens a seguir:

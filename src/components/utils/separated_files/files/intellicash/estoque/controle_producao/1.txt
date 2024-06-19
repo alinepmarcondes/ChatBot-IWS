@@ -1,0 +1,46 @@
+Title: == Controle de Produção
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de realizar o controle das produções feitas pelo estabelecimento.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Controle de Produção||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao entrar nesta tela por padrão abrirá a aba "//**Produtos**//".
+
+Nesta tela basta é necessário selecionar um produto que deseja controlar a produção e para isso é necessário pesquisar por um produto, que seja kit ou produção, na parte superior da tela. Após pesquisar o item, é necessário selecioná-lo e apertar enter para que seja selecionado e então informar a quantidade da receita e unidades da receita. E assim clicar no botão "//**Selecionar**//" para prosseguir.
+
+Feito isso é necessário alterar para a aba "//**Confirmação**//".
+
+
+
+Nesta tela é necessário confirmar os dados para criar a produção.
+
+Na parte superior da tela ficam as produções que estão selecionadas e caso queira alterar algum dado que esteja errado basta clicar com o botão direito do mouse em cima do produto desejado e poderá excluir, alterar observação, alterar quantidade ou imprimir.
+
+
+
+Abaixo ficam as composições de um produto selecionado para produção. Onde é possivel alterar algum dado que esteja errado basta clicar no botão desejado e poderá inserir, alterar ou excluir insumo e alterar quantidade, custo unitário e custo total.
+
+Caso o usuário prefira pode alterar a quantidade diretamente no grid através da coluna **"Qtde"**.
+
+O botão **"Importar Insumo"** permite aousuário importar uma lista de insumos para a produção selecionada, o arquivo de texto deve ter o padrão de **Código de Barras ; Qtde**.
+
+
+
+Na parte superior da tela também há os seguintes botões:
+
+* **Imprimir:** para imprimir dados de uma produção selecionada;
+* **Cancelar:** para cancelar uma produção selecionada;
+* **Confirmar:** para confirmar uma produção selecionada;

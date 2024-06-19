@@ -1,0 +1,157 @@
+Title: = Abas de Configuração
+
+Content:
+=
+As configurações serão agrupadas de acordo com a sua finalidade para facilitar o entendimento do usuário.
+
+Dentro de aba serão agrupadas as informações utilizadas em ferramentas associadas ao SPED, são elas: Certificado Digital, Manifestação do Destinatário, NF-e, CT-e, NFS-e, EFD (Fiscal e Contribuições).
+
+=== Certificado Digital ===
+Configurações relacionadas ao certificado digital.
+
+**Usar certificado por máquina**, caso essa configuração esteja marcada, as informações dessa aba serão armazenadas localmente, isso é usado para quando a empresa utiliza mais de um certificado, muito comum quando opta pelo certificado A3.
+
+**SSL Lib**, Biblioteca de SSL, o valor padrão é //libCapicom//;\\
+**Crypt Lib**, Biblioteca de Criptografia, o valor padrão é //cryCapicom//;\\
+**Http Lib**, Biblioteca de HTTP, o valor padrão é //httpWinINet//;\\
+**XML Sign Lib**, Biblioteca de Assinatura do XML, o valor padrão é //xsMsXmlCapicom//;\\
+
+As configurações acima são referentes ao modo de acesso do IntelliCash ao Certificado Digital. 
+
+Caso o **SSL Lib** usado seja //OpenSSL//, e o certificado seja do tipo A1, não há necessidade de instalar o certificado, bastando indicar o caminho do arquivo que contém o certificado e sua senha nos campos **Caminho** e **Senha**. Caso contrário, é necessário informar o número de série do certificado no campo **Número de Série**. Caso clique nos botões ao lado do campo será aberta uma interface com todos os certificados instalados para o usuário escolher qual deseja usar.
+
+Para testar o certificado instalado, o usuário pode usar os botões abaixo:
+**“Data de Validade”**, mostra a data de validade do certificado digital;
+**“Número de Série”**, mostra o número de série do certificado digital.
+**“CNPJ”**, mostra o CNPJ do certificado digital;
+**“Razão Social”**, mostra a Razão Social do certificado digital;
+**“Certificadora”**, mostra a empresa que gerou o certificado.
+
+=== Manifestação Dest. ===
+Configurações relacionadas a Manifestação do Destinatário.
+
+Caso a empresa utilize o **Verificador de NF**, temos as seguintes configurações:
+**Tempo entre Consultas (Min.)**, tempo entre uma consulta e outra que o verificador de NF irá buscar NF emitidas contra o CNPJ da empresa;
+
+
+**Intervalo entre NF (Seg.)**, é o intervalo de tempo entre a verificação e uma nota e outra, para evitar que as requisições congestione o sistema.
+
+**Fazer downloads automático das NF-e**, o SEFAZ permite que o usuário faça download do XML da NF-e caso ele manifeste ciência da operação, dessa maneira, caso o usuário marque essa opção, o sistema verificador de NF irá automaticamente manifestar ciência e realizar o download do XML para a base de dados.
+
+**Confirmar operação ao dar entrada em NF**, caso essa opção seja marcada, ao ser feita a confirmação da entrada da NF, automaticamente o IntelliCash irá manifestar a confirmação da operação.
+
+**Diretório com os arquivos XSD (Schemas)**, o diretório onde estarão os arquivo Schemas utilizados na Manifestação do Destinatário.
+
+**Diretório Manifestação**, o diretório onde serão armazenados os XMLs das manifestações realizadas.
+
+=== Nota Fiscal Produto ===
+Configurações relacionadas a emissão da Nota Fiscal Eletrônica. Após ser feita a alteração é preciso reiniciar o Intellicash para efetivar as alterações.\\
+
+**Ambiente de destino**, permite ao usuário selecionar qual o ambiente em que a NF-e será emitida. O ambiente de homologação não possui valor legal, serve apenas para testes. Caso no cadastro da empresa esteja marcado como emitente de nota fiscal modelo 01, essa opção será desabilitada.\\
+
+**Versão Documento Fiscal**, permite selecionar qual a versão do layout da NF-e. Atualmente o layout utilizado é 3.10, em 2018 deverá ser alterado para versão 4.00.\\
+
+**Atualizar XML**, caso essa opção esteja marcada o XML é atualizado ao ser enviado. Deve-se manter selecionado exceto em situações especificas orientado pelo suporte técnico.\\
+
+**Retirar acentos dos XMLs enviado**, toda comunicação feita por webservices utiliza-se conjunto de caracteres internacional(UTF-8), e por isso é recomendado retirar os acentos para evitar problemas.\\
+
+**Salvar Arquivos de Envio e Resposta**, marcar se deseja salvar todos os arquivos transacionados pelo intellicash e o servidor do Sefaz. Deve ser colocado o caminho onde os arquivos serão salvos.\\
+
+**Diretórios com os arquivos XSD (Schemas)**, é o caminho onde se encontram os schemas, arquivos responsáveis por validar a estrutura do XML.\\
+
+**Proxy**, caso a rede onde o computador qu deseja enviar a NF-e esteja protegido por um proxy, deve configurar com as informações de segurança para permitir o envio.\\
+
+**Transmitir NF-e Automaticamente**, quando selecionada essa opção o Intellicash irá tentar fazer a transmissão da NF-e ao confirmar anota fiscal própria. (essa configuração só tem efeito nas maquinas que possuem certificado digital instalado).\\
+
+**Imprimir DANF-e ao transmitir**, inicia a impressão do DANF-e logo após a transmissão da NF-e.\\
+
+**Informar Data de saída**, se a data de saída será informada ao emitir a NF-e, alguns estado tem esse campo como obrigatório.\\
+
+**Retorno de Envio de NF-e**, são configurações para forçar o envio da NF-e no caso de erro de comunicação. Deve ser informada a quantidade de **tentativas**, o tempo para **aguardar** estabelecer comunicação e o **intervalo** entre uma tentativa e outra. Os tempos são em segundos.\\
+
+**Salvar Arquivos em Pasta Separadas**, deve ser marcado caso deseje salvar os arquivos em pastas diferentes para cada tipo de documento.\\
+**Criar Pastas Mensalmente**, separar os arquivos enviado em pastas de acordo com o mês de emissão.\\
+
+**Adicionar Literal no nome das pastas**, adicionar nas pasta literal relativo ao documento transmitido.\\
+
+**Salvar NFe pela data de Emissão**, marcar para salvar a NF-e pela data de emissão e não pela data de saída.\\
+
+**Salvar Arqs de Eventos**, se deseja salvar os arquivos de eventos da NF-e.\\
+**Separar Arqs pelo CNPJ do certificado**, para o caso de sistema multi-empresa, os arquivos serão salvo em pastas separadas de acordo com cada CNPJ.\\
+
+**Pasta Arquivos NFe**, pasta onde serão salvos os arquivos XML das notas fiscais emitidas.\\
+
+**Pasta Arquivos Cancelamento**, pasta onde serão salvos os arquivos XML das notas fiscais canceladas.\\
+
+**Pasta Arquivos CC-e – Carta de Correção**, pasta onde serão salvos os arquivos XML das cartas de correção.\\
+
+**Pasta Arquivos Inutilização**, pasta onde serão salvos os arquivos XML dos números inutilizados.\\
+
+**Pasta Arquivos DPEC**, pasta onde serão salvos os arquivos XML das notas fiscais emitidas em modo de contingencia DPEC.\\
+
+**Pasta Arquivos Evento**, pasta onde serão salvos os arquivos XML dos eventos vinculados a notas fiscais.\\
+
+=== DANF-e ===
+
+Configurações pertinentes a impressão do DANF-e.\\
+
+**Exibir Campo Fatura**, se deseja ou não exibir o campo fatura da NF-e.\\
+
+**Exibir Inf. Adicionais do Produto **, se deseja ou não exibir as observações dos produtos.\\
+
+**Exibir dados doc. Referenciados**, se deseja ou não exibir os documentos referenciados.\\
+
+**Exibir Itens**, se deseja não exibir os itens da NF-e.\\
+
+**Exibir EAN**, adicionar a coluna de código GTIN (EAN).\\
+
+**Exibir Desc/Acres Item**, adicionar a coluna Desc/Acres nos itens.\\
+
+**Usar código EAN na impressão**, se deseja no campo código ser usado o código EAN invés do código interno do produto.\\
+
+**Tamanho do campo código**, o tamanho, em pixel, do campo código. (1 cm = 37,7 px).\\
+
+**Preço unitário**, quantidade de decimais do preço unitário.\\
+
+**Quantidade**, quantidade de decimais para o campo quantidade.\\
+
+**Exibir Desconto Percentual**, se deseja ou não exibir o valor em percentual do desconto.\\
+
+**Exibir Total LIq.**, se deseja exibir o valor liquido, ou o bruto dos produtos.\\
+
+**Exibir Impostos aproximados (IBPTax)**, se deseja exibir o valor aproximados dos tributos.\\
+
+**Posição do Canhoto**, se o canhoto será no cabeçalho ou no rodapé.\\
+
+**Layout de Impressão**, se o DANFe será impresso no sentido horizontal(paisagem) ou vertical(retrato).\\
+
+**Enviar NFe por email**, ao enviar a NF-e e imprimir o DANFe, tentar enviar por e-mail.\\
+
+**Enviar para todos os e-mails cadastrados**, ao enviar por email, colocar todos os e-mails cadastrados.\\
+
+**Numero de cópias DANFe**, numero de copias de DANFes impressos.\\
+
+**Arquivo com logo**, nome do arquivo .jpeg que contem o logo a ser colcoado no DANFe. O arquivo deve ficar junto ao executável do Intellicash.\\
+
+**Logo em cima**, se o logo ficará na parte superior, invés de ficar a esquerda.\\
+
+**Altura do Logo**, **Largura do Logo**, tamanho do logo em pixel.\\
+
+**Expandir Logo**, se o logo será expandido em todo espaço de identificação do remetente.\\
+
+**Arquivo com marca d'Agua**, arquivo no formato Jpeg que será exibido no centro do DANFe como marca d'Agua.\\
+
+=== Conhecimento de Transporte ===
+Configurações pertinentes a transmissão do Conhecimento de Transporte Eletrônico (CT-e).\\
+**Ambiente**: definir se a emissão será em ambiente de Produção ou de Homologação.\\
+**Atualizar XML**: Atualizar o XML caso não tenha sido ainda transmitido, mas já tenha gerado o arquivo.\\
+**Retirar Acentos dos XMLs enviados**: Retirar acentos contindos no arquivo XML para evitar problemas com Web Server do governo.\\
+**Salvar Arquivos de Envio e Resposta**: Salvar todos os arquivos envolvidos na troca de mensagens com o Sefaz.\\ 
+**Diretório com os arquivos XSD(Schemas)**: Caminho dos arquivos onde estão os Schemas do CT-e.\\
+**Proxy**: Configuração para transmissão de CT-e caso a rede tenha um servidor PROXY.\\
+**Transmitir CT-e automaticamente**: Tentar realizar a transmissão automaticamente ao confirmar um Conhecimento de Transporte.\\
+**Imprimir DACT-e ao transmitir**: Imprimir um DACT-e após transmitir o CT-e.\\
+**Pré-visualizar o DACT-e**: Exibir o DACT-e antes de imprimir.\\
+**Retorno de Envio de CT-e**: Configurar as tentativas de reenvio e tempo entre as tentativas em caso de falha por time-out.\\
+**Salvar Arquivos em Pastas Separadas**: Configurações de como serão armazenados os arquivos XML.\\
+**Caminhos de armazenamento **: Caminhos onde serão armazenados os XML de cada tipo.\\

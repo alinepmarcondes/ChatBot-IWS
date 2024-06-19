@@ -1,0 +1,8 @@
+Title: Adicionar
+
+Content:
+Para adicionar uma nota fiscal de parcerio, o usuário deverá pressionar o botãolocalizado no canto inferior direito da tela.
+
+
+
+Na tela que será aberta, o usuário deverá preencher os campos corretamente e pressionar o botão "Salvar" para concluir.

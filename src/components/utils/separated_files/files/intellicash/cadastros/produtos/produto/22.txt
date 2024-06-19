@@ -1,0 +1,44 @@
+Title: Reservado
+
+Content:
+=== Orçamento ===
+
+A aba "//**Orçamento**//" mostra todo estoque do estabelecimento que foi reservado para orçamentos que ainda não foram confimados.
+
+
+
+
+
+Na coluna há esquerda há os seguintes campos:
+
+* **Orçamento:** Para informar o número do orçamento que foi utilizado para reservar o estoque;
+* **Data:** Para informar a data do orçamento;
+* **Validade:** Para informar a validade do orçamento;
+* **Cliente:** Para informar qual cliente reservou estoque;
+* **Total Estoque:** Para informar o valor total do estoque;
+* **Quantidade Reservada:** Para informar a quantidade reservada em estoque;
+* **Quantidade Troca:** Para infromar a quantidade do estoque que está em troca;
+* **Quantidade Disponível:** Para informar a quantidade disponível de estoque do item;
+* **Vendedor:** Para informar o vendedor do orçamento;
+
+=== Beneficiamento ===
+
+A aba "//**Beneficiamento**//" mostra todo estoque do estabelecimento que foi reservado para beneficiamento interno do estabelecimento, por meio de NF.
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Data Emissão:** Informa a data de emissão da NF;
+* **Data Entrada:** Informa a data de entrada da NF;
+* **Documento:** Informa o documento do agente da NF;
+* **Nome:** Informa o nome do agente;
+* **Fantasia:** Informa o nome fantasia do agente;
+* **Modelo:** Informa o modelo da NF;
+* **Série:** Informa a Série da NF;
+* **Número:** Informa o número da NF;
+* **Quantidade Entrada:** Informa a quantidade de estoque entrada, que foi reservada;
+* **Quantidade Beneficiada:** Mostra a quantidade de estoque que ja foi beneficiada;
+* **Quantidade em Estoque:** Mostra o estoque restante para beneficiamento;
+
+Para mais informações acesse o manual de [[manuais:intellicash:estoque:notas_fiscais:controle_beneficiamento|Beneficiamento Interno]].

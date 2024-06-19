@@ -1,0 +1,18 @@
+Title: = Histórico
+
+Content:
+=
+
+A aba "//**Histórico**//" mostra o histórico de todos os rateios criados em um determinado período de datas.
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+ 
+Após realizado a pesquisa será mostrado na primeira coluna todos os rateios que foram lançados, e ao selecionar um raterio será mostrados todos os lançamentos criados referente ao mesmo, na segunda coluna.
+
+Caso deseje excluir algum rateio, basta clicar com o botão direito do mouse sobre o rateio e selecionar a opção "//**Excluir**//".

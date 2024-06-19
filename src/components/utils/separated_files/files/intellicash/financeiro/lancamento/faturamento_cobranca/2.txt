@@ -1,0 +1,18 @@
+Title: = Lançamentos
+
+Content:
+=
+
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Convênio:** Para selecionar um convênio e ao clicar nele será listado o convênio e seus dados;
+* **Centro de Custo:** para selecionar um centro de custo;
+* **Data:** para selecionar uma data para pesquisar os valores dos conveniados;
+* **Faturar:** Para faturar um convênio. Para isso deve-se selecionar um convênio e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Após digitado um valor e confirmado este valor ja estará faturado e o restante ficará para acumular novamente para realizar outra fatura que virá.

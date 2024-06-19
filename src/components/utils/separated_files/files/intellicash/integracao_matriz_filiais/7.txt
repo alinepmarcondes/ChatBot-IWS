@@ -1,0 +1,18 @@
+Title: == Servidor
+
+Content:
+==
+Para fazer as comunicações entre matriz e filiais é preciso configurar o servidor**"SvrSincronizador"**. Junto com servidor temos um arquivo **"SvrSincronizador.ini"**, onde é feita a configuração. Nesse arquivo temos os seguintes parametros:
+[Dados] \\
+**Path =** alias do banco de dados \\
+**Pwd =** senha do banco de dados criptografada \\
+**CharSet =** CharSet do banco de dados (manter WIN1252) \\
+**UserName =** usuário do banco de dados \\
+
+[Servidor] \\
+**port=** porta de comunicação do servidor \\
+
+Após configurado o servidor, ao executalo temos a seguinte interface.
+ \\
+
+No grid de Conexões, mostras os usuários que estão conectados, e no grid exceções as exceções que tiveram no servidor. Na parte inferior mostra o banco de dados que o servidor está conectado a porta que está configurada e a data hora que ele foi inicializado.

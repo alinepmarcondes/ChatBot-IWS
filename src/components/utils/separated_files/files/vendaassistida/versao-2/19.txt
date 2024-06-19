@@ -1,0 +1,6 @@
+Title: = Fluxo das validações de desconto
+
+Content:
+=
+
+O **desconto por item** e o **desconto total** seguem as mesmas validações do IntelliCash. Segue o fluxo das validações.

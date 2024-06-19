@@ -1,0 +1,6 @@
+Title: = Importação
+
+Content:
+=
+
+Após termos configurado um layout de Importação e o formato do arquivo, podemos escolher um diretório de arquivo que será chamado quando clicarmos no botão **Recarregar**. Caso não tenha sido escolhido um arquivo especificamente, ao clicar em **Recarregar** a caixa de diálogo abrirá perguntado qual arquivo deseja-se abrir. Ao carregar o arquivo de importação a barra de **“Origem”** será limpa.

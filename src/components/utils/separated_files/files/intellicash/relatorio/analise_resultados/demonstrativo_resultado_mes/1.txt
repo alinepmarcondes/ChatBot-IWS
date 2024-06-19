@@ -1,0 +1,66 @@
+Title: == Demonstrativo de Resultado do Mês
+
+Content:
+==
+
+----
+
+Este relatório mostra o demonstrativo do indice de lucratividade do estabelecimento.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Análise de Resultados→Demonstrativo de Resultado||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os sguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Na primeira parte mostra as vendas líquidas e sua receita operacional bruta, na segunda parte mostra os impostos e sua receita operacional líquida e por ultimo as despesas e seu lucro operacional.
+
+Ao clicar sobre "//**Vendas de Mercadoria**//" aparecerá a seguinte interface:
+
+
+
+Nesta tela mostra todas as vendas de mercadorias realizadas pelo estabelecimento no período desejado,os documentos que foram vendidos e os seus detalhes.
+
+Ao clicar sobre "//**Devoluções de Vendas**//" aparecerá a seguinte interface:
+
+
+
+Nesta tela mostra todas as devoluções de vendas de mercadorias realizadas pelo estabelecimento no período desejado,os documentos que foram vendidos e os seus detalhes.
+
+Ao clicar sobre "//**Abatimento Sobre Vendas**//" aparecerá a seguinte interface:
+
+
+
+Nesta tela mostra todas os abtimentos de vendas de mercadorias realizadas pelo estabelecimento no período desejado,os documentos que foram vendidos e os seus detalhes.
+
+Ao clicar sobre "//**Custo da Mercadoria**//" aparecerá a seguinte interface:
+
+
+
+Nesta tela mostra todas as mercadorias que foram compradas no período desejado e mostram também as quantidades vendidas, além do preço bruto e preço líquido.
+
+Ao clicar sobre "//**Despesas Administrativas**//" aparecerá a seguinte interface:
+
+
+
+Ao clicar sobre "//**Despesas Operacionais**//" aparecerá a seguinte interface:
+
+
+
+Ao clicar sobre "//**Despesas Financeiras**//" aparecerá a seguinte interface:
+
+
+
+As Despesas Administrativas, Operacionais e Financeira podem ser configuradas de acordo com o centro de custo. Se uma dessas despesas for cadastrada pelo centro de custo as demais também deverão ser pelo motivo de evitar duplicidade no relatório, caso o usuário não faça nenhum tipo de alteração em relação a essas despesas o sistema continuará a exibir o relatório de acordo como era anteriormente.
+
+Ex.: Ao pressionar a tecla **Shift** e clicando em uma das despesas o sistema abrirá a tela para **Escolher Centro de Custo** onde será exibido Centro de Custo Geral (listará todos centros disponíveis) e Utilizados (listará o centro de custo utilizado para aquele tipo de despesa). No exemplo demonstrado foi clicado em **Despesas Administrativas**

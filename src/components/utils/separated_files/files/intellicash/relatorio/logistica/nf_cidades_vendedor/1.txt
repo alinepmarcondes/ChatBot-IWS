@@ -1,0 +1,28 @@
+Title: == Relatório de Notas Fiscais de Cidades Por Vendedor
+
+Content:
+==
+
+----
+
+Relatório que mostra informações de Notas fiscais em cada cidade por vendedor.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Logística→NF Cidades x Vendedor||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Para gerar o relatório é necessário também gerar uma relação entre cidade e vendedor.
+
+Na coluna à esquerda mostra as cidades disponíveis e na coluna à esquerda as cidades que serão selecionadas, para isso é necessário utilizar as setas para mover uma cidade de uma coluna para outra. Após selecionar as cidades, elas irão disponibilizar os vendedores que venderam, para as cidades selecionadas, o mesmo ocorre com relação as colunas, e, após selecionados os vendedores para a coluna à direita aparecerá todas as notas fiscais, feitas pelo vendedor selecionado, nas cidades selecionadas.

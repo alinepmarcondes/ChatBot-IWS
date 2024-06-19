@@ -1,0 +1,38 @@
+Title: == Exportação Mastermaq
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de gerar um arquivo de exportação para o sistema Mastermaq de Contabilidade.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Contabilidade→Exportação→Mastermaq||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Código da Empresa:** para informar o código da empresa;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Gerar:** para gerar o arquivo de exportação;
+
+Opções de exportação:
+
+-**Arquivo determinante do movimento importado(DATA.txt)**
+-**Dados cadastrais do documento fiscal(FMVIM.txt)**
+-**Dados de fatura(FMVI5.txt)**
+-**Outras informações da nota fiscal(FMVI7.txt)**
+-**Cadastro de clientes e fornecedores(SRC.txt)**
+-**Cadastro de produtos(MASTER.txt)**
+-**Cadastro de unidades(UNIDM.txt)**
+-**Dados fiscais(bases tributárias) do documento fiscal(FMVI2XXX.txt)**
+-**Dados fiscais(produtos) do documento fiscal(FMVI4XXX.txt)**
+-**Informasções sobre outras operações PIS-COFINS(CTCREXXX.txt)**

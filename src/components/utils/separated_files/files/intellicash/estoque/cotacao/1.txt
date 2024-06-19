@@ -1,0 +1,18 @@
+Title: == Cotação Intellicash
+
+Content:
+==
+
+----
+
+Ferramenta que permite ao supermercado criar e gerenciar cotações para a compra de produtos para o estabelecimento. Podendo inclusive disponibilizar na web. 
+
+Para verificar como funciona a cotação web acesse: [[manuais:cotacao:web|Cotação Online]]
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Cotação||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

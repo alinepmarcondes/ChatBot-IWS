@@ -1,0 +1,31 @@
+Title: Equipamentos
+
+Content:
+Nesta tela é possível fazer algumas configurações específicas para cada caixa como leitor, balança e até mesmo o TEF.
+Esta tela de configuração se subdivide em 5 abas, detalhadas a seguir.
+
+=== Caixa ===
+
+ 
+* **Possui balança no Caixa:** Esta configuração deve ser marcada quando possuir balança integrada no caixa, para que o sistema consiga se comunicar e ler corretamente o peso. Quando essa opção é marcada, será habilitado também a aba //Balança// onde terá que realizar as configurações da mesma. Para maiores informações veja o item [[#balanca|'Balança']]. 
+* **Possui gaveta:** Informa se existe uma gaveta conectada na impressora.
+* **Possui leitor serial no Caixa:** Caso o leitor que está no caixa seja do tipo serial, é necessário marcar essa opção e depois ir até a aba Leitor para configurações detalhadas além de fazer o teste de comunicação.
+
+=== TEF ===
+
+Essa aba contém as configurações para o funcionamento do TEF. 
+
+Em Gerenciador Padrão:
+* **Tipo GP:** São os tipos de TEF que o sistema pode utilizar. Caso o sistema não trabalhe com TEF deverá ser selecionado a opção //gpNenhum// e as outras configurações abaixo não precisarão ser configuradas.
+
+Caso seja do tipo dedicado, deverá selecionar a opção //gpCliSiTef//. Se for do tipo discado a opção deverá ser //gpTefDial// e as configurações do SITEF(Endereço IP e Loja) não precisam sereminseridas.
+
+* **Nº máximo de cartões:** Quantidade de cartões que o sistema permite passar por cupom fiscal. Nosso sistema permite no máximo 6 cartões, mas o recomendado é no máximo 4 devido o tempo de resposta das impressoras para emitir os comprovantes.
+* **Consulta de Cheque:** Se marcada, permitirá consulta de cheque TEF.
+* **Pedir Taxa Embarque e Serviço:** Quando marcada irá aparecer a tela com essas opções no fluxo do TEF.
+* **Somente Cartão Magnético:** Quando marcada não irá aparecer a opção de cartão digitado para selecionar no fluxo do TEF.
+* **Somente Pagamento á Vista:** Quando marcada não irá aparecer a opção de parcelado.
+
+**Na aba SiTef:**
+ * **Endereço IP do servidor:** Endereço IP do servidor TEF, ou seja, para onde o TEF irá apontar.
+* **Loja:** Essa é a configuração que foi configurado no servidor TEF do número do estabelecimento com 8 dígitos, ex.: 00000001.

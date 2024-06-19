@@ -1,0 +1,4 @@
+Title: Sincronização ativa
+
+Content:
+Para ativar a sincronização de imagens, o usuário deverá Ligar o botão "Sincronização Ativa". Assim que esta opção é habilitada, será realizada uma tentativa para sincronizar as imagens dos produtos com o servidor. É possível acompanhar o status do andamento na própria tela ou na barra de notificações.

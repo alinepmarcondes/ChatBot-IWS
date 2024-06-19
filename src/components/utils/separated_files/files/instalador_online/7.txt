@@ -1,0 +1,4 @@
+Title: Download
+
+Content:
+Na tela de //"Download"// é apresentado o //Status// do download das aplicações. Para ver mais detalhes clique no botão //"Detalhes"//.

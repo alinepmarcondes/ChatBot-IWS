@@ -1,0 +1,4 @@
+Title: Marcas própria
+
+Content:
+Para acessar a tela **Marcas própria** clique no menu **Estoque** e depois em **Marcas própria**.

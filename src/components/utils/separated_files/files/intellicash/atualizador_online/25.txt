@@ -1,0 +1,7 @@
+Title: Código 201
+
+Content:
+Mensagem de erro: //Campo Alias é obrigatório!//
+
+Soluções possíveis:
+* Na [[manuais:intellicash:atualizador_online#etapa_01_-_configuracoes_iniciais|Etapa 01]] preencha o campo **Alias** corretamente.

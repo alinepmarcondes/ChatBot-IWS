@@ -1,0 +1,36 @@
+Title: == Promoções
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de criar promoções aos produtos em um determinado período e se desejar, que este se encerre automaticamente sem precisar alterar os preços dos produtos manualmente e posteriormente alterá-los ao preço normal.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Promoções||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao clicar nesta tela por padrão entrará na aba "//**Atuais**//" e por padrão na subaba "//**Itens**//".
+
+Esta tela mostra os itens que estão na promoção em um determinado intervalo de datas, porém como na imagem acima não existem produtos na promoção os botões de datas estão desativados. 
+Quando um item tiver uma promoção acorado vinculada a ele, o item será destacado em outra cor e ao clicar no botão + ao lado da descrição será listado os itens ancorados vinculados a ele.
+
+
+Ao clicar na subaba "//**Resultados**//" aparecerá a seguinte tela:
+
+
+
+Esta mostra um relatório de vendas dos produtos inseridos na promoção em um determinado intervalo de datas e há o botão "//**Imprimir**//" para imprimir dados dos resultados dos itens na promoção.
+
+
+
+Nesta tela mostra as promoções já encerradas criadas por cada usuário do sistema e ao lado mostra o término da promoção e a quantidade de produtos. Na coluna abaixo mostra os itens em promoção e um relatório de vendas dos itens.
+
+Na parte superior desta tela há os botões para filtrar um intervalo de datas além do botão "//**Aplicar**//"para realizar a filtragem e "//**Imprimir**//" para imprimir os dados dos itens encerrados na promoção.

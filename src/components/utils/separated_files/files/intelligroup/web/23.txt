@@ -1,0 +1,4 @@
+Title: Itens do pedido
+
+Content:
+Para visualizar os itens, clique sobre o pedido desejado, onde uma listagem será exibida logo abaixo conforme demonstra a figura abaixo.

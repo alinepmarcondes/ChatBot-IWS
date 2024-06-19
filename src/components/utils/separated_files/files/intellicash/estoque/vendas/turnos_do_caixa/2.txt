@@ -1,0 +1,50 @@
+Title: = Resumo
+
+Content:
+=
+
+A aba "//**Resumo**//" mostra um resumo por forma de pagamento do caixa em aberto.
+
+
+
+Na parte superior desta tela há os seguintes botões:
+
+* **Início** e **Término:** Para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Mostrar Todos os Caixas:** Ao selecionar esta opção será mostrado todos os caixas, e as datas de "//**Início**//" e "//**Término:**//" serão ignoradas.
+
+Ela também mostra um relatório de turnos de caixa do IntelliCash, mostrando os abertos e Fechados, além da visualização é por esta janela que o usuário abre e fecha os turnos.
+
+Na parte Inferior da tela há os seguintes botões:
+
+* **imprimir** para imprimir dados dos caixas e 
+* **Abrir Turno Novo:** (caso este esteja fechado) Para abrir um novo turno de caixa. Ao clicar neste botão aparecerá a seguinte interface:
+
+
+
+Nesta tela é necessário digitar um valor inicial do seu caixa ou se não desejar basta clicar no botão **ok** para abrir o turno. Feito isso a tela principal mudará:
+
+
+
+Após abrir o caixa este é o novo layout da tela com os seguintes botões adicionais:
+
+* **Fechar Turno Atual:** (caso este esteja aberto) Para fechar o turno atual que está aberto.
+* **Sangria:** Para retirar um valor no sistema. Ao clicar neste botão aparecerá a seguinte interface:
+
+
+Após selecionar a espécie o sistema abrirá uma nova interface para digitar o valor da sangria:
+
+
+
+Após isso abrirá uma interface para digitar a descrição da sangria.
+
+
+
+* **Suprimento:** Para inserir um valor no sistema. Ao clicar neste botão aparecerá a seguinte interface:
+
+
+Após selecionar a espécie o sistema abrirá uma nova interface para digitar o valor da sangria:
+
+
+
+Após isso abrirá uma interface para digitar a descrição da sangria.

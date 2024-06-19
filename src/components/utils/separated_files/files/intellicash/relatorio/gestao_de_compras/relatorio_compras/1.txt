@@ -1,0 +1,40 @@
+Title: == Relatório de Compras
+
+Content:
+==
+
+----
+
+Este relatório exibe as compras de prodtuos realizadas no estabelecimento de acordo com a configuração desejada para filtrá-los.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Compras→Relatório de Compras||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há as seguintes abas para gerar um relatório gerencial da empresa:
+
+* Tipo de Entrada:
+- **Entradas:** Para realizar a pesquisa buscando todos os tipos de entrada;
+- **Compras:** Para realizar a pesquisa buscando todas as compras;
+- **Bonificações:** Para realizar a pesquisa buscando bonificações;
+- **Outras Entradas:** Para realizar a pesquisa buscando outros tipos de entrada;
+* Classificação dos Produtos:
+- **Produtos:** Para classificar a pesquisa por produtos;
+- **Grupos:** Para classificar a pesquisa por grupos;
+- **Seção:** Para classificar a pesquisa por seção;
+- **Fornecedor:** Para classificar a pesquisa por fornecedores;
+
+Há também os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Logo abaixo mostra os resultados do relatório de compras, na esquerda mostrando os dados numericamente e os valores e à direita os valores graficamente para uma melhor visualização.

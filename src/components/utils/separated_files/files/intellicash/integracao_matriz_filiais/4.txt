@@ -1,0 +1,21 @@
+Title: Cadastro de Matriz e Filiais
+
+Content:
+----
+
+A primeira coisa que deve ser feito é informar em todas as empresas quais são os endereço das Filiais e da Matriz através de um cadastro
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastro→Matriz & Filiais||
+
+Após acessar esse caminho aparecerá uma tela com um botão Novo:
+
+
+
+
+Depois de configurar a base Matriz vamos configurar a base filial. É importante também realizar as configurações da Objeto na base das filiais.
+
+Mais informações sobre Cadastro de Matriz e Filiais, [[manuais:intellicash:cadastros:empresa_matriz_filiais|Aqui]].

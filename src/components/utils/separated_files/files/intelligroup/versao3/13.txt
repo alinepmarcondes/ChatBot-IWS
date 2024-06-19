@@ -1,0 +1,6 @@
+Title: = Recuperar senha
+
+Content:
+=
+
+Para recuperar a senha clique no link "//__Esqueceu a senha?__//" na tela de **Login**.

@@ -1,0 +1,14 @@
+Title: = Cadastro de representante
+
+Content:
+=
+
+Para cadastrar um novo usuário, o representante deverá clicar sobre o link "Novo representante?" localizado abaixo do campo usuário.
+
+
+
+Será aberto um formulário onde o representante deverá preencher todas as informações corretamente e clicar sobre o botão "Salvar" para concluir.
+
+
+
+Se as informações estiverem corretas, será enviado um e-mail com as informações de cadastro.

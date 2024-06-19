@@ -1,0 +1,25 @@
+Title: = Dados do Representante
+
+Content:
+=
+
+Para alterar dados, o representante deverá pressionarlocalizado no canto superior esquerdo da tela de "Cotações", conforme demonstra a figura abaixo.
+
+
+
+No menu pressione “Dados”, conforme demonstra a figura abaixo.
+
+
+
+Esta tela exibe todas as informações de cadastro do representante. Pressionelocalizado no canto inferior direito, conforme demonstra a figura abaixo.
+
+
+
+Será exibida uma caixa de diálogo onde o usuário poderá alterar os dados.
+
+
+
+Possíveis mensagens de erros:
+* O campo Nome tem o formato inválido!
+* O campo Email tem o formato inválido!
+* Email já cadastrado para outro representante!

@@ -1,0 +1,27 @@
+Title: = Localizar
+
+Content:
+=
+
+
+
+Por padrão ao entrar nesta ferramenta abrirá a aba "//**Localizar**//".
+
+Na parte superior desta tela há um menu rápido com atalhos deste mesmo menu para alternar entre abas mais rapidamente para obter mais praticidade no programa;
+
+
+
+Caso queira adicionar mais atalhos nesse menu rápido basta bastaclicar com o botão direto do mouse sobre a parte do campo menu e escolher remover ou adicionar algum tipo de atalho e escolher uma opção de ferramenta;
+
+
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Localizar:** Para localizar um produto, pelo EAN ou pela descrição;
+* **Todos:** Para listar todos os produtos (não aconselhado, pois, pode demorar minutos ou até horas, dependendo da quantidade de produtos cadastrados)
+* **Ativar Auto Busca:** Para realizar a pesquisa simultaneamente enquanto digita no teclado (não recomendado para sistemas com grandes quantidades de produtos cadastrados, pois pode demorar mais que o esperado);
+* **Ativar Busca Rápida:** Para realizar a pesquisa de acordo com o que for digitado, para prosseguir mais rápido;
+* **Mostrar Apenas Itens Com Estoque:** Os resultados só mostrarão os itens com estoque no sistema;
+* **Localizar Pelo Código:** para realizar uma pesquisa do produto apenas pelo código;

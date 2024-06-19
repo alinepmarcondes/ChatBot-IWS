@@ -1,0 +1,44 @@
+Title: == Conferir Vendas ECF
+
+Content:
+==
+
+----
+
+Esta ferramenta permite confrontar os dados da Redução Z com os dados do banco de dados. Evitando divergências nos arquivos fiscais.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento → Estoque → Vendas → Conferir Vendas ECF||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela mostra todas as vendas do ECF num determinado intervalo de datas, a imagem acima mostra um exemplo de um determinado intervalo de datas. Na parte superior da tela há os botões de início e término relacionados as datas de intervalo e também o botão"//**Aplicar**//" para realizar a pesquisa.
+
+Nesta tela á um campo chamado "//**Conferido**//" quer serve para mostrar se em tal dia selecionado, as vendas foram conferidas.
+
+Após realizada a pesquisa os resultados serão listados abaixo mostrando um relatório generalizado de cada dia. Após um clique duplo em algum item selecionado no sistema entrará automaticamente na aba "//**Conferência**//" e aparecerá a seguinte tela:
+
+
+
+Nesta tela mostram em quais PDV foram efetuadas as vendas no dia selecionado e os dados sobre o mesmo. Na coluna a direita mostra todas as alíquotas existentes nessa venda, além de cancelamentos e descontos.
+
+Caso as vendas do ECF não forem confirmadas é necessário verificar no sistema os valores e depois confirmar os valores na Redução Z, e após confirmados os dados existe o botão "//**Confirmar**//" na parte inferior da tela para confirmar, neste caso já foi verificado no sistema e confirmado na Redução Z, por isso o botão já está desabilitado, pois se notar na aba "//**ECF’s**//" o campo conferido estará marcado. Caso os dados do sistema e da Redução Z não estiverem coincidindo.
+
+Ao clicar com o botão direito também há as seguintes opções:
+
+
+
+Para realizar a importação é necessário que as seguintes configurações estejam corretas:
+
+
+
+Ao clicar na aba "//**Resultados**//" aparecerá a seguinte tela:
+
+
+
+Nesta tela mostra tudo que foi vendido nos ECF’s de determinada data mostrando seu código, quantidade e valor.

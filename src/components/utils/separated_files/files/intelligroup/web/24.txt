@@ -1,0 +1,15 @@
+Title: == Notas Fiscais
+
+Content:
+==
+
+1 - Menu Arquivo-> Notas Fiscais.
+
+Na tela de Notas Fiscais, é possível visualizar, adicionar, alterar e excluir notas fiscais de parceiros.
+
+Para listar, o usuário deverá informar um período nos campos de início e término e clicar sobre o botão "Aplicar". Feito isso, a listagem das notas fiscais será exibida logo abaixo conforme demonstra a figura abaixo.
+
+
+
+
+Caso não haja notas no período informado será exibido a seguinte mensagem.

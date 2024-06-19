@@ -1,0 +1,29 @@
+Title: == Relatório de Produtos de Balança
+
+Content:
+==
+
+----
+
+Relatorio que mostra os produtos de balança com os respectivos códigos e informações.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→De Balança||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes botões:
+
+* **Tipo:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Filtro:** Para selecionar uma categoria do atributo selecionado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Nesta tela mostra os produtos que são de balança.
+
+Depois de realizado a pesquisa mostrará na tela todos os resultados dos produtos de balança e os seus dados.

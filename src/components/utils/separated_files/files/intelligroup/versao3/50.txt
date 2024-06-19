@@ -1,0 +1,4 @@
+Title: Notas fiscais
+
+Content:
+Para acessar a tela **Notas fiscais** clique no menu do associado e depois em **Notas fiscais**.

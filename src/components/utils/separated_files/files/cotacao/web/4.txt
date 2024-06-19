@@ -1,0 +1,10 @@
+Title: = Seleção de fornecedor
+
+Content:
+=
+
+Para o representante que possuir mais de um fornecedor, será necessário logo após o login, selecionar qual fornecedor o mesmo deseja representar.
+
+
+
+Para selecionar, o representante deverá clicar sobre o botão "Sim" correspondente ao fornecedor desejado.

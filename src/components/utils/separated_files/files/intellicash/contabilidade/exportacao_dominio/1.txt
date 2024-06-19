@@ -1,0 +1,34 @@
+Title: == Exportação Domínio
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de gerar um arquivo de exportação para o sistema Domínio de Contabilidade.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Contabilidade→Exportação→Domínio||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Gerar:** para gerar o arquivo de exportação;
+* **Início das atividades no domínio**
+
+Opções de exportação:
+
+-**Cadastros de clientes**
+-**Cadastros de fornecedores**
+-**Cadastros de produtos**
+-**Notas fiscais de saída**
+-**Notas fiscais de entrada**
+-**Movimento dos ECF's**

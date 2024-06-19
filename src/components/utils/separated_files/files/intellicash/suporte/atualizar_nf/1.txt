@@ -1,0 +1,20 @@
+Title: = Atualizar NFXml.dll
+
+Content:
+=
+
+----
+
+Esta ferramenta tem a função de atualizar a NFXml.dll, que é utilizada para importação de notas fiscais no sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Suporte→Atualizar NFXml.dll||
+ 
+Esta ferramenta não abre nenhuma interface, mais ela mostra o andamento da atualização na parte inferior da tela do sistema.
+
+
+
+Após completar atualização aparecerá uma mensagem informando-o.

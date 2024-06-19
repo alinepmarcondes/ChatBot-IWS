@@ -1,0 +1,6 @@
+Title: == Sevidor
+
+Content:
+==
+
+Para configurar, o usuário deverá acessar na tela de login o menu localizado no canto superior direito.

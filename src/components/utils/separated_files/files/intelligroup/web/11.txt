@@ -1,0 +1,8 @@
+Title: = Parceiros
+
+Content:
+=
+
+1 - Menu Arquivo->Parceiros.
+
+Na tela de parceiros, é possível visualizar a listagem de todos os parceiros pertencentes a Associação, conforme demonstra a figura abaixo.

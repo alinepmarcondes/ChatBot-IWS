@@ -1,0 +1,16 @@
+Title: == Lançamentos de Convênios a Pagar
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de gerar lançamentos de convênios a pagar com algum fornecedor. se um funcionário compra algo em uma empresa que existem convênio, esta gera um documento com os valores gastos pelos funcionários, gerando uma conta a receber, e em seguinda gerando um vale no cadastro do funcionário, descontando o valor gasto no convênio.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Lançamentos→Convênios a Pagar||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

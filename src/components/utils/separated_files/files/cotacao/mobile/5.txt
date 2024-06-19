@@ -1,0 +1,22 @@
+Title: = Novo Representante
+
+Content:
+=
+
+Para cadastrar um novo representante, o usuário deverá pressionar o link "Novo Representante?" na tela de login, conforme demonstra a figura abaixo.
+
+
+
+O usuário deverá preencher todos os campos corretamente para realizar o cadastro de um novo representante.
+
+
+
+Possíveis mensagens de erros:
+* O campo Documento tem o formato inválido!
+* O campo Email tem o formato inválido!
+* O campo Telefone tem o formato inválido!
+* O campo Documento do Fornecedor tem o formato inválido!
+* Verifique se todos os campos foram preenchidos corretamente!
+* As senhas não coicidem!
+* O email "endereço do email" já está cadastrado!
+* O usuário "Usuário" já esta cadastrado!

@@ -1,0 +1,6 @@
+Title: = Configurar impressora Google Clound Print
+
+Content:
+=
+
+Abra o Google Chrome e selecione sua conta Google.

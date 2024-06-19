@@ -1,0 +1,27 @@
+Title: Configuração
+
+Content:
+Para configurar o **IWS RestartSW**, deve ser editado o arquivo **IwsRestartSW.ini**
+
+O arquivo é dividido em duas seções.
+**[CFG]** que possui as configurações do sincronizador
+**[PROGRAMAS]** que possui a lista de programas que deverá ser inicializado caso se verifique que não esteja rodando.
+
+=== [CFG] ===
+As configurações da seção **[CFG]** são:\\
+**intervalo** que configura qual o intervalo entre uma verificação e outra, o valor é expressado em minutos.\\
+**qtde** que configura a quantidade de programas que será verificado, e deverá coincidir com a quantidade de linhas dentro da seção **[PROGRAMAS]**.
+
+=== [PROGRAMAS] ===
+São os programas que serão monitorados. Cada programa deverá estar com o endereço completo, e iniciar pelo prefixo **arq__N__=** ondeo __N__ será número sequencial iniciado em 1.
+
+=== Exemplo de arquivo de configuração ===
+O exemplo a seguir está configurado para verificar a cada minuto se a calculadora do Windows e o bloco de notas estão abertos, e caso não esteja, serão inicializados.\\
+
+''[CFG]\\
+intervalo=1\\
+qtde=2\\
+\\
+[PROGRAMAS]\\
+arq1="C:\WINDOWS\System32\calc.exe"\\
+arq2="C:\WINDOWS\System32\notepad.exe"'' \\

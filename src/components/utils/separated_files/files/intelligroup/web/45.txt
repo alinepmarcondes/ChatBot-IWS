@@ -1,0 +1,4 @@
+Title: Confirmar pedido
+
+Content:
+Para confirmar o pedido, o usuário deverá clicar sobre o botão "Confirmar" localizado no canto superior esquerdo da listagem de produtos do pedido conforme demonstra a figura abaixo.

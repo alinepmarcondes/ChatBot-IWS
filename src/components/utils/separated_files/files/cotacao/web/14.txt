@@ -1,0 +1,14 @@
+Title: = Fornecedores
+
+Content:
+=
+
+Para alterar os fornecedores cadastrados, o representante deverá acessar o Menu "Representante".
+
+
+
+Na aba "Fornecedores" o representante deverá informar o documento (CPF ou CNPJ) do fornecedor e clicar no botão "Salvar" para concluir.
+
+
+
+Se as informações estiverem corretas, o novo fornecedor será exibido na listagem.

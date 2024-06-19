@@ -1,0 +1,27 @@
+Title: == Liberação de Representantes
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de liberar os representantes para realizar algumas funções, entre elas utilizar a cotação web.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Liberação de Representantes||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela mostra uma lista dos representantes e na parte inferior da tela há os seguintes campos:
+
+**Filtro:** para filtrar os representantes em "autorizados" ou "não autorizados"
+**Recarregar:** para atualizar a lista de representantes;
+**Excluir:** para excluir um representante selecionado;
+**Fechar:** para fechar esta interface;
+
+Para autorizar ou não autorizar um representante, basta marcar ou desmarcar o checkbox "//**Ativo**//" respectivamente;

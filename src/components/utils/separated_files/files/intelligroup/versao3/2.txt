@@ -1,0 +1,10 @@
+Title: == Painel Administrativo
+
+Content:
+==
+
+----
+
+É possível acessar o **Painel administrativo** através do seguinte endereço http://intelligroup.iws.com.br/admin.
+
+----

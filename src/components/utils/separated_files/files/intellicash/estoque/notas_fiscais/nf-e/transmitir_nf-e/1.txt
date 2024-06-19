@@ -1,0 +1,18 @@
+Title: == Transmissão de NF-e
+
+Content:
+==
+Apesar da NF-e ser transmitida ao ser confirmada no **Intellicash**, pode ocorrer casos em que a nota fiscal seja transmitida posteriormente, e para isso foi criado a interface de “Transmissão de NF-e”.\\
+Baseado no GNF-e (extinto sistema de emissão de NF-e), essa interface permite listar as NF-e que estão pendentes de transmissão e já realizar a transmissão.\\
+Transmitir NF-e||
+
+Nessa interface, podem ser exibidas a notas fiscais próprias do período selecionado, além de filtrar se deseja exibir todas as Notas Fiscais ou apenas os pendentes de transmissão.
+Na base são exibidos os comandos a serem executados:
+* **Gerar Enviar:** faz a transmissão da NF-e
+* **Visualizar:** Exibe a NF-e para sua impressão
+* **Consultar:** realizar a consulta da NF-e, para saber o status dela no SEFAZ
+* **Enviar XML:** permite enviar a NF-e para os clientes por e-mail
+* **Status Serv.:** Verifica o status do serviço
+* **Carta de Correção:** permite emitir carta de correção para uma determinada NF.
+
+Com o botão direito do mouse sobre uma determinada NF é possivel emitir NF complementar da NF-e.

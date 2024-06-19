@@ -1,0 +1,37 @@
+Title: == Cupom Médio
+
+Content:
+==
+
+----
+
+Cupom Médio é um relatório que mostra a média de vendas e de cupons fiscais no estabelecimento de acordo com a classificação desejada selecionando uma das abas na parte inferior da tela.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatório→Gestão de Vendas→Cupom Médio||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+A aba "//**Dia**//" mostrará um relatório de vendas diariamente durante todo o período selecionado.
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Após isso mostrará os resultados na pesquisa a direita os dados do relatório de acordo com a aba selecionada.
+
+A aba "//**Hora**//" Mostra a vendas de todo o período selecionado porém dividido em horários;
+
+A aba "//**Formas de Pagamento**//" Mostra as vendas de todo o período selecionado dividido pelas formas de pagamentos existentes;
+
+A aba "//**Caixas**//" Mostra as vendas de todo o período selecionado dividido pelos caixas existentes no estabelecimento;
+
+A aba "//**Semana**//" mostra as vendas de todo o período selecionado dividido pelos dias da semana;

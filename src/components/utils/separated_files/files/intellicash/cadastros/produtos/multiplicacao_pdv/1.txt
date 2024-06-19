@@ -1,0 +1,20 @@
+Title: == Multiplicação no PDV
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de selecionar produtos que podem ser multiplicados no PDV, ou seja, para o caixa passar no coletor um único produto e multiplicar este produto pela quantidade comprada pelo consumidor, para que economize tempo no caixa.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Multiplicação no PDV||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Esta tela tem uma coluna a esquerda com o codinome descrição dos grupos existentes e a coluna à direita os produtos deste grupo com os atributos "//**Código**//", "//**Descrição**//" e "//**Permitir**//". É no atributo "//**Permitir**//", que libera ou não a multiplicação no PDV, para isso basta marcar ou desmarcar o produto selecionado e após isso é necessário clicar no botão "//**Gravar**//" para salvar todas as alterações feitas pelo cliente.

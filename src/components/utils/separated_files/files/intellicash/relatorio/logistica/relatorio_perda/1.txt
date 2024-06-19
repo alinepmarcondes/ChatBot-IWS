@@ -1,0 +1,35 @@
+Title: == Relatório de Perda
+
+Content:
+==
+
+----
+
+ Relatório criado para permitir visualizar os lançamentos de perda.
+
+----
+
+Para abrir este relatório basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Logística→Relatório de Perdas||
+
+o clicar nesta opção aparecerá a seguinte interface:
+
+
+
+* **Empresa:** para determinar a empresa que será visualizados os dados. Esse campo só ficará visivel caso exista mais de uma empresa cadastrada no banco de dados;
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado. Eles virão preenchidos com o intervalo de 7 dias, podendo ser alterado;
+* **Tipo:** Permite escolher o tipo de lançamento que o usuário deseja visualizar, pode ser **"Entrada, Sáida ou Todos"**;
+
+Após aplicar, os dados serã exibidos de acordo com a aba selecionada, podendo ser por Dia, Item, Motivo ou Perda X Venda. Em todas as abas exceto a "Perda x Venda" serão exibidos quantidade, custo e operação (entrada ou sáida). Já na aba Perda x Venda só são exibidos os itens que tiveram entrada de perda e venda no período selecionado, com as colunas de quantidade de perda, custo total de perda, quantidade de venda e custo total de venda, e uma coluna chamada Proporção de Perda x Venda, que mostra quanto porcentos a perda representa em relação a quantidade de venda.
+ \\
+
+Na aba **Por Item** e na aba **Por Perda x Venda** é possivel filtrar os registros por atributos, conforme imagem abaixo.
+
+
+
+Na aba Por Item também é possivel ao dar um duplo clique verificar os detalhes do item selecionado levando em consideração o periodo selecionado e o Tipo.
+
+
+Na aba **Por Motivo** ao ser acionada foi adicionado um filtro para exibir os registros de acordo com o motivo desejado.

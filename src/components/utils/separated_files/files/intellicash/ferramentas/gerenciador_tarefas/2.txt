@@ -1,0 +1,30 @@
+Title: = Tarefas (Criando Tarefas)
+
+Content:
+=
+
+Ao iniciar essa tela o usuário deverá ter permissão (módulo TAREFAS, permissão Acessar Tarefas). Caso o mesmo tenha autorização poderá Criar Tarefas, Agendar Tarefa, Relatório e Histórico de Tarefas.
+
+
+ 
+Na aba tarefas ao clicar no Botão Criar Tarefa abrirá uma tela em que o usuário poderá colocar o nome da tarefa que se deseja a criar. Caso deseja alterar o nome de alguma tarefa já existente basta selecionar o registro que contenha o nome da tarefa e clicar no botão Alterar Tarefa abrirá novamente uma tela onde o usuário poderá substituir o nome da tarefa existente.
+
+
+ 
+Na aba Agendamento de Tarefa, o usuário vai atribuir as tarefas criadas anteriormente para o usuário de destino, com Título (escolher a tarefa que criada), Descrição (mensagem sucinta do objetivo da tarefa ou explicação da tarefa a desempenhar), Atribuído (usuário destinatário da tarefa) e Data em que a tarefa foi criada. Após o preenchimento dos campos basta clicar no botão Atribuir Tarefa.
+
+
+ 
+Já na aba Relatório, o usuário terá uma visão da situação de cada tarefa que foi criada e atribuída e sua situação. Ao clicar duas vezes no registro selecionado poderá ser alterado a os dados referente da tarefa.
+
+
+ 
+Ao selecionar a opção “Fechar Tarefas ao concluir” o sistema irá fechar a tarefa automaticamente após o usuário concluir a tarefa (será explicado posteriormente) e a mesma não aparecerá nesta tela e constará na aba “Histórico de Tarefa”. Caso o usuário queira fechar a tarefa antes mesmo que seja concluído ele poderá clicar com o botão direito no registro em que se deseja fechar.
+
+
+ 
+Ainda na aba Relatório o usuário poderá filtrar em um determinado período as tarefas alocadas por usuário (a quem pertence a tarefa ) , por Autor (quem designou a tarefa) e por Situação (estado em que se encontra a tarefa). Para tal procedimento basta selecionar a opção desejada e clicar no botão Aplicar.
+
+
+ 
+Na aba Hist. Tarefa constará as tarefas fechadas e seus respectivos detalhes de como foi a realização dos procedimentos, data de alteração e em que situação a tarefa se encontra.

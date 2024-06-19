@@ -1,0 +1,12 @@
+Title: = Regras Gerais
+
+Content:
+=
+
+Neste aspecto iremos destacar algumas regras importantes para o bom funcionamento da integração entre Matriz e suas Filiais: \\
+- Um registro só pode ser estornado na origem da baixa \\
+- Um registro só pode ser alterado na sua origem \\
+- Um registro só pode ser excluído na sua origem \\
+- Quando se faz uma baixa de um registro que não é correspondente a sua empresa, estes dados serão exibidos apenas no Contas e Caixas da origem da baixa e na empresa correspondente “dona do título” serão exibidos nos demais relatórios \\
+- Pagamento só poderá ser baixado na empresa “dona do título” \\
+- Para realizar uma baixa na Matriz de registros das Filiais é necessário conexão com as mesmas para que possa ser feito a validação do status do registro a ser baixado

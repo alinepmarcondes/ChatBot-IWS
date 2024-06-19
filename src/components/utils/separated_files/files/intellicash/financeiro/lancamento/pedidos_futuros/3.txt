@@ -1,0 +1,14 @@
+Title: = Histórico
+
+Content:
+=
+
+
+
+Esta aba mostra o histórico de pedidos futuros que foram realizados no sistema. Nela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Ainda há duas subabas, "//**Nenhum**//" mostrando o histórico sem nenhuma classificação, e "//**Seção**//" mostrando o histórico classificado por seções.

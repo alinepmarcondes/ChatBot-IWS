@@ -1,0 +1,27 @@
+Title: == Relatórios de Pagamentos dos Funcionários
+
+Content:
+==
+
+----
+
+Esta ferramenta apresenta um relatório mostrando os dados dos pagamentos dos funcionários mensalmente.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Relatórios de Pag. Funcionários||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Mês de Referência:** Para selecionar o mês referência dos pagamentos de funcionários;
+* **Ano:** para informar o ano desejado para o relatório;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Após realizada a pesquisa será listado abaixo os resultados dos pagamentos dos funcionários além dos vales e na parte inferior da tela mostrará o valor total de proventos, vales e salários.

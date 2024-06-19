@@ -1,0 +1,13 @@
+Title: = Janela de Configuração de Tabelas
+
+Content:
+=
+
+
+A janela de configuração se abrirá conforme a imagem abaixo mostra.
+
+Após darmos um nome ao nosso layout e definir se ele será padrão, ou seja, se ele será carregado preferencialmente sempre que eu abrir a ferramenta, podemos registrá-lo, e a partir deste ponto podemos inserir as colunas selecionando-as no box **“Nome do Campo”** e em seguida pressionando **Adicionar**.
+
+A opção **“Campo Editável”** permite que edições sejam feitas na interface do software antes de fazer a importação.
+
+O **Índice** das colunas é quem define a ordem em que estas aparecerão. O índice das colunas ainda não inseridas é mostrado no campo **índice** abaixo do nome das colunas. Podemos alterar o índice de uma coluna inserida utilizando as setas “para cima” e “para baixo” no canto superior direito da janela.

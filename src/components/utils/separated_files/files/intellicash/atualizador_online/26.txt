@@ -1,0 +1,7 @@
+Title: Código 202
+
+Content:
+Mensagem de erro: //Campo Porta é obrigatório!//
+
+Soluções possíveis:
+* Na [[manuais:intellicash:atualizador_online#etapa_01_-_configuracoes_iniciais|Etapa 01]] preencha o campo **Porta** corretamente.

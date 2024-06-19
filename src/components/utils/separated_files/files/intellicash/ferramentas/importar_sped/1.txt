@@ -1,0 +1,20 @@
+Title: == Importar SPED
+
+Content:
+==
+
+----
+
+
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Importar SPED||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao entrar nesta tela é necessário selecionar o caminho da pasta onde está instalado o validador SPED na parte superior da tela, ao lado há o botão carregar para iniciar a importação dos dados EFD no sistema. Após importar aparecerá a seguinte mensagem:

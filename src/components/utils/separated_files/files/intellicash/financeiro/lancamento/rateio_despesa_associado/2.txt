@@ -1,0 +1,27 @@
+Title: = Lançamentos
+
+Content:
+=
+
+A aba "//**lançamentos**//" é onde será feito o rateamento das contas.
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Tipo de Rateio:** Informa se o rateio será feito em cima de uma **Despesa** ou **Receita**;
+
+
+
+
+
+
+* **Centro de Custo:** Para selecionar o centro de custo do rateio a ser lançado;
+* **Vencimento Rateio:** Para informar qual o vencimento do rateio a ser lançado;
+* **Ratear:** Para ratear a conta;
+
+Feito isso aparecerá o rateio realizado com todos os associados no grid.
+
+
+
+Caso deseje alterar o valor do agendamento rateado de algum associado é necessário alterar o campo "//**Valor**//"(numericamente) ou "//**Rateio**//"(porcentagem) no grid do asssociado correspondente. Após corrigidos os valores basta clicar no botão "//**Lançar**//" para gerar o lançamento do rateio.

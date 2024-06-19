@@ -1,0 +1,24 @@
+Title: == Sincronização Matriz X Filiais
+
+Content:
+==
+
+----
+
+Interface usada em cada Filial para relacionar dados da Filial com dados na Matriz e que são correspondentes.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Matriz e Filiais→Sincronizar Dados Matriz x Filial||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+A interface se divide em três abas:
+
+- Centro de Custos: Lista os Centro de Custos da Filial e seus correspondentes na Matriz;
+- Formas de Recebimento: Lista as Formas de Recebimento da Filial e seus correspondentes na Matriz;
+- Cartões: Lista os Cartões da Filial e seus correspondentes na Matriz;
+
+No lado esquerdo serão mostrados os campos Código Filial e Descrição Filial e no lado direito a associação correspondente na Matriz com os campos Código Matriz e Descrição Matriz (Se este lado estiver em branco significa que o registro ainda não está associado).

@@ -1,0 +1,37 @@
+Title: Impostos
+
+Content:
+A aba "//**Imposto**//" mostra as informações sobre os impostos que o produto selecionado tem;
+
+
+
+Nesta tela há os seguinites campos:
+
+* **Códido NCM:** Para informar o código NCM do produto;
+* **Código ANP:** Para informar o código ANP do produto;
+* **ICMS:** Mostra as informações de tributação de ICMS do produto;
+- **Classificação:** Informa a classificação de ICMS do produto;
+- **Aliq. ICMS:** Mostra o valor da alíquota de ICMS;
+- **Origem:** Mostra a origem do produto;
+- **Beneficiamento:**
+* **PIS/COFINS:** Mostra as informações de tributação de PIS/Cofins do produto;
+- **Aliq. PIS:** Informa a alíquota de PIS do produto;
+- **Aliq. COFINS:** Informa a alíquota de Cofins do produto;
+- **Cod. Receita:** Informa o código de receita do produto;
+* **Outras Informações:** Mostra outras informações do produto;
+- **Finalidade:** Mostra qual é a finalidade do produto dentro do estabelecimento;
+- **Observação:** Campo livre para adicionar uma obs.;
+
+Ainda na parte infererior desta interface há duas abas, "//**Mesma UF**//" e "//**Outra UF**//". Nelas você determina um tipo de tributação padrão para as mesmas abas, respectivamente, para isso basta clicar no botão "//**Criar Tributação a Partir do Tipo de Tributação**//" Para selecionar um tipo de tributação padrão para esse produto;
+
+A partir da versão 3.1.013.004 foi incluído no cadastro do produto a opção de alocar um item a um regime especial conforme tabela sugerida pelo Laboratório Fiscal.
+
+
+
+
+
+
+
+Por padrão os itens estão classificados em //**N - Não se aplica**//. Isso significa que o item não faz parte de nenhum regime especial.
+
+Os itens que fazem parte de um regime especial deverão ser informado no cadastro para que o Laboratório Fiscal retorno a tributação correta.

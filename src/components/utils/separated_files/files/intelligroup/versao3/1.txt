@@ -1,0 +1,12 @@
+Title: == Acessibilidade
+
+Content:
+==
+
+----
+
+Para acessar o Intelligroup, utilize as versões mais atualizadas do [[https://www.mozilla.org/pt-BR/firefox/new/|Firefox]], [[http://www.google.com.br/chrome/browser/desktop/|Google Chrome]] ou [[http://windows.microsoft.com/pt-br/internet-explorer/download-ie|Internet Explorer]].
+
+Existem três painéis de acesso: painel administrativo, painel da associação e o painel do associado.
+
+----

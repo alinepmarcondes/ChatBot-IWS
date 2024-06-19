@@ -1,0 +1,6 @@
+Title: = Filtro
+
+Content:
+=
+
+Para realizar um filtro de produtos, o usuário deverá pressionar o menu "Filtro" localizado no canto superior direito.

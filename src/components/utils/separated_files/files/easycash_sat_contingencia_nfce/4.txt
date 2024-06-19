@@ -1,0 +1,64 @@
+Title: Configurações Gerais
+
+Content:
+Para liberação do SAT como contingência, deveremos realizar algumas configurações. 
+
+=== Retaguarda ===
+
+
+
+Na retaguarda na aba **Geral** deveremos selecionar no campo **Modo de Contingência = SAT**. 
+
+
+
+Na aba WebService confirmar se **UF de Destino** está setada **SP** e **SSL Type = LT_TLSv1_2**. Demais configurações padrões para o ambiente de produção.
+
+
+
+Deve-se no **cadastro de ECFs** inserir ou atualizar as seguintes informações:
+
+
+
+=== Frente de Caixa ===
+
+No arquivo INI do EasyCash teremos as tags referenciando NFC-e e SAT, conforme segue:
+
+
+
+A liberação inicial **SEMPRE** será NFC-e. Afinal este é o tipo de transmissão padrão. Quando a configuração **32907**(NFCe: Modo de Contingência) estiver setada no frente de caixa para SAT em contingência, embora no INI esteja setado o mesmo, não será apresentado para o usuário esta opção.
+
+
+
+Após liberação inicial, teremos o PDV cadastrado no retaguarda. Neste exemplo seria o **PDV 003**. 
+
+
+
+Obrigatoriamente para o estado de São Paulo, deveremos informar um SAT para a contingência.
+
+
+
+Deveremos selecionar **Marca** e **Modelo** do SAT. Caso esteja cadastrado na retaguarda corretamente o SAT em contingência, será mostrada no grid da tela de liberação. Ao clicar em **Cadastrar SAT** será mostrada a seguinte mensagem:
+
+
+
+O botão **Habilitar** será automaticamente acionado, transformando este SAT em uma contingência no caixa em questão. Será mostrada a mensagem:
+
+
+
+Abaixo temos a imagem da contingência SAT cadastrado no retaguarda referenciando o **PDV 003**, segue:
+
+
+
+Após este processo, devemos carregar e **CONFERIR** os dados do WebService no frente de caixa e demais configurações padrões. Na aba **GERAL** também deve carregar a contingência SAT padronizada na retaguarda. Seguem as telas:
+
+
+
+
+
+Após liberações será habilitado no menu do PDV o grupo de funções SAT e dentro das configurações deveremos carregar **OBRIGATORIAMENTE** os dados de todas as abas **Alíquota**, **Comprovante Não-Fiscal**, **Relatório Gerencial**, **Formas de Pagamento**. Segue:
+
+
+
+
+
+**OBS:** Caso o menu não seja habilitado é porque a liberaçãoda contingência não ocorreu conforme esperado. As configurações deverão ser revistas e o processo de liberação refeito.

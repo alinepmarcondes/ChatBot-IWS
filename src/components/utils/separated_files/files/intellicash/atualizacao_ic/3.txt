@@ -1,0 +1,13 @@
+Title: = Atualizar IC
+
+Content:
+=
+
+Depois de verificar se está tudo configurado corretamente, atualizar o **IC** é muito simples.
+
+Substitua o arquivo **Intellicash3.exe** instalado no servidor, e execute-o. O **IC** irá verificar que a versão do executável é mais atual que a anterior e irá perguntar ao usuário se deseja atualizar a versão.
+
+
+Ao informar que sim, será aberto uma janela para localizar o arquivo .GSS, que é a coleção de instruções para atualização do banco de dados.
+
+Após escolher o arquivo .GSS, o **IC** faz a validação para saber se o arquivo .GSS está correto, caso esteja, será questionado ao usuário se deseja realizar uma cópia de segurança do banco de dados.

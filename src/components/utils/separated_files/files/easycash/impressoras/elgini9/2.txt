@@ -1,0 +1,18 @@
+Title: = Configuração
+
+Content:
+=
+
+De acordo com o fabricante, a impressora já é disponibilizada com a interface de comunicação USB habilitada e que seria necessário seguir os passos do aplicativo Utility para alterar a interface de comunicação para "Porta Serial Virtual".
+
+Portanto, para corrigirmos o problema levantado, seguimos estes mesmos passos (listados e ilustrados a seguir).
+
+
+
+- Acessar a "Lista de Impressoras" e selecionar a impressora a ser configurada;
+- Acessar "Configurações Avançadas ...";
+- Acessar "Configurações Porta USB";
+- Selecionar qual interface será usada (neste caso, a USB) e clicar em "Configurações" (o que já irá realizar a troca desejada da configuração da comunicação da interface);
+- Por fim, será necessário reiniciar a impressora para, assim, instalar o driver de acordo com a comunicação selecionada.
+
+Concluída a reconfiguração, reiniciamos a impressora e verificamos se o driver desta no gerenciador de dispositivos do Windows passou a constar como USB.

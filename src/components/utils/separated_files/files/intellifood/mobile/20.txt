@@ -1,0 +1,6 @@
+Title: = Cadastro permissões
+
+Content:
+= 
+
+Para cadastrar permissões o usuário precisa das permissões necessárias. Na tela principal o usuário deverá clicar no botãoe depois em **Cadastro** e depois em **Permissões**, conforme demonstra a figuara abaixo.

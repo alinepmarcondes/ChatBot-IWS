@@ -1,0 +1,4 @@
+Title: Imprimir
+
+Content:
+Para imprimir a listagem, clique no botão “Imprimir” localizado no canto superior esquerdo da listagem conforme demonstra a figura abaixo.

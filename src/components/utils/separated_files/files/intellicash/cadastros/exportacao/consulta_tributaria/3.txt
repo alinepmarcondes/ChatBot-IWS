@@ -1,0 +1,5 @@
+Title: Envio de Produtos
+
+Content:
+Após ter feito as configurações basta voltar na aba "Envio", selecionar o filtro desejado e clicar no botão "Aplicar" para carregar os produtos e fazer o envio. Após enviar os itens passaram por uma analise pela consulta tributária onde o usuário pode acompanhar a disponibilidade através do painel da consulta tributária. \\
+Uma vez que os itens estiverem disponível no painel, basta o usuário clicar em **"Consultar Divergência"** que o itens serão importados para o Intellicash. \\

@@ -1,0 +1,32 @@
+Title: = Configuração do Servidor
+
+Content:
+=
+
+Deverá ser configurado no servidor do cliente, **onde colocaremos dentro da pasta da IWS**:
+
+
+
+A pasta deve conter os seguintes arquivos:
+
+
+
+Deve-se registrar o banco(base que consta dentro da pasta **Banco**) dentro do arquivo **aliases.conf** que está na pasta do servidor IWB.
+
+
+
+Ao executar o programa **IWBServer.exe**, deve-se acessar o menu **Configurações**:
+
+
+
+
+
+Para servidores que possuem **base multilojas**, deve-se tratar da seguinte forma:
+- __Criar uma pasta do servidor IWB para cada CNPJ__.
+- __Alterar a porta HTTP e porta DTSP__. Exemplo: Para a filial utilizaremos a porta 8024 e 234.
+
+Em seguida, deve-se acessar o menu **Gerenciamento** também com o usuário **SUPORTE**, como mostrado abaixo:
+
+
+
+Nesta tela, podemos verificar as licenças disponíveis do cliente. Ao realizar a configuração pela primeira vez, devemos clicar no botão **Atualizar**.

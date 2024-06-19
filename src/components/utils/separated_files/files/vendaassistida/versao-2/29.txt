@@ -1,0 +1,6 @@
+Title: = Excluir Orçamento
+
+Content:
+=
+
+Para excluir um orçamento, o usuário deverá acessar o menu localizado no canto superior direitoe pressionar o item "Excluir".

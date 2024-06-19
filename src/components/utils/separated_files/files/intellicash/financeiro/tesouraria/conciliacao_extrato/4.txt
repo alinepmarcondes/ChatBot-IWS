@@ -1,0 +1,14 @@
+Title: Indentificação
+
+Content:
+Logo após ser clicado o botão “OK”, a aba “Identificação” estará habilidata para ser montada a estrutura de identificação do extrato de acordo com seu respectivo manual. 
+
+
+
+O grupo **Cabeçalho** geralmente traz o resumo do extrato (saldo inicial/data).
+
+O grupo **Detalhes** geralmente traz o detalhamento de cada operação ocorrida no período.
+
+O Grupo **Trailer** geralmente traz o resumo do extrato (saldo final). 
+
+No Grupo **Diretório** será configurado o Diretório dos Arquivos onde o sistema irá sugerir quando for importar o retorno.

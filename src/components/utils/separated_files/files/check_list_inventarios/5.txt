@@ -1,0 +1,9 @@
+Title: 4)	Contagem
+
+Content:
+Finalmente será feito a contagem, nesse ponto é importante algumas dicas para facilitar a coleta dessas informações:
+* Uma dica interessante é usar papeis, de preferência coloridos para chamar a atenção, e ao fazer a contagem, o colaborador escreve a quantidade contada, assina seu nome, e cole o papel com fita adesiva de boa qualidade, para não correr o risco de descolar, em um dos itens do agrupamento contado. Esse passo faz como que outro colaborador saiba que aquele conjunto de produtos já foi contado, e quem o contou.
+- Caso produto esteja organizado em diversos pontos do estoque, é preciso deixar claro que a contagem deve ser feita por áreas do depósito, mesmo que mais de um agrupamento do mesmo produto esteja em outra área e no campo de visão do colaborador, não se deve contar o produto de outra área, até que se chegue lá.
+* Outra dica é, o colaborador escrever os últimos 6 dígitos do código de barras no papel, para em caso de algum problema saber a que mercadoria pertence a contagem. Entretanto, essa dica pode não ser viável devido ao tempo disponível para realizar a contagem;
+* Usar papeis previamente numerados também é importante, pois sabe-se se está faltando alguma das contagens. Para isso, cada colaborador que irá fazer a contagem deverá ficar responsável por um intervalo de numeração, por exemplo:
+- O João ficará com as folhas de 0001 a 0500; o José ficará com as folhas de 0501 a 1000. E assim por diante.

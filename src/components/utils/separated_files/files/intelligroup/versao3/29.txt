@@ -1,0 +1,4 @@
+Title: Tipos de endereço
+
+Content:
+Para acessar a tela **Cadastro de tipos de endereço** clique no menu **Cadastrar** e depois em **Tipos de endereço**.

@@ -1,0 +1,48 @@
+Title: == Início
+
+Content:
+==
+
+Para configurar os endereçamentos de produtos, [[manuais:intellicash:configuracao:configurar_enderecamento|veja este manual]].
+
+Após criadas as configurações, podemos cadastrar o endereçamento dos produtos. Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Endereçamento||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+
+===Versão 3.0.140.003===
+A partir desta versão é possível selecionar o depósito do qual se deseja atribuir o endereço, caso a empresa esteja configurada como multi-depósito.
+
+
+
+Para criar um endereçamento de produtos é necessário escolher a "//**Empresa**//" e clicar no botão "//**Aplicar**//". Após escolhida a empresa é necessário clicar no botão "//**Novo**//" na parte inferior da tela:
+
+
+
+Vemos que ao clicar no botão novo aparece uma interface com as parametrizações criadas nas configurações. Para criar um endereçamento basta nomeá-las no campo endereço de acordo com as configurações de formatação. Após isso basta clicar no botão "//**Ok**//" para salvar ou no botão "//**Cancelar**//" para cancelar e sair desta tela. Veja o exemplo abaixo:
+
+
+
+Foram criados três endereçamentos de produtos, ambos na mesma fileira e mesma gôndola, apenas em andares diferentes. Na coluna à direita há duas abas, "//**Endereçamento**//" mostrando o endereço criado e "//**Produtos**//" mostrando os produtos deste endereço.
+
+Ao clicar na aba "//**Produtos**//" aparecerá a seguinte interface:
+
+
+
+Esta tela mostra os produtos deste endereço, foi criado um exemplo com uma gôndola em que uma de suas prateleiras (nomeado andar no sistema) esteja com um estoque de diferentes tipos de refrigerantes;
+
+Vemos que nesta tela há dois botões, "//**Adicionar produtos**//" e "//**Excluir Produto**//", para adicionar produtos ao clicar no botão aparecerá a seguinte interface de localizar produto:
+
+
+
+Ao entrar nesta tela basta localizar o produto e confirmar e o produto estará inserido no endereço (para mais informações acesse o manual de [[manuais:intellicash:cadastros:produtos:produto|cadastro de produtos]].
+
+Para excluir um produto do endereço basta selecionar o mesmo e clicar no botão "//**Excluir Produto**//".
+
+Na parte inferior da tela há o botão "//**Limpar endereços**//" que exclui todos os endereços cadastrados (**Obs.:** são todos os endereços e não os produtos).
+
+Há também o botão "//**Excluir endereço**//" para poder excluir apenas um endereço selecionado.

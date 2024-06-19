@@ -1,0 +1,4 @@
+Title: Excluir
+
+Content:
+Para excluir as imagens do dispositivo, o usuário poderá utilizar a opção "Excluir" e depois clicar em "Sim".

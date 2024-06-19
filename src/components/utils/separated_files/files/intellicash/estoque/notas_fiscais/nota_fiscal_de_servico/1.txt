@@ -1,0 +1,74 @@
+Title: == Nota Fiscal de Serviço
+
+Content:
+==
+
+----
+
+É uma ferramenta para lançamento das notas fiscais de serviços.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Notas Fiscais→Nota Fiscal de Serviço||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na pagina inicial é possível localizar ou lançar uma nova nota. Essas duas funcionalidades podem ser acessadas através dos botões "//**Localizar**//" e "//**Novo**//", respectivamente.
+
+* **Localizar:** Quando acionado o botão “Localizar” abrirá uma nova tela que necessita de alguns parâmetros para realizar a busca.Esses parâmetros podem ser o documento (CPF/CNPJ) ou o nome do agente Prestador/Tomador de serviço ou ainda pelo número, série, início ou término de lançamento da nota.
+
+
+
+Passando o parâmetro de busca é só clicar no botão Aplicar.Assim que identificada nota, dê um duplo clique sobre ela que você conseguirá visualizar toda a nota.
+
+* **Novo:** Quando acionado o botão “Novo” abrirá a tela para cadastro de uma nova nota. Essa nota poderá ser tanto do tipo Tomador (entrada) quanto Prestador (saída).
+
+
+
+Nessa tela você selecionará a empresa para qual a nota foi ou será emitida, se é do tipo prestador ou tomador. Quando a nota é do tipo Prestador, ou seja, saída, o número da nota será automaticamente preenchido por um número negativo que quando confirmada virará um número sequencial, começando sempre pelo número 1 (no caso da primeira nota emitida por aquela empresa). Quando a nota for de tomador, o campo número deverá ser preenchido conforme a nota de entrada. Você deverá ainda preencher os campos “Série”, “Data Emissão”, “Data Serviço” que a data em que o serviço foi realizado.
+
+Logo abaixo deverá ser preenchido o campo “CNPJ/CPF” que é o documento do agente Prestador de serviço em caso de nota de entrada ou do agente Tomador em caso de nota de saída. Logo que preenchido este campo teclando o “Enter” o restando dos dados serão automaticamente preenchidos. Caso os campos não sejam preenchidos é necessário verificar se há o cadastro do mesmo no sistema como cliente. 
+É necessário também informar o município onde o serviço foi realizado no campo “Município do Serviço”.
+
+Concluindo o cadastro da nota é só clicar no botão "//**Ok**//".
+
+Após o cadastro voltará para a tela principal com os dados da nota preenchido cabendo ainda inserir os itens na nota bem como os impostos inerentes ao serviço prestado. Para isso basta clicar no botão "//**Inserir Item**//".
+
+**Inserir Item**
+
+Quando clicar no botão de “Inserir Item” abrirá uma tela onde deverá escolher o item (serviço) a ser inserido na nota digitando a descrição no campo “Serviço” e com um “Enter” será exibido todos os serviços que estão cadastrados no sistema. Identificando o serviço a ser laçado, é só dar um duplo clique sobre ele que o item será inserido e neste caso é só colocar a quantidade desejada que o valor total será calculado automaticamente.
+
+Caso queira alterar algum dado do cadastro do serviço, basta clicar com o botão direito do mouse sobre o serviço que abrirá a opção de abrir o cadastro deste serviço (cadastro serviço).
+
+
+
+Um pouco mais abaixo terá os campos dos impostos, para cada item inserido poderá ser lançado o seu imposto, basta digitar automaticamente em cima da base de cálculo que é o valor total do produto inserido. Para cada imposto ainda terá a opção de informar se este imposto foi retido ou não. Caso o imposto esteja marcado como retido, esse valor será descontado do valor total da nota.
+
+
+
+Após inserir o item basta clicar no botão "//**Confirmar**//".
+
+Se clicar no botão "//**Cancelar**//" a operação de inserção do item não será concluído e a tela será fechada. 
+
+Na tela principal ainda terá a opção de "//**Alterar Item**//" e "//**Excluir item**//". Para ambos os casos basta selecionar o item e os seguintes botões:
+
+* **Alterar:** Ainda nesta mesma tela terá a opção de alterar dados do cabeçalho da note. Lembrando que essas alterações poderão ocorrer somente nos casos em que a nota seja de entrada ou se a nota for de saída, essa não poderá ter sido cancelada ou transmitida para a receita federal.
+* **Excluir:** A nota também poderá ser excluída, mas este caso só pode ser feito quando a nota for de entrada, se a nota for de saída a nota será cancelada se já tiver sido gerado a numeração sequencial, ou seja, um número positivo.
+* **Confirmar:** Após inserir todos os dados na nota você poderá confirmar. Ao confirmar uma nota de saída será gerado um número sequencial, ou seja, o número que até antes da confirmação era um número aleatório e precedido do sinal negativo, tornará um número positivo. No caso de nota de entrada a numeração é e será sempre a mesma que foi digitada conforme a nota recebida.
+* **Imprimir:** A impressão poderá ser feita assim que nota for confirmada.
+
+Após confirmada a nota aparecerá a interface referente ao botão "//**Financeiro**//" para agendar pagamente se desejar.
+
+
+
+Nesta tela alguns campos vêm preenchidos, por isso basta verificar os valores e preencher, o centro de custo e a forma de cobrança a selecionar e o numero de parcelas e vencimento. Após isso basta clicar no botão "//**Lançar**//" para lançar o pagamento.
+
+Ao mudar para a aba "//**Financeiro**//" aparecerá a seguinte tela:
+
+
+
+Esta tela não realiza nenhuma operação, mostra apenas um informativo sobre o financeiro da nota fiscal, para verificar o status da cobrança.

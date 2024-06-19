@@ -1,0 +1,23 @@
+Title: Apuração
+
+Content:
+Na parte superior da tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+* **Exportar:** Para exportar os dados do relatório para um arquivo pdf.
+* **Bloquear Lançamentos:** Marcar esta opção bloqueia todos os lançamentos financeiro no periodo que estará apurando o PIS/COFINS.
+* **Gerar Arquivo com NF-e e CF Consolidados:**
+* **Gerar Registro de Itens sem Direito a Crédito:**
+* **Incluir Notas Fiscais de Transferência:**
+
+Há ainda a opção de visualizar os dados de determinado CFOP. Para tal, pressione o Shift e clique sobre as colunas de valores. Vale ressaltar que as colunas CFOP, Descrição do CFOP e Valor Contábil não possui este comportamento, somente as demais.\\
+Após pressionar, será aberto a interface abaixo, com duas abas sendo elas"//**Produtos**//" e"//**Documentos**//"
+
+
+
+Na aba //**Produtos**// é possível ainda realizar o remanejamento de alguns atributos do produto. Para isto, clique sobre o grid com o lado esquerdo do mouse que as opções serão exibidas.\\
+Na parte superior da tela há os seguintes botões:
+* **Imprimir**: Imprime os dados da tela
+* **Exportar**: Realiza a exportação para PDF.

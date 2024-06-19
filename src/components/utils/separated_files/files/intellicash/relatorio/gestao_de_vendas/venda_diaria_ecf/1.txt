@@ -1,0 +1,27 @@
+Title: == Relatório de Venda Diária Por ECF
+
+Content:
+==
+
+----
+
+Este relatório exibe as informações de vendas das ECF's diariamente.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Venda Diária Por ECF||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Mês:** Para selecionar o mês referência das vendas;
+* **Ano:** para informar o ano desejado para o relatório;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Após gerado o relatório será mostrado todos os dados referente as vendas de cada dia do mês seleionado.

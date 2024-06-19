@@ -1,0 +1,6 @@
+Title: = Nova Associação
+
+Content:
+=
+
+Se a associação ainda não possuir um cadastro clique no link "//__Nova associação?__//" na tela de **Login**.

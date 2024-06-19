@@ -1,0 +1,8 @@
+Title: = Depósito de Origem/Destino
+
+Content:
+=
+
+O campo **Dep. Origem** lista todos os depósitos internos pertencentes à empresa selecionada. Isso se deve ao fato de que em princípio somente a saída da empresa produz a transação fiscal. Quando a transação se refere a uma entrada de um depósito externo para a empresa a movimentação entre depósitos acontece com a entrada de notas. A movimentação entre depósitos internos (com o mesmo agente) não produz nota, mas atualiza a posição de estoque dos depositos.
+
+Para **Dep. de Destisno** são listados todos os depósitos de todas as empresas, exceto o depósito selecionado na origem.

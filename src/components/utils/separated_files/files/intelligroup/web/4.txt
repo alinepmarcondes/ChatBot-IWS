@@ -1,0 +1,30 @@
+Title: Google Chrome
+
+Content:
+=== Cookies ===
+
+1 - Acesse o menu localizado no canto superior direito.
+
+2 - Clique em "Configurações".
+
+3 - Navegue até o item "Privacidade".
+
+4 - Clique no botão "Configurações de conteúdo".
+
+5 - No item "Cookies", selecione a opção "Permitir a configuração de dados locais".
+
+=== Pop-up ===
+
+1 - Acesse o menu localizado no canto superior direito.
+
+2 - Clique em "Configurações".
+
+3 - Navegue até o item "Privacidade".
+
+4 - Clique no botão "Configurações de conteúdo".
+
+5 - No item "Pop-ups", clique no botão "Gerenciar exceções".
+
+6 - No campo "Padrão de nome de host", informe o endereço "intelligroup.intelliware.com.br" (sem aspas), no campo "Permitir", selecione a opção "Permitir".
+
+7 - Clique em "Concluído".

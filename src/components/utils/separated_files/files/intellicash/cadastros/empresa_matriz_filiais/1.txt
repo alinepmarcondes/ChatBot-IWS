@@ -1,0 +1,19 @@
+Title: == Cadastrar Matriz e Filiais
+
+Content:
+==
+
+----
+
+Esta tela possui como função exibir os dados da empresa e de suas filiais caso tenha.\\
+Dentre as funções de informar contador pode-se configurar nesta tela também o E-mail automatico.
+
+
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Empresa→Matriz e Filiais||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

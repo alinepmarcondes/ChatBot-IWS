@@ -1,0 +1,10 @@
+Title: =Recebimentos
+
+Content:
+=
+
+Através do botão **Recebimento** do EasyCash o frente irá acessar uma tela semelhante ao do recebimento do retaguarda, selecionando o cliente o sistema permitirá que o usuário selecione as contas a serem baixadas.
+
+Após a baixa os valores informados irão entrar no caixa como suprimento nas respectivas formas selecionadas.
+
+ Acompanhamento Fechamento de Caixa//. Nesta tela tem uma coluna chamada recebimentos que mostra o total de recebimentos e se desejar visualizar detalhes basta clicar com o botão direito do mouse e clicar em **Recebimentos**.

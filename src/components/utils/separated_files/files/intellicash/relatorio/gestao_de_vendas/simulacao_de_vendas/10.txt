@@ -1,0 +1,8 @@
+Title: = Abas de Simulação:
+
+Content:
+=
+
+
+
+As Abas de simulação servem para distinguir uma simulação que está sendo feita nesse momento com uma simulação que foi salva em outro período. Ao clicar na aba “Relatório Salvo”, será exibida uma interface para a busca das simulações salvas. Todas as mostradas no “Relatório Salvo” são idênticas as quando foi salvo, mesmo que tenha sido alterada alguma informação referente ao período, não serão exibidos. Para facilitar a visualização, na aba de “Relatório Salvo”, será exibido uma tarja azul com o nome dado ao salvar a simulação, isso também serve para diferenciar um relatório salvo de um relatório atual.

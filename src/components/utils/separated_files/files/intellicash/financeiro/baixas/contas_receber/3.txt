@@ -1,0 +1,16 @@
+Title: = Arredondamento no Valor da Baixa do Cliente no Recebimento
+
+Content:
+=
+Se a configuração **5303 - Valor da Baixa - Arrendondar Valor da Baixa do Cliente no Recebimento** estiver em sim o sistema irá permitir que o usuário baixe os valores arredondados para facilitar o troco no recebimento do cliente (//Gerenciamento -> Cadastros -> Clientes - Aba Receber// e //Gerenciamento -> Financeiro -> Lançamentos -> Convênios a Receber - Aba Receber//).
+
+O valor arredondado será o valor líquido a receber e a regra obedecida no recebimento será a seguinte:
+
+*Unidade terminada em **5**,**4**,**3**,**2**,**1** será arredondado para baixo 
+ 
+
+Ex. R$ 45,01R$ 45,02R$ 45,03 R$ 45,04 R$ 45,05 será arredondado para R$ 45,00
+
+
+
+Exemplo de desconto:

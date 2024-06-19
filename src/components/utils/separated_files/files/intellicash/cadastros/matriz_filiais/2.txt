@@ -1,0 +1,40 @@
+Title: = Configurando a ferramenta
+
+Content:
+=
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastro→Matriz & Filiais||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+A primeira coisa que deve ser feito é informar em todas as empresas quais são os endereços das Filiais e da Matriz através de um cadastro que você vai acessar clicando no botão "//**Novo**//".
+
+
+
+Nesta tela há os seguintes campos:
+
+* **CNPJ:** Para informar o CNPJ da empresa;
+* **Inscrição Estadual:** para informar a inscrição estadual da empresa;
+* **Razão Social:** para informar a razão social da empresa;
+* **Fantasia:** para informar a fantasia da empresa;
+* **Número:** para informar o número da empresa;
+* **IP:** Deve informar o endereço de IPda empresa que esta sendo cadastrada;
+* **Matriz:** Marcar esta opção se a empresa for matriz. Será permitido marcar esta opção em apenas um cadastro;
+* **Alias do Banco:** Informar o alias da empresa que está sendo cadastrada;
+
+Quando você faz esse cadastrado, o sistema cadastra no banco de dados na tabela agente, no entanto não é cadastrado na tabela empresa com o Id correspondente a cada empresa, então é necessário fazer essa cadastro manualmente diretamente no banco de dados. Isso deve ser feito tanto na base da matriz quanto das filiais.
+
+
+
+
+
+Caso deseje selecionar mais de um registro ao mesmo tempo, basta clicar no primeiro registro segurar o SHIFT do seu teclado e ir selecionando os demais registros com o mouse, depois só clicar na seta para passar para esquerda (Filial). \\
+Ainda nessa interface você pode visualizar três botões: \\
+* **Recarregar**: recarrega todos os dados. Caso já tenha sido feita alguma alteração e não tenha clicado em corrigir, a mesma será perdida. \\
+* **Corrigir**: irá pegar todas as alterações feitas e fazer as correções no banco da filial. Após a correção o sistema irá recarregar os dados novamente para que possa ser verificado se não esqueceu algum registro para alterar. \\
+* **Sair**: fecha a tela de configuração do objeto. \\
+Uma vez feito às correções dos objetos, já pode iniciar a importação de cadastrado na filial, que pode ser de forma manual ou utilizando o sincronizador

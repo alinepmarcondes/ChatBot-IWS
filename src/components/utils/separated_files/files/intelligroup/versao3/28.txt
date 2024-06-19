@@ -1,0 +1,4 @@
+Title: Tipos de email
+
+Content:
+Para acessar a tela **Cadastro de tipos de email** clique no menu **Cadastrar** e depois em **Tipos de email**.

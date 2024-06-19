@@ -1,0 +1,4 @@
+Title: Menu de contexto(2):
+
+Content:
+O Sistema permite alguns atalhos para selecionar os produtos. Para isso podemos selecionar todos os produtos, inverter seleção ou desmarcar todas. Clique com o botão direito do mouse em cima do grid e escolha a Opção desejada.

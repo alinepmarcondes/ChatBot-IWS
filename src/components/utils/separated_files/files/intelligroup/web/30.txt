@@ -1,0 +1,6 @@
+Title: = Adicionar produto próprio
+
+Content:
+=
+
+Para adicionar um produto próprio, clique no botão “Adicionar” localizando no topo, conforme demonstra a figura abaixo.

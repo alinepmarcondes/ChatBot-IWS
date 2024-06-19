@@ -1,0 +1,16 @@
+Title: = Movimentação Simulada:
+
+Content:
+=
+
+
+
+* **__Custo Simulado__:** Custo do produto inicialmente igual ao “Custo Atual”, porem permite que seja alterado pelo usuário.
+* **__Preço Simulado__:** Inicialmente igual ao “Preço Atual”, porem permite que seja alterado pelo usuário.
+* **__Qtde Vendida Simulado__:** Quantidade Vendida no período selecionado. Permite que seja alterado.
+* **__Total Custo Simulado__:** Multiplicado “Custo Simulado” pela “Qtde Vendida Simulado”.
+* **__Total Vendido Simulado__:** Multiplicado “Preço Simulado” pela “Qtde Vendida Simulado”.
+* **__Margem Simulado (R$)__:** “Total Vendido Simulado” subtraído do “Total Custo Simulado”.
+* **__Margem Simulado(%)__:** “Margem Simulado (**R$**)” dividido por “Total Vendido Simulado”, obtendo a margem de lucro pela venda.
+
+Os campos que podem ser alterados são pintados de verde.

@@ -1,0 +1,12 @@
+Title: Código 003
+
+Content:
+Mensagem de erro: //Falha ao criar deretório!//
+
+Soluções possíveis:
+* Verifique se o usuário do //**Windows**// possui permissões necessárias para executar o //**Atualizador Online**//.
+
+Realize estes procedimentos a seguir:
+* Finalize o programa de atualização;
+* Faça as possíveis soluções;
+* Tente executar o //**Atualizador Online**// novamente.

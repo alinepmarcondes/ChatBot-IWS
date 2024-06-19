@@ -1,0 +1,18 @@
+Title: Contas e Caixas
+
+Content:
+Realiza um gerenciamento entre contas bancárias e caixas, fornecendo um controle dos mesmos.
+
+Para criar uma nova conta, basta clicar no botão “Novo” quando estiver (Gerenciamento -> Cadastro -> Contas e Caixas).
+
+
+
+Ao disponibilizar essa nova tela o usuário escolhera na opção “Tipo” (conta corrente), em “Descrição” será informado o nome do banco completo e na “Descrição Resumida” poderá ser colocado o nome que será apresentado na tela.
+
+Logo após ser clicado em “OK”, o sistema liberará uma nova tela que deverá ser preenchida com os dados da conta fornecida pelo o banco.
+
+
+
+Logo após o preenchimento dos campos o usuário poderá clicar em “OK”.
+
+Caso seja necessário a visualização dos dados conta o usuário poderá clicar no nome da nova conta criada e selecionar a aba “Dados Conta Corrente”.

@@ -1,0 +1,4 @@
+Title: Autorizar
+
+Content:
+Para autorizar ou não uma notificação clique no botão **Não** ou no botão **Sim**.

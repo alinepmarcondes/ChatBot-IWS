@@ -1,0 +1,15 @@
+Title: = Localizar
+
+Content:
+=
+
+A aba "//**Localizar**//" tem a função de localizar e cadastrar fornecedores.
+
+
+
+Nela há os seguintes campos:
+
+* **Localizar:** Para pesquisar um cliente no banco de dados pelo nome ou documento;
+* **Novo** para cadastrar um novo cliente;
+* **Todos** para listar todos os clientes já cadastrados;
+* **Busca Avançada:** Para realizar uma busca por clientes usando parametrizações;

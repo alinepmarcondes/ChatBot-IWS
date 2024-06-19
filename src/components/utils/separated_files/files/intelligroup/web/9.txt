@@ -1,0 +1,8 @@
+Title: = Associados
+
+Content:
+=
+
+1- Menu Arquivo -> Associados.
+
+Na tela de associados, é possível visualizar a listagem de todos os integrantes ativos da associação, bem como sua localização geográfica no mapa.

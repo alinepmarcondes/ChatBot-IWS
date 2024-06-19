@@ -1,0 +1,12 @@
+Title: Dados
+
+Content:
+A aba "//**Dados**//" mostra os dados cadastrais da transportadora.
+
+
+
+Nesta interface, além de mostrar os dados caadastrais da tranportadora, há também a parte de observações, caso deseje colocar uma observação sobre a mesma e ao lado há alguns botões:
+
+* **Alterar:** para alterar dados da transportadora;
+* **Excluir:** para excluir a transportadora do sistema;
+* **Autorizar:** NF-e para emitir nota fiscal da transportadora

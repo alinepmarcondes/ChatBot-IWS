@@ -1,0 +1,29 @@
+Title: == Relatório
+
+Content:
+==
+
+----
+
+O Relatório permite buscar todas as notas fiscais geradas a partir do módulo de laticínio.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Laticínio→Relatório||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+* **Empresa:** Empresa emitente da nota.
+* **Filtrar Data:** Filtro que permite definir o intevalo pelo data de entrada da nota ou pela data de lançamento da nota.
+* **Início** e **Término:** Intervalo para determinar a pesquisa do relatório.
+* **Filtrar Notas:** Determina se serão exibidas Notas Abertas, Notas Confirmadas ou ambas.
+* **Imprimir:** Imprime o relatório.
+* **Aplicar:** Aplica os filtros para exibir as notas.
+
+Logo abaixo mostra os resultados da pesquisa com uma lista de notas encontradas na primeira coluna. Na segunda coluna mostra os lançamentos referentes a nota selecionada. E na terceira coluna mostra os descontos abatidos do crédito gerado pela nota. Os descontos que forem a batidos no Pagamento da Nota também aparecerão caso seja feito o abatimento do crédito.
+
+É possível visualizar a nota clicando duas vezes no resultado desejado.

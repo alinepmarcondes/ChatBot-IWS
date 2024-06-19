@@ -1,0 +1,13 @@
+Title: = Não Cotados
+
+Content:
+=
+
+
+
+A aba "//**Não Cotados**//" Lista os itens que não foram cotados na cotação.
+
+Nesta tela há os seguintes botões:
+
+* **Adicionar à cotação existente:** Para adicionar os produtos à uma cotação ja existente;
+* **Adicionar à nova cotação:** Para criar uma nova cotação com os produtos selecionados;

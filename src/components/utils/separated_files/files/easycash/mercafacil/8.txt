@@ -1,0 +1,6 @@
+Title: = Funcionamento
+
+Content:
+=
+
+Uma vez configurado, no ato da venda, ao informar o consumidor (F6) e o produto, se houver a promoção, na tela de confirmação de venda, a promoção irá ser exibida:

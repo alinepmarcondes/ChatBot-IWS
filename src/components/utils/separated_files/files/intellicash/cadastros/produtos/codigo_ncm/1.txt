@@ -1,0 +1,28 @@
+Title: == Código NCM
+
+Content:
+==
+
+----
+
+Esta ferramenta serve para cadastrar códigos NCMs que não estajam cadastrados no sistema além de alterar a tributação dos código NCMs dos produtos.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Código NCM||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Há duas colunas nesta tela, à esquerda mostra os códigos NCMs e seus dados, abaixo mostra um campo de texto busca, para pesquisar por um código NCM em específico pelo nome ou código.
+
+Para adicionar um código NCM basta clicar com o botão direito na coluna e aparecerá a opção **novo** para adicionar um código e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela basta preencher os campos descrição, código e IPI e concluir, porem deve-se preencher corretamente, pois não é possível excluir após criado. Também não é aconselhado a alterar esses dados, pois está no padrão do MERCOSUL. Uma conta pai também não pode ser criada, pois as 99 contas disponíveis já estão criadas no sistema.
+
+A coluna à direita mostra os itens do código NCM no grid e seus dados. Na parte superior desta coluna as os campos de tributação para se alterar, após alterar os campos como deseja há o botão **aplicar a todos** para alterar todas as tributações do código NCM quês está selecionado. Mas também há a opção de alterar apenas um produto clicando com o botão direito do mouse no item desejado:

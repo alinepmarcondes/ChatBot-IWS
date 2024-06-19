@@ -1,0 +1,8 @@
+Title: = Meu cadastro
+
+Content:
+=
+
+1 - Menu Cadastro -> Meu cadastro
+
+Na tela Meu cadastro, é possível visualizar os dados de cadastro do associado, compras, notas ficais de parcerios e os pedidos realizados, agrupados por abas conforme demonstra a figura abaixo.

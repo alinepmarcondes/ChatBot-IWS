@@ -1,0 +1,38 @@
+Title: == Contas a Receber
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de dar baixas em lançamentos financeiros de contas a receber.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Baixas→Títulos a Receber||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao clicar neste botão estará entrando na interface da tela de clientes, pois é necessário selecionar um cliente para fazer o recebimento do mesmo.
+
+Após localizar um cliente e clicar duas vezes em seu nome ele irá para a aba cadastro, e após isso é necessário selecionar a aba recebimento:
+
+
+
+Nesta aba mostra todas as movimentações financeiras a receber referentes a este cliente e na parte superior da tela há um campo chamado "//**Documento**//" para pesquisar um documento em específico a receber.
+
+Na parte inferior da tela há os seguintes campos:
+
+* **Acordo:** para realizar um acordo com o cliente, para isso é necessário marcar o(s) lançamento(s) que se deseja(m) fazer um acordo, e após clicar em acordo aparecerá a seguinte interface:
+
+Nesta tela é possível preencher os seguintes campos:
+- **Valor Total do Acordo:** Para informar o valor total do acordo;
+- **Nº Parcelas:** Para informar o número de parcelas do acordo;
+- **Com Entrada:** Para informar se o cliente pagará com entrada ou não;
+- **Dia Fixo:** Para informar se o cliente irá pagar em um dia fixo do mês ou não;
+- **Intevalo:** Para informar o intervalo de dias que o cliente irá pagar, caso não escolha dia fixo;
+- **Lançar:** Para realizar o lançamento de contas a receber do cliente. Após clicar neste botão será lançado no sistema as contas a receber.

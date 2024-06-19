@@ -1,0 +1,14 @@
+Title: = Retaguarda
+
+Content:
+=
+
+Na retaguarda nas **Configurações do PDV** foi acrescentada a seguinte tela:
+
+
+
+Ao clicar no botão **Alterar** teremos:
+
+
+
+Ao exportar **CONFIGURAÇÃO** as informações acima serão enviadas para o frente de caixa.

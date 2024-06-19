@@ -1,0 +1,19 @@
+Title: == Transações Entre Depósitos
+
+Content:
+==
+
+----
+
+Esta é uma ferramenta que permite gerenciar múltiplos depósitos e controlar o estoque de cada um deles. Permite também efetuar a movimentação de mercadorias entre um depósito e outro, gerando a nota de transferência quando a movimentação tem como destino um depósito externo.
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Depósitos→Transações Entre Depósitos||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta interface é encontrada a barra de seleção de empresas, o botão **Localizar**, **Nova** (transação), o número da transação e os **botões de navegação**.

@@ -1,0 +1,16 @@
+Title: == Cadastrar Vendedores
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar os vendedores que estarão disponíveis no intellicash.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Vendedores||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

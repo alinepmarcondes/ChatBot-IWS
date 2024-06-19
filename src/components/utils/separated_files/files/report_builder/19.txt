@@ -1,0 +1,4 @@
+Title: Código
+
+Content:
+No canto inferior esquerdo fica o código, propriamente dito. O código segue a sintaxe do Pascal. Existem alguns recursos muito úteis que podem facilitar na hora de montar um código, mesemo sem saber muito de programação. Essas facilidades são dadas pela função de Arrasta e solta do **Code Toolbox**.

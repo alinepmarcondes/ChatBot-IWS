@@ -1,0 +1,11 @@
+Title: = Localizar
+
+Content:
+=
+
+
+
+Ao clicar nesta por padrão entrará na aba "//**localizar**//".
+Nesta tela há um campo para realizar uma pesquisa por um nome, e abaixo mostra os resultados da pesquisa com os dados das empresas cadastradas.
+
+Ao clicar em uma das empresas automaticamente irá para a aba "//**Cadastro**//", para visualizar os detalhes da empresa selecionada.

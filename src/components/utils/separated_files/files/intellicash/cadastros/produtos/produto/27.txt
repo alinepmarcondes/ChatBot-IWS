@@ -1,0 +1,11 @@
+Title: Equivalência de Produtos
+
+Content:
+"//**Equivalência de produto**//" serve para criar um grupo de itens que são semelhantes, mas não tem o mesmo preço. Será apenas um informativo para informar que são produtos semelhantes.
+
+Caso não tenha uma equivalência de produto registrada neste produto haverá o botão criar nova para criar uma nova grade e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela há um campo de texto para designar um nome para a grade
+Após ser criada a grade aparecerá uma tela com três botões como visto no exemplo acima para inserir intens na grade.

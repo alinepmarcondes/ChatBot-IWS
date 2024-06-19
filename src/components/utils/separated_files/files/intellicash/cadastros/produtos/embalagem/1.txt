@@ -1,0 +1,18 @@
+Title: == Embalagem
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada para permitir que na nota a unidade comercial seja diferente da unidade tributada. 
+
+----
+
+Para realizar o cadastro da embalagem no cadastro do produto basta ir no Cadastro de Produtos na aba Cadastro -> Embalagem e cadastrá-la. Nesta aba também pode ser alterada e excluída a embalagem.
+
+
+
+Quando configurado permitirá que na nota a unidade comercial seja diferente da unidade tributada.
+
+Exemplo: Produto GLP (Botijão) deve ser comercializado como KG no entanto o cliente trabalha como PC. Neste caso, pode configurar a tela como 1 KG e no momento da nota será pego esta tabela.

@@ -1,0 +1,18 @@
+Title: = ecUpdater
+
+Content:
+=
+
+O ecUpdater é um executável que vai junto com a instalação do EasyCash e fica dentro da pasta iwUtils. Sua função é verificar de tempos em tempos no retaguarda se algum dado novo foi exportado e importar para as tabelas temporárias do frente de caixa.
+
+Quando o sistema de frente de caixa é executado o ecUpdater também é executado. Ele só será fechado quando o EasyCash também for fechado.
+
+Por padrão ele vai configurado com o tempo de 3 minutos, ou seja, a cada 3 minutos ele se conecta no Intellicash verifica se há um novo dado a ser importado através do idHeader. Se foi exportado dados novos ele pega esses dados e começa a inserir nas tabelas **temporárias** do frente de caixa que são as IMP_HEADER_TMP e INT_IMP_XXXX, o XXXX corresponde ao nome da tabela que ele está importando, por exemplo, se está importando produto, a tabela é a INT_IMP_PRODUTO, se está importante usuário a tabela é a INT_IMP_USUARIO. Quando esse processo está sendo feito o ecUpdater fica em um formato de raio amarelo próximo ao relógio do Windows.
+Quando ele terminar de inserir todos os dados na INT IMP XXXX, é inserido o idHeader na IMP_HEADER confirmando que os dados já estão 
+disponíveis para aimportação. Uma vez finalizado este processo o EcUpdater volta ao seu formato normal que é de uma folha.
+
+O EasyCash começa a atualizar os dados após a finalização do próximo cupom fiscal ou ainda ao sair da tela de venda e entrar novamente. Essa forma ocorrerá se a exportação for a Imediata(próximo cupom) como visto no tópico anterior deste manual. A atualização dos dados pode também ser feita através do menu de importação quando a exportação foi feita com requisição do operador 
+
+Quando o sistema começa a importar ele insere nas tabelas principais , por exemplo, se estava importando produto ele insere na tabela Produto, 
+se está importando usuário ele insere na tabela Usuário. Em seguida é excluído das tabelas temporárias e alimentada a tabela IMPINTELLICASH_HEADER, assim 
+é possível saber qual foi o pultimo idHeader importado bem como a quantidade de registros e o tipo (Produtos, Clientes, Usuários...) de registros.

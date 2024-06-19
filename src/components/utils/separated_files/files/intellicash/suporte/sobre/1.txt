@@ -1,0 +1,16 @@
+Title: == Sobre
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de mostrar informações sobre o software.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Suporte→Sobre||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

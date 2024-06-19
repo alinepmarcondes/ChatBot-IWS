@@ -1,0 +1,28 @@
+Title: == Simulação para preço por Quantidade
+
+Content:
+==
+
+----
+
+ A partir da versão [[intellicash:atualizacoes:3.0.139.003|3.0.139.003]] do IntelliCash foi introduzido o preço por atacado no varejo, ou popularmente chamado de atacarejo, resumidamente essa funcionalidade faz com que a partir de um certa quantidade o produto tenha um preço diferenciado, fazendo com que o cliente tenha um desconto maior caso queira comprar em maiores quantidades.\\
+
+Identificamos uma certa dificuldade dos usuários em definir quais produtos deveriam trabalhar no atacarejo, e principalmente, qual a quantidade ideal para ser o gatilho e qual o desconto atrelado a essa quantidade.\\
+
+Pensando nisso, foi criado a ferramenta para **Simulação para Preço por Quantidade**, a ideia é que com ela, o usuário possa fazer simulações baseadas em vendas passadas, simulando a situação que o preço diferenciado mudaria o comportamento dos seus clientes, ou seja, um pensamento conservador em que o atacarejo não traria novos clientes, apenas fomentaria o desejo dos mesmo clientes em comprar uma quantidade maior para receber o desconto.\\
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→Itens com Preço por Quantidade||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+A simulação pode ser dividida em duas etapas:
+- Escolher o grupo de itens que deseja analisar;
+- Simular as situações de consumo dos clientes.
+
+A primeira etapa consiste em escolher o periodo que deseja usar para análise, a seção e/ou grupo de produtos que deseja analisar e se deseja ou não incluir as vendas feitas em periodo de promoção. Como esse relatório é bastante pesado, sugerimos limitar a quantidade de itens que deseja retornar, para isso informe o campo **Qtde Reg.**, inicialmente vem sugerido a quantidade 100, podendo ser alterado de acordo com a necessidade do usuário.

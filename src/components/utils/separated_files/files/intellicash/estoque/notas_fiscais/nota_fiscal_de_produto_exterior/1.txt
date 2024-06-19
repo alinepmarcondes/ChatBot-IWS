@@ -1,0 +1,11 @@
+Title: = Notas de Devolução e Retorno
+
+Content:
+=
+
+A partir da **NF-e 3.10** foi acrescentado a finalidade **Devolução/Retorno** que define o tipo de NF-e. Essa finalidade exige que tenha o documento original referenciado a essa nota.\\
+Também foi feita uma relação dos CFOPs que obrigatóriamente devem ser usados em notas dessa finalidade.\\
+No intellicash as notas de devolução poderão ser feitas de 3 maneiras.
+* **Devolução direto do documento de Origem** [[manuais:intellicash:estoque:notas_fiscais:devolucao|Devolução de compra ou de venda]].
+* **Devolução do estoque de devolução** [[manuais:intellicash:estoque:troca_mercadoria|Apenas devolução de compra]]
+* **Lançamento manual de Nota Fiscal** (Aba Referencia da Nota Fiscal)

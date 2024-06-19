@@ -1,0 +1,9 @@
+Title: Histórico Pagamento
+
+Content:
+A aba "//**Histórico Pagamentos**//" mostra um histórico de todos os pagamentos realizados ao fornecedor em um determinado intervalo de datas.
+
+
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;

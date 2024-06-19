@@ -1,0 +1,22 @@
+Title: iDBio Pro (Control iD)
+
+Content:
+**Variância mínima para captura de um dedo:** Parâmetro interno do leitor biométrico. O valor default é **1000**.
+
+**Valor mínimo para 2 templates serem considerados iguais:** Este é um parâmetro de biometria chamado SIMILIARITY THRESHOLD. É definido pelo __valor ideal__ entre os parâmetros FAR(False Acceptance Rate) e FRR(False Rejection Rate). O valor default é **12300**.
+
+**Formato do Template:** Define o formato do template a ser utilizado pelo leitor biométrico. O valor default é **ICS**. Segue: 
+
+
+
+Para os 3 botões no rodapé da tela, temos:
+
+**1) Comunicar:** Conecta no dispositivo e tenta ler as informações do mesmo, exibindo a mensagem:
+
+
+
+**2) Parâmetros:** Lê todos os parâmetros gravados no leitor biométrico e exibe o mesmo na tela, conforme a imagem:
+
+
+
+**3) Atualiza Firmware:** Atualiza o firmware do dispositivo, utilizando o arquivo disponível no site do fabricante.

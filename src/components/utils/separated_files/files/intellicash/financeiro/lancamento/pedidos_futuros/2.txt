@@ -1,0 +1,26 @@
+Title: = Pedidos Futuros
+
+Content:
+=
+
+
+
+Nesta interface há os seguintes campos a preencher:
+
+- **Favorecido:** para informar quem irá receber o lançamento;
+- **Nº documento:** para informar o numero do documento (o sistema sempre irá sugerir uma opção);
+- **Emissão:**Para informar qual será a data de emissão;
+- **Entrega:**Para informar qual será a data de entrega do pedido;
+- **Valor:** para informar o valor do lançamento;
+- **Seção:** Para informar qual qual a seção de produtos;
+- **Forma de Cobrança:** para informar a forma de cobrança do lançamento;
+- **Descrição:** para informar uma breve descrição do lançamento;
+- **Nº boleto:** para informar o número do boleto;
+- **Número de Parcelas:** para informar o número de parcelas que será feito;
+- **Sempre no mesmo dia do mês:** para informar se as parcelas serão pagas no mesmo dia do mês;
+- **Intervalo entre as parcelas:** caso não escolha o mesmo dia do mês é necessário informar o intervalo de dias a ser feitos os pagamentos das parcelas;
+- **1º Vencimento:** para informar o primeiro vencimento da parcela;
+- **Inserir:** para inserir o lançamento no sistema;
+
+* **Excluir:** para excluir um lançamento selecionado;
+* **Alterar:** para alterar um lançamento selecionado;

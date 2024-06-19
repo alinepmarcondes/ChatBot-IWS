@@ -1,0 +1,15 @@
+Title: Configurações Para Sincronizar os Cadastros
+
+Content:
+**1804 Utilizar Exportação de Matriz & Filiais =** Essa configuração que é responsavel por guardar o log de alterações de cadastros a serem exportados. \\
+**2204 Exportar Dados para as Filiais Automaticamente =** Quando essa configuração estiver como sim, não é preciso que o usuário faça a exportação.
+Os dados são disponibilizados automaticamente para as filiais.\\
+**2424 Enviar Preço na Exportação Automática Matriz e Filiais =** Essa configuração anda junto com a 2204, ou seja se utilizar exportação automatica 
+é preciso dizer se irá enviar o preço e custo dos itens.\\
+**2804 Importar Custo da Matriz =** Informa se a filial importa o custo da matriz. Se essa configuração estiver como sim, mais a matriz não exporta o custo, não irá importar na filial.\\
+**3004 Importar Cadastros da Matriz =** Essa configuração informa se a empresa importa os cadastros da matriz. \\
+O menu de importação só ficara visivel caso essa configuração esteja como sim. \\
+**4003 Exportar Dados para Matriz =** Informa se a empresa envia os dados para a matriz (Movimentações de estoque e Financeiro). \\
+**4103 Base Matriz =** Informa se a base de dados é a Matriz.\\
+**4104 Exportar Vendas Não Conferidas para Matriz =** Informa se a filial irá exportar as vendas não conferidas para a matriz. \\
+**4204 Importar Preço da Matriz =** Informa se a filial importa o preço da matriz. Se essa configuração estiver como sim, mais a matriz não exporta o preço, não irá importar na filial. \\

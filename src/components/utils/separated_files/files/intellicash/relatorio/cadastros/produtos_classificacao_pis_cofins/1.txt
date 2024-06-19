@@ -1,0 +1,43 @@
+Title: == Relatório de classificação Pis/Confins
+
+Content:
+==
+
+----
+
+Este relatório exibe a tributação de Pis e Cofins dos produtos. Além disto o relatório exibe a falta de classificação de pis cofins e permite ainda alterar a tributação.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→Classificação Pis/Confins||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao clicar nesta tela por padrão entrará na aba "//**Classificação Pis/Confins**//";
+
+Nesta tela mostra a classificação de Pis/Confins de todos os produtos.
+
+Na parte superior da tela há um campo chamado "//**Classificação**//" para filtrar os produtos pela classificação de Pis/Confins e o botão "//**Listar**//" para listar todos os produtos da classificação desejada.
+
+Ao clicar na aba "//**EFD – Pis/Confins**//" aparecerá a seguinte tela:
+
+
+
+Há duas abas relacionadas há "//**Todos os Produtos**//" ou "//**Produtos com Venda**//"e por padrão será selecionada a aba "//**Produtos com Venda**//" 
+
+Esta tela mostra todos os produtos com venda num intervalo de tempo que tem alíquota zero.
+
+Na parte superior desta e das demais abas há os seguintes botões:
+
+* **Sem Classificação:** Ao marcar esta opção o sistema irá listar apenas produtos sem classificação.
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Aplicar:** Para realizar a pesquisa;
+
+E na parte inferior da tela há um campo de texto chamado "//**Localizar Produto**//" para pesquisar por um produto em específico.
+
+Em todas as abas ao clicar com o botão direito do mouse aparecerá algumas opções:

@@ -1,0 +1,24 @@
+Title: = Relatório de Baixas não Sincronizadas
+
+Content:
+=
+
+----
+
+Foi criado o Relatório de Baixas não Sincronizadas para auxiliar clientes que usam a Sincronização entre Matriz e Filiais a acompanhar a sincronização de dados.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Baixas não Sincronizadas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Neste relatório o usuário irá selecionar a Empresa que deseja verificar quais Baixas (contas recebidas/pagas) que estão para serem sincronizadas. Ao aplicar o sistema irá conectar na Empresa solicitada para verificar dados pendentes.
+
+
+
+Mais em [[manuais:intellicash:relatorio:gestao_financeira:baixas_nao_sincronizadas|Relatório de Baixas não Sincronizadas]].

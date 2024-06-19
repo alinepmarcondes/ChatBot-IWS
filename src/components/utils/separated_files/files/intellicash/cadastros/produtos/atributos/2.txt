@@ -1,0 +1,47 @@
+Title: = Atributo
+
+Content:
+=
+
+
+
+A aba "//**Atributo**//" mostra todos os tipos de atributos que foram cadastrados;
+
+No botão "//**Tipo()**//" pode selecionar outro tipo de classificação a desejar.
+
+O nome da aba irá alterar de acordo com o "//**Tipo**//" selecionado.
+
+Na parte inferior há um campo de texto chamado busca para realizar uma pesquisa na aba subgrupo ou produtos para achar uma aba desejada;
+
+
+
+Logo abaixo há os seguintes botões:
+
+**Imprimir** para imprimir dados dos atributos disponíveis;
+
+
+**Novo/Alterar** para criar/alterar uma nova classificação e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta interface basta informar a descrição do atributo desejado no campo nova descrição, e confirmar os dados dos atributos.
+
+**Excluir** para excluir um atributo de alguma classificação selecionada;
+
+**Alteração de preços** para alterar o preço de um atributo de alguma classificação selecionada em percentuais(%), ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela Basta informar o percentual de ajuste e após isso, confirmar a operação.
+
+**Fechar** para salvar e fechar a tela;
+
+Ao clicar com o botão direito sobre a interface aparecerá as seguintes opções:
+
+
+
+* **Configurar Dimensões:** Para configurar as dimensões do atributo (No caso de Unidade Multidimensionais);
+* **Usar MarkUp padrão:** para utilizar o MarkUp padrão no atributo selecionado;
+* **Alterar MarkUp padrão:** para alterar o MarkUp padrão no atributo selecionado;
+* **MarkUp detalhado:** Para utilizar o MarkUp detalhado no atributo selecionado;
+* **Acabamento:** Para utilizar acabamento no atributo selecionado;

@@ -1,0 +1,8 @@
+Title: Regras da OS para Cupom Fiscal
+
+Content:
+* Ao exporta para cupom fiscal o sistema obrigatoriamente gerará uma nota fiscal de serviço, pois o financeiro é vinculado a nota fiscal de Serviço(NFS);
+* Se não for informado o serviço, o sistema nao irá permitir exportar para CF. Será exigido informar o serviço ou exportar para nota fiscal de produto pois se exportar para nota de produto o sistema irá gerar o financeiro mesmo que nao tenha nota de serviço emitida;
+* Obrigatório informar o financeiro antes de fechar a OS;
+* Quando informado um desconto, o desconto vai para o produto(seja ele em CF ou NF)
+* Se houver o cancelamento do CF e não houver o cancelamento da Nota fiscal de serviço, o financeiro ainda se manterá no valor total da ordem de serviço;

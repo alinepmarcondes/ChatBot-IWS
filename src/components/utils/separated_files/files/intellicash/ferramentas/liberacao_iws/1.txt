@@ -1,0 +1,28 @@
+Title: == Liberação IntelliWeb
+
+Content:
+==
+
+----
+
+A ferramenta de liberação possibilita que os módulos acessórios ao IntelliCash (IC) sejam liberados de forma mais direta e unificada, não necessitando de cadastros distintos ou ferramentas isoladas para tal finalidade.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Liberar Produtos IWS||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+O próprio IntelliCash será liberado por este mecanismo, quando não houver liberação identificada a janela de liberação será exibida, bem como quando acessada a função no menu IWS.
+
+Atualmente os Produtos liberados desta forma são:
+
+* **Cotação Online;**
+* **IntelliCash;**
+* **IntelliGroup;**
+* **IntelliStock;**
+* **Venda Assistida.**

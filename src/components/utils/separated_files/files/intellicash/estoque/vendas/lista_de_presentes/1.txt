@@ -1,0 +1,27 @@
+Title: == Lista de Presentes
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de criar uma lista de presentes para um evento de cliente, seja casamento, aniversário, etc.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Vendas→Lista de Presentes||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+A aba "//**Clientes**//" mostra a lista de presentes existentes no sistema;
+
+Nesta tela há os seguintes campos:
+
+* **Cliente:** Para localizar um cliente em específico;
+* **Nova Lista:** Para criar uma nova lista de presentes;
+* **Todos os Clientes:** Para mostrar todos os clientes com lista de presentes;
+* **Mostrar Listas Vencidas:** Para mostrar as listas de presentes que ja venceram;

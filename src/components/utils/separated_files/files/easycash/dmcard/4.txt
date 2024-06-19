@@ -1,0 +1,15 @@
+Title: Retaguarda
+
+Content:
+=== Etapa 01 ===
+A primeira configuração a ser realizada será na forma de recebimento do IntelliCash:
+
+
+
+Setar a configuração **Participa do programa DMOfertas** e setar os BIN da DMCard para a forma de recebimento que será utilizada:
+
+
+
+
+
+Na tela principal do recebimento será mostrada a coluna adicional com a referida configuração checada, segue:

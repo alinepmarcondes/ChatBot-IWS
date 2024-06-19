@@ -1,0 +1,12 @@
+Title: Importação
+
+Content:
+Nessa aba é feita a importação dos pedidos do e-commerce. Nessa aba temos algumas subabas:
+* **Baixados:** nessa aba é possivel baixar os pedidos do e-commerce, para isso basta clicar no botão "Baixar Pedidos", informar o periodo em data e hora que deseja baixar. Após baixado os pedidos são listados na tela e podem ser confirmados para orçamentos no IC, clicando no botão "Importar Pedidos". Nessa aba também pode ser informado o pagamento dos pedidos que estão sem, para isso basta clicar no botão "Informar Pagamento", será exibida a interface para preencher os dados do pagamento;
+
+* **Confirmados:** nessa aba lista os pedidos que foram confirmados, apartir deles é possivel gerar nota fiscal ou cupom fiscal, clicando no botão "Exportar" e selecionando o documento fiscal que deseja gerar;
+* **Faturados:** nessa aba lista as notas fiscais geradas e é possivel atualizar o status do pedido no e-commerce para envio. Para isso basta clicar no botão "Informar Envio". Nessa aba também é possivel gerar a nota fiscal de devolução, para isso basta clicar no botão "Gerar Devolução";
+* **Enviados:** nessa aba, são listados os pedidos enviados e é possivel gerar a nota fiscal de devolução, clicando no botão "Gerar Devolução";
+* **Devolvido:** nessa aba, são listadas as devoluções geradas;
+* **Cancelado:** nessa aba, são listados os pedidos cancelados;
+* **Todos:** nessa aba, são listados todos os pedidos, independente do status;

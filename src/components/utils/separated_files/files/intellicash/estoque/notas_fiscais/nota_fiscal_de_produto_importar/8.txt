@@ -1,0 +1,26 @@
+Title: = Importar XML Pela Chave
+
+Content:
+=
+
+Caso escolha **Capturar XML pela Chave**, será exibida a janela para informar a chave de consulta contida no DANF-e. Será preciso também informar o Captcha (imagem de validação).\\
+
+
+* **Importar Coletor:** Para importar dados do coletor para conferir com os dados da NF. Ao selecionar esta opção aparecerá a seguinte interface:
+
+
+
+Na janela de comparação exibirá do lado esquerdo os itens contidos no XML, e do lado direito serão exibidos os itens coletados. Nessa janela também são usadas cores para identificar a situação dos itens:
+- **Verde:** Produto devidamente associado entre coleta e XML e cadastrado na base de dados.
+- **Amarelo:** Produto associado pelo Código de barras entre coleta e XML, entretanto o produto não está cadastrado na base de dados. (poderá cadastrar tanto na janela anterior que exibe os itens do XML, como também poderá cadastrar pela janela do coletor clicando em **Coletor...**)
+- **Vermelho:** Produto não associado entre coleta e XML. Caso confirme, prevalecerá os itens do XML.
+- **Roxo:** Produto não associado, e que o código de barras coletado não consta na base de dados.\\
+- **Cinza:** Quantidades divergentes entre a nota e os itens importados.
+Na tabela do lado direito, o campo **# XML** exibe o número do item que está associado a ele no XML.\\
+
+Para associar manualmente um item é preciso selecionar o item do lado direito e do lado esquerdo e clicar sobre o botão **Associar** que fica na parte inferior da janela.\\
+Na parte inferior há uma terceira tabela que exibe os itens associados que estão selecionados para facilitar a comparação. No XML existem as informações Comerciais e as informações Tributárias, para alternar entre elas na comparação da tabela basta clicar com o botão direito do mouse sobre a tabela esquerda e selecionar a opção desejada.\\
+
+Caso alguma associação esteja incorreta, é possível desassociar clicando com o botão direito do mouse sobre a tabela da direita e clicar em **Desvincular**.\\
+
+O botão **Coletor** é usado para localizar a nota coletada ou importar do arquivo caso ainda não o tenha feito.\\

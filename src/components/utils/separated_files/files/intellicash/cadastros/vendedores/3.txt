@@ -1,0 +1,14 @@
+Title: = Histórico de Vendas
+
+Content:
+=
+
+
+
+Nesta tela mostra o histórico de vendas feitos por um determinado intervalo de datas com os detalhes de cadas produto vendido.
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.

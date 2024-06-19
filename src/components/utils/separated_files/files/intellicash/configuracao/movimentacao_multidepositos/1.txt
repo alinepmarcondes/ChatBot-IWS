@@ -1,0 +1,18 @@
+Title: == Configurar Movimentação dos Depósitos
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a finalidade de associar para cada depósito os tipos de operação ou atributos que alimentarão automaticamente o estoque do depósito selecionado. As configurações definidas aqui afetarão a entrada e saída de notas fiscais e emissão de cupom fiscal. Orçamentos e transferências de mercadorias não serão afetadas por esta configuração.
+
+Existe uma hierarquia na escolha do depósito que será movimentado respeitando a ordem: tipo de operação -> Atributo do produto.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Configurar Movimentação dos Depósitos||
+ 
+Ao clicar nesta opção aparecerá uma interface que lista os depósitos no lado esquesdo e duas abas (Operações e Atributos) ao lado direito.

@@ -1,0 +1,31 @@
+Title: == Nota Fiscal Emitida
+
+Content:
+==
+
+----
+
+Relatório que mostra as as notas fiscais que foram emitidas.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Logística→Nota Fiscal Emitida||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Início** e **Término:** Para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** Para imprimir os dados do item.
+* **Confirmadas:** Irá mostrar apenasnotas ficais confirmadas;
+* **Todas:** Irá mostrar todas as notas fiscais;
+* **Destinatário:** Para selecionar um destinatário em específico;
+* **Filtro:** Para filtrar as notas fiscais de acordo com sua natureza(entradas, saídas, devoluções, etc..).
+* **Modelo NF:** Para filtrar também o modelo da NF;
+
+Após a pesquisa mostrará na primeira coluna as notas fiscais e seus dados e na coluna abaixo os itens da nota selecionada e seus dados.

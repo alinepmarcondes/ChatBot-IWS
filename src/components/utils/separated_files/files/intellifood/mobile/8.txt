@@ -1,0 +1,6 @@
+Title: = Comanda
+
+Content:
+= 
+
+Para abrir uma comanda, o usuário deverá abrir a tela principal. Selecione uma comanda listada na guia **Comandas** ou na guia **Mesas** e selecione a mesa desejada, conforme desmonstra a figura abaixo.

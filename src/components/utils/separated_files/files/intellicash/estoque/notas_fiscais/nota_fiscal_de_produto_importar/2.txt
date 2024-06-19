@@ -1,0 +1,14 @@
+Title: = Importar Pedido
+
+Content:
+=
+
+Para habilitar a opção "//**Importar Pedido**//" é necessário antes, criar uma capa da nota, ou localizar uma nota que não esteja confirmada. Após isso ao clicar em //**Importação / Entrada / Pedido**// irá abrir a seguinte interface:
+
+
+
+Nesta interface é necessário localizar um pedido para fornecedor (Geralmente são pedidos criados na interface de pedido para fornecedor "//**Cadastros→Fornecedores / Pedido**//"), e nesta interface são listados todos os pedidos criados. Após selecionar um pedido aparecerá a seguinte interface:
+
+
+
+Nesta interface basta confirmar os dados, ou se precisar alterar, apenas os campos "//**Código**//" e "//**Quantidade NF**//" podem ser alterados. Feito isso, basta clicar no botão "//**Importar Produtos**//" e após isso os itens já estarão inseridos na nota fiscal de acordo com o campo "//**Quantidade NF**//".

@@ -1,0 +1,14 @@
+Title: = Compras
+
+Content:
+=
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Nesta interface há duas colunas, a primeira mostra as compras do seus associados parceiros no seu estabelecimento e seus dados e ao selecionar alguma nota fiscal mostrará os itens da nota na segunda coluna e os dados dos produtos;

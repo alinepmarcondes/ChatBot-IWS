@@ -1,0 +1,85 @@
+Title: == Analise de Promoções
+
+Content:
+==
+
+----
+
+Essa ferramenta foi desenvolvida com o propósito de permitir o usuário analisar resultados de promoções passadas e criar promoções.
+
+A ferramenta consiste em exibir as informações de venda do período selecionado, separando as vendas em promoção e as vendas sem promoção, para que o usuário consiga identificar a eficiência da promoção.
+
+A ferramenta ainda traz o histórico dos últimos 12 meses do produto para que o usuário possa acompanhar a evolução do produto durante o último ano.
+
+Por fim, a ferramenta permite que seja criada as promoções a partir desta análise.
+
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Promoções→Análise de Promoção||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+O usuário primeiramente deve escolher o período a ser analisado, escolhendo a data de início e de término. 
+
+Pelo botão Filtro, o usuário poderá escolher quais as classes de produtos serão exibidas. Caso alguma classificação seja escolhida, então o botão estará selecionado. Caso esteja desmarcado então serão analisados todos os produtos.
+
+O usuário poderá também filtrar em relação ao Estoque, podendo ser todos os produtos, ou apenas os itens que estão em estoque, ou ainda aqueles que estão com excesso em estoque. Esse último será validado em dias, e para isso e preciso 
+que o usuário escolha a quantidade de dias que considera como sendo excessivo. Além dos filtros ligados aos produtos, o usuário também poderá filtrar qual o tipo de promoção será analisado, e se deseja exibir todos os produtos independentemente se tiveram ou não promoção no período, ou apenas aqueles que tiveram promoção.
+
+Uma vez selecionado os filtros, serão exibidos os itens que respeitarem os critérios de filtragem.
+
+Serão exibidas as seguintes informações:
+
+* ** Referente ao Produto:**
+- Código – Código de barras do produto;
+- Produto – Descrição do produto;
+- Qtde em Estoque – Quantidade disponível em estoque;
+- Unid. – Unidade de venda do produto;
+- Venda Diária – Média de venda diária do produto nos últimos 6 meses;
+- Estoque em dia – Quantidade de dias que o estoque atual duraria pela média de venda;
+- Validade – Data de validade mais próxima;
+- Custo Atual – Custo atual do produto;
+- Preço Atual – Preço de venda atual do produto;
+- Margem Lucro – Margem de lucro em (R$);
+- Margem Venda Atual – Margem sobre Preço de venda em (%);
+- Margem Custo Atual – Margem sobre valor de custo atual em (%);
+- Promoção – se o produto está ou não em promoção atualmente;
+* **Referente ao período:**
+- Qtde Vendida- Quantidade vendida no período
+- Custo Total – Valor de custo total do período 
+- Venda Total – Valor de venda total do período
+- Margem Total – valor de venda subtraído do valor de custo do período
+- Margem Venda – Margem Total divido pelo valor de venda
+- Margem Custo – Margem Total divido pelo valor de custo
+- Venda Diária no Período – média de venda por dia no período
+- Qtde Dias no período – Quantidade de dias considerado, é usado o menor intervalo entre início e termino ou data de cadastro e termino
+* **Referente ao período - vendas sem promoção**
+- Qtde Venda sem promoção - Quantidade vendida no período sem estar em promoção
+- Custo Total sem promoção– Valor de custo total do período sem estar em promoção
+- Venda Total sem promoção– Valor de venda total do período sem estar em promoção
+- Margem Total sem promoção– valor de venda subtraído do valor de custo do período, apenas das vendas sem estar promoção
+- Margem Venda – Margem Total Sem Promoção divido pelo valor de venda 
+- Margem Custo – Margem Total Sem Promoção divido pelo valor de custo
+- Venda Diária sem promoção– média de venda por dia no período que não teve promoção
+- Qtde Dias sem promoção – Quantidade de dias considerado, é usado o período em que não havia promoção
+* **Referente ao período - vendas com promoção**
+- Qtde Venda com promoção - Quantidade vendida no período sem estar em promoção;
+- Custo Total com promoção– Valor de custo total do período sem estar em promoção;
+- Venda Total com promoção– Valor de venda total do período sem estar em promoção;
+- Margem Total com promoção– valor de venda subtraído do valor de custo do período, apenas das vendas sem estar promoção;
+- Margem Venda com promoção – Margem Total com Promoção divido pelo valor de venda;
+- Margem Custo com promoção – Margem Total cem Promoção divido pelo valor de custo;
+- Venda Diária com promoção – média de venda por dia no período que não teve promoção;
+- Qtde Dias cem promoção – Quantidade de dias considerado, é usado o período em que a promoção esteve ativa;
+* **Referente a inserção da promoção**
+- Preço Promoção – o preço do produto em promoção;
+- Dt. Inicio Promoção – Data de inicio da promoção – campo não obrigatório;
+- Dt. Termino Promoção – data d termino da promoção – campo não obrigatório.
+
+De posse dessas informações, o usuário poderá inserir produtos em promoção, para isso deve digitar no campo “Preço Promoção” o preço promocional. Ao clicar em “Gerar promoção” serão inseridos os itens na promoção e será aberto a janela de promoção para que o usuário possa confirmar a operação.
+
+Na parte inferior são exibidos as vendas dos últimos 12 meses do produto selecionado, separando a venda sem promoção e os tipos de promoção.

@@ -1,0 +1,4 @@
+Title: Observação
+
+Content:
+Para adicionar ou remover uma observação clique no botãono canto superior direito e depois em **Observação**, conforme demonstra a figura abaixo.

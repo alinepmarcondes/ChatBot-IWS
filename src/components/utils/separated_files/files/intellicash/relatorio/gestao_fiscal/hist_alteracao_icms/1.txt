@@ -1,0 +1,29 @@
+Title: == Relatório de Alteração de ICMS
+
+Content:
+==
+
+----
+
+Relatório dos produtos com alteração de aliquota de ICMS, que visa dar suporte a geração do bloco H do SPED com finalidade 2, ou seja, quando houver mudança de forma de tributação da mercadoria (ICMS).
+
+O bloco H do SPED Fiscal é usado para informar o estoque da empresa, caso haja alguma alteração de tributação, a empresa deve informar o estado pelo bloco H quais os itens que tiveram alteração, para assim calcular o crédito ou o débido do imposto em cima da mercadoria em estoque. Usando essa ferramenta é possivel gerar as informações para ser usado no SPED clicando em Livro Inventário. Ao clicar nesse botão, será preciso informar o numero do livro, e então será gerado o livro com a data contida no campo Estoque.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Fiscal→Hist. Alteração de ICMS||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Estoque:** Para saber como o estoque estava na data desejada;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Inicialmete devemos informar o periodo em que a alteração foi efetuada no IntelliCash, em seguida informar a data que deseja avaliar com o novo ICMS.

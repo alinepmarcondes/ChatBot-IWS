@@ -1,0 +1,17 @@
+Title: = Histórico de Agendamentos
+
+Content:
+= 
+
+
+
+Nessa aba serão exibidos os agendamentos e as ações que foram realizadas com ele, quantas vezes foi gerado, quando foi gerado, se foi descartado e quando. \\
+Nessa interface podemos listar os agendamento de acordo com seu tipo:
+* **Orçamento:** Pedido de venda;
+* **Pedido:** Pedido de Compra;
+* **Todos:** Lista todos os tipos, orçamento e pedido;
+Ao escolher o período que deseja obter o histórico basta clicar em aplicar para listar os agendamentos.
+
+ \\
+
+No primeiro grid será listado os agendamentos e no segundo as ações que ele sofreu. Se foi gerado ou descartado. No caso de ter sido gerado, será exibido no campo **"__Orçamento__"** o número do orçamento e entre chaves o número da nota fiscal/cupom fiscal e dando dois cliques será aberto a nota fiscal/cupom fiscal caso tenha sido gerado ou então irá abrir o orçamento caso não tenha nota/cupom gerado.

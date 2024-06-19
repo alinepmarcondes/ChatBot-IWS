@@ -1,0 +1,15 @@
+Title: = Fotos
+
+Content:
+=
+
+Esta aba serve para adicionar uma foto do produto no sistema o com isso carregará automaticamente a imagem no cadastro do produto.
+
+
+
+Há os seguintes botões:
+
+*Para adicionar uma foto. A foto poderá ser carregada pela web ou por um arquivo de seu computador, para isso basta alterar o campo ao lado;
+* Para excluir uma foto.
+* **Enviar Para Web:** Para salvar a foto do cadastro do produto para o servidor. Ela pode ser usada no IntelliGroup etambém no Venda Assistida;
+* **Salvar Para Arquivo:** Para salvar o arquivo

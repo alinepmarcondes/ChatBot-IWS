@@ -1,0 +1,27 @@
+Title: = Abertas
+
+Content:
+=
+
+Para acessar as cotações abertas, o usuário deverá clicar sobre o Menu "Cotações".
+
+
+
+Na aba "Abertas", o usuário deverá selecionar a cotação desejada.
+
+
+
+Para informar um preço, o usuário deverá selecionar o produto desejado e
+informar o valor.
+
+
+
+Caso necessite, o representante poderá informar uma observação para o valor informado do produto.
+
+
+
+Para concluir, o representante deverá clicar sobre o botão "Enviar".
+
+
+
+Será exibido no texto do botão a mensagem "Enviado", confirmando o sucesso do envio das informações.

@@ -1,0 +1,26 @@
+Title: == Livro de Inventários
+
+Content:
+==
+
+----
+
+Este relatório exibe os livros de inventário do sistema durante um período de tempo selecionado.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→Livro de Inventários||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Nesta tela há duas colunas, à esquerda a coluna de registros de inventários feitos com o valor do custo e o valor contábil e na direita os dados do registro mostrando os detalhes.

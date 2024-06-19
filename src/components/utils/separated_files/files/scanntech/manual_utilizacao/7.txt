@@ -1,0 +1,11 @@
+Title: == IntelliCash
+
+Content:
+==
+
+No **IntelliCash** foi adicionado um painel para manutenção dos dados com a ScannTech.
+
+Dentro de IWS->Estoque->Promoções Especiais, as promoções que tiveram origem na plataforma **Scanntech** ficarão coloridas em azul, e o campo __Código Origem__ será preenchido com o código da promoção. Ficará também disponível o botão **ScannTech** para ter acesso ao painel de controles da integração.
+
+
+Nesse painel são contidas algumas ferramentas para interagir com a plataforma da **Scanntech**

@@ -1,0 +1,27 @@
+Title: = Produtos
+
+Content:
+=
+
+
+
+A aba "//**Produtos**//" mostra todos os produtos de um atributo que foi selecionado na aba anterior.
+
+Ao clicar com o botão direito sobre a interface aparecerá as seguintes opções:
+
+
+
+* **Remanejar:** Ao selecionar o produto e clicar nesta opção aparecerá um segundo menu de opções, para ser informado qual atributo será remanejado ou para reclassificar o Centro de Custos (aparecerá uma tela para que o usuário informe o centro de custos). Após selecionar o atributo desejado aparecerá a seguinte interface de acordo com o desejado. Veja a imagem abaixo no caso de tributação:
+
+* **Alterar NCM:** Para alterar o código NCM do produto selecionado;
+* **Multiplicar no PDV:** Para alterar se o produto selecionado será ou não permitido a multiplicação no PDV;
+* **Produto de Cotação:** Para alterar se o produto selecionado será ou não para cotação;
+* **MarkUp Detalhado:** Para alterar as opções de MarkUp detalhado do Produto;
+* **Alterar preço em (%) com base no preço atual:** Para alterar o preço do produto selecionado com base no preço do produto;
+* **Alterar preço em (%) com base no custo atual:** Para alterar o preço do produto selecionado com base no custo do produto;
+* **Alterar dados prod. ST:** Para alterar os dados de ST do produto selecionado;
+* **Alterar trib. PIS Confins:**
+* **Acabamento:** Para informar um acabamento para o produto;
+* **Alterar preço mínimo(%):** Para alterar o preço mínimo do produto(em %);
+* **Excluir Centro de Custo:** Para excluir o centro de custo do produto;
+* **Preço Detalhado:** Preço Detalhado é uma ferramenta que permite ao usuário customizar a forma de compor o preço dos produtos;

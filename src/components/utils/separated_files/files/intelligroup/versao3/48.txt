@@ -1,0 +1,4 @@
+Title: Associações
+
+Content:
+Para acessar a tela **Associações** clique no menu do associado e depois em **Associações**.

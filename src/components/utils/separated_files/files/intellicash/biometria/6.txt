@@ -1,0 +1,4 @@
+Title: Template
+
+Content:
+Sequência de caracteres e números que juntos representam uma digital. Por exemplo, suponha que para representar a digital do dedo indicador capturada pelo leitor biométrico, seja registrado o seguinte template:

@@ -1,0 +1,6 @@
+Title: = Notificações
+
+Content:
+=
+
+As notificações serão disparadas do **EasyCah**.

@@ -1,0 +1,39 @@
+Title: Cadastrando um Funcionário
+
+Content:
+Ao clicar no botão "//**Novo**//" o sistema disponibilizará uma nova tela a ser preenchida com o número de “//**CPF**//” do funcionário.
+
+
+
+Para se cadastrar um novo funcionário, a primeira coisa a ser feita e ter em mãos o número de “//**CPF**//” da pessoa a ser cadastrada. Após digitar o CPF aparecerá a seguinte interface para o cadastro do funcionário.
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Código:** Para informar um código interno para o funcionário;
+* **Codinome:** Para informar o nome fantasia do funcionário;
+* **Data de Nascimento:** para informar a data de nascimento do funcionário;
+* **Data Admissão:** quando o funcionário foi admitido pela empresa;
+* **Nome:** nome completo do funcionário;
+* **CPF:** CPF do funcionário;
+* **RG:** RG do funcionário;
+* **Carteira de Trabalho:** Para informar o número da carteira de trabalho;
+* **NIS / PIS:** Para informar o NIS/PIS (Número de Identificação Social ou Programa de Integração Social);
+* **CNH:** Para informar se o funcionário tem CNH ou não;
+* **C. Horária:** Para informara carga horária do funcionário;
+* **Sexo:** Para informar o sexo do funcionário;
+* **Estado Civil:** Para informar o estado civil do funcionário;
+* **Número de filhos:** Para informar o número de filhos do funcionário;
+* **Último Exame Médico:** Para informar o ultimo exame médico realizado;
+* **Últimas Férias:** Para informar a ultima férias realizada;
+* **Setor:** o setor da empresa que o funcionário vai atuar;
+* **Salário:** para informar o salário do funcionário;
+* **Limite de vales:** até quanto de dinheiro estará a sua disposição para eventuais vales;
+* **Dia do Pagamento:** para informar o dia do pagamento do funcionário;
+* **Centro de Custo:** a que categoria estará vinculado seus proventos;
+* **Observações:** para informar alguma observação sobre o funcionário;
+
+
+
+Ao Termino dessa etapa o sistema sugerira se deseja fazer o agendamento de salários para determinado funcionário, ficando a cargo do usuário se deseja ou não, no nosso exemplo não agendaremos, mas pela frente faremos um agendamento de salário.

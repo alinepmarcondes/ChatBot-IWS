@@ -1,0 +1,6 @@
+Title: == Cotação Online
+
+Content:
+==
+
+O Cotação Online (CO) permite ao representante de vendas, cotar preço de produtos disponibilizados pelo Intellicash, através de um navegador.

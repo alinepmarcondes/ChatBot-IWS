@@ -1,0 +1,4 @@
+Title: Notificações Simples
+
+Content:
+Quando o usuário do **EasyCash** precisar apenas de um auxílio do gerente, sertá utilizado a **Notificação simples**. Conforme demonstra a figura abaixo.

@@ -1,0 +1,51 @@
+Title: = Servidor
+
+Content:
+=
+
+Para exibir todos servidores cadastrados no aplicativo, o usuário deverá pressionar o botão de menu e depois em "Servidor" na tela de login.
+
+
+
+Nesta tela são exibidos todos os servidores cadastrados. 
+
+
+=== Adicionar Novo Servidor ===
+
+Para cadastrar um novo servidor há duas maneiras:
+
+O usuário deverá pressionar o botãolocalizado no canto inferior direito na tela de "Servidores", conforme demonstra a figura abaixo.
+
+
+
+Uma outra forma de cadastrar um servidor é quando na tela de login é exibida uma solicitação de cadastro. Neste caso o usuário deverá pressionar o botão "cadastrar".
+
+
+
+
+
+Será aberta uma tela de servidores onde deverá ser informado: o "Servidor" que seria um nome para identificação do mesmo na tela de login, o "IP" e a "Porta" que são referentes ao serviço do CO já devidamente instalado e configurado.
+
+
+
+Possível mensagem de erro:
+* Verifique se todos os campos foram preenchidos corretamente!
+
+=== Editar Servidor ===
+
+Para editar um servidor já cadastrado, na tela de "Servidores" o usuário deverá pressionar por um segundo, um servidor da lista. A barra de título será alterada. Pressione o botãolocalizado no canto superior direito, conforme demonstra a figura abaixo.
+
+
+
+Será aberto na tela as informações do servidor selecionado, o usuário deverá editar os campos que deseja e depois pressionar o botão "Salvar".
+
+
+
+=== Excluir Servidor ===
+
+Para excluir um servidor já cadastrado, na tela de "Servidores" o usuário deverá pressionar por um segundo, um servidor da lista. A barra de título será alterada. Pressione o botãolocalizado no canto superior direito, conforme demonstra a figura abaixo.
+
+
+
+
+Será exibida uma mensagem onde o usuário deverá pressionar o botão “Sim” para confirmar ou o botão “Não” para cancelar.

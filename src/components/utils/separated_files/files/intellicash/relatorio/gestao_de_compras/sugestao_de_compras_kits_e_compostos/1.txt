@@ -1,0 +1,32 @@
+Title: == Sugestão de Compras de Kits e Compostos
+
+Content:
+==
+
+----
+
+Esta ferramenta tem por objetivo auxiliar o varejista na tomada de decisão para a compra de insumos para produção baseando nas estruturas de cada kit.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Compras→Sugestão de Compras de Kits e Compostos||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+\\
+Nessa tela o usuário precisa localizar o item que deseja produzir, informar a quantidade que deseja produzir e clicar em inserir. O sistema irá montando uma lista abaixo, onde no primeiro grid tem as informações dos itens que deseja produzir e no segundo grid as informações dos insumos que compoem esses itens.
+\\
+
+No grid resultado onde é exibido os itens que serão comprados temos as colunas **Qtde em estoque**, **Qtde para Produção** e **Qtde sugerida**. O valor da coluna Qtde Sugerida é a Qtde para Produção - a Qtde em Estoque. \\
+A coluna Qtde Pedida é onde o usuário precisa informar quanto deseja comprar e o Valor Unitário do Item (caso o usuário não preencha esse campo o sistema irá sugerir o ultimo custo).
+\\
+Na parte inferior da tela temos a lista de ações, onde tem as opções:
+* **Preencher quantidade Pedida:** preencha a quantidade pedida com valor da qtde para produção - qtde em estoque;
+* **Limpar quantidade pedida:** limpa o campo qtde pedida;
+* **Marcar todos para exportar:** marca todos os itens;
+* **Marcar somente itens em falta para exportar:** marca somente os itens com estoque em falta para produção;
+* **Desmarcar todos:** desmarcar todos;
+
+Após preenchida a qtde pedida o sistema irá habilitar os botões **"Gerar Pedido"** e **"Gerar Cotação"**, onde o usuário pode optar por gerar um pedido com os itens selecionados ou envia-los para uma cotação, nova ou que já esteja aberta.

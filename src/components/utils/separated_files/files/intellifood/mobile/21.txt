@@ -1,0 +1,6 @@
+Title: = Configurações
+
+Content:
+= 
+
+Para acessar a tela de configurações, clique no botãoda tela principal e depois clique em **Configurações**, conforme demonstra a figura abaixo.

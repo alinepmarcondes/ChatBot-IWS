@@ -1,0 +1,29 @@
+Title: = Criar Lista
+
+Content:
+=
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Empresa:** para selecionar uma empresa;
+* **Filtrar Data Por:** para selecionar se a data será pesquisada pelo início ou término do pedido;
+* **Área:** para selecionara área utilizada;
+* **Início** e **Término:** para informar o início e término da busca;
+* **Situação:** para informar a situação do pedido;
+* **Aplicar:** para realizar a pesquisa;
+* **Imprimir:** para imprimir os dados do pedido;
+
+* **Novo:** ao clicar neste botão aparecerá os seugintes campos ao lado para criar um novo pedido:
+
+
+
+- **Empresa:** Para selecionar uma empresa para criar o pedido;
+- **Descrição:** para nomear uma descrição para o pedido;
+- **Início:** e **Término:** para determinar o início e término do pedido;
+- **Área:** para informar a área que será utilizada;
+- **Inserir:** para criar o pedido;
+- **Cancelar:** para cancelar a operação;
+
+Após criado o pedido deverá ser informado os itens do pedido e por isso ao dar um duplo clique no pedido selecionado, automaticamente irá para a aba "//**Itens**//".

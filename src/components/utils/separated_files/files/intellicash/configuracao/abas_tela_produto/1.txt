@@ -1,0 +1,20 @@
+Title: == Função Abrir Cadastro de Produtos
+
+Content:
+==
+
+----
+
+Foi criada uma tela para configurar em quais abas se deseja que abra a tela de produtos quando essa seja executada ao se dar dois cliques em algumas telas como, por exemplo, “Relatório Geral de Vendas”, na aba “Vendas” sub aba “Por Itens” a mesma abrirá com as abas ativadas conforme a configuração desejada, caso não deseje optar por função a tela de produtos abrirá na forma padrão do sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Config. Abas da Tela de Produtos||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+E escolher qual a combinação que melhor lhe convir.

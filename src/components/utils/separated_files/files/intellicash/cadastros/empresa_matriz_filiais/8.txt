@@ -1,0 +1,24 @@
+Title: = Email
+
+Content:
+=
+
+
+
+Esta tela foi criada para poder configurar um email para enviar, seja automaticamente ou seja manulamente, porém sem necessitar sair do sistema.
+
+Ao clicar no botão "//**Alterar**//" aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Nome:** para informar o nome do usuário;
+* **Endereço de Email:**para informar o endereço de email do usuário;
+* **Servidor de Saída de Emails(SMTP):** Para informar a porta do servidor de saida do email (Recomendado verificar com o tecnico de rede se não souber);
+* **Servidor SMTP Requer Autenticação:** Marcar esta opção é necessário informar login e senha de email, caso esteja desmarcado,
+* **Nome de Usuário:** para informar o email do usuário;
+* **Senha:** para informar a senha da conta do email;
+* **Lembrar Senha:** para lembrar a senha do email;
+* **Porta Servidor de Saída(SMTP):** para informar a porta do servidor de saida do email (Recomendado pesquisar na internet, se não souber)
+* **Usar o Seguinte Tipo de Conexão Criptografada:** para informar o tipo de conexão criptografada utilizada;

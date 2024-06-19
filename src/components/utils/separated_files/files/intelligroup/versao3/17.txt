@@ -1,0 +1,4 @@
+Title: Empresas
+
+Content:
+Para acessar a tela **Cadastro de empresas** clique no menu **Cadastrar** e depois em **Empresas**.

@@ -1,0 +1,27 @@
+Title: Devoluções
+
+Content:
+=== Acompanhamento ===
+
+Nesta aba mostra o acompanhamento das devoluções realizadas para o fornecedor.
+
+
+
+Nesta interface há os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+=== Devoluções ===
+
+Nesta aba, além de mostrar um acompanhamento das devoluções, mostra os dados de uma devolução selecionada.
+
+
+
+Nesta interface há os seguintes botões:
+
+* **Por intervalo:** Ao selecionar esta opção é necessário selecionar um período a ser pesquisado as devoluções. Se esta opção estiver desmarcada, será mostrado todas as devoluções ja realizadas.
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.

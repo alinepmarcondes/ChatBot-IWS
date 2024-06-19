@@ -1,0 +1,45 @@
+Title: == Relatrório de Compras Por Associados
+
+Content:
+==
+
+----
+
+Nesta ferramenta há duas abas distintas que relacionam tanto as compras de Fornecedores Parceiros quanto as Vendas de Propdutos Próprios pelos associados.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Compras→Por Associado e Parceiro||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+As duas abas exibem respectivamente as consultas de "//**Compras de Fornecedores Parceiros**//" no período e "//**Vendas de Produtos Próprios**//" no período.
+
+Em ambas as áreas temos os modelos de consulta pelo item de interesse (Fornecedres / Produtos Próprio) ou pelos Associados como prioridade.
+
+Nessas interfaces há os seguintes campos à preencher:
+
+* **Empresa:** é necessário selecionar uma empresa para realizar a pesquisa (caso seja apenas uma empresa este campo estará oculto);
+* **Início** e **Término**: define o intervalo de tempo em que os dados serão extraídos;
+* **Aplicar:** Executa a consulta;
+* **Imprimir:** Imprime os dados da consulta.
+* **Localizar:** consulta resultados na tabela superior das áreas (Fornecedore, Associados, Produtos e Associados).
+
+Os resultados são separados em duas tabelas:
+
+- **Fornecedores Parceiros**
+* Exibe a lista de Fornecedores Parceiros que possuem lançamentos de associados;
+* Exibe a lista de associados com os valores totais de compras do fornecedor selecionado.
+- **Produtos Próprios**
+* Exibe a lista de Produtos Próprios que possuem lançamentos de associados.
+* Exibe a lista de associados com os valores totoais de vendas do produto selecionado.
+
+
+
+O relatório de "//**Vendas de Produtos Próprios**//" listado por "//**Produtos**//" apresenta um filtro adicional para classificar os produtos que serão exibidos.
+
+Além disso em ambas as Sub Abas existe um botão "//**Gerar Pedido**//" que é habilitado quando há resultados na consulta e que gera um orçamento para cada associado com os produtos próprios, que se comporta de forma distinta para cada área.

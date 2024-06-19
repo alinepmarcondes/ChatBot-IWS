@@ -1,0 +1,7 @@
+Title: == Easycash
+
+Content:
+==
+Toda promoção que foi aceita na plataforma da **ScannTech**, será enviado diretamente para o **EasyCash** e ao chegar na data de vigência da promoção o sistema começará a computar automaticamente os descontos quando atingir as condições.
+
+Quando o **Easycash** verificar que o produto atingiu as condições necessárias da promoção, automaticamente irá colorir de verde todos os itens pertencentes a promoção e irá destacar em cima do total da venda o valor de desconto que será aplicado ao finalizar a venda.

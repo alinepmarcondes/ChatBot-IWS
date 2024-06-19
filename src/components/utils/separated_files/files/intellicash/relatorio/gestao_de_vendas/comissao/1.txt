@@ -1,0 +1,16 @@
+Title: == Relatório de Comissões
+
+Content:
+==
+
+----
+
+Relatório criado para acompanhar a comissão dos vendedores.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Relatório de Comissão||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

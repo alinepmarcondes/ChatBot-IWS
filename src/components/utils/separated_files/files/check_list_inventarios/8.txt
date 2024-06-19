@@ -1,0 +1,14 @@
+Title: 7) Preparação de Coletores
+
+Content:
+Quando se utiliza o IntelliStock é importante verificar as condições dos coletores de dados. 
+
+No dia Anterior à contagem deixe os coletores recebendo carga na bateria.Efetue a [[intellistock:versoes:3.0.1.3|atualização do cadastros de produtos.]] No IntelliStock os inventários trabalham de forma off-line, por isso é necessário que os dados cadastrais de produtos sejam alimentados via conexão USB, desse modo, quando for fieta a leitura de um produto, as chances do coletor indicar que o **Produto não está cadastrado** são menores. 
+
+
+
+Se por ventura, a equipe que irá trabalhar no inventário não tiver expericência com coletores de dados ou com o IntelliStock, é recomendável que se faça um treinamento com cada indivíduo, apresentando o programa e suas funcionalidades. Se houver um conjunto de coletores diferentes uns dos outros, é recomendável que o operador trabalhe com o mesmo coletor em que recebeu o treinamento.
+
+O IntelliStock permite que os arquivos de contagem sejam renomeados, mas pode haver problemas em gerar o arquivo caso o nome escolhido contenha caracteres especiais (-/;\,.-_="').
+
+Já o IntelliStock Android divide diferentes categorias de contagens por pastas, nomeando os arquivos com o formato de data "aaaaMMddHHmmss.txt".

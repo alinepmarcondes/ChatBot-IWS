@@ -1,0 +1,9 @@
+Title: 5)	Coletagem
+
+Content:
+Após ser feita a contagem de todos os itens, fazer a inserção dos itens no sistema, e isso poderá ser feito de duas maneiras, pelo coletor de dados ou diretamente pelo sistema:
+* Coletor de dados: o operador vai até o produto lendo apenas o código de barras do item que possui o papel colado e digitado sua quantidade.
+o	Ao fazer a leitura o colaborador rubrica o papel para saber quais itens já foram coletados e por quem.
+o	Ao fazer a coleta o colaborador deverá verificar se o código do produto foi lido corretamente pelo equipamento;
+* Sistema: nesse caso, o produto é deslocado até o computador para fazer o lançamento de dados, especificamente o item que possui o papel colado, e após lançar e rubricar o papel, de preferência devolver o item ao local de origem.
+Para fazer a coleta da contagem, é importante conhecer como o sistema se comporta. No caso do Intellicash, o inventário é a ultima operação do dia, portanto, se a contagem é feita no início do dia, deverá ser coletado com data do dia anterior, caso seja feita a contagem de noite, então deverá ser coletada com a data do dia corrente.

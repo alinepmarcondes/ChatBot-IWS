@@ -1,0 +1,27 @@
+Title: == Relatório das ECFs
+
+Content:
+==
+
+----
+
+Relatório que mostra os dados por dia da redução Z das ECFs em um determinado período de data.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Relatório das ECFs (Redução Z)||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **ECF:** para selecionar um ECF;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Após realizada a pesquisa mostrará abaixo os resultados de cada ECF por dia e seus dados;

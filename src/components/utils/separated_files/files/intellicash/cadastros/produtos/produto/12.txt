@@ -1,0 +1,44 @@
+Title: Armazenamento
+
+Content:
+Essa nova aba foi criada na versão 3.1.008.000, pois na aba **Dados Adicionais** não estava comportando alguns campos que seriam necessários em algumas funcionalidade.
+
+
+
+Na Coluna Armazenamento há os seguintes campos:
+
+
+
+
+- **Vol. Montado:** Para informar qual o volume do produto montado;
+- **Vol. Desmontado:** Para informar qual o volume do produto montado;
+- **Vol. Armazenado:** Para informar o volume armazenado do produto;
+- **Tempo Montagem:** Para informar o tempo de montagem do produto;
+- **Peso Bruto (Kg):** Para informar o peso bruto do produto;
+- **Peso Líquido (Kg):** Para informar o peso líquido do produto;
+- **Altura:** Para informar a altura do produto;
+- **Largura:** Para informar a largura do produto;
+- **Profundidade** Para informar a profundidade do produto;
+
+Nesta aba contém a parte de Quantidade de caixa por Fornecedores(Pedido):
+
+
+
+Nesta parte há uma tabela com os atributos "//**CNPJ**//", "//**Fornecedor**//" e "//**Qtde. por Cx.**//", que é a quantidade de armazenamento por caixa. Nesta coluna há os seguintes botões respectivamente:
+
+* **Adicionar:** Para adicionar um código utilizado pelo fornecedor e ao clicar neste botão abrirá a seguinte tela:
+
+
+
+Para localizar um fornecedor é necessário fazer uma pesquisa no campo de texto por razão social, fantasia ou CNPJ. Após localizado e confirmado aparecerá a seguinte tela:
+
+
+
+Nesta tela há o campo de texto para informar a quantidade por caixa que o fornecedor armazenará, e após confirmado a quantidade por caixa estará cadastrada.
+
+* **Alterar:** altera os dados de armazenamento, aparecerá apenas a interface para alterar a quantidade;
+* **Excluir:** Para excluir qtde por caixa do fornecedor selecionado.
+
+
+
+Há também a funcionalidade de controlar o produto com o **Estoque máximo em dias**.

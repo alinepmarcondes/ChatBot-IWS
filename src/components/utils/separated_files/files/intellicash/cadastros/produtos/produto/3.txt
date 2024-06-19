@@ -1,0 +1,27 @@
+Title: Cadastrando um Produto
+
+Content:
+Ao clicar no botão "//**Novo**//" aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+* **Balança:** para cadastrar um produto que precise de balança para calcular seu preço
+* **Código:** para criar um código para o produto, caso escolher a opção balança é de no máximo 5 caracteres, caso não escolha essa opção o numero de caracteres deverá ser no máximo 13 ou 14, dependendo de sua configuração;\\
+
+
+
+=== Versão 3.0.140.004 ===
+A partir da versão 3.0.140.004 o foco dos campos da tela de cadastro/alteração de produtos contempla a maioria dos campos editáveis.
+
+
+
+Adicionalmente, os campos referentes a itens de balança aparecerão somente quando o código selecionado anteriormente for um código de balança. Do contrário, estes campos estarão ocultos.
+
+
+
+**PRODUTO PADRÃO**: checkbox adicionado para que, quando selecionado, os dados do cadastros atual sejam parametros para outros cadastros, facilitanado o cadastro de vários itens com carasceterísticas semelhantes.
+
+
+
+Os campos definidos como padrão são: **Unidade,Origem, Finalidade, Classificação Pis Cofins, Tributação, Maurkup, Max. Desc.,Proibir multiplicação no PDV, Cotação e Controla Lote**

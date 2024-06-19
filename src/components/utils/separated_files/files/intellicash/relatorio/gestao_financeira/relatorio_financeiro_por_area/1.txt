@@ -1,0 +1,32 @@
+Title: == Relatório Financeiro por Área
+
+Content:
+==
+
+----
+
+Este relatório mostra a gestão financeira do sistema, classificado por área.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Relatório Financeiro por Área||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+A aba "//**A Receber**//" que mostra um relatório financeiro por área de lançamentos feitos a receber ainda. Caso escolha a aba "//**Recebidas**//"
+mostrará um relatório financeiro de lançamentos recebidos e ao escolher a aba "//**Todas**//" mostrará todos os lançamentos financeiros.
+
+Na parte superior desta tela há os seguintes campos:
+
+* **Início e Término:** para determinar um período de datas a ser pesquisado;
+* **Área:** para determinar a área a ser pesquisada;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+botões de início e término para determinar um período de datas a ser pesquisado e a área em que se deseja verificar, e os botões aplicar para realizar a busca e imprimirpara imprimir dados do relatório.
+
+Abaixo mostra os clientes e seus dados e ainda abaixo mostra os lançamentos de cada cliente selecionado acima.

@@ -1,0 +1,13 @@
+Title: = Adicionar Produto
+
+Content:
+=
+
+Para adicionar um produto no pedido, o usuário poderá realizar uma busca ou listar os produtos de acordo com um [[#filtro|filtro]].
+
+No campo de pesquisa o usuário deverá informar a descrição do produto ou código EAN e pressionar o botão "Enter" ou "Pesquisar" do teclado do dispositivo.
+
+
+
+
+Para concluir, o usuário deverá pressionar o botão "OK".

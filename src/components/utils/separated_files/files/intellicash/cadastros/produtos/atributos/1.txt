@@ -1,0 +1,18 @@
+Title: == Cadastrar Atributos
+
+Content:
+==
+
+----
+
+Esta ferramenta tem por objetivo criar, alterar e excluir os tipos de classificações dos produtos, seja seção, marca, subgrupo, tamanho, etc. 
+
+É possivel ainda alterar algumas caracteristicas de um ou mais produto.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Atributos||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

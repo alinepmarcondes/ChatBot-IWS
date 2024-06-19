@@ -1,0 +1,26 @@
+Title: =Conferência
+
+Content:
+=
+
+----
+
+**Fechamento de caixa**
+
+Permite realizar a confirmação dos dados enviados pelo frente de caixa, lançandos no contas e caixas convenientes ao estabelecimento.
+
+Além da conferencia esta tela permite realizar o remanejamento de cupons que por ventura tenham sido lançado errados pelas operadoras do frente de caixa.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+Nesta tela o usuário irá selecionar a Data do fechamento, PDV, Operador e Turno do caixa a ser conferido.
+
+||Gerenciamento→Financeiro→Tesouraria→Fechamento de Caixa||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+O sistema mostrará o Valor Digitado (campo **Valor**), Valor do Sistema (campo **Valor Sis.**) e Diferença (campo **Diferença**). Caso haja alguma diferença na FPG, o usuário poderá acessar a **tela de detalhes** dando um duplo clique na FPG em questão.

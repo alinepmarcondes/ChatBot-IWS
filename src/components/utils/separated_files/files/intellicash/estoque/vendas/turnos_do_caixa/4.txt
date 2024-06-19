@@ -1,0 +1,10 @@
+Title: = Vendas
+
+Content:
+=
+
+A aba "//**Vendas**//" mostra as vendas realizadas e os seus detalhes.
+
+
+
+Na parte inferior da tela há o checkbox "//**Mostrar Somente Crediário**//" para mostrar apenas vendas realizadasem crediários assim não ira mostrar as vendas em outras formas de pagemento.

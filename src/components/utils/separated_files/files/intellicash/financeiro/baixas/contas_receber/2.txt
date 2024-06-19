@@ -1,0 +1,11 @@
+Title: = Verificar Contas a Receber na Matriz
+
+Content:
+=
+Na tela de Recebimento do Cliente da Filial é possível verificar as contas em aberto do cliente em outras empresas. 
+
+Para esta melhoria foi criada a configuração "//**4703 - Verificar saldo do cliente automaticamente na Matriz**//", que se estiver configurada em "//__SIM__//" ao entrar na tela de recebimento do cliente o sistema irá se conectar na Matriz e verificar o valor das contas de outras empresas que estejam em aberto para o cliente em questão. Se está configuração estiver "//__NÃO__//"para que o usuário verifique a conta basta clicar sobre a palavra **Verificar contas na Matriz** para que o sistema verifique.
+
+
+
+Ao conectar na Matriz e verificar as contas o sistema mostrará uma mensagem informando que existem contas abertas na Matriz de outras empresas, o valor líquido e o corrigido.

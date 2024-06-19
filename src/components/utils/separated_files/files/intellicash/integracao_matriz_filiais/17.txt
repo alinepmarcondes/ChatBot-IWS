@@ -1,0 +1,6 @@
+Title: = Esquema do Fluxo de Dados
+
+Content:
+=
+
+A figura abaixo esquematiza o sentido do fluxo de dados no processo de integração de Matriz e Filiais.

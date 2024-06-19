@@ -1,0 +1,10 @@
+Title: == Atualizador Online - Intellicash
+
+Content:
+==
+
+O atualizador deve ser executado no servidor do Intellicash. Antes de executar verifique as seguintes recomendações:
+
+* O [[manuais:intellicash:atualizador_online#codigo_103|EnterPrise]] precisa estar configurado para iniciar junto com o Sistema Operacional;
+* Todas as conexões com o __Intellicash__ do servidor precisam ser encerradas;
+* Versão do Banco de Dados deve ser __3.0.141.1__ ou superior.

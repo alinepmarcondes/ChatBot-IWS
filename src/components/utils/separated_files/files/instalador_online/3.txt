@@ -1,0 +1,6 @@
+Title: Aplicações
+
+Content:
+=== EasyCash ===
+
+Marque a opção //"EasyCash"//, escolha modo de instalação. //"ECF"// e/ou //"SAT"// e clique no botão //"Avançar"//.

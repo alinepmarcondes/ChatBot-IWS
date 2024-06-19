@@ -1,0 +1,14 @@
+Title: SubReports
+
+Content:
+Subreports são relatórios como quaisquer outros entretanto, dependendo de onde é colocado e qual é sua fonte de dados, seu comportamento pode variar bastante.
+
+
+
+Por exemplo:
+
+Imagine que para cada item de uma compra, seja necessário listar todos os atributos deste item.
+
+No relatório principal o cdsItem seria vinculado e então seria adicionado um subreport em Details. Dentro deste subreport, os dados do item seriam exibidos, e nos details seriam incluídos os dados do cdsAtributos, que seria vinculado ao subreport.
+
+É possível trocar a visualização de um relatório para um subreport pelas abas da parte inferior da área de edição do relatório.

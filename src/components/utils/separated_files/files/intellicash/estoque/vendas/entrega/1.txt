@@ -1,0 +1,49 @@
+Title: == Entrega
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de controlar as entregas solicitadas no orçamento.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Vendas→Controle de Entrega→Entrega PDV||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Por padrão ao clicar neste botão abrirá na subaba "//**Data Compra**//" na aba "//**A entregar**//".
+
+Na parte superior desta tela há os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Área:** para selecionar uma área;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+As demais subabas mostram os resultados da pesquisa pelo nome da aba, no caso de data prevista, irá se pesquisar pela data prevista para entrega, sem agendamento pesquisará entregas sem agendamentos e a aba cliente para pesquisar pelos clientes e pode se pesquisar por um cliente em específico.
+
+Abaixo mostra todas as entregas feitas ou a serem feitas e seus dados e na coluna abaixo mostra os produtos de uma entrega selecionada na coluna acima e seus dados.
+
+Abaixo há o botão "//**Confirmar**//" para confirmar a entrega.
+
+Ao mudar para à aba "//**Entregues**//" aparecerá a seguinte tela:
+
+
+
+Ao entrar nesta tela por padrão abrirá a subaba "//**Data Entrega**//".
+
+Na parte superior desta tela há os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+
+
+Na primeira coluna abaixo mostra as entregas realizadas e seus dados, na segunda coluna mostra os pedidos além de observações do orçamento e da entrega e na terceira coluna os produtos do pedido selecionado.

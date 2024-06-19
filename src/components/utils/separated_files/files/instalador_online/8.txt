@@ -1,0 +1,4 @@
+Title: Progresso de Instalação
+
+Content:
+Logo após o download ser finalizado é exibido a tela de //"Progresso de instalação"//. Nesta tela é apresentado qual procedimento está sendo executado.

@@ -1,0 +1,39 @@
+Title: == Relatório por Centro de Custo
+
+Content:
+==
+
+----
+
+Este relatório mostra a gestão financeira, classificados por centros de custos.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Relatório por Centro de Custo||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há três abas, relacionadas a data do sistema, e elas tem as seguintes funções:
+
+* **Data de Entrada** esta aba faz com que o intervalo de datas faça uma busca sobre os centros de custos com a data em que foi feita a entrada das receitas;
+* **Data de Vencimento** esta aba faz com que o intervalo de datas faça uma busca sobre os centros de custos com a data em que venceria as receitas;
+* **Data da Baixa** esta aba faz com que o intervalo de datas faça uma busca sobre os centros de custos com a data em que as receitas foram dadas baixas;
+
+Há também os seguintes botões:
+
+* **Início** e **Término** para determinar um período de datas a ser pesquisado;
+* **Empresa** para selecionar uma empresa;
+* **Aplicar** para realizar a pesquisa;
+* **Imprimir** para imprimir dados dos centros de custos da empresa.
+
+Na parte inferior da tela há três abas, relacionadas a situação do centro de custo, e elas tem as seguintes funções:
+
+* **Abertas:** Mostrará todas as movimentações em aberto do sistema;
+* **Fechadas:** mostrará todas as movimentações concluídas do sistema;
+* **Todas:** mostrará todas as movimentações do sistema;
+
+Nesta tela mostra os centros de custos da sua empresa, dividindo em duas colunas entre receitas e despesas. Além disso cada aba selecionada mostrará um relatório diferente, porém referente á cada titulo da aba como foi explicado acima.

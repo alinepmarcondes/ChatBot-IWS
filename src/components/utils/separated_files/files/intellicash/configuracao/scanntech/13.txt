@@ -1,0 +1,4 @@
+Title: Consultar Produto
+
+Content:
+Utilizado para verificar se um determinado código de barras já foi enviado para a **ScannTech**.

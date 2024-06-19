@@ -1,0 +1,15 @@
+Title: Configurações
+
+Content:
+É possivel cadastrar os tipos de OS e os status. 
+Para isso basta ir no menu Gerenciamento -> Estoque -> Ordem de Serviço -> Configurações e selecionar a aba que deseja cadastrar.
+
+
+Na versão 3.1.013.001 foi criado a opção de faturar os produtos da OS em cupom fiscal, então nesse caso foi criado a configuração no sistema em que você parametriza se o sistema irá exportar produto para:
+* Cupom Fiscal automaticamente;
+* Nota Fiscal automaticamente;
+* Ou se vai questionar o usuário para onde ele deseja exportar:
+
+
+
+Além disso também foi criado a configuração para que o usuário informe em qual forma de pagamento o cupom fiscal será faturado. Por padrão o sistema já vem configurado com a forma de pagamento CREDIÁRIO.

@@ -1,0 +1,18 @@
+Title: == Rateio de Contas para Associados
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de ratear contas para os seus associados cadastrados.
+
+
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Lançamentos→Rateio de Contas para Associados||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

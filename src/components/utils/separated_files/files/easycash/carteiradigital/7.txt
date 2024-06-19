@@ -1,0 +1,6 @@
+Title: = CardSE
+
+Content:
+=
+
+A versão **1.4.012.000** do EasyCash foi integrado com a versão **7.0.14.9** do CardSE. Logo, o referido módulo deve ser solicitado a Software Express e ser devidamente configurado no SiTEF do cliente.

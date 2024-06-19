@@ -1,0 +1,6 @@
+Title: = Códigos de erro
+
+Content:
+=
+
+Lista dos códigos de erro e suas possíveis soluções:

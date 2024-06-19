@@ -1,0 +1,6 @@
+Title: = Comandas
+
+Content:
+=
+
+Nesta tela é possível gerenciar as comandas na guia **Comandas** e as mesas já previamente cadastradas na guia **Mesas**.

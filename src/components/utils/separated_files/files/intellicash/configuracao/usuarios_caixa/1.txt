@@ -1,0 +1,21 @@
+Title: == Associação de um Usuário a um Caixa correspondente
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada na função de associar um usuário a um caixa correspondente (essa associação visa sugerir um caixa sempre que o usuário for dar uma baixa no sistema).
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Usuário X Caixa||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela serão listados os usuários disponíveis para a associação. Para fazer a associação basta selecionar o usuário desejado e clicar com no botão associar caixa () e logo em seguida o sistema mostrará uma tela para que o usuário escolha o caixa.
+Para fazer a desassociação basta escolher o registro asssociado e clicar no botão desassociar caixa ()

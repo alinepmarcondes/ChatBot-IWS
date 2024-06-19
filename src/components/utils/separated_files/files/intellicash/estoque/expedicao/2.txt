@@ -1,0 +1,12 @@
+Title: = Permissões
+
+Content:
+=
+
+Para controle de utilização da ferramenta é necessário verificar algumas atribuições e direitos de usuário. Essas permissões estão explicadas abaixo.
+
+- **Acessar Expedição:** Permite o usuário a abrir a janela de expedição.
+- **Alterar Quantidade:** Permite o usuário alterar a quantidade dos produtos nas listas.
+- **Alterar Modo de Conferência:** Permite o usuário marcar ou desmarcar a caixa **Conferir por Código de Barras**.
+- **Confirmar em Expedição:** Permite o usuário confiramar o orçamento após ter verificado todos os itens, gerando uma nota ou cupom fiscal para faturar.
+- **Confirmar Alteração de Quantidade:** Permite o usuário alterar a seleção da caixa **Confirmar Alteração**

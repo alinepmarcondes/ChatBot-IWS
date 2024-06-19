@@ -1,0 +1,11 @@
+Title: = Versão 3.0.141.000
+
+Content:
+=
+
+
+
+
+
+* **Alterar Tributação Pelo Cadastro**: Semelhante à função de alterar código da receita, porém as informações vêm diretamente do cadastro do produto.
+* **Alterar Código Pelo Cadastro**: Seguindo a linha de alterações com base em informações do cadastro do produto.

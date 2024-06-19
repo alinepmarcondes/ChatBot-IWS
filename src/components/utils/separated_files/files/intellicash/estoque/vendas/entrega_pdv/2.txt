@@ -1,0 +1,9 @@
+Title: Agendamento e Controle de Entrega
+
+Content:
+Na lista de registros há uma coluna denominada "Status" cujo o objetivo é informar a situação em que a entrega se encontra. São elas: 
+* **Pendente** para as novas entregas, ou seja, as que acabaram de serem solicitadas pelo EasyCash. Entra neste status também as entregas que, por algum motivo, não puderam ser entregues. Para esta segunda situação, a coluna "Obs" estará marcada;
+* **Trânsito** quer dizer que a mercadoria já saiu para o cliente; e
+* **Entregue** para as entregas já efetuadas.
+ 
+Ao lado do botão de "Imprimir" há um grupo de botões para controle do agendamento de entrega, descritos a seguir:

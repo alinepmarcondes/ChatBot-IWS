@@ -1,0 +1,6 @@
+Title: = Etapa 05 - Cópia de segurança do Banco de Dados
+
+Content:
+=
+
+Nesta etapa é realizada uma cópia de segurança do banco de dados. Se o Banco de Dados possuir um tamanho grande este procedimento pode demorar um pouco.

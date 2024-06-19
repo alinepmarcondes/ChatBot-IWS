@@ -1,0 +1,9 @@
+Title: Histórico
+
+Content:
+Nesta aba, foi adicionado um resumo das formas de aquisição de pontos e resgate que já foram encerradas, permitindo o usuário visualizar os dados dos registros que já estiveram em vigor, segue:
+
+* **Aba Pontuação:**
+ 
+
+* **Aba Resgate:**

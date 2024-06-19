@@ -1,0 +1,16 @@
+Title: == Cadastrar Transportadoras
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar transportadoras no sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Transportadoras||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

@@ -1,0 +1,27 @@
+Title: == Sugestão de Preços
+
+Content:
+==
+
+----
+
+Esta ferramenta exibe as sugestões de alteração de preços criadas pelos coletores.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→IntelliStock→Sugestão de Preços||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Todos:** Marcar esta opção, irá ignorar as datas e buscar todas as sugestões;
+* **Localizar:** Ao clicar neste botão será realizada a pesquisa;
+
+Para alterar o preço de um item de sugestão basta selecionar o checkbox "//**Editar**//" e em seguida clicar em Alterar. "//**Alterar**//" aplica o preço da sugestão ao preço do produto. Se desejar, ao dar um duplo clique em um produto abre a interface de cadastro de produto.

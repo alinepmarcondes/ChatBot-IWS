@@ -1,0 +1,15 @@
+Title: = Ajuste PIS Cofins - EFD Contribuições Registro M110 e M510
+
+Content:
+=
+
+||Contabilidade->Ajustes Pis/Cofins||
+
+
+
+Registro a ser preenchido caso a pessoa jurídica tenha de proceder a ajustes de créditos escriturados no período, decorrentes de ação judicial, de processo de consulta, da legislação tributária das contribuições sociais, de estorno ou
+de outras situações.
+Este registro será utilizado pela pessoa jurídica para detalhar as informações prestadas na apuração de PIS e COFINS.
+Deve ser informado neste registro, como ajuste de redução o valor referente às devoluções de compras ocorridas no período, de bens e mercadorias sujeitas à incidência não cumulativa da Contribuição que, quando da aquisição gerou a apuração de créditos.
+
+Também deve ser informado neste registro, como ajuste de redução o valor referente às baixas decorrente de perda ou outras saidas de mercadorias que geraram crédito na entrada.

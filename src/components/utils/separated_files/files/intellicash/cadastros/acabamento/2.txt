@@ -1,0 +1,15 @@
+Title: = Cadastrando o Acabamento
+
+Content:
+=
+
+
+
+* **Descrição:** nesse campo descrição o usuário deverá informar uma descrição para o acabamento.
+* **Tipo:** nesse campo tipo é onde será informado o valor do acabamento. Um acabamento pode ser de duas formas:
+- **Valor:** é um valor fixo que será aplicado em cima de cada unidade do item vendido;
+- **Porcentagem:** é uma porcentagem que será aplicada no valor unitário do item;
+* **Valor:** nesse campo Valor é onde será informado o valor do acabamento. \\
+* **Inserir:** ao clicar no botão inserir o sistema irá cadastrar o acabamento no banco de dados.
+Ao acessar a interface já é carregado no grid os acabamentos cadastrados, podendo listar os desativados ou não, para isso basta marcar o campo **"Mostrar Todos"**.
+Para **//alterar//**, **//desativar//** ou **//ativar//** um acabamento basta clicar com botão direito do mouse sobre o registro.

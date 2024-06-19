@@ -1,0 +1,27 @@
+Title: Cotação Aberta
+
+Content:
+Esta tela exibe todas as cotações abertas disponíveis para que o representante realize suas ofertas. Para visualizar os produtos o representante deverá selecionar a cotação desejada.
+
+
+
+Caso não haja nenhuma cotação aberta será exibido a seguinte mensagem:
+
+
+
+=== Detalhes da Cotação Aberta ===
+
+Esta tela exibe todos os produtos e suas respectivas informações da cotação selecionada, nesta tela é possível para o representante realizar sua oferta de preços.
+
+
+Para realizar sua oferta o usuário deverá pressionar um produto da lista. Será aberto uma caixa de diálogo com os campos "Preço" e "Observação". Após preencher os campos pressione o botão "Salvar".
+
+
+
+Se um produto for um "Item Genérico" será necessário preencher também o campo "Observação". Caso o usuário não preencha será exibido a seguinte mensagem:
+
+
+
+
+
+Os produtos genéricos são identificados pelo texto "Item Genérico" posicionados no lugar do EAN e também pela barra em azul, conforme demostra a figura abaixo.

@@ -1,0 +1,12 @@
+Title: Sangria em Cheque
+
+Content:
+Foi adicionada a possibilidade de se fazer a sangria em cheque no **EasyCash** possibilitando assim o seu controle no fechamento de caixa.
+
+Quando a sangria for feita no **EasyCash** o mesmo irá solicitar quais cheques terão sua sangria efetuada e logo após a conclusão já irá enviar estes cheques selecionados para o retaguarda.
+
+
+
+
+
+O sistema também irá fornecer a opção para que se faça a sangria de um cheque na tela de confirmação do fechamento do caixa. Para realizar está operação basta selecionar o cheque que deseja fazer a sangria, clicar com o botão direito do mouse e selecionar a opção **Mudar Cupom para Sangria...***.

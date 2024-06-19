@@ -1,0 +1,30 @@
+Title: == Relatório de Vendas Mensais
+
+Content:
+==
+
+----
+
+Este relatorio motra os valores de vendarealizadas em um mes pre determinado... Além de exibir uma comparação com o mes e ano anterior.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Vendas Mensais||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Ano:** para informar o ano desejado para o relatório;
+* **Mês:** Para selecionar o mês referência dos pagamentos de funcionários;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+* **Exportar:** Para exportar os dados do relatório para um arquivo PDF;
+
+Abaixo na primeira coluna mostra o relatório mensal de vendas diariamente o todos os seus dados de vendas.
+
+Na coluna abaixo mostra um histórico de vendas semestral e mais generalizado , porém muito eficiente para acompanhar o rendimento da empresa , e ao lado mostra o histórico semestral graficamente para uma melhor visualização dos valores.

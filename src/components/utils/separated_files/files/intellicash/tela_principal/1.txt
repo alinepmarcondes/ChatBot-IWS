@@ -1,0 +1,7 @@
+Title: == Tela Principal
+
+Content:
+==
+
+Este é um manual criado para mostrar os primeiros passos ao sistema Intellicash mostrando uma breve introdução.
+Caso a sua empresa tenha mais de um banco de dados aparecerá uma tela para saber em qual deles se conectar.

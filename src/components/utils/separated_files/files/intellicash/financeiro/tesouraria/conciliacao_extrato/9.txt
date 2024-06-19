@@ -1,0 +1,10 @@
+Title: Arquivos
+
+Content:
+Já na aba **Arquivos**, para ter acesso ao conteúdo o usuário deverá selecionaro **Tipo de Extrato**, as datas de **Início** e **Termíno** em que os arquivosforam importados.
+
+
+
+Já com os dados exibidos na tela (como por exemplo na tela acima), ao selecionarmos a opção **Mostrar Detalhes do Arquivo**, o sistema apresentará os detalhes do arquivo. 
+
+E por fim, ao clicar no botão **Mostrar Conciliação** o sistema abrirá a interface de **Conciliação de Extrato - Comparativo**.

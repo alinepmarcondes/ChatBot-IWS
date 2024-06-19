@@ -1,0 +1,16 @@
+Title: Hist. Compras
+
+Content:
+A aba "//**Histórico de Compras**//" mostra as compras feitas pelo funcionário no estabelecimento;
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** Para imprimir os dados do item.
+* **Todos Produtos Juntos:** Ao marcar esta opção o sistema lista todos os produtos de todos os cupons do funcionário e lista-os no grid abaixo.
+* **Mostrar Notas Fiscais de Cupom Fiscal:** Ao marcar esta opção mostra notas fiscais e cupons fiscais;
+
+No grid superior mostra as compras realizadas pelo funcionário seja por nota fiscal e/ou por cupom fiscal e conforme você seleciona o mesmo, serão exibidos os itens comprados pelo cliente no grid inferior. No grid inferior também mostra na aba ”Pagamentos” os detalhes do pagamento do cupom.

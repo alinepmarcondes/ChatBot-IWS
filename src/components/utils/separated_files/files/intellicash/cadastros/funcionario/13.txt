@@ -1,0 +1,8 @@
+Title: Baixar Pagamentos
+
+Content:
+Para baixar pagamentos o usuário selecionará o mês corrente e os agendamentos vinculados ao mês em que se está pagando determinado funcionário, o sistema automaticamente somará e mostrará na parte inferior da tela o valor que foi selecionado.
+
+
+
+Para concretizar esse procedimento o usuário deverá clicar no botão “//**Acerto de Salário**//”, que uma nova tela será exibida para caso haja horas extras a ser pago o sistema possa calcular os respectivos valores, isso baseado no salário cadastrado do funcionário em que se deseja realizar esse procedimento.

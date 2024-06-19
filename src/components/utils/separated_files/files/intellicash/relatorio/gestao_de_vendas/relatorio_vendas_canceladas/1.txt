@@ -1,0 +1,50 @@
+Title: == Relatório de Vendas Canceladas
+
+Content:
+==
+
+----
+
+Este relatório mostra as vendas que foram canceladas em um determinado período, de acordo com a classificação desejada.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Relatório de Vendas Canceladas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao clicar nesta tela por padrão abrirá a aba "//**Por Dia**//";
+
+Esta tela mostra o relatório de vendas canceladas classificados por dia em um determinado período de datas.
+
+Na parte superior da tela há os botões de início e término para determinar um período a ser pesquisado e ao lado há os botões "//**Aplicar**//" para realizar a pesquisa no sistema e "//**Imprimir**//" para imprimir os dados da pesquisa e em todas as abas há o mesmo layout de botões para realizar uma pesquisa.
+
+Ao clicar na aba "//**Por Item**//" aparecerá a seguinte tela:
+
+
+
+Esta tela mostra o relatório de vendas canceladas classificados por item em um determinado período de datas.
+
+Ao clicar na aba "//**Por Cupom**//" aparecerá a seguinte tela:
+
+
+
+Esta tela mostra o relatório de vendas canceladas classificados por cupom em um determinado período de datas.
+
+Ao clicar na aba "//**Por Hora**//" aparecerá a seguinte tela:
+
+
+
+Esta tela mostra o relatório de vendas canceladas classificados por hora em um determinado período de datas.
+
+Ao clicar na aba "//**Clientes**//" aparecerá a seguinte tela:
+
+
+
+Esta tela mostra o relatório de vendas canceladas classificados por cliente em um determinado período de datas.
+
+Ao clicar na aba "//**Por Caixa**//" aparecerá a seguinte tela:

@@ -1,0 +1,6 @@
+Title: = Compras
+
+Content:
+=
+
+Para visualizar as compras, o usuário deverá acessar o menu lateral esquerdo "Minhas Compras".

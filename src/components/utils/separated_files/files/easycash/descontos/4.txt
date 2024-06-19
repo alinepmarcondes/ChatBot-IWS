@@ -1,0 +1,79 @@
+Title: =Detalhamento e uso de cada desconto ou bonificação que pode incidir no item:
+
+Content:
+=
+===1) Desconto manual no Item: ===
+Antes da venda do item, é possível conceder um desconto se o operador de caixa possuir permissão para tanto. Para tanto, basta chamar o atalho “F5” e conceder o desconto percentual ou em valor:
+
+
+
+O desconto é concedido mediante permissão do operador de caixa:
+
+
+
+E também vale a permissão de desconto máximo:
+
+
+
+===2) Promoção simples: ===
+Esse tipo de promoção não gera um desconto efetivamente pois altera diretamente o preço do produto durante a venda. Esse tipo de promoção permite que seja criado automaticamente um período de vigência. Mais detalhes [[https://wiki.intelliware.com.br/doku.php?id=manuais:intellicash:estoque:promocoes|aqui]].
+
+===3) Promoção simples por delimitação de quantidade: ===
+Cadastrada da mesma forma que as promoções simples citadas anteriormente, há a possibilidade de se criar delimitações de quantidade mínima e/ou máxima para que seja aplicada somente nos itens nesse intervalo. Difere-se, no entanto, das promoções simples pois será aplicada no EasyCash em forma de desconto no item e não pela alteração do valor do produto.
+
+A regra de validação é a seguinte:
+Se houver um "qMin" cadastrado, o desconto será aplicado a todos os itens do respectivo produto assim que a quantidade mínima for atingida.
+Se houver um "qMax" cadastrado, o desconto será aplicado a todos os itens do respectivo produto até atingir a quantidade máxima. Os demais itens receberão o valor normal.
+Se houver um "qMin" e "qMax" cadastrado, o desconto será aplicado até atingir a quantidade máxima somente se a quantidade mínima for atingida.
+
+===4) Preço diferenciado por atacado: ===
+A fim de promover vendas em atacado, este tipo de desconto é aplicado nos itens somente se atingirem a quantidade mínima cadastrada para o respectivo produto. Mais detalhes [[https://wiki.intelliware.com.br/doku.php?id=intellicash:manuais:preco_por_qtde|aqui]].
+
+===5) Preço diferenciado por atacado por forma de pagamento: ===
+Segue exatamente a mesma estrutura e funcionamento do preço por atacado, no entanto é possível adicionar uma ou mais formas de pagamentos na promoção. Desta forma a promoção só será atendida se a venda for finalizada na forma de pagamento cadastrada e se o operador de caixa sinalizar a escolha na finalização da venda.
+A configuração é feita no IntelliCash, junto ao cadastro de produtos eao atacarejo:
+
+
+
+Ao clicar no botão, abrirá uma tela para vincular uma ou mais formas de pagamento para o desconto cadastrado ou alterado:
+
+
+
+É possível cadastrar a um mesmo produto, preços de atacarejo diferenciados por forma de pagamento e sem forma de pagamento. Para tanto, algumas regras deverão ser respeitadas, conforme exemplificado abaixo: 
+
+
+
+Uma vez detectado um desconto, o mesmo será exibido na seguinte tela, apresentada antes da tela de fechamento:
+
+
+
+Se o item possuir promoção sem forma de pagamento e com forma de pagamento ao mesmo tempo, a primeira será aplicada durante a venda dos itens e na tela de seleção, já virá marcada automaticamente. Ao selecionar alguma outra opção com forma de pagamento, o sistema irá substituir a primeira, jamais será somada. De forma análoga aos descontos promocionais por forma de pagamento, o sistema só permite a escolha de uma única forma de pagamento. Caso incida em mais de um produto, estes serão marcados automaticamente, somando os descontos aplicáveis.
+Ao escolher uma forma de pagamento, a mesma virá sugerida na tela de finalização e o valor de desconto será atualizado na tela principal:
+
+
+
+Se por acaso o operador de caixa finalizar a venda em outra forma de pagamento, a seguinte mensagem será exibida e o sistema voltará para tela de venda, sem cancelar o cupom:
+
+
+
+===6) Preço diferenciado por atacado por cliente: ===
+É uma modalidade análoga ao preço diferenciado por atacado, porém exclusivo para um determinado cliente. No caixa, o desconto de atacado só será aplicado se atingir a quantidade mínima configurada e se o cliente a quem se destina a promoção for identificado no processo da venda. Mais informações sobre o cadastro desta modalidade [[https://wiki.intelliware.com.br/doku.php?id=manuais:intellicash:cadastros:produtos:produto&s[]=atacado&s[]=cliente#preco_de_atacado_por_cliente|aqui]] e [[https://wiki.intelliware.com.br/doku.php?id=manuais:intellicash:cadastros:cliente&s[]=pre%C3%A7os&s[]=diferenciados#precos_de_atacado|aqui]]. 
+ 
+===7) Preço diferenciado por cliente: ===
+Há a possibilidade de se definir um preço de produto diferenciado a um determinado cliente. Ao vender este produto no caixa e o cliente estando identificado na venda, a diferença de preço será aplicada sempre como desconto. Caso se defina ao cliente um valor maior do que o valor do produto, o sistema prevalecerá sempre o menor valor, portanto preço diferenciado não seria aplicado.
+
+A configuração deste preço diferenciado pode ser feita no [[https://wiki.intelliware.com.br/doku.php?id=manuais:intellicash:cadastros:produtos:produto&s[]=pre%C3%A7o&s[]=diferenciado&s[]=cliente#versao_30140003|cadastro de produtos]] ou no [[https://wiki.intelliware.com.br/doku.php?id=manuais:intellicash:cadastros:cliente&s[]=pre%C3%A7os&s[]=diferenciados#precos_especiais|cadastro de clientes]].
+
+===8) Integração com Crescevendas: ===
+O sistema permite integração com o Crescevendas. Nessa integração, está prevista a concessão de descontos no item para produtos pré-selecionados pela plataforma. Os descontos só serão aplicados para clientes cadastrados na plataforma e identificados durante o processo de venda. Mais detalhes [[https://wiki.intelliware.com.br/doku.php?id=manuais:easycash:crescevendas|aqui]].
+
+===9) Integração com o Mercafacil: ===
+O sistema permite integração completa com a API da Mercafacil. Nela está prevista a concessão de descontos no item de forma bem semelhante ao Crescevendas. Mais informações [[https://wiki.intelliware.com.br/doku.php?id=manuais:easycash:mercafacil|aqui]].
+
+===10) Integração com a Scanntech: ===
+O sistema possui integração com a plataforma de descontos da scanntech. São 7 tipos de promoções que são pré-selecionadas pela plataforma e aplicadas no ato da venda. Mais detalhes sobre o funcionamento da scanntech, bem como a descrição de cada tipo de promoção [[https://wiki.intelliware.com.br/doku.php?id=manuais:intellicash:configuracao:scanntech&s[]=promo%C3%A7oes&s[]=especiais|aqui]]. 
+
+É possível que algumas promoções sugeridas pela plataforma sejam vinculadas a uma lista de formas de pagamentos do tipo TEF, a fim de promover algum cartão de crédito ou débito em específico. A validação destas promoções se dão exclusivamente por meio do número BIN do cartão no ato da venda. No entanto, o operador de caixa deverá selecionar uma promoção dentre uma lista contendo a forma de pagamento que será paga pelo cliente. Para mais detalhes, leia o item refefente ao [[https://wiki.intelliware.com.br/doku.php?id=manuais:easycash:descontos&s[]=preco_diferenciado_por_forma_de_pagamento_em_promocoes_especiais#preco_diferenciado_por_forma_de_pagamento_em_promocoes_especiais|preço diferenciado por forma de pagamento]] neste documento.
+
+===11)	Promoções especiais: ===
+Esta modalidade de promoção abrange os 7 tipos da Scanntech que são melhores descritas [[https://wiki.intelliware.com.br/doku.php?id=manuais:intellicash:estoque:promocoes_especiais&s[]=promo%C3%A7%C3%B5es&s[]=especiais#promocoes_especiais|aqui]]) e uma extra: 	**Valor do cupom**, onde se ganha um desconto no item somente se o valor do cupom for maior do que o especificado. Todas elas podem ou não estarem vinculadas a uma forma de pagamento ou BIN.

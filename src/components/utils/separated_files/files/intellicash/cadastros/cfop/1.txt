@@ -1,0 +1,45 @@
+Title: == Cadastrar CFOPs
+
+Content:
+==
+
+**Vocabulário:**
+* **CFOP:** CFOP é a sigla de Código Fiscal de Operações e Prestações, das entradas e saídas de mercadorias, intermunicipal e interestadual. Trata-se de um código numérico que identifica a natureza de circulação da mercadoria ou a prestação de serviço de transportes;
+
+----
+
+Esta ferramenta tem a função de cadastrar CFOPs (Código Fiscal de Operações e Prestações)
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→CFOPs||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tela há alguns botões para filtrar com o atributo "//**Fator Estoque**//" e ordem "//**CFOP**//" e também há o campo de texto "//**Localizar**//" para localizar algum CFOP em específico além dos botões "//**Aplicar**//” para realizar uma busca e “//**Imprimir**//” para imprimir os dados do CFOP.
+
+Na parte inferior há os seguintes botões:
+* **Novo:** para criar um novo CFOP. Ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela há campos a preencher com os seguintes atributos:
+- **CFOP:** Para informar o código do CFOP que será cadastrado;
+- **CFOP Contra partida:** para informar o CFOP 
+- **CFOP Devolução:** para informar o CFOP
+- **Descrição:** para informar a descrição do CFOP que será cadastrado;
+- **Origem:** para informar a origem do CFOP, entre "//**Dentro do Estado**//", "//**Fora do Estado**//" e "//**EXterior**//"
+- **Operação:** para informar o tipo de operação que este CFOP exerce;
+- **CST Quanto ao PIS/CONFINS:** Deve ser informado o cst padrão quanto ao pis cofins;
+- **Cód. Lançamento contábil:** Codigo padrão para lançamentos contabil, deve ser informado caso o contador solicite;
+- **Sujeito ao IPI:** marcar esta opção determina se deve ou não apurar o IPI;
+- **Apurar ICMS Quando Tributado com ST:** 
+- **Controlar Saldo de Beneficiados:** Caso esteja marcado ao dar entrada em uma nota os produtos virão controlando o beneficiamento;
+- **Fator Estoque:** informar o fator do estoque deste CFOP;
+
+* **Alterar** para alterar os dados de um CFOP selecionado e ao clicar neste botão aparecerá a mesma tela citada acima.
+* **Excluir:** para excluir um CFOP selecionado.

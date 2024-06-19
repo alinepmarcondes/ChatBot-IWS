@@ -1,0 +1,4 @@
+Title: Edit
+
+Content:
+Apresenta as funcionalidades relacionadas a edição do relatório. Uma dica interessante é utilizar o controle de camadas para revelar ou ocultar elementos que se sobrepõe durante a edição dos componentes.

@@ -1,0 +1,6 @@
+Title: = Devoluções
+
+Content:
+=
+
+A aba aba "//**Devoluções**//" pode ser aberta por dois caminhos distintos. Para mais informações sobre devolução para fornecedor veja o manual de [[manuais:intellicash:estoque:devolucao_para_fornecedor|Devolução Para Fornecedor]]

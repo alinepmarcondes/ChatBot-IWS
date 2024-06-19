@@ -1,0 +1,6 @@
+Title: = Configurar impressora no Celular ou Tablet
+
+Content:
+=
+
+No celular solicite um impressão para a abrir a tela de configuração de impressora.

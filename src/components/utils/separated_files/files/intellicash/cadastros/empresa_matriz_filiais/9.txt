@@ -1,0 +1,15 @@
+Title: = Depósitos
+
+Content:
+=
+===Versão 3.0.140.003===
+
+A partir desta versão é possível cadastrar os depósitos que serão controlados pela empresa. Os depossitos estão associados a um CNPJ que pode ser o memo da empresa ou de um agente externo, qualificando-o como depósito externo. As transações entre depósitos com o CNPJ da empresa efetuarão movientação de mercadorias entre depósitos, mas as notas de transferência só serão geradas quando a movimentação for de um depósito interno para um depósito externo.
+
+
+
+
+
+Por padrão, toda empresa configurada como multi-depósito receberá um depósito padrão chamado **Loja**. Inicialmente todos os produtos serão alocados a este depósito.
+
+Este depósito padrão não pode ser alterado ou excluído. Abaixo a interface de Adição/Edição do depósito.

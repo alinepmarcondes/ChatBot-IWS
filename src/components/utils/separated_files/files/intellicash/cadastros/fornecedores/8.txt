@@ -1,0 +1,29 @@
+Title: Notas Fiscais
+
+Content:
+A aba "//**Notas Fiscais**//" mostra todos os dados de notas fiscais realcionadas a este fornecedor:
+
+
+
+Nesta interface há os seguintes campos:
+
+* Para filtrar o status da nota do fornecedor há os seguintes checkbox's:
+- **Confirmadas;**
+- **Pendentes;**
+- **Canceladas;**
+- **Entradas;**
+- **Saídas;**
+- **Sem Movimentação;**
+* Por Intervalo: Ao selecionar este checkbox, é necessário selecionar um um intervalo para realizar a pesquisa, e após isso será habilitado os campos à seguir:
+- **Filtrar pela entrada:** para filtrar pela data de entrada da nota;
+- **Filtrar pela emissão:** para filtrar pela data de emissão da nota;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do relatório;
+
+Logo abaixo na primeira coluna mostra o resultado da pesquisa das notas fiscais. Nele há uma legenda de cor:
+
+* : Notas Canceladas
+
+E na segunda coluna mostra os itens da nota fiscal selecionada na coluna acima.

@@ -1,0 +1,4 @@
+Title: Editar
+
+Content:
+Para editar a venda de um produto próprio, o usuário deverá informar o período desejado na caixa de diálogo de pesquisa.

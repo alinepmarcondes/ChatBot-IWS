@@ -1,0 +1,32 @@
+Title: Atualização 3.0.140.004
+
+Content:
+A partir desta versão, notas com itens já lançados, quando acessadas as opções de **Importar->Coletor** ou **Importar->Pedido** exibirão a interface de importação e em seguida a interface de comparação. Caso a nota não tenha itens laçados, o itens serão importados diretamente para a nota.
+
+Nesta tela há os seguintes botões:
+
+- **Coletor:** Para localizar um arquivo que foi exportado do coletor. Ao clicar neste botão aparecerá a seguinte interface:\\ Nessa janela, é mostrado o caminho da pasta onde são despejados os arquivos com a coleta das Notas Fiscais, para localizar uma coleta realizada em outra data, basta mudar a data e clicar em carregar. Para mostrar todas as notas coletadas nessa data, marque a opção **Exibir Todas as Notas Coletadas**\\ Na tabela de baixo, são exibidos os itens coletados para a Nota Fiscal, também utilizando o artificio de cores:\\
+* **Vermelho:** Código de Barras não cadastrado na Base de Dados. (ao clicar com o botão direito do mouse são exibidas as opções para cadastrar, ou associar a um produto já cadastrado);
+* **Preto:** Código de Barras cadastrado, porem desativado (ao clicar com o botão direito do mouse é possível ativar o produto);
+* **Sem alterar cor de fundo (zebrado em azul):** produto OK;\\
+- **Associar:** Para associar um produto do xml, à um produtodo do coletor que não está conferindo os dados, porém o usuário sabe que está correto;
+- **Cancelar:** Para cancelar a operação;
+- **Ok:** Para confirmar a operação;
+
+
+* **Cancelar:** Para cancelar a operação;
+* **Ok:** Para confirmar a operação;
+
+Ao clicar com o botão direito do mouse sobre algum produto aparecerá as seguintes opções de acordo com seu status:
+
+
+
+- **Cadastrar Novo:**Essa opção deverá ser usada nas cores vermelha ou amarela. Irá aparecer a interface de cadastro de produtos. Caso o produto esteja em amarelo, o sistema irá sugerir o código de barras que veio no arquivo XML. Deve ser tomado cuidado para não cadastrar um item que já existe.
+- **Associar Cód. Fornecedor:** Essa opção não deve ser usada nos produtos em Verde. Será usada para cadastrar um novo código de fornecedor a um produto já existente.
+- **Associar Cód. Barras:** Essa opção não deve ser usada nos produtos em Verde. Será usada para cadastrar um novo código de barras a um produto já existente.
+- **Cadastro Produto:** essa opção permite acessar o cadastro do produto, só está disponível para as cores verde, azul ou roxo.
+- **Ativar Produto:** Essa opção só ficará disponível para produtos que estão desativados (cor preta), e tem a função de reativar o produto.
+- **Desassociar Cód. De Barras:** Desvincula o código de barras do arquivo XML, sem alterar no cadastro do produto.
+- **Desassociar Cód. Fornecedor:** Desvincula o código de fornecedor do arquivo XML, sem alterar no cadastro do produto.
+- **Forçar Identificação do Produto:** O usuário deverá localizar o produto e esse produto será usado na entrada independente de código de barras ou código de fornecedor.
+- **Excluir Item:** Será excluído o item do XML, para usar essa opção é necessário justificar o motivo da exclusão.

@@ -1,0 +1,32 @@
+Title: = Situação Financeira
+
+Content:
+=
+
+
+
+Clicando com o botão direito do mouse nesta tela o usuário poderá fazer alguns procedimentos pertinentes aquele funcionário, como:
+
+* **Alterar Valor ou Data Prox. Acerto:** Nessa opção o usuário poderá alterar a data do próximo acerto e o valor de todos os agendamentos programados pelo sistema;
+* **Alterar Data de Entrada:** Nessa opção o usuário poderá alterar a data de entrada de todos os agendamentos programados pelo sistema (se já existir um lançamento baixado no mês da data informada o sistema apresentará um erro);
+ 
+ 
+
+* **Excluir:** Exclui somente a linha selecionada (Obs.: o sistema exibirá uma mensagem de confirmação de exclusão);
+* **Excluir Todos os Proventos:** Nesta o sistema excluirá todos os agendamento feito (Obs.: Idem mensagem de confirmação);
+* **Agendar Outros Pagamentos:** Para agendar outros tipos de pagamentos;
+
+
+
+Para se agendar novos pagamentos, basta selecionar a opção “//**Agendar Outros Pagamentos**//”, no menu escondido da tela de situação financeira (Clicando com o Botão direito). Esses pagamentos consistem em concessões ou gratificações para funcionários, vamos esclarecer melhor esses termos, exemplificando, caso um determinado funcionário necessite de um vale ou no mês corrente houve uma diferença salarial a maior para o funcionário, todos esses são novos pagamento que deverão ser feito na opção de agendar outros pagamentos. Com isso o usuário deverá preencher corretamente a nova tela que será apresentada após clicar nesta opção.
+
+
+
+Nesta tela há os seguintes campos:
+
+- **Entrada:** Para informar o dia em que foi realizado o procedimento;
+- **Vencimento:** Determina dia em que será faturado (pago) o mesmo procedimento;
+- **Valor** O valor do pagamento;
+- **Descrição:** uma breve definição do se trata o agendamento;
+- **Fator:** se e negativo (que será descontado do salário do funcionário) ou positivo (que será adicionado ao salário do funcionário);
+- **Provento** a que tipo de pagamento será Ex.: Vales, e ”//**Centro de Custo**//”, a que tipo de custo estará relacionado (caso tenha alguma dúvida consulte o manual de centro de custo). Sempre vincule o provento ou mesmo centro de custo;

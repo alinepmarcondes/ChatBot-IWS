@@ -1,0 +1,15 @@
+Title: == Agenda de Pedidos
+
+Content:
+==
+
+----
+
+Agenda de pedidos é uma ferramenta para se programar pedidos, tanto de vendas como de compras. Serve para criar um padrão de pedidos que se repetirão por intervalo de dias ou dia fixo determinado pelo usuário.
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Agenda de Pedidos||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

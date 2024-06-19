@@ -1,0 +1,4 @@
+Title: Notas Fiscais
+
+Content:
+Para acessar a tela **Notas Fiscais** clique no menu **Estoque** e depois em **Notas Fiscais**.

@@ -1,0 +1,22 @@
+Title: = Novo / Editar
+
+Content:
+=
+
+"//**Novo**//" e "//**Alterar**//": estes botões servem para criar ou alterar uma configuração de endereçamento e ao clicar em um desses botões aparecerá a seguinte tela:
+
+
+
+Nesta tela há os seguintes campos:
+* "//**Descrição**//" para descrever o detalhe desta configuração;
+* "//**Formato**//" para configurar o formato dessa parametrização entre Caracter ou Numérico e a sua quantidade de dígitos para determinar o limite de dígitos da configuração;
+ 
+A seguir mostraremos um exemplo de configuração de endereçamento:
+
+
+
+Foram criadas as configurações para a fileira que terá um formato de caractere de dois dígitos, gôndola que terá um formato numérico de dois dígitos, e andar que terá formato numérico de um dígito.
+
+ 
+===Versão 3.0.140.003===
+A partir desta versão, é possível definir qual é a empresa e o depósito a que se refere a configuração de endereçamento.

@@ -1,0 +1,6 @@
+Title: = Sugestão de Compra
+
+Content:
+=
+
+Para acessar a tela **Sugestão de compra** clique no botãona tela de **Pedido**.

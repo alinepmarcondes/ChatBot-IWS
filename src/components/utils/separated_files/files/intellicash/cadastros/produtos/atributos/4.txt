@@ -1,0 +1,16 @@
+Title: == Unidades MultiDimensionais
+
+Content:
+==
+
+O **Intellicash** permite trabalhar com unidades de medida multidimensionais, ou seja, unidades como M², que é composto duas outras medidas(Altura e Largura).\\
+Para usar essas esse tipo de unidade é preciso configurar essas unidades em Gerenciamento-> Cadastros-> Produtos -> Atributos
+
+
+
+Primeiramente deve-se cadastrar a nova unidade normalmente. Depois ao cliar com o botão do mouse sobre a nova unidade, escolha a opção de **Configurar Dimensões**. Será aberta uma interface para configurar as dimensões da unidade.
+
+
+
+Para inserir uma nova dimensão, clique em **Novo**. Para excluir ou alterar uma dimensão já cadastrada, clique com o botão direito do mouse sobre a dimensão que deseja excluir/alterar.\\
+Na parte inferiror deve-se escolher se a relação entre as dimensões deve ser de adição ou multiplicação. Podendo ainda alterar o **Fator**, que será uma constante para multiplicar ao resultado do calculo das dimensões.

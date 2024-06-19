@@ -1,0 +1,8 @@
+Title: Excluir telefone
+
+Content:
+Para excluir, o representante deverá clicar sobre o botão "Excluir" do telefone desejado.
+
+
+
+Será solicitado a confirmação, para concluir o representante deverá clicar sobre o botão "OK".

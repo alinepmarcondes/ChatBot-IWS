@@ -1,0 +1,14 @@
+Title: = Telefones
+
+Content:
+=
+
+Para alterar os telefones cadastrados, o representante deverá acessar o Menu "Representante".
+
+
+
+Na aba "Telefones", o representante deverá informar o telefone, selecionar seu tipo e clicar no botão "Salvar" para concluir.
+
+
+
+Se as informações estiverem corretas, o novo telefone será exibido na listagem.

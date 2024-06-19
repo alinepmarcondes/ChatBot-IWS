@@ -1,0 +1,13 @@
+Title: Histórico Financeiro
+
+Content:
+A aba "//**Histórico**//" Financeiro mostra um relatório de toda movimentação financeira do cliente com o fornecedor em um determinado intervalo de datas.
+
+ 
+
+Nesta interface há os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item;
+* **Todos**, **Apenas Pg** e **Apenas Não Pg:** Para selecionar entre uma dessas opções para gerar o histórico financeiro;

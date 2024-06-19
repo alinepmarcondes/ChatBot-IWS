@@ -1,0 +1,11 @@
+Title: Código 002
+
+Content:
+Mensagem de erro: //Não foi possível extrair resultado de DLL.//
+
+Soluções possíveis:
+* Verifique se todos os campos foram preenchidos corretamente na [[manuais:intellicash:atualizador_online#etapa_01_-_configuracoes_iniciais|Etapa 01]].
+* Verifique se o Banco de Dados esta na versão mÍnima para funcionar o //**Atualizador Online**//. 
+* Verifique se os serviços do //**Firebird**// estão ativos e em execução.
+* Verifique se a //**midas.dll**// está na versão apropriada para o funcionamento do //**Intellicash**//.
+* Verifique o //**Firebird**// está na versão apropriada para o funcionamento do //**Intellicash**//.

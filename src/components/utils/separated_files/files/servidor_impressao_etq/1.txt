@@ -1,0 +1,10 @@
+Title: == Servidor de Impressão de Etiqueta
+
+Content:
+==
+
+Impressoras de etiqueta possuem uma linguagem especifica para impressão, a PPL (Printer Programming Language), porem vários fabricantes de impressoras passaram a desenvovler suas próprias linguagens, criando assim uma grande variedade. As mais famosas são a PPL-A, PPL-B e a ZPL.
+
+Antigamente a unica maneira de imprimir era enviando os comandos nessas linguagens para a impressora, entretanto atualmente quase todos os modelos trabalham com Drivers que fazem o trabalho de emulação, permitindo assim que seja tratada como uma impressora convensional. Entretanto dependendo do modelod a impressora, essa emulação pode causar uma grande lentidão, e dessa forma prejudicar a operaçãod e emissão de etiquetas.
+
+Considerando que a principais impressoras do mercado atualmente tem um bom desempenho com seus Drivers, a IWS tem como padrã a impressão via driver, que permite ao usuário maior flexibilidade na criação do layout da sua etiqueta, entretanto para os modelos que mais antigos, é possivel configurar o Servidor de Impressão de Etiqueta.

@@ -1,0 +1,23 @@
+Title: == Relatório de Produtos Semelhantes
+
+Content:
+==
+
+----
+
+Este relatório exibe todos os produtos com equivalência de preço ou equivalência de produto.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→Semelhantes||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela mostra os itens que tem equivalência de preço ou produto.
+Na primeira parte mostra todos os produtos de equivalência e seu preço.
+
+Na segunda parte mostram os produtos equivalentes da equivalência selecionada acima e na parte inferior da tela tem uma caixa de texto para pesquisar por uma equivalência em específico.

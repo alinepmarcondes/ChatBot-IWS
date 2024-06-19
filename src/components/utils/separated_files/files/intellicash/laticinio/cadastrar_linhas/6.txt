@@ -1,0 +1,71 @@
+Title: Dados da Cota
+
+Content:
+* O botão **Incluir** possibilita adicionar um intervalo de cota já cadastrado, ou ainda criar um novo intervalo.
+* Botão **Excluir** remove um intervalo de cota que esteja selecionado no item 7.
+* **Alterar** exibe a janela de cotas com a cota selecionada no item 7. 
+* Este desconto é um valor em reais dado sobre a unidade de cota. Ou seja ele é aplicado sobre Quantidade * (Preço - Desconto).
+* O Incentivo da Lei é uma taxa aplicada sobre o valor calculado com o desconto e com a adição do incentivo da cota. 
+
+Exemplo: 
+Cota = 1335 
+Ex. Cota = 100 
+Valor Cota = 0,78 
+Valor Ex. Cota = 0,78 
+Inc.Cota = 1% 
+Inc.Ex. Cota = 0.5% 
+Inc. Lei = 2,5% 
+
+Modo de Cálculo:
+
+Incentivo de lei sobre: (cota + Incentivo_cota)+(Ex.Cota + Incentivo_Ex.Cota)
+((Cota*Valor_Cota+Inc.Cota)+(Ex.Cota*Valor_Ex.Cota + Inc.Ex.Cot))+Inc.Lei
+((1041,30 + 1%) + (78,00 + 0,5%))+(2,5%)
+(1051,71 + 78,39) + 2,5%
+1130,10 (Base de Calculo) +28,25(Outros Custos)
+1158,35--
+
+=== Cadastro de Cotas ===
+
+As cotas são definidas por intervalos, ou seja, sexiste um valor inferior e um valor superior onde a diferença de V2 e V1 define o intervalo onde o valor da cota, bem como o incentivo da cota, serão aplicados (intervalo = V2 - V1).
+
+Por um princípio lógico, o primeiro intervalo de cota de uma linha deve ter o valor inferior igual a zero ( 0 ).
+
+Os intervalos seguintes devem ter o valor inferior igual ou maior do que o intervalo superior da cota anterior, de forma que não haja uma quantidade sendo calculada por dois preços diferentes.
+
+
+
+Intervalos superiores iguas a zero definem que qualquer valor acima do intervalo mínimo da cota será calculado com base no preço e incentivo desta cota.
+
+Ex.: cota: 1000 -| 0 = **R$** 1,20 \\
+Isso quer dizer que qualquer quantidade acima de 1000 será calculado com o preço de 1,20.
+
+
+
+* Define o valor mínimo da cota. Por convenção uma linha dever receber uma cota cujo intervalo mínimo seja iagual a zero;
+* Valor máximo do intervalo de cota. Quando recebe valor igual a zero;
+* É o valor da cota;
+* É o taxa somada ao valor da cota;
+* **Novo**, botão que habilita a edição dos campos anteriores a fim de salvar um novo intervalo de cotas;
+* **Salvar**, acressenta ao banco de dados o registro da cota;
+* Relação de cotas referentes a fazenda;
+* Lista de cotas selecionadas para a linha;
+
+=== Dados Fiscais ===
+
+* Valor da taxa de INSS, emitina na nota.
+* ICMS sobre a base de calculo.
+* Código de Situação Tributária.
+* CÓDIGO FISCAL DE OPERAÇÕES E PRESTAÇÕES.
+* Botão **Alterar** abre a janela para selação de tipo de tributação. Os dados **9, 10 e 11** serão preenchidos com os valores selecionados da tabela.
+
+
+
+Nesta janela é possível editar, adicionar ou excluir um tipo de tributação pelo botão **Gerenciar** no canto superior direito da janela.
+=== Dados do Tanque ===
+
+* Exibe o tanque escolhido.
+* A transportadora escolhida possui uma comissão que será calculada a partir da base de calculo.
+* O botão **Alterar** exibirá duas janelas auxiliares sequencialmente:
+- Seleção de Tanque
+- Seleção de Transportadora

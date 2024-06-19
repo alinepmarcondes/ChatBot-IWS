@@ -1,0 +1,4 @@
+Title: Menu de contexto(3)
+
+Content:
+É possível alterar o preço dos produtos pelo preço simulado ou inserir os produtos na promoção com preço simulado.

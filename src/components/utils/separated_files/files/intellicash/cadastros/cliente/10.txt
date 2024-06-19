@@ -1,0 +1,7 @@
+Title: Foto
+
+Content:
+Nesta tela aparecerá a foto de cliente se o mesmo a atribuí-lo e nesta aba contém os seguintes botões:
+
+*Para importar uma foto;
+*Para excluir a foto importada;

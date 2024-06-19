@@ -1,0 +1,6 @@
+Title: = Leitura do código de barra usando a câmera do dispositivo
+
+Content:
+=
+
+Para ler o código de barra através da câmera do dispositivo, o usuário deverá no botãona barra de menu.

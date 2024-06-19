@@ -1,0 +1,12 @@
+Title: FAR(False Acceptance Rate)
+
+Content:
+**FAR** que significa em inglês **False Acceptance Rate**, está relacionado com o erro do sistema ao permitir o acesso de indivíduos que não estão autorizados. **FRR** em inglês significa **False Rejection Rate**, e tem a ver com o erro do sistema de não autorizar o acesso de um indivíduo que possui autorização legítima para este acesso.
+
+Quanto maior for a necessidade de segurança, menor deverá ser o FAR. Quanto maior for a necessidade de performance, menor deverá ser o FRR. O acesso a um setor, que normalmente é feito por poucas pessoas, pode ter um FRR mais alto para que se tenha um FAR muito baixo.
+
+Teoricamente, o ponto ideal estará próximo do **EER**, que em inglês quer dizer **Equal Error Rate**, ou proporção de erro equilibrada. Se um sistema biométrico tem EER de 0,1%, isso significa que o sua eficácia será 99,9%. No mundo real, dificilmente uma solução usará o EER, mas certamente é à partir dele que serão dosadas as necessidades de segurança e performance.
+
+
+
+Mais informações podem ser acessadas em [[https://www.bayometric.com/false-acceptance-rate-far-false-recognition-rate-frr/|Bayometric - False Acceptance Rate]].

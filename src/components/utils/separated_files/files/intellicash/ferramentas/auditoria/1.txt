@@ -1,0 +1,32 @@
+Title: == Auditoria
+
+Content:
+==
+
+----
+
+Esta ferramenta tem como função criar um registro de tudo que é alterado, excluído ou inserido no sistema, mostrando a data, usuário, Autorizado por, módulo, local e operação.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Auditoria||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tela as os seguintes botões:
+
+* **Usuário** para selecionar um usuário do sistema;
+* **Módulo** para escolher um módulo do sistema a ser pesquisado(produto, cliente,operações, etc..);
+* **Intervalo** para determinar um período de datas e ao clicar neste botão deve-se informar os campos início e término para determinar um período de datas a ser pesquisado;
+* **Ok** para realizar a pesquisa;
+
+Abaixo há quatro abas para filtrar as pesquisas:
+
+* **Geral** mostra todas as operações do sistema; 
+* **Inserção** mostra todas as operações de adição do sistema;
+* **Exclusão** mostra todas as operações de exclusão do sistema;
+* **Alteração** mostra todas as operações de alteração no sistema;

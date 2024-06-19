@@ -1,0 +1,11 @@
+Title: Entrada do Produto para Beneficiamento
+
+Content:
+Ao receber um item para beneficiamento o usuário deverá lançar a NF de entradanormalmente, prestando atenção se o campo **Controlar Saldo de Beneficiamento** está selecionado.
+
+
+Para entrada de NF manualmente, o campo se encontra ao lado inferior esquerdo, conforme a imagem abaixo:
+
+
+
+Para entrada de NF por importação (coletor ou XML), foi adicionado uma coluna com a escrição **Ctrl Sd Benefic.** \\

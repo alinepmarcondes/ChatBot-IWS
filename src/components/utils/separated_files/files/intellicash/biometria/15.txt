@@ -1,0 +1,30 @@
+Title: = Exportação e Importação de diferentes Templates
+
+Content:
+=
+
+
+
+No IntelliCash, no menu **Gerenciamento** foi adicionada a seguinte opção no menu da **Biometria**:
+
+
+
+Ao acessar a mesma, será aberta a seguinte janela:
+
+
+
+Onde podemos:
+
+**1)** Importar do banco de dados os registros cadastrados para a **Futronic**. A imagem armazenada no banco de dados será utilizada para extrair o template da Control ID.
+
+
+
+É permitido desmarcar a seleção do checkbox a esquerda do grid.
+
+**2)** Importar de um arquivo **BMP** que possui uma digital e o sistema irá extrair os dados da mesma e gravar no banco de dados como um template da Control ID.
+
+
+
+Nesta interface, deve-se selecionar primeiramente um agente que será utilizado para cadastrar a biometria no banco de dados. Deve-se também digitar a posição do dedo no qual a imagem corresponde. Pode-se carregar vários arquivos.
+
+É permitido desmarcar a seleção do checkbox a esquerda do grid.

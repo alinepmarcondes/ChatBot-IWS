@@ -1,0 +1,34 @@
+Title: == Pedido de Compra Mult Empresa
+
+Content:
+==
+
+Quando o Intellicash estiver parametrizado para trabalhar com Mult-Empresas será possível habilitar o Pedido Multi-Empresas, nesse modo é possível realizar pedidos para todas as empresas em uma só tela.\\
+
+Para habilitar o Pedido Multi-Empresas, é necessário que tenha cadastrado mais de uma empresa no banco de dados, que essas não funcionem por método de sincronização e que a configuração “Pedido de Compra: Multi-Empresa” (configuração número 26.202) esteja como “SIM”.\\
+
+Uma vez habilitado o Pedido Multi-Empresas, ao entrar na janela de pedidos por fornecedor será aberta uma janela diferente, onde haverá as informações dos produtos na parte superior e as informações por empresa na parte inferior.
+
+
+
+Ao realizar pedidos por essa janela será criado dois números de documentos, um para a coleção de pedidos e outro para o pedido em si. Ou seja, vamos supor que acabou de habilitar o modo multi-empresa, e seja feito o pedido 123.456 para a empresa 01 e o pedido 000.022 para a empresa 02, nesse caso teremos a coleção de pedidos 000.001 contendo dois pedidos, o 123.456 e o 000.022. Dessa maneira é possível identificar quais pedidos foram feitos juntos, apesar de que cada pedido poderá ser controlado de maneira independente.\\
+
+A tabela superior que contém as informações genéricas do produto não é editável, apenas exibe as informações relacionadas aos produtos de maneira geral, ou seja, apenas informações que são padrão para todas as empresas, ou informações totalizadas como por exemplo quantidade vendidas, compradas etc.\\
+
+Outro recurso interessante é que a ferramenta permite que seja visualizado os pedidos como sendo um só. Essa opção é importante para negociações que a entrega unificada em uma das lojas leve a vantagens econômicas.\\
+
+Da mesma maneira que o pedido de compras por fornecedor convencional, o pedido é criado assim que o primeiro item é inserido, ou seja, quando o usuário informa a quantidade do produto no pedido ele é inserido.\\
+
+Abaixo do grid que mostra as informações por empresa, temos um grid que mostra a movimentações do produto selecionado, para a empresa selecionada. Nesse grid as informações são apresentadas por abas, sendo elas:
+* **Mensal:** Exibe a movimentação dos produtos dos últimos 13 meses apartir do mês atual;
+* **Quinzenal:** Exibe a movimentação dos produtos dos últimos 180 dias, apartir do dia atual;
+* **Semanal:** Exibe a movimentação dos produtos dos últimos 90 dias, apartir do dia atual;
+* **Diario:** Exibe a movimentação dos produtos dos últimos 30 dias, apartir do dia atual.
+
+Em todas as abas é possivel personalizar o período que deseja ver as informações, para isso basta clicar com botão direito sobre o grid e escolher a opção **"Personalizar Período"**, será exibida uma janela para colocar o início e término que deseja ver as movimentações. Para remover o perído personalizado, basta clicar novamente no grid e desmarcar a opção de período personalizado que as informações já serão aplicadas com as data padrão.
+
+
+Após ter pedido todos os itens desejados, é possível conferir os itens por pedido/empresa. Para isso basta ir na aba "Totais por Empresa" selecionar a empresa que deseja conferir o pedido e dar um duplo clique. Na janela que será exibida é possivel alterar os valores e quantidades dos itens.
+
+
+Para facilitar a navegação entre as duas tabelas, existem algumas teclas de atalho:

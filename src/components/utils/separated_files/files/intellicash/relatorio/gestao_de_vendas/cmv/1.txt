@@ -1,0 +1,24 @@
+Title: == Relatório de CMV
+
+Content:
+==
+
+CMV é a sigla para __Custo da Mercadoria Vendida__, e é uma informação crucial para a gestão da empresa, entretanto essa informação pode ser calculada de várias formas e esse relatório visa confrontar duas das formas mais utilizadas, o CMV calculado baseado nos itens vendidos, e o CMV calculado pela entrada de itens e seu estoque.\\
+O CMV calculado pelos itens vendidos é feito pela fórmula quantidade vendida multiplicado pelo custo contábil:\\
+
+**//CMV=qVend*CustoCtb//**
+
+Onde o custo contábil é o preço médio de compra do produto subtraído os créditos de impostos.\\
+O CMV calculado pelas entradas e estoque é feito pela fórmula Estoque Inicial somada às Entradas subtraído Estorno de Entradas e subtrai o Estoque Final, onde todos os valores são descontados os créditos de impostos\\
+
+**//CMV=Estq i+Entradas-Estornos-Estq f//**
+
+Portanto primeiramente deve-se configurar as operações que devem ser consideradas no cálculo do CMV, para isso deve-se ir em **Configurações -> Tipo de movimentação de estoque** e na operação **“Rel.CMV”** deve-se configurar quais as operações serão consideradas. As operações de entrada serão consideradas como **ENTRADA**, as operações de saída serão consideradas como **ESTORNO DE ENTRADA**.
+
+Por padrão, as operações selecionadas são: COMPRAS, DEV. DE COMPRAS, TRANSFERENCIA DE ENTRAD E DE SAÍDA, BONIFICAÇÃO E FRETE.\\
+Feita a configuração, essas são as operações que serão consideradas para o cálculo do CMV como sendo as entrada de mercadoria.\\
+Para acessar o relatório vá em **Relatórios -> Gestão de Vendas -> CMV (Custo da Mercadoria Vendida)**.\\
+
+O relatório devemos selecionar o período desejado, e na engrenagem pode selecionar os filtros de classificações dos itens. O usuário poderá também marcar se deseja que o relatório contemple os créditos de impostos. Caso esteja desmarcado o valor do estoque, tanto inicial quanto final, será o último custo do produto, e os valores das operações não será subtraído os créditos de impostos.\\
+
+O relatório, como dito anteriormente, além de trazer o calculo do CMV pela entrada e estoque (método usado pela contabilidade), também calcula o CMV pela venda, nesse caso será multiplicado a quantidade vendida pelo custo do produto no dia da venda (custo contábil caso esteja marcado para considerar impostos, ou ultimo custo caso esteja desmarcado).

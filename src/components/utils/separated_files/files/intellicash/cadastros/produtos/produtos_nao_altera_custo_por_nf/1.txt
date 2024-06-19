@@ -1,0 +1,21 @@
+Title: == Produtos que não Alteram Custo por Nota Fiscal
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada para bloquear os produtos que não podem ter o custo alterado por nota fiscal.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Produtos que não Alteram o Custo por Nota Fiscal||
+
+
+
+Ao acessar a interface, temos a lista de itens que estão bloqueados para alteração de custo por nota fiscal. \\ Para adicionar mais produtos, basta digitar no campos Produto a descrição ou código de barras do item e clicar em adicionar. \\ Para remover um item da lista de bloqueio basta clicar com botão direito sobre ele e excluir. Após excluir um item ele é enviado para aba Histórico. \\
+
+
+Na aba histórico, temos todo histórico de movimentação, como status do item, se está ativo ou inativo, data que foi adicionado, data que foi excluido e usuário.

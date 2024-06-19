@@ -1,0 +1,27 @@
+Title: == Relatório de Transações de Vasilhames
+
+Content:
+==
+
+Acessível em:
+||Gerenciamento->Relatórios->Gestão de Estoque->Transações de Vasilhames||
+
+Apresenta a seguinte interface:
+
+
+
+Por este relatório é possível visuailizar, de acordo com a empresa selecionada **(1)**, a relação de vasilhames com alguma transação entre empresas **(2)**.
+
+O saldo de cada vasilhame é calculado pela diferença entre vasilhames recolhidos por cada empresa, cujo ticket ou empréstimo tenham origens cruzadas.
+
+Nesse sentido, quando a 'Empresa 1' recolhe os vasilhames e emite o ticket, mas a venda é efetuada pela 'Empresa 2', então a 'Empresa 1' deve repor estes vasilhames para a 'Empresa 2'.
+
+O mesmo ocorre no com os empréstimos, no sentido inverso. Por exemplo, a 'Empresa 1' empresta os vasilhames ao cliente que os deveolve na 'Empresa 2', assim a 'Empresa 2' deve repor os vasilhames para a 'Empresa 1'. 
+
+A seleção de cada vasilhame **(2)** lista as empresas **(3)** que a qual a empresa atual **(1)** possui transações. A quitação destas pendências pode ocorrer naturalmente durante as transações de vasilhames, ou por declaração da empresa que recebe os vasilhame de outra empresa. Nesse sentido, a empresa que deve os vasilhames não pode declarar a quitação destes **(4)**. 
+
+Caso o usuário que estiver quitando uma pendência pertencer a uma empresa diferente da empresa que receberá os vasilhames, uma mensagem de confirmação é exibida. 
+
+
+
+A quitação dos lançamentos serão apresentados como um **Ticket de Entrega** para a empresa que receberá os vasilhames e a finalização do ticket para a empresa que os deve.

@@ -1,0 +1,26 @@
+Title: == Nota Fiscal Pendente
+
+Content:
+==
+
+----
+
+Relatório que mostra as as notas fiscais que ficaram pendentes no sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Logística→Nota Fiscal Pendente||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tel ahá os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Após realizada a pesquisa será listado abaixo todas as notas fiscais que não foram confirmadas no sistema.

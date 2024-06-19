@@ -1,0 +1,27 @@
+Title: = Relatório de Contas a Pagar Previstas
+
+Content:
+=
+
+----
+Foi criado no sistema uma nova ferramenta chamada Previsão Orçamentária que irá ajudar os clientes a fazer uma previsão do que será pago/recebido em um determinado período e depois confrontar os dados para ver o que realmente ocorreu.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Previsão Orçamentária→Rel. de Contas a Pagar||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela é possível visualizar os registros lançados de acordo com os filtros informados na tela, onde dentre eles destacamos:
+ 
+* Data de Entrada: Data de Entrada do registro;
+* Data de Vencimento: Data de Vencimento do registro;
+* Fornecedores: Lista os Fornecedores do período informado;
+* Centro: Lista os Centro de Custos do período informado;
+* Forma de Cobrança: Lista as Formas de Cobrança do período informado.
+
+Através dessa tela também é possível **Alterar** ou **Excluir** um registro e **Reclassificar Centro de Custos** (para acessar estas opções basta selecionar o registro e clicar com o botão direito do mouse).

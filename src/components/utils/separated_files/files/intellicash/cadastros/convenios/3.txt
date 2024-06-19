@@ -1,0 +1,14 @@
+Title: = Histórico Financeiro
+
+Content:
+=
+
+Esta tela mostra toda a movimentação financeira de um convênio diariamente, mostrando no grid os dias e seus detalhes:
+
+
+
+* **Faturado** é o saldo atual da conta;
+* **Valor faturado** é o recebimento de um convênio, que tem fator positivo;
+* **Vlr. Pago** é o pagamento de um convênio, que fator negativo;
+
+Nesta tela há os botões de "//**Início**//" e "//**Término**//" para determinar um período de datas a ser pesquisado o histórico financeiro de um convênio além do botão "//**Aplicar**//" para realizar a pesquisa.

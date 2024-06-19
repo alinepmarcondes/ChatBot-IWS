@@ -1,0 +1,11 @@
+Title: Histórico de Alterações
+
+Content:
+A aba "//**Alterações**//" mostraráas alterações do produto selecionado em um intervalo de tempo (Parecido com a Auditoria).
+
+Nela contém os seguintes dados:
+
+* **Data:** mostra a data da alteração do produto;
+* **Campo:** mostra qual campo o produto foi alterado;
+* **Anterior:** mostra como era os dados do produto anteriormente;
+* **Novo:** mostra os dados modificados;

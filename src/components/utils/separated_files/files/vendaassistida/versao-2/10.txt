@@ -1,0 +1,6 @@
+Title: = Alterar a quantidade do produto
+
+Content:
+=
+
+Para alterar a quantidade, o usuário deverá manter o produto do orçamento pressionado até que o menu de opções apareça na barra superior e pressionar o botão .

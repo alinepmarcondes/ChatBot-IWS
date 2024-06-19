@@ -1,0 +1,7 @@
+Title: Desinstalar
+
+Content:
+Para desinstalar o serviço, deve ser feito o processo análogo ao da instalação, entretanto o comando para desinstalar é:
+''IwsRestartSW.exe -uninstall''\\
+
+E aguardar a mensagem de confirmação.

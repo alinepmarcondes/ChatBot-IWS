@@ -1,0 +1,10 @@
+Title: Dados da Fazenda
+
+Content:
+Antes de cadastrar a linha é necessário localizar uma fazenda para prosseguir no cadastro. Nesta interface contém os dados da Fazenda na qual fará parte da linha. O botão trocar exibe uma lista das Fazendas cadastradas para seleção e troca. 
+
+
+
+Caso uma linha tenha sido selecionada na aba Localizar, os dados da fazenda e todo os outros dados cadastrados serão preenchidos nos devidos campos.
+
+Exibe uma janela para cadastro ou edição da linha.

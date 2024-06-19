@@ -1,0 +1,24 @@
+Title: Processo de Vendas
+
+Content:
+Abaixo temos uma NFCe autorizada normalmente em um caixa com contingência SAT:
+ 
+
+
+Ao realizar um **NOVA** venda em que o SAT foi acionado, não existirá impressão alguma para o NFCe. O equipamento é acionado e a venda sendo autorizada, temos a impressão do documento fiscal. No caso foi forçado o servidor do EasyCash para offline para simular este ambiente.
+
+
+
+Como especificado no fluxograma deste processo, toda venda inicia-se no modelo 65(NFC-e). Caso a contingência SAT tenha que ser acionada, esta mesma **VENDA** é devolvida para o frente e revertida para o fluxo do modelo 59(SAT). Na tabela **CUPOM** o registro é aproveitado e alterado de 65 para 59 na coluna **MODELO** e o **CCF** atualizado para o retornado pelo SAT.
+
+
+
+Quando o fluxo do SAT é acionado a sequência de numeração NFC-e gerada inicialmente, segue para inutilização e a próxima venda segue com seu fluxo padrão. Abaixo o exemplo de numeração a ser inutilizada:
+
+
+
+Teremos para cada PDV duas impressões de encerramento do dia, NFCe e SAT respectivamente (quando houver).
+
+
+
+Como dito, teremos sempre 2 registros separadamente por modelo para conferência de vendas. Os processos de reimportação e validar Cupons na SEFAZ não sofreram alterações. Segue a imagem:

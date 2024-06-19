@@ -1,0 +1,22 @@
+Title: = Alterar Senha
+
+Content:
+=
+
+Para alterar sua senha, o representante deverá pressionarlocalizado no canto superior esquerdo da tela de "Cotações", conforme demonstra a figura abaixo.
+
+
+
+No menu pressione "Alterar Senha", conforme demonstra a figura abaixo.
+
+
+
+Nessa tela o usuário deverá preencher todos os campos e depois pressionar o botão Alterar.
+
+
+
+Possíveis mensagens de erros:
+* Senhas não coincidem!
+* A senha atual não confere com a senha informada!
+* A nova senha deve ser diferente da senha atual!
+* Verifique se todos os campos foram preenchidos corretamente!

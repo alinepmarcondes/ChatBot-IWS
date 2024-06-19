@@ -1,0 +1,17 @@
+Title: Configuração
+
+Content:
+Na aba de configuração o usuário precisa informar alguns campos obrigatórios e parametrizar outros:
+* **Token da Aplicação:** é a descrição utilizada para identificar o token. Esse dado é gerado pelo painel de integração do MarketPlace;
+* **Token da Empresa:** é a chave de autenticação para realizar a integração. Esse dado é gerado pelo painel de integração do MarketPlace;
+* **Url:** é o endereço de comunicação com MarketPlace;
+* **Vendedor:** informa o vendedor para quem irá as vendas ao importar os pedidos para o intellicash. Caso não seja informado será enviado para o vendedor padrão do intellicash;
+* **E-mail para Importação:** ao informar um e-mail nesse campo o sistema só irá baixar pedidos feitos por esse usuário. Se deixar embranco baixara os pedidos de todos os usuários;
+
+Para cadastrar/alterar as informações acima basta clicar no botão **"Alterar"**.
+
+**Produtos p/ Exportar** ao clicar nesse botão será aberta a interface abaixo onde o usuário irá configurar os produtos que podem ser exportados para o MarketPlace.
+
+
+Ao acessar a interface de produtos p/ exportar, no grid do lado direito temos os produtos que podem ser exportados para o MarketPlace e no grid da esquerda os itens que podem ser configurados como produtos à exportar para o MarketPlace. \\
+Para adicionar um produto basta selecionalo no grid da esquerda e clicar na seta para direita, o item será removido do grid da esquerda e acrescentado no grid da direita. Para remover um item, basta selecionar ele no grid da direita e clicar na seta para esquerda. Após feito as parametrizações basta clicar no botão **Gravar**.

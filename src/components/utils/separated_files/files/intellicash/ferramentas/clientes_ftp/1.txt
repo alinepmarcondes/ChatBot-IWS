@@ -1,0 +1,16 @@
+Title: == Clientes FTP
+
+Content:
+==
+
+----
+
+Esta ferramenta é de uso exclusivo para suporte.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Cliente FTP||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

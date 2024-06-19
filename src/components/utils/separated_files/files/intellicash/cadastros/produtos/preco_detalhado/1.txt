@@ -1,0 +1,10 @@
+Title: == Preço Detalhado
+
+Content:
+==
+
+----
+
+Preço Detalhado é uma ferramenta que permite ao usuário customizar a forma de compor o preço dos produtos, uma vez alterado um indice da lista automaticamente é alterado o preço de todos os itens vinculados a ela. 
+
+----

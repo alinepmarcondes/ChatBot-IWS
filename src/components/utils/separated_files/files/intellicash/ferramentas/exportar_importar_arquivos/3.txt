@@ -1,0 +1,19 @@
+Title: = Configuração de Layout de Tabelas
+
+Content:
+=
+
+Caso não haja um Layout de Tabela configurado, uma mensagem é exibida: **“Não há Layout de Exportação/Importação!”.**
+
+
+
+E em seguida vemos a aba de **Configuração**, que será a primeira aba, onde podemos criar os “Layouts” de importação e exportação. Estes “layouts” servem para definir a ordem de leitura dos campos nos arquivos a serem importados ou quais campos do banco de dados serão exportados.
+
+
+
+**Exemplo:**
+Supondo que temos uma planilha do Excel com a seguinte configuração:
+
+
+
+Neste caso devemos configurar as colunas de importação selecionando a aba Configuração e dentro dela a aba **Importação**. Então podemos criar um novo layout clicando no botão Novo.

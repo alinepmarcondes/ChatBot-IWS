@@ -1,0 +1,10 @@
+Title: Papéis
+
+Content:
+----
+
+Papel é a função que os usuários cumprem dentro do [[manuais:intelligroup:versao3|Painel do Associado]].
+
+----
+
+Para acessar a tela **Papéis** clique no menu do associado e depois em **Papéis**.

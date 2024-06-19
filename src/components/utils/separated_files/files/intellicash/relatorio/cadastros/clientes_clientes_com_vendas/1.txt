@@ -1,0 +1,28 @@
+Title: == Clientes com Vendas
+
+Content:
+==
+
+----
+
+Relatorio que permite o usuario acompanhar os clientes que fazem compra no estabelecimento. Além de filtrar os que ainda estão devendo em um periodo de data.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Clientes→Clientes com Vendas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Tipo:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+* **Financeiro:** para escolher uma das opções mostradas acima, entre "//**Todos**//" para todos os clientes e "//**Em Atraso**//" para clientes em atraso;
+
+Após isso será mostrado abaixo todos os clientes com vendas.

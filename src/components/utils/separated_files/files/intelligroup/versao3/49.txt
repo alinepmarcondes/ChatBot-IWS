@@ -1,0 +1,4 @@
+Title: Marcas Própria
+
+Content:
+Para acessar a tela **Marcas Própria** clique no menu do associado e depois em **Marcas Própria**.

@@ -1,0 +1,14 @@
+Title: = Movimentação do Período:
+
+Content:
+=
+
+
+
+* **__Custo Atual__:** Custo do produto no período selecionado.
+* **__Preço Atual__:** Preço pelo qual o produto foi vendido no período selecionado.
+* **__Qtde Vendida Período__:** Quantidade Vendida no período selecionado. As operações relacionadas nesse campo são as mesmas configuradas para o relatório de vendas no cadastro de produtos.
+* **__Total Custo Período__:** Multiplicado “Custo Atual” pela “Qtde Vendida Período”.
+* **__Total Vendido Período__:** Multiplicado “Preço Atual” pela “Qtde Vendida Período”.
+* **__Margem Período(R$)__:** “Total Vendido Período” subtraído do “Total Custo Período”.
+* **__Margem Período(%)__:** “Margem Período(**R$**)” dividido por “Total Vendido Período”, obtendo a margem de lucro pela venda.

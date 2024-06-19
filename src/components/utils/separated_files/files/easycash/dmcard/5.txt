@@ -1,0 +1,16 @@
+Title: PDV
+
+Content:
+=== Etapa 01 ===
+
+No frente de caixa foi adicionado uma nova opção para importação, conforme o menu:
+
+
+
+Na forma de recebimento do EasyCash teremos:
+
+
+
+
+
+No frente de caixa as configurações da DMCard foram inseridas na tela conforme a imagem abaixo:

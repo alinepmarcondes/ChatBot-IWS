@@ -1,0 +1,36 @@
+Title: == Cadastrar Área
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de classificar os clientes em suas respectivas regiões.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Áreas→Cadastro Áreas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há duas colunas:
+
+1. Na coluna à esquerda, ficam as áreas cadastradas no sistema, nela há duas colunas:
+* **Área** informando o código da área;
+* **Descrição** com o nome da área;
+
+Na parte inferior da tela há o botão "novo", para poder cadastrar mais áreas, e ao clicar neste botão aparecerá a seguinte interface:
+
+
+
+2. Na coluna à direita, há duas abas, porém tem a mesma funcionalidade são elas:
+* **Clientes:** mostra todos os clientes da área selecionada e as suas informações;
+* **Vendedores:** mostra todos os vendedores da área selecionada e as suas informações;
+
+Nestas abas ao clicar com o botão direito aparecerá a opção “alterar” para alterar a área de um cliente, e então é necessário selecionar a área para o cliente.
+
+Na parte inferior da tela há um campo chamado “localizar cliente” para fazer uma busca por um cliente, e também há o botão “imprimir” para imprimir as informações das áreas.

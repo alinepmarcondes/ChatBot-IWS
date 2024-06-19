@@ -1,0 +1,15 @@
+Title: Cardápio
+
+Content:
+Nesta guia são exibidos os produtos para inserir na comanda.
+
+== Pesquisar produto ==
+
+Para pesquisar o usuário deverá infomar o nome do produto e pressionar o botãoserão listados todos os produtos referente a pesquisa, conforme demonstra a figura abaixo.
+
+
+
+
+== Excluir complemento == 
+
+Para remover complemento o usuário deverá clicar no botãodo complemento desejado.

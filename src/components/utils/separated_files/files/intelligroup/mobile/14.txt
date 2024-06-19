@@ -1,0 +1,6 @@
+Title: == Associados
+
+Content:
+==
+
+Para visualizar os associados, o usuário deverá acessar o menu lateral "Associados".

@@ -1,0 +1,16 @@
+Title: Configuração
+
+Content:
+Nessa aba são feitas as configurações necessarias para poder utilizar a integração com e-commerce da tray.
+
+Ao acessar a aba configuração temos algumas sub-abas que são elas:
+* **Autenticação:** nessa aba é informado as chaves de autenticação fornecidas pelo tray para fazer a comunicação com e-commerce. Também é informado o vendedor para as vendas;
+
+* **Produtos:** nessa aba são configurado os produtos a serem exportados para o tray. No tray existe um limite de produtos que podem ser enviados, esse limite é do acordo com o contrato de cada cliente. Para configurar o número e itens a serem enviados basta clicar no botão "Alterar", será exibida a interface para configurar a quantidade de produtos, se envia o estoque total (caso essa opção esteja desmarcado o cliente deverá informar no grid de produtos qual o estoque que deseja enviar através da coluna "Qtde"), se atualiza preço Automatico ( caso essa opção esteja desmarcada ao alterar o preço no cadastro de produtos o preço não será atualizado no Tray, para atualizar o preço no tray o usuário precisa mudar no grid de produtos no campo "Preço de venda"), se irá enviar a foto do produto (caso o usuário cadastre as fotos direto no tray essa opção deve ficar desmarcada) e se irá vender abaixo do estoque mínimo (caso essa configuração esteja desmarcada e o produto controla estoque mínimo, quando o estoque chegar no valor configurado no estoque mínimo, o mesmo será desativado no tray).
+
+
+Para inserir os itens o usuário pode digitar a descrição/código no campo "Localizar" ou escolher um atributo no campo "Tipo", clicar no botão "Filtro" e selecionar os filtros que deseja listar os produtos, o sistema irá exibir uma interface com os itens do filtro selecionado para o cliente inserir (nessa tela é possivel inserir varios itens ao mesmo tempo, basta selecionar segurando o shift). \\
+Ao inserir os itens é criado um index para ordenar os itens a serem enviados, essa sequência pode ser alterada clicando nos botões do lado direito da tela.
+
+
+* **Status:** nessa aba são configurados os status para o qual o pedido é alterado no e-commerce, a cada alteração no IC. Por exemplo, ao importar um pedido no IC descrição "Confirmar" para qual status ele deve ficar no e-commerce. Para alterar o status é só selecionar o registro e clicar em "Alterar".

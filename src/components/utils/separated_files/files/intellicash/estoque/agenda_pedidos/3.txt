@@ -1,0 +1,35 @@
+Title: = Cadastrar
+
+Content:
+=
+
+
+
+Nessa interface temos os seguintes campos:
+
+**Criar Agenda de:** Nesse campo é definido o tipo de agendamento. Podendo ser:
+* **Orçamento:** Agendamento de Venda;
+* **Pedido:** Agendamento de Compra;
+**Número:** É exibido o número do agendamento. Esse valor é gerado internamente e sequencialmente pelo sistema, não podendo ser alterado. \\
+**Descrição:** Nesse campo deve ser informada uma descrição para o agendamento. \\
+**Cliente:** Nesse campo é informado quem é o agente do agendamento. Podendo a buscar ser realizada pelo documento ou nome do agente. Ao informar um valor nesse campo e pressionar o //__enter__// o sistema ira localizar no cadastro o valor informado, caso a busca retorne apenas um agente com as características informadas, o sistema já preencherá o campo //**"Cliente"**// com nome do agente e o campo **"//CNPJ/CPF//"** com documento do agente.\\
+**CNPJ/CPF:** Exibe o documento do Agente. Esse campo não é editável. \\
+**Data:** Exibe a data de cadastro do agendamento. No caso de cadastro sempre será a data atual. Esse campo não é editável. \\
+**Repetição:** Nesse campo deve ser informado o número de vezes que o agendamento se repetirá. Caso seja informado o valor **__zero__** o sistema entenderá que o agendamento não terá fim até alguém descartá-lo. \\
+**Tipo de Agendamento:** Nesse campo será definido o tipo de agendamento, podendo ser :
+* **Dia Fixo:** O agendamento se repetirá todo dia x definido pelo usuário. Por exemplo: Vou criar um agendamento "A" que é do tipo dia fixo e o dia definido para esse agendamento é dia 05, dessa forma todo dia 05 de cada mês esse agendamento deverá ser transformado em orçamento ou descartado;
+* **Intervalo:** O agendamento se repetirá num intervalo x de dias. Por exemplo: Vou criar um agendamento "B" que ser repetirá num intervalo de 10 dias, dessa forma se eu criar o agendamento no dia 01 quando for dia 10 esse agendamento deverá ser transformado em orçamento ou descartado, no dia 20 a mesma coisa e assim por diante até atingir o número derepetição.
+**Intervalo/Dia:** Logo após escolher o tipo de agendamento é preciso informar o valor do intervalo. No caso de ter escolhido dia fixo será o dia que vai se repetir o agendamento, no caso de ter escolhido intervalo será o valor de quantos em quantos dias irá se repetir o agendamento.\\
+
+
+
+**Desconto:** Nesse campo deve ser informado o valor do desconto, caso o usuário queira dar um desconto no agendamento.\\
+**Sub Total:** Esse campo mostrará o total do item, que é a ((Qtde * Valor) - Desconto). \\
+**Inserir:** Ao clicar no botão inserir o sistema irá cadastrar o agendamento com as informações que foram preenchidas nos campos e irá trazer o número do agendamento para ser informado no campo **__número__**. \\
+**Excluir Item:** Clicando com botão direito do mouse sobre o grid tem a opção de excluir o item do agendamento. \\
+**Botão Formas de Pg:** Esse botão é utilizado para lançar a forma de cobrança do agendamento e ao clicar no botão irá aparecer uma tela para cadastrar a forma de cobrança e as formas de recebimento da programação (após agendamento financeiro, o sistema irá mostrar na tela as formas de cobrança e recebimento agendadas para a programação em questão). \\
+
+
+
+**Botão Cancelar:** Cancela a operação e descarta o agendamento, no caso de novo cadastro. \\
+**Botão Confirmar:** Confirma o agendamento. \\ \\

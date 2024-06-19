@@ -1,0 +1,4 @@
+Title: Modos de instalação
+
+Content:
+A próxima tela apresenta dois modos de instalação: Server e o Client. No modo Server é apresentado a opção de instalação do Sincronizador ScannTech.

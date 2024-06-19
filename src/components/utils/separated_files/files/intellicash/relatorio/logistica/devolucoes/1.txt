@@ -1,0 +1,45 @@
+Title: == Devoluções
+
+Content:
+==
+
+----
+
+Relatório criado para consultar as devoluções de notas fiscais realizadas no sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Logística→Devoluções||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+A aba "//**Diário**//" mostra um relatório de todas as devoluções realizadas diariamente durante um determinado periodo de datas.
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Classe:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Filtro:** Para selecionar uma categoria do atributo selecionado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+
+Ao dar um duplo clique em alguma das devoluções mostra uma interface com as informações da devolução:
+
+
+
+Nesta interface mostra os produtos que foram realizados a devolução e mostra os valores dos produtos.
+
+
+
+A aba "//**Produtos**//" mostra um relatório de devoluções realizadas de todos os produtos e seus valores. Nesta tela há a primeira coluna mostrando os produtos e na segunda coluna mostra o motivo da devolução e outras informações. Ainda há na tela um cmapo "//**Localizar**//" para procurar um produto em epecífico.
+
+
+
+A aba "//**Devoluções Confirmadas**//" mostra um relatório mostra um relatório das devoluções confirmadas no sistema. Na primeira coluna mostra os fornecedores que irá ser realizada a devolução e o valor da devolução. Ao selecionar um fornecedor na primeira coluna mostrará a segunda coluna os detalhes da devolução com os produtos e seus valores.
+
+
+
+A aba "//**Devoluções Pendentes**//" mostra um relatório das devoluções que ainda estão pendentes no sistema. Na primeira coluna mostra os fornecedores que irá ser realizada a devolução e o valor da devolução. Ao selecionar um fornecedor na primeira coluna mostrará a segunda coluna os detalhes da devolução com os produtos e seus valores.

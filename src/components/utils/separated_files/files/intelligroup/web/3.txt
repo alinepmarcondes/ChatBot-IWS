@@ -1,0 +1,21 @@
+Title: Firefox
+
+Content:
+=== Cookies ===
+
+1 - Clique no menu Ferramentas->Opções.
+
+2 - Clique na aba "Privacidade".
+
+3 - Na guia "Memorizar dados pessoais", vá até o campo "O firefox deve", altere para "Memorizar tudo".
+
+
+=== Pop-up ===
+
+1 - Acesse o menu Ferramentas->Opções.
+
+2 - Clique na guia "Conteúdo".
+
+3 - Clique no botão "Exceções". 
+
+4 - No campo "Endereço do site", informe o endereço "intelligroup.intelliware.com.br" (sem aspas) e clique em permitir.

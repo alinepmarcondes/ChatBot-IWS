@@ -1,0 +1,28 @@
+Title: == Produtos Isentos de Pis e Confins
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de exibir a tributação de Pis e Cofins dos produtos e permite também alterar a tributação.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Produtos Isentos Pis e Confins||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há duas colunas, à esquerda mostra uma coluna com todos os grupos de produtos, e a direita mostra todos os produtos de um grupo selecionado com sua descrição, código e Pis/Confins para se alterar neste campo.
+
+Para alterar o Pis/Confins de um produto basta selecionar o produto e dar um duplo clique na coluna Pis/Confins.
+
+
+
+Após um duplo clique mostrará todas as opções disponíveis como mostra a imagem acima e para isso basta selecionar a opção desejada.
+
+Após isso para confirmar a operação, é necessário clicar no botão gravar na parte inferior da tela para salvar as alterações dos produtos.

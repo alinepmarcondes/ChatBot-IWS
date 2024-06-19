@@ -1,0 +1,17 @@
+Title: Cadastrando uma Promoção Especial
+
+Content:
+Para cadastrar uma promoção especial basta entrar no menu em:
+
+||Gerenciamento→Estoque→Promoções Especiais||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nessa janela são exibidas as promoções especiais cadastradas. Caso marque a opção de //Apenas Promoções Vigentes// serão exibidas as promoções que estão em vigências atualmente e que entraram futuramente. Caso desmarque essa opção, será necessário selecionar um período e serão exibidas apenas as promoções que estão vigentes nesse período.\\
+
+Antes de cadastrar uma **promoção especial** é preciso conhecer os vários elementos que a compõe: \\
+
+**Inicio**: Data e hora inicial de vigência da promoção. Será respeitada a hora e data da frente de caixa.\\
+**Termino**: Data e hora do termino de vigência da promoção. Será respeitada a hora e data da frente de caixa.\\

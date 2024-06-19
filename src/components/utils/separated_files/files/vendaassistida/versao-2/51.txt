@@ -1,0 +1,6 @@
+Title: == Sobre
+
+Content:
+==
+
+Para acessar o sobre, o usuário deverá acessar o menu lateral, deslizando o dedo na tela horizontalmente da esquerda para a direita na tela de orçamento.

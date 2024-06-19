@@ -1,0 +1,26 @@
+Title: == Configurações Gerais
+
+Content:
+==
+
+----
+
+Essa ferramenta tem a função de criar parametrizações específicas no sistema;
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Geral||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Novo Item Raíz:** para cadastrar um novo item raíz;
+* **Novo Sub-item:** para cadastrar um novo sub-item;
+* **Alterar:** para alterar uma configuração;
+* **Excluir:** para excluir uma configuração;
+* **Fechar:** para fechar e sair da interface;

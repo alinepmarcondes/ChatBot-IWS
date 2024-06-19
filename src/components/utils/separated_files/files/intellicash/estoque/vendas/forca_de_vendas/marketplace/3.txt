@@ -1,0 +1,6 @@
+Title: Cadastros
+
+Content:
+Ao acessar a aba cadastros, temos duas sub-abas. Sub-aba Produtos, nessa sub aba é possivel selecionar os produtos que deseja exportar para o site do marketplace. Clicando no botão **"Enviar"** o sistema irá enviar os prutos para o site. No botão **"Ações"** é possível marcar todos, desmarcar todos e inverter seleção dos registros do grid. Ao clicar no botão **"Recarregar Todos"** o sistema irá recarregar todos os produtos que estão configurados como produtos à exportar para o MarketPlace. \\
+
+Na sub-aba Geral é possível exportar os fabricantes dos produtos.

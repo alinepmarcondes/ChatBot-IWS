@@ -1,0 +1,20 @@
+Title: =Preço diferenciado por forma de pagamento em promoções especiais
+
+Content:
+=
+
+Criada para promover alguma forma de pagamento específica ou cartão da loja, pode ser aplicada no atacarejo, promoções especiais e promoções da Scantech. Esta última é definida em conjunto com a integração da mesma. As duas primeiras podem ser cadastradas no sistema, associando uma forma de pagamento específica ou mesmo um conjunto de BINs de cartões de créditos válidos, a fim de promover um cartão da loja, por exemplo. Já as promoções da Scanntech são exclusivamente definidas pela plataforma da mesma.
+No caixa, os descontos por forma de pagamento serão validados na finalização da venda. Ao pressionar “F2”, se houver alguma promoção especial aplicável, será listada e exibida na seguinte tela:
+
+
+
+Nesta tela serão listados todos os descontos por forma de pagamento possíveis no cupom, inclusive os de atacado. Os itens com incidência de determinado desconto são agrupados de acordo com o tipo de promoção e pela forma de pagamento. Permite-se selecionar mais de um desconto desde que seja da mesma forma de pagamento e esteja incidindo em itens diferentes, inclusive, o sistema selecionará automaticamente as promoções aplicáveis. Por definição, não será permitido escolher mais de uma forma de pagamento, mesmo que incidindo em itens diferentes. Portanto, para aproveitar os descontos em diferentes formas de pagamento, os itens deverão ser separados em um novo cupom. Na tela de fechamento não será permitida a escolha de uma forma de pagamento diferente da previamente selecionada, a não ser se trate de uma promoção originada da Scanntech. Uma vez selecionado o desconto desejado, o valor de desconto será exibido na tela de fundo e a tela de fechamento será exibida, já com a forma de pagamento selecionada previamente e com o valor total da venda:
+
+
+
+Se por acaso escolher uma forma de pagamento incompatível ou se utilize um cartão com BIN diferente do esperado, a seguinte mensagem será exibida:
+
+
+
+Ao confirmar a mensagem, todas as operações serão desfeitas e o sistema voltará para tela de venda sem cancelar o cupom.
+Para promoções especiais cadastradas localmente, sem uso da Scanntech, há a possibilidade de se utilizar cartão POS com validação de BIN. Nesse caso, ao selecionar a forma de pagamento e pressionar ok, será exibida uma janela para digitação manual do BIN. Ao confirmar, será validado o BIN e caso positivo o processo posterior será idêntico às demais formas de pagamento:

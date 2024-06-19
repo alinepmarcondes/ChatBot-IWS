@@ -1,0 +1,4 @@
+Title: Editar Configuração
+
+Content:
+O Botão **“Editar”**, assim como o botão **“Novo”**, abrirá a janela de **“Configuração de Tabelas”** onde podemos fazer a devidas modificações utilizando os mesmos recursos disponíveis para se criar um novo layout.

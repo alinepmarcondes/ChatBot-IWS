@@ -1,0 +1,34 @@
+Title: Dados
+
+Content:
+Nesta tela mostra os principais dados do fornecedor já cadastrado e nesta primeira parte existem os atributos, código, razão social, fantasia, CNPJ, inscrição estadual, tipo, UF e reposição.
+
+
+
+Pouco abaixo existem duas colunas, telefones e endereços.
+
+
+
+Nesta parte há os seguintes botões:
+
+* Para adicionar um telefone/endereço;
+* Para alterar um telefone/endereço;
+* Para excluir um telefone/endereço;
+
+E ao clicar em adicionar ou alterar o endereço ou telefone aparecerá a interface de cadastro mostrada anteriormente.
+
+Há também a parte de Observações:
+
+
+
+Nesta parte contém alguns botões:
+
+* para ir a primeira observação;
+* para ir a ultima observação;
+* para voltar uma observação;
+* para seguir uma observação;
+* para adicionar uma observação;
+* para excluir uma observação;
+* para adicionar uma observação entre duas;
+
+E por último a parte de Resumo:

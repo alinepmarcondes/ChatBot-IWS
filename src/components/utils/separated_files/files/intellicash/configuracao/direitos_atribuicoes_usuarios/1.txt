@@ -1,0 +1,38 @@
+Title: == Direitos e Atribuições de Usuários
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de criar perfis de usuários, pois nem todos usuários têm as mesmas permissões.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Direitos e Atribuições de Usuários||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Esta tela serve para criar os tipos de perfis de usuários existentes no sistema.\\
+Na parte superior desta tela há o botão para escolher entre perfis e usuários (no caso acima está citado “perfis”)
+
+Nesta tela há os seguintes botões:
+
+* **Novo:** para criar um novo perfil ou um novo usuário;
+
+
+
+Nesta tela há os seguintes campos:
+
+- **Descrição:** Para informar a descrição do perfil/usuário;
+- **Nível** Para informar qual será o nível deste perfil/usuário;
+- **Cancelar** Para cancelar a operação;
+- **Gravar** Para gravar os dados da operação;
+* **Alterar:** para alterar um perfil existente ou um usuário;
+
+Para alterar as atribuições do perfil é necessário selecionar o perfil na coluna à direita e escolher um módulo.\\
+Após isso aparecerá nas duas colunas abaixo o que é permitido(na coluna há esquerda) e o que não é(na coluna há direita). As setas são para selecionar uma atribuição e usá-las para trocar os itens de uma coluna para outra. Ao selecionar a aba usuários ao invés de perfis você poderá alterar a permissão de uma pessoa ao invés de um grupo inteiro.

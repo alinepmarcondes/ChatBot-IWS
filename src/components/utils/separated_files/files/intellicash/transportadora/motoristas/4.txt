@@ -1,0 +1,18 @@
+Title: == Cadastro
+
+Content:
+==
+A aba “**Cadastro**” tem a função de visualizar, editar e inativar os dados do motorista já cadastrado.
+
+
+
+
+* **Descrição:** Nesse grid teremos as informações básicas dos motoristas, pode-se alterar os dados desse grid se clicar no botão **Alterar**.
+* **Endereços:** Nesse grid não haverá nenhuma informação para um motorista recém cadastrado. Para cadastrar um novo endereço, alterar ou excluir um endereço já cadastrado é preciso usar os botões da parte superior esquerda desse grid.
+* Os botões **Alterar** () e o botão **Adicionar** (), abrirão a seguinte janela, onde é possível adicionar ou editar o endereço do motorista. 
+
+* O botão **Excluir**() irá excluir ou não o endereço mediante confirmação do usuário.
+* **Telefone/Email: **Nesse grid, assim como endereço, não haverá nenhuma informação para um motorista recém cadastrado. Para cadastrar um novo Telefone/ E-mail, alterar ou excluir um telefone/ E-mail já cadastrado é preciso usar os botões da parte superior esquerda desse grid. 
+* Os botões **Alterar** () e o botão **Adicionar** (), abrirão a seguinte janela, onde é possível adicionar ou editar o telefone/ E-mail do motorista. 
+
+* O botão **Excluir**() irá excluir ou não o endereço mediante confirmação do usuário.

@@ -1,0 +1,46 @@
+Title: == Cadastrar Formas de Recebimento
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar formas de recebimento
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Formas de Recebimento||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela existem os seguintes botões:
+
+* **Novo:** para cadastrar uma nova forma de recebimento do cliente e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta parte é necessário preencher os dados de acordo com a forma de recebimento que deseja cadastrar mostradas abaixo:
+
+- **Descrição:** para informar a descrição da forma de pagamento;
+- **Utilizar em:** para informar se esta forma será utilizada em pagamento, recebimento ou ambos;
+- **Tipo de Vencimento:** para informar o tipo de vencimento será utilizado;
+- **Nº Dias:** para informar o número de dias do vencimento (se necessário);
+- **Taxa de Admnistração.:** é um campo que deve ser informado a taxa paga pela utilização do cartão a partir do contrato entre as bandeiras e o estabelecimento;
+- **Imprimir Recibo no PDV:**
+- **Exibir no Movimento de Caixa:**
+- **Baixa Automática:**
+- **Exigir dados da conta corrente:**
+- **Exigir Nº Cheque:** marcar esta opção se deseja exigir o número do cheque; 
+- **Permitir Acréscimo no valor:**
+- **TEF:**
+- **Permitir Troco:**
+- **Permitir Parcelamento:** marcar esta opção se deseja permitir parcelar;
+- **CMC7:** marcar esta opção para exigir CMC7 do cheque;
+- **Cartão:** Para escolher o cartão a ser utilizado;
+
+* **Alterar:** para alterar dados de alguma forma de recebimento selecionada e ao clicar neste botão aparecerá a mesma tela vista na imagem acima;
+* **Excluir:** para excluir uma forma de recebimento disponível.

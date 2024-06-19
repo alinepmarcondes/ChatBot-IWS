@@ -1,0 +1,28 @@
+Title: == Alteração de Tributação de Venda
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de modificar um ou vários produtos para ST ou vice-versa.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Alteração de Tribut. Venda||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há duas colunas, à esquerda uma coluna que mostra todos os grupos de produtos, e a direita mostra os produtos de um grupo selecionado com os dados de descrição, código e uma caixa de marcação para ST para alterar um produto para ST ou vice-versa, para isso basta apenas marcar ou desmarcar a opção.
+
+Na coluna à direita há a opção de selecionar todos que ao clicar neste botão marcará todos osprodutos do grupo para ST.
+
+
+
+Após isso para confirmar a operação, é necessário clicar no botão gravar na parte inferior da tela para salvar as alterações dos produtos.
+
+Há a opção "//**Permitir Seleção Múltipla**//", que ao clicar neste botão pode selecionar vários produtos para marcar/desmarcar a opção de ST, para isso é necessário marcar esta opção e após isso apertar o botão Ctrl e com o mouse selecionar todos os produtos.

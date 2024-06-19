@@ -1,0 +1,16 @@
+Title: = Exemplificando as Configurações
+
+Content:
+=
+
+Ao imprimir uma redução Z ou uma leitura X haverá uma parte parte impressa com as formas de recebimento da impressora, e cada uma delas há um código.
+
+
+
+Usaremos a forma de recebimento "//**Cartão de Crédito**//" como exemplo, sabemos que existem varios tipos de forma de recebimento e que algumas formas de recebimento existem varios tipos.
+
+Para informar o código é necessário lembrar que é utilizado o código da forma de recebimento multiplicado com 100 (Ex: Cartão 05 → 500 ), o código 0 é considerado Default, e a partir do 1 cada numero referencia cada tipo de forma de recebimento "//**Cartão de Crédito**//"
+
+
+
+Após isso deve ser cadastrado cada forma de recebimento em cada PDV.

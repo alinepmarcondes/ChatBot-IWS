@@ -1,0 +1,7 @@
+Title: == Compatibilidade
+
+Content:
+==
+
+* Tablet ou Celular com Android 3.0+
+* 100mb+ para download das imagens dos produtos

@@ -1,0 +1,64 @@
+Title: = Detalhamento e uso de cada desconto/acréscimo no subtotal:
+
+Content:
+=
+===1)Desconto/Acréscimo manual: ===
+Na tela de finalização da venda, basta chamar os atalhos “F5” ou “Alt+D” para conceder desconto e “F6” ou “Alt+A” para conceder um acréscimo. 
+
+
+
+Pelos atalhos “F5” ou “F6”, é possível também conceder desconto ou acréscimo percentual. Importante destacar que, para permitir desconto ou acréscimo, a forma de pagamento deverá estar configurada para tanto:
+
+
+
+Como se trata de um desconto manual, o operador de caixa precisa possuir permissão para usar esta funcionalidade:
+
+
+
+É possível ainda definir um percentual máximo de desconto que cada operador de caixa pode conceder ao cliente:
+
+
+
+
+===2)Desconto/Acréscimo por FPG: ===
+Para cada forma de pagamento, é possível conceder um desconto ou acréscimo automático no subtotal do cupom. O valor de desconto ou acréscimo, configurado no cadastro da forma de pagamento, será proporcional ao valor pago com ela. Mais detalhes sobre esta categoria de desconto encontram-se [[https://wiki.intelliware.com.br/doku.php?id=easycash:manual_de_instrucao#desconto_acrescimo_por_forma_de_pagamento|aqui]].
+
+===3)	Desconto fixo por cliente: ===
+No cadastro de cliente no IntelliCash, é possível definir um percentual máximo de desconto para algum determinado cliente. Sempre que esse cliente por identificado no caixa, será automaticamente concedido esse desconto percentual em cima do valor da venda. Mais informações sobre este desconto encontram-se [[https://wiki.intelliware.com.br/doku.php?id=easycash:versoes:1.4.007.000&s[]=desconto&s[]=fixo#desconto_fixo_no_cadastro_do_cliente|aqui]].
+
+===4)	Programa de pontuação: ===
+Com o objetivo de criar um modo de fidelizar o cliente, o sistema viabiliza meios automáticos de coletar, gerenciar e conceder descontos ou benefícios, sem a dependência de terceiros. Basicamente o programa de pontuação permite que o cliente identificado no processo de venda acumule pontos, seja adquirindo um produto especifico, seja pelo valor gasto, podendo trocar esses pontos por descontos ou brindes. Mais detalhes [[https://wiki.intelliware.com.br/doku.php?id=manuais:intellicash:easycash:programapontuacao:configuracoesgerais&s[]=desconto&s[]=fixo#programa_de_pontuacao|aqui]].
+
+===5)	Integração com o Cresce Vendas: ===
+O sistema permite integração com o Crescevendas. Nessa integração, está prevista a concessão de descontos no subtotal. Mais detalhes [[https://wiki.intelliware.com.br/doku.php?id=manuais:easycash:crescevendas|aqui]].
+
+===6)	Integração com o DMCard: ===
+O sistema permite integração completa com a API da dmCard. Nela, há bonificações que incidem no subtotal. Mais informações [[https://wiki.intelliware.com.br/doku.php?id=manuais:easycash:dmcard|aqui]].
+
+===7)	Integração com a Mercafacil: ===
+O sistema permite integração completa com a API da Mercafacil. É possível que alguma bonificação seja abatida do total da venda em forma de desconto. Mais informações [[https://wiki.intelliware.com.br/doku.php?id=manuais:easycash:mercafacil|aqui]].
+
+===8)	Acréscimo de Frete: ===
+
+Para as situações em que se deva adicionar o valor do frete na venda, o mesmo entrará de forma semelhante ao acréscimo no cupom de venda e também será rateado entre os itens. Para NFCe, Se houver consumidor identificado com um endereço válido, a taxa de entrega constará no extrato da venda. Caso ao contrário, o valor do frete constará como um acréscimo normal. Já para o SAT, o valor de frete sempre constará como acréscimo. 
+A inserção de frete no EasyCash é feita do ato do cadastro da entrega. Há, entretanto, uma configuração para ativá-la:
+
+
+
+Há ainda a possibilidade de se pré-cadastrar os valores que são praticados com frequência:
+
+
+
+Se o valor de frete cadastrado for marcado como “editável”, será possível ajustá-lo no cadastro da entrega. Para inserir o valor de frete, basta clicar no botão “Frete”, escolher um dos valores cadastrados ou informar o valor e clicar em “ok”:
+
+
+
+Vale ressaltar que para o caso do frete, existe uma configuração adicional que permite, __de acordo com o entendimento do contador do cliente__, se o valor do frete irá incidir ou não na base de cálculo do ICMS dos produtos, segue a imagem:
+
+
+
+===9) Orçamentos (DAV, Food e Ordem de serviço): ===
+Como se tratam de procedimentos auxiliares de venda onde o frente de caixa é usado praticamente para realizar a emissão fiscal da venda, ele simplesmente aplica os valores pré-definidos no momento da criação do orçamento. Portanto, possíveis descontos ou acréscimos aplicados nessa situação são os que foram acordados na criação do orçamento no IntelliCash ou EasyPDV. Em alguns casos, é possível que algum desconto ou acréscimo seja aplicado para ajuste de valores do produto, caso tenha ocorrido uma alteração de preço após o orçamento ter sido criado e antes de ter sido processado no caixa. Mais informações sobre a criação de um orçamento aqui [[https://wiki.intelliware.com.br/doku.php?id=manuais:intellicash:estoque:vendas:orcamento|aqui]]. 
+
+===10) Bonificação do TEF: ===
+Esse tipo de desconto é proveniente de alguma promoção que a operadora de cartão de crédito ou a rede autorizadora possa estar concedendo diretamente ao cliente, portanto qualquer configuração depende exclusivamente do modulo do TEF utilizado e da prestadora de serviço.

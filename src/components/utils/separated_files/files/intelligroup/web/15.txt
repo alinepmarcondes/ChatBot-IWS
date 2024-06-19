@@ -1,0 +1,11 @@
+Title: = Compras
+
+Content:
+=
+
+Na aba compras, é possível visualizar todas as compras realizadas pelo associado, baseando-se em um período que o mesmo deverá informar nos campos de início e término, conforme demonstra a figura abaixo.
+
+
+
+
+Caso não haja compras no período informado será exibido a seguinte mensagem.

@@ -1,0 +1,27 @@
+Title: == Relatório de Taxas e Descontos
+
+Content:
+==
+
+----
+
+Este relatório mostra quais descontos e taxas foram pagas no período selecionado.
+
+----
+
+Para abrir este relatório basta entrar no menu em:
+
+||Gerenciamento->Relatórios->Gestão Financeira->Relatório de Taxas e Descontos||
+
+Ao clicar nesta opção aparecerá a seguinte tela:
+
+
+
+Nela temos o tipo da operação desejada:
+* Todos - Taxas e Descontos;
+* Taxas - Se referem a taxas cobradas nas operações envolvendo cartões;
+* Descontos - Se referem a descontos concedidos a juros e ao valor nominal no recebimento de contas de Clientes.
+
+Devemos selecionar o período (data de pagamento) desejado. Após clicar em **Aplicar** o sistema mostrará os registros.
+
+Também podemos selecionar um registro e clicar com o botão direito do mouse para selecionar a opção **Detalhes Financeiros...** que mostrará os registros que deram origem a Taxa/Desconto.

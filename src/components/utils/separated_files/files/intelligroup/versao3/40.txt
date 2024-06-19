@@ -1,0 +1,10 @@
+Title: == Painel do Associado
+
+Content:
+==
+
+----
+
+É possível acessar o **Painel do associado** através do seguinte endereço http://intelligroup.iws.com.br.
+
+----

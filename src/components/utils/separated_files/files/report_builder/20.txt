@@ -1,0 +1,10 @@
+Title: Code Toolbox
+
+Content:
+Code Toolbox possui três abas: **Data**, **Objects**, **Language**.
+
+**Data**: Permite arrastar para dentro do código um campo para usar seu valor, por exemplo.
+
+**Objects**: Permite arrastar a propriedade de um objeto do relatório para o código. Por exemplo, é possível arrastar a propriedade **cor** de um label e dependendo da condição, alterar o valor da propriedade.
+
+**Language**: Especialmente útil pelos elementos do nó **Function** que trazem exemplos das funções disponíveis.

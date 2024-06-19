@@ -1,0 +1,16 @@
+Title: Conciliação - Relatório
+
+Content:
+Na abas Conciliação - Extrato, o usuário poderá selecionar o tipo de Extrato, Início, Término e Conta para que o sistema mostre os registros que foram conciliados de acordo como os dados informados.
+
+
+
+Análogo a interface de comparação o sistema monstrará os filtros **Todos** (todos os registros que foram processados), **Conciliados** e os **Não Conciliados** .
+
+Clicando com o botão direito do mouse o sistema apresentará um menu onde o sistema o usuário poderá **Conciliar** e **Desconciliar**.
+
+Em **Detalhes do Retorno ** o sistema demonstrará os detalhes do retorno que gerou a conciliação ou não do registro.
+
+Em **Ir para Arquivo** voltará para interface de **Conciliação de Extrato - Comparação**.
+
+E em **Detalhes Financeiros ** o sistema demonstrará os detalhes financeiros pertinentes ao registro selecionado.

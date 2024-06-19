@@ -1,0 +1,4 @@
+Title: Planos crediário
+
+Content:
+Para acessar a tela **Cadastro de planos crediário** clique no menu **Cadastrar** e depois em **Planos crediário**.

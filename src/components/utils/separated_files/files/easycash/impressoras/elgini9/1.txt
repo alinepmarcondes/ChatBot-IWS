@@ -1,0 +1,14 @@
+Title: == Conversão da Porta Serial para USB - Elgin i9
+
+Content:
+==
+
+Um cliente procurou a empresa ao constatar que, sempre ao ligar ou reiniciar o seu computador, a sua impressora não fiscal Elgin i9 não funcionava de forma alguma.
+
+Ao conferirmos o problema levantado, nos deparamos com a seguinte tela de erro:
+
+
+
+Além disso, constatamos que a comunicação da máquina com a impressora estava configurada como uma "Porta Serial Virtual" ao invés de uma comunicação USB e que bastava desconectar e reconectar a impressora para resolver o problema.
+
+No entanto, optamos por procurar uma solução mais prática para apresentar ao cliente, a qual encontramos no site da ACBr e será apresentada a seguir.

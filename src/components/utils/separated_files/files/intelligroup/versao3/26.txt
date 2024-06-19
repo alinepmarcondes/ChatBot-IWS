@@ -1,0 +1,4 @@
+Title: Promoções
+
+Content:
+Para acessar a tela **Cadastro de promoções** clique no menu **Cadastrar** e depois em **Promoções**.

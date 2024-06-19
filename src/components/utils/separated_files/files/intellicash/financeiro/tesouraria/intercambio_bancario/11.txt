@@ -1,0 +1,16 @@
+Title: Transmissão - Boletos (Arquivo de Retorno)
+
+Content:
+Para importar um arquivo de retorno bancário, o usuário deverá clicar no botão “Importar Retorno” que se localiza na parte inferior da tela de “Transmissão - Boletos” que apresentará uma tela para que o usuário selecione o arquivo de retorno enviado pelo banco.
+
+
+
+
+
+**NOTA:** Não poderá ser importado o Arquivo de Retorno pelo Sistema do Banco.
+
+Após o retorno do banco o sistema processará o arquivo e na parte inferior de cada aba irá apresentar as ocorrências que constam no arquivo, deixando de apresentar os agendamentos na aba “Transmitidos Pendentes”. 
+
+
+
+Entre os detalhes apresentados temos o nome do Arquivo de Retorno do Banco, a Data de Processamento, a Linha da Ocorrência, o Título, o Tit. Ban. (Nosso Número), a Data de Entrada do Título, a Data de Vencimento do Título, o Valor, o Sacado e a Mensagem informativa.

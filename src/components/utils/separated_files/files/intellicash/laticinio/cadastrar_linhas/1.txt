@@ -1,0 +1,16 @@
+Title: == Cadastro de Linhas
+
+Content:
+==
+
+----
+
+A **Linha** é a relação dos fatores que envolvem o processo de coleta do leite, como a fazenda, as cotas, os incentivos, a transportadora e o tanque.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Laticínio→Cadastro de Linhas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

@@ -1,0 +1,41 @@
+Title: == Relatório de Vendas Classificadas
+
+Content:
+==
+
+----
+
+Este relatório mostra as vendas durante um período de tempo selecionado. Ele classifica as vendas dos produtos, de acordo com sua seção, grupo e subgrupo.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Vendas Classificadas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Esta tela mostra um relatório de vendas do produto classificadas em "//**Seção**//"
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+
+Logo abaixo mostra os resultados da pesquisa em daus colunas, a primeira mostra os dados numéricos do relatório, ao lado uma gráfico para melhor visualização do relatório. Após um duplo clique em alguma seção selecionada aparecerá uma nova interface mostrando os dados dos grupos desta seção:
+
+
+
+Esta tela mostra as vendas dos grupos da seção selecionada. Após um duplo clique em algum grupo selecionada aparecerá uma nova interface mostrando os dados dos sub grupos desta seção:
+
+
+
+Esta tela mostra as vendas dos sub grupos do grupo selecionado. Após um duplo clique em algum sub grupo selecionado aparecerá uma nova interface mostrando os dados dos produtos deste sub grupo:
+
+
+
+Esta tela mostra as vendas dos produtos do sub grupo selecionado. Após um duplo clique em algum produto abrirá uma interface nova do cadastro do produto.

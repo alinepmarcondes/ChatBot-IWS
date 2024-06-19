@@ -1,0 +1,36 @@
+Title: == Exportação Ledware
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de gerar um arquivo de exportação para o sistema Ledware de Contabilidade.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Contabilidade→Exportação→Ledware||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Código da Empresa:** para informar o código da empresa;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Gerar:** para gerar o arquivo de exportação;
+* **Bloquear Lançamentos no Período:** marcar esta opção bloqueará todos os lançamentos no período após gerar o arquivo;
+
+Opções de exportação:
+
+-**Movimento dos ECF's**
+-**Cadastro de Fornecedores e Clientes**
+-**Notas Fiscais de Saída**
+-**Notas Fiscais de Entrada**
+-**Cadastro de Produtos:**
+-**Itens(CF. NF Entrada e NF Saída)**
+-**Exportar Inventário**

@@ -1,0 +1,6 @@
+Title: = Inventário
+
+Content:
+=
+Inventariar o estoque de uma empresa é um dos processos mais importantes para corrigir possíveis distorções ocorridas durante as operações cotidianas, que vão desde lançamentos errados no sistema, até roubo ou perda de mercadoria. Para isso, é feita a contagem de todos os itens contidos no estoque, e lançada no sistema para ser calculada a correção. \\ \\
+O processo é aparentemente simples, mas devido a vários fatores, não é incomum esse processo acabar em erros, e muitas vezes até mesmo aumentar as distorções, comprometendo ainda mais a posição do estoque no sistema. Para tentar auxiliar na contagem do estoque, a equipe da IWS criou esse checklist.

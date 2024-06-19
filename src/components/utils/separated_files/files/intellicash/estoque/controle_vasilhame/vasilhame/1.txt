@@ -1,0 +1,37 @@
+Title: = Controle de Vasilhames
+
+Content:
+==
+
+----
+
+Permite visualizar e relacionar os produtos que precisam de vasilhame aos vasilhames.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Controle de Vasilhame→Vasilhame||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+É exibido dois quadros, sendo o esquerdo a relação dos vasilhames e o direito a relação do ítens associados ao vasilhame selecionado no lado esquerdo.
+
+
+
+
+
+Na parte superior desta tela há um campo chamado "//**Localizar**//" para localizar um item vasilhame.
+
+Ao clicar com o botão direito do mouse sobre um produto da primeira coluna aparecem as seguintes funções:
+
+
+
+* **Excluir:** Para excluir um item vasilhame;
+* **Vincular Produto:** Para vincular um produto a este vasilhame. Ao clicar nesta opção o sistema irá abrir uma interface para localizar o produto;
+
+Ao clicar com o botão direito do mouse sobre um produto da segunda coluna aparecem as seguintes funções:
+
+
+
+* **Remover Produto:** esta opção desvincula o produto do vasilhame;

@@ -1,0 +1,44 @@
+Title: == Troca de Mercadorias
+
+Content:
+==
+
+----
+
+Com o intuito de facilitar as trocas mas freqüentes no estabelecimento comercial, como alimentos com data de vencimento fora do prazo e roupas de outra numeração foi criada em parceria com o sistema de frente de caixa EasyCash a tela de troca de mercadoria.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Troca de Mercadorias||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Para realizar uma troca de mercadoria para os clientes é necessário preencher todos os campos da imagem acima, primeiramente localizando cliente no campo “Nome e CNPJ do cliente”, buscando por nome ou documento, após localizado o cliente o campo CNPJ/CPF irá se auto preencher, e, Após localizados os campos abaixo ficarão editáveis para preencher os dados, para isso basta preencher o número do ECF, número do cupom, e o número do item(este número está relacionado com a ordem de itens impressos na nota fiscal), após isso é necessário apertar enter e os campos com os dados do produto irão se autopreencher. Ao lado há o botão inserir e ao clicar nele os itens serão inseridos e movidos para o grid abaixo.
+
+
+
+A imagem acima mostra um exemplo de uma operação de troca de mercadorias.
+
+Há coluna do lado direito da tela mostra algumas informações da troca de mercadorias como número, código interno(se houver), a data da operação, a situação da operação, valor unitário do item selecionado no grid, quantidade, e valor total do item selecionado.
+
+Na parte inferior da tela há os seguintes botões:
+
+
+
+* **Finalizar (f2)** para concluir a operação de troca de mercadorias;
+* **Localizar (f3)** para localizar uma operação de troca de mercadorias e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Esta serve para localizar alguma operação de troca de mercadoria, na parte inferior da tela há os botões f3 para localizar por número ou código interno, número, início e término para determinar um período de datas a ser pesquisadas (a pesquisa funciona mesmo que apenas um campo esteja preenchido), situação da operação e filtrar para realizar a pesquisa. Após isso aparecerá abaixo os resultados da pesquisa e na segunda coluna os itens de cada operação selecionada acima.
+
+* **Nova (f4)** limpará todos os campos e iniciará uma nova operação;
+* **Remover Item (f10)** para remover um item selecionado do grid que foi inserido na troca de mercadorias;
+* **Descartar (Ctrl + x)** para descartar a operação que esteja sendo feita;
+* **Imprimir (Ctrl + p)** para imprimir dados da troca de mercadoria.
+
+E na parte inferior da tela há o campo "//**Total**//" que está totalizando todos os itens da troca de mercadorias.

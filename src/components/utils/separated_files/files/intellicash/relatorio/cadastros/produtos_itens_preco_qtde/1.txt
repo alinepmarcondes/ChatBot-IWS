@@ -1,0 +1,20 @@
+Title: == Itens com Preço por Quantidade
+
+Content:
+==
+
+----
+
+Este relatório exibi todos os produtos que contenham preço por quantidade.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→Itens com Preço por Quantidade||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela mostra todos os produtos, que possuem preço por quantidade, e na parter inferior da tela há um campo chamado "//**Busca**//" para localizar um produto em específico. Há também o botão "//**Imprimir**//" para imprimir os dados dos produtos com preço por quantidade.

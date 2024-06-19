@@ -1,0 +1,19 @@
+Title: = Transmissões Pendentes
+
+Content:
+=
+
+Se houver algum problema de comunicação entre o frente de caixa e o servidor do Mercafácil, o cupom será enviado para transmissões pendentes:
+
+
+
+Para acessar as transmissões pendentes, deve-se acessar o caminho: Integração -> Mercafacil -> Transmite Pendentes.
+
+É possível retransmitir, pressionando o botão "Processar".
+
+
+
+
+Ao inicializar o Easycash, será apresentado uma mensagem informando que há transmissões pendentes.
+
+**Obs.:** Se caso houver algum problema na transmissão, acionar o suporte técnico.

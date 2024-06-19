@@ -1,0 +1,19 @@
+Title: Inserindo Itens
+
+Content:
+Durante a inserção de itens podem existir alguns conflitos, e algumas validações são feitas:
+
+* Itens sem preço promocional definido;
+* Itens não cadastrados;
+* Itens já inseridos na lista de promoções pendentes com datas conflitantes (FIGURA 4);
+
+
+FIGURA 4: Conflito de datas com promoções já existentes;
+
+Após criado a promoção na parte superior da tela mostrará uma mensagem informando que as promoções precisam ser exportadas:
+
+
+
+Este é um atalho que ao clicar nele abrirá a interface de promoções, mas para exportar é necessário utilizar a ferramenta de [[manuais:intellicash:cadastros:exportacao:easycash|Exportação de dados do Intellicash para o EasyCash]]
+
+Se a promoção estiver vencida aparecerá uma mensagem informando-o para encerrá-la, que ao clicar nela também abrirá a interface de promoções:

@@ -1,0 +1,4 @@
+Title: Exportar pedido não finalizado
+
+Content:
+Para exportar um pedido, o usuário deverá desmarcar a opção "Estoque" caso esta esteja marcada, selecionar o formato desejado e clicar no botão "Exportar".

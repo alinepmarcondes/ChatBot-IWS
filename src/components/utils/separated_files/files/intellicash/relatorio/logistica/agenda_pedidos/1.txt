@@ -1,0 +1,33 @@
+Title: == Relatório de Agenda de Pedidos
+
+Content:
+==
+
+----
+
+Esta ferramenta apresenta um relatório sobre a ferramenta agenda de pedidos que se localiza em "//**Gerenciamento→Estoque→Agenda de Pedidos**//"
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Logística→Agenda de Pedidos||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Agendamentos:** para selecionar um tipo de agendamento entre:
+- **Abertos;**
+- **Encerrados;**
+- **Todos;**
+* **Filtrar Datas Por:** Para determinar como será filtrado a data para realizar a pesquisa entre:
+- **Data de Cadastro;**
+- **Data Próx. Orçamento;**
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Após realizada a pesquisa, mostrará na primeira coluna os dados referentes a agenda de pedidos, e na segunda coluna os dados referentes ao itens da agenda de peidods selecionada na primeira coluna.

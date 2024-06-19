@@ -1,0 +1,36 @@
+Title: = Cadastrando Uma Lista de Presentes
+
+Content:
+=
+
+Ao clicar no botão "//**Nova Lista**//" aparecerá a seguinte interface:
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Cliente:** Para localizar um cliente;
+* **Novo:** Para cadastrar um novo Cliente;
+* **Término:** Para informar a data término da lista de presente;
+* **Ocasião:** Para informar qual ocasião da lista;
+* **Produto:** Para localizar um produto para colocar na lista;
+* **Desconto:** Para informar o desconto do produto na lista em porcentagem(%);
+* **Qtde:** para informar a quantidade de itens que serão inseridos na lista;
+* **Inserir:** para inserir o produto na lista
+* **Importar:** para importar
+
+Após criada a lista aparecerá a seguinte interface relacionada ao botão "//**Dados Capa**//", esta interface foi criada para cadastrar informações adicionais de contato do cliente e também de relacionados:
+
+
+
+Nesta interface basta clicar no botão "//**Novo Campo**//" e adicionar uma descrição para o campo, e após isso basta informar os dados adicionais na interface. Após concluido os dados automaticamente estará na aba "//**Listas**//".
+
+
+
+A aba "//**Listas**//" mostra os detalhes de uma lista cadastrada.
+
+Nela há os seguintes campos:
+
+* **Imprimir:** para imprimir os dados da lista;
+* **Inserir Produto:** para inserir mais produtos à lista de presentes;
+* **Observação:** para adicionar uma observação sobre a lista de presentes;

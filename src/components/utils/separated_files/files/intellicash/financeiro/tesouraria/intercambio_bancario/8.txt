@@ -1,0 +1,57 @@
+Title: Cadastrando Layout de Boleto (Retorno)
+
+Content:
+Logo após ser cadastrado o layout remessa o usuário deverá cadastrar o retorno se for fornecido este serviço pelo banco.
+
+Para ser realizado esse processo, basta selecionar a aba Layout Retorno - Boleto.
+
+Com a aba selecionada o usuário deverá clicar no botão Localizar e digitar o boleto cadastrado para começar o cadastramento do retorno do arquivo.
+
+
+
+Logo depois de selecionado o boleto desejado será habilitado às abas para o preenchimento da verificação do arquivo de retorno que será enviado pelo banco.
+
+
+
+Já na aba de identificação, o usuário preencherá:
+
+* **Cabeçalho:** (estrutura que identifica o lote), identificação (Ex.: 1 para Header de Lote), posição( Ex.: 8 para a posição em que se encontra na linha do Header de Lote) e tamanho ( Ex.: 1 para tamanho do campo do Header do Lote);
+* **Título:** (estrutura que identifica os títulos do lote), identificação (Ex.: 3 para detalhe do arquivo), posição(Ex.: 8 para a posição que se encontra), tamanho(Ex.: 1 para tamanho do campo do Detalhe do arquivo) e linhas(Ex.: 2 número de linha que estão relacionadas com o detalhe do arquivo, geralmente segmento “T” e “U” de acordo com contrato entre estabelecido entre o cliente e o banco );
+* **Identificação do Documento:**, (posição, tamanho e linha, esses campos poderão ser usados casos a identificação venha no retorno ‘opcional’);
+* **Identificação Alternativa do Boleto – Nosso Número:**, posição (Ex.: 38 posições em que se encontra o nosso numero no detalhe do arquivo), tamanho (Ex.: 20 o tamanho desse campo no arquivo de retorno) e linha (Ex.: 1 para identificar em qual linha do detalhe do arquivo ele se encontra ).
+
+Feito esse processo o usuário deverá clicar em atualizar para que o sistema possa armazenar esses dados preenchidos.
+
+
+
+Logo após o preenchimento da Identificação do arquivo de retorno, o usuário deverá selecionar a aba ocorrências para ser preenchida.
+
+
+
+A Identificação da Ocorrência é composta de 3 três campos posição(posição em que se encontra a ocorrência no arquivo de retorno, Ex.: 16 ), tamanho(a quantidade de caracteres que representa essa ocorrência ) e linha (em que linha do detalhe do arquivo ela se encontra, Ex.: 1) após esse processo o usuário deverá clicar no botão de atualizar.
+
+Feito esse processo os tipo de ocorrências devem ser inseridas no sistema através de linha adicionado na parte inferior dessa tela no botão “Novo”.
+
+
+
+O “Código” é tipo de ocorrência fornecida pelo manual do banco com sua respectiva “Descrição”, a “Ação” será determinada pelo usuário conforme cada tipo de descrição que apareça.
+
+Depois de concluída a fase de ocorrências do arquivo de retorno o usuário deverá começar a montar a parte de erros que possam acontecer no arquivo de retorno do banco, para que possa montar os tipos de erros o mesmo deverá selecionar a abas “Erros” na mesma tela.
+
+
+
+Essa aba contém os campos que possam vir no arquivo de retorno, a princípio pode ser cinco, isso dependerá de banco para banco, não necessariamente quer dizer que o arquivo voltará com erros, mas caso volte com algum tipo de erro os sistema mostrará. Ex.: Campo de Erro 1 “Posição”, (Ex.: 214 significa aonde foi encontrado o erro), “Tamanho”(Ex.: 2 significa a quantidade de caracteres relativo ao erro, na parte abaixo dessa tela uma tabela com os códigos e erros, Ex.: Código 1, Descrição‘CÓDIGO DO BANCO INVÁLIDO’, etc. ), “Linha”, (Ex.: 1 significa a linha do detalhe do arquivo de retorno em que se encontra o erro) após preenchido os campos o usuário deverá clicar no botão “Atualizar”.
+
+Como citado no enunciado acima deverá ser cadastrado a lista de erros para que o sistema possa fazer a comparação. Na parte inferior da tela no botão “Nova Linha”, o usuário deverá cadastrar os erros de acordo com o manual concedido pelo banco.
+
+
+
+Após essa etapa, poderemos partir para “Validação” do arquivo de retorno, para isso basta selecionar a aba validação na mesma tela.
+
+
+
+No campo Valor depositado na “Posição”, indica em que lugar do arquivo de retorno se encontra o valor depositado (Ex.: 93 de acordo com arquivo de retorno enviado pelo banco), “Tamanho” mostra a quantidade de caracteres desse campo (Ex.: 15 de acordo com arquivo de retorno enviado pelo banco) e “Linha”, a linha que se encontra esse valor (Ex.: 2 de acordo com arquivo de retorno enviado pelo banco). Após o preenchimento dos campos o usuário deverá clicar no botão “Atualizar”. 
+
+Os demais campos são preenchidos da mesma forma. 
+
+**NOTA:** Cada banco pode ter seu padrão de retorno.

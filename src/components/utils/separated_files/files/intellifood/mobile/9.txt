@@ -1,0 +1,4 @@
+Title: Nova Comanda
+
+Content:
+Para abrir uma nova comanda clique no botãono canto superior direito e depois em **Nova comanda**, conforme demonstra a figura abaixo.

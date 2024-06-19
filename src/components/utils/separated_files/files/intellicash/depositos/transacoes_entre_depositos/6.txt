@@ -1,0 +1,6 @@
+Title: = Produto
+
+Content:
+=
+
+Campo para seleção do produto. A interface de busca pode ser exibida caso haja mais de uma ocorrência para o resultado da busca. Ainda, serão listados apenas os produtos que possuírem quantidades disponíveis no depósito de origem.

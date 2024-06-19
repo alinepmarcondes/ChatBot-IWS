@@ -1,0 +1,6 @@
+Title: = Tela inicial
+
+Content:
+=
+
+Na tela inicial no canto superior esquerdo da tela há uma imagem da logo da empresa iws com o menu gerenciamento. É neste menu que o usuário fará todas as operações do software.

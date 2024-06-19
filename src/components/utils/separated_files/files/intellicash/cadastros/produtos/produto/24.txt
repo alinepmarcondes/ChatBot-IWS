@@ -1,0 +1,10 @@
+Title: Moviementação de Depósitos
+
+Content:
+----
+===Versão 3.0.140.003===
+
+A partir desta versão está disponível a aba de **Movimentação de Depósitos** que permite verificar toda movimentação entre depósitos do produto.
+
+
+----

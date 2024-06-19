@@ -1,0 +1,10 @@
+Title: == Painel da Associação
+
+Content:
+==
+
+----
+
+É possível acessar o **Painel da associação** através do seguinte endereço http://intelligroup.iws.com.br/association.
+
+----

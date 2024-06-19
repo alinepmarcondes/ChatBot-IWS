@@ -1,0 +1,20 @@
+Title: FS88H (Futronic)
+
+Content:
+Informações adicionais podem ser encontradas em [[https://www.futronic-tech.com/product_fs88h.html|FS88H FIPS201/PIV Compliant USB2.0 Fingerprint Scanner]].
+
+
+
+=== Informações Adicionais(Fabricante) ===
+
+
+
+Em ambiente de testes, foram utilizadas duas versões de drivers conforme mostrado nas imagens abaixo:
+
+
+
+
+
+== DLL ==
+
+* Na pasta principal da aplicação que irá utilizar o leitor biométrico deve-se ter as seguintes **DLL**, nas __versões mínimas__ conforme mostradas na imagem:

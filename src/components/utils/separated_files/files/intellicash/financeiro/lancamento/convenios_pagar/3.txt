@@ -1,0 +1,16 @@
+Title: = Histórico
+
+Content:
+=
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Na aba "//**Histórico**//" mostra o histórico de convênios a pagar e na primeira coluna mostra uma lista com os convênios e ao selecionar um convênio mostra os detelhes financeiros do convênio de cada funcionário.
+
+Se houver dúvidas com os lançamentos basta ir no relatório de contas a pagar e a receber (Ambos em "**Relatório→Gestão Financeira**"), e verificar os lançamentos criados.

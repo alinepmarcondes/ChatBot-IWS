@@ -1,0 +1,13 @@
+Title: = Campos NSU TEF e NSU POS do cartão nos Detalhes do Fechamento de Caixa
+
+Content:
+=
+Nos Detalhes da Forma de Recebimento **CARTÕES** do Fechamento de Caixa temos os campos **NSU TEF** e **NSU POS** no grid que mostra os cupons que compõe o cartão selecionado.
+
+
+
+
+
+Nestes campos são mostrados o **NSU** de acordo com o meio que o cartão foi passado no frente de caixa. 
+
+Se o cartão foi passado no **TEF** o sistema não permitirá sua alteração. Agora se o cartão foi passado no **POS** o sistema permitirá que se **Cadastre**, **Altere** ou **Exclua** o **NSU** informado (para realizar este procedimento basta selecionar o cupom em que se deseja realizar um procedimento e selecionar a opção **NSU POS**).

@@ -1,0 +1,45 @@
+Title: == Relatório de Contas a Pagar
+
+Content:
+==
+
+----
+
+Este relatório mostra informações sobre as contas a pagar no sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Relatórios de Contas a Pagar||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela existem três tipos de classificações:
+
+* **Data** para selecionar o tipo de data que será realizado o relatório, entre data de entrada, vencimento e pagamento;
+* **Classificação** para selecionar uma aba para criar o relatório, entre nenhum, fornecedores, centros, contas, formas de cobrança, convênios e espécie de pagamento;
+* **Status da conta** para selecionar o status que deseja buscar no relatório,entre A pagar, pagas, todas e atrasadas;
+
+Na parte superior da tela há os seguintes botões:
+
+
+
+* **Início** e **Término** para determinar um período de datas a ser pesquisado pelo sistema;
+* **Incluir despesas com funcionários;**
+* **Mostrar somente notas fiscais;**
+* **Mostrar somente fornecedores;**
+* **Mostrar somente clientes;**
+* **Empresa**, para selecionar uma empresa;
+* **Imprimir** para imprimir dados do relatório;
+* **Aplicar** para realizar a pesquisa no sistema;
+
+Logo abaixo há as abas a escolher uma delas para classificar a pesquisa e algumas delas há um botão disponível para escolher determinada opção:
+
+
+
+Este é um exemplo no caso de fornecedor, que para prosseguir na pesquisa deve-se escolher um favorecido.
+
+Logo abaixo mostra o resultado do relatório com as contas à pagar e seus detalhes:

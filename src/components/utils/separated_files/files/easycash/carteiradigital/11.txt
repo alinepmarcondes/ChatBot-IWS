@@ -1,0 +1,26 @@
+Title: Carteiras Digitais Suportadas
+
+Content:
+Em ambiente de homologação foram testadas as seguintes carteiras digitais, segue:
+
+* TROCO SIMPLES
+* TROCO SIMPLES DOACAO
+* ITI(ITAU)
+* VEE
+* IzPay
+
+Segundo a documentação **Carteiras Digitais - Biblioteca CliSiTef - Versão 1.23 (Anexo I pág. 28 a 35)** temos a descrição das seguintes carteiras:
+
+* 4All
+* Cielo (Crédito / Débito)
+* ITI / ITAU
+* IzPay
+* MERCADO PAGO
+* MONEYPAG
+* NUCASH
+* PICPAY
+* TAPAGO
+* TROCO SIMPLES
+* VC+
+* VEE
+* BRINKSPAY

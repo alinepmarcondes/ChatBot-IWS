@@ -1,0 +1,18 @@
+Title: Tipos de Tabela Cliente
+
+Content:
+O Tipos de Tabela Cliente é uma ferramenta que permite ao usuário configurar os tipos de tabela que serão usadas para formação do preço dos produtos no orçamento do cadastro do cliente.
+
+Para utilizar a primeira coisa a se fazer é cadastrar os detalhes da tabela e para isso é preciso acessar o menu: **Gerenciamento -> Configurações -> Geral**, localizar o item **Detalhes Tipo de Tabela Cliente**, seleciona-lo e clicar no **botão Novo Sub-Item**, após clicar será exibida uma janela para informar o nome do detalhamento, basta informar e clicar em **OK**. 
+
+Após cadastrar os tipos de detalhamentos é possivel configurar os Tipos de Tabela cliente em **Gerenciamento -> Cadastros -> Tipos de Tabela Cliente**.
+
+
+
+Essa é a interface que será utilizada para cadastrar os Tipos de Tabelas de Cliente e associa-las a eles. 
+
+Para cadastrar uma nova tabela basta clicar no **botão Novo** que irá permitir o cadastro.
+
+
+
+Preencha com a descrição da nova tabela a ser criada e informe os valores dos detalhes (previamente cadastrados como informado anteriormente).

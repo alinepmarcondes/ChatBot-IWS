@@ -1,0 +1,23 @@
+Title: Histórico Relacionamento
+
+Content:
+A aba "//**Histórico Relacionamento**//" mostra um histórico do relacionamento do fornecedor com a loja, pode salvar fotos, documentos, ou apenas digitar os detalhes do histórico.
+
+
+
+Ao iniciar essa tela o usuário poderá escolher determinado período e verificar os fatos ocorridos no mesmo, desde que o usuário tenha alimentado o sistema nesse período. A principal função dessa tela e guardar situações ocorridas entre o usuário e seu fornecedor. Funciona como se fosse uma agenda, aonde o usuário descreverá a Data, Assunto, Empenho (Documento), Descrição e o Anexo, do fato ocorrido. Ex.: Suponhamos que seu cliente te mande um e-mail com anexo e você queria guarda essas informações no sistema Intellicash.
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** Determina um período de datas a pesquisar o histórico de compras;
+* **Filtrar Assunto:** para escolher a opção entre "//**Pesquisar**//" ele faz uma pesquisa no grid e da um foco no resultado da pesquisa realizada, a opção "//**Filtro**//" após realizada uma pesquisa o sistema limpa o grid e retorna apenas os resultados da pesquisa;
+* **Loc. Nº Doc.:** para fazer uma pesquisa pelo número do documento;
+* **Loc. Assunto:** para fazer uma pesquisa pelo assunto do documento;
+
+Há também os seguintes botões:
+
+* "//**Inserir:**//" Para inserir um documento, ao clicar neste botão aparecerá a seguinte tela:
+
+Nesta tela é necessário informar a data, o assunto, a descrição e o número do documento, para fazer um upload do arquivo basta clicar no botão em forma de clipe () na parte inferior esquerda da tela. Após isso basta confirmar a operação e o documento será salvo no histórico do cliente.
+* "//**Alterar:**//" para alterar dados do documento, aparecerá a mesma interface citada acima;
+* "//**Excluir:**//" para excluir um documento do cliente;

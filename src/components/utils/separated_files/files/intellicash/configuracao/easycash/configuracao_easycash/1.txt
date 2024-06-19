@@ -1,0 +1,16 @@
+Title: == Configuração
+
+Content:
+==
+
+----
+
+O sistema possui alguns parâmetros de configuração. A tela de configuração foi dividida em quatro abas principais: **PDV, Cadastro, Dav/Pré-Venda e Troca de Mercadoria**. Cada aba foi subdividida em outras abas que iremos especificar cada uma delas. Uma vez exportado as configurações, todos os caixas receberão a mesma configuração. Se for alterada alguma configuração em algum caixa específico devido a sua peculiaridade como, por exemplo, leitor serial, se exportar novamente as configurações da retaguarda, as configurações que foram feitas no caixa serão subscrita.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→EasyCash→Configuração EasyCash||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

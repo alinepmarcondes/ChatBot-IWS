@@ -1,0 +1,33 @@
+Title: Alteração Rápida de Preço
+
+Content:
+Ao clicar nesta opção se o sistema controlar apenas uma empresa, aparecerá a seguinte interface:
+
+
+
+Ao entrar nesta ferramenta automaticamente entrará na aba "//**Seleção**//".
+
+Na parte inferior desta tela há os seguintes campos:
+
+* **Custo Atual:** Mostra o custo atual do produto;
+* **MarkUp Atual:** Mostra o markup atual do produto;
+* **Preço Atual:** Mostra o preço atual do produto;
+* **Markup Mín.:** Mostra o markup atual do preço mínimo;
+* **Preço Mín.:**MOstra o preço mínimo atual;
+* **Novo Custo:** Onde é informado o novo custo do produto;
+* **Novo MarkUp:** Onde é informado o novo markup do produto;
+* **Novo Preço:** onde é informado o novo preço do produto;
+* **Novo Mkp Mín.:** onde é informado o novo markup do preço mínimo;
+* **Novo Preço Mín.:** onde é informado o novo preço mínimo;
+
+
+
+Ao clicar com o botão direito do mouse sobre a interface há as seguintes opções:
+
+
+
+* **Marcar Todos:** Para marcar todos os produtos para alteração de preços;
+* **Desmarcar Todos:** para desmarcar todos os produtos para alteração de preços;
+* **Inverter Seleção:** Para inverter a seleção dos produtos;
+* **Habilitar Preço 2:**
+* **Selecionar...:**

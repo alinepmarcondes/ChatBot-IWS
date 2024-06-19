@@ -1,0 +1,10 @@
+Title: == Cadastrar Produtos
+
+Content:
+==
+
+----
+
+Além de cadastrar produtos, esta tela tem entre outras ferramentas o histórico de vendas dos produtos, sua posição em estoque, adicionar ou remover equivalências e também criar kits e produção além de outros.
+
+----

@@ -1,0 +1,32 @@
+Title: == Cadastrar Usuário do Coletor
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar os usuários do coletor.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→IntelliStock→Cadastros→Usuário do Coletor||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tela há os seguintes campos:
+
+* **Novo:** Para cadastrar um novo usuário, e ao clicar neste botão aparecerá a seguinte tela:
+
+Nesta tela é necessário informar o nome do usuário e a senha do coletor, e após isso basta confirmar a operação;
+* **Alterar:** para alterar os dados do usuário do coletor;
+* **Excluir:** para excluir um usuário;
+* **Anterior:** para selecionar um usuário anterior;
+* **Próximo:** para selecionar o próximo usuário;
+* **Localizar:** para localizar um usuário em específico;
+* **Ativos:** para localizar apenas usuários ativos;
+* **Inativos:** para localizar apenas usuários inativos;
+* **Buscar:** para realizar a pesquisa;

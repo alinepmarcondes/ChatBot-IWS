@@ -1,0 +1,4 @@
+Title: Filtrar por Atributos
+
+Content:
+A partir da versão 3.0.4.5 foi inserido a funcionalidade para permitir realizar filtros pelos seguintes atributos: Fabricante/ Grupo/ Seção e SubGrupo. O intuito desta melhoria é trazer ao representante maior agilidade no ato da cotação, reduzindo e/ou restringindo a somente os itens que merecem a sua atenção. Ao realizar a seleção(s) dos devidos filtros a aplicação atualiza automaticamente as informações da tela.

@@ -1,0 +1,6 @@
+Title: = DAV/Pré-Venda
+
+Content:
+=
+
+As informações para liberação de venda de dav e pré-venda agora ficam guardados no servidor do IntelliWeb sendo enviados/recebidos no momento da liberação. Segue:

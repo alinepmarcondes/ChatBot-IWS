@@ -1,0 +1,39 @@
+Title: Início
+
+Content:
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Estoque→Análise de Qtde→Relatórios de Estoque||
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na aparte superior da tela há os seguintes campos:
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Data:** para selecionar uma data a ser pesquisada;
+* **Tipo:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Filtro:** Para selecionar uma categoria do atributo selecionado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+* **Exportar:** para exportar dados do relatório para um arquivo excel;
+* **Exibir Estoque Atual** quando marcado, faz uma comparação do estoque do dia selecionado com o estoque do dia atual.
+
+Abaixo, na parte inferior da tela, há o botão "//**Livro de Inventário**//" para caso queira registrar os dados no livro de inventário do dia em que se está pesquisado, ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela é necessário que digite o número do livro para realizar a operação e existem os botões cancelar para cancelar e fechar esta operação e ok para realizar a operação e registrar no livro de inventário e concluir a operação.
+
+Ao marcar a opção "//**Bloquear Lançamentos**//" após gerar o livro de inventário, irá bloquear qualquer lançamento que crie uma movimentação de estoque referente ao mês em que o lançamento foi bloqueado. Após isso, caso seja necessário fazer um novo lançamento que irá movimentar o estoque será necessário desbloquear o período. Para isto é necessário ir na ferramenta de bloqueio (Ferramentas→Bloqueio) e desbloquear o período que se deseja realizar uma movimentação (se o usuário tiver permissão).
+
+Ao clicar com o botão direito do mouse sobre a parte inferior da tela há a opção de "//**Exportar Livro**//";
+
+
+
+Ao clicar nesta opção, o sistema irá solicitar para escolher um diretório para salvar o arquivo. O arquivo é exportado no formato Excel com os dados do relatório gerado.
+
+
+
+===Versão 3.0.140.003===
+A partir desta versão o campo **Depóstio** no filtro estará disponível para empresas que fizerem o controle do estoque por depósitos.

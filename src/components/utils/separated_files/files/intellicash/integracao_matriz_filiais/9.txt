@@ -1,0 +1,12 @@
+Title: = 1º Os dados cadastrados da Matriz:
+
+Content:
+=
+
+
+
+
+Para exportar produtos manualmente também podemos utilizar alguns filtros para facilitar na exportação, como filtrar por Grupo, SubGrupo, Seção, Etc.
+
+
+Mais em [[manuais:intellicash:cadastros:exportacao_matriz_filiais|Exportação Matriz → Filiais]].

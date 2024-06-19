@@ -1,0 +1,22 @@
+Title: == Roteiros CT-e
+
+Content:
+==
+Para facilitar a geração de CT-e, foi criado um cadastro de rotas que pode ser usado para gerar um conhecimento de transporte.
+----
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Transportadora→Roteiros CT-e||
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+Na parte superior há uma barra de ferramentas com algumas funcionalidades:\\
+***Imprimir:** Imprime os dados listados. ao clicar do lado direito do botão o sistema oferece as opções de:
+- Visualizar Impressão;
+- Exportar para PDF;
+- COnfigurar o Layout de Impressão.
+* **Novo:** abre a interface para cadastro de um novo roteiro;\\
+* **Alterar:**Permite alterar dados do roteiro. Para habilitar esse botão é preciso acessar o cadastro de um roteiro;\\
+* **Excluir:**Torna o roteiro inativo. Para habilitar esse botão é preciso acessar o cadastro de um roteiro;\\
+* **Duplicar:** Esse botão faz parte de uma interface padrão, mas que no cadastro de roteiro não tem funcionalidades e por isso fica desativado;\\
+* **Anterior:** e **Próximo:** torna-se disponível na aba Cadastro, assim podemos exibir o próximo cadastro ativo no banco ou os cadastros anteriores, se houver.

@@ -1,0 +1,24 @@
+Title: == Enviar Email
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de enviar email diretamente pelo sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Enviar Email||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os serguintes campos:
+
+* **Para:** para informar o destinatário do email, se clicar em cima da palavra aparecerá uma nova interface para pesquisar os emails dos clientes;
+* **Assunto:** para informar o assunto da mensagem;
+* **Mensagem:** para escrever o conteúdo da mensagem;

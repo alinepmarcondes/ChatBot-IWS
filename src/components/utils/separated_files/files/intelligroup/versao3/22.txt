@@ -1,0 +1,10 @@
+Title: Papéis
+
+Content:
+----
+
+Papel é a função que os usuários cumprem dentro do [[manuais:intelligroup:versao3|Painel da Associação]].
+
+----
+
+Para acessar a tela **Cadastro de papéis** clique no menu **Cadastrar** e depois em **Papéis**.

@@ -1,0 +1,27 @@
+Title: == Cadastro de entregadores
+
+Content:
+==
+
+----
+
+ Interface criada para permitir cadastrar os entregadores/motoristas utilizados na [[manuais:intellicash:estoque:vendas:entrega_pdv|Ferramenta de Controle de Entrega do PDV]].
+
+----
+
+Para abrir esta interface, basta entrar no menu em:
+
+||Gerenciamento→Cadastro→Entregador||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+A tela está dividida em três partes: Busca, funcionários disponíveis e entregadores cadastrados.
+Ao entrar nesta tela, todos os funcionários disponíveis serão carregados e apresentados na listagem "Funcionários disponíveis". Caso exista a necessidade de se localizar um funcionário em específico, ou queira filtra-los pela função, basta digitar o nome, documento ou a função no campo "Nome/Documento/Função" e apertar a tecla "Enter" do teclado. Com isto, a listagem apresentará apenas os registros relacionados. Se o funcionário ainda não foi cadastrado, é possível clicar no botão "Novo" e cadastrá-lo pelo processo padrão do sistema. Após cadastrado, clica-se no botão "Atualizar" e o mesmo constará na listagem de funcionários disponíveis.
+
+=== Cadastrar entregadores ===
+Após localizar o funcionário ou um grupo de funcionários, basta selecionar e clicar o com botão direito do mouse sobre ele seguido pelo item "Cadastrar funcionário". Note que os funcionários selecionados aparecerão na listagem "Entregadores cadastrados" (lado esquerdo) e desaparecerão da listagem "Funcionários disponíveis" (lado direito). 
+
+=== Excluir entregadores ===
+Caso necessite retirar algum entregador, basta selecionar e clicar com o botão esquerdo do mouse sobre o mesmo na listagem "Entregadores cadastrados" seguido pelo item "Excluir". Desta forma, o entregador constará novamente na listagem de "Funcionários disponíveis".

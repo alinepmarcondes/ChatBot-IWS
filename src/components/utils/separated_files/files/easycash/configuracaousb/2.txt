@@ -1,0 +1,11 @@
+Title: = Impressoras Homologadas
+
+Content:
+=
+
+Não são todas as impressoras que podem ser acessadas diretamente via USB. Foram testadas e homologadas nesta versão as seguintes impressoras:
+
+* **Elgin I9**
+* **Sweda SI-300S**
+
+Foi também testado a impressora **Bematech MP-4200 TH** mas a mesma __não oferece nenhum suporte a impressão direta via USB__, sendo utilizada somente com porta emulada.

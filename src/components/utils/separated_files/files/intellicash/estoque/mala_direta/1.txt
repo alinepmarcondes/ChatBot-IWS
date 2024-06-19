@@ -1,0 +1,37 @@
+Title: == Mala Direta
+
+Content:
+==
+
+----
+
+Mala Direta é uma ferramenta criada para criar uma lista com endereços dos clientes e imprimí-las.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Mala Direta||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Tipo:** para selecionar um tipo de endereço para criar um filtro;
+* **Cliente:** para informar o nome do cliente desejado;
+* **Nº Impressões:** para informar quantas impressões do endereço do cliente deseja;
+* **Inserir:** para inserir o endereço do cliente na lista;
+* **Clientes:** Ao clicar neste botão ele listará todos os clientes com o tipo de endereço filtrado;
+* **Imprimir:** Para imprimir os dados da lista;
+* **Lista:** para selecionar uma lista salva;
+* **Abrir:** para recarregar uma lista salva selecionada pelo campo "//**Lista**//";
+* **Nova Lista:** para criar uma nova lista de mala direta e ao clicar neste botão aparecerá a seguinte interface:
+
+
+
+Nesta tela há alguns campos distintos como:
+
+* **Nome da Lista:** para designar um nome para a nova lista;
+* **Cadastrar:** para salvar a lista;

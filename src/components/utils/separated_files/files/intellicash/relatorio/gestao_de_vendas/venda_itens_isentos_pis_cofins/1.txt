@@ -1,0 +1,16 @@
+Title: == Vendas de Itens Isentos e Monofásicos de PIS/COFINS
+
+Content:
+==
+
+----
+
+Este relatório tem a função de mostrar as vendas de produtos monofásicos de pis e cofins, em um determinado período.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Vendas de Itens Isentos PIS/COFINS||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

@@ -1,0 +1,39 @@
+Title: == Cadastrar ECF’s
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar as ECF's do estabelecimento;
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→ECF’s||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Esta tela mostra todos os ECF’s cadastrados e seus dados, permitindo cadastrar, alterar ou desativá-los. Na parte superior da tela há os seguintes botões:
+
+* **Novo** para adicionar um novo ECF ou SAT. Ao clicar neste botão aparecerá a seguinte tela:
+
+Nesta tela existem os seguintes campos a preencher: 
+- **PDV** para informar em qual frente de caixa este ECF está instalado;
+- **Série** é o número de serie da impressora ou do SAT;
+- **Modelo do ECF** é o modelo de fabricante do ECF ou do S@T; 
+- **S@T** é a opção para marcar caso seu equipamento seja S@T;
+- **Remoto** é a opção para marcar caso seja um SAT remoto ou compartilhado;
+- **Endereço** de rede é o ip da máquina onde está instalado o ECF;
+- **Alias** é o nome do banco de dados do EasyCash;
+- **Empresa** é para selecionar a empresa utilizada no EasyCash;
+
+* **Alterar** para alterar os dados de um ECF já cadastrado com a mesma interface do botão novo;
+* **Desativar** para desativar um ECF ativo.
+* **Comunicar** para verificar a comunicação de ip entre as máquinas. Ao solicitar a comunicação será atualizado o Status na tela:
+- **Verde:** o IP esta ativo
+- **Vermelho:** IP inativo
+- **Amarelo:** Impressoras inativas

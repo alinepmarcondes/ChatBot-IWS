@@ -1,0 +1,4 @@
+Title: Marcas própria
+
+Content:
+Para acessar a tela **Cadastro de marcas própria** clique no menu **Cadastrar** e depois em **Marcas Própria**.

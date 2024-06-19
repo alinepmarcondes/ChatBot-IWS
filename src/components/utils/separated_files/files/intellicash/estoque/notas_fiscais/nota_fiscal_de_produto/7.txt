@@ -1,0 +1,22 @@
+Title: = Itens da Nota
+
+Content:
+=
+
+
+
+Nesta tela é onde fica as informações dos produtos da nota fiscal, nela é possivel inserir, alterar ou excluir os produtos. Para isso é habilitado os botões "//**Excluir Item**//" e "//**Alterar Item**//" na parte inferior da tela.
+
+
+
+Ao clicar com o botão direito do mouse sobre esta tela há algumas opções:
+
+
+
+* **Ir Para o Cadastro do Produto:** Ao clicar nesta opção abre uma interface do cadastro do produto selecionado;
+* **Observação do Lançamento/Ajuste:** Ao clicar nesta opção abre uma interface para criar um ajuste da nota fiscal;
+* **Observação do Lançamento/Ajuste em Lote:**
+
+===Versão 3.0.140.003===
+A partir desta versão o campo Depósito estará visível no canto inferior direito da interface para empresas que controlarem o estoque por depósito. Ao selecionar o item e configurar o CFOP será sugerido o depostio de origem/destino (saída/entrada) de acordo com a 
+[[manuais:intellicash:configuracao:movimentacao_multidepositos|configuração de movimentação dos depósitos]].

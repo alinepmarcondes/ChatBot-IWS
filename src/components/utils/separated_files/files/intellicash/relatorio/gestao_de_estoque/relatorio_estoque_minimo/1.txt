@@ -1,0 +1,27 @@
+Title: == Relatório de Estoque Mínimo
+
+Content:
+==
+
+----
+
+Esta tela gera um relatório de itens que estejam abaixo do estoque mínimo configurado no cadastro de produtos, e também sugere a criação de pedidos para compra desses produtos.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Estoque→Análise de Qtde→Relatório de Estoque Mínimo||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes campos:
+
+* **Tipo:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Categoria:** Para selecionar alguma classificação da classe selecionada;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Após realizado a pesquisa aparecerá no grid abaixo todos os produtos com o estoque abaixo do estoque mínimo do produto,no grid há a caixa de marcação para marcar os itens que deseja realizar um pedido de compra (há a opção de marcar ou desmarcar todos clicando com o botão direito do mouse na interface), após isso basta clicar no botão "//**Gerar Pedido**//" na parte superior da tela que estará habilitado. E ao clicar nele aparecerá a seguinte interface:

@@ -1,0 +1,6 @@
+Title: Zerar Estoque Não Inventariado
+
+Content:
+Ao clicar em "//**Zerar Estoque de Todos os Itens Não Inventariados**//" irá selecionar todos os produtos que não foram inventáriados e irá zerá-los. 
+
+Ao selecionar qualquer uma dessas opções ao clicar, no inventário que teve itens zerados aparecerá uma interface do lado da tela com as informações do inventário.

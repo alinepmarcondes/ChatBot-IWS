@@ -1,0 +1,22 @@
+Title: 1. Valores da Nota
+
+Content:
+Dados da Nota relacionada à natureza e valores:
+
+* **Natureza da Operação:** Par informar a natureza de operação da nota fiscal (entrada, saída, devolução, etc.);
+* **Base Cálc. ICMS:** Neste campo deve ser informado a base de cálculo do ICMS;
+* **Valor ICMS:** Neste campo deve ser informado o valor do ICMS;
+* **Frete na Nota:** Neste campo deve ser informado o frete na nota;
+* **Frete à Parte:** Neste campo deve ser informado se há um frete a parte da nota;
+* **Base cálc. ST:** Neste campo deve ser informado a base de cálculo de substituição tributária;
+* **Valor ST:** Neste campo deve ser informado o valor de substituição tributária;
+* **Seguro:** Neste campo deve ser informado o seguro do produto;
+* **Outras Despesas Acssórias:** Neste campo deve ser informado outras despesas da nota;
+* **Valor IPI:** Neste campo deve ser informado o valor do IPI da nota;
+* **Valor Líq. Prod.:** Neste campo deve ser informado o valor líquido dos produtos da nota;
+* **Descontos:** Neste campo deve ser informado se há descontos na nota;
+* **Total da Nota:** Neste campo deve ser informado o valor total da nota;
+* **Acréscimo Fin.:** Neste campo deve ser informado se há algum acréscimo financeiro;
+* **Outros Custos:** Neste campo deve ser informado outros custos na nota;
+* **Total Final:** Neste campo deve ser informado o total final da nota fiscal;
+* **Total Real:** Este campo informa o total real da nota fiscal;

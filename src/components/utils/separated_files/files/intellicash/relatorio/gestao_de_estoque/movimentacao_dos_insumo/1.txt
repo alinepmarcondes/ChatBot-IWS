@@ -1,0 +1,20 @@
+Title: == Movimentação dos Insumos
+
+Content:
+==
+
+----
+
+Este relatorio permite verificar num determinado periodo quais insumos tiveram movimentação e quais itens foram beneficiado com essa movimentação.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Estoque→Análise de Qtde→Movimentação de Insumos||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao acessar a interface o usuário deverá informar a empresa (caso tenha mais de uma), o periodo e clicar em aplicar. No grid superior irá listar os insumos, ao selecionar um item será listado no grido inferior os kits e compostos que foram beneficiado com a movimentação do insumo. Ao dar um duplo clique em qualquer um dos grids será aberto o cadastro do item selecionado.

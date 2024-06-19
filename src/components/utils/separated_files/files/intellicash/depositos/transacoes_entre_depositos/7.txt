@@ -1,0 +1,6 @@
+Title: = Quantidade
+
+Content:
+=
+
+Se refere à quantidade de produtos a serem transferidos do depósito de origem para o depósito de destino.

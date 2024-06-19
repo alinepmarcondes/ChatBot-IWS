@@ -1,0 +1,10 @@
+Title: = Recebimento
+
+Content:
+=
+
+
+
+Nesta interface basta selecionar o faturamento a ser recebibido e clicar no botão "//**Receber**//".
+
+Em caso de dúvidas sobre recebimento acesse o manual de [[manuais:intellicash:financeiro:baixas_contas_receber|Contas a Receber]]

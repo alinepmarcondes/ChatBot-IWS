@@ -1,0 +1,6 @@
+Title: = Etapa 04 - Extraindo arquivos
+
+Content:
+=
+
+Os arquivos baixados são extraídos.

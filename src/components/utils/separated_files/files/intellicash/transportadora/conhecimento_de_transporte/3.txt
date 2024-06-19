@@ -1,0 +1,27 @@
+Title: == Cadastrando um novo CT-e
+
+Content:
+==
+
+Ao clicar no botão “**Novo**” aparecerá a seguinte janela:
+
+
+
+- **CT-e:** possui informações sobre o CT-e.
+***Modelo:** Modelo do CT-e (57);
+* **Série:** Série do CT-e;
+* **Número:** Número do CT-e;
+* **Emissão:** Data de emissão do CT-e;
+* **Tipo Tom.:** tipo de tomador do serviço, se "**remetente**", "**destinatário**", "**expedidor**", "**recebedor**" ou "**outro**";
+- **Participantes:**agentes que fazem parte do CT-e, dividida em quatro abas:
+* **Remetente:** é obrigatório e trata o participante que remete a mercadoria;
+* **Expedidor** e **Recebedor:** informativo.
+***Destinatário:** é obrigatório e trata o participante que se destina a mercadoria;
+***Tomador:** é obrigatório e trata o participante a que se emite o frete;
+- **Dados de carga e financeiro:**Dividido em seis abas:
+* Documentos: lista os documentos que são acobertados pelo CT-e;
+* Carga/Seguro: são obrigatórios na emissão do CT-e;
+* Dados Complementares: são opcionais na emissão do CT-e;
+* Valores:São valores a Receber;
+* Imposto:Imposto cobrado pelo serviço;
+* Veículo: Dados do veículo que irá realizar o transporte;

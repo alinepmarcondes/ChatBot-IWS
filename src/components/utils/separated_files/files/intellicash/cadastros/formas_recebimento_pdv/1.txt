@@ -1,0 +1,26 @@
+Title: == Formas de Recebimento PDV
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar as formas de recebimento usadas no frente de caixa Checkout de acordo com o código de cada recebimento.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Formas de Recebimento PDV||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Forma de Recebimento:** para selecionar uma forma de recebimento;
+* **Código Forma PDV:** para informar o código desta forma de recebimento no PDV;
+* **PDV:** para informar qual PDV irá cadastrar;
+* **Selecionar Todos Os PDVs:** Ao selecionar esta opção, cadastrará a forma de recebimento para todos os PDVs (Lmebrando que deve preenher os demais campos e deixar o campo "//**PDV**//" vazio);
+* **Ok:** Para confirmar a operação;

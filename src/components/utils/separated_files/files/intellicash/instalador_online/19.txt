@@ -1,0 +1,9 @@
+Title: Código 007
+
+Content:
+Mensagem de erro: //Falha ao configurar XML! Entre em contato com o suporte!//
+
+Soluções possíveis:
+* Verique se há conexão de Internet.
+* Verique se Serivor IWS está online.
+* Verique as configurações de proxy e o firewall.

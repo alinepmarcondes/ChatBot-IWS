@@ -1,0 +1,39 @@
+Title: == Relatórios de Caixas
+
+Content:
+==
+
+----
+
+Esta ferramenta apresenta um relatóriodos "//**Turnos do Caixa**//" do IntelliCash, mostrando toda a movimentação por caixa.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Relatórios de Caixas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+* **Mostrar Vendas Líquidas:**
+
+A coluna "//**Caixas**//" mostra todos os caixas do turnos do caixa e seus dados referente ao período selecionado.
+
+A coluna "//**Espécie**//" Mostra as espécies de um caixa selecionado e mostra seus valores.
+
+A coluna "//**Descrição dos Recebimentos**//" mostra os detalhes de uma espécie selecionada e mostra toda a descrição dos recebimentos realizados. Ao clicar com o botão direito sobre um recebimento haverá a opção "//**Detalhes Financeiros**//" e aparecerá a seguinte interface:
+
+
+
+A primeira coluna mostra como foi realizado a cobrança e a segunda coluna mostra a forma de pagamento utilizada, ambas com seus devidos detalhes.
+
+A coluna "//**Vendas Líquidas**//" 
+
+Na parte inferior da tela ainda há os totalizadores das vendas.

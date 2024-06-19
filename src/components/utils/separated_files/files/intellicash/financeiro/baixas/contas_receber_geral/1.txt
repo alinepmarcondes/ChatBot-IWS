@@ -1,0 +1,30 @@
+Title: == Contas a Receber Geral
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de dar baixa em vários lançamentos financeiros simultâneos de contas a receber.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Baixas→Títulos a Receber Geral||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao clicar nesta tela existem duas abas, "//**Data de Entrada**//" e "//**Data de Vencimento**//", para selecionar uma das duas abas para realizar a pesquisa pelos lançamentos financeiros em aberto.
+
+Na parte superior desta tela há os seguintes botões:
+
+* **Início** e **Término:** Para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** Para imprimir dados do relatório.
+* **Cliente:** Para localizar um cliente em específico;
+* **Empresa:** Para selecionar uma empresa para realizar a pesquisa;
+
+Após realizada a pesquisa é necessário realizar a operação marcando os checkbox dos lançamentos que irá receber. Após selecionados os lançamentos é necessário seleiconar o caixa que irá receber este dinheiro na parte inferior da tela em seguida clicar no botão "//**Receber**//", também na parte inferior da tela. Feito isso o sistema ja terá baixado os lançamentos.

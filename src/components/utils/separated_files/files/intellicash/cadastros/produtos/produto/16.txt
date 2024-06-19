@@ -1,0 +1,31 @@
+Title: Histórico de Compras
+
+Content:
+A aba "//**Compras**//" mostra um histórico de todas as compras do sistema, seja ela impresso, pendente, descartado, vencidas ou confirmadas.
+
+Nesta tela há duas partes, a parte de "//**Entradas**//", existem duas colunas, uma mostrando o histórico de compras numericamente à esquerda, e à direita um gráfico do histórico de compras para melhor visualização. Os dados numéricos contém os seguintes atributos:
+
+* **Fornecedor:** informa o fornecedor deste produto;
+* **Nº Doc.:** Informa o número na NF-e;
+* **Data:** informa a data do ocorrido;
+* **Qtde.:** informa a quantidade comprada;
+* **Total:** informa o preço total da compra;
+* **Unitário:** mostra o preço unitário da compra do produto;
+* **Cód. Forn.:** Mostra o código utilizado pelo fornecedor;
+* **Mod.:** Mostra o modelo da nota;
+* **CFOP:** mostra o CFOP da nota;
+* **Mov. Estq.:** Mostra se o produto teve movimentação de estoque;
+* **Tipo Op.:** Mostra o tipo de operação realizada;
+* **Validade:** mostra a validade;
+
+A segunda parte chamada "//**Pedidos**//" mostra os detalhes de todos os pedidos realizado nela, cada aba corresponde a um tipo de situação do pedido. Esta coluna contém os seguintes atributos:
+
+* **Data:** mostra a data do pedido do produto;
+* **Fornecedor:** informa o fornecedor do pedido;
+* **CNPJ:** informa o CNPJ da empresa;
+* **Validade:** informa a validade do pedido;
+* **Qtde.:** Informa a quantidade do pedido;
+* **Número:** Informa o número do pedido;
+* **Comprador:** Informa quem fez o pedido;
+* **Representante:** Informa o representante; 
+* **Situação:** mostra a situação do pedido;

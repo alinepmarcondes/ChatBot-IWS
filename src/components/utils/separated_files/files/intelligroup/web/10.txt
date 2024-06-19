@@ -1,0 +1,4 @@
+Title: Imprimir
+
+Content:
+Para imprimir a listagem de associados, o usuário deverá clicar no botão "Imprimir" localizado no canto superior esquerdo conforme demonstra a figura abaixo.

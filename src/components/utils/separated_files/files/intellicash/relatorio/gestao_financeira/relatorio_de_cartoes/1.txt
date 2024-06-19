@@ -1,0 +1,27 @@
+Title: == Relatório de Cartões
+
+Content:
+==
+
+----
+
+Este relatório mostra as informações financeiras sobre os cartões cadastrados no sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Relatório de Cartões||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tela há os seguintes botões:
+
+* **Tipo de Cartão:** para escolher o tipo entre crédito, débito ou todos;
+* **Início e Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Abaixo mostra os resultados da pesquisa com os tipos de cartões e seus dados, à esquerda mostra todos os seus dados numericamente e à direita os dados graficamente para uma melhor visualização;

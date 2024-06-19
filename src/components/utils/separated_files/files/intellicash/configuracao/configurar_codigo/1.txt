@@ -1,0 +1,26 @@
+Title: == Configurar Código
+
+Content:
+==
+
+
+Esta ferramenta permite configurar códigos que serão concatenados no código de barras do produto para facilitar a sua identificação.
+
+----
+
+Para abrir esta ferramenta basta acessar o seguinte menu:
+
+||Gerenciamento→Configuração→Configurar Código||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Para configurar um padrão de identificação, basta selecionar o tipo de atributo que deseja, selecionar se a variação é uma fórmula, um separador ou se será livre.
+Ao selecionar a variação/formula temos as seguintes opções que podem ser usadas:
+* **D:** pega a primeira letra da classificação;
+* **DD:** pega as duas primeiras letras da classificação;
+* **DDD:** pega as tês primeiras letras da classificação;
+* **DDDD:** pega as quatro primeiras letras da classificação;
+* **N:** gera um numero sequencial de acordo com incremento informado;
+Para montar o padrão de código basta ir selecionado nas formulas/separador e clicando no botão adicionar, ou se preferir o usuário pode optar pela opção livre onde ele mesmo irá informar na coluna do grid o formato que deseja. Para carregar os atributos com o formato do código basta clicar no botão aplicar. No grid serão listados todos os atributos e seus códigos.

@@ -1,0 +1,30 @@
+Title: == Produtos com Problemas Entrada/Saída
+
+Content:
+==
+
+----
+
+Este relatório permite identificar possiveis erros de entrada e saída de produtos.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em::
+
+||Gerenciamento→Relatórios→Gestão de Estoque→Análise de Qtde→Produtos com Problemas Entrada/Saída||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes campos para fazer uma pesquisa:
+
+* **Produtos com Venda e sem Compra** e **Produtos sem Venda e com Compra** a escolher uma dessas opções para fazer a pesquisa;
+* **Início e Término(Período com Vendas):** para determinar um período de datas a ser pesquisado baseado nas vendas;
+* **Início e Término(Período sem Compras):** para determinar um período de datas a ser pesquisado baseado nas compras;
+* **Tipo:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Filtro:** Para selecionar uma categoria do atributo selecionado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Após realizada a pesquisa mostrará os resultados abaixo com os produtos e seus dados e há a opção de selecionar os itens, ou clicando com o botão pode selecionar todos os itens ou desmarcar todos, além da opção desativar produto.

@@ -1,0 +1,6 @@
+Title: = Etapa 03 - Download de arquivos para Atualização
+
+Content:
+=
+
+Nesta etapa são iniciados downloads dos arquivos necessários para a atualização. Clique no botão **Detalhes** para vizualizar todas as informações do download.

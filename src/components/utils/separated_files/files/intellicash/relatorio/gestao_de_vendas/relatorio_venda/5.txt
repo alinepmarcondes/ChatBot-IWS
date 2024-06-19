@@ -1,0 +1,8 @@
+Title: = Outros Relatórios
+
+Content:
+=
+
+
+
+A aba "//**Outras**//" mostra um relatório de vendas classificados por 2 grupos, a primeira subaba para selecionar um agente entre vendedor, tamanho e cliente, e as subabas abaixo para selecionar um atributo de produto para pesquisar. A imagem acima mostra um exemplo de //vendas por cliente e por seção// onde há uma coluna à esquerda mostrando as vendas totalizadas, ao meio mostra um relatório em duas colunas, a primeira mostrando as seções (Ou a respectiva aba selecionada acima) e a segunda com as vendas por vendedor e seus dados e à direita um gráfico para melhor visualização.

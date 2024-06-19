@@ -1,0 +1,35 @@
+Title: =Formas de Correção das Diferenças
+
+Content:
+=
+
+Algumas falhas foram detectadas e assim criadas formas de corrigir essas exceções (do ponto de vista do sistema):
+
+
+
+Obs1.: só será permitido troco em dinheiro
+Obs2.: toda venda do tipo carteira deverá entrar para algum cliente, caso não seja cadastrado, a compra deverá ser lançado para o funcionário que autorizar a venda.
+
+
+
+Soluções para problemas encontrados:
+
+(1)o sistema permitirá remanejar os cupons para a forma de pagamento correta e pedira os dados quando necessário.
+
+(2)	Com o documento de cancelamento em mão, será possível cancelar o cupom no fechamento.
+
+(3)	O recebimento deverá ser feito através do botão **Recebimento do EasyCash**.
+
+(4)	Diferença ocorrida por troco errado, normalmente valores insignificantes, que poderá ser ajustado, desde que seja dentro de um valor pré-estipulado
+
+(5)	Cliente simplesmente não pagar a compra, será qualificado como perda, a compra será excluída do financeiro, produto será baixado do estoque como perda. (necessário numero do cupom, ou alguma forma de identificar-lo)
+
+(6)	Troco de outra forma de recebimento, será dado sempre em dinheiro, e caso não seja registrado, no movimento da compra, deverá ser feita uma sangria e identificar como sendo troco do cupom X forma de pagamento X.
+
+(7)	Em caso de não permitir troco, esse valor será feito uma sangria, como visto no item (6), e poderá ser incluído no valor bruto e no troco do cupom
+
+
+(8)	Caso de perder comprovante do funcionário, será conferido se o funcionário teve vale-compra aprovado e isso irá compensar a falta do comprovante físico.
+
+
+(9)	Poderá redirecionar a sangria do vale dinheiro para comprovar que o funcionário retirou o dinheiro.

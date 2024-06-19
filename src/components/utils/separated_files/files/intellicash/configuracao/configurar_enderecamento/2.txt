@@ -1,0 +1,15 @@
+Title: = Início
+
+Content:
+=
+
+
+Para cadastrar os endereçamentos de produtos, é necessário antes criar algumas configurações para o funcionamento do sistema em:
+
+||Gerenciamento→Configuração→Configurar Endereçamento ||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Esta tela serve para criar uma parametrização dos endereços a serem cadastrados. A seguir há os seguintes botões:

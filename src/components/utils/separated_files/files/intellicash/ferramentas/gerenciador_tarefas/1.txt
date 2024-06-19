@@ -1,0 +1,16 @@
+Title: == Gerenciador de Tarefas
+
+Content:
+==
+
+----
+
+A intenção dessa ferramenta é distribuir tarefas para usuários do IntelliCash, a fim de otimizar o tempo e acompanhar o andamento do afazeres de cada usuário.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Gerenciador de Tarefa||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

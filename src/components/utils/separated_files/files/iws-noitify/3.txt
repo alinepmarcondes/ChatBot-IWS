@@ -1,0 +1,6 @@
+Title: = Autenticação
+
+Content:
+=
+
+Para autenticar, o usuário deve possuir uma conta Google no celular. Clique no botão continuar.

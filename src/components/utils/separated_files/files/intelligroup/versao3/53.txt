@@ -1,0 +1,4 @@
+Title: Pedidos
+
+Content:
+Para acessar a tela **Pedidos** clique no menu do associado e depois em **Pedidos**.

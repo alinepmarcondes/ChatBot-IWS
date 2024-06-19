@@ -1,0 +1,15 @@
+Title: = Área de Edição
+
+Content:
+=
+
+A área de edição do relatório é dividida em seções. A parte correspondente a cada seção fica acima da barra que define seu nome, ou seja, acima da barra **Header** é onde ficam os objetos do cabeçalho.
+
+Cada uma dessas seções possui um comportamento próprio. 
+O **Header** acontece apenas uma vez durante a criação do relatório e fica sempre no topo da página.
+
+Na seção **Detail** ficam os objetos vinculados a fonte de dados principal do relatório. Os itens de uma compra, por exemplo, ficam na parte de Detail e os dados o cliente no Header. Essa seção executa um loop redesenhando tudo que está dentro dessa seção para cada dado contido na fonte.
+
+O **PageSummary** é apresentado logo após o final da seção Detail.
+
+Já o **Footer** aparece no final de cada página.

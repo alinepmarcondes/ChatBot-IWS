@@ -1,0 +1,4 @@
+Title: Histórico de Alterações
+
+Content:
+Acessando a aba de histórico de alterações é possivel visualizar os itens que tiveram alterações em um determinado periodo.

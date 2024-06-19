@@ -1,0 +1,4 @@
+Title: Instalação modo Client
+
+Content:
+O modo de instalação **Client** consiste no preparo do Terminal de se comunicar com o Servidor **Intellicash**. Para iniciar o modo **Client** selecione a opção **Client** e depois clique em **Próximo**.

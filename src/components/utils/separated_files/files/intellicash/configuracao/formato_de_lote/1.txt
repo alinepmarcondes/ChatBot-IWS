@@ -1,0 +1,23 @@
+Title: == Formato de Lote
+
+Content:
+==
+
+----
+
+Esta ferramenta configura o layout do lote para ser utilizado no controle de produção ao dar entrada no item produzido.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Formato de Lote||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Para cadastrar o layout de lote baste ir selecionando em Formatos as opções desejadas e clicando em adicionar, no campo Lote o sistema irá exibindo como será a composição do lote.\\
+Caso o usuário deseja adicionar separador entre os formatos disponiveis, basta selecionar a opção Separador que se encontra na parte superior da interface, no campo **Separadores** selecionar o separador e clicar em adicionar.\\
+
+Após montado o layout basta clicar em gravar para salvar.

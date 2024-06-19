@@ -1,0 +1,10 @@
+Title: Imagens
+
+Content:
+Esta opção permite ao aplicativo realizar o download de todas as imagens do servidor que são disponibilizados através do Intellicash.
+Para habilitar esta opção o usuário deverá marcar como ativa a Sincronização.
+
+
+
+
+Quando a sincronização é realizada nas demais ocasiões, é feita uma atualização das imagens que tiveram alguma alteração.

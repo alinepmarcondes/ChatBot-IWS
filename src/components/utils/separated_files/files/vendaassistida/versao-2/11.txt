@@ -1,0 +1,6 @@
+Title: = Aplicar/Alterar Desconto do Produto
+
+Content:
+=
+
+Para aplicar ou alterar um desconto, o usuário deverá manter o produto do orçamento pressionado até que o menu de opções apareça na barra superior e pressionar o botão .

@@ -1,0 +1,20 @@
+Title: == Relatório de Promoções Ancoradas
+
+Content:
+==
+
+----
+
+Este relatorio permite a visualização das vendas realizados com promoção ancorada, mostrando quantidades vendidas na promoção normal e na ancorada com suas respectivas margens.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Relatório de Promoções Ancoradas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+No grid superiro temos os itens vendidos na promoção normal, com seu custo, quantidade vendida, preço normal, preço da promoção, margens normal, margens da promoção, custo da promoção ancorada, margens da promoção ancorada, e as marnges finais que são as margens da promoção ancorada mais a margens da promoção normal que representa a margem final da promoção, normal + ancorada. \\
+No grid inferior temos os itens da promoção ancorada com suas margens.

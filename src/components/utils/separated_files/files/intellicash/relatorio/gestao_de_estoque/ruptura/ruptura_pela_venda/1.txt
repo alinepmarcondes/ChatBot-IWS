@@ -1,0 +1,30 @@
+Title: == Relatório de Ruptura pela Venda
+
+Content:
+==
+
+----
+
+Este relatório tem a finalidade de mostrar itens que possivelmente tiveram ruptura de estoque em um determinado dia. Utiliza-se como base a a venda do item e sua probabilidade de ser vendido;
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Estoque→Ruptura→Ruptura pela Venda||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+Este relatório tem o propósito de tentar alertar o usuário uma possivel ruptura de venda baseado no seu padrão de venda. 
+
+Por meio das estatisticas de venda, o Intellicash calcula a probabilidade de um item não ser vendido, dessa forma a ideia é que esse relatório seja utilizado logo após a confirmação de venda, com a data do dia que teve a venda confirmada.
+
+O intellicash calculará quando foi a ultima venda do item, e a probabilidade dele ser vendido, e caso identifique que o item está a mais dias sem venda do que o esperado, exibirá para que o usuário possa verificar.
+
+Basicamente existem 3 tipos de ruptura:
+- Ruptura de compra: Não há estoque e por isso o item deixou de ser vendido;
+- Ruptura de reposição: Há estoque, porem o item não está exposto e por isso não foi vendido;
+- Ruptura por preço: O item possui em estoque e está bem esxposto, porem o o valor de venda está acima do mercado.
+
+Com esse relatório o usuário poderá tentar identificar essas situações.

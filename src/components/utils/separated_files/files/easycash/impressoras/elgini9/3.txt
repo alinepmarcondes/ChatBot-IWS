@@ -1,0 +1,8 @@
+Title: = Testes
+
+Content:
+=
+
+Para testar se a reconfiguração da interface de comunicação funcionou, utilizamos o **ACBrPosPrinter** e o seu Demo **PosPrinterTestes.exe** com as mesmas configurações da impressora.
+
+Os testes foram realizados de forma a conferir se os problemas previamente encontrados ainda ocorriam, portanto desligamos, religamos e reiniciamos o computador e conferimos se a impressora estava funcionado ou se precisávamos desconectá-la e reconectá-la.

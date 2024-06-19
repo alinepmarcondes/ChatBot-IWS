@@ -1,0 +1,33 @@
+Title: Histórico de Preços
+
+Content:
+A aba "//**Preço**//" informa o histórico de preço em relação à alguma das abas que estão na parte inferior da tela:
+
+- **Histórico de Venda:** Mostrará o histórico de preço em relação ao preço de venda;
+- **Custo:** Mostrará o histórico de preço em relação ao preço de custo;
+- **CMV:** Mostrará o histórico de preço em relação ao custo médio do produto;
+- **C. Contábil:** Mostrará o histórico de preço em relação ao custo contábil do produto;
+- **Max. Desc.:** Mostrará o histórico de preço em relação ao preço do produto com máximo desconto;
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** Para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+
+
+
+Na parte inferior da coluna esquerda também há um intervalo padrão.
+
+O intervalo padrão funciona quando não há uma data pré definida nos campos Início e Término e o checkbox "//**Ignorar Datas**//" está DESMARCADO. O sistema pega a data de hoje e retrocede o número de dias que está selecionado no intervalo padrão para gerar o histórico.
+
+Se o checkbox "//**Ignorar Datas**//" estiver marcado o sistema mostrará o resultado de todas as datas, ou seja, mostrará um relatório desde o primeiro dia de movimentação do produto até o atual.
+
+Nesta tela mostra o histórico de preço do produto selecionado, de duas formas, na coluna a esquerda mostra os dados numéricos do histórico com os seguintes atributos:
+
+* **Data:** informa à data que aconteceu o ocorrido;
+* **Anterior:** informa o preço anterior;
+* **Novo:** informa o preço novo que foi alterado;
+* **Usuário:** informa o usuário que mudou o preço do produto;
+* **Data/Hora:** informa a data e a hora que aconteceu o ocorrido;

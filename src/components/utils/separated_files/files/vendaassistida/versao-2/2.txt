@@ -1,0 +1,8 @@
+Title: == Instalação
+
+Content:
+==
+
+Para instalar, o usuário deverá acessar a loja do aplicativo através do link https://play.google.com/store/apps/details?id=br.com.va.activity ou localizando o aplicativo na loja através do Play Store.
+
+Na página do aplicativo, o usuário deverá clicar sobre o botão instalar.

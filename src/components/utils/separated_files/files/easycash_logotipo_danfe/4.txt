@@ -1,0 +1,10 @@
+Title: Logotipo
+
+Content:
+O logo utilizado nos testes(POS Bematech e Elgin) possui as seguintes características:
+
+
+
+
+
+O ESC/POS só aceita o logotipo proveniente da memória da impressora POS, logo, foi desabilitada a opção de arquivo para este caso.

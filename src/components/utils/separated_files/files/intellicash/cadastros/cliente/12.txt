@@ -1,0 +1,82 @@
+Title: Histórico
+
+Content:
+=== Hist. Pagamentos ===
+
+A aba "//**Histórico Pagamentos**//" foi criada para mostrar um relatório de pagamentos do cliente durante um determinado período de datas ou pesquisando por um documento em específico. Além disso, nesta aba pode ser visto os detalhes do pagamento do cliente e também se necessário estornar pagamentos.
+
+
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Documento:** para procurar por um documento em específico. Ao lado os botões:
+* **Aplicar**para realizar a pesquisa;
+* **Imprimir** para imprimir os dados do histórico de pagamentos.
+
+Logo abaixo mostra os resultados da pesquisa realizada com todos os pagamentos feitos pelo cliente, e ao selecionar um pagamento e clicar com o botão direito do mouse há algumas opções como "//**Imprimir Recibo**//", "//**Estornar Pagamentos**//" e "//**Detalhes financeiros**//".
+
+
+
+=== Hist. Compras ===
+
+A aba "//**Histórico Compras**//" mostra os detalhes das compras realizadas pelo cliente no estabelecimento.
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** Determina um período de datas a pesquisar o histórico de compras;
+
+* **Documento:** Pesquisar por um número de documento no sistema;
+
+Na parte superior da tela há três abas, "//**Data de Entrada**//", "//**Data de Vencimento**//" e "//**Data de Pagamento**//". O histórico financeiro irá pesquisar as movimentações de acordo com a aba em que esteja.
+
+Ao clicar com o botão direito do mouse em algum lançamento poderá realizar algumas operações como imprimir recibo, editar recibo, estornar, imprimir extrato, imprimir pagamento e detalhes financeiros.
+
+
+
+=== Hist. Estorno ===
+
+A aba "//**Histórico Estorno**//" mostra os detalhes de todos os estornos financeiros realizados pelo cliente no estabelecimento.
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** Determina um período de datas a pesquisar o histórico de compras;
+
+=== Hist. Relacionamento ===
+
+A aba "//**Histórico Relacionamento**//" mostra um histórico do relacionamento do cliente com a loja, pode salvar fotos, documentos, ou apenas digitar os detalhes do histórico.
+
+
+
+Ao iniciar essa tela o usuário poderá escolher determinado período e verificar os fatos ocorridos no mesmo, desde que o usuário tenha alimentado o sistema nesse período. A principal função dessa tela e guardar situações ocorridas entre o usuário e seu cliente. Funciona como se fosse uma agenda, aonde o usuário descreverá a Data, Assunto, Empenho (Documento), Descrição e o Anexo, do fato ocorrido. Ex.: Suponhamos que seu cliente te mande um e-mail com anexo e você queria guarda essas informações no sistema Intellicash.
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** Determina um período de datas a pesquisar o histórico de compras;
+* **Filtrar Assunto:** para escolher a opção entre "//**Pesquisar**//" ele faz uma pesquisa no grid e da um foco no resultado da pesquisa realizada, a opção "//**Filtro**//" após realizada uma pesquisa o sistema limpa o grid e retorna apenas os resultados da pesquisa;
+* **Loc. Nº Doc.:** para fazer uma pesquisa pelo número do documento;
+* **Loc. Assunto:** para fazer uma pesquisa pelo assunto do documento;
+
+Há também os seguintes botões:
+
+* "//**Inserir:**//" Para inserir um documento, ao clicar neste botão aparecerá a seguinte tela:
+
+Nesta tela é necessário informar a data, o assunto, a descrição e o número do documento, para fazer um upload do arquivo basta clicar no botão em forma de clipe () na parte inferior esquerda da tela. Após isso basta confirmar a operação e o documento será salvo no histórico do cliente.
+* "//**Alterar:**//" para alterar dados do documento, aparecerá a mesma interface citada acima;
+* "//**Excluir:**//" para excluir um documento do cliente;
+
+=== Hist. Orçamentos ===
+
+A aba "//**Histórico Orçamentos**//" mostra um histórico dos orçamentos do cliente realizados na loja.
+
+
+
+Na parte superior ta tela há os seguintes campos para realizar a pesquisa:
+
+* **Início** e **Término:** Determina um período de datas a pesquisar o histórico de compras;
+* **Situação:** para determinar a situação do orçamento a ser pesquisada.
+* **Documento:** para pesquisar por um documento em específico.
+
+Logo abaixo há a coluna de orçamentos, onde fica os orçamentos realizados pelo cliente e seus detalhes, e a coluna de itens mostram todos os itens de um orçamento selecionado e seus detalhes.

@@ -1,0 +1,64 @@
+Title: Cadastrando um Fornecedor
+
+Content:
+Após clicar no botão novo aparecerá uma nova tela:
+
+
+
+Após digitar o CNPJ/CPF e cadastrá-lo aparecerá uma nova tela para cadastrar o fornecedor:
+
+
+
+O preenchimento dos dados, na primeira parte, é sobre as informações básicas do fornecedor:
+
+* **Razão social:** Para informar a razão social do fornecedor;
+* **Fantasia:** Para informar o nome fantasia do fornecedor;
+* **CNPJ:** Para informar o CNPJ do fornecedor;
+* **Inscrição estadual:** Para informar a Inscrição estadual do fornecedor;
+* **Tipo:** Para informar o tipo de regime tributário do fornecedor;
+* **UF:** Para informar o estado do fornecedor;
+* **Reposição:**
+
+Na segunda parte intitulada “Taxas”, há os seguintes checkbox a serem marcados. Estas opções definem como será feito o cálculo de tributação sobre a NF do fornecedor:
+
+* **Destaca ICMS;**
+* **Acréscimo financeiro incide sobre a base de cálculo;**
+* **outras despesas acessórias incidem sobre a base de caçulos;**
+* **IPI incide sobre empresas acessórias, frete, seguro;**
+* **Isento de recolhimento PIS/CONFINS;**
+* **UF com base de cálculo reduzida (incentivo fiscal);**
+* **Valor da redução;**
+* **Destaca IPI;**
+* **IPI incide sobre o preço sem desconto;**
+* **Frete incide sobre a base de cálculo;**
+* **Seguro incide sobre a base de cálculo;**
+* **ICMS incide sobre IPI;**
+* **ICMS incide sobre preço sem desconto;**
+* **ICMSST incide sobre IPI;**
+
+Na terceira parte intitulada "Fornecimento", são referentes aos dados de como é o fornecimento dos produtos ao estabelecimento:
+
+* **Prazo médio entrega:** Para informar o prazo, em dias, da entrega do fornecedor ao estabelecimento;
+* **Prazo médio compra:** Para informar, em dias, qual o prazo médio de pedidos feitos ao fornecedor;
+* **Cod. Última tabela:** Para informar qual o último código da tabela utilizada pelo fornecedor;
+* **Data última tabela:** Para informar qual o ultimo dia foi utilizado a tabela;
+* **Valor pedido mínimo:** Para informar qual o valor mínimo de pedido o fornecedor atende;
+* **Perc. Seguro:** Para informar qual a percentagem de seguro, do fornecedor, que será inserido na nota;
+* **Perc. Desp. Ac.:** Para informar qual a percentagem de despesas acessórias, do fornecedor, que será inserido na nota;
+* **Perc. Frete:** Para informar qual a percentagem de frete, do fornecedor, que será inserido na nota;
+* **Frete incide sobre:** Para informar se o frete incidirá sobre o valor total dos produtos, ou o valor total da nota;
+* **Site:** Para informar o site do fornecedor;
+ 
+Após Confirmados os dados do cadastro aparecerá uma nova interface referente à endereços.
+
+
+
+Nesta interface deverão ser preenchidos os campos “//**Tipo**//” (para informar o tipo de endereço do fornecedor), “//**CEP**//”, “//**Logradouro**//”, “//**Nº**//”, “//**Complemento**//”, “//**Bairro**//”, “//**Cidade**//”, “//**UF**//”, “//**País**//”, “//**Ponto de Referência**//”, “//**I.E. Isento**//” e “//**I.E.**//”.
+
+Após Cadastrar o Endereço do fornecedor é há à interface referente à contatos do fornecedor:
+
+
+
+Nesta interface deverão ser preenchidos os campos “//**Tipo**//” (para informar o tipo de telefone do fornecedor), “//**Telefone**//”, “//**Operadora**//” e “//**Contato**//”.
+
+Após isso o fornecedor será cadastrado e automaticamente irá para a aba "//**Cadastro**//".

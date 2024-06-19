@@ -1,0 +1,26 @@
+Title: = Transferência de Valores para Matriz
+
+Content:
+=
+
+----
+
+Esta ferramenta tem a função de cadastrar as contas e caixas do sistema para controlar a movimentação financeira do estabelecimento;
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Contas e Caixas||
+
+Foi criada uma opção para que uma filial possa transferir recursos para a Matriz. No contas e caixas, selecione o caixa que tem os recursos a serem transferidos e clique no botão "//**Transf. Cx. Matriz**//".
+
+
+
+Ao clicar no botão de transferência para o caixa da Matriz o sistema irá mostrar uma tela para que o usuário selecione qual caixa da Matriz que será o destino dos recursos e informe o valor da transferência.
+
+
+
+
+
+Mais em [[manuais:intellicash:cadastros:contas_caixas|Cadastrar Contas e Caixas]].

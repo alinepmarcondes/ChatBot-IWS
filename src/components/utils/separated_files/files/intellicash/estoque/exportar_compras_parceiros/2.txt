@@ -1,0 +1,16 @@
+Title: = Cadastro do Grupo
+
+Content:
+=
+
+Para realizar a exportação de compras de **Fornecdores Parceiros** ou de **Produtos Próprios** definido pelo Grupo, o associado deve fornecer alguma informações sobre ele.
+
+
+
+**1:** CPF/CNPJ: Ao informar o número do documento do grupo todos os dados destes serão carregados de seu cadastro;
+
+**2:** Endereço de IP do Servidor: consiste no caminho que aponta para a máquina em que se encontra o banco de dados do grupo que receberá os dados exportados;
+
+**3:** Endereços: Todos os endereços cadastrados para o grupo;
+
+**4:** Telefones: Todos os telefones cadastrados para o grupo.

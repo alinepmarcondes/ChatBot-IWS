@@ -1,0 +1,4 @@
+Title: Iniciar como consumidor
+
+Content:
+Com essa configuração ativa, ao iniciar um orçamento o consumidor estará selecionado como cliente.

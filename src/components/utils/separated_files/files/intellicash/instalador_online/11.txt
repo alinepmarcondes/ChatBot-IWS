@@ -1,0 +1,4 @@
+Title: Concluir instalação
+
+Content:
+Na última tela clique em **Concluir** para finalizar a instalação.

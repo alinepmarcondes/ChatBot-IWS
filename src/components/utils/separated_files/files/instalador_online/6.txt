@@ -1,0 +1,4 @@
+Title: Atalhos na Área de Trabalho
+
+Content:
+Na tela de //"Atalhos"// o usuário deverá selecionar a aplicação que deseja seu atalho na área de trabalho. Clique em //"Instalar"// para começar o download.

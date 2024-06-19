@@ -1,0 +1,4 @@
+Title: Detalhes
+
+Content:
+Nesta guia são exibidos todos os itens da comandas, valores dos itens e taxas.

@@ -1,0 +1,37 @@
+Title: == Exportação de dados do Intellicash para o EasyCash
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de exportar dados do Intellicash para o EasyCash.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastro→Exportação→EasyCash||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface: 
+
+
+
+
+
+Os tipos de importação consistem em:
+
+* **Imediata (próximo cupom):** Isso significa que logo após a finalização do cupom fiscal será automaticamente importado os dados que foram exportados. Lembrando que esse caso levará em consideração o tempo que foi informado na configuração do arquivo EasyCash1.ini mencionado no manual de Instalação: //“Intervalo = 180: Indica o tempo em segundos que o sistema irá buscar informações de importação na retaguarda...//” 
+Por padrão essa configuração será de 180 segundos o equivalente a 3 minutos, ou seja, a cada 3 minutos o sistema irá buscar as informações que foram exportadas.
+* **Efetivação futura:** Esse caso é possível agendar uma data que será importado os dados. Após a data agendada o sistema de frente de caixa irá atualizar após uma efetivação de cupom fiscal ou poderá ser feito manualmente pelo Menu de Importação escolhendo a opção que deseja importar.
+* **Com requisição de Operador:** Essa opção exporta os dados, mas o frente só será atualizado se o Operador de caixa pedir para importar através do Menu de importação escolhendo a opção que deseja importar.
+
+Após informar o tipo de importação é só escolher o que deseja exportar e clicar no botão de **//“Exportar”//** que se encontra no fim da tela.
+
+
+
+Há ainda nesta tela de exportação de dados do Intellicash a opção de escolher o que deseja exportar sem necessidade de ir clicando por abas, ou seja, você pode selecionar o que deseja exportar em uma única vez. 
+
+Mesmo optando por exportar em uma única vez é necessário selecionar o tipo da importação para que o botão de **//“Exportar”//** possa ser habilitado.
+
+Após esse processo que o sistema de frente irá ser atualizado, mas para que ele consiga ser atualizado é necessário que o aplicativo ecUpdater.exe esteja em execução junto com EasyCash.

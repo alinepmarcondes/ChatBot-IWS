@@ -1,0 +1,8 @@
+Title: = CST
+
+Content:
+=
+
+
+
+Nesta tela mostra todos os CSTs que constam em alguma nota fiscal do período e seus detalhes.Nela há duas colunas, a primeira mostra as receitas, que indicam saídas, e as asquisições, ou entradas, que mostram as despesas. Há também no final de cada tabela os valores totalizados dos CSTs.

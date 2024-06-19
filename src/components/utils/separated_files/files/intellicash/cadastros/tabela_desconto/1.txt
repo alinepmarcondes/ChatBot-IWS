@@ -1,0 +1,37 @@
+Title: == Cadastrar Tabelas de Descontos
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar descontos por por vendedores, e também se desejar criar descontos para seções.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Tabelas de Descontos||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há uma coluna na esquerda com a descrição de todas as tabelas de descontos cadastradas no sistema e na coluna à direita há os campos para criar, alterar e excluir as tabelas de descontos.
+
+Na coluna à direita há os seguintes botões:
+
+* **Novo():** Para criar uma nova tabela de desconto e ao clicar neste botão o cliente poderá preencher os campos "//**Descrição**//", "//**Desconto**//" e "//**Opcional**//".
+
+Logo abaixo há as excessões. Nela você decide quem terá ou não desconto.
+
+Há o botão "//**Tipo**//" para escolher um [[manuais:intellicash:cadastros:produtos:atributos|Atributo]] caso deseje adicionar um desconto ou não. Abaixo mostra todos os atributos disponíveis da classe tipo escolhida e em qual das duas colunas(“//**Com Desconto**//” e “//**Sem Desconto**//”) o atributo está situado.
+
+Para isso existem dois botões operadores:
+-Para colocar um item na coluna “//**Sem Desconto**//” caso queira que o mesmo não tenha mais descontos.
+-Para colocar um item na coluna “//**Com Desconto**//” caso queira que o mesmo tenha descontos
+
+* **Confirmar()**Para salvar a operação.
+* **Cancelar()**Para cancelar esta operação.
+* **Alterar()**Serve para alterar uma tabela de desconto já cadastrada e ao clicar neste botão terá as mesmas opções de clicar no botão novo.
+* **Excluir()**Para excluir uma tabela de desconto já criada.

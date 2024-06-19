@@ -1,0 +1,13 @@
+Title: = Adicionar nota fiscal
+
+Content:
+=
+
+Para adicionar uma nota fiscal, clique no botão "Adicionar" localizando no topo ao centro conforme demonstra a figura abaixo.
+
+
+
+
+Após os campos estarem todos preenchidos, o usuário deverá clicar sobre o botão "Salvar".
+
+Após clicar no botão "Salvar", será exibida uma mensagem informando que a nota foi salva com sucesso se todas as informações estiverem corretas. Caso contrário, será exibida uma mensagem de erro com os campos que aprensentarem inconsistências.

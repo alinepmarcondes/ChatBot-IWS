@@ -1,0 +1,20 @@
+Title: Empréstimo
+
+Content:
+Esta aba permite que a recepção do estabelecimento receba os vasilhames emprestados aos clientes no passado.
+
+O empréstimo é gerado no frente de caixa, quando o cliente compra um produto que exige vasilhame mas não possue o ticket. O operador do frente de caixa necessita de autorização ou permissão de usuário para poder efetuar a empréstimo. Também é necessário que o cliente seja cadastrado no sistema, o pode ser feito no próprio frente. 
+
+O foco inicial é para o campo **Empréstimo**, pois quando um empréstimo é gerado, um número é impresso no final do cupom. Este número é o que será buscado por este campo. Caso o cliente não possua o número ou tenha perdido seu cupom, é possível fazer a busca pelo cliente e pela data da compra.
+
+Caso a busca por cliente e data tenha mais de um resultado, ou seja, o cliente tenha mais de um empréstimo no mesmo período, uma lista é exibida abaixo do campo Cliente, e o processo é continuado quando se escolhe qual empréstimo será tratado.
+
+Ao escolher o empréstimo, na parte inferior da interface, os campos **Cliente**, **Data Empréstimo**, **Doc.** e **Prazo Devolução** são preenchidos com os dados do cliente referido. As opções **Descartar** e **Receber** são exibidas.
+
+O botão **Receber** com o clique do botão esquerdo simplesmente encerra o emprestimo, simbolizando que os vasilhames emprestados retornaram para a loja.
+
+Adicionalmente, existem outras opções com o clique direito do mouse sobre o botão **Receber**. A opção **Vender Vasilhames** destina-se aos casos em que o cliente não pode devolver os vasilhames e deseja pagar por eles. Vender irá gerar uma Nota Fiscal com a diferença entre os vasilhame emprestados e devolvidos. Essa diferença é calculada pois o campo **Qtde.Entrega** é editável e destina-se justamente para esses casos em que uma parte do emprestimo será devolvida.
+
+A opção **Renovar Empréstimo** encerra o empréstimo atual e abre um novo com as quantidades referentes a diferença entre a quantidade emprestada e quantidade entregue.
+
+A opção **Receber Ticket** foi criada para sanar um prossível problema de conexão entre o Frente de Caixa e o Retaguarda. As consulta e baixas das entregas ocorrem de forma on-line. Deste modo, evita-se que o mesmo ticket seja utilizado em mais de uma compra. Porém, pode acontecer em algum momento, problemas de conexão, e sendo assim, o operador de caixa irá reter o ticket e abrir um empréstimo. Este empréstimo deve ser encerrado com o ticket, indicando que houve problema de comunicação.

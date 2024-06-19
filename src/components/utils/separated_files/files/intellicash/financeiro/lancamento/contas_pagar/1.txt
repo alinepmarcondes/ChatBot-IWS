@@ -1,0 +1,37 @@
+Title: == Contas a Pagar
+
+Content:
+==
+
+----
+
+É uma ferramenta que tem por finalidade auxiliar o usuário a fazer lançamentos avulsos, que não tiveram um vinculo fiscal ou que o usuário tenha se esquecido de lançar na sua entrada.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Lançamentos→Contas a Pagar||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos a preencher:
+
+- **Nome do favorecido** para informar quem irá receber o lançamento;
+- **Nº documento** para informar o numero do documento (o sistema sempre irá sugerir uma opção);
+- **Entrada** para informar a data de entrada do lançamento;
+- **Vencimento** para informar o data de vencimento do lançamento a pagar; 
+- **Valor** para informar o valor do lançamento;
+- **Multa** para informar, caso houver, multa do lançamento em porcentuais;
+
+- **Ratear centro de custo** marcar esta opção classifica um lançamento a pagar em dois ou mais centro de custos, e ao clicar em inserir para confimrar o lançamento abrirá uma nova interface para ratear os centros de custos;
+- **Despesa repetitiva** marcar esta opção fará com que a conta a pagar seja divida em parcelas;
+- **Baixa automática**
+
+Além do botão inserir para lançar uma conta nova.
+Abaixo mostra todas as contas realizadas pelo favorecido selecionado no campo acima com todos os dados do lançamento. Na parte inferior da tela há os seguintes botões:
+* **Imprimir** para imprimir dados dos lançamentos;
+* **Excluir** para excluir um lançamento selecionado;
+* **Alterar** para alterar um lançamento selecionado;

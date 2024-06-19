@@ -1,0 +1,6 @@
+Title: = Funcionários Geral
+
+Content:
+=
+
+Na aba “//**Funcionários Geral**//”, como o próprio nome diz lista traz a relação de todos os funcionários da empresa, e seus respectivos, setores, salários, vales, saldo e últimos pagamentos. Essa tela foi desenvolvida para dar uma visão melhor ao usuário sobre sua folha de pagamento, em relação à busca de um funcionário especifico basta digitar no campo “//**Localizar Funcionário**//”, que o sistema automaticamente selecionará o funcionário desejado.

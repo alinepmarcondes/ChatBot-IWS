@@ -1,0 +1,6 @@
+Title: = Alterar Senha
+
+Content:
+=
+
+Para alterar a senha, o usuário deverá acessar o menu lateral esquerdo "Alterar Senha".

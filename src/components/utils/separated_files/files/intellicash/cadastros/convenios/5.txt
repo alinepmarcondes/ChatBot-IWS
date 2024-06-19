@@ -1,0 +1,17 @@
+Title: = Caixas Dos Convênios
+
+Content:
+=
+
+Esta aba tem a função de selecionar um convênio e direcioná-lo a sua movimentação financeira para um [[manuais:intellicash:cadastros:contas_caixas|Caixa da Empresa]];
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Convênio** Deve escolher um convênio;
+* **Empresa:** Deve selecionar uma empresa do sistema;
+* **Caixa:** Deve escolher o caixa que será vinculado com o convênio;
+* **Ok:** Ao clicar neste botão serão inseridas as informações no sistema;
+
+Abaixo mostra os caixas dos convênios já cadastrados, e se desejar excluir algum convênio basta selecioná-lo e clicar com o botão direito do mouse e irá aparecer a opção "//**Excluir**//";

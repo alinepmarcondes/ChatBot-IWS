@@ -1,0 +1,28 @@
+Title: == Curva ABC
+
+Content:
+==
+
+----
+
+Curva ABC ou Análise de Pareto é um indicador usado para se analisar os pontos que realmente são relevantes dentro de uma análise, dessa maneira esse indicador pode ter várias utilizações dentro de uma empresa.
+
+O indicador se baseia em classificar como “A” tudo aquilo correspondente até 80% do total analisado, como “B”, aquilo que corresponde até a 15% do total analisado e que esteja fora do grupo “A”, e classificado com “C” todo o resto.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Estoque→Curva ABC||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+
+* **Agrupar Equivalência de Preço** Marcar esta opção para agrupar itens que tenham equivalência de preço;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.

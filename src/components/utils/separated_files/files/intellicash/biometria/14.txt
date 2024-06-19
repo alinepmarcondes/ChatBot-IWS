@@ -1,0 +1,30 @@
+Title: = Gerenciamento dos Templates
+
+Content:
+=
+
+
+
+Irá abrir a tela a seguir:
+
+
+
+Nesta tela, temos as opções:
+
+* **Procurar no leitor**: Permite que o usuário efetue um teste rápido, efetuando a comparação da digital de um agente presente com os templates cadastrados no dispositivo.
+* **Cadastrar**: Abre a tela de cadastro, sendo um atalho rápido para a mesma.
+* **Enviar Templates**: Envia para o leitor os templates que não foram encontrados pelo valor do campo **CHAVE** do grid. Neste caso, eles também estarão com o campo **GRAVADO** do grid desmarcado.
+* **Excluir Todos Cadastros**: Apaga do leitor biométrico todos os templates cadastrados.
+* **Excluir Cadastro**: Apaga do dispositivo somente o registro selecionado no grid, caso o campo **GRAVADO** esteja marcado.
+* **Atualizar**: Efetua a comparação entre os dados do banco de dados com as chaves cadastradas no dispositivo, procurando registros que ainda não foram enviados para o leitor biométrico.
+* **Fechar**: Fecha a tela de gerenciamento de template.
+
+Na parte inferior do grid, podemos visualizar a imagem da quantidade de registros sincronizados e de registros não sincronizados. Deve-se sempre atentar a estes valores. Eles mostram a quantidade de correspondências entre os registros de biometria do banco de dados em relação aos valores gravados no banco de dados.
+
+Caso o valor de registros não sincronizados seja diferente do valor de registros do grid, significa que no leitor temos mais chaves que o registrado no banco de dados, logo deve-se analisar a situação em que isso ocorreu para poder identificar um possível problema.
+
+Ao clicar no __grid com o botão direito__, irá aparecer o seguinte menu:
+
+
+
+Sendo que esta opção permite que seja visualizado no **Excel** os ID gravados no leitor biométrico, permitindo identificar possíveis problemas de registros não sincronizados.

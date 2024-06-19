@@ -1,0 +1,16 @@
+Title: Sistema de Contingência
+
+Content:
+Caso o caixa esteja sem internet no momento de acessar a carteira digital, não será possível efetuar o fechamento do cupom na referida forma de recebimento(**CARTEIRA DIGITAL**). Caso tenha realizado a venda e posteriormente seja necessário cancelar o mesmo e no momento do cancelamento não tenha acesso a internet, o cupom fiscal será cancelado em contingência e o envio do cancelamento para o PICPAY ficará pendente. Com isso ao iniciar o sistema, será mostrada a seguinte mensagem:
+
+
+
+Com base nessa informação o usuário poderá acessar na tela principal do sistema:
+
+
+
+Ao acessar será aberta a seguinte interface:
+
+
+
+Ao clicar no botão **Processar** o sistema enviará para o PICPAY todos os cancelamentos pendentes. Este mesmo processo de processar os pendentes irá ocorrer automaticamente no momento do fechamento de cada turno.

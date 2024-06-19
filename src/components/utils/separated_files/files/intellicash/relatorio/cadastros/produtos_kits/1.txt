@@ -1,0 +1,28 @@
+Title: == Relatório de Kits
+
+Content:
+==
+
+----
+
+Este relatório exibe todos os tipos de kits e produção cadastrados pelo cliente.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→Kits||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes botões:
+
+* **Tipo Kit:** para selecionar o tipo de kit a ser pesquisado;
+* **Tipo:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Filtro:** Para selecionar uma categoria do atributo selecionado;
+* **Mostrar Itens Sem Kit:**
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+
+Após realizada a pesquisa serão listados abaixo todos os resultados dos kits cadastrados no sistema e após selecionar um kit será listado na coluna abaixo todos os produtos que estão cadastrado no kit selecionado.

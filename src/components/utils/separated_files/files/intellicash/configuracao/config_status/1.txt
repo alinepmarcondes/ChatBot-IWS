@@ -1,0 +1,26 @@
+Title: == Configuração de Status
+
+Content:
+==
+
+----
+
+Esta ferramenta configura a cor do status seja do produto, cliente ou fornecedor, isso facilita ao cliente a verificar o status apenas ao olhar a cor, e não verificando todos os dados para verificar status.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Conf Status||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Para alterar basta escolher o "//**Tipo**//" citado anteriormente, escolher uma descrição de status e clicar no botão "//**Cor do Status**//" para selecionar a cor que você deseja.
+
+As setas para cima e para baixo são para designar um nível de prioridade das cores para cada tipo. No caso do produto, ou seja, se um produto é um kit e uma equivalência a cor da equivalência será mostrada no cadastro do produto, pois como visto na imagem acima o nível de prioridade de produto com equivalência é maior que um produto com kit.
+
+A seta pra cima aumenta a prioridade de um item fazendo com que o item fique em cima e a seta para baixo faz os produtos caírem de prioridade colocando-os em baixo, lembrando que o nível de prioridade é decrescente de cima para baixo.
+
+Após feitas as alterações basta clicar no botão "//**Ok**//" para confirmar e salvar a operação.

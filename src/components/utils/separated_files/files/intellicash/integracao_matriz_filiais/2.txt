@@ -1,0 +1,27 @@
+Title: = Introdução
+
+Content:
+=
+
+A integração entre várias lojas é um projeto que está sendo desenvolvido pela Intelliware desde 2012, e inicialmente foram divididas em 3 etapas, "//**Cadastro**//", "//**Movimentação**//" e "//**Financeiro**//". \\
+
+Inicialmente é bom ressaltar que para existir qualquer tipo de integração, é preciso de um meio para interligar as empresas, esse meio pode ser Público (internet), ou Privado (rede local) quando a distâncias entre as empresas são próximas. \\
+
+Devido ao custo de se criar uma rede privada com apenas alguns poucos quilômetros de distância, tomamos como base que seria usado em grande maioria o meio público, entretanto esse meio apresenta muitas dificuldades, a iniciar pela heterogenia das topologias (Fibra Ótica,Cabo, DSL, Radio, etc), e principalmente pela baixa latência, o que compromete muito a comunicação entre as empresas. \\
+
+Foi definido, então, que não seria possível fazer uma base de dados centralizada onde as outras empresas se conectam para pode trabalhar.Devido a esses problemas foi idealizado uma arquitetura de replicação de dados que permitisse cada empresa trabalhar independentemente, enquanto um sistema integrador sincronizava as informações relevantes.\\
+
+Cada empresa possuiria um servidor de banco de dados, dessa forma as operações pertinentes a empresa, funcionarão independente da conexão de internet. Entretanto para existir uma integração foram criadas regras de comunicação para viabilizar a integração.\\
+
+
+
+Foi estabelecido que as trocas de dados são apenas no sentido vertical, isso ocorre para que exista integridade entre os dados, sem correr risco de existir dados espalhados entre as empresas, e esses dados serem diferentes da Matriz, que funcionaria como banco de dados centralizador. \\
+Dessa maneira, podemos garantir que as informações integradas devem estar sempre no banco de dados da Matriz, e caso tenha ocorrido alguma falha de conexão, poderão existir dados apenas na empresa em que foi feita a operação, e estará aguardando a normalidade, para serem enviados a Matriz. \\
+As consultas horizontais, em verde, são usadas apenas como apoio, para verificar alguma informação que ainda não está integrado a matriz. \\
+Inicialmente essa integração foi realizada em 3 etapas: \\
+
+- **Cadastros;**
+- **Operações;**
+- **Financeiro;**
+
+Mas antes de entender como funciona essa integração é necessário primeiramente definir algumas configurações que iremos abordar a seguir.

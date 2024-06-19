@@ -1,0 +1,6 @@
+Title: = Configuraração e permissão de desconto - Intellicash
+
+Content:
+=
+
+Verifique no **Intellicash** se existe a configuração **5402**. Configure para "**VENDEDOR**", assim os descontos serão aplicados de acordo com os limites atribuídos aos vendedores.

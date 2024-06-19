@@ -1,0 +1,32 @@
+Title: == Diferenças entre 60A e 60I
+
+Content:
+==
+
+----
+
+Este relatorio mostra a diferença entre aliquota e venda de itens em um determinado periodo
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Fiscal→Diferenças Entre 60A e 60I||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Esta ferramenta mostra um relatório para verificar se houve diferença de valores de 60ª(Valores referente às alíquotas) e 60I(Valores de todas às vendas líquidas) entra a redução z e o sistema.
+
+Na parte superior desta tela há os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Diferença Mínima** para informar a diferença mínima (em centavos) que pode haver entre a redução z e os itens;
+* **Mostrar Apenas Diferenças:**
+* **Mostrar Detalhes Automaticamente:**
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Na primeira coluna com o nome diário, mostra todas as reduções z diárias e seus dados, ao lado na coluna Detalhes por ECF diário mostra os detalhes de cada ECF e seus dados de uma redução z Diária e na coluna abaixo mostra os detalhes por tributação diária de uma redução z selecionada. Na parte inferior da tela mostra os dados totalizados da pesquisa.

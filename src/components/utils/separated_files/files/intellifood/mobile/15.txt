@@ -1,0 +1,4 @@
+Title: Conferência
+
+Content:
+Nesta guia são listados os itens pendentes para envio de preparos. Nesta guia de conferência é possivel editar, excluir e enviar para preparo os items.

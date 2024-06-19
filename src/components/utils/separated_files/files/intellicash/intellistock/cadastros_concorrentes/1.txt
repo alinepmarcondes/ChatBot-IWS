@@ -1,0 +1,46 @@
+Title: == Cadastrar Concorrentes
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar os concorrentes da empresa para exportar o cadastro para o coletor.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→IntelliStock→Cadastros→Correntes||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes botões:
+
+* **Novo:** para cadastrar um novo concorrente e ao clicar neste botão aparecerá a seguinte tela:
+
+Após Cadastrar o nome da concorrente aparecerá uma interface para cadastrar o enderaço da concorrente.
+
+Após cadastrar o endereço da concorrente aparecerá uma nova interface para adicionar alguma observação sobre a mesma.
+
+Após isso a concorrente estará cadastrada;
+* **Alterar:** para alterar os dados da concorrente;
+* **Excluir:** para excluir uma concorrente;
+* **Anterior:** para voltar um cadastro anterior;
+* **Próximo:** para prosseguir ao próximo cadastro;
+* **Importar:** para importar os cadastros de uma concorrente, de um arquivo de texto (.txt);
+
+Há também um campo de texto para localizar bastaselecionar a caixa de texto "//**Localizar**//" e ao pesquisar por um corrente ao dar um duplo clique nele aparecerá a seguinte interface:
+
+
+
+A aba "//**Coletagens**//" mostra todas as coletagens de produtos da concorrente em um determinado período de datas, por isso há os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+
+
+
+A aba "//**Produtos**//" mostra todos os produtos coletados na concorrente.

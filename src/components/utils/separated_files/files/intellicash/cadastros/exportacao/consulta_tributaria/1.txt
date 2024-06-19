@@ -1,0 +1,17 @@
+Title: == Consulta Tributária
+
+Content:
+==
+----
+A consulta tributária é um serviço cuja finalidade é a classificação tributária online do cadastro de produtos.
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Exportação→Consulta Tributária||
+ 
+
+Será exibido a interface abaixo
+
+
+Nessa interface é onde são feito os envios dos produtos para a consulta tributária, utilizando os filtros disponível. Mas antes de fazer o envio é preciso fazer a configuração de autenticação na API da consulta tributária.

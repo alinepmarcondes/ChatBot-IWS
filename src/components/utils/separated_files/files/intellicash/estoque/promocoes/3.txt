@@ -1,0 +1,13 @@
+Title: = Janela Importação de Promoção
+
+Content:
+=
+
+Na janela **Importação de Promoção** existem alguns recursos que facilitarão na hora de se elaborar as promoções e adicioná-las à lista de promoções pendentes.
+
+A princípio a tabela de itens carrega todos os itens que já foram importados de arquivos mas que ainda não foram confirmados. Algumas cores ajudarão a identificar o Status do processo de importação.
+
+**Vermelho**: Itens não cadastrados;
+**Amerelo**: Itens sem preço de Promoção;
+
+Quando o item estiver devidamente cadastrado e precificado, este assume a cor natural da tabela e permite sua confirmação.

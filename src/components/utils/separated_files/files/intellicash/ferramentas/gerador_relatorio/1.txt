@@ -1,0 +1,43 @@
+Title: == Gerador de Relatório
+
+Content:
+==
+
+----
+
+Ferramenta para se criar relatórios através de consulta SQL, onde o usuário pode configurar os tipos de dados de entrada e de saída, importação e exportação de relatórios, incluindo a configuração de impressão (*.rtm). Nessa interface, o usuário pode criar um novo, alterar, configurar parâmetros de entrada ou saída, importar ou exportar um relatório.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Gerador Relatório||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na coluna à esquerda há as seguintes abas:
+
+* **Relatórios:** O sistema apresenta os relatórios nos módulos “Não publicados” e os publicados que estão em “Gerador”.
+- **Não Publicado:** É um módulo onde ficam os relatórios não publicados. Quando se é criado ou importado um novo relatório, o sistema salva ele neste módulo.
+- **Gerador:** É um módulo onde ficam os subitens com os relatórios publicados, para a publicação de um relatório, deve-se criar um subitem dentro deste módulo gerador.
+
+
+
+- **Nome:** Nome do campo, não permite alteração. Quando não for utilizado o “AS” na consulta SQL, o sistema considera o nome idêntico ao nome do campo na tabela do banco de dados.
+- **Display:** Nome que será exibido ao abrir o relatório (nome da coluna).
+- **Formato:** Formato configurável para os campos de valores, deverá ser colocado como ,0.00
+- **Tamanho:** Tamanho da coluna que será apresentada ao abrir o relatório, no caso de zero, o sistema considera que o campo será invisível.
+- **Tipo de Dado:** É a configuração para duplo click que é configurado para cada um dos campos, sendo que um relatório pode permitir chamar mais de uma tela, dependendo do relatório e da sua configuração.
+- **Sem Link:** Para os campos configurados com esse tipo, o sistema não irá abrir tela utilizando o duplo click sobre ele.
+- **Link Fixo:** Se marcada esta opção, o usuário deverá escolher a Interface e o Campo. A interface é fixa, podendo ser Cadastro de Fornecedor (tabela FORNS), Cadastro de Produto (tabela PRODUTOS) ou Nota Fiscal (tabela NFSINTEGRA) e o campo normalmente será o ID referente a interface escolhida.
+- **Relatório:** Se marcada esta opção, o usuário deverá escolher o Relatório e o Campo, onde o relatório tem que ter sido feito no gerador de relatório, e o campo é o que será passado como parâmetro de entrada dele para que seja aberto quando for dado o duplo click neste campo que foi configurado neste parâmetro.
+
+
+
+* **Tipo de Dado:** Pode ser Texto, Numérico, Chave (consulta SQL), Data, Data/Hora, Lógico. Para cada tipo de dado o sistema permite inserir um complemento.
+- **Tamanho:** Será exibido quando o tipo de dado escolhido for Texto. Para configurar o tamanho do texto do parâmetro.
+- **Decimais:** Será exibido quando o tipo de dado escolhido for Numérico. Para configurar os decimais numéricos do parâmetro.
+- **Consulta:** Será exibido quando o tipo de dado escolhido for Chave. Neste campo é colocada uma consulta SQL que retorne os parâmetros de entrada desejados.
+- **Dias(-):** Será exibido quando o tipo de dado escolhido for Data ou Data/Hora. Que a quantidade de dias a menos a partir da data atual que o sistema irá salvar para abrir preencher este parâmetro depois de pronto.

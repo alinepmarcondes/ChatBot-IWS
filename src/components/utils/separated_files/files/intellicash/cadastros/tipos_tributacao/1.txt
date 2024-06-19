@@ -1,0 +1,62 @@
+Title: == Tipos de Tributação
+
+Content:
+==
+
+**Vocabulário:**
+* **Pis:** Programa de Integração Social;
+* **Cofins:** Contribuição para o Financiamento da Seguridade Social;
+* **ICMS:** Imposto sobre Circulação de Mercadorias e Serviços;
+* **IPI:** Imposto sobre Produtos Industrializados;
+* **B.C.:** Base de Cálculo;
+* **S.T.:** Subistituição Tributária;
+
+----
+
+Esta ferramenta tem a função de criar tipos de tributações padrão para vários tipos de ocasiões de tributação.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Tipos de Tributação||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tela há vários campos de texto com os atributos "//**CFOP**//", "//**CST ICMS**//", "//**aliq. ICMS**//", "//**CST Pis/Confins**//", "//**Aliq. Pis**//" e "//**Aliq. Confins**//" para fazer uma busca detalhada por um tipo de tributação. Abaixo há todos os tipos de tributação existentes no sistema ou todos os resultados de uma pesquisa realizada nos campos citados acima com os seguintes atributos:
+
+* **CFOP:** Código Fiscal de Operações e Prestações;
+* **CST:** Código de Situação Tributária;
+* **Origem/Destino:** Mostra a origem da mercadoria desta tributação;
+* **Aliq.:** Mostra o valor da alíquota dessa tributação;
+* **Red. B. Calc.:** 
+* **Alíq. Final:** Mostra o valor da alíquota final da tributação;
+* **CST Pis/Confins:** 
+* **Aliq. Pis:** Mostra o valor da alíquota do Pis;
+* **Aliq. Confins:** Mostra o valor da alíquota do Pis
+* **Pauta:**
+* **Red.B.C.S.T.:** 
+
+Logo abaixo há os dados detalhados de uma tributação selecionada no grid acima com os seguintes atributos:
+
+* **UF**, **Outra UF** ou **Exterior** a escolher o tipo de exportação.
+* **IPI incide em BC ICMS de saída:**
+* **BC ICMS Pauta:**
+* **CFOP:**
+* Para **ICMS**, **PIS**, **Confins** e **IPI:**
+ - **CST:**
+ - **Alíquota:**
+ - **Red. B. C.:**
+ - **Alíquota final:**
+* **Red. B. C. S. T.:**
+* **Descrição:**
+
+Na parte inferior da tela mostra todos os dados de um tipo de tributação selecionada no campo acima e há os seguintes botões:
+* **Apagar:** para apagar um tipo de tributação selecionada;
+* **Novo:** para cadastrar um novo tipo de tributação e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela é necessário preencher os campos corretamente e após isso basta confirmar e a nova tributação estará cadastrada.

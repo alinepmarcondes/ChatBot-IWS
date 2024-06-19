@@ -1,0 +1,10 @@
+Title: == Relatórios de Estoque
+
+Content:
+==
+
+----
+
+Relatório criado para visualizar a posição do estoque em determinada data selecionada.
+
+----

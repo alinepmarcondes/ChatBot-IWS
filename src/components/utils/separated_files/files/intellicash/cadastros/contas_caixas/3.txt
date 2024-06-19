@@ -1,0 +1,33 @@
+Title: = Movimento
+
+Content:
+=
+
+A aba "//**Movimento**//" mostra os detalhes do movimento bancário da conta;
+
+Existem duas partes, os movimentos feitos na parte superior e na parte inferior os lançamentos futuros ambos com os atributos data, hora, vlr. Credito, vlr debito, saldo, doc., descrição, usuário, numero da nota, número do cheque, espécie e conciliado no caso de movimentações feitas.
+
+
+
+Na parte superior da tela existem as datas de inicio e término para pesquisar o movimento bancário num intervalo de datas e o botão aplicar para gerar a pesquisa(fazer uma pesquisa num longo intervalo de datas pode fazer uma demora significativa na busca do sistema).
+
+Ao lado existem os seguintes botões:
+
+* **Imprimir:** para imprimir os dados do movimento bancário;
+* **Lançar:** para criar um lançamento financeiro no caixa selecionado nesta interface rapidamente;
+
+
+* **1.Agente:** para informar o agente que realizou o movimento;
+* **2.Nº Documento:** para informar o número do documento;
+* **3.Fator:** informar se o lançamento tem fator positivo ou negativo;
+* **4.Dt. Baixa:** informar a data da baixa do lançamento;
+* **5.Valor:** informar o valor do lançamento;
+* **6.Centro de Custo:** informar o centro de custo do lançamento;
+* **7.Descrição:** informar a descrição do lançamento;
+* **Não Mostrar Estorno:** marcar esta opção irá ocutar todos os estornos da conta
+* **Não Mostrar Registros Nulos:** marcar esta opção irá ocultar todos os lançamentos nulos da conta
+
+Ao clicar com o botão direito do mouse em alguma movimentação financeira, haverá algumas opções como:
+
+
+Caso esteja gerenciando uma conta corrente a aba "//**Dados Conta Corrente**//" estará disponível para acessá-la e ao clicar nela aparecerá a seguinte tela:

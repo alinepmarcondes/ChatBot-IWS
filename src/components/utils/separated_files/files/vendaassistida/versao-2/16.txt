@@ -1,0 +1,6 @@
+Title: Adicionar um Cliente
+
+Content:
+Para adicionar um cliente, o usuário deverá pressionar o botãolocalizado no canto inferior direito da tela de seleção de cliente.
+
+No formulário que será aberto, o usuário deverá preencher todos os campos corretamente e pressionar o botãopara concluir.

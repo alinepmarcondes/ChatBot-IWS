@@ -1,0 +1,24 @@
+Title: = Filial para Matriz
+
+Content:
+=
+
+Neste aspecto iremos destacar as informações que a Filial envia/busca para sua Matriz: \\
+- Exporta os agendamentos financeiros (inserção) \\
+- Exporta as alterações dos agendamentos financeiros (alteração e exclusão) \\
+- Exportação do cadastro de caixas do Contas e Caixas \\
+- Exportação dos movimentos dos caixas do Contas e Caixas \\
+- Exportação das baixas dos Recebimentos/Pagamentos \\
+- Exportação dos Estornos de Recebimentos/Pagamentos \\
+- Importação dos Recebimentos/Pagamentos que ocorreram na Matriz \\
+- Importação dos Estornos de Recebimentos/Pagamentos que ocorreram na Matriz \\
+- Ao realizar uma baixa na Filial esta consulta na Matriz se o mesmo foi baixado (se tiver conexão Matriz) \\
+- Ao estornar um registro na Filial o sistema conecta na Matriz para realizar primeiro o estorno nela (se tiver conexão com a Matriz) \\
+
+**Obs.:** Para realizar uma baixa ou estorno na Filial de um registro próprio, o sistema tenta conectar na Matriz para verificar o status deste registro. Em caso da falta de conexão com a Matriz será exibida a seguinte mensagem, mas o processo dará continuidade:
+
+
+
+
+
+No momento em que a conexão com a Matriz for reestabelecida o sistema enviará os dados através do sincronizador.

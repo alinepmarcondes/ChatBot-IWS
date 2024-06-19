@@ -1,0 +1,12 @@
+Title: =Operações
+
+Content:
+=
+O frente de caixa é usado principalmente para fazer vendas e também consegue fazer recebimentos/pagamentos de contas do retaguarda.
+
+Portanto são descritas as operações realizadas pelo PDV, e como devem ser feitas:
+* Vendas : processo de venda de mercadoria através de Cupom Fiscal mediante forma de recebimento escolhida pelo cliente.
+* Pagamentos: através do botão **Pagamentos** do EasyCash, o frente irá acessar uma tela semelhante ao do pagamento do retaguarda e permitirá que o usuário selecione as contas a serem baixadas (no frente de caixa será dado entrada como **Sangria** em dinheiro).
+* Recebimentos: através do botão **Recebimentos** do EasyCash, o frente irá acessar uma tela semelhante ao do recebimento do retaguarda, selecionando o cliente o sistema permitirá que o usuário selecione as contas a serem baixadas (no frente de caixa será dado entrada como **Suprimento** na forma escolhida).
+* Trocar Cheques: qualquer troca de cheque que não for vinculado a uma compra, deverá ser feito como um suprimento e uma sangria, pra identificar a entrada e a saída de dinheiro do caixa, deverão ser grampeados o cheque e os comprovantes de suprimento e de sangria.
+* Troco de FPG sem troco: caso seja autorizado devolver troco para uma FPG que por padrão não permita troco, deverá ser feito uma sangria no valor do troco, e identificar no comprovante de sangria, o numero do cupom que gerou esse troco, o valor pago pelo cliente, e a FPG.

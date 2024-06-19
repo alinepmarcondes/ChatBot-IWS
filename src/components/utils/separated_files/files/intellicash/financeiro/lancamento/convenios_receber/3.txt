@@ -1,0 +1,14 @@
+Title: = Histórico
+
+Content:
+=
+
+
+
+Nesta aba mostra um histórico de todos os lançamentos feitos durante um intervalo de datas.
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.

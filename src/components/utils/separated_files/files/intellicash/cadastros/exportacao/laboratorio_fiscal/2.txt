@@ -1,0 +1,23 @@
+Title: = Integração IntelliCash
+
+Content:
+=
+
+A integração com o **IntelliCash** é feita usando o arquivo "LabFiscalIMendes.dll" que deve estar junto ao arquivo IntelliCash3.exe. Caso esse arquivo esteja corretamente instalado será exibido o menu **IWS->Cadastros->Produtos->Laboratório Fiscal**. 
+
+Ao acessar o menu, será exibido a janela abaixo
+
+
+== Configurações ==
+
+Antes de qualquer coisa é preciso fazer as configurações da comunicação com o Laboratório Fiscal, para isso vá a aba **Configurações**
+
+
+Serão exibidas as informações do cadastro da empresa, caso possua mais de uma empresa cadastrado no banco de dados, deverá informar qual a empresa que possui cadastro no **Laboratório Fiscal** junto a **Imendes**.
+
+Ao clicar em **Alterar** será exibida a janela abaixo
+
+note que estão disponível para edição apenas o campo **Empresa**, que é permitido apenas selecionar uma das empresas cadastradas no banco de dados, caso haja mais de uma, e os campos **Versão** e **Qtde de Itens/Arquivo**. \\
+
+O campo **Versão** deverá ser informado de acordo com as instruções da **Imendes**, sendo a versão atual a 2.0.\\
+O campo **Qtde de Itens/Arquivo** é usado para informar quantos itens serão enviado por vez para o servidor do **Laboratório Fiscal**. Quanto mais itens, maior o tamanho do arquivo, e isso pode impossibilitar a comunicação dependendo da velocidade da internet. Segundo a **Imendes**, não é aconselhado a quantidade ser superior a 10.000 itens. Segundo testes realizados na **IWS**, constatamos que para internet pouco veloz o ideal é não exceder 2.000 itens.

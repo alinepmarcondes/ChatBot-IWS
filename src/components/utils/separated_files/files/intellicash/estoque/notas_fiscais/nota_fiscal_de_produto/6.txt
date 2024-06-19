@@ -1,0 +1,26 @@
+Title: 4. Sobre os Botões
+
+Content:
+* **Inserir Item:** Este botão abre uma nova interface para inserir os produtos na nota fiscal, e também muda automaticamente para a interface da aba "//**Itens da Nota**//". Ao clicar nele aparecerá a seguinte [[manuais:intellicash:estoque:notas_fiscais:nota_fiscal_de_produto#inserir_item|interface]]:
+* **Excluir Item:** Para excluir um item da nota fiscal;
+* **Alterar Item:** Para alterar um item da nota fiscal;
+* **Importar:** Para importar produtos para a nota fiscal, há varias maneiras de se fazer a importação. Para ver os tipos [[manuais:intellicash:estoque:notas_fiscais:nota_fiscal_de_produto_importar|Clique Aqui]].
+* **Itens Desmontados:** Para dar entrada nos itens de desmonte;
+* **Dec. Imp.:** Declaração de importação (Usado em NFs de entrada de outros países);
+* **Importação:** Após fazer a importação de produtos usando a função de importação, este botão fica habilitado para abrir a interface sobre os valores dos produtos importados;
+* **Chave NF-e:** este botão abre uma interface informando a chave da NF-e, e ao clicar neste botão o número da chave será copiado para a área de transferência automaticamente (CTRL+C);
+
+
+
+\\
+**Juros/Dia:** Para infomar o juros por dia da nota;\\
+**Juros%/Mês:** Para infomar o juros por mês da nota;\\
+**Desc. Pt.:** Para informar o desconto da nota fiscal em porcentagem;\\
+**Centro de Custo:** Para informar o centro de custo desta nota fiscal;\\
+**Forma de Cobrança:** para informar a forma de cobrança da nota fiscal para o cliente;\\
+**Nº Documento:** Para informar o número do documento da nota fiscal;\\
+**Nº Boleto:** Para informar o número do boleto, caso escolha boleto como forma de pagamento;\\
+**Descrição:** Para informar a descrição do lançamento financeiro da nota;\\
+**Nº Parcelas:** Para informaro número de parcelas de pagamento da nota fiscal;\\
+**Vencimento:** para informar a data de vencimento da nota fiscal;\\
+**Lançar:** para lançar no sistema os dados e o faturamento da nota;\\

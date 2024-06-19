@@ -1,0 +1,10 @@
+Title: = Financeiro
+
+Content:
+=
+
+
+
+Esta interface mostra a parte financeira do pagamento, decorrente da operação que realizar em "//**Faturamento**//"
+
+Na primeira coluna mostra todos os agendamentos financeiros de pagamento desta nota fiscal e seus dados, e na segunda coluna mostra os agendamentos de centro de custos.

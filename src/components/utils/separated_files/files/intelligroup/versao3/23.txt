@@ -1,0 +1,4 @@
+Title: Parceiros
+
+Content:
+Para acessar a tela **Cadastro de parceiros** clique no menu **Cadastrar** e depois em **Parceiros**.

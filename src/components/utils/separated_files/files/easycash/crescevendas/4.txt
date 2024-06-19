@@ -1,0 +1,35 @@
+Title: = Funcionamento
+
+Content:
+=
+
+Uma vez configurado o login de acesso a plataforma ao identificar um cliente no frente de caixa, será mostrado na parte superior da tela o logo da API e habilitado o atalho **Shift + F5**, conforme a imagem:
+
+
+
+Ao pressionar os botões de atalho serão mostrados o total de pontos e o saldo total que o referido cliente possui na plataforma da Cresce Vendas, conforme a imagem abaixo:
+
+
+
+Uma vez que o cupom foi registrado no frente de caixa ao pressionar **F2** o sistema irá efetuar o envio inicial de compra para a Cresce Vendas para poder obter a listagem de descontos a serem aplicados para o referido cliente. Logo, será mostrado a seguinte tela para o operador:
+
+
+
+Na tela de fechamento será mostrado abaixo do campo **Valor Pago** a quantidade total de descontos(itens + vale compras) aplicados no cupom retornados pela API da Cresce Vendas. Segue a imagem:
+
+
+
+No DANFE da NFC-e será impresso a quantidade de pontos obtidos utilizando o referido cupom junto com a quantidade total de pontos do referido cliente. Segue a imagem:
+
+
+
+Observe que o valor impresso é o mesmo que é apresentado na tela da plataforma do Cresce Vendas para o usuário. Segue a imagem:
+
+
+
+No EasyCash foi criado também a pasta **Integracao** para contemplar os registros de envio e recebimento do webservice conforme a imagem:
+
+
+
+A mesma pode ser utilizada para retirar qualquer dúvida sobre os dados trafegados para a plataforma Cresce Vendas.\\
+Foi também efetuada uma alteração para que o EasyCash importe dos produtos as seguintes características apartir do IntelliCash:

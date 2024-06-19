@@ -1,0 +1,10 @@
+Title: = Importar de Orçamento
+
+Content:
+=
+
+Ao oprtar pela opção de "//**importação por orçamento**//", antes é necessário criar uma nova nota, com natureza de saída. Feito isso ao clicar na importação por orçamento aparecerá a seguinte interface:
+
+
+
+Nesta interface basta selecionar o orçamento desejado para fazer a importação dos produtos e após isso clicar no botão abrir. Feito isso os itens ja serão importados.

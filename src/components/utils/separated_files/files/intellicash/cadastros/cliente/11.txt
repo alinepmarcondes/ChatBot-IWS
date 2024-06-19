@@ -1,0 +1,59 @@
+Title: Autorizados
+
+Content:
+A aba "//**Autorizados**//" tem a função de cadastrar pesssoas autorizadas a fazerem compras no cadastro do cliente.
+
+
+
+
+
+Nesta aba você pode autorizar quantas pessoas podem fazer compra utilizando sua conta ou seu saldo no estabelecimento.
+
+Para cadastrar um autorizado é preciso informar o nome no campo nome, seu limite a ser gasto em sua conta e a validade, ao clicar no botão "//**inserir**//" já está cadastrado um autorizado do cliente a fazer compras.
+
+Após efetuar o cadastro de um Autorizado o sistema irá perguntar se deseja cadastrar uma observação que será apresentada no frente de caixa.
+
+
+
+Se desejar cadastrar uma observação basta colocar a observação desejada na tela a seguir.
+
+
+
+Para alterar/incluir uma observação, basta clicar no campo **Obs** no registro de um autorizado. Se desejar excluir basta clicar no campo **Obs** e excluir o conteúdo da observação.
+
+Também é possível cadastrar pelo botão novo e a tela há os seguintes campos:
+
+* **Novo:** para cadastrar um novo autorizado e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela existe os campos "//**Tipo de Cliente**//", "//**Nome/Razão Social**//", "//**Fantasia**//" e "//**CPF/CNPJ**//" e após confirmados os dados aparecerá uma interface para cadastrar o endereço do autorizado.
+
+
+
+Este formulário é preenchido igual visto anteriormente no manual.
+
+* * **Alterar**: Para alterar dados do usuário e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela Basta preencher os campos "//**Nome**//", "//**Limite**//" e "//**Validade**//" e após isso confirmar a operação;
+
+* **Excluir:** para excluir o usuário autorizado selecionado;
+* **Imprimir:** para imprimir os dados do autorizado.
+* **Alterar Agente:** para alterar os dados do agente autorizado;
+* **Editar Endereço:** para alterar o endereço do autorizado;
+
+Ao fazer um orçamento no retaguarda para um Autorizado basta clicar em **Novo** e informar o **Autor**. 
+
+
+
+Quando realizar a confirmação do orçamento o sistema irá validar o limite do **Autorizado** e de seu **Titular**. 
+
+Por regra ficou determinado que:
+
+* Se o valor do limite do autorizado for estourado não será permitida a venda e o sistema apresentará a seguinte mensagem:
+
+
+
+* Se o valor do limite do titular for estourado mas do autorizado não, o sistema irá dar uma mensagem informando problemas cadastrais e se o usuário deseja continuar. Ao continuar será pedido autorização Módulo **Vendas** - Função **Confirmar Venda Cli. Limite Estourado**.

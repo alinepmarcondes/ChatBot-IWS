@@ -1,0 +1,9 @@
+Title: = Dados do Cheque no Fechamento de Caixa
+
+Content:
+=
+Nos detalhes da forma de recebimento do cheque no Fechamento de Caixa existem campos que exibem os dados do cheque no grid que mostra os cupons.
+
+
+
+Também existe a possibilidade de alterar os dados de um cheque selecionado. Para fazer isto basta selecionar um cheque, clicar com o botão direito do mouse e escolher a opção **Alterar Cheque...**.

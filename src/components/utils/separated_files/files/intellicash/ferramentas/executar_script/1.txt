@@ -1,0 +1,20 @@
+Title: == Executar Script
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de executar um script para poder atualizar o banco de dados dos clientes.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Executar Script||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Esta interface irá abrir para selecionar um arquivo do tipo .sql para poder executar o cript e atualizar o banco de dados.

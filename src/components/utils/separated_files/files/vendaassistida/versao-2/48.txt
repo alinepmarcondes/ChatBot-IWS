@@ -1,0 +1,4 @@
+Title: Quantidade automática
+
+Content:
+Com essa configuração ativa, ao inserir um item no orçamento automaticamente a quantidade desse item será de um.

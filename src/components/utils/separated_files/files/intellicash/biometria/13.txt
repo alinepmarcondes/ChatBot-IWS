@@ -1,0 +1,10 @@
+Title: = Cadastro da Biometria
+
+Content:
+=
+
+Para efetuar o cadastro ou a alteração da biometria de um agente, deve-se acessar o menu:
+
+
+
+Todos os templates e imagens gerados no processo de cadatro ou atualização são __criptografados com o algoritmo AES__ e __em seguida compactados__ para maximizar o uso do banco de dados e a segurança.

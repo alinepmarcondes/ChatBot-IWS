@@ -1,0 +1,51 @@
+Title: = Mercos
+
+Content:
+=
+
+----
+
+ Funcionalidade criada para integrar o sistema de força de vendas Mercos com IC.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||//Gerenciamento-> Estoque-> Vendas-> Força de Vendas-> Meus Pedidos//||
+
+
+
+Ao acessar o menu acima será exibida a interface abaixo.
+
+
+Na aba Exportação, sub-aba **Geral** temos alguns grupos de dados para exportar:
+*** Produtos:** Envia as classificações dos produtos (Seção, Grupo e Sub-Grupo). Para utilizar a integração com Mercos é obrigatório que o IC esteja configurado para controlar as classificações amarradas.
+
+*** Condições de Pagamento:** Envia as formas de cobraças e os planos de pagamento cadastrados no IC.
+
+*** Financeiro:** Envia os títulos baixados e os títulos vencidos. Ao enviar o títulos baixados, caso o mesmo se encontre como vencido no sistema da mercos, ele será removido.
+
+*** Pedidos:** Envia o pedidos feitos no IC para o sistema da mercos. Descarta um pedido no sistema da Mercos. Fatura um pedidos no sistema da mercos, o faturamento pode ser total ou parcial. Estorna o faturamento do pedido na mercos.
+
+*** Clientes:** Permite exportar o vendedor do cliente para mercos. Nesse caso o cliente só poderá ser localizado pelo vendedor vinculado a ele no sistema da mercos.
+
+**Sub-aba Produtos:** 
+
+
+Nessa aba é listado todos os produtos que tiveram alteração no IC, também é possível adicionar todos os produtos na lista de exportação clicando no botão **Recarregar Todos**. \\
+No botão **Ações** temos algumas ações que podem ser feitas:
+* **Marcar Todos:** Marca todos os registros da interface;
+* **Desmarcar Todos:** Desmarca todos os registros da interface;
+* **Inverter Seleção:** Inverte a seleção dos registros na interface;
+* **Limpar Log:** Limpa todo o log de exportação. (Essa função limpa todo o log mesmo, não apenas os que estão selecionados);
+Ao clicar no botão **Enviar** o IC irá enviar os produtos selecionados para o sistema da mercos. \\
+**Sub-aba Clientes:** 
+
+
+Nessa aba é listado todos os clientes que tiveram alteração no IC, também é possível adicionar todos os clientes na lista de exportação clicando no botão **Recarregar Todos**. \\
+No botão **Ações** temos algumas ações que podem ser feitas:
+* **Marcar Todos:** Marca todos os registros da interface;
+* **Desmarcar Todos:** Desmarca todos os registros da interface;
+* **Inverter Seleção:** Inverte a seleção dos registros na interface;
+* **Limpar Log:** Limpa todo o log de exportação. (Essa função limpa todo o log mesmo, não apenas os que estão selecionados);
+Ao clicar no botão **Enviar** o IC irá enviar os clientes selecionados para o sistema da mercos.

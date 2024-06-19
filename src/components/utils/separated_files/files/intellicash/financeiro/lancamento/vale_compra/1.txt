@@ -1,0 +1,41 @@
+Title: == Vale Compra
+
+Content:
+==
+
+----
+
+Esta ferramenta tem como função a criação de vales para funcionários para que o mesmo realize compras fora do estabelecimento.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Lançamentos→Vale Compra||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há o campos há preencher com os seguintes atributos:
+- **Data:** informa a data de lançamento do vale, vem pré-selecionado a data atual;
+- **Funcionário:** o nome do funcionário que receberá o vale;
+- **Próximo acerto:** indicar a data do próximo acerto de vales:
+- **Tipo Vale:** para selecionar o tipo de vale compra irá utilizar;
+- **Valor:** informar o valor do vale que o funcionário deseja fazer;
+- **Nº documento:** para informar numero do documento, porém este vem sugerido pelo sistema;
+- **Descrição:** informar a descrição do vale;
+- **Salário:** Mostra um informativo do salário do funcionário
+- **Vales:** Mostra um informativo de quantos reais foram feitos em vales;
+- **Saldo:** Mostra o saldo do funcionário em relação ao salário e os vales;
+- **Porc. Vales x Sal.:** Mostra um informativo da porcentagem de vales comparado ao salário;
+
+Após preenchidos os dados acima basta clicar no botão ao lado em **inserir**. Após isso será feito um relatório para impressão, caso queira imprimir os dados do pagamento e após isso o vale estará feito.
+
+
+
+Logo abaixo há os botões de "//**Início**//" e "//**Término**//" para verificar o histórico de vales do funcionário selecionado, e o botão "//**Aplicar**//" para realizar a pesquisa.
+
+Na parte inferior da tela há os seguintes botões:
+* **Imprimir** para imprimir um relatório geral de vales;
+* **Excluir** para excluir um vale selecionado;

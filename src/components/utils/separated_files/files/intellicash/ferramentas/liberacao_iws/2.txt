@@ -1,0 +1,6 @@
+Title: = Configuração
+
+Content:
+=
+
+Exibe um janela com um campo de texto. O texto contido neste campo refere-se à URL básica onde o "//**Web Service**//" está hospedado.

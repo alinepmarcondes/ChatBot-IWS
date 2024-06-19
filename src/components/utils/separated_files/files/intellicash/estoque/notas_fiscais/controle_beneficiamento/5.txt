@@ -1,0 +1,10 @@
+Title: Cadastro de Produtos
+
+Content:
+No cadastro de produtos foram feitas algumas alterações visando uma melhor gestão dos produtos de beneficiamento.\\
+
+Em Gerenciamento->Cadastros->Produtos->Cadastro, ao localizar um item que foi feita entrada controlando saldo de beneficiamento iremos encontrar que o saldo de estoque está reservado, pois essa mercadoria deve ser usado apenas para devolução de mercadoria beneficiada.\\
+
+
+
+Na Aba de **Estoque** -> **Reservado** foi criado a aba **Beneficiamento** que exibe todas a Notas Fiscais que possui saldo para beneficiar com o produto em questão.\\

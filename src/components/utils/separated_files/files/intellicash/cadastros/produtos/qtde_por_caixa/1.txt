@@ -1,0 +1,23 @@
+Title: == Quantidade Por Caixa de Produto
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada para informar qual a quantidade de produto por caixa existe, por determinado fornecedor, pois pode variar de um fornecedor para outro.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Qtde por Caixa do Produto;||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Para informar a quantidade por caixa basta preencher os campos informando qual o “produto”, o “fornecedor” e a “quantidade por caixa”. Após isso os itens estão inseridos na interface abaixo, porém ainda não estão confirmados, isto para verificar os dados antes de confirmar se os dados estão corretos. Após isso há os botões:
+
+* **Confirmar** para confirmar os produtos;
+* **Cancelar** para sair e cancelar esta operação;

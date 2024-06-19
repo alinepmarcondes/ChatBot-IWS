@@ -1,0 +1,10 @@
+Title: Localizar
+
+Content:
+Esta aba apresenta uma caixa de filtros com os status, período e cliente que são aplicados pelo clique no botão **Aplicar**.
+
+Abaixo há duas abas, Entrega e Empréstimo, que servem para definir o que será buscado.
+
+Ao clicar duas vezes em uma ocorrência da Entrega, a aba superior correspondente ao tipo (entrega) é aberta com os dados da seleção.
+
+Algumas ações são possívels como **Receber** um **Empréstimo**, **Devolver** uma entrega ou **Descartar** (funciona para ambos).

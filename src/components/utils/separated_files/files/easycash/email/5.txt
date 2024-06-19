@@ -1,0 +1,16 @@
+Title: Servidor EasyCash
+
+Content:
+Na tela de configurações pode-se efetuar as configurações conforme mostrado na imagem abaixo:
+
+
+
+Ao clicar no botão **Testar Envio** será mostrada a janela abaixo:
+
+
+
+E se der tudo certo no envio, teremos o seguinte e-mail:
+
+
+
+Observe ainda que para a aba Servidor SMTP é habilitado o botão **Obter da Retaguarda**. Ao clicar no mesmo, o sistema irá tentar obter os dados de e-mail do cadastro da empresa na retaguarda, cadastrados conforme a imagem abaixo:

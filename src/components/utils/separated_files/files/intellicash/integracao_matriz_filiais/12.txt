@@ -1,0 +1,7 @@
+Title: == Sincronização do Financeiro
+
+Content:
+==
+
+Cada lançamento financeiro realizado em uma Filial será exportado para Matriz com o objetivo de centralizar dados e permitir uma melhor gestão das empresas.
+Com este módulo também será permitido realizar baixas dos títulos de outras empresas da rede possibilitando uma maior integração entre as mesmas.

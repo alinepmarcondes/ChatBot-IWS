@@ -1,0 +1,22 @@
+Title: == Configurar Descontos
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de criar descontos para determinados clientes, em determinado grupo de produtos.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Descontos||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os grupos dos produtos e ao expandir ela, há os tipos de clientes, podem ser criados os descontos para todos os tipos de cliente em um grupo, selecionando o grupo e definindo um desconto, ou para apenas um tipo de cliente selecionando o grupo e o tipo de cliente e definindo um desconto.\\
+
+Para fazer isso basta selecionar um grupo ou um tipo de cliente e feito isso, os campos da coluna à direita serão preenchidos automaticamente, então é necessário digitar um valor de desconto no campo "//**Desconto**//" e clicar no botão "//**Salvar**//". Feito isso o desconto já estará atribuído. Na parte inferior direita da tela há o botão "//**Fechar**//" para sair desta tela.

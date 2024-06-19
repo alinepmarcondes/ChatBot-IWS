@@ -1,0 +1,30 @@
+Title: == Exportar Para Coletor
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de gerar um arquivo de texto com informações dos produtos cadastrados no banco de dados necessários para a utilização do IntelliStock
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→IntelliStock→Exportar→Exportar p/ Coletor||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Filtro:** para selecionar um filtro para exportar para o coletor entre "//**Todos**//", "//**Data de Cadastro**//" e "//**Alterados**//".
+
+
+
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Exportar Preço:** marcar esta opção exporta também, os preços para o coletor;
+* **Aplicar:** Para realizar a pesquisa;
+* **Exportar:** para realizar a operação e exportar para o coletor;

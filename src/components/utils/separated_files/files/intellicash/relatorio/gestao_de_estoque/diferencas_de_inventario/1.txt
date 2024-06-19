@@ -1,0 +1,27 @@
+Title: == Diferenças de Inventário
+
+Content:
+==
+
+----
+
+Este relatório mostra as diferenças de inventário, entre o estoque e o sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Estoque→Análise de Qtde→Diferenças de inventário||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Tipo:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Abaixo mostra os resultados da pesquisa, na esquerda numericamente mostrando os valores e à direita os valores graficamente para uma melhor visualização, além de que pode se alterar o gráfico clicando com o botão direito para ver outros tipos de relatório:

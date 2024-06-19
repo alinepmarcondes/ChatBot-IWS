@@ -1,0 +1,34 @@
+Title: Resgate
+
+Content:
+Ao efetuar o cadastro de algum programa de pontuação, o sistema validará se existe alguma forma de resgate em vigência, caso não tenha, o usuário será questionado, conforme a imagem:
+
+
+
+
+
+O compartilhamento de pontos se trata do __somatório de pontos acumulados nas empresas para resgate__. 
+
+Por exemplo, suponhamos que na EMPRESA 1 tenha um programa de pontuação(entrada e saída de pontos) diferente do programa de pontuação da EMPRESA 2:
+
+**EMPRESA 1**\\
+ENTRADA: Por Intervalo de Valores\\
+SAÍDA: Por Desconto
+\\
+**EMPRESA 2**\\
+ENTRADA: Por Valor Fixo\\
+SAÍDA: Por Prêmio\\
+\\
+Então o cliente acumulou **10 pontos** na EMPRESA 1 e **08 pontos** na EMPRESA 2.
+
+Com a configuração de multiempresa (compartilhamento de pontos) **habilitada**, teremos:
+
+//Cliente consegue resgatar na empresa 01 por desconto o equivalente a 18 pontos//\\
+//Cliente consegue resgatar na empresa 02 por prêmio o equivalente a 18 pontos//\\
+
+Com a configuração de multiempresa (compartilhamento de pontos) **desabilitada**, teremos:
+
+//Cliente consegue resgatar na empresa 01 por desconto o equivalente a 10 pontos//\\
+//Cliente consegue resgatar na empresa 02 por prêmio o equivalente a 8 pontos//\\
+
+Ou seja, em ambos os casos o resgate só pode ser feito naquele tipo (Desconto ou Prêmio) que sua empresa está cadastrada.

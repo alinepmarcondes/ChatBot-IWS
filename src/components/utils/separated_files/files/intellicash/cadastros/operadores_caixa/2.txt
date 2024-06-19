@@ -1,0 +1,13 @@
+Title: = Cadastrados
+
+Content:
+=
+
+
+
+Nesta tela há duas colunas, há de operadores cadastrados na coluna à esquerda e disponíveis a cadastrar na coluna à direita. Na coluna à esquerda mostra os usuários operadores e seus detalhes, porém os funcionários com os dados em vermelho são operadores designados, porém desativados.
+Ao lado da coluna mostra os dados do funcionário e contém os seguintes botões operadores:
+
+* **Alterar:** Este botão serve para alterar o login de um operador, ou seja, para alaterar é necessário selecionar um operador de caixa na coluna à esquerda e em seguida realizar a alteração do login no campo "//**Login**//" na coluna à direita e após isso clicar no botão "//**Alterar**//";
+* **Desativar/Reativar:** Este botão serve para desativar um operador que esteja ativo ou vice-versa;
+* **Senha:** Ao clicar neste botão aparecerá uma nova interface para digitar a senha para um operador. Esta senha implica no login do sistema EasyCash.

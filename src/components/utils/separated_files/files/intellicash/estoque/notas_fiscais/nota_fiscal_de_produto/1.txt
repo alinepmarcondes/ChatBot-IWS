@@ -1,0 +1,15 @@
+Title: == Nota Fiscal de Produto
+
+Content:
+==
+
+----
+
+Ferramenta que permite lançar uma nota fiscal de entrada ou saída. Lembrando que na nf de saida é necessario ter o Gnfe para transmitir para a receita.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Notas Fiscais→Nota Fiscal de Produto||
+Ao clicar nesta opção aparecerá a seguinte interface:

@@ -1,0 +1,18 @@
+Title: = Configuração
+
+Content:
+=
+
+Será necessário que o cliente efetue o cadastro junto a plataforma e adicione os dados de e-mail e token para acesso do frente de caixa. Logo, no mesmo teremos a seguinte configuração:
+
+
+
+Ao clicar no botão **Alterar** teremos:
+
+
+
+Uma vez configurado, o cliente deve na plataforma do Cresce Vendas informar os descontos para itens, conforme a imagem:
+
+
+
+Caso deseje cadastrar um vale compras para o cliente, também é possível, sendo que o EasyCash irá adicionar o referido desconto no subtotal do cupom. Na plataforma irá ser mostrado da seguinte maneira:

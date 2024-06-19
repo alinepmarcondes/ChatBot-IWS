@@ -1,0 +1,9 @@
+Title: Arquivo CliSITEF.ini
+
+Content:
+No frente de caixa, no arquivo **CliSITEF.ini**, na tag **Geral** deve-se adicionar:\\
+\\
+**7 : Habilita venda via Carteira Digital**\\
+**8 : Habilita cancelamento via Carteira Digital**\\
+\\
+Segue uma imagem de exemplo:

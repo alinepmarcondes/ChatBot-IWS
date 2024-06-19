@@ -1,0 +1,6 @@
+Title: = Localizar
+
+Content:
+=
+
+Nessa interface é possível localizar as transações realizadas pela empresa. A empresa correspondente à busca é definida na interface principal da ferramenta.

@@ -1,0 +1,16 @@
+Title: == Cadastrar Fornecedores
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar fornecedores, gerar pedido, nota de devolução entre outras funções que envolve o fornecedor.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Fornecedores||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

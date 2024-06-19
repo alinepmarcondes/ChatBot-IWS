@@ -1,0 +1,16 @@
+Title: == Atualizar EasyCash
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada para Atualizar o Software EasyCash. 
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Atualizar EasyCash||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

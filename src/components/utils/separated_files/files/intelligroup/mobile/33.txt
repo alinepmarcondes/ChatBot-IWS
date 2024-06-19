@@ -1,0 +1,9 @@
+Title: Cancelar Pedido
+
+Content:
+Para cancelar um pedido da sugestão de compra, o usuário deverá acessar o menu localizado no canto superior direito.
+
+
+
+
+Será exibida uma caixa de diálogo onde o usuário deverá pressionar "Sim" para confirmar.

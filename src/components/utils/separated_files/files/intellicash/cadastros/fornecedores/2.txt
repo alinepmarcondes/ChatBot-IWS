@@ -1,0 +1,13 @@
+Title: = Localizar
+
+Content:
+=
+
+
+
+
+Nesta aba há os seguintes botões:
+
+* **Novo:** Para cadastrar um novo fornecedor;
+* **Localizar:** Para pesquisar um fornecedor no banco de dados pelo nome ou documento;
+* **Fornecedores Com Venda:** Ao marcar esta opção, aparecerá apenas fornecedores com venda no resultado da pesquisa.

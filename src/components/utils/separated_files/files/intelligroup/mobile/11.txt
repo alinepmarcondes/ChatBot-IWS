@@ -1,0 +1,6 @@
+Title: = Confirmar Pedido
+
+Content:
+=
+
+Para confirmar um pedido, o usuário deverá pressionar o botãolocalizado no canto inferior direito da tela de pedidos.

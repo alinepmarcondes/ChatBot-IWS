@@ -1,0 +1,7 @@
+Title: Código 206
+
+Content:
+Mensagem de erro: //IntelliCash atualizado! No momento não há atualizações disponíveis!//
+
+Soluções possíveis:
+* Não atualizações disponíveis, encerre o programa de atualização.

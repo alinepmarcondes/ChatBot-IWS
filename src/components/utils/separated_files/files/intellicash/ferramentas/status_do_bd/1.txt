@@ -1,0 +1,18 @@
+Title: == Status do Banco de Dados
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de bloquear um banco ou disponibilizá-lo para o usuário caso seja necessário alguma manutenção.
+
+----
+
+Para entrar nesta ferramenta basta entrar no menu **Ferramentas→Banco de Dados**; e escolher uma das opções:
+
+
+
+**Shutdown** deve ser usado apenas pelos técnicos de suporte, para manutenção no banco de dados. Ao executar esta função, todos os terminais perderão as conexões, permitindo apenas uma conexão, a do técnico.
+
+**Online** deve ser usado apenas pelos técnicos de suporte, para que no final da manutenção no banco de dados libere o acesso a todos os terminas permitindo múltiplas conexões.

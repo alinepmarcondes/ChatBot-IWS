@@ -1,0 +1,28 @@
+Title: == Relatório de Vendas Por Associado
+
+Content:
+==
+
+----
+
+Relatório que exibe os dados referentes as vendas realizadas para os associados.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatório→Gestão de Vendas→Por Associado||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Tipo:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Categoria:** Para selecionar uma categoria do atributo selecionado;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Nesta interface mostra todas as vendas feitas por associado, mostrando qual associado, os produtos e as quantidades vendidas

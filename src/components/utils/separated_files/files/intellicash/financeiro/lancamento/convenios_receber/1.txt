@@ -1,0 +1,16 @@
+Title: == Lançamentos de Convênios a Receber
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de gerar lançamentos de convênios a receber com algum conveniado, gerando uma conta a receber.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Lançamentos→Convênios a Receber||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

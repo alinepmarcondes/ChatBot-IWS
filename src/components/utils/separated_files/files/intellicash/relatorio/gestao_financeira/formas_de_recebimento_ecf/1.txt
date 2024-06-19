@@ -1,0 +1,32 @@
+Title: == Formas de Recebimento ECF
+
+Content:
+==
+
+----
+
+Este relatório mostra as informações financeiras sobre as formas de recebimento das ECF's.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Formas de Recebimento ECF||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes campos:
+
+* **Início e Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Abaixo mostra os resultados da pesquisa em três colunas :
+
+A primeira coluna mostra os detalhes dos recebimentos por ECF diariamente e todos os seus dados, sendo à esquerda os dados numéricos e à direita os dados graficamente.
+
+A segunda coluna mostra os detalhes das finalizadoras ECF que mostra os dados de cada finalizadora de um determinado dia generalizando pelas formas de pagamento, que seja selecionado na coluna acima(Totais por dia), sendo à esquerda todos os seus dados numericamente e à direita os seus dados graficamente.
+
+A terceira coluna mostra os detalhes da finalizadora ECF mostrando todos os dados de uma forma de pagamento selecionado na coluna acima(Finalizadoras ECF), sendo à esquerda os seus dados numéricos e à direita todos os seus dados graficamente.

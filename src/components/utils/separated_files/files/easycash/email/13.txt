@@ -1,0 +1,24 @@
+Title: Servidor EasyCash
+
+Content:
+Uma vez devidamente cadastrado o e-mail, poderemos pelo servidor enviar a nota para o cliente em caso do frente de caixa não conseguir enviar. Na tela de gerenciamento na aba **Vendas** é habilitado o seguinte botão:
+
+
+
+Ao abrir a tela, teremos:
+
+
+
+Observe que a mensagem anteriormente configurada será carregada aqui já com as informações da nota selecionada.
+
+Na aba seguinte o sistema já irá setar o caminho do arquivo XML da venda e mostrar um preview das informações referente a mesma:
+
+
+
+Por padrão, o sistema sempre envia o PDF da nota em anexo, ou seja, o DANFE da mesma. Existe ainda a possibilidade de inserir em conjunto o XML da venda, para isto basta selecionar a opção que está selecionado em vermelho na imagem acima.
+
+Ao clicar no botão **Enviar** todo o processo que estiver sendo executado será discriminado na tela conforme a imagem:
+
+
+
+Caso o processo ocorra sem nenhum problema, no e-mail do destinatário teremos:

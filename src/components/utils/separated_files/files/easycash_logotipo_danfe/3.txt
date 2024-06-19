@@ -1,0 +1,20 @@
+Title: SAT
+
+Content:
+Na tela de **Configurações**, pode-se acessar as configurações para o SAT, conforme a imagem:
+
+
+
+Ao clicar em **Alterar**, teremos:
+
+
+
+Utiliza as seguintes configurações:
+
+* **14607** - NFCeSAT: Impressão - Logomarca - KC1KC2FXFY
+* **14707** - NFCeSAT: Impressão - Logomarca - Adicional
+* **14807** - NFCeSAT: Impressão - Logomarca - Fonte
+* **14907** - NFCeSAT: Impressão - Logomarca - Alinhamento
+* **15107** - SAT: Impressão - Logomarca
+ 
+Lembrando que para o módulo SAT existe duas outras configurações, conforme a imagem abaixo:

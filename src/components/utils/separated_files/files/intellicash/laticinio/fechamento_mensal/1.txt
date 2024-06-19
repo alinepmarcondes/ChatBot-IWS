@@ -1,0 +1,39 @@
+Title: == Fechamento Mensal
+
+Content:
+==
+
+----
+
+A tela de fechamento mensal tem a função de relatório de lançamentos confirmados, além de possibilitar gerar as notas fiscais a partir dos filtros estabelecidos.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Laticínio→Fechamento||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há três colunas, a primeira exibe uma lista de totalidades do agrupamento, seja dos lançamentos feitos em uma Fazenda ou em um determinado Tanque. A segunda coluna exibe os lançamentos discriminadamente, pela data. Caos o agrupamento seja feito pelo tanque, o nome da fazenda é acrescido a frente do nome do produto, para distinguir de qual fazenda se originou o lançamento. A ultima coluna exibe os abatimentos selecionados para o fechamento da fazenda. Estes descontos serão abatidos no ato da amissão da nota e serão exibidos na tela de Relatório.
+
+* **Empresa:** Campo de Seleção da Empresa na qual os lançamentos foram efetuados.
+* **Filtrar:** Filtro que agrupa os lançamentos por Fazenda ou por tanques.
+* **Início** e **Término:** Intervalo de validação da data de entrada dos lançamentos.
+* **Todos em Aberto:** Opção de Exibir todos os lançamentos em aberto.
+
+
+
+* **Aplicar:** Buscará os lançamentos em aberto.
+* **Localizar:** Campo para Localizar um fechamento pelo nome da fazenda.
+* **Preço do Dia:** Este campo altera a forma como será calculado o total dos lançamentos onde, quando desmarcado, aplica os valores de intervalos de cotas, e quando marcado ignora os intervalos de cotas e calcula pelo preço lançado no dia especificamente.
+* **Imprimir:** Imprime o fechamento.
+* **Exportar:** Exporta o fechamento no formato Excel.
+* **Gerar Notas:** Inicia os procedimentos para a abertura de uma nota fiscal.
+
+As notas serão geradas separadamente para cada agente, independente se o agrupamento é feito por fornecedor ou por tanque.
+Para cada nota é solicitado o modelo da mesma, e então, caso seja possível gerar a nota, é exibida a nota, não confirmada ainda.
+
+Os lançamentos Fiscais de Contas a Pagar podem se efetuados após a confirmação da nota.

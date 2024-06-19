@@ -1,0 +1,22 @@
+Title: Frente de Caixa
+
+Content:
+No frente de caixa, deve-se ter uma forma de pagamento denominada **CARTEIRA DIGITAL**, conforme a imagem:
+
+
+
+Na aba Carteira Digital, teremos as seguintes configurações:
+
+
+
+A descrição das mesmas encontra-se abaixo:
+
+**Integração direta com a API do PIC PAY -** Quando esta opção estiver setada o sistema não irá utilizar a integração da Software Express com Carteira Digital e sim a integração direta com a API do PIC PAY. Segue o link:
+
+[[https://ecommerce.picpay.com/doc/|PicPay - E-Commerce Public API (1.0)]]
+
+**Pedir CPF do cliente com antecedência -** Quando esta opção estiver setada e não estiver setado para integrar direto com a API do PIC PAY, o sistema irá pedir para que seja selecionado antes do fluxo da carteira o agente. Com isso eu passo para o fluxo o documento do mesmo, evitando que seja coletado o documento do cliente pelo pinpad. Em outras palavras é executada a instrução a seguir:
+
+
+
+Será mostrada a seguinte tela no sistema:

@@ -1,0 +1,4 @@
+Title: Associados
+
+Content:
+Para acessar a tela **Cadastro de associados** clique no menu **Cadastrar** e depois em **Associados**.

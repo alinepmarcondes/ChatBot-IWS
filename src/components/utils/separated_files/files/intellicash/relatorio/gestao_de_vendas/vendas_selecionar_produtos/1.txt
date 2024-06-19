@@ -1,0 +1,53 @@
+Title: == Relatório de Vendas Selecionado Por Produtos
+
+Content:
+==
+
+----
+
+Esta tela serve para gerar um relatório de vendas de produtos específicos a escolha do usuário.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Vendas (Selecionar Produtos)||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Esta tela há duas colunas:
+
+Na coluna da esquerda: nela mostra todas as consultas que já foram criadas e há os seguintes botões:
+
+* **Nova:** para criar uma nova consulta;
+* **Excluir:** Para excluir uma consulta selecionada;
+
+Na coluna da direita: nela mostra todos os produtos de uma consulta que foi selecionada na coluna anterior e há os seguintes botões:
+
+* **Inserir:** Para inserir um produto na consulta
+* **Excluir:** Para excluir um produto da consulta
+* **Abrir:** Para gerar o relatório de vendas;
+
+Após clicar no botão "//**Nova**//" para criar uma consulta aparecerá a seguinte tela:
+
+
+
+Nesta tela basta apenas nomear a consulta e confirmar e após isso já aparecerá a tela para inserir(que é a função do botão "//**Inserir**//" na coluna seleção) produtos:
+
+
+
+Após selecionados os produtos, basta clicar no botão "//**Abrir**//" para gerar um relatório de vendas destes produtos:
+
+
+
+Nesta interface há os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** Para imprimir os dados do item;
+* **Desativar:** Para desativar um produto;
+* **Fechar:** Para sair desta tela;
+
+Na parte inferior da tela há um campo de texto para localizar um produto em específico.

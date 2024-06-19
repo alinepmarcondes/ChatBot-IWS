@@ -1,0 +1,23 @@
+Title: Exportar Fornecedores/Produtos
+
+Content:
+Feito corretamente o cadastro do Grupo, é possível exportar tanto Notas Fiscais de Fornecedores Parceiros como as Vendas de Produtos Próprios escolhendo as abas referentes.
+
+Para executar a exportação é preciso preencher um formulário e acionar o botão enviar.
+
+
+
+**1:** Intervalo de tempo de onde serão coletadas as informações;
+
+**2:** Identificação do usuário Cadastrado no banco de dados do Grupo;
+
+**3:** Botão para enviar os dados da exportação;
+
+**4:** Caixa de log dos processos.
+
+Principais Erros do log:
+
+
+Dados de Login incorretos
+
+Tanto a aba de Exportar Fornecedores quanto Exportar Produtos Próprios apresentam o mesmo comportamento e interface, havendo diferença apenas no conteúdo exportado.

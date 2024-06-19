@@ -1,0 +1,12 @@
+Title: SPED
+
+Content:
+Nesta tela devem ser colocados os dados que serão enviados para o SPED e tambémos dados do contador da empresa e a empresa que o contador trabalha(se houver).
+
+Para inserir uma nova versão EFD, basta clicar no botão "//**Inserir**//", na parte superior da tela e após isso informar qual a versão EFD utilizada, e para alterar o perfil EFD basta clicar no botão "//**Alterar**//", e informar qual é o perfil da empresa.
+
+Ao clicar em "//**Alterar**//" na parte inferior da tela aparecerá a seguinte interface para alterar os dados do contador.
+
+
+
+Nesta interface é necessário cadastrar os dados pessoais do contador e da contabilidade.

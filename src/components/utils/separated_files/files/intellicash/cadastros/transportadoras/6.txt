@@ -1,0 +1,14 @@
+Title: Dados Adicionais
+
+Content:
+A aba "//**Dados Adicionais**//" mostra os dados opcionais e outros dados da transportadora.
+
+
+
+Nela mostra os dados sobre endereço, telefone, email. Em ambos, para cadastrar ou alterar aparecerá a mesma interface referente ao cadastro das mesmas.
+
+Já no caso de veículos é uma coluna para adicionar, alterar, ou excluir os veículos da transportadora. Ao clicar em adicionar ou alterar, aparecerá a seguitne interface para cadastrar o veículo:
+
+
+
+Nela basta cadastrar a "//**Placa do Veículo**//" e a "//**UF**//".

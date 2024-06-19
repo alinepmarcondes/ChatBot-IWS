@@ -1,0 +1,30 @@
+Title: == Atualizar IBPTax
+
+Content:
+==
+
+----
+
+IBPTax são alíquotas que o governo cria a determinados produtos, e de tempos em tempos essas alíquotas são alteradas, por isso a IWS criou uma ferramenta para a atualização desses valores.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Atualizar IBPTax||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Após entrar nesta tela é necessário clicar no botão "//**Importar**//" e automaticamente o sistema irá atualizar os valores de acordo com o site oficial da IBPT [[http://www.ibpt.com.br|Veja Aqui]].
+
+Após isso as alíquotas foram importadas porem é preciso exportar para o PDV e para isso é necessário ir até a interface em:
+
+||Cadastros→Exportação→EasyCash→(aba)Produtos||
+
+
+
+Nesta interface é necessesário selecionar a aba "//**Produtos**//"/"//**Alterados**//" e após isso é necessário clicar no botão "//**Exportar**//" para concluir a operação.
+
+Para mais informações basta ver o manual de exportação para [[manuais:intellicash:cadastros:exportacao:easycash|EasyCash]].

@@ -1,0 +1,30 @@
+Title: == Gestão de Cotas
+
+Content:
+==
+
+----
+
+Este ambiente permite visualizar, editar, adicioar, remover e principalmente, aplicar vários intervalos de cotas para várias fazendas ao mesmo tempo.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Laticínio→Gestão de Cotas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há três colunas, "//**Cotas Cadastradas**//" que é uma lista de todos os intervalos de cota já cadastrados, "//**Cotas Selecionadas**//" que exibe quais cotas serão aplicadas para as fazendas escolhidas e "//**Linhas Para Aplicar**//".
+
+Nesta tela há os seguintes campos:
+
+* **Incluir:** permite cadastrar um novo intervalo de cota.
+* **Excluir:** permite deletar uma cota já cadastrada.
+* **Alterar:** permite alterar uma cota já cadastrada.
+* **Adicionar:** insere a cota na lista de "//**Cotas Selecionadas**//".
+* **Remover:** remove uma cota selecionada da lista de "//**Cotas Selecionadas**//".
+* **Localizar:** Caso esteja em branco trará todas as fazendas cadastradas, assim como se estiver preenchido com o valor 'TODOS'.
+* **Aplicar:** irá remover todas as cotas relacionadas com as fazendas marcadas na tabela acima, e posteiormente aplicara todas as cotas inseridas na tabela de "//**Cotas Selecionadas**//".

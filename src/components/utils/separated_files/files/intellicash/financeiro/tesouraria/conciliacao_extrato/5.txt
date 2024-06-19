@@ -1,0 +1,7 @@
+Title: Categorias do Lançamento
+
+Content:
+Já na aba **Categorias de Lançamento** serão cadastradas as categorias referentes aos lançamentos que irão compor o extrato.
+
+Para cadastrar uma categoria basta clicar no botão **Nova Linha**, o sistema abrirá uma interface onde será colocado o código da categoria e sua descrição. O usuário poderá também alterar e excluir os registro que foram cadastrados incorretos atráves dos botões **Excluir Linha** e **Alterar Linha**. 
+Tais categorias e respectivos códigos constaram no manual cedido pelo banco.

@@ -1,0 +1,24 @@
+Title: = Verificar Contas a Receber na Matriz
+
+Content:
+=
+
+----
+
+Esta ferramenta tem a função de dar baixas em lançamentos financeiros de contas a receber.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Baixas→Títulos a Receber||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+Na tela de Recebimento do Cliente da Filial é possível verificar as contas em aberto do cliente em outras empresas. 
+
+
+
+
+
+Mais em [[manuais:intellicash:financeiro:baixas:contas_receber|Contas a Receber]].

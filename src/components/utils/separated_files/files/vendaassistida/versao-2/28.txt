@@ -1,0 +1,11 @@
+Title: = Entrega
+
+Content:
+=
+
+Para cadastrar uma entrega, o usuário deverá acessar o menu localizado no canto superior direitoe pressionar o item "Entrega".
+
+
+
+
+Para excluir, o usuário deverá pressionar o botãona tela de entrega.

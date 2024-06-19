@@ -1,0 +1,23 @@
+Title: == Cadastrando um novo roteiro
+
+Content:
+==
+
+Ao clicar no botão “**Novo**” aparecerá a seguinte janela:
+
+
+
+Nela temos os seguintes campos:
+* **Descrição:** texto livre pra identificar o roteiro;
+* **Categoria:** Trata-se de uma categoria de veículo aplicável a esse tipo de roteiro;
+* **Cliente Origem:** o cliente que será remetente do CT-e;
+* **Cliente Destino:** o cliente que será o destinatário do CT-e;
+* **Tomador:** agente para quem o frete foi emitido;
+* **Valores de Ida e Volta:** Corresponde aos valores a serem usados para viagem de Ida ou de Volta:
+ * **Transport.:** É o valor de da transportadora (Irá compor o valor do CT-e);
+ * **Motorista:** Valor pago ao motorista irá gerar o contas a pagar;
+ * **Por Kg:** valor por Kg de mercadoria (Irá compor o valor do CT-e);
+ * **Pedágio** e **Pedágio IF:** valor do pedágio cobrado durante a rota; 
+* **Outros:** Outros valores cobrados durante o transporte;
+*** Tipo Valores:** exibe se os valores declarados acima são porcentagens relativas ao valor da carga ou se é são valores fixos.
+***Averbação**: Permite selecionar ou adicionar o tipo de Averbação relacionado aquele roteiro;

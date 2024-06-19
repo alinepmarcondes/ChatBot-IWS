@@ -1,0 +1,15 @@
+Title: == MarketPlace
+
+Content:
+==
+----
+
+O marketplace é uma plataforma, mediada por uma empresa, em que vários fornecedores se inscrevem e vendem seus produtos. Essa plataforma funciona de forma que o usuário entre em determinado site e compre em mais de uma loja, pagando todos os itens juntos.\\
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoques→Vendas→Força de Vendas→MarketPlace||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

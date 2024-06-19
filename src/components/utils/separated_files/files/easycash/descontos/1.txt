@@ -1,0 +1,49 @@
+Title: == Descontos, Bonificações, Acréscimos e Promoções
+
+Content:
+==
+Este manual reúne todos os tipos de descontos e promoções que podem incidir na venda, influenciando no valor do item ou no subtotal do cupom.
+
+== Descontos ou acréscimos que podem incidir no subtotal no frente de caixa: ==
+
+São os que alteram o valor final da venda, sendo aplicadas durante a finalização da venda e que são rateados em todos os itens:
+
+- //Desconto/Acréscimo manual;//
+- //Desconto/Acréscimo por FPG;//
+- //Desconto fixo por cliente;//
+- //Programa de pontuação;//
+- //Integração com o Cresce Vendas;// 
+- //Integração com o DmCard;//
+- //Integração com a Mercafacil;//
+- //Acréscimo de Frete;//
+- //Orçamentos (DAV, Food e Ordem de serviço);//
+- //Bonificação do TEF;//
+
+==Descontos ou bonificações que podem incidir no item: ==
+
+- //Desconto manual no Item;//
+- //Promoção simples;//
+- //Promoção simples por delimitação de quantidade;//
+- //Preço diferenciado por atacado;//
+- //Preço diferenciado por atacado por forma de pagamento;//
+- //Preço diferenciado por atacado por cliente;//
+- //Preço diferenciado por cliente;//
+- //Integração com Crescevendas;//
+- //Integração com o Mercafacil;//
+- //Integração com a Scanntech, contendo os seguintes tipos de promoção (com ou sem FPG)://
+- //Item de Presente//
+- //Pague X Leve Y;//
+- //Desconto Porcentual;//
+- //Combo com Desconto Porcentual;//
+- //Preço Fixo;//
+- //Combo de Preço Fixo;//
+- //Desconto Fixo.//
+- //Promoções especiais (com ou sem FPG):// 
+- //Item de Presente;//
+- //Pague X Leve Y;//
+- //Desconto Porcentual;//
+- //Combo com Desconto Porcentual;//
+- //Preço Fixo;//
+- //Combo de Preço Fixo;//
+- //Desconto Fixo;//
+- //Valor do cupom (Ganha um desconto no item X somente se o valor do cupom for maior do que Y).//

@@ -1,0 +1,20 @@
+Title: Agendar Pagamentos
+
+Content:
+Agora poderemos começar a agendar os pagamentos, ao lado do botão “//**Tipos de Proventos**//”, existe um botão chamado “//**Agendar Pagamentos**//”, o usuário ao clicar nele poderá agendar os proventos regulares pelo tempo (meses) que desejar lembrando que esse agendamento será para o funcionário que está na tela.
+
+Ao clicar no botão “//**Agendar Pagamentos**//” o sistema irá solicitar a primeira data de vencimento do salário e nesse processo o sistema irá sugerir a próxima data disponível.
+
+
+
+
+
+Ao informar a data o sistema irá validar se já foi dado baixa no salário do mês informado e se a baixa já ocorreu será apresentada a seguinte mensagem:
+
+
+
+Se a data for válida o usuário poderá informar a quantidade de parcelas a serem agendadas.
+
+
+
+Ao clicar no botão “//**Ok**//”, o sistema automaticamente agendará os proventos pelo tempo (meses) que foi determinado e mudará de aba para “//**Situação Financeira**//”.

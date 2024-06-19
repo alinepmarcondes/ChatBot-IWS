@@ -1,0 +1,22 @@
+Title: == Cadastro de Tanques
+
+Content:
+==
+
+----
+
+Os tanques são formas de agrupar a produção de várias linhas. Possibilitam visualizar a produção total de um tanque em um período de tempo e também expedir as notas fiscais pelos mesmos, para cada produtor separadamente.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Laticínio→Cadastro de Tanques||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+O campo "//**Localizar**//" é onde se insere o nome do tanque para localiza-lo, ou em branco ou com a palavra “TODOS” para buscar todos os registros. Após inserir o nome, basta pressionar a telca __Enter__; Após isso, logo abaixo exibe todas os resultados encontrados.
+
+Há também os filtros de tanques "//**Ativos**//" e "//**Inativos**//". Quando excluímos um tanque ele apenas passa a ficar inativo. Alterando as propriedades de um tanque inativo, automaticamente ativamos o mesmo.

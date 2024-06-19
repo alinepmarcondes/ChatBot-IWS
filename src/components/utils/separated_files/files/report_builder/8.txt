@@ -1,0 +1,16 @@
+Title: = Barras de Ferramentas
+
+Content:
+=
+
+As barras de ferramentas podem ser ocultadas e exibedas pela seleção do menu View -> Toolbar, por isso, nem sempre aparecerão na mesma ordem e disposição apresentada aqui. As barras também podem ser trocadas de lugar arrastandoas pelos (...) que fica no canto esquerdo de cada uma.
+
+
+
+Em **90%** do tempo as ferramentas utilizadas para editar um relatório estarão dentro dessas duas caixas destacadas de amarelo.
+
+Na caixa da esqueda estão os elementos "estáticos", ou seja, elementos nos quais as informações são pré-definidas no momento da edição, como por exemplo um campo de texto com o título ou o rótulo dos campos.
+
+Na segunda caixa estão os elementos "dinâmicos" que receberão valores baseado em um vínculo com uma fonte de dados (**Data Set's**). 
+
+Como as ferramentas são muito semelhantes, muda apenas a fonte de dados, não é necessário extender muito nos detalhes de cada uma, mas é importante destacar a diferença entre os componentes **Variable** e **DBCalc**.

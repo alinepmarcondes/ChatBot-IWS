@@ -1,0 +1,6 @@
+Title: = Selecionar Cliente
+
+Content:
+=
+
+Para selecionar um cliente, o usuário deverá acessar o menu localizado no canto superior direito e pressionar o item "Selecionar Cliente".

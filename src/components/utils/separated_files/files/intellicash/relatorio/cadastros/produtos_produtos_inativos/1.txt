@@ -1,0 +1,29 @@
+Title: == Relatório de Produtos Inativos
+
+Content:
+==
+
+----
+
+Este relatório exibe todos os produtos desativados. Se desejar é possível reativá-los através deste relatório.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→Produtos Inativos||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta interface mostra todos os produtos cadastrados que estão inativos no sistema.
+
+Na parte superior desta tela há um campo de texto para buscar por um produto em específico.
+
+Para ativar um produto selecionado, basta selecionar o mesmo e marcar o checkbox da tabela "//**Ativo**//".
+
+Nesta interface há dois botões:
+
+* **Salvar:** para aplicar as alterações que foram realizadas no sistema e após feito isso os produtos alterados estarão ativos novamente;
+* **Fechar:** Para sair desta interface, sem salvar as alterações.

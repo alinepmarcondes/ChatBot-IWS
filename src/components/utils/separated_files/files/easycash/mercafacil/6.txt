@@ -1,0 +1,28 @@
+Title: Sincronizador
+
+Content:
+Primeiramente iremos configurar o arquivo: conexao.ini
+
+
+
+Devemos nos atentar aos seguintes pontos:
+
+
+
+
+- Ip do banco de dados do Intellicash;
+- Aliases do banco de dados do Intellicash;
+- Número da empresa;
+- Porta configurada.
+
+Devemos configurar o arquivo: SincrIntegracao.ini
+
+O arquivo deve estar configurado conforme a imagem abaixo:
+
+
+O executável do sincronizador deve estar na inicialização do windows:
+
+Comando: shell:common startup
+
+
+Devemos agora, realizar a primeira carga para o Mercafacil, onde serão enviados os dados para que possam ser geradas as promoções.

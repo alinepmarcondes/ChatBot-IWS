@@ -1,0 +1,27 @@
+Title: Dados Adicionais
+
+Content:
+A aba "//**Dados Adicionais**//" mostra informações adicionais sobre o produto, com relação a fornecedores e fornecimento;
+
+
+
+Esta aba foi criada para inserir dados adicionais com referência aos fornecedores. nela há três colunas, os códigos utilizados pelos fornecedores, o armazenamento por fornecedores e observações.
+
+
+
+Nesta parte há uma tabela com os atributos "//**Fornecedor**//", "//**CNPJ**//" e "//**Código**//", que é o código utilizado pelo fornecedor. Nesta coluna há os seguintes botões respectivamente:
+
+* **Adicionar:** Para adicionar um código utilizado pelo fornecedor e ao clicar neste botão abrirá a seguinte tela:
+
+
+
+Para localizar um fornecedor é necessário fazer uma pesquisa no campo de texto por razão social, fantasia ou CNPJ. Após localizado e confirmado aparecerá a seguinte tela:
+
+
+
+Nesta tela é necessário informar o código utilizado pelo fornecedor e após confirmar, este código estará cadastrado.
+
+* **Alterar:** Altera o código utilizado pelo fornecedor, e ao clicar neste botão aparecerá apenas a interface para informar o novo código;
+* **Excluir:** Exclui o código utilizado pelo fornecedor utilizado;
+
+Mais abaixo há a parte de observações, que como visto antes tem as mesmas funções.

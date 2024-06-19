@@ -1,0 +1,4 @@
+Title: Download do Instalador
+
+Content:
+O download do instalador pode ser feito a partir do seguinte endereço [[http://intelliware.com.br/download/gnfe/|http://intelliware.com.br/download/gnfe]]. Clique na versão desejada para começar o download.

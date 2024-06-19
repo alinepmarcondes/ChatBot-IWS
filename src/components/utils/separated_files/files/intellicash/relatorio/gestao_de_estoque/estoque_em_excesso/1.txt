@@ -1,0 +1,15 @@
+Title: == Estoque em excesso
+
+Content:
+==
+
+O relatório de estoque em excesso tem como finalidade auxiliar o gestor a identificar os produtos que estão em grande quantidade no estoque.\\
+É usado como base a estatística de produtos vendidos nos últimos 6 meses, e a partir dessa informação definir quantos dias de estoque o produto possui, e assim determinar se possui em excesso ou não.\\
+
+O relatório se encontra em :
+||Gerenciamento→Relatórios→Gestão de Estoque→Análise de Qtde→Estoque em Excesso||
+
+
+
+Nesse relatório definimos a quantidade de dias mínima para ser considerada excesso de estoque, o tipo de filtro, se será por Seção, Grupo, fabricante, etc..., e o filtro deste tipo.\\
+O relatório irá converter a quantidade em estoque do produto em quantidade de dias de venda, e listar todos os produtos da classificação selecionada no filtro superior a quantidade de dias informada.\\

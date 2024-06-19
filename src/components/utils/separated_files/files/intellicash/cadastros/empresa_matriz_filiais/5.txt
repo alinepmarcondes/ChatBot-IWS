@@ -1,0 +1,34 @@
+Title: Dados Adicionais
+
+Content:
+Nesta tela mostra todos os dados adicionais do cliente:
+
+Na primeira parte há a coluna de endereços:
+
+
+
+Nesta tela mostra os endereços da empresa e ao clicar em Adicionar/Alterar aparecerá a seguinte interface:
+
+
+
+Nesta interface deverão ser preenchidos os campos “//**Tipo**//” (para informar o tipo de endereço do cliente), “//**CEP**//”, “//**Logradouro**//”, “//**Nº**//”, “//**Complemento**//”, “//**Bairro**//”, “//**Cidade**//”, “//**UF**//”, “//**País**//”, “//**Ponto de Referência**//”, “//**I.E. Isento**//” (no caso de ser uma pessoa jurídica) e “//**I.E.**//”.
+
+Na segunda parte há a coluna de telefones/emails:
+
+
+
+Nesta tela mostra os telefones/emails da empresa e ao clicar em Adicionar/Alterar aparecerá a seguinte interface:
+
+
+
+Nesta interface deverão ser preenchidos os campos “//**Tipo**//” (para informar o tipo de telefone do cliente), “//**Telefone**//”, “//**Operadora**//” e “//**Contato**//”.
+
+Na última coluna mostra a parte de Inscrição Estadual:
+
+
+
+Ao clicar em Adicionar/Alterar aparecerá a seguinte interface:
+
+
+
+Nesta tela basta informar a "//**UF**//" e a "//**Incrição Estadual**//".

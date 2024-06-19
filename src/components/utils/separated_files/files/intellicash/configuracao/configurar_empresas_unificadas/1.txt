@@ -1,0 +1,20 @@
+Title: == Configurar Empresas Unificadas
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de configurar quais empresas praticam o mesmo preço de venda. Ao agrupar as empresas quando uma delas tiver o preço de venda alterado automaticamente as outras empresas agrupadas receberão o mesmo preço.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Configurar Empresas Unificadas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+Para criar um agrupamento basta clicar no botão novo que se encontra no canto inferior esquerdo, será aberta uma janela para informar a descrição do Agrupamento, caso o usuário queira alterar a descrição basta selecionar o agrupamento e clicar no botão alterar. \\
+Para agrupar as empresas basta selecionar o agrupamento e clicar no botão adicionar que se encontra no painel de empresas agrupadas, ou no botão remover caso queira retirar a empresa do agrupamento.

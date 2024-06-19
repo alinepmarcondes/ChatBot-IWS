@@ -1,0 +1,20 @@
+Title: Conciliação do Extrato
+
+Content:
+O sistema abrirá uma inteface para que o usuário possa escolher o arquivo que recebe do banco.
+
+Após esse procedimento o sistemas começará a ler o arquivo do banco e comparar com o que está no movimento de caixa da respectiva conta contida no arquivo. Nesse processo o sistema já está conciliando os registros do extrato que foram enviados do banco com os existentes no movimento de caixa. Decorrido esse período se abrirá uma interface com os dados do **Banco** e do **Cliente**.
+
+
+
+Com a interface já disponível na tela o usuário poderá realizar os seguintes filtros **Todos** (todos os registros que estavão no arquivos), **Conciliados** (todos os registros já conciliados pelo sistema) e **Não Conciliados** (todos os registros que não foram conciliados pelo sistema).
+
+O usuário poderá tentar **Conciliar** os registros selecionados na grade que se refere ao **Banco** com a grade de **Cliente**. Esse processo poderá também ser feito para **Desconciliar**.
+
+Para conciliar basta selecionar o registro desejado, clicar com o botão direito do mouse e selecionar a opção **Conciliar**.
+
+
+
+Ao **conciliar** o sistema exibirá uma interface onde mostrará os registros que ainda não foram concilidados e os mesmos provém dos dados pertinentes ao registro selecionado (filtro baseado em data e valor). O Usuário deve selecionar o registro que correspondente.
+
+Também na tela de comparação o usuário poderá **Lançar Movimento** que não encontrar (o sistema já irá conciliar o novo lançamento) e poderá acessar os **Detalhes Financeiros** de um registro conciliado.

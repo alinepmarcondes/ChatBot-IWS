@@ -1,0 +1,6 @@
+Title: = Criar um Novo Orçamento
+
+Content:
+=
+
+Para criar um novo orçamento o usuário deverá acessar o menu localizado no canto superior direitoe pressionar o item "Novo".
