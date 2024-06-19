@@ -31,16 +31,14 @@ function Chat() {
 
   useEffect(() => {
     scrollToBottom();
-  }, [currentChat.content]);
+  }, [currentChat?.content]);
 
-  // Function to scroll to the bottom of the chat messages
   const scrollToBottom = () => {
     if (messagesEndRef.current) {
       messagesEndRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
-  // Function to add a new chat
   const addNewChat = async () => {
     try {
       if (inputValue.trim() !== "") {
@@ -65,7 +63,7 @@ function Chat() {
 
         setCurrentChat(createdChat);
         setChats([...chats, createdChat]);
-
+        setInputValue("");
         console.log('Chat criado com sucesso!');
       } else {
         setCurrentChat(null);
@@ -75,7 +73,6 @@ function Chat() {
     }
   };
 
-  // Function to fetch chats for the logged-in user
   const fetchChats = async () => {
     try {
       const userId = localStorage.getItem('userId');
@@ -87,79 +84,71 @@ function Chat() {
     }
   };
 
-  // Function to send a message within the current chat
   const sendMessage = async () => {
     if (inputValue.trim() !== "") {
-        const newMessage = {
-            timestamp: String(new Date()),
-            sender: 'user',
-            message: inputValue
-        };
+      const newMessage = {
+        timestamp: String(new Date()),
+        sender: 'user',
+        message: inputValue
+      };
 
-        try {
-            if (!currentChat) {
-                await addNewChat();
+      try {
+        if (!currentChat) {
+          await addNewChat();
+        } else {
+          const updatedChats = [...chats];
+          const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
+          if (updatedChatIndex !== -1) {
+            const updatedChat = {
+              ...updatedChats[updatedChatIndex],
+              content: [...updatedChats[updatedChatIndex].content, newMessage]
+            };
+            updatedChats[updatedChatIndex] = updatedChat;
+            setChats(updatedChats);
+            setCurrentChat(updatedChat);
+
+            // Call the backend API to get the RAG response
+            const response = await fetch('http://localhost:5000/api/generate-response', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({ question: inputValue })
+            });
+
+            if (response.ok) {
+              const { response: botResponse } = await response.json();
+
+              const botMessage = {
+                timestamp: String(new Date()),
+                sender: 'bot',
+                message: botResponse
+              };
+
+              updatedChats[updatedChatIndex].content = [...updatedChat.content, botMessage];
+              setChats([...updatedChats]);
+              setCurrentChat({ ...updatedChat, content: [...updatedChat.content, botMessage] });
             } else {
-                const updatedChats = [...chats];
-                const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
-                if (updatedChatIndex !== -1) {
-                    const updatedChat = {
-                        ...updatedChats[updatedChatIndex],
-                        content: [...updatedChats[updatedChatIndex].content, newMessage]
-                    };
-                    updatedChats[updatedChatIndex] = updatedChat;
-                    setChats(updatedChats);
-                    setCurrentChat(updatedChat);
-
-                    const responseStream = await llm(inputValue);
-
-                    let responseMessage = "";
-                    for await (const fragment of responseStream) {
-                        responseMessage += fragment;
-
-                        const botMessage = {
-                            timestamp: String(new Date()),
-                            sender: 'bot',
-                            message: responseMessage
-                        };
-
-                        // Update the current chat state with the new fragment
-                        updatedChats[updatedChatIndex].content = [...updatedChat.content, botMessage];
-                        setChats([...updatedChats]);
-                        setCurrentChat({ ...updatedChat, content: [...updatedChat.content, botMessage] });
-                    }
-
-                    // Save the final response to the backend
-                    await fetch(`http://localhost:5000/chats/${currentChat._id}/content`, {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({ ...newMessage, sender: 'bot', message: responseMessage })
-                    });
-                    console.log('Mensagem enviada com sucesso!');
-                }
+              console.error('Failed to get response from backend');
             }
-        } catch (error) {
-            console.error('Erro ao enviar mensagem:', error);
+          }
         }
+      } catch (error) {
+        console.error('Error sending message:', error);
+      }
 
-        setInputValue("");
+      setInputValue("");
     }
   };
 
-
-  // Function to open the manual
   const openManual = () => {
     setShowManual(true);
   };
 
-  // Function to close the manual
   const closeManual = () => {
     setShowManual(false);
   };
 
-  // Function to handle key down events (e.g., pressing Enter to send message)
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
       event.preventDefault();
@@ -167,7 +156,6 @@ function Chat() {
     }
   };
 
-  // JSX returned by the component
   return (
     <div className="chat-container">
       {showManual && <Manual onClose={closeManual} />}
@@ -181,20 +169,20 @@ function Chat() {
         </button>
       </div>
       <div className="chat-body">
-      <div className="chat-messages">
-        {currentChat && currentChat.content.map((message, index) => (
+        <div className="chat-messages">
+          {currentChat && currentChat.content.map((message, index) => (
             <div
-                key={index}
-                className={`message-box ${message.sender === 'user' ? "sent" : "received"}`}
+              key={index}
+              className={`message-box ${message.sender === 'user' ? "sent" : "received"}`}
             >
-                <div className="message-text">{message.message}</div>
-                <div className="message-info">
-                    <span className="timestamp">{new Date(message.timestamp).toLocaleString()}</span>
-                </div>
+              <div className="message-text">{message.message}</div>
+              <div className="message-info">
+                <span className="timestamp">{new Date(message.timestamp).toLocaleString()}</span>
+              </div>
             </div>
-        ))}
-        <div ref={messagesEndRef} />
-      </div>
+          ))}
+          <div ref={messagesEndRef} />
+        </div>
         <div className="chat-input">
           <input
             type="text"
