@@ -29,9 +29,9 @@ async function getTextEmbeddings(text, modelIdentifier, serverUrl = 'http://loca
     }
 }
 
-// Function to load embeddings from .npy and .json files
 function loadEmbeddings(jsonPath) {
-    const metadata = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+    // Using require to load the JSON data
+    const metadata = require(jsonPath);
 
     const embeddings = metadata.map((data, idx) => ({
         embedding: data.embedding,
