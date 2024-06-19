@@ -13,6 +13,19 @@ function Chat() {
   const messagesEndRef = useRef(null);
   const navigationState = useNavigationState();
 
+  const [userInput, setUserInput] = useState('');
+  const [botResponse, setBotResponse] = useState('');
+
+  const handleSubmit = async (e) => {
+      e.preventDefault();
+      try {
+          const response = await axios.post('/api/generate-response', { userInput });
+          setBotResponse(response.data);
+      } catch (error) {
+          console.error(error);
+      }
+  };
+
   useEffect(() => {
     fetchChats(); 
     if (navigationState.chat) {
@@ -166,9 +179,20 @@ function Chat() {
             onChange={(e) => setInputValue(e.target.value)}
             onKeyDown={handleKeyDown}
           />
+          <form onSubmit={handleSubmit}>
+              <input 
+                  type="text" 
+                  value={userInput} 
+                  onChange={(e) => setUserInput(e.target.value)} 
+              />
+              <button type="submit">Send</button>
+          </form>
           <button className="send-button" onClick={sendMessage}>
             Send
           </button>
+          <div>
+                <p>Bot: {botResponse}</p>
+          </div>
         </div>
       </div>
     </div>

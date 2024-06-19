@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const fs = require('fs');
+const { exec } = require('child_process');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -18,17 +18,17 @@ mongoose.connect('mongodb://localhost:27017/C317', {
 const userSchema = new mongoose.Schema({
   login: {
     type: String,
-    required: true
+    required: true,
   },
   password: {
     type: String,
-    required: true
+    required: true,
   },
   type: {
     type: String,
     enum: ['admin', 'user'],
-    default: 'user' 
-  }
+    default: 'user',
+  },
 });
 
 const messageContentSchema = new mongoose.Schema({
@@ -37,23 +37,23 @@ const messageContentSchema = new mongoose.Schema({
   },
   sender: {
     type: String,
-    enum: ['user', 'bot'] 
+    enum: ['user', 'bot'],
   },
   message: {
     type: String,
-  }
+  },
 });
 
 const chatSchema = new mongoose.Schema({
   title: {
-    type: String
+    type: String,
   },
   content: [messageContentSchema],
   user: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
-    required: true
-  }
+    required: true,
+  },
 });
 
 const Chat = mongoose.model('Chat', chatSchema);
@@ -67,7 +67,7 @@ mongoose.connection.on('error', (err) => {
   console.error('MongoDB connection error:', err);
 });
 
-// users -------------------------------------------
+// Users -------------------------------------------
 
 // Rota para criar um novo usuário
 app.post('/users', async (req, res) => {
@@ -164,13 +164,12 @@ app.post('/users/authenticate', async (req, res) => {
   }
 });
 
-
-// chat ------------------------------
+// Chat -------------------------------------------
 
 // Rota para obter chats
 app.get('/chats', async (req, res) => {
   try {
-    const { userId } = req.query;  // Assume que o ID do usuário é passado como parâmetro de consulta
+    const { userId } = req.query; // Assume que o ID do usuário é passado como parâmetro de consulta
     const chats = await Chat.find({ user: userId });
     res.status(200).json(chats);
   } catch (error) {
@@ -178,7 +177,6 @@ app.get('/chats', async (req, res) => {
     res.status(500).json({ error: 'Erro ao buscar chats.' });
   }
 });
-
 
 // Rota para criar um novo chat
 app.post('/chats', async (req, res) => {
@@ -203,10 +201,9 @@ app.post('/chats/:chatId/content', async (req, res) => {
       return res.status(404).json({ error: 'Chat não encontrado.' });
     }
     const newMessage = {
-      _id: new mongoose.Types.ObjectId(),
       timestamp: String(new Date()),
       sender: 'user',
-      message: message
+      message: message,
     };
     chat.content.push(newMessage);
     await chat.save();
@@ -235,8 +232,37 @@ app.put('/chats/:chatId/title', async (req, res) => {
   }
 });
 
+// Rota para gerar resposta do LLM e salvar no chat
+app.post('/api/generate-response', async (req, res) => {
+  const { userInput, chatId } = req.body;
 
-// ----------------------------------------------------
+  exec(`python3 path/to/your_script.py "${userInput}"`, async (error, stdout, stderr) => {
+    if (error) {
+      console.error(`exec error: ${error}`);
+      res.status(500).send("Server Error");
+      return;
+    }
+    const botResponse = stdout;
+
+    try {
+      const chat = await Chat.findById(chatId);
+      if (!chat) {
+        return res.status(404).json({ error: 'Chat não encontrado.' });
+      }
+      const newMessage = {
+        timestamp: String(new Date()),
+        sender: 'bot',
+        message: botResponse,
+      };
+      chat.content.push(newMessage);
+      await chat.save();
+      res.status(201).json({ message: 'Resposta gerada e salva com sucesso!', chat });
+    } catch (dbError) {
+      console.error(dbError);
+      res.status(500).json({ error: 'Erro ao salvar resposta no chat.' });
+    }
+  });
+});
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
