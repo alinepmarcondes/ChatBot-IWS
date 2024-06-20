@@ -1,7 +1,6 @@
 import data from './embeddings.json';
 import { ChromaClient } from "chromadb";
-const axios = require('axios');
-const LMStudioClient = require('@lmstudio/sdk');
+import { LMStudioClient } from '@lmstudio/sdk'; // Correctly import LMStudioClient
 
 // Function to get text embeddings
 async function getTextEmbeddings(text, modelIdentifier, serverUrl = 'http://localhost:1234') {
@@ -15,11 +14,16 @@ async function getTextEmbeddings(text, modelIdentifier, serverUrl = 'http://loca
     };
 
     try {
-        const response = await axios.post(endpoint, payload, { headers });
-        if (response.status === 200) {
-            return response.data.data[0].embedding;
+        const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify(payload)
+        });
+        if (response.ok) {
+            const data = await response.json();
+            return data.data[0].embedding;
         } else {
-            console.error(`Error: ${response.status}, ${response.data}`);
+            console.error(`Error: ${response.status}, ${response.statusText}`);
             return null;
         }
     } catch (error) {
@@ -40,9 +44,8 @@ function loadEmbeddings() {
 
 // Function to initialize Chroma and insert embeddings
 async function initializeChromaAndInsertEmbeddings(embeddings) {
-
     const chroma = new ChromaClient({ path: "http://localhost:8000" });
-    const collection = await chroma.createCollection({ name: "iws_sistemas"});
+    const collection = await chroma.createCollection({ name: "iws_sistemas" });
 
     for (const record of embeddings) {
         await collection.add({
@@ -92,7 +95,7 @@ async function llm(userInput) {
 
     const prediction = model.respond(
         [
-            { role: "system", content: `Responda à pergunta com base apenas no seguinte contexto, quando houver instrução, informe a instrução: ${context}`},
+            { role: "system", content: `Responda à pergunta com base apenas no seguinte contexto, quando houver instrução, informe a instrução: ${context}` },
             { role: "user", content: userInput },
         ],
         {
@@ -111,4 +114,5 @@ async function llm(userInput) {
     }
     return response;
 }
+
 export default llm;
