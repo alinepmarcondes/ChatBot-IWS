@@ -3,10 +3,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const fs = require('fs');
-const { OpenAI } = require('openai');
-
-// Certifique-se de substituir 'YOUR_API_KEY_HERE' pela sua chave de API real
-const client = new OpenAI({ apiKey: "lm-studio" });
+const axios = require('axios'); // Use axios for HTTP requests
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -45,6 +42,9 @@ const messageContentSchema = new mongoose.Schema({
   },
   message: {
     type: String,
+  },
+  embedding: {
+    type: [Number], // This field will store the embedding array
   }
 });
 
@@ -73,7 +73,7 @@ mongoose.connection.on('error', (err) => {
 
 // users -------------------------------------------
 
-// Rota para criar um novo usuário
+// Route to create a new user
 app.post('/users', async (req, res) => {
   try {
     const { login, password, type } = req.body;
@@ -82,43 +82,43 @@ app.post('/users', async (req, res) => {
     if (type === 'admin' || type === 'user') {
       usuario = new User({ login, password, type });
     } else {
-      return res.status(400).json({ error: 'type de usuário inválido.' });
+      return res.status(400).json({ error: 'Invalid user type.' });
     }
 
     await usuario.save();
-    res.status(201).json({ message: 'Usuário salvo com sucesso!' });
+    res.status(201).json({ message: 'User saved successfully!' });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Erro ao salvar o usuário.' });
+    res.status(500).json({ error: 'Error saving user.' });
   }
 });
 
-// Rota para obter todos os usuários
+// Route to get all users
 app.get('/users', async (req, res) => {
   try {
     const users = await User.find();
     res.status(200).json(users);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Erro ao buscar usuários.' });
+    res.status(500).json({ error: 'Error fetching users.' });
   }
 });
 
-// Rota para obter um usuário por ID
+// Route to get a user by ID
 app.get('/users/:id', async (req, res) => {
   try {
     const user = await User.findById(req.params.id);
     if (!user) {
-      return res.status(404).json({ error: 'Usuário não encontrado.' });
+      return res.status(404).json({ error: 'User not found.' });
     }
     res.status(200).json(user);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Erro ao buscar o usuário.' });
+    res.status(500).json({ error: 'Error fetching user.' });
   }
 });
 
-// Rota para editar um usuário por ID
+// Route to edit a user by ID
 app.put('/users/:id', async (req, res) => {
   try {
     const { login, password } = req.body;
@@ -128,93 +128,88 @@ app.put('/users/:id', async (req, res) => {
       { new: true, runValidators: true }
     );
     if (!user) {
-      return res.status(404).json({ error: 'Usuário não encontrado.' });
+      return res.status(404).json({ error: 'User not found.' });
     }
     res.status(200).json(user);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Erro ao editar o usuário.' });
+    res.status(500).json({ error: 'Error updating user.' });
   }
 });
 
-// Rota para deletar um usuário por ID
+// Route to delete a user by ID
 app.delete('/users/:id', async (req, res) => {
   try {
     const user = await User.findByIdAndDelete(req.params.id);
     if (!user) {
-      return res.status(404).json({ error: 'Usuário não encontrado.' });
+      return res.status(404).json({ error: 'User not found.' });
     }
-    res.status(200).json({ message: 'Usuário deletado com sucesso.' });
+    res.status(200).json({ message: 'User successfully deleted.' });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Erro ao deletar o usuário.' });
+    res.status(500).json({ error: 'Error deleting user.' });
   }
 });
 
-// Rota para autenticar o usuário
+// Route to authenticate the user
 app.post('/users/authenticate', async (req, res) => {
   try {
     const { login, password } = req.body;
     const user = await User.findOne({ login, password });
 
     if (!user) {
-      return res.status(401).json({ error: 'Credenciais inválidas.' });
+      return res.status(401).json({ error: 'Invalid credentials.' });
     }
 
-    res.status(200).json({ message: 'Autenticação bem-sucedida!', user });
+    res.status(200).json({ message: 'Authentication successful!', user });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Erro ao autenticar o usuário.' });
+    res.status(500).json({ error: 'Error authenticating user.' });
   }
 });
 
-
 // chat ------------------------------
 
-// Rota para obter chats
+// Route to get chats
 app.get('/chats', async (req, res) => {
   try {
-    const { userId } = req.query;  // Assume que o ID do usuário é passado como parâmetro de consulta
+    const { userId } = req.query;  // Assume the user ID is passed as a query parameter
     const chats = await Chat.find({ user: userId });
     res.status(200).json(chats);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Erro ao buscar chats.' });
+    res.status(500).json({ error: 'Error fetching chats.' });
   }
 });
 
-
-// Rota para criar um novo chat
+// Route to create a new chat
 app.post('/chats', async (req, res) => {
   try {
     const { title, content, userId } = req.body;
     const chat = new Chat({ title, content, user: userId });
     await chat.save();
-    res.status(201).json({ message: 'Chat criado com sucesso!', chat });
+    res.status(201).json({ message: 'Chat successfully created!', chat });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Erro ao criar o chat.' });
+    res.status(500).json({ error: 'Error creating chat.' });
   }
 });
 
-// Rota para inserir mensagem em um chat
+// Route to add a message to a chat
 app.post('/chats/:chatId/content', async (req, res) => {
   try {
     const { chatId } = req.params;
     const { message } = req.body;
 
-    // Validar entrada
     if (!chatId || !message) {
       return res.status(400).json({ error: 'Missing chatId or message in request body.' });
     }
 
-    // Verificar se o chat existe
     const chat = await Chat.findById(chatId);
     if (!chat) {
       return res.status(404).json({ error: 'Chat not found.' });
     }
 
-    // Criar nova mensagem do usuário
     const newMessage = {
       _id: new mongoose.Types.ObjectId(),
       timestamp: String(new Date()),
@@ -222,22 +217,20 @@ app.post('/chats/:chatId/content', async (req, res) => {
       message: message
     };
 
-    // Adicionar nova mensagem ao conteúdo do chat
     chat.content.push(newMessage);
 
-    // Gerar resposta do bot usando o LLM
     const botResponse = await getBotResponse(message);
 
-    // Adicionar mensagem do bot ao conteúdo do chat
     const botMessage = {
       _id: new mongoose.Types.ObjectId(),
       timestamp: String(new Date()),
       sender: 'bot',
-      message: botResponse
+      message: botResponse.message,
+      embedding: botResponse.embedding
     };
+
     chat.content.push(botMessage);
 
-    // Salvar as alterações no chat
     await chat.save();
 
     res.status(201).json({ message: 'Message successfully added to chat!', chat });
@@ -247,34 +240,42 @@ app.post('/chats/:chatId/content', async (req, res) => {
   }
 });
 
-async function getBotResponse(text, model = "nomic-ai/nomic-embed-text-v1.5-GGUF") {
+async function getBotResponse(text, model = "NikolayKozloff/Llama-3-portuguese-Tom-cat-8b-instruct-Q6_K-GGUF") {
   try {
-    const response = await client.embeddings.create({ input: [text], model: model });
-    if (response && response.data && response.data.length > 0) {
-      return response.data[0].embedding;
+    const response = await axios.post('http://localhost:1234/v1/embeddings', {
+      input: [text],
+      model: model
+    });
+
+    if (response.data && response.data.data && response.data.data.length > 0) {
+      // Return embedding and a dummy message
+      return {
+        message: "Generated embedding response.",
+        embedding: response.data.data[0].embedding
+      };
     }
-    return "Sorry, I couldn't process that.";
+    return { message: "Sorry, I couldn't process that.", embedding: [] };
   } catch (error) {
     console.error('Error generating bot response:', error);
-    return "Error generating response.";
+    return { message: "Error generating response.", embedding: [] };
   }
 }
 
-// Rota para atualizar o título de um chat
+// Route to update the title of a chat
 app.put('/chats/:chatId/title', async (req, res) => {
   try {
     const { chatId } = req.params;
-    const { newTitle } = req.body; // Supondo que você envie o novo título no corpo da requisição
+    const { newTitle } = req.body; // Assuming you send the new title in the request body
     const chat = await Chat.findById(chatId);
     if (!chat) {
-      return res.status(404).json({ error: 'Chat não encontrado.' });
+      return res.status(404).json({ error: 'Chat not found.' });
     }
     chat.title = newTitle;
     await chat.save();
-    res.status(200).json({ message: 'Título do chat atualizado com sucesso!', chat });
+    res.status(200).json({ message: 'Chat title successfully updated!', chat });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Erro ao atualizar o título do chat.' });
+    res.status(500).json({ error: 'Error updating chat title.' });
   }
 });
 
@@ -283,3 +284,4 @@ app.put('/chats/:chatId/title', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+``
