@@ -211,8 +211,7 @@ app.post('/chats/:chatId/content', async (req, res) => {
     }
 
     const newMessage = {
-      _id: new mongoose.Types.ObjectId(),
-      timestamp: String(new Date()),
+      timestamp: new Date(),
       sender: 'user',
       message: message
     };
@@ -222,10 +221,9 @@ app.post('/chats/:chatId/content', async (req, res) => {
     const botResponse = await getBotResponse(message);
 
     const botMessage = {
-      _id: new mongoose.Types.ObjectId(),
-      timestamp: String(new Date()),
+      timestamp: new Date(),
       sender: 'bot',
-      message: botResponse.message,
+      message: botResponse.message,  // Usando a resposta em string do modelo
       embedding: botResponse.embedding
     };
 
@@ -242,19 +240,27 @@ app.post('/chats/:chatId/content', async (req, res) => {
 
 async function getBotResponse(text, model = "NikolayKozloff/Llama-3-portuguese-Tom-cat-8b-instruct-Q6_K-GGUF") {
   try {
-    const response = await axios.post('http://localhost:1234/v1/embeddings', {
+    // Chama o endpoint de completions para obter a resposta do modelo
+    const completionResponse = await axios.post('http://localhost:1234/v1/chat/completions', {
+      messages: [{ role: "user", content: text }],
+      model: model
+    });
+
+    const message = completionResponse.data.choices[0].message.content;
+
+    // Chama o endpoint de embeddings para obter os embeddings do texto
+    const embeddingResponse = await axios.post('http://localhost:1234/v1/embeddings', {
       input: [text],
       model: model
     });
 
-    if (response.data && response.data.data && response.data.data.length > 0) {
-      // Return embedding and a dummy message
-      return {
-        message: "Generated embedding response.",
-        embedding: response.data.data[0].embedding
-      };
-    }
-    return { message: "Sorry, I couldn't process that.", embedding: [] };
+    const embedding = embeddingResponse.data.data[0].embedding;
+
+    return {
+      message: message,
+      embedding: embedding
+    };
+
   } catch (error) {
     console.error('Error generating bot response:', error);
     return { message: "Error generating response.", embedding: [] };

@@ -125,6 +125,7 @@ function Chat() {
     }
   };
 
+
   const openManual = () => {
     setShowManual(true);
   };
