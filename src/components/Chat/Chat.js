@@ -57,14 +57,14 @@ function Chat() {
         const createdChat = data.chat;
 
         setCurrentChat(createdChat);
-        setChats([...chats, createdChat]); // Fixed: Use createdChat instead of currentChat
+        setChats([...chats, createdChat]);
         setInputValue("");
         console.log('Chat created successfully!');
       } else {
         setCurrentChat(null);
       }
     } catch (error) {
-      console.error('Error creating chat:', error); // Fixed: Corrected console message
+      console.error('Error creating chat:', error);
     }
   };
 
@@ -75,7 +75,7 @@ function Chat() {
       const data = await response.json();
       setChats(data);
     } catch (error) {
-      console.error('Error fetching chats:', error); // Fixed: Corrected console message
+      console.error('Error fetching chats:', error);
     }
   };
 
@@ -91,7 +91,6 @@ function Chat() {
         if (!currentChat) {
           await addNewChat();
         } else {
-          // Check if currentChat is defined and has _id property
           if (currentChat && currentChat._id) {
             const updatedChats = [...chats];
             const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
@@ -101,10 +100,6 @@ function Chat() {
                 content: [...updatedChats[updatedChatIndex].content, newMessage]
               };
               updatedChats[updatedChatIndex] = updatedChat;
-
-              // Removed: Redundant setting of chats and currentChat
-              // setChats(updatedChats);
-              // setCurrentChat(updatedChat);
 
               const response = await fetch(`http://localhost:5000/chats/${currentChat._id}/content`, {
                 method: 'POST',
@@ -129,7 +124,6 @@ function Chat() {
       setInputValue("");
     }
   };
-
 
   const openManual = () => {
     setShowManual(true);
