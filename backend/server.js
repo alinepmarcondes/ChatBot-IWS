@@ -6,7 +6,7 @@ const fs = require('fs');
 const { OpenAI } = require('openai');
 
 // Certifique-se de substituir 'YOUR_API_KEY_HERE' pela sua chave de API real
-const client = new OpenAI({ apiKey: "YOUR_API_KEY_HERE" });
+const client = new OpenAI({ apiKey: "lm-studio" });
 
 const app = express();
 const PORT = process.env.PORT || 5000;
