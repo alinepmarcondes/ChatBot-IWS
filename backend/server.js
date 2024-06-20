@@ -6,7 +6,7 @@ const fs = require('fs');
 const { OpenAI } = require('openai');
 
 // Certifique-se de substituir 'YOUR_API_KEY_HERE' pela sua chave de API real
-const client = new OpenAI({ apiKey: "lm-studio" });
+const client = new OpenAI({ apiKey: "YOUR_API_KEY_HERE" });
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -226,7 +226,7 @@ app.post('/chats/:chatId/content', async (req, res) => {
     chat.content.push(newMessage);
 
     // Gerar resposta do bot usando o LLM
-    const botResponse = await getEmbedding(message);
+    const botResponse = await getBotResponse(message);
 
     // Adicionar mensagem do bot ao conteúdo do chat
     const botMessage = {
@@ -247,9 +247,17 @@ app.post('/chats/:chatId/content', async (req, res) => {
   }
 });
 
-function getEmbedding(text, model = "nomic-ai/nomic-embed-text-v1.5-GGUF") {
-  text = text.replace("\n", " ");
-  return client.embeddings.create({ input: [text], model: model });
+async function getBotResponse(text, model = "nomic-ai/nomic-embed-text-v1.5-GGUF") {
+  try {
+    const response = await client.embeddings.create({ input: [text], model: model });
+    if (response && response.data && response.data.length > 0) {
+      return response.data[0].embedding;
+    }
+    return "Sorry, I couldn't process that.";
+  } catch (error) {
+    console.error('Error generating bot response:', error);
+    return "Error generating response.";
+  }
 }
 
 // Rota para atualizar o título de um chat
@@ -269,7 +277,6 @@ app.put('/chats/:chatId/title', async (req, res) => {
     res.status(500).json({ error: 'Erro ao atualizar o título do chat.' });
   }
 });
-
 
 // ----------------------------------------------------
 
