@@ -140,6 +140,19 @@ function Chat() {
       sendMessage();
     }
   };
+  // Function to format the response message
+  const formatResponseMessage = (rawMessage) => {
+    // Replace "<end_of_turn>" with newlines for formatting
+    const formattedMessage = rawMessage.replace(/<end_of_turn>/g, '\n');
+
+    // Additional formatting if needed (e.g., adding bullet points or numbered list)
+    // Example: Assuming numbered list
+    const numberedSteps = formattedMessage.replace(/\d+\./g, match => {
+      return `\n${match}`;
+    });
+
+    return numberedSteps.trim();  // Trim any extra whitespace
+  };
 
   return (
     <div className="chat-container">
@@ -160,8 +173,7 @@ function Chat() {
               key={index}
               className={`message-box ${message.sender === 'user' ? "sent" : "received"}`}
             >
-              <div className="message-text">{message.message}</div>
-              <div className="message-info">
+              <div className="message-text">{message.sender === 'bot' ? formatResponseMessage(message.message) : message.message}</div>              <div className="message-info">
                 <span className="timestamp">{new Date(message.timestamp).toLocaleString()}</span>
               </div>
             </div>
