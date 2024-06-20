@@ -1,0 +1,6 @@
+Title: = Cotações
+
+Content:
+=
+
+Após efetuar o login o usuário será direcionado para tela de "Cotações".

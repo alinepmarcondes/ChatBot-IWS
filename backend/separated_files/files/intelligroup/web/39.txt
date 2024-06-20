@@ -1,0 +1,4 @@
+Title: Exportar estoque
+
+Content:
+Para exportar o estoque, o usuário deverá marcar a opção estoque, selecionar o formato desejado e clicar sobre o botão exportar conforme demonstra a figura abaixo.

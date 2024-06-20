@@ -1,0 +1,15 @@
+Title: = Configuração
+
+Content:
+=
+
+Será necessário que o cliente disponibilize os seguintes dados para a configuração da aplicação:
+
+- API;
+- Loja;
+- ID;
+- Token.
+
+
+
+Após o recebimento dos dados, Devemos realizar a configuração no retaguarda e no frente de caixa.

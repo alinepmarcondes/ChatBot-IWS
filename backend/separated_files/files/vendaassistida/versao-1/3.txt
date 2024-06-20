@@ -1,0 +1,5 @@
+Title: Removido o campo fixo da observação do orçamento
+
+Content:
+Foi removido o campo OBS que era fixado em todos os orçamentos enviados em formato PDF. 
+Essa informação pode ser configurada no momento da instalação do serviço e ela é informada no arquivo de configuração do mesmo.

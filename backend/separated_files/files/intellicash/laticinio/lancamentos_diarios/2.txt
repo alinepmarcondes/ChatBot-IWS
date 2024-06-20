@@ -1,0 +1,29 @@
+Title: = Novo Lançamento
+
+Content:
+=
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Empresa:** Campo para selecionar a empresa que está recebendo o leite.
+* **Produto:** Campo de busca do Produto, neste caso o produto deve estar cadastrado no sistema, ao pressionar enter será feita uma busca pelo produto, caso não encontre exatamente o produto descrito, uma janela de busca de produtos será exibida. Uma vez escolhido o produto, seu nome será salvo no sistema e na próxima exibição da janela este produtos será carregado automaticamente.
+* **Fazenda:** Campo de busca da Fazenda na qual serão feitos os lançamentos. Ao pressionar __Enter__ uma busca de Fazendas cadastradas será realizada, caso não encontre a fazenda, uma janela de busca de fazendas será exibida.
+* **Selecionar Cota:** Exibe os intervalos de cotas cadastrado para a linha, referente a fazenda. Possui três botões ao lado direito nos quais as funções são identicas aos botões de "//**Cadastro de Linhas**//".
+* **Entrada:** Data de entrada do produto. A data de entrada é quando o produto foi coletado, diferentemente da data de lançamento que corresponde a data em que é feito o lançamento nesta tela.
+* **Qtde:** Quantidade de leite recebido na ocasião.
+* **Preço:** Correspondente ao "//**preço do dia**//", caso haja a necessidade de considerar o preço diário do leite, possibilia efetuar o fechamento pelo preço lançado especificamente no dia da coleta.
+* **Total:** Multiplicação da quantidade pelo valor da cota mínima. 
+* **Obs.::** Observações referentes ao lançamento..
+* **Transportadora:** Este checkbox determina se a traxa de comissão será aplicada sobre este lançamento ou não. Caso esteja selecionado, o fechamento irá considerar o frete.
+* **Lançar:** Lança o recebimento que aparecerá na lista de lançamentos. Porém estes lançamentos ainda não estarão confirmados.
+* **Confirmar:** Botão para confirmar os lançamentos. Neste caso, os lançamentos estarão disponíveis para o fechamento.
+* **Classificação:** (3.0.141.003) campo com valor adicional do preço da cota do leite de acordo com classificações de qualidade do leite.
+
+Ações com o botão direito:
+
+* Controle de seleção para edição de valores ou para confirmação: **Selecionar Todas, Desmarcar Todas e Inverter Seleção**
+* **Excluir** apaga o lançamento permanentemente.
+* **Editar Valores Conf.** permite alterar o preço de lançamento no dia de vários lançamentos ao mesmo tempo.
+* Há ainda a possibilidade de editar os dados de um lançamento com a opção **Editar Lançamento**.

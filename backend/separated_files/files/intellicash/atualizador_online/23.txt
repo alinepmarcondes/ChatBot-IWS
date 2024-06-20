@@ -1,0 +1,8 @@
+Title: Código 102
+
+Content:
+Mensagem: //Intellicash está aberto! Encerre o Intellicash antes de continuar.//
+
+Soluções possíveis:
+* Verifique se o //**Intellicah**// está sendo executado.
+* Se o //**Intellicah**// foi finalizado pelo usário e mesmo assim continua sendo exibido a mensagem. Abra o //**Gerenciador de Tarefas - Processos**// localize o processo //**Intellicash3.exe**// e clique no botão **Finalizar Tarefa**.

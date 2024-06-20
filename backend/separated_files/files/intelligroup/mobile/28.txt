@@ -1,0 +1,6 @@
+Title: = Meus Pedidos
+
+Content:
+=
+
+Para acessar o pedido, o usuário deverá acessar o menu lateral esquerdo "Meus Pedidos".

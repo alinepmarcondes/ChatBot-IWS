@@ -1,0 +1,4 @@
+Title: 1)  Escolha da data do inventário
+
+Content:
+A escolha da data do inventário é uma etapa muito importante. É preciso levar em consideração que, durante a contagem, o estoque deverá estar “congelado”, sem entrar ou sair mercadorias. Para definir a data é importante que os responsáveis conheçam as operações da empresa, por exemplo, é muito comum que o pico de venda ocorra na primeira semana do mês, então é razoável que, durante o final do mês anterior, houvesse uma grande movimentação de entrada de mercadoria para se preparar para o inicio do mês, e durante o inicio do mês haja uma grande movimentação de saída. Nesses moldes, sendo bem simplista, o ideal seria uma contagem no meio do mês. Entretanto cada empresa tem sua peculiaridade, e o responsável deve estudar as movimentações passadas para decidir qual o mês e o melhor dia para realizar a contagem. De preferência onde o estoque é menor, e a movimentação de entrada e saída de mercadorias mais fraca.

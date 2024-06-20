@@ -1,0 +1,18 @@
+Title: == Exportação e Importação de Produtos
+
+Content:
+==
+
+----
+
+Esta ferramenta tem uma função que permite ao usuário exportar tabelas de produtos já cadastrados para os formatos Excel (*.xls) e Texto(*.txt) com a formatação “csv”. Além disso, é possível fazer o caminho inverso, ou seja, importar arquivos nestes mesmos formatos para sua base de dados, sendo restrito, evidentemente, aos dados já existentes em seu banco de dados. Sendo assim para que a importação seja executada com sucesso, é necessário que os dados estejam coerentes com os já cadastrados como, por exemplo, o fabricante, unidade, seção, grupo, etc. Outra característica importante é que o usuário poderá configurar a ordem em que as colunas serão lidas nos arquivos ou serão exportadas. Caso as ordens das colunas não estejam coerentes com os arquivos lidos, a importação não sucederá com sucesso.
+
+Se na importação o código do produto ainda não estiver cadastrado no banco de dados, um novo produto será cadastrado com os dados da tabela, por isso é importante verificar a consistência dos dados da tabela.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Exportar/Importar Produtos||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

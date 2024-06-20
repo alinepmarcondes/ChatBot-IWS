@@ -1,0 +1,16 @@
+Title: == Cadastro de Funcionários
+
+Content:
+==
+
+----
+
+Para que um controle de colaboradores seja eficiente faz-se necessário um cadastro aonde o usuário preencha e entenda toda dinâmica a ser utilizado do sistema, tornando-se uma poderosa ferramenta de controle. 
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastro→Funcionários||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

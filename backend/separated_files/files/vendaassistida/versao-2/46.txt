@@ -1,0 +1,4 @@
+Title: Solicitar Impressão
+
+Content:
+Com essa configuração ativa, ao finalizar o pedido será solicitado ao usuário se o mesmo deseja realizar a impressão do pedido.

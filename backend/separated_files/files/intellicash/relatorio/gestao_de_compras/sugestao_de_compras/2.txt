@@ -1,0 +1,5 @@
+Title: Atualização 3.1.004.000
+
+Content:
+Inclusão de classificação ABC com intervalos de corte parametrizados.
+Foram incluídos campos para determinar o limite para classificação A e B, bem como o número de dias entre o pedido e a entrega. Desta forma é possível considerar os itens mais prioritários, baseando-se na média de giro em 30 dias. O prazo logístico é incluído na previsão de venda e interfere na sugestão.

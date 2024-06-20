@@ -1,0 +1,15 @@
+Title: = Resgate de Pontos
+
+Content:
+=
+
+----
+
+Interface de resgate de prêmios levando em consideração os pontos acumulados pelo cliente.
+
+----
+
+Pode ser acessada em:
+||Gerenciamento → EasyCash → Programa de Pontuação → Resgate de Pontos||
+
+Irá abrir a seguinte tela:

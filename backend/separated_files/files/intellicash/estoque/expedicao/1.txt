@@ -1,0 +1,44 @@
+Title: == Expedição
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a finalidade de auxiliar a conferência dos produtos presentes em um orçamento que ainda está aberto, permitindo a confirmação deste orçamento para ser faturado assim que todos os items da lista estiverem conferidos.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Expedição||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Documento:** Para informar um número do documento em específico.
+
+É necessário que pelo menos um campo seja preenchido para realizar a pesquisa.
+
+O campo de busca do documento destina-se a receber o número do orçamento, com até 10 dígidos. A busca acontece ao se pressionar a tecla **Enter** ou clicando-se no botão **Buscar**.
+Caso o orçamento encontre-se em aberto, os produtos contidos nele serão listados na tabela de produtos (item 3) e o nome do cliente aparecerá na barra de título logo abaixo do campo de busca (item 2). Do contrário, uma mensagem aparecerá informando o status atual do orçamento, como ilustra a figura abaixo.
+
+Quando a busca é bem sucedida o foco do cursor pode ir para a lista de produtos ou para o campo localizar quando a caixa **Conferir por Código de Barras** estiver selecionada.
+
+
+
+Na primeira coluna mostra os resultados da busca com os orçamentos e seus dados, e, ao selecionar um orçamento será mostrado na segunda coluna os itens do mesmo e também informa o cliente do orçamento.
+
+A lista de produtos exibe as informações básicas dos produtos referentes ao orçamento como o código EAN, Descrição, Quantidade, Unidade de Medida e se o item já foi Conferido.
+
+Quando o foco estiver na lista de produtos é possível confirmar o item pressionando a tecla **C**, desconfirmar o item pressionando a tecla **X** ou ainda alterar a quantidade de produtos do orçamento pressionando a tecla **Q**, havendo permissão de usuário para fazer a alteração.
+
+
+
+É necessário que o usuário tenha permissão para poder confirmar um orçamento.
+
+O botão Confirmar ainda possue um botão oculto que é exibido quando clicado com o botão direito do mouse sobre ele. Este menu apresenta três opções sendo a primira **Editar Impressão** que exibe o editor de relatório, depois há a opção**Imprimir ao Confirmar** que pode ser marcada ou não, e finalmente a opção **Visualizar** exibe o relatório após impressão.

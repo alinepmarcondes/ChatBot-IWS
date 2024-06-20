@@ -1,0 +1,6 @@
+Title: = Calc
+
+Content:
+=
+
+A aba Calc é responsável pelos códigos que irão realizar cálculos e manipular as propriedades dos objetos. Por exemplo, é possível mudar a cor de fundo de um objeto de acordo com uma condição.

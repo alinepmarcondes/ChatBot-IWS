@@ -1,0 +1,4 @@
+Title: Menu de contexto(1)
+
+Content:
+É possível alterar todos os produtos selecionados, para isso é preciso clicar com botão esquerdo do mouse em cima do Grid e escolher qual valor deve ser alterado (Custo, Venda ou Qtde Vendida), ao escolher o sistema irá perguntar a porcentagem a ser aumentada. O sistema acrescentará a porcentagem pedida ao valor simulado.

@@ -1,0 +1,6 @@
+Title: Variable
+
+Content:
+Como o nome diz, é uma variável cujo valor será calculado em tempo de execução do relatório.
+
+Não entendeu? Calma... quando for falado da aba **Calc**, serão fornecidos mais detalhes.

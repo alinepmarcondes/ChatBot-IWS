@@ -1,0 +1,25 @@
+Title: == O.S
+
+Content:
+==
+
+----
+
+Ordem de Serviço é uma ferramenta para cadastrar e controlar as ordem de serviços da empresa.
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Ordem de Serviço→O.S||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+* **Localizar:** permite localizar as ordem de serviço. Ao clicar nesse botão será aberta a interface abaixo.
+
+* **Novo:** permite cadastrar novas ordem de serviço. Ao clicar nesse botão será aberta a interface abaixo.
+
+Nessa interface o usuário deve informar a descrição da OS, tipo, situação, data de previsão para entrega do serviço, o cliente, o funcionario responsavel, a observação do cliente e observação tecnica.
+Os campos Responsavel e as observações não são obrigatorias.
+* **Alterar:** ao clicar no botão alterar será aberta a mesma interface de cadstro para o usuário alterar os dados da OS.
+* **Confirmar:** ao confirmar o sistema irá gerar as notas fiscais de serviço e de produtos caso tenha produtos na OS.

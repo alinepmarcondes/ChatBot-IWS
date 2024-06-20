@@ -1,0 +1,20 @@
+Title: Retorno do DAV pelo operador do Frente
+
+Content:
+Foi criada uma configuração na tela de Configurações do EasyCash fornecendo a opção de retorno do DAV pelo operador do Frente de Caixa. Atualmente o sistema retornava os dados financeiros do DAV no turno de caixa em que foi feito o orçamento, com esta configuração marcada o sistema irá retornar os dados financeiros para o caixa que estiver vinculado ao Operador de Caixa.
+
+Para usar este recurso primeiramente teremos que marcar a opção "//**Retorno do DAV pelo Operador do Frente**//" que se encontra dentro da tela de Configurações do Easy Cash **(Gerenciamento→Configuração→EasyCash→Configuração EasyCash |Aba DAV / Pré-venda)**.
+
+
+
+
+
+
+
+Logo em seguida teremos que associar o Operador de Caixa ao caixa da retaguarda. Para associar basta clicar no botão caixa() que será habilitado no canto inferior esquerdo da tela, após realizadas as alterações nas configurações.
+
+Em seguinda aparecerá uma interface para associarmos o caixa ao operador.
+
+
+
+Nesta interface basta marcar a opção "//**Associado**//" do caixa selecionado e salvar as alterações.

@@ -1,0 +1,16 @@
+Title: = Pedidos
+
+Content:
+=
+
+
+
+Ao acessar a interface do MarketPlace o usuário já é direcionado para a aba de pedidos. Nessa aba temos algumas sub-abas que serão explicadas abaixo:
+* **Aguardando Pagamento:** nessa aba ficarão os pedidos que ainda não tiveram o pagamento aprovado. Após a confirmação do pagamento é preciso que o usuário selecione o pedido e clique no botão **"Conf. Pagamento"**, ao fazer isso o sistema irá atualizar no site o status do pedido para pagamento confirmado e disponibilizar o pedido para importação, na aba pagamento aprovado. Nessa aba também é possivel descartar um pedido, ou seja, cancelar esse pedido no site. Para isso basta clicar no botão **"Descartar"**;
+* **Pagamento Aprovado:** nessa aba ficam os pedidos que já tiveram o pagamento aprovado e pode ser importados para orçamento no intellicash. Para isso basta clicar no botão **"Importar Pedidos"**. Também é possivel descartar um pedido que já tenha o pagamento aprovado, para isso é basta clicar no botão **"Descartar"**.
+* **Enviado:** após transformar o orçamento importado em nota fiscal e confirmar a nota fiscal. O pedido aparecerá na aba enviados para que seja possivel atualizar seu status no site para "Pedidos Enviado". Para isso basta clicar no botão **"Confirmar Envio"**.
+* **Devolvido:** nessa aba serão listados os pedidos que já foram emitidas nota fiscal e o usuário cancelou o pedido pelo site. Esses pedidos como já foram gerados nota fiscal de venda é preciso gerar a nota de devolução para que as mercadorias voltem para o estoque. Para isso basta clicar no botão **"Gerar NF"**.
+* **Cancelado:** nessa aba mostra todos os pedidos que foram cancelados/descartados.
+
+**Baixar Pedidos** ao clicar no botão baixar pedidos será pedido um periódo para baixar os pedidos do site. Esse periódo precisa ser data e hora tanto para o início quanto para o término. Após baixar a primeira vez os pedidos o sistema irá sugerir a data da última sincronização no início.
+**Ações** ao clicar no botão ações é possível marcar todos, desmarcar todos e inverter seleção dos pedidos listados no grid.

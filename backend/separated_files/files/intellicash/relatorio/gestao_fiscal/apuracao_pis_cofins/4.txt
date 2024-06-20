@@ -1,0 +1,4 @@
+Title: Detalhamento da Apuração
+
+Content:
+Nesta interface mostra o detalhamento mais específico da apuração do PIS/COFINS. À esquerda mostra todos os CFOPs que constam em alguma nota fiscal do período seleiconado. Na coluna à direita mostra todas as notas fiscais de um CFOP selecionado na coluna a esquerda e a apuração do ICMS de cada uma das notas fiscais.

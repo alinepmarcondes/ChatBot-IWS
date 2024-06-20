@@ -1,0 +1,14 @@
+Title: == Sincronização
+
+Content:
+==
+
+O sincronizador é uma ferramenta que foi desenvolvida para automatizar o processo de integração de cadastros, e para viabilizar a sincronização das operações e financeiras. \\
+O Sincronizador é um programa que executa em background, ou seja, fica sendo executado sem a intervenção do usuário. Deve existir apenas um Integrador por empresa, e este deve funcionar no servidor.Ele será o responsável por enviar as informações para a matriz. \\
+O funcionamento do sincronizador será como descrito pelo fluxograma abaixo, o tempo de verificação deverá ser parametrizado em minutos de acordo com o poder de processamento do servidor e latência de sua internet. Caso falhe alguma comunicação, os dados ficarão aguardando a próxima sincronização. 
+
+
+
+O primeiro módulo desenvolvido foi a integração de cadastro. Devido ao fato de ser a base para todas as informações da empresa. \\
+Atualmente são sincronizados os cadastros de Usuários, Produtos e Serviços, Clientes e Fornecedores, Vendedores, Tributações. \\
+A sincronização de cadastros trabalha de duas formas: \\

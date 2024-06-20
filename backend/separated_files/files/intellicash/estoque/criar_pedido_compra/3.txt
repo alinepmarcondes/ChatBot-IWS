@@ -1,0 +1,10 @@
+Title: = Itens
+
+Content:
+=
+
+
+
+Nesta tela é onde são inseridos os itens do pedido de compras, para isso é necessário localizar os itens e informar a quantidade mínima requerida. após inserir todos os itens basta confirma ro pedido e ele será gerado.
+
+Após concluído o término do pedido basta olhar na aba "//**Resultado**//" os resultados do pedido.

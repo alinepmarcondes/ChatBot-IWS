@@ -1,0 +1,16 @@
+Title: Histórico de Devolução de Compras
+
+Content:
+A devolução de compras mostra um histórico das devoluções que os consumidores fizeram à empresa. Nesta tela há duas colunas, à esquerda mostra os dados numéricos, e à direita mostra um gráfico para melhor visualização. Na coluna a esquerda contém os seguintes atributos:
+
+* **Data:** mostra a data da devolução do produto;
+* **Descrição:** informa o ocorrido da devolução;
+* **Início:** informa o estoque atual do produto;
+* **Movimento:** mostra qual foi o movimento no estoque;
+* **Saldo final:** mostra o valor do estoque após o movimento;
+* **Documento:** Informa o número do documento de devolução;
+* **IDNF:** informa o ID da nota fiscal(código interno utilizado pelo sistema);
+* **Motivo:** informa o motivo da devolução do produto;
+* **Funcionário:** informa qual funcionário realizou a devolução;
+* **Validade:** mostra a validade do documento;
+* **Observação:** para informar alguma observação adicional sobre a devolução do produto;

@@ -1,0 +1,14 @@
+Title: =Vocabulário
+
+Content:
+=
+Serão definidos alguns termos de utilização do frente de caixa:
+
+* PDV: EasyCash, frente de caixa.
+* Sangria: retirada de dinheiro do PDV para o Caixa Empresa / pagamento de contas do retaguarda em dinheiro através do frente de caixa.
+* Suprimento: entrada do dinheiro no PDV vindo do Caixa Empresa / recebimento de contas do retaguarda através do frente de caixa.
+* POS: alternativa ao TEF dedicado (maquinas de validação por discagem).
+* TEF: Transferência Eletrônica de Fundos, usado para cartões e validação de cheques.
+* FPG: Forma de Pagamento.
+
+Usando as definições acima, iremos explicar a utilização do sistema de frente de caixa(PDV).

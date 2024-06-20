@@ -1,0 +1,17 @@
+Title: = Aba Troca de Mercadoria
+
+Content:
+=
+
+Esta tela contém as configurações necessárias da Troca de Mercadoria para que funcione corretamente, sendo essas configurações:
+
+
+
+
+**Cliente Obrigatório para cadastrar troca:** Essa configuração obrigatoriamente deve estar marcada para que o sistema funcione sem problemas. No momento em que é cadastrada uma troca no frente de caixa (sobre como cadastrar é falado em [[#troca_de_mercadoria|'Troca de Mercadoria']]) é necessário que algumas informações sejam informadas sendo o nome do Cliente ou Documento uma destas.
+
+**Cupom Fiscal Obrigatório para cadastrar troca:** Essa informação obrigatoriamente deve estar marcada também. No momento do cadastro da troca é necessário informar o número do cupom fiscal apresentado pelo cliente onde contém um ou mais itens que o mesmo deseja realizar a troca, portanto esta configuração deve estar sempre marcada.
+
+**Pedir Código Interno ao cadastrar troca:** Essa configuração fica a critério do cliente, se desejar utilizar ou não. Quando marcada irá pedir para informar um código interno sendo este utilizado na hora em que for efetivar uma troca, explicado melhor em [[#troca_de_mercadoria|'Troca de Mercadoria']].
+
+**Gerar impressão ao cadastrartroca:** Essa configuração quando marcada será impresso em relatório gerencial um comprovante do cadastro da troca efetuada com o número da troca e o produto a ser trocado.

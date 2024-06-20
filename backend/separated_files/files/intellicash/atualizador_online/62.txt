@@ -1,0 +1,26 @@
+Title: Código 702
+
+Content:
+Mensagem de erro: //Banco de dados de Backup inexistente! Entre em contato com suporte!//
+
+Procedimentos realizados:
+* Download dos Arquivos;
+* Extraídos os arquivos baixados;
+* Alterado o modo do Banco de Dados para o modo //**ShutDown**//;
+* Realizada a cópia de segurança do Banco de Dados;
+* Alterado o modo do Banco de Dados para o modo //**Online**//;
+* Alterado o modo do Banco de Dados para o modo //**ShutDown**//;
+
+Erro nos procedimentos: 
+* Nos procedimentos de Atualização.
+* Nos procedimentos de Restauração - Banco de Dados.
+
+Soluções possíveis: 
+* Verifique se o usuário do //**Windows**// possui permissões necessárias para executar o //**Atualizador Online**//;
+* Verifique se os procedimentos de atualização no //**Intelliweb**// estão corretos.
+
+Realize estes procedimentos a seguir:
+* Finalize o programa de atualização;
+* Faça possíveis soluções;
+* Verifique quais procedimentos de atualização estavam marcados para serem excutados. Através das versões informadas na [[manuais:intellicash:atualizador_online#etapa_02_-_preparo_para_atualizacao|Etapa 02]] (versão atual e última versão) é possivel ver os procedimentos de atualização no //**Intelliweb**//.
+* Como houve uma falha na restauração da versão atual, os procedimentos de atualização deverão ser feitos manualmente.

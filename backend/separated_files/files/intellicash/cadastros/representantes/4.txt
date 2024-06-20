@@ -1,0 +1,4 @@
+Title: Dados
+
+Content:
+A aba "//**Dados**//" mostra os dados cadastrais do representante. Nela também é possível adicionar alguma observação relacionada ao representante, alterar seus dados ou excluí-lo.

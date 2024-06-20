@@ -1,0 +1,4 @@
+Title: Atalhos
+
+Content:
+Na tela de **Configuração de Atalhos** marque as aplicações que deseja ter o ícoce na Área de trabalho. Depois clique no botão **Instalar** para iniciar a instalação.

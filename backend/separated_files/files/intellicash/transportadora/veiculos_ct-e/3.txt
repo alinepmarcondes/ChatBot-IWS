@@ -1,0 +1,35 @@
+Title: == Cadastrar veículo
+
+Content:
+==
+Ao clicar no botão “Novo” aparecerá a seguinte janela:
+
+
+Nesta temos os seguintes campos:
+* **Descrição:**Texto livre para descrever o veiculo;
+* **Categoria:**Categoria a qual o veículo pertence, deve ser pré-cadastrado de acordo com o gosto do cliente. O cadastro de uma nova categoria é feito em [[manuais:intellicash:configuracao:geral|Configurações Gerais]] na categoria de Veículos;
+* **Renavam:**Obrigatório para emissão do CT-e (no máximo 12 caracteres);
+* **Placa:** identificador do Veiculo, não é permitido mais de um veiculo com a mesma placa e mesmo UF (no máximo 12 dígitos);
+* **Tara(kg):** qual a Tara do veiculo em Kg (Obrigatório para emissão do CT-e);
+*** Capacidade(Kg):** qual a capacidade total do veiculo em Kg (Obrigatório para emissão do CT-e);
+* **Capacidade(M³):** qual a capacidade total do veiculo em m³ (Obrigatório para emissão do CT-e);
+* **UF Licenc.:** Qual a UF que o veiculo está licenciado, deve ser único por placa;
+* **Tipo de Veiculo:** deve ser informado se é de Tração ou de Reboque(Obrigatório para emissão do CT-e);
+* **Tipo Rodado:** deve selecionar uma das seguintes opções, (Obrigatório para emissão do CT-e):
+ * 00 - não aplicável; 
+ * 01 - Truck;
+ * 02 - Toco;
+ * 03 - Cavalo Mecânico;
+ * 04- VAN;
+ * 05- Utilitário;
+ * 06- Outros.
+* **Tipo Carroceria:** deve ser informada uma das opções abaixo, (Obrigatório para emissão do CT-e): 
+* 00- Não aplicável;
+* 01- Aberta;
+* 02- Fechada/Baú;
+* 03- Granelera;
+* 04- Porta Container;
+* 05- Sider.
+* **Veiculo Próprio:** indica se o veiculo é da própria empresa ou se é de terceiros ;
+*** Proprietário:** informa os dados do proprietário do veiculo. (Deve ser cadastrado anteriormente como fornecedor)
+* **Motorista:** informa os dados do motorista do veículo (Deve ser cadastrado anteriormente);

@@ -1,0 +1,45 @@
+Title: = Telefone
+
+Content:
+=
+
+Pressionelocalizado no canto superior esquerdo da tela de "Cotações", conforme demonstra a figura abaixo.
+
+
+
+No menu pressione “Telefone”, conforme demonstra a figura abaixo.
+
+
+
+=== Adicionar novo Telefone ===
+
+Para adicionar um novo telefone o usuário deverá pressionar o botãolocalizado no canto inferior direito, conforme demonstra a figura abaixo.
+
+
+
+Será exibida uma caixa de diálogo onde o representante deverá informar o telefone, tipo e pressionar o botão "Salvar" para concluir.
+
+
+
+Possível mensagem de erro:
+* O campo Telefone tem o formato inválido!
+* Não há tipos de telefone disponíveis para adicionar um novo telefone!
+
+=== Editar Telefone ===
+
+Para editar um telefone já cadastrado, o usuário deverá pressionar por um segundo, um telefone da lista. A barra de título será alterada. Pressione o botãolocalizado no canto superior direito, conforme demonstra a figura abaixo.
+
+
+
+Será aberto na tela as informações do telefone selecionado, o usuário deverá editar os campos que deseja e depois pressionar o botão “Salvar”.
+
+
+
+=== Excluir Telefone ===
+
+Para excluir um telefone já cadastrado, o usuário deverá pressionar por um segundo, um telefone da lista. A barra de título será alterada. Pressione o botãolocalizado no canto superior direito, conforme demonstra a figura abaixo.
+
+
+
+
+Será exibida uma mensagem onde o usuário deverá pressionar o botão “Sim” para confirmar ou o botão “Não” para cancelar.

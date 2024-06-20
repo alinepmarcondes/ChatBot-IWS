@@ -1,0 +1,20 @@
+Title: == Configurar Empresas do Usuário
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de configurar quais empresas o usuário pode fazer operações dentro do IC.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Configurar Empresas do Usuário||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+Para cadastrar as empresas basta selecionar o usuário e clicar no botão "Adicionar", será exibida uma inteface com as empresas disponiveis para cadastrar. Para remover um empresa basta selecionar o registro e clicar em Remover. \\
+Na aba Histórico é exibido os registros que foram excluidos, a data e hora da exclusão e o usuário que excluiu.

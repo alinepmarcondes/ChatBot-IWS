@@ -1,0 +1,4 @@
+Title: Sincronizar promoções
+
+Content:
+O **Intellicash** irá verificar se há alguma promoção nova para ser importada da plataforma **Scanntech**.

@@ -1,0 +1,12 @@
+Title: = Cadastrando Layout do Extrato
+
+Content:
+=
+
+No sistema já vem cadastrado previamente 2 layouts:
+* **FEBRABAN** (Padrão da Federação Brasileira de Bancos)
+* **OFX** (Padrão Internacional Open Financial Exchange)
+
+ Conciliação de Extrato Bancário, com as abas Layout do Extrato, Layout Retorno e Identificação selecionada). 
+
+Logo após ser clicado o botão “Novo”, o sistema liberará uma nova tela para a descrição do layout.

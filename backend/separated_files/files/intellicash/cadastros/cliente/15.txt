@@ -1,0 +1,11 @@
+Title: Preferências
+
+Content:
+A aba "//**Preferências**//" é uma ferramenta para cadastrar as marcas e manequins de preferência do cliente, esta ferramenta é exclusiva para uma loja de roupas.
+
+
+
+Nesta aba existem duas colunas sendo a primeira coluna as marcas de Preferências.
+Nesta coluna tem uma janela com as listas de marcas disponíveis para escolher a marca da preferência do cliente. Para isto o usuário deverá clicar sobre a marca desejada e clicar no botão "//**Incluir**//" (). Já para excluir uma marca que já foi inclusao usuário deve selecionar a marca e clicar sobrebotão "//**Excluir**//" ().
+
+No caso da coluna manequins tem uma janela com as listas de manequins disponíveis, para escolher um manequim disponível o usuário deverá primeiro selecionar uma aba logo abaixo da coluna e selecionar o tipo de roupa que o cliente tem preferência e após isso é necessário clicar sobre o manequimdesejado e clicar no botão "//**Incluir**//" () e para excluir um manequim que já foi incluso nas preferências de manequim o usuário deve selecionar o manequim e clicar sobrebotão "//**Excluir**//" () para retirar o manequim desejado.

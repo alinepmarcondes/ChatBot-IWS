@@ -1,0 +1,6 @@
+Title: = Imprimir Orçamento
+
+Content:
+=
+
+Para imprimir um orçamento, o usuário deverá acessar o menu localizado no canto superior direitoe pressionar o item "Imprimir".

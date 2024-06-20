@@ -1,0 +1,4 @@
+Title: Cadastrando um Operador de Caixa
+
+Content:
+Para cadastrar um operador de caixa, o requisito mínimo é que tenha um [[manuais:intellicash:cadastros:funcionario|funcionário]] cadastrado no sistema. Após isso é necessário selecionar um funcionário e criar um usuário para o mesmo no campo "//**Login**//". Feito isso basta marcar a opção "//**Incluir**//" para que o funcionário seja cadastrado.\\ Após isso é necessário selecionar o funcionário e cadastrar uma senha para o mesmo, se não o usuário não será exportado para o EasyCash.

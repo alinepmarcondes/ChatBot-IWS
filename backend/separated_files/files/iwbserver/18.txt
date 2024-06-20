@@ -1,0 +1,64 @@
+Title: Liberação off-line
+
+Content:
+Caso ocorra de expirar a licença e o cliente não possui comunicação com o servidor do IntelliWeb, na tela principal do Easycash, devemos entrar em Utilitários -> Sobre:
+
+
+
+Na tela que foi aberta, teremos algumas informações importantes:
+
+
+
+
+
+Agora devemos localizar a licença no Intelliweb onde devemos desassociá-la, clicando no botão “Desassociar”:
+
+
+
+
+
+Iremos forçar liberação pela tela de informações, para que, ao falhar a comunicação com o IWB Server, apresente a tela de Liberação Off-line, onde iremos coletar o campo “Serial”:
+
+
+
+No intelliweb, deveremos acessar a opção “Ativar Off-line” e seguir os passos:
+
+
+
+Deveremos informar os passos solicitados pela tela:
+
+
+
+
+
+
+
+
+
+Nesse momento deveremos fazer a confirmação das informações inseridas:
+
+
+
+Ao coletarmos a Contra Chave, deveremos inserir no Easycash, onde será liberado o PDV:
+
+
+
+Após inserir a contra-chave, o sistema informará que o **PDV será liberado por 1 dia, onde devemos fechar e abrir o programa para que a tela de vendas seja liberada**:
+
+
+
+Após ajustar o problema de comunicação do caixa com o IWB Server, deve-se abrir o IWB Server, fechar e abrir o programa e clicar em no botão “Atualizar” no IWB Server. Deve-se verificar na opção “Sobre” do Easycash, se a licença foi aplicada novamente:
+
+
+
+
+
+=== Resumo ===
+
+- Verificar as informações no “Sobre do Easycash” como exemplo “ID da licença”;
+- Desassociar a licença do caixa dentro do Intelliweb Server;
+- Novamente no “Sobre”, clicar em “Renovar Licença” e coletar o serial gerado;
+- No “Intelliweb”, gerar a Contra Chave pela opção “Ativar Offline”;
+- Inserir a Contra Chave, fechar e abrir o PDV para liberar a tela de venda;
+- Após ajustar o problema, fechar e abrir o caixa novamente e verificar dentro do “Sobre” se os dados do contrato foram apresentados corretamente;
+- Verificar se no IWB Server está correto a comunicação do caixa.

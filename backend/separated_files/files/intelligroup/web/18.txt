@@ -1,0 +1,6 @@
+Title: = NF Parceiros
+
+Content:
+=
+
+Na aba NF Parceiros, é possível visualizar todas as notas fiscais de parceiros do associado, baseando-se em um período que o mesmo deverá informar nos campos de início e término, conforme demonstra a figura abaixo.

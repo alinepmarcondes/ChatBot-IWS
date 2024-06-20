@@ -1,0 +1,18 @@
+Title: == Criar Pedido de Compras
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de gerar, disponibilizar e monitorar o andamento de pedidos de um grupo ou associação para seus associados do intelligroup.
+
+Esta ferramentapossibilita ao usuário dispor aos associados, pedidos de compra que serão preenchidos por estes na página web do IntelliGroup, e ao finalizar o prazo de compras o gestor do pedido poderá exportar o resultado das compras obtidos através da convergência dos orçamentos enviados pelos associados e enviá-los aos respectivos representantes comerciais.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Criar Pedido de Compras||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

@@ -1,0 +1,18 @@
+Title: = Agendamento
+
+Content:
+=
+
+
+
+Nessa aba contem os dados referentes ao agendamento, e temos algumas ações, como: 
+* **Botão Usuários:** Ao clicar nesse botão será exibida um interface para selecionar quais usuários são responsáveis por esse agendamento. Se não tiver nenhum usuário associado todos serão lembrados de gerar o agendamento na data programada, mais se ao menos um usuário estiver associado somente os que estiverem serão lembrados.\\
+* **Botão Gerar:** Ao clicar nesse botão o sistema irá criar um orçamento conforme o agendamento e em seguida irá perguntar se deseja gerar nota fiscal ou cupom fiscal, dependendo de como estiver a configuração __7001__. No caso do agendamento ser um pedido de compra o sistema irá perguntar se deseja enviar por e-mail. Ao clicar para gerar um pedido que a data programada seja maior que a data atual o sistema irá validar a configuração **//2104 Permitir Gerar Agendamento de Pedidos com data Futura//** se estiver como sim, e a data esteja num período de 7 dias de diferença o sistema irá gerar o pedido na data programada, caso contrário irá exibir uma mensagem dizendo que não é possível gerar pedido com período maior que 7 dias. Caso a configuração esteja como não o sistema irá gerar o pedido na data atual. Clicando com botão direito do mouse sobre o botão **__Gerar__** temos as seguintes opções;
+- **Exibir Pedidos Gerados:** Exibe o pedido que foi gerado;
+-**Imprimir Pedido ao Gerar:** Imprime o pedido que foi gerado automaticamente;
+-**Configurar Impressão:** Abre a interface para configurar o layout de impressão do pedido; \\
+* **Botão Descartar:** Ao clicar nesse botão será aberta uma tela para informar uma __Observação__ para o descarte. Esse descarte é do agendamento (orçamento) que está para ser gerado, não descarta todo o agendamento. \\
+* **Botão Duplicar:** Esse botão irá duplicar o agendamento, criando um novo. Ao clicar no botão será aberta uma janela para informar uma nova descrição para o agendamento que está sendo duplicado. \\
+* **Botão Alterar:** Ao clicar nesse botão o sistema irá carregar a mesma interface de cadastrar agendamento com as informações do agendamento que deseja altera, e nela o procedimento de alterar segue o mesmo de cadastrar. \\
+* **Botão Excluir:** Esse botão irá descartar/desativar o agendamento, o sistema não exclui o agendamento, para manter um histórico. \\
+* **Último Orc.:** Ao clicar sobre o label **__Último Orc.__** o sistema irá abrir o último orçamento gerado.

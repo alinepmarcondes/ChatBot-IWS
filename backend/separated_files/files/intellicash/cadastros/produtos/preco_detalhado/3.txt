@@ -1,0 +1,4 @@
+Title: 3.0.141.000
+
+Content:
+A partir desta versão o tratamento de multi empresa foi implementado. Os valores dos detalhes são atribuídos à empresas. As tabelas são as mesmas para ambas as empresas.

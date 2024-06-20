@@ -1,0 +1,21 @@
+Title: = Histórico de Alterações
+
+Content:
+=
+
+Histórico de alterações dos Agendamentos.
+
+
+
+Histórico de alterações dos itens dos agendamentos.
+
+
+
+Histórico de alterações dos usuários.
+
+
+
+Nessa aba de histórico de alterações dos agendamentos podemos filtrar por período de alterações e clicar em aplicar. Após aplicar podemos escolher entre as 3 abas, //Agendamentos, Itens e Usuários.// Em todas as abas temos os campos Anterior e Novo para cada coluna, que significam:
+* Se houver __Anterior__ e não houver __Novo__ é por que foi excluído o registro;
+* Se houver __Novo__ e não houver __Anterior__ é por que foi adicionado o registro;
+* Se houver __Anterior__ e __Novo__ é por que foi alterado o registro;

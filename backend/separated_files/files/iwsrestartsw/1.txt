@@ -1,0 +1,6 @@
+Title: == Serviço de inicialização de programas
+
+Content:
+==
+
+O **IWSRestartSW** é um serviço que foi desenvolvido para monitorar e inicializar programas que precisam estar sempre ativos.

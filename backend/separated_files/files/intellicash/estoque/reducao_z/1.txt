@@ -1,0 +1,21 @@
+Title: == Redução Z
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada para corrigir erros de importação de Redução Z.
+Algumas vezes,acontece divergência de valores na importação da Redução Z do Checkout para o IntelliCash e assim esta ferramenta auxilia na correção dos dados.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Redução Z||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela é necessário selecionar a data e o PDV desejado e após isso basta corrigir os valores da Redução Z. Em seguida basta clicar no botão "//**Gravar**//" para conlcuir a operação. Se desejar realizar uma impressão dos dados da redução Z basta clicar no botão "//**Imprimir**//".

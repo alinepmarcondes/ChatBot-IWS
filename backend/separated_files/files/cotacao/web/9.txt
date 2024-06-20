@@ -1,0 +1,10 @@
+Title: = Fechadas
+
+Content:
+=
+
+Para acessar as cotação Fechadas, o usuário deverá clicar sobre o Menu "Cotações".
+
+
+
+Na aba "Fechadas", o usuário deverá selecionar a cotação desejada.

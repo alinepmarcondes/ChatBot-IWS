@@ -1,0 +1,31 @@
+Title: == Relatório de Pedidos Pendentes
+
+Content:
+==
+
+----
+
+Este relatório gera informações de todos os pedidos para fornecedor pendentes no sistema e seus dados.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatório→Gestão de Compras→Pedidos Pendentes||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Somente Vencidos:** ao marcar esta opção mostrará apenas pedidos vencidos;
+* **Descartar Selecionados:** este botão fará com que descarte todos os pedidos selecionados;
+
+
+
+A aba "//**Pedidos**//" mostra todos os pedidos na primeira coluna e na segunda coluna mostra os produtos do pedido selecionado acima;
+
+
+
+A aba "//**Todos os Itens**//" mostra todos os produtos dos pedidos pendentes. Para localizar um produto em específico basta buscá-lo no campo de texto "//**Localizar**//".

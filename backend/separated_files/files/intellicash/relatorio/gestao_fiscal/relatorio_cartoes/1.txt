@@ -1,0 +1,30 @@
+Title: == Relatório de Cartões de Crédito (SPED)
+
+Content:
+==
+
+----
+
+Este relatorio permite que seja digitado as informações dos totais de cartão para que seja apresentado no sped.
+
+
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Fiscal→Relatório de Cartões de Crédito (SPED)||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta Interface Há os seguintes campos:
+
+* **Ano:** Para informar o ano referência;
+* **Mês:** Para selecionar o mês referência;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+
+Após realizada a pesquisa mostrará os resultados do relatório com os cartões de crédito informando os seus valores de crédito e débito e na parte inferior da tela mostra a soma de todos os cartões.
+
+Nesta tela ainda é possivel alterar os dados do cartão selecionado, para isso basta clicar no campo desejado e realizar a digitação;

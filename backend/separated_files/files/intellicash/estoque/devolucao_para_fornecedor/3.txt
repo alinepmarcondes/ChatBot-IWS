@@ -1,0 +1,52 @@
+Title: = Criando uma Devolução
+
+Content:
+=
+
+Nesta tela é necessário preencher todos os campos na parte superior da tela para realizar a devolução (exceto o campo Obs. Que é opcional).
+
+No canto superior há dois botões para buscar fornecedor entre manual e automático, caso escolha automático é necessário pesquisar primeiro o produto e após isso o campo do fornecedor preencherá automaticamente. Após preencher todos os campos é necessário clicar no botão inserir.
+
+
+
+**Inserir** para inserir os itens na devolução para fornecedor no grid abaixo, só pode clicar neste botão quando os campos estiverem preenchidos todos os dados do campo da tela;
+
+
+
+Após inserido o item há três campos, **qtde perda**, **qtde troca** e **qtde devolução**, que é necessário preencher quantos produtos, foram perdidos, trocados ou devolvidos e é necessário que a soma destes três campos estejam coincidindo com a quantidade do campo **qtde**.
+
+Após inseridos todos os itens e confirmados os dados para devolução é necessário clicar no botão confirmar.
+
+**Confirmar** para confirmar a devolução para fornecedor e exportar para nota fiscal e após clicar neste botão aparece a seguinte interface:
+
+
+
+Esta tela serve para informar o CPF/CNPJ do fornecedor que esta realizando a devolução. Após confirmar aparecerá a interface de nota fiscal.
+
+
+
+Após isso basta confirmar os dados e confirmar a nota. E após confirmar a nota aparecerá a interface de entrega:
+
+
+
+Após isso basta preencher os campos da transportadora para confirmar e então aparecerá a seguinte mensagem de êxito:
+
+
+
+**Pendentes** ao clicar neste botão abre uma interface com todas as devoluções para fornecedor pendentes:
+
+
+
+Nesta tela há os campos fornecedor e total, e na parte superior da tela pode pesquisar as devoluções pendentes de um fornecedor em específico.
+
+**Importar** para importar as devoluções de um arquivo e ao clicar neste botão aparece a seguinte tela:
+
+
+
+**Imprimir** para imprimir os dados da devolução para fornecedor;
+
+**Exportar** para exportar os dados da devolução para fornecedor em um arquivo Excel;
+
+** Transferir** Ao clicar nesse botão o sistema pega os itens selecionados na interface e suas quantidades disponivel (Qtde - qtde troca- qtde perda - qtde devolução), e carrega uma nova interface com esses itens e suas respectivas quantidades para que o usuário possa ajustar as quantidades que deseja transferir, conforme imagem abaixo.
+
+Nessa interface é preciso que o usuário escolha um motivo, esse motivo é o mesmo cadastrado na interface de perda. Caso o usuário não queira transferir um determinado item, basta deixar a quantidade transferência vazio ou zero.

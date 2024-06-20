@@ -1,0 +1,12 @@
+Title: Devolução do Produto Beneficiado
+
+Content:
+A devolução do produto beneficiado deve ser feito **obrigatóriamente** pela interface de beneficiamento.\\
+
+||Gerenciamento→Estoque→Nota Fiscais→Controle de Beneficiamento||
+
+
+
+.
+
+Após escolher a tributação, será exibida a Nota Fiscal aguardando apenas para ser confirmada.

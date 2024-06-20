@@ -1,0 +1,12 @@
+Title: = Vendas
+
+Content:
+=
+
+
+
+A aba "//**Vendas**//" mostra um relatório de vendas dos produtos classificados pela aba selecionada na parte inferior da tela. A imagem acima mostra um exemplo de //Vendas Por Dia// onde há uma coluna à esquerda mostrando as vendas totalizadas, ao meio mostra o relatório das vendas diárias (Por escolher a aba "//**Por Dia**//") e à direita um gráfico para melhor visualização.
+
+Lembrando que em todas as telas existe o cabeçalho para realizar a busca com os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;

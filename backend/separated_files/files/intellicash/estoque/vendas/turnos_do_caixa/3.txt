@@ -1,0 +1,6 @@
+Title: = Detalhes
+
+Content:
+=
+
+A aba "//**Detalhes**//" mostra os detalhes financeiros da forma de pagamento selecionado na aba resumo.

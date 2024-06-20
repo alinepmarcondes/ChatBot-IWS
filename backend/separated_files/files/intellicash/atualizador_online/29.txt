@@ -1,0 +1,7 @@
+Title: Código 205
+
+Content:
+Mensagem de erro: //Falha ao configurar XML!//
+
+Soluções possíveis:
+* Verifique se o usuário do //**Windows**// possui permissões necessárias para executar o //**Atualizador Online**//.

@@ -1,0 +1,17 @@
+Title: = Comparação entre as movimentações:
+
+Content:
+=
+
+
+
+* **__Dif. Custo__:** Diferença entre o “Custo Simulado” e o “Custo Atual”
+* **__Dif.Custo(%)__:** “Dif.Custo” dividido pelo “Custo Simulado” multiplicado por 100.
+* **__Dif.Preço__:** Diferença entre o “Preço Simulado” e o “Preço Atual”
+* **__Dif.Preço(%)__:** “Dif.Preço” dividido pelo “Preço Simulado” multiplicado por 100
+* **__Dif.Qtde Vendida__:** Diferença entre o “Qtde Vendida Simulado” e o “Qtde Vendida Período”
+* **__Dif.Qtde Vendida(%)__:** “Dif.Qtde Vendida” dividido pelo “Qtde Vendida Simulado” multiplicado por 100.
+* **__Dif.Total Custo__:** Diferença entre o “Total Custo Simulado” e o “Total Custo Período”
+* **__Dif.Total Custo(%)__:**“Dif.Total Custo” dividido pelo “Total Custo Simulado” multiplicado por 100.
+* **__Dif.Total Venda__:** Diferença entre o “Total Venda Simulado” e o “Total Venda Período”
+* **__Dif.Total Venda(%)__:** “Dif.Total Venda” dividido pelo “Total Venda Simulado” multiplicado por 100.

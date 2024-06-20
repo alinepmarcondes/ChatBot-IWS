@@ -1,0 +1,6 @@
+Title: = Retornar Pedido
+
+Content:
+=
+
+Para retornar ao pedido, o usuário deverá pressionar o menu "Retornar ao Pedido" localizado no canto superior direito.

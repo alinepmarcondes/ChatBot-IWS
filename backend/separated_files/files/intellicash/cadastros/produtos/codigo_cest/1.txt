@@ -1,0 +1,23 @@
+Title: == Código CEST
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada para listar e cadastrar códigos CEST.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Código CEST||
+
+
+ 
+Para localizar um código basta digitar no campo "localizar CEST" o código ou a descrição. \\
+
+Para cadastrar um código CEST basta clicar no botão **"Cadastrar CEST"**, será listada a interface abaixo.
+
+
+Nessa interface é preciso informar todos os campos, exceto o término.

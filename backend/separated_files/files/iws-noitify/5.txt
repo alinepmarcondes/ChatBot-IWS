@@ -1,0 +1,4 @@
+Title: Adicionar
+
+Content:
+Ao abrir a tela **Empresas** é verificado se o usuário possui empresa cadastrada. Se não houver empresa cadastrada é aberto um formulário de cadastro.

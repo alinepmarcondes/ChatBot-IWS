@@ -1,0 +1,25 @@
+Title: Funcionamento
+
+Content:
+Uma vez configurado, no fluxo de pagamento do cupom ao selecionar **CARTEIRA DIGITAL**, será mostrada a tela:
+
+
+
+No celular do cliente, caso o telefone e o e-mail estejam corretos, teremos:
+
+
+
+Ao efetuar o pagamento:
+
+
+
+Caso o cupom seja cancelado, teremos o estorno diretamente pela API do PIC PAY e o cliente será informado conforme a imagem:
+
+
+
+Caso a configuração **Perguntar ao cliente telefone e e-mail incompleto** esteja marcada, será validado no momento de criar o JSON do pagamento as seguintes informações:\\
+\\
+''TELEFONE - Não vazio e tamanho maior ou igual a 8''\\
+''E-MAIL - Não vazio e a posição do caractere @ não pode ser 0''\\
+\\
+Se o operador clicar em **SIM**, será mostrada a seguinte tela:

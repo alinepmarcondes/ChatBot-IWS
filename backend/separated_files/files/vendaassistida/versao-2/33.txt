@@ -1,0 +1,6 @@
+Title: = Adicionar Código Interno
+
+Content:
+=
+
+Para adicionar o código interno no orçamento, o usuário deverá acessar o menu localizado no canto superior direitoe pressionar o item "Adicionar cód. interno".

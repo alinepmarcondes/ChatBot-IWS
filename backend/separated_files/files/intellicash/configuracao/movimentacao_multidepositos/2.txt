@@ -1,0 +1,10 @@
+Title: = Operações
+
+Content:
+=
+
+Esta aba permite associar as operações que movimentarão o depósito selecionado.
+
+
+
+O botão **Cadastrar** exibirá uma interface para a seleção das operações que serão atribuídas ao deósito:

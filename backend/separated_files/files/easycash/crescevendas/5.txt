@@ -1,0 +1,39 @@
+Title: = Contingência
+
+Content:
+=
+
+Neste caso em especial, é tratado as **seguintes situações**:
+
+- É efetuado o envio inicial de itens e recebido o desconto, em seguida, o sistema tenta __efetuar o envio final e neste momento ocorre um problema__.
+- É efetuado um __cancelamento de cupom__ no sistema após a venda ser finalizada e ao tentar __cancelar o mesmo no sistema da CRESCE VENDAS recebemos algum tipo de erro__.
+
+No envio inicial, caso ocorra algum tipo de problema, ao pressionar **F2** novamente o sistema tentará reenviar, logo não teremos problema.
+
+Caso uma das situações acima venha a acontecer o sistema adicionará o registro a ser enviado para a plataforma Cresce Vendas em uma tabela de pendências que poderá ser acessada pelo menu na tela principal do EasyCash conforme a imagem:
+
+
+
+Caso na transmissão tenha erro do tipo 4XX, ou seja, erro de configuração ou de formação incorreta de dados será apresentada a seguinte mensagem ao abrir a interface:
+
+
+
+Os erros do tipo 4XX não serão reenviados por orientação da própria Cresce Vendas e deve-se entrar em contato com SUPORTE TÉCNICO da IWS para validar a causa da não transmissão. Abaixo uma imagem da tela de pendências:
+
+
+
+Ao clicar em **Processar** o sistema tentará reenviar as transmissões pendentes. No final do processo será mostrada a seguinte mensagem:
+
+
+
+Nesta mesma interface temos o botão **Visualizar LOG** que permite visualizar o log específico criado para esta integração que mostra as informações do sistema ao manipular os dados da API.
+
+Ao abrir o sistema caso tenha alguma pendência de envio o sistema irá mostrar a seguinte tela:
+
+
+
+Será também mostrado na tela principal do sistema no canto superior direito conforme a imagem:
+
+
+
+Também irá constar um registro na parte inferior da tela na área de log do sistema conforme a imagem:

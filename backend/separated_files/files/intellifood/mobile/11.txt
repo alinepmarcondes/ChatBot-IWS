@@ -1,0 +1,4 @@
+Title: Mesas adicionais
+
+Content:
+Para adicionar ou remover mesas adicionais clique no botãono canto superior direito e depois em **Mesas adicionais**, conforme demonstra a figura abaixo.

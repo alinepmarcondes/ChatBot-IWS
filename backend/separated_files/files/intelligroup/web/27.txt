@@ -1,0 +1,6 @@
+Title: = Excluir nota fiscal
+
+Content:
+=
+
+Para excluir uma nota fiscal, o usuário deverá informar o período em que a nota fiscal foi cadastrada, e clicar no campo "Excluir" da nota desejada, localizado na última coluna conforme demonstra a figura abaixo.

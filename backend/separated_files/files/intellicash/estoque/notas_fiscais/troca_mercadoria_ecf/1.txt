@@ -1,0 +1,22 @@
+Title: == Emitir a Nota Fiscal de Devolução de Venda
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de emitir a nota fiscal de devolução de venda, realizada pela tela de troca de mercadoria.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Notas Fiscais→Troca de Mercadoria ECF||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Localize as devoluções realizadas no periodo selecionado. Selecione as trocas que deseja gerar a nota fiscal de devolução de venda. Por fim clique em **Gerar NF**.
+
+Caso a opção **Destinatário própria empresa** esteja marcado, então será emitida apenas uma nota fiscal no nome da própria empresa. Caso essa opção esteja desmarcada, será criada uma nota fiscal pra cada troca, destinada ao cliente que fez a devolução.

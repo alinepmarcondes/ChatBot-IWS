@@ -1,0 +1,6 @@
+Title: = Gerar Arquivo (para envio)
+
+Content:
+=
+
+Gera um arquivo "chave" que deve ser enviado ao suporte para que assim seja possível construir a contra-chave, ou a chave de liberação que será importada pelo IC, efetuando assim a liberação.

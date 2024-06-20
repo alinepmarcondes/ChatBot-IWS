@@ -1,0 +1,4 @@
+Title: Forma de pagamento
+
+Content:
+Para selecionar a forma de pagamento, o usuário deverá acessar o menu “Forma de pagamento” localizado no canto superior direito ou clicar no campo “Forma de Pagamento” da tela de sugestão.

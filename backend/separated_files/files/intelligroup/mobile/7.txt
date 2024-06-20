@@ -1,0 +1,11 @@
+Title: = Alterar Quantidade
+
+Content:
+=
+
+Para alterar a quantidade do produto no pedido, o usuário deverá pressionar o mesmo na lista e informar a quantidade desejada na caixa de diálogo que será aberta.
+
+
+
+
+Para concluir, o usuário deverá pressionar o botão "OK".

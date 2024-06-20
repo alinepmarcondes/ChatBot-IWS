@@ -1,0 +1,36 @@
+Title: == Simulador de Vendas
+
+Content:
+==
+
+----
+
+Relatório que mostra as vendas no período determinado de data, e que permite criar uma simulação de vendas com base nas vendas pesquisadas.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Simulação de Venda||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Empresa:** O campo Empresa só ficará visível no caso de haver mais de uma empresa cadastrada.
+* **Início** e **Término:** Nesses campos devem ser informados o inicio e o termino do período utilizado como base para a simulação. Esse período deve conter movimentação.
+* **Tipo de Filtro:** Deverão ser selecionado o tipo de filtro a ser utilizado, é possível escolher entre os atributos dos produtos(grupo, seção, marca, etc.) ou Promoção(Loja ou Encarte).
+
+
+
+* **Filtro:**
+* **Aplicar:** Aplica os filtros e retorna as informações do relatório.
+* **Imprimir:** Imprime o relatório.
+* **Salvar Simulação:** Esse botão irá salvar a simulação em questão. Caso o relatório aberto seja uma simulação já salva, o sistema irá perguntar se deseja sobrescrever ou se deseja salvar como novo. Caso deseje sobrescrever, a simulação anterior não poderá ser recuperada.
+* **Excluir Simulação:** Exclui alguma simulação salva anteriormente. Uma vez excluída a simulação, não tem como ser recuperada. As informações retornadas são divididos em 4 grupos. Informações do Produto, __Informações da Movimentação do período, Movimentação Simulada, comparação entre as movimentações__.
+* **Colunas Fixas:** Essa opção define o número de colunas que irão ficar fixas, começando da esquerda para direita. Quando rolar a tela essas colunas não iram mexer.
+* **Totalizador de Vendas no Periodo:** Valor total das vendas no período selecionado, usado para saber a representatividade dos grupo de produtos selecionado.
+* **Totalizador do preço de Produtos Selecionados:** Valor total das vendas dos produtos selecionados no período escolhido. E o porcentual de representatividade em relação ao total das vendas no período.
+* **Totalizador do preço de venda simulado:** Valor total das vendas simuladas dos produtos selecionados. E o porcentual de representatividade em relação ao total das vendas no período.

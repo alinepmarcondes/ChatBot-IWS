@@ -1,0 +1,4 @@
+Title: Imprimir pedido não finalizado
+
+Content:
+Para imprimir um pedido não finalizado, o usuário deverá clicar no botão "Imprimir" localizado ao lado esquerdo do botão "Exportar" conforme demonstra a figura abaixo.

@@ -1,0 +1,17 @@
+Title: Preços Especiais
+
+Content:
+=== Itens com Preço Especial ===
+
+
+
+A aba "//**Preços Especiais**//" é uma ferramenta para cadastrar preços diferenciados para determinados clientes.
+
+Nesta tela há os seguintes botões:
+* **Inserir:** insere produtos com preço diferenciado para o cliente;
+
+Nesta tela você deve digitar o código ou descrição do produto e após fazer uma busca pelo produto basta selecionar o mesmo e confirmar. Após isso aparecerá a seguinte interface para alterar o preço:
+
+Após inserir o novo preço e o desconto, basta confirmar e o preço diferenciado estará cadastrado.
+* **Alterar:** Aparecerá apenas a interface para informar o novo preço e desconto como visto acima;
+* **Excluir:** para excluir um produto selecionado do preço diferenciado;

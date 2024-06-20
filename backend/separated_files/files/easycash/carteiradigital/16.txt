@@ -1,0 +1,8 @@
+Title: Retaguarda
+
+Content:
+Na retaguarda nas configurações do EasyCash podemos efetuar as seguintes configurações que posteriormente serão exportadas, segue:
+
+
+
+Ao clicar para **Alterar** teremos:

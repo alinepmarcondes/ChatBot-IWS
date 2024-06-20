@@ -1,0 +1,8 @@
+Title: EasyCash
+
+Content:
+No frente de caixa, nas configurações foi criada a aba **E-Mail**. Dentro desta aba foi criada 4 sub-abas conforme as imagens:
+
+
+
+Para alterar seria:

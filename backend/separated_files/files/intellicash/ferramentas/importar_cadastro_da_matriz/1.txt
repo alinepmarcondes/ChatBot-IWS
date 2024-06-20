@@ -1,0 +1,22 @@
+Title: == Importar Cadastros da Matriz
+
+Content:
+==
+
+----
+
+Ferramenta para fazer a importação de cadastros da matriz.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Importar Cadastro da Matriz||
+
+
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Uma interface mostrará o que está sendo importado. Quando tiver terminado de fazer a importação ela se fechará e liberará o acesso ao sistema (Esse processo pode demorar dependendo do volume de dados a ser importado).

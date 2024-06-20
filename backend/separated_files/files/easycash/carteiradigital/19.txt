@@ -1,0 +1,8 @@
+Title: Validação dos Pagamentos
+
+Content:
+Na plataforma da IWS na aba **Pagamentos** podemos validar se um pagamento foi efetivado normalmente junto ao PicPay, segue a imagem:
+
+
+
+O lojista também através de acesso a plataforma do próprio PicPay, pode acompanhar as transações efetuadas conforme a imagem:

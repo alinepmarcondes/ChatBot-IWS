@@ -1,0 +1,4 @@
+Title: Enviar movimento pendente e fechamento diários
+
+Content:
+Caso tenha algum problema com o sincronizador, essa função irá enviar todo o movimento que se encontra pendente de ser enviado.

@@ -1,0 +1,16 @@
+Title: == Cadastrar cliente
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada para cadastrar clientes, mas também há inúmeras funções e utilidades, como histórico do cliente, orçamento, recebimento, preferências do cliente entre outros.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Cliente||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

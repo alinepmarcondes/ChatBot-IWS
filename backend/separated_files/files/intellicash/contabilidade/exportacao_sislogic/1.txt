@@ -1,0 +1,24 @@
+Title: == Exportação Sislogic
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de gerar um arquivo de exportação para o sistema Sislogic de Contabilidade.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Contabilidade→Exportação→Sislogic||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Gerar:** para gerar o arquivo de exportação;

@@ -1,0 +1,13 @@
+Title: = Editar produtos próprios
+
+Content:
+=
+
+Para editar um produto próprio, o usuário deverá informar um período nos campos de início e término e clicar sobre o botão "Aplicar". 
+
+Após clicar sobre o botão "Aplicar", o usuário deverá clicar sobre o ícone "Editar" do produto desejado, localizado na penúltima coluna conforme demonstra a figura abaixo.
+
+
+
+
+Para concluir a ação, o usuário deverá clicar sobre o botão "Salvar".

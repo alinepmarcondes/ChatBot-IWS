@@ -1,0 +1,41 @@
+Title: == Relatório Financeiro Gerencial
+
+Content:
+==
+
+----
+
+Esta ferramenta mostra um relatório gerencial, mostrando suas receitas e despesas.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Relatório Gerencial||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há as seguintes abas para gerar um relatório gerencial da empresa:
+
+* Datas:
+- **Data de Entrada:** Para realizar a pesquisa buscando a data de entrada dos lançamentos financeiros;
+- **Data de Vencimento:** Para realizar a pesquisa buscando a data de vencimento dos lançamentos financeiros;
+- **Data de Pagamento:** Para realizar a pesquisa buscando a data de pegamento dos lançamentos financeiros;
+* Intervalo:
+- **Período:** Para determinar se o relatório será gerado em um período inteiro;
+- **Dia a Dia:** Para determinar se o relatório será gerado diariamente;
+* Situação:
+- **Abertas:** Para pesquisar apenas lançamentos abertos;
+- **Fechadas:** Para pesquisar apenas lançamentos fechados;
+- **Todas:** Para pesquisar todos os lançamentos;
+
+Há também osa seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Após realizada a pesquisa na coluna há esquerda mostrará as datas, ou período, e após clicar em alguma data, mostrará os resultados do relatório separados em despesas e receitas, sendo uma coluna com os dados do relatório financeiro e à direita os dados gráficos do relatório.

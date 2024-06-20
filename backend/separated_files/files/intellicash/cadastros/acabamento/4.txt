@@ -1,0 +1,17 @@
+Title: = Utilizando o Acabamento
+
+Content:
+=
+
+O Acabamento é utilizado na hora da venda feita através do orçamento. \\
+Ao inserir o item no orçamento basta clicar com botão direito do mouse sobre o registro do item no grid e clicar na opção **//Adicionar Acabamento//**.
+
+
+
+Ou pressionar as teclas de atalho **"Ctrl + A"**. Será exibida a interface abaixo. \\
+
+ \\
+
+Nessa interface serão listados todos os acabamentos associados ao item, ao selecionar um acabamento, no campo **"Preço Produto + Acabamento"** será calculado o preço do item de acordo com acabamento. \\
+Ao clicar em gravar o sistema irá voltar para tela de orçamento e atualizar o valor do item e os totais, também irá alterar a descrição do item concatenando com o tipo de acabamento escolhido, ficando da seguinte forma [//Descrição do Item+ Descrição do Acabamento//]. \\
+Para excluir um acabamento basta clicar com botão direito sobre o item e clicar na opção **//"Excluir Acabamento"//** ou pressionar as teclas de atalho **"Ctrl + E"**.

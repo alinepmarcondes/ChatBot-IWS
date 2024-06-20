@@ -1,0 +1,15 @@
+Title: = Resultado
+
+Content:
+=
+
+
+
+Quando o gestor dos pedidos faz a exportação lhe é perguntado se deseja enviar o arquivo por email para o fornecedor, caso o envio do arquivo seja confirmado pelo gestor a ferramenta irá interpretar que este pedido está confirmado e finalizado, desta forma aparecendo no relatório de compras.
+
+Nesta interface há os seguintes campos:
+
+* **Planos de Pagamento:** Para selecionar um plano de pagamento para o pedido;
+
+
+* **Exportar NF:** Para exportar o pedido de compras confirmado para nota fiscal;

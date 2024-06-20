@@ -1,0 +1,8 @@
+Title: Atualização do Firmware
+
+Content:
+Deverá ser impresso o seguinte texto:
+
+
+
+Caso a versão do firmware seja inferior a descrita acima, deve-se entrar em contato com a Elgin para providenciar uma versão mais nova do mesmo. Uma vez tendo o arquivo atualizado deve-se, conforme o documento **ELGIN - Procedimento para gravação de firmware - Impressora i9 Versão 1.2 - 11/08/2020**, seguir os seguintes passos:

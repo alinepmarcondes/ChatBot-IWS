@@ -1,0 +1,18 @@
+Title: == Acesso
+
+Content:
+==
+
+Para utilizar o Cotação Online (CO), o representante deverá acessar a URL http://co.iws.com.br.
+
+Será aberta uma tela inicial onde o representante deverá informar o IP e porta de conexão com cliente.
+
+
+
+Ao informar o IP, o representante deverá clicar sobre o botão "Salvar" para concluir. Se o servidor informado estiver correto, o representante será redirecionado para a tela de login, caso contrário, o mesmo será notificado que não foi possível estabelecer conexão.
+
+
+
+
+
+Para acessar, o representante deverá informar seu nome de usuário e senha previamente cadastrados e liberados.

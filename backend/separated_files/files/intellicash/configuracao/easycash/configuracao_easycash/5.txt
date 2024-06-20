@@ -1,0 +1,10 @@
+Title: Entrega
+
+Content:
+Aqui iremos configurar o cupom de entrega. Essa configuração deverá ser realizada no sistema de retaguarda 'Intellicash' e exportado para os caixas.
+
+* **Obter Endereço – Na finalização do cupom Fiscal:** Se marcada, a cada cupom fiscal finalizado a tela para digitar endereço de entrega será aberta automaticamente e o ícone da entrega ficará habilitado no rodapé da tela de venda. 
+* **Geral – Nº vias:** Se estiver marcada apenas 1, sempre será impresso apenas uma via do cupom de entrega, se tiver marcada acima de 2, quando pedir para imprimir o endereço de entrega abrirá uma nova tela para que seja informado quantas vias deseja imprimir, vindo como padrão a quantidade 1.
+* **Geral – Nº linhas vazias no rodapé:** Se colocado um valor maior que zero, no cupom de entrega será gerado um espaço em branco para descrever alguma informação extra.
+* **Imprimir valor total do Cupom Fiscal:** Quando esta configuração está marcada saíra em todos os cupons de entrega o valor do cupom fiscal original.
+* **Texto do cupom:** Configuração de Entrega criada para expandir fonte de impressão. Por padrão esta virá marcada e quando marcada a impressão do cupom de entrega deverá vir expandida, mantendo então os padrões atuais. Porém, caso haja quebra de linha e acabe cortando palavras e deixando muito espaço em branco e for de preferência do cliente que a fonte fique menor, deverá ser configurada como “Normal”.

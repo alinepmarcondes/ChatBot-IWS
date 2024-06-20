@@ -1,0 +1,9 @@
+Title: Forma de pagamento
+
+Content:
+Para alterar a forma de pagamento, o usuário deverá selecionar a forma desejada no campo superior esquerdo conforme demonstra a figura abaixo.
+
+
+
+
+Após selecionar a opção desejada, os valores dos produtos serão calculados com base no acréscimo da forma de pagamento selecionada.

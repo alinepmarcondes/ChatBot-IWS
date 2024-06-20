@@ -1,0 +1,7 @@
+Title: == Requisitos
+
+Content:
+==
+
+* Tablet ou Smartphone com Android 5.1+ (Recomendável tablet)
+* 100mb+ para download das imagens dos produtos

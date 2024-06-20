@@ -1,0 +1,4 @@
+Title: Exportar
+
+Content:
+Para exportar um pedido, o usuário deverá clicar sobre o pedido, selecionar o formato desejado e pressionar o botão exportar conforme demonstra a figura abaixo.

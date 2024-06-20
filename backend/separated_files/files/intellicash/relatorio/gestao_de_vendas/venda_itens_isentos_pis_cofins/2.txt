@@ -1,0 +1,16 @@
+Title: = Por Classe
+
+Content:
+=
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+* **Exportar:** para exportar os dados para um arquivo PDF;
+* **Enviar Email:** para enviar um email sobre o relatório de vendas dos itens com anexo do pdf;
+
+Nesta aba serão exibidos os resultados da venda no período, classificadas por seção;

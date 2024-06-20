@@ -1,0 +1,14 @@
+Title: = Importar do Recebimento
+
+Content:
+=
+
+A opção de Importar do Recebimento é utilizada caso tenha feito recebimento pela ferramenta [[manuais:intellicash:estoque:recebimento_mercadorias|Recebimento de Mercadoria]]. Para isso é necessário criar a capa da nota, com as informações correspondente ao recebimento de mercadorias realizado. Feito isso ao escolher a opção de importar o sistema irá associar as informações da capa da nota com o recebimento de mercadorias e abrirá a seguinte interface:
+
+
+
+Nesta interface é necessário a quantidade e a data que foi realizado o recebimento de mercadorias e após clicar em "//**Localizar**//" o sistema irá buscar os dados referentes as informações preeenchidas. Após realizada as pesquisa basta selecionar a nota fiscal desejada e selecionar os itens que serão importados no checkbox "//**Insere**//" e em seguida clicar no botão "//**Inserir**//", feito isso abrirá uma nova interface:
+
+
+
+Nesta tela é necessário informar os valores dos produtos e a sua tributação nas tabelas corretamente para prosseguir e após isso basta clicar no botão "//**Confirmar**//". Feito isso os itens estarão inseridos na NF.

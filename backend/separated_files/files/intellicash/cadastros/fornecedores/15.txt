@@ -1,0 +1,8 @@
+Title: = Pedido de Compra
+
+Content:
+=
+
+A aba "//**Pedido**//" tem a função de criar os pedidos de compra para os fornecedores.
+
+[[manuais:intellicash:cadastros:fornecedores:pedido_de_compra|Clique para acessar manual completo de pedidos de compra]]

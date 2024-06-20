@@ -1,0 +1,4 @@
+Title: File
+
+Content:
+O menu file oferece opções mais comuns como salvar, criar novo, carregar de arquivo e salvar para arquivo. Talvez as funções mais importantes a serem destacadas sejam a **Save To File** (salva um arquivo *.rtm com as configurações do relatório que pode ser utilizado em outros lugares) e **Page Setup** que é onde pode ser configurado o tamanho do papel e a impressora que em que o relatório será impresso. **Isso é fundamental!**.

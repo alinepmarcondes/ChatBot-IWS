@@ -1,0 +1,15 @@
+Title: Pontuação
+
+Content:
+A aquisição de pontos poderá ser por **Valor** ou por **Produto**. A troca do tipo de aquisição é realizada por meio do //combobox// "Forma de aquisição de pontos", conforme a figura abaixo:
+
+
+Antes de se realizar qualquer cadastro, __**recomenda-se muita atenção**__ a **Data de encerramento**, pois é ela quem define o período de vigência do programa. Se ela estiver vazia, conforme a figura anterior, significa que o programa **estará vigente por tempo indeterminado**. Nada impede, no entanto, de se definir uma data após o programa estar em execução no estabelecimento. Importante atentar-se também que, caso seja definido a data atual para o encerramento, __**todas as aquisições serão encerradas no EasyCash (os pontos adquiridos serão setados como perdidos no relatório, zerando a pontuação dos clientes)**__. 
+
+Somente é permitido __**um programa e tipo de aquisição de pontos por vez**__, ou seja, caso esteja obtendo pontos por "Valor" e tentar modificar para "Produto", o sistema irá pedir para encerrar. Se estiver também obtendo pontos por "Valor Fixo" e trocar para "Intervalo de Valor", o sistema irá pedir para encerrar um programa e abrir outro, como mostra a imagem:
+
+
+
+O sistema não permite inserir valores repetidos e nem pontos repetidos. Todos os pontos devem ser inteiros, __**não permitindo pontos fracionados**__.
+
+As regras de pontuação respeitam o __**valor líquido do cupom**__, por exemplo, suponha um sistema de valor fixo, onde o valor do cupom acima de R$50,00 recebe 2 pontos e acima de R$100,00 recebe 3 pontos, caso o cupom tenha valor bruto de R$101,00, mas tenha um desconto de R$2,00, o valor líquido do cupom será de R$99,00 recebendo para este caso somente 2 pontos.

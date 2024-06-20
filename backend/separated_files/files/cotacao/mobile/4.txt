@@ -1,0 +1,12 @@
+Title: = Login
+
+Content:
+=
+
+Para realizar o login, o representante deverá informar seu nome de usuário e senha previamente cadastrados, selecionar o servidor e clicar sobre o botão "Acessar".
+
+
+
+Possíveis mensagens de erros:
+* Verifique se todos os campos foram preenchidos!
+* Usuário ou senha inválidos!

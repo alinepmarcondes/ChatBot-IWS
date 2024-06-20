@@ -1,0 +1,21 @@
+Title: Geral
+
+Content:
+Essa aba contém todas as configurações necessárias para o funcionamento do sistema.
+* **Descrição do produto:** Informa se a descrição do produto na venda será Sucinta ou completa;
+* **Ind. Arred. Ou Trunc(IAT):** Indica se você deseja que o sistema faça o arredondamento dos valores ou faça o truncamento;
+* **Preço Máx.:** Valor máximo permitido por item no cupom fiscal;
+* **Qtde. Máxima:** Quantidade máxima permitida por item no cupom fiscal;
+* **Tam. Descr. Prod.:** Qual o tamanho da descrição do item no cupom fisal;
+* **Troco Máx:** Foi acrescentado uma configuração onde possa ser informado o valor máximo de troco permitido. 
+Caso o troco exceda o máximo configurado no campo, será necessário utilizar senha(permissão de usuário) para que o mesmo seja autorizado a ser dado.
+Caso o valor máximo do troco seja '0,00' então significa que não há valor máximo para troco.
+Por padrão essa configuração vem sempre como '0,00' e a permissão 'Permite liberar troco máximo' por padrão nenhum usuário terá permissão, sendo assim poderão devolver apenas o troco permitido. 
+* **Formato código balança KG:** Formato que o sistema lê o código de barras geradas pela balança quando o código é por peso;
+* **Formato código balança Unid:** Formato que o sistema lê o código de barras geradas pela balança quando o código é por unidade;
+
+\\
+4 - Perguntar se deseja Imprimir e Qual Imprimir\\
+
+No caso das configurações 2 e 3 deverá ter o foco no SIM, no caso do 4 deverá ter o foco no IMPRIMIR e COMPACTO.
+caso escolha a opção 4, e escolha não imprimir na primeira pergunta, não deve ser feita a segunda.

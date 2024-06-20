@@ -1,0 +1,34 @@
+Title: FS88H (Futronic)
+
+Content:
+No painel que é mostrado abaixo ao selecionar a opção deste leitor, temos:
+
+
+
+**Detectar dedo falso:** Habilita a função detect fake finger do leitor biométrico.
+
+**Desabilitar múltiplos dedos em um template:** Não permite que no mesmo template seja utilizado dedos diferentes durante o processo de cadastro.
+
+**Número máximo de frames no template:** Determina a quantidade de capturas que serão realizadas para criar o template final no processo de cadastro. Defini o valor mínimo em 3, pois é a mesma quantidade definida pelo iDBio da Control ID.
+
+**Valor de medida(FARN)(FARN = False Accept Rate Number):** Este valor é a referência do framework do leitor biométrico para aceitar uma identificação. Foi mantido o valor padrão utilizado pelo SDK do fabricante. 
+
+Na parte inferior esquerda, temos as versões das principais DLL utilizadas pelo sistema para acessar o leitor biométrico, são elas:
+
+
+
+A primeira possui as funções de manipulação do framework da Futronic e a segunda possui as funções de manipulação do scanner do leitor biométrico.
+
+Nos botões na parte inferior temos:
+
+
+
+//Teste diodo sensor:// Permite manipular o diodo do sensor biométrico, conforme imagem abaixo:
+
+
+
+//Comunicar:// Efetua a abertura e o fechamento do dispositivo internamente para validar se a comunicação está funcional. Exibe uma mensagem simples, conforme abaixo:
+
+
+
+//Parâmetros:// Mostra as informações configuradas no framework e que serão utilizadas no processo de cadastro e identificação, conforme imagem abaixo:

@@ -1,0 +1,4 @@
+Title: Instalação modo Server
+
+Content:
+O modo de instalação Server consiste no preparo do servidor, ou seja, configuração do Banco de Dados e instalação dos serviços de conexão. Para iniciar o modo Server selecione a opção **Server**, se deseja instalar o **Sincronizador ScannTech** marque a opção **Instalar o Sincronizador ScannTech** e depois clique no botão **Próximo** para continuar.

@@ -1,0 +1,21 @@
+Title: Configurações
+
+Content:
+Para facilitar o processo de controlar o beneficiamento algumas configurações devem ser feitas.
+
+=== CFOP ===
+Como existem alguns CFOPs próprios para dar entrada nos produtos a serem beneficiado, então o **Intellicash** permite parametrizar esses CFOPs de forma que ao escolhe-lo ao dar entrada em uma NF, a opção de controlar saldo de beneficiamento já venha selecionado.\\
+
+
+Para realizar a parametrização basta entrar no menu em:
+
+||Gerenciamento→Cadastros→CFOPs||
+ 
+Ao clicar neste botão selecione o CFOP desejado e clique sobre **Alterar**, e será exibida a interface abaixo.
+
+
+
+Três campos merecem destaques nessa interface:
+* **CFOP Contra Partida**: esse será o CFOP que o **Intellicash** irá sugerir para a devolução do produto beneficiado.
+* **Operação**: usado para caracterizar a operação realizada.
+* **Controlar Saldo de Beneficiados (Padrão)**: indica que esse CFOP por padrão ja vem com a opção de controlar saldo de beneficiamento no lançamento da NF de entrada.

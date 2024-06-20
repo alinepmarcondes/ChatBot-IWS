@@ -1,0 +1,8 @@
+Title: == Integração com a API da Cresce Vendas
+
+Content:
+==
+
+
+
+A partir da versão 1.4.012.000 o sistema tornou-se integrado com a API da Cresce Vendas.

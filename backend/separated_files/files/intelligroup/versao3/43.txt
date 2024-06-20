@@ -1,0 +1,6 @@
+Title: = Novo Associado
+
+Content:
+=
+
+Se o associado ainda não possuir um cadastro clique no link "//__Novo associado?__//" na tela de **Login**.

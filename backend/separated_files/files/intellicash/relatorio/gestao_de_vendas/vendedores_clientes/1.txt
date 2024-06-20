@@ -1,0 +1,26 @@
+Title: == Relatório de Vendedores x Cliente
+
+Content:
+==
+
+----
+
+Este relatorio permite a visualização das vendas realizados por cada vendedor, mostrando os repectivos clientes e os detalhes da venda.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Vendedores x Cliente||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Na coluna à esquerda mostra os vendedores do sistema, e à direita mostra os clientes que este vendedor atendeu, logo abaixo mostra as vendas que foram realizadas à este cliente e na ultima coluna mostra os itens da venda selecionada na coluna anterior.

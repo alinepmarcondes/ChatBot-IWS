@@ -1,0 +1,34 @@
+Title: == Exportação Matriz → Filiais
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de exportar os dados da matriz para as filiais.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Exportação Matriz→Filiais||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+
+
+Precisamos também destacar aqui os produtos de promoção. Quando um produto estiver na promoção de **Encarte** ele será enviado para as filiais e alterado seu valor. Se o produto estiver na promoção de **Loja** e tenha tido alguma alteração em seu cadastro ele será exportado, __**mas não irá alterar valores**__para os valores da promoção. Irá pegar o preço antes da promoção. \\
+Se algum produto estiver na promoção de **Loja** na **Filial** e for feito uma alteração no seu preço na **Matriz** e exportado, esse preço será alterado assim que sair da promoção.
+
+Após selecionado uma aba haverá na parte inferior da tela, uma caixa de texto, chamada "//**localizar**//" para pesquisar determinado cadastro no sistema e abaixo os seguintes botões:
+* **Exportar:** para exportar os cadastros do sistema para outro sistema filial;
+* **Ação:** para selecionar uma ação entre "//**Marcar todos**//" ou "//**Desmarcar Todos**//";
+* **Reexportar Desde:** para exportar os cadastros de uma determinada data até a atual
+* **Aplicar:** para realizar as filtragens do sistema feitas pelo usuário;
+
+Você ainda encontra nessa tela a opção de exportar os produtos “//**Pesáveis**//” e “//**Valores**//”:
+
+* **Exportar Valores**: Ao marcar a opção de exportar valores o sistema irá enviar os valores de custo e de venda do produto para as filiais, essa opção tem uma trava de permissão de usuário para poder utilizar, pois cada loja pode ter seu custo diferenciado, pois o custo do produto é alterado na entrada de nota fiscal, e o preço de venda também pode ser diferenciado de acordo com o custo de cada loja. \\
+* **Exportar Pesáveis**: Toda sincronização de produtos é realizada através do código de barras que é um identificador único do produto. Já no caso dos produtos pesáveis esse código é gerado internamente pelo Intellicash, e com isso pode ocorrer de ao exportar os produtos pesáveis o mesmo código esteja sendo utilizado por outro produto na filial, desta forma o produto da filial seria alterado para descrição do produto da matriz.

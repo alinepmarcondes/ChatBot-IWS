@@ -1,0 +1,22 @@
+Title: == Força de Venda
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de importar e exportar cadastros do MGMobile;
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Vendas→Força de Venda||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+
+
+Para se localizar a pasta onde se encontra os arquivos, o usuário devera informar a raiz onde se encontraa pasta principal. Exemplo: caso as pastas "//**1**//", "//**2**//" ,"//**3**//" esteja no desktop, o caminho informado para importação, será:"//**C:\Desktop**//".

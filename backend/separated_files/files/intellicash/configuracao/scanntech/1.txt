@@ -1,0 +1,7 @@
+Title: == Scanntech
+
+Content:
+==
+O **Clube de Promoções da Scanntech** é uma plataforma integradora que permite ao supermercadista oferecer promoções originadas pela indústria, que até então eram reservadas apenas para as grande redes.
+
+Para ter acesso a plataforma **Clube de Promoções da Scanntech**, é preciso inicialmente aceitar o termo de adesão[[http://www.intelliware.com.br/download/docs/TermoScanntech.pdf| (Clique aqui para acessar o termo de adesão)]], que irá gerar um usuário e senha para acessar a plataforma, e um código para integrar ao **IntelliCash**.

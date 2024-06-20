@@ -1,0 +1,12 @@
+Title: = Localizar
+
+Content:
+=
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Localizar:** basta pesquisar o funcionário pelo nome ou o número de documento do funcionário desejado, caso o usuário opte pelo primeiro nome ou com o nome que o funcionário e conhecido na empresa, o sistema listará os funcionários que tenham o mesmo nome, bastando selecionar o nome desejado e em seguida apertando a tecla enter.
+* **Novo:** Para cadastrar um novo funcionário;
+* **Mostrar Todos os Funcionários:** O sistema listará todos os funcionários (Ativos e Inativos);

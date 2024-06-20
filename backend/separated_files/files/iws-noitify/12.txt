@@ -1,0 +1,6 @@
+Title: = Sobre
+
+Content:
+=
+
+Para exbir as informações da aplicação vá para tela de **Notificações** e clique no botãoe depois em **Sobre** conforme demonstra a figura abaixo.

@@ -1,0 +1,9 @@
+Title: Código 001
+
+Content:
+Mensagem de erro: //Falha a ler arquivo XML.//
+
+Soluções possíveis:
+* Verique se há conexão de Internet.
+* Verique se Serivor IWS está online.
+* Verique as configurações de proxy e o firewall.

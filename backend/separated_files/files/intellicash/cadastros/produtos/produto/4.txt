@@ -1,0 +1,4 @@
+Title: Dados Adicionais
+
+Content:
+Após cadastrado o produto aparecerá uma interface para cadastrar o centro de custo padrão da produto:

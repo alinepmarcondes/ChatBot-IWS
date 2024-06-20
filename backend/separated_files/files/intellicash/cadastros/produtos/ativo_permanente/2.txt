@@ -1,0 +1,25 @@
+Title: = Informando os Itens do Ativo Permanente
+
+Content:
+=
+
+Para informar se um produto é do ativo permanente a primeira coisa a se fazer é cadastrar um produto com a finalidade de "//**Ativo Imobilizado**//":
+
+
+
+Após comprar o produto, para informá-lo no sistema é necessário dar a entrada na nota fiscal do produto:
+
+
+
+
+
+Sobre os dados do lançamento do CIAP (Controle de Crédito do ICMS do Ativo Permanente):
+
+* **Data Inicial:**
+* **Nº Parc Restantes:**
+* **Tipo de Movimento:**
+* **ICMS:**
+* **ICMS ST:**
+* **ICMS Frete:**
+* **ICMS Diferencial de alíquota:**
+* **Lançar:**

@@ -1,0 +1,28 @@
+Title: == Itens na Promoção
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de pesquisar todos os produtos que foram inseridos na promoção durante um intervalo de datas.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Itens na Promoção||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes botões:
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa. Esse filtro só é visivel quando o sistema controla mais de uma empresa;
+* **Início e Término:** para determinar um período de datas a ser pesquisado;
+* **Agrupamento:** para determinar o agrupamento de promoção que o usuário deseja listar. Esse filtro lista os agrupamentos que o início está entre o início e término informado;
+* **Tipo:** para o usuário escolher o tipo de filtro que deseja aplicar (seção, grupo, sub-grupo, etc...);
+* **Filtro:** para o usuário escolher o tipo de filtro de acordo com tipo escolhido;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.

@@ -1,0 +1,6 @@
+Title: = Configuração do Servidor
+
+Content:
+=
+
+Ao abrir o aplicativo, será informado ao usuário que não há servidor cadastrado.

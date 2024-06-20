@@ -1,0 +1,14 @@
+Title: Excluindo e Alterando um Kit
+
+Content:
+Caso deseje excluir um kit ou alterá-lo bas clicar na barra onde informa o nome do kit com o botão direito do mouse e selecionar a operação que deseja fazer e após isso basta recarregar o produto.
+
+
+
+
+
+Ao optar por alterar um kit aparecerá a seguinte interface:
+
+
+
+Nesta interface você poderá remanejar para o kit que deseja(exceto desmembramento).

@@ -1,0 +1,90 @@
+Title: Cadastro Base
+
+Content:
+A aba "//**Cadastro Base**//" mostra informações sobre o cadastro do produto;
+
+
+
+Nesta tela, também como a anterior, a parte de intervalo de datas está desativada, já que não tem função nesta aba.
+
+Na primeira coluna há a parte de classificações mostrando os detalhes do produto cadastrado com os atributos "//**Subgrupo**//", "//**Grupo**//", "//**Seção**//", "//**Fabricante**//", "//**Marca**//", "//**Tamanho**//", "//**Unidade**//", "//**Tributação**//" e "//**Coleção**//";
+
+
+
+Na segunda coluna há a parte de estoque mostrando o estoque do produto selecionado com os atributos "//**Empresa**//", "//**Disp.**//", "//**Troca**//", "//**Reserv**//". e "//**Preço**//" e uma caixa de marcação com o nome de "//**Cotação**//" para informar se o produto está em cotação;
+
+
+
+
+
+Ao clicar com o botão direito na parte de código de barras aparecerão algumas operações a se fazer como Adicionar código, Desativar código, Associar ou Desassociar.
+
+
+
+1. **Adicionar Código:** para adicionar mais um código de barras à este produto, e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela há o campo de texto para preencher o código e uma caixa de marcação para verificar EAN caso queira.
+
+2. **Desativar Código:** Para desativar um código que esteja selecionado;
+
+3. **Desassociar:** Esta função desassocia este código de outro produto;
+
+4. **Associar:** Esta função serve para associar um produto ao mesmo código do produto em questão e ao selecionar esta função abrirá a seguinte tela:
+
+
+
+Nesta tela é necessário selecionar um produto e para isso há um campo de texto para pesquisar um produto pelo código ou descrição do item e dois botões para escolher entre eles sobre "//contendo//" (contendo a palavra em partes da descrição) ou "//iniciando//" (contendo a palavra apenas no início da descrição).
+
+Caso o produto seja um item exportavel pra balança, ao lado das informações de balança teremos 2 botões como mostra a imagem abaixo.
+
+
+
+o primeiro botão, da esquerda é utilizado para cadastrar as informações Nutricionais:
+
+
+o segundo botão, da direita, é utilizado para cadastrar as informações adicionais, como receita por exemplo.
+
+Essas informações podem ser exportadas para as balanças que utilizam o padrão de comunicação MGV6 e MGV5.
+Além dessas informações, também é possivel exportar preços promocionais para os usuários que utilizam MGV6. Para isso, deve ser parametrizado a configuração 10602 (Exportar Preços Promocionais MGV6).
+
+Na quinta coluna há a parte de valores do produto:
+
+
+
+Esta tela mostra os valores do produto com os seguintes atributos "//**Custo**//", "//**Preço**//", "//**Markup**//", "//**Mrkp Padrão**//", "//**Preço Padrão**//", "//**Max. Desc.**//", "//**Preço Mín.**//" e "//**Markup Mín.**//".
+
+Na sexta coluna mostra os valores de preço por quantidade:
+
+
+
+Para saber mais informações sobre o manual de Preço por Quantidade [[intellicash:manuais:preco_por_qtde|Clique Aqui]].
+
+Na sétima coluna mostra a parte de outras informações:
+
+
+
+Nesta parte há os seguintes campos:
+
+- **Centro de Custo Padrão:** Para informar o centro de custo padrão do produto (para excluir o centro de custo basta clicar com o botão direito do mouse em cima do botão **alterar** e ecolher a opção **Excluir Centro de Custo**);
+- **Conta Contábil Estoque:** Para informar a contabil do estoque do produto;
+- **Ultima dt Vencimento:** Para informar a ultima data de vencimento do produto;
+- **Comissão:** Para informar o valor(%) de comissão para o vendedor, ao vender este produto;
+
+E em todos os itens há o botão alterar () para alterar os dados das informações.
+
+
+E há o botão alterar () para alterar os dados de todas as informações acima.
+
+E na oitava coluna há a parte de garantia:
+
+
+
+Nesta parte há os itens Loja (Meses) e Fabricante (Meses) para informar a garantia em meses de ambos para o produto desejado. E há também, o botão alterar () para alterar os dados de todas as informações acima.
+
+E ao clicar com o botão direito do mouse em qualquer interface da tela aparecerá um menu para mostrar/ocultar as colunas desta aba:
+
+
+
+Neste menu você pode marcar ou desmarcar as opções existentes, isso fará com que mostre ou oculte as informações da tela cadastro respectivamente.

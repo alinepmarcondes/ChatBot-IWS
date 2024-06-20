@@ -1,0 +1,4 @@
+Title: Sugestões de Compra
+
+Content:
+Para acessar a tela **Cadastro de sugestões de compra** clique no menu **Cadastrar** e depois em **Sugestões de Compra**.

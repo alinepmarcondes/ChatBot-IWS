@@ -1,0 +1,11 @@
+Title: == Aplicativo
+
+Content:
+==
+
+Para obter uma cópia do aplicativo mobile, acesse no celular com Android que irá receber a notificação o **Play Store**(em algumas versões do Android mais antigas estará como **Google Play**) e procure por **IWS Notify**. Ao localizar, será mostrada uma tela como a seguir:
+
+
+
+
+Em seguida clique no botão **Instalar**.

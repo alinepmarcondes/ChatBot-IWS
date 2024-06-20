@@ -1,0 +1,8 @@
+Title: = Operações com o exterior
+
+Content:
+=
+
+Para as operações com o exterior foram feitas algumas mudanças.\\
+Foi criada um novo campo para identificar o destinatário estrangeiro. Essa identificação deverá ter no minimo 5 digitos e no máximo 20, e poderá ser o passaporte ou qualquer outro documento legal que possa identificar a pessoa estrangeira.\\
+No intellicash, ao realizar o cadastro de algum cliente ou fornecedor do exterior, o campo I.E. se chamará **Passaporte**, e será nesse campo que deverá informar o documento identificador do destinatário extrangeiro, mesmo que o documento não seja o passaporte.

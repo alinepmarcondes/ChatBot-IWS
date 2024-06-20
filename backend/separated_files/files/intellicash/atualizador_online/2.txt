@@ -1,0 +1,6 @@
+Title: = Etapa 01 - Configurações iniciais
+
+Content:
+=
+
+Ao executar //__Atualizador Online__// preencha os campos conforme demonstra a figura abaixo e depois clique em **Avançar**.

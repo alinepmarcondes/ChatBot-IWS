@@ -1,0 +1,16 @@
+Title: = Recuperar Senha
+
+Content:
+=
+
+Para recuperar a senha, o usuário deverá pressionar o link "Esqueceu a senha?" na tela de login conforme demonstra a figura abaixo.
+
+
+
+O usuário deverá informar o documento cadastrado e pressionar o botão de "Recuperar". A nova senha será encaminhada no email de cadastro do representante.
+
+
+
+Possíveis mensagens de erros:
+* Representante inválido ou inexistente!
+* Formato inválido!

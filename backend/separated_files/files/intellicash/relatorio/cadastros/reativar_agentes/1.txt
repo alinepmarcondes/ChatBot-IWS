@@ -1,0 +1,26 @@
+Title: == Reativar Agentes
+
+Content:
+==
+
+----
+
+Este relatório exibe todos os agentes desativados do sistema. Se desejar é possível reativá-los através deste relatório.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Reativar Agentes||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tela há os seguintes botões:
+
+* **Agente:** "//**Clientes**//", "//**Funcionários**//" e "//**Fornecedores**//" para realizar uma busca por estes agentes;
+* **Localizar:** para determinar emqual informação do agente localizar em "//**Nome**//", "//**Fant**//". (Fantasia) e "//**Doc**//". (Documento) e ao lado um campo de texto para digitar;
+* **Aplicar:** Para realizar a pesquisa;
+
+Abaixo mostra os resultados da pesquisa com os determinados agentes desativados e na parte inferior da tela há o botão "//**Reativar**//" para reativar os agentes selecionados, e para selecionar basta marcar o checkbox "//**Ativar**//".

@@ -1,0 +1,6 @@
+Title: Confirmar Pedido
+
+Content:
+Para confirmar o pedido, o usuário deverá pressionar o botão . 
+
+Após a confirmação, será exibida uma caixa de diálogo com o número do pedido.

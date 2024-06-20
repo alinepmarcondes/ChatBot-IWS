@@ -1,0 +1,6 @@
+Title: = Finalizar
+
+Content:
+=
+
+Antes de finalizar cada transação, verifique se a mercadoreia foi devidamente separada. Todos os itens da lista serão verificados, e caso a quantidade dos itens da lista estejam abaixo da quantidade disponível no depósito selecionado, uma mensagem informará quais itens estão com problema.

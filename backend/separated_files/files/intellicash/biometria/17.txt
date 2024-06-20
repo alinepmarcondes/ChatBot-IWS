@@ -1,0 +1,14 @@
+Title: Permissões
+
+Content:
+Para efetuar o gerenciamento das permissões, deve-se acessar:
+
+
+
+Com o intuito de permitir ao cliente ter mais controle dos cadastros no frente de caixa, foi criado no IntelliCash duas novas permissões, conforme a imagem:
+
+
+
+A permissão **Efetuar Cadastro** dá autorização para o operador efetuar cadastro de biometria no frente de caixa.
+
+A permissão **Excluir Impressão Digital** dá autorização para o operador excluir uma impressão digital no frente de caixa, no caso de cadastro novo.

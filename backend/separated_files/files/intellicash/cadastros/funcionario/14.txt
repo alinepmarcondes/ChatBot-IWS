@@ -1,0 +1,17 @@
+Title: = Histórico de Pagamentos
+
+Content:
+=
+
+Já na aba “//**Histórico de Pagamentos**//”, ficarão registrada os pagamentos realizados a determinado funcionário
+
+
+
+Clicando com o botão direito do mouse na parte superior da tela próximo da palavra salário, abrirá um novo menu para algumas alterações que possam ser feitas no pagamento como 
+
+* **Estornar esse Pagamento:** Caso o pagamento foi feito indevidamente o usuário poderá usar essa opção;
+* **Imprimir:** Imprimi um comprovante de pagamento;
+* **Editar Impresso:** Restrito ao uso do pessoal de informática;
+* **Imprimir Resumo:** Imprime um resumo do pagamento realizado;
+* **Editar Resumo:** Também restrito ao uso do pessoal de informática;
+* **Alterar Data de Pagamento:** Para alterar a data de um pagamento;

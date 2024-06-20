@@ -1,0 +1,21 @@
+Title: == Devolução Para Fornecedor
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de realizar a devolução/troca ou perda de mercadoria para um fornecedor.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu:
+
+||Gerenciamento→Estoque→Devolução para Fornecedor||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+
+Até a versão 3.1.009.0

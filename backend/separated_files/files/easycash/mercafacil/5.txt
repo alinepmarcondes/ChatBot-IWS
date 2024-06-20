@@ -1,0 +1,6 @@
+Title: Frente de Caixa
+
+Content:
+No Easycash, verificar se as configurações estão iguais a do Intellicash, se caso houver alguma divergência, realizar a alteração.
+
+Caminho: Configurações -> Aba PDV -> Aba Integração - API -> Aba Mercafacil

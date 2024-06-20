@@ -1,0 +1,10 @@
+Title: = Erro de Tipo
+
+Content:
+=
+
+É fundamental que a configuração da tabela que escolhermos seja condizente com o arquivo que estamos importando, pois caso tenhamos uma coluna de “Preço” no arquivo e na configuração a coluna correspondente for de “Descrição”, por exemplo, o preço será carregado como a descrição do produto. No sentido oposto, quando temos uma coluna com um texto no arquivo e a coluna correspondente for uma coluna numérica como o preço o seguinte erro será disparado:
+ 
+
+
+O que significa que um campo de texto tenta ser importado numa coluna de valor numérico. Para corrigir este problema é necessário que o usuário revise a ordem das colunas do arquivo e configure os índices do layout de acordo com esta ordem.

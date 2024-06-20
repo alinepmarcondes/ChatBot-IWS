@@ -1,0 +1,10 @@
+Title: == Endereçamento de Produtos
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada, para cadastrar o endereço dos produtos, ou seja, informar ao sistema onde o produto está, ou seja, em corredores, gôndolas, andares, etc..
+
+----

@@ -1,0 +1,20 @@
+Title: == Alterar Preço Por Quantidade
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada para realizar uma alteração de preço por quantidade com mais praticidade, utilizando somente o teclado. Essa interface é similar a alteração rápida de preço já existente no sistema, porem essa só irá listar os itens que contem preço por quantidade.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Alterar Preço Por Quantidade||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao digitar a descrição ou código do item no campo de busca o sistema irá listar os itens no grid e já irá dar o foco no primeiro registro, ao selecionar o item que deseja alterar e precionar o enter, as informações da parte inferior da interface são preenchidas e o foco já vai para os campos editaveis, ao alterar o campo desejado e clicar em selecionar o item é enviado para aba Itens onde ficá aguardando confirmação e é removido do grid de busca.

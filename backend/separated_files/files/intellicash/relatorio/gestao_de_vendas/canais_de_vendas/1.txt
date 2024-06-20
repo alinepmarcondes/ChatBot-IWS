@@ -1,0 +1,43 @@
+Title: == Relatório de Canais de Vendas
+
+Content:
+==
+
+----
+
+Este relatório tem a função de informar ao usuário os canais de vendas, ou seja, informar ao sistema, pelo orçamento, quem informou ao cliente sobre o estabelecimento.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatório→Gestão de Vendas→Canais de Vendas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+A aba "//**Canais**//" mostra os canais durante o intervalo de datas selecionado;
+
+
+
+A aba "//**Clientes**//" mostra os clientes durante o intervalo de datas selecionado na primeira coluna e na segunda coluna mostra os canais do cliente selecionado;
+
+
+
+A aba "//**Orçamento**//" mostra os orçamentos durante o intervalo de datas selecionado na primeira coluna e na segunda coluna mostra os itens do orçamento do canal selecionado;
+
+
+
+A aba "//**Produtos**//" mostra os cliente durante o intervalo de datas selecionado na primeira coluna e na segunda coluna mostra os produtos do canal selecionado;
+
+
+
+A aba "//**Vendedores**//" mostra os vendedores durante o intervalo de datas selecionado na primeira coluna e na segunda coluna mostra os canais de um vendedor selecionado;

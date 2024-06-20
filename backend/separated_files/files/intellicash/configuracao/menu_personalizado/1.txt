@@ -1,0 +1,16 @@
+Title: == Personalizar Menu
+
+Content:
+==
+
+----
+
+Esta tela serve para criar um menu personalizado e de rápido acesso ao usuário para mais praticidade. Nesta tela também pode se criar mais de um grupo de menu com a opção de minimizar ou maximizar com um clique em cima do nome do menu.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Locais de Acesso||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

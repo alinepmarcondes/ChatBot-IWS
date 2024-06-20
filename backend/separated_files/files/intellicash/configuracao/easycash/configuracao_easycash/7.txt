@@ -1,0 +1,5 @@
+Title: Som
+
+Content:
+***Emitir som em caso de ERRO:** Uma vez marcada esta configuração ao acontecer algum erro um som de ‘Bipe’ será emitido pelo sistema. Está sendo utilizado uma função específica da API do Windows em conjunto com uma determinada frequência para poder emitir o 'Bipe' o mais alto possível.
+***Emitir som para PRODUTOS PESÁVEIS:** Uma vez marcada essa configuração ao fazer a venda de um produto pesável sem informar a quantidade será emitido osom para alertar ao operador de que a quantidade deverá ser digitada.

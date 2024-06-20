@@ -1,0 +1,19 @@
+Title: Transportadora
+
+Content:
+Nessa tela foram criadas algumas configurações para a emissão de CT_e.
+
+* **RNTC:**Registro Nacional de Transportadores Rodoviários de Carga, é obrigatório para emissão do CT-e;
+* **Modo de Emissão do CT-e:** qual o modo de emissão do CT-e (Produção ou Homologação);
+* **Parametros Default:** são valores usados como padrão para facilitar a emissão do CT-e, porém pode ser alteradas na emissão do CT-e:
+* **Aliquota de Seguro:** porcentagem aplicada ao valor segurado para gerar o valor do SEG/CAT, que compões o CT-e;
+* Centro de Custo: é o centro de custo padrão para a emissão do titulo financeiro a receber gerado pelo CT-e;
+* **Seguradora:** campo obrigatório do CT-e, que descreve qual a seguradora da carga;
+* **Responsável Seg.:** determina quem é o responsável pelo seguro da carga;
+* **Funcionário Emissor:** nome do funcionário que irá emitir o CT-e (opcional no CT-e);
+* **Prod. Predominante:** produto predominante na carga a ser transportada;
+* **Especie:** espécie de carga (Caixas, Sacos, etc).
+***Valores Defaut:** permite estabelecer um valor padrão para cada um dos tipos de valores que fazem parte do CT-e; 
+***Tipos de Tributação:** determina quais os tipos de tributações disponíveis para emissão de CT-e.
+
+Ao clicar em "Alterar" aparecerá a seguinte interface, que permite alterar e/ou inserir dados:

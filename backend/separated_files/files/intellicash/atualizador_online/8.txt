@@ -1,0 +1,6 @@
+Title: = Etapa 07 - Configurações finais
+
+Content:
+=
+
+Após execução da atualização o sistema é preparado para ser iniciado.

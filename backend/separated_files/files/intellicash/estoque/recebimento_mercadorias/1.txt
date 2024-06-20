@@ -1,0 +1,28 @@
+Title: == Recebimento de Mercadorias
+
+Content:
+==
+
+----
+
+Ferramenta desenvolvida para auxiliar o processo de recebimento de mercadorias em conferência com o DANFE.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Recebimento de Mercadorias||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+1. Após aberto a ferramenta ela exibe uma interface que permite adicionar dados de identificação da nota.
+
+Há duas maneiras de identificar uma nota, pela chave da nota fiscal, e a outra, informando os dados da capa da nota fiscal.
+
+2. Após a identificação da nota, é a vez de inserir os itens com a quantidade, e caso necessário a validade.
+
+
+
+Ao concluir a inserção do itens, pode-se "//**Sair**//" da janela, ou "//**Concluir**//" a operação clicando em seus respectivos botões. A conclusão reinicia processo de recebimento, mas independente disso, os dados são sempre salvos em cada etapa do processo.

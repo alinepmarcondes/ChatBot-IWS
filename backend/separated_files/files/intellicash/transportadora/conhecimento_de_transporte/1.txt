@@ -1,0 +1,26 @@
+Title: == Conhecimento de Transporte
+
+Content:
+==
+
+CT-e é o Conhecimento de Transporte Eletrônico, e veio para substituir o Conhecimento de Transporte convencional. Como a NF-e, ele está sujeito a várias validações para sua transmissão, e sua transmissão será feita pelo GNF-e.
+----
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Transportadora→Conhecimento de Transporte||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+Na parte superior há uma barra de ferramentas com algumas funcionalidades:
+* **Imprimir:** ao clicar do lado esquerdo é feita a impressão, ao clicar do lado direito do botão são mostrados as opções de impressão:
+* Visualizar Impressão;
+* Exportar para PDF;
+* Configurar o layout de Impressão.
+* **Novo:** abre a interface de cadastro de um novo CT-e;
+* **Alterar:** abre a interface para alteração do CT-e. Este campo só fica habilitado se o CT-e ainda não foi confirmado. Uma vez confirmado não será permitido altera-lo, mesmo que não tenha sido transmitido;
+* **Excluir:**esse botão serve para excluir um CT-e. Este campo só fica habilitado se o CT-e ainda não foi transmitido. Caso o financeiro já tenha dado baixa, o usuário não conseguirá excluir o CT-e vinculado a ele. 
+* **Duplicar:** esse botão faz com que seja criado um CT-e idêntico ao de origem tendo apenas a numeração alterada (ainda não foi implementado);
+* **Anterior** e **Próximo:** permitem navegar entre os CT-e, por ordem de série e numeração. 
+* **Barra CT-e:** a Barra superior onde se lê o texto CTe, irá conter a identificação do CT-e e mudará de cor de acordo com a situação atual do CT-e:
+*– Transmitido.

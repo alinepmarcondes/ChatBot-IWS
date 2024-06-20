@@ -1,0 +1,6 @@
+Title: = Elementos e Propriedades
+
+Content:
+=
+
+As caixas laterais de ferramentas podem ser muito úteis, especialmente em relatórios muito robustos e com alta densidade de componentes.

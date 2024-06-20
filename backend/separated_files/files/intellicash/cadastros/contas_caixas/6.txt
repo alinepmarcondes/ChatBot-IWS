@@ -1,0 +1,6 @@
+Title: = Bancos
+
+Content:
+=
+
+A aba "//**Bancos**//" mostra um informativo sobre todos os bancos e seus códigos de acordo com a FEBRABAN. Ao clicar com o botão direito, você pode cadastrar um banco, alterar ou excluir.

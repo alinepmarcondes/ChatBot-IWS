@@ -1,0 +1,32 @@
+Title: == Exportação Alterdata
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de gerar um arquivo de exportação para o sistema Alterdata de Contabilidade.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Contabilidade→Exportação→Alterdata||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Código da Empresa:** para informar o código da empresa;
+
+
+Opções de exportação:
+
+-**Notas Fiscais**
+-**Cupons Fiscais**
+
+* **Gerar:** para gerar o arquivo de exportação;

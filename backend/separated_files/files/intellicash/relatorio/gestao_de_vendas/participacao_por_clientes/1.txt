@@ -1,0 +1,28 @@
+Title: == Relatório de Participação Por Clientes
+
+Content:
+==
+
+----
+
+Este relatório tem a função de mostrar as compras que cada cliente fez no estabelecimento e mostrar a sua participação em relação a todos os clientes.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatório→Gestão de Vendas→Relatório de Participação Por Clientes||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Filtro:** Esse filtro só será exibido se houver o cadastro de associado. Caso possua, você poderá fazer o filtro entre clientes "//**Associados**//", "//**Não Associados**//" ou "//**Todos**//";
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Nesta interface temos todas as vendas realizadas em um determinado período, na primeira coluna temos os clientes e valores relacionados a sua participação e também outros dados. Na segunda coluna temos um gráfico para melhor visualização das vendas realizadas, e na parte inferior da tela há uma legenda sobre o gráfico.

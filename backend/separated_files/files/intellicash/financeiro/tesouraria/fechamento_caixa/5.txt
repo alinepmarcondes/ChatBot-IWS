@@ -1,0 +1,18 @@
+Title: =Digitação
+
+Content:
+=
+
+----
+
+**Movimento dos PDVs**
+
+Esta ferramenta tem a função de relizar a digitação em valores do caixa.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Tesouraria→Movimento dos PDVs||
+ 
+O responsável pelo fechamento digitará apenas os totais de cada FPG que foram conferidos dos caixas. Nesta tela o usuário irá selecionar a Data do fechamento, PDV, Operador e Turno do caixa a ser digitado.

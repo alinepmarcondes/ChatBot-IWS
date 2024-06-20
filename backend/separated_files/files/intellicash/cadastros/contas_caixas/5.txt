@@ -1,0 +1,16 @@
+Title: = Movimento Gerencial
+
+Content:
+=
+
+A aba "//**Movimento Ger.**//" mostra os detalhes do movimento bancário da conta, diferente da aba "//**Movimentos**//", esta pode se agrupar os movimentos pelos grupos de tabela arrastando alguma das tabelas para a coluna acima;
+
+
+
+Na parte superior da tela existem as datas de inicio e término para pesquisar o movimento gerencial num intervalo de datas e o botão aplicar para gerar a pesquisa(fazer uma pesquisa num longo intervalo de datas pode fazer uma demora significativa na busca do sistema).
+
+Ao lado existem os seguintes botões
+
+* **Imprimir:** para imprimir o relatório geral de cheques;
+* **Lançar:** para criar um lançamento financeiro no caixa selecionado nesta interface rapidamente;
+* **Exportar:** para exportar os dados do movimento bancario para uma planilha do Excel;

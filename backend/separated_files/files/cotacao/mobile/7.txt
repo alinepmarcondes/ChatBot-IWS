@@ -1,0 +1,6 @@
+Title: = Selecionar Fornecedor
+
+Content:
+=
+
+Após efetuar o login, caso o usuário represente mais de um fornecedor, será exibida uma caixa de diálogo para que seja selecionado um fornecedor.

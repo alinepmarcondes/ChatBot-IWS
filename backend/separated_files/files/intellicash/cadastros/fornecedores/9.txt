@@ -1,0 +1,15 @@
+Title: Produtos
+
+Content:
+Nesta aba mostram todos os produtos fornecidos pelo fornecedor. Nele mostram os códigos utilizadados pelo fornecedor.
+
+
+
+Na primeira parte da tela, mostram os fabricantes deste fornecedor, e ao selecionar um fabricante, será mostrados todos os produtos do fabricante.
+
+Ao clicar com o botão direito do mouse sobre um determinado produto, aparecerá algumas opções:
+
+
+
+* **Alterar código do Fornecedor/Fabricante:** Para alterar o código utilizado pelo fornecedor;
+* **Excluir este código:** Para excluir o código utilizado pelo fornecedor;

@@ -1,0 +1,6 @@
+Title: = Confirmar Orçamento
+
+Content:
+=
+
+Para confirmar um orçamento, o usuário deverá pressionar o botãolocalizado no canto inferior direito da tela de orçamento.

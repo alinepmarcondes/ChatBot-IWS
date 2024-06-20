@@ -1,0 +1,31 @@
+Title: == Notas Digitadas
+
+Content:
+==
+
+----
+
+Relatório que mostra a quantidade denotas fiscais que foram lançadas no sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Logística→Notas Digitadas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+
+Após realizada a pesquisa mostrará abaixo todas as notas digitadas separadas por usuário e os seus dados e à direita mostrará os dados gráficos do relatório.
+
+Ao dar um duplo clique em algum usuário aparecerá os detalhes da notas digitadas por mês:
+
+
+
+Ao dar um duplo clique em algum usuário aparecerá os detalhes da notas digitadas por dia e por hora, respectivamente:

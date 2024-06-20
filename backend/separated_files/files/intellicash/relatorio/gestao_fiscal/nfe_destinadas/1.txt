@@ -1,0 +1,39 @@
+Title: == Relatório de Notas Fiscais Eletrônicas Destinadas
+
+Content:
+==
+
+----
+
+Esse relatório é usado para consultar as Notas Fiscais emitidas contra o CNPJ da empresa, e tomar ações relacionadas a esses documentos. 
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão fiscal→NF-e Destinadas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Para alimentar esse relatório, é preciso do certificado digital, e a empresa pode fazer de duas maneiras.
+- Pode instalar o programa **NfeDestinadas**, que automaticamente consulta o servidor nacional das NF-e e alimenta o **IntelliCash**; ou
+- Pode clicar no botão **Notas Fiscais Destinadas** para fazer a consulta ao servidor nacional da NF-e.
+
+
+
+Ciente das informações acima, o usuário pode utilizar as funcionalidades encontradas ao clicar com o botão direito do mouse sobre um documento. 
+As funcionalidades são:
+* **”Verificar Devoluções”** : usado para identificar se há outra nota fiscal emitida pelo mesmo fornecedor revertendo a operação;
+* **”Copiar Chave”**: Copia a chave da NF-e e pergunta ao usuário se deseja ir para o site de consulta da NF-e;
+* **”Manifestação do usuário”**: permite o usuário se manifestar em relação a operação acobertado por um documento fiscal;
+* **”Download XML”**: permite fazer o download do XML da NF-e (para isso é preciso que o documento tenha tido alguma manifestação);
+* **”Importar NF-e”**: realiza a importação da NF-e pelo XML (mesmo processo feito pela interface de entrada de Nota Fiscal).
+
+
+
+Na aba Devoluções são exibidas as notas fiscais que o usuário identificou como **devolução**, que pode ter sido feito pela função **Verificar Devoluções**. 
+Nessa aba o usuário pode localizar as Notas Fiscais de devolução pela data de emissão ou pela data que foi verificado no **IntelliCash** a sua devolução.\\
+
+Outra funcionalidade muito interessante é o botão **Similares**, que exibe todas as notas de saída que não foram registradas no sistema, e ao selecionar a NF, exibe ao lado as notas fiscais de entrada do mesmo fornecedor que tenha o mesmo valor. Ao clicar em confirmar será associado as duas notas como sendo uma a devolução da outra.

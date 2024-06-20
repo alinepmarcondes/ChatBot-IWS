@@ -1,0 +1,4 @@
+Title: Excluir
+
+Content:
+Para excluir uma mesa o usuário deverá clicar no botãoda mesa em específico. Será aberta uma mensagem de alerta para confirmar a ação. Clique no botão **Ok** para confirmar ou no botão **Cancelar**, conforme demonstra a figura abaixo.

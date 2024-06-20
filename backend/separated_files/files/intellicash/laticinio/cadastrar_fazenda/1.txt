@@ -1,0 +1,18 @@
+Title: == Cadastro de Fazendas
+
+Content:
+==
+
+----
+
+Fazenda é a denominação dada para a relação entre um Agente cadastrado como Cliente ou Fornecedor e um ou vários endereços nos quais possuem Inscrições Estaduais próprias.
+
+O controle de coleta de leite é feito então por estas propriedades, denominadas fazenda, entretanto o controle fiscal dos lançamentos de contas a pagar e contas a receber serão geridos pelo cadastro do cliente.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Laticínio→Cadastro de Fazendas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

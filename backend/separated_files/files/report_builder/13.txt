@@ -1,0 +1,4 @@
+Title: Report Tree
+
+Content:
+A primeira das caixas exibe todos os elementos presentes no relatório. A disposição em árvore facilita encontrar um elmento dependendo de onde ele se encontra. As divisões da árvore representam os componentes do relatório com os objetos aparecendo um nível abaixo.

@@ -1,0 +1,20 @@
+Title: == Turnos do Caixa
+
+Content:
+==
+
+----
+
+Turnos do caixa é uma ferramenta para clientes que desejam controlar sua movimentação financeira pelo IntelliCash. Tem a função de controlar os valores, abrir e fechar turno, remanejar e ver os recebimentos.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Vendas→Turnos do Caixa||
+ 
+Esta tela também tem um atalho na parte inferior do sistema IntelliCash com o status do turno do caixa:
+
+
+
+Ao clicar nesta opção aparecerá a seguinte interface:

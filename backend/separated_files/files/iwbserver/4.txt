@@ -1,0 +1,12 @@
+Title: = Configuração do Notify
+
+Content:
+=
+
+Para o Notify, temos a seguinte aba para configuração:
+
+
+
+Nesta tela, devemos informar o IP do servidor (De onde está instalado o servidor IWB) e clicar no botão **Salvar** e depois no botão **Renovar Licença**.
+
+Podemos também configurar diretamente através do arquivo INI:

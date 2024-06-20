@@ -1,0 +1,20 @@
+Title: SPC
+
+Content:
+A aba "//**SPC**//" é uma aba para informar a situação do cliente junto ao SPC.
+
+
+
+Nesta tela há os seguintes botões:
+* **Inserir:** para inserir algum registro do cliente no SPC.
+
+Nesta tela há os seguintes botões:
+- **Data:** para informar a data que foi realizada a consulta no SPC;
+- **Nº Protocolo:** para informar o número do protocolo da pesquisa no SPC;
+- **Registrado:** para informar se o cliente está atualmente ou não registrado no SPC;
+- **Status:** para informar brevemente a descrição do status do cliente, uma observação do motivo do cliente estar registrado no SPC;
+- **Empresa:** para informar qual empresa o cliente teve nome sujo no SPC.
+
+* **Alterar:** para alterar os dados de um registro do SPC do cliente;
+* **Excluir:** para excluir os dados de um registro do SPC do cliente;
+* **Imprimir:** para imprimir os dados do SPC do cliente;

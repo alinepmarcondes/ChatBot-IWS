@@ -1,0 +1,16 @@
+Title: Descontos a Lançar
+
+Content:
+O clique com o botão direito do mouse sobre a fazenda exibe um menu de opções que permite gerenciar a seleção de fehcamentos, exibir a tela de descontos ou exibir/ocultar a lista de descontos lançados na parte inferior da tela.
+
+
+
+A opção Descontos exibe a seguinte janela:
+
+
+
+- **Favorecido:**Nome do favorecido.
+- **Concluir:** Finaliza o processo de edição dos lançamentos.
+- **Lançam.:** Botão que exibe a janela de "//**Cadastro de contas a receber**//" para edição de lançamentos.
+- **Descontos Pendentes:** Relação de lançamentos da conta do Cliente.
+- **Descontois Para Abatimento:** Relação de lançamentos que serão abatidos no fechamento.

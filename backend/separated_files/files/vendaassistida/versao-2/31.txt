@@ -1,0 +1,6 @@
+Title: = Enviar Orçamento
+
+Content:
+=
+
+Para enviar um orçamento, o usuário deverá acessar o menu localizado no canto superior direitoe pressionar o item "Enviar orçamento".

@@ -1,0 +1,16 @@
+Title: Dados
+
+Content:
+A aba dados mostra os dados do cadastro do cliente na parte superior da tela e logo abaixo mostram também algumas informações adicionais importantes, como observações:
+
+
+
+Nesta parte contém alguns botões:
+
+*Para ir à primeira observação;
+*Para voltar uma observação;
+*Para seguir uma observação;
+*Para ir a ultima observação;
+*Para adicionar uma observação entre duas anotações já feitas;
+*Para adicionar uma observação;
+*Para excluir uma observação;

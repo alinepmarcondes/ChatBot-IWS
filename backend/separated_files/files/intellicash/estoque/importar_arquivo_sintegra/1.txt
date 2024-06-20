@@ -1,0 +1,22 @@
+Title: == Importar Arquivo Sintegra
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de importar o aquivo sintegra gerado pelas impressoras fiscais, para clientes que não usam o sistema de frente de caixa EasyCash a fim de gerar as obrigações fiscais.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Importar Arquivo Sintegra||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Para fazer a importação basta selecionar o arquivo sintegra e após isso clicar no botão "//**Importar**//" para realizar a importação. 
+
+Logo abaixo mostra o log da importação na aba "//**Log**//" e na aba "//**Erros**//" mostra o log de possíveis erros na importação

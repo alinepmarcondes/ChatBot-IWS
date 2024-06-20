@@ -1,0 +1,25 @@
+Title: Código 305
+
+Content:
+Mensagem de erro: //Falha ao registrar a versao **NÚMERO DA VERSAO** no Banco de Dados, confira o arquivo log_IWS_UPDATER e entre em contato com o Suporte!//
+
+Procedimentos realizados:
+* Download dos Arquivos;
+* Extraídos os arquivos baixados;
+* Alterado o modo do Banco de Dados para o modo //**ShutDown**//;
+* Realizada a cópia de segurança do Banco de Dados;
+* Alterado o modo do Banco de Dados para o modo //**Online**//;
+* Alterado o modo do Banco de Dados para o modo //**ShutDown**//;
+* Realizado a atualização da versão informada no erro;
+
+Erro nos procedimentos: 
+* Inserir o número da versão que foi atualizada no Banco de Dados.
+
+Soluções possíveis: 
+* Verifique o arquivo de log do atualizador (log_IWS_UPDATER) para saber qual foi o erro retornado na DLL de atualização. 
+
+Realize estes procedimentos a seguir:
+* Finalize o programa de atualização;
+* Faça possíveis soluções;
+* Verifique quais procedimentos de atualização estavam marcados para serem excutados. Através das versões informadas na [[manuais:intellicash:atualizador_online#etapa_02_-_preparo_para_atualizacao|Etapa 02]] (versão atual e última versão) é possivel ver os procedimentos de atualização no //**Intelliweb**//.
+* Como houve uma falha na restauração da versão atual, os procedimentos de atualização deverão ser feitos manualmente.

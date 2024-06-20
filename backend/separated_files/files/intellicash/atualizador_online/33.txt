@@ -1,0 +1,21 @@
+Title: Código 302
+
+Content:
+Mensagem de erro: //Cancelada a atualização!//
+
+Procedimentos realizados:
+* Download dos Arquivos;
+* Extraídos os arquivos baixados;
+* Alterado o modo do Banco de Dados para o modo //**ShutDown**//;
+
+Erro no procedimento: 
+* Cópia de segurança do Banco de Dados.
+
+Soluções possíveis: 
+* Verifique se o usuário do //**Windows**// possui permissões necessárias para executar o //**Atualizador Online**//.
+
+Realize estes procedimentos a seguir:
+* Encerre o programa de atualização;
+* Se algum código de erro foi apresentado anteriormente, faça as possíveis soluções dos códigos de erros apresentados.
+* Faça possíveis soluções;
+* Tente executar o //**Atualizador Online**// novamente.

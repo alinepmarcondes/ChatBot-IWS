@@ -1,0 +1,47 @@
+Title: == Formas de Recebimento EasyCash
+
+Content:
+==
+
+----
+
+Tem o objetivo de cadastrar as formas de recebimento no IntelliCash e ser exportada para frete de caixa “EasyCash” (especifico para esse produto).
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→EasyCash→Formas de Recebimento EasyCash||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Para efetuar o cadastramento da forma de recebimento, basta clicar no botão "//**Novo**//" no quadrante superior.
+
+Efetuado esse procedimento o sistema abrirá uma nova tela para ser preenchida com os dados necessários e pertinentes a essa forma de recebimento.
+No exemplo abaixo temos uma demonstração de como e feito o cadastro. Primeiramente o usuário deverá escolher a “Forma de Recebimento” e os fatores que são pertinentes a essa formas, conforme a figura 3. 
+
+
+
+Note que na mesma tela a configuração de cheques está desabilitada, pois está opção será habilitada quando o mesmo estiver na Forma de Recebimento. Sendo assim o usuário poderá preencher os campos da aba "//**Configurações de Cheques**//".
+
+
+
+Efetuado o cadastro o sistema já puxará do banco de dados todos os PDV cadastrado na retaguarda, deixando assim os PDV vinculados aquele recebimento. 
+
+
+
+O usuário poderá alterar, excluir ou excluir todas clicando com o botão direito do mouse, criar um novo caso seja necessário por motivo de algum tipo de mudança na forma de recebimento.
+
+
+
+Após clicar nos botões "//**Novo**//"" e "//**Alterar**//" ao sistema apresentará uma nova tela aonde o usuário digitará qual é o pai daquela forma de recebimento. Ex.: sempre será a centena correspondente a forma de recebimento (1 dinheiro, centena correspondente 100). 
+
+
+
+Escolhendo o Pai da conta o sistema mostrará os possíveis PDVs para ser alterado ou novo, se estiverem excluído todos os PDVs o usuário poderá fazer todos selecionando a opção "//**Selecionar todos PDVs**//".
+
+
+
+há também o botão chamado "//**Exportar TEF AUTO**//". Este tem a função de exportar os dados das tabelas EC_TEF_ASSOCIADOS, EC_TEF_AUTORIZADORAS e EC_TEF_BANDEIRA para o frente de caixa.

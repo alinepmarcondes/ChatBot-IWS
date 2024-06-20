@@ -1,0 +1,8 @@
+Title: Código 103
+
+Content:
+Mensagem de erro: //Enterprise não configurado! Verifique se o enterprise está na inicialização do sistema operacional.//
+
+Soluções possíveis:
+* Verifique se o //**Enterprise**// está com seu atalho na pasta de inicialização do //**Sistema operacional**//. O nome do atalho dever ser //**Enterprise**// ou //** EnterpriseServer**//.
+* Se o //**Enterprise**// estiver configurado na inicialização do //**Sistema operacional**// e mesmo assim continua sendo exibido a mensagem. Reinicie o //**Sistema operacional**// para que o //**Enterprise**// possa ser executado.

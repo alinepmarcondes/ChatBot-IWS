@@ -1,0 +1,15 @@
+Title: = Lançamentos
+
+Content:
+=
+
+Nesta tela há os seguintes campos:
+
+* **Convênio:** Para informar qual convênio irá gerar os lançamentos;
+* **Data da Fatura:** Para informar qual será a data da fatura do convênio;
+* **Nº Documento:** Para informar o número do convênio da empresa;
+* **Descrição:** Para informar a descrição do convênio;
+* **Nº Parcelas:** Para informar o número de parcelas que o convênio será lançado (o sistema repetirá os valores nos meses subsequentes);
+* **Confirmar:** Para confirmar os lançamentos;
+
+Para gerar os lançamentos basta inserir os valores no campo "//**Valor**//" e após inserido os valores basta clicar no botão "//**Confirmar**//", para confirmar a operação e ao clicar neste botão aparecerá a seguinte interface para confirmar os dados:

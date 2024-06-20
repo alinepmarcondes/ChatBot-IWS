@@ -1,0 +1,26 @@
+Title: Código 612
+
+Content:
+Mensagem de erro: //Falha ao excluir arquivos! Diretório inválido, entre em contato com o Suporte!//
+
+Procedimentos realizados:
+* Download dos Arquivos;
+* Extraídos os arquivos baixados;
+* Alterado o modo do Banco de Dados para o modo //**ShutDown**//;
+* Realizada a cópia de segurança do Banco de Dados;
+* Alterado o modo do Banco de Dados para o modo //**Online**//;
+* Alterado o modo do Banco de Dados para o modo //**ShutDown**//;
+
+Erro no procedimento: 
+* Procedimentos de atualização - Excluir arquivos;
+
+Soluções possíveis: 
+* Verifique se o usuário do //**Windows**// possui permissões necessárias para executar o //**Atualizador Online**//;
+
+Realize estes procedimentos a seguir:
+* Clique no botão //**Ok**// da mensagem de erro //**Código 612**//;
+* Aguarde o procedimentos de restauração serem concluídos.
+* Se houver algum erro nos procedimentos de restauração siga as intruções do código apresentado.
+* Encerre o programa de atualização;
+* Faça possíveis soluções;
+* Tente executar o //**Atualizador Online**// novamente.

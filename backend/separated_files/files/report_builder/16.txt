@@ -1,0 +1,12 @@
+Title: = Fontes de Dados
+
+Content:
+=
+
+Nos quadros das direita é possível observar as fontes de dados para o relatório.
+
+
+
+A maior parte dos dados são enviados ao editor do Report Builder pelo executável, sendo definido no projeto do programa, dessa forma, se uma informação não existir nos Data Sets e também não forem possíveis de calcular, a correção deverá vir acompanhada de um novo executável do programa.
+
+No quadro **Data Tree** estão os Data Sets e abaixo no quadro **Fields for ** são exibidos os campos de cada Data Set.

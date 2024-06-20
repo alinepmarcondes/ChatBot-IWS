@@ -1,0 +1,8 @@
+Title: Excluir Fornecedor
+
+Content:
+Para excluir, o representante deverá clicar sobre o botão "Excluir" do fornecedor desejado.
+
+
+
+Será solicitado a confirmação, para concluir o representante deverá clicar sobre o botão "OK".

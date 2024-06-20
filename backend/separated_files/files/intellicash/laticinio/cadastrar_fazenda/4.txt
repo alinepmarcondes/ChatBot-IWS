@@ -1,0 +1,14 @@
+Title: Novo/Alterar
+
+Content:
+Nesta tela há os seguintes campos para cadastrar uma fazenda:
+
+* **Nome:** Campo para inserção ou edição do nome da Fazenda selecionada;
+* **Editar:** Permite selecionar ou trocar o Produtor selecionando atravéz de uma janela de seleção de agentes.
+
+Nesta tela basta localizar o cliente ou fornecedor digitando no campo na parte superior da tela e após isso basta confirmar e os dados do agente serão carregados no formulário de cadastro.
+* **Trocar:** Aparece habilitado quando há mais de um endereço cadastrado para o Agente escolhido. Neste caso a Janela de Endereços é exibida com a relação destes, possibilitando a escolha.
+
+* **Editar:** Abre a janela de Cadastro de Endereço onde é possível fazer as devidas alterações.
+
+* **Cancelar** e **Salvar:** finalizam o processo de cadastro de acordo com a função sugerida por cada botão.

@@ -1,0 +1,16 @@
+Title: == Cadastrar Operadores de Caixa
+
+Content:
+==
+
+----
+
+Esta ferramenta tem como objetivo configurar as permissões e quais funcionários são operadores de caixa para o Easycash.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Operadores de Caixa||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

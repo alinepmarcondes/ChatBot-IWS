@@ -1,0 +1,5 @@
+Title: = Regra do melhor desconto:
+
+Content:
+=
+Quando mais de uma promoção incide no mesmo item, o sistema aplica algumas regras para conceder vantagens ao cliente e para que não se incida mais de um tipo de desconto no mesmo item, gerando problemas ao estabelecimento. Mais detalhes [[https://wiki.intelliware.com.br/doku.php?id=easycash:manual_de_instrucao&s[]=pre%C3%A7o&s[]=diferenciado&s[]=cliente#regra_do_melhor_desconto|aqui]].

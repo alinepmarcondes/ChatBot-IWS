@@ -1,0 +1,11 @@
+Title: = Dependências
+
+Content:
+=
+
+Esta funcionalidade foi testada em ambiente de homologação utilizando a seguinte versão das DLL providas pela Software Express:
+
+* **CliSiTef32I.dll** (7.0.116.5)
+* **libemv.dll** (6.1.2.38)
+* **QREncode32.dll** (06/03/2020)
+* **RechargeRPC.dll** (26/06/2008)

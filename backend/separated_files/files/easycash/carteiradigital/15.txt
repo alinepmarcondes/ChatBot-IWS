@@ -1,0 +1,4 @@
+Title: Cadastro IWS
+
+Content:
+O segundo procedimento a ser realizado é acessar a plataforma [[http://picpay.iws.com.br/#/signin|PicPay IWS]] e cadastrar o cliente como Usuário e posteriormente como Vendedor fornecendo as informações da API. Apartir desta informação iremos gerar o **Token de Acesso** para ser utilizado no EasyCash.

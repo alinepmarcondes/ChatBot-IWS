@@ -1,0 +1,25 @@
+Title: Configurar Objetos
+
+Content:
+----
+
+Esta ferramenta tem a função de listar os cadastros da objetos que na filial representa um cadastro diferente da Matriz, pois ao sincronizar irá ficar igual ao da matriz. 
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Configurar Objetos||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+
+Ainda nessa interface você pode visualizar três botões: \\
+* **Recarregar**: recarrega todos os dados. Caso já tenha sido feita alguma alteração e não tenha clicado em corrigir, a mesma será perdida. \\
+* **Corrigir**: irá pegar todas as alterações feitas e fazer as correções no banco da filial. Após a correção o sistema irá recarregar os dados novamente para que possa ser verificado se não esqueceu algum registro para alterar. \\
+* **Sair**: fecha a tela de configuração do objeto. \\
+Uma vez feito às correções dos objetos, já pode iniciar a importação de cadastrado na filial, que pode ser de forma manual ou utilizando o sincronizador
+
+Mais em [[manuais:intellicash:ferramentas:config_objetos|Configurar Objetos]].

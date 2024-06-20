@@ -1,0 +1,6 @@
+Title: = Importar produtos próprios
+
+Content:
+=
+
+O arquivo a ser importado deverá ser no formato XML e deverá conter a seguinte estrutura:

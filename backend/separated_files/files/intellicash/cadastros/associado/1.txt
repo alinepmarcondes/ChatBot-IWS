@@ -1,0 +1,16 @@
+Title: == Cadastrar Associados
+
+Content:
+==
+
+----
+
+Esta tela tem a função de cadastrar os associados no sistema, e verificar suas compras, pedidos, NFs, etc.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Associados||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

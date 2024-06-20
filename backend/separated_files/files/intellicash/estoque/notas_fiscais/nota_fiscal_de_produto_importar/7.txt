@@ -1,0 +1,11 @@
+Title: = Importar XML
+
+Content:
+=
+
+Ao escolher a opção **Importar XML** será exibido uma interface para buscar o arquivo XML. Escolha a pasta onde os arquivos enviados pelo fornecedor serão armazenados. Por exemplo (“C:\XML”).\\
+
+
+
+Para facilitar a localização da NF-e serão informados Razão social, CNPJ, Serie, Numero e Chave
+da NF-e.\\

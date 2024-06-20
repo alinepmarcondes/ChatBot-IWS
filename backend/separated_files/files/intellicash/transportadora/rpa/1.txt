@@ -1,0 +1,13 @@
+Title: == RPA
+
+Content:
+==
+O Recibo de Pagamento de Autônomo (RPA) é um documento que deverá ser emitido pelo contratante (tomador do serviço / transportadora contratante), quando estiver contratando os serviços de uma pessoa física, (quando não houver vínculo empregatício regido pela CLT – Consolidação das Leis do Trabalho) com o objetivo de formalizar os pagamentos feitos ao contratado (prestador de serviços / motorista autônomo). No setor de transporte de cargas, o RPA também poderá ser chamado de “Recibo de Frete” ou RPCI (Recibo de Pagamento a Contribuinte Individual do INSS).
+
+Sobre o RPA deverão incidir impostos que podem variar de acordo com a legislação vigente e por isso é preciso estar sempre amparado de um contador para assessorar a empresa.
+
+Alguns dos impostos que normalmente incidem sobre o RPA são:
+* IRRF- Baseado em legislação federal, é o valor do imposto de renda que deverá ser retido (descontado do valor a pagar ao motorista), este tributo incidirá sobre o somatório de todos os fretes pagos ao terceiro dentro do mesmo mês, sendo a base de cálculo de 10% sobre o valor do frete carreteiro.
+* SEST/SENAT - Regido por legislação federal, este valor deverá ser retido quando a prestação de serviços de transporte for realizada por TAC (Transportador Autônomo de Carga), sendo a base de cálculo de 20% sobre o valor do frete a ser pago ao terceiro. Alíquota do SEST é 1,5% e do SENAT é 1%.
+* INSS - Instituído por legislação federal, no caso do transporte de cargas, esse tributo terá a base de cálculo de 20% sobre o valor do frete carreteiro (motorista), sobre a qual deverá ser feita a retenção (desconto) de 11%, para posterior recolhimento (pagamento ao fisco). Cabe salientar que o desconto não pode ultrapassar o teto mensal estabelecido pela legislação, conforme cita a Lei nº 10.666/2003.
+* ISS - O ISS é regido pela legislação municipal e sendo assim, cada município tem suas alíquotas (geralmente variam de 2% a 5%) e as suas regras, e a incidência do mesmo, quando ocorre, costuma se dar quando a prestação de serviços de transporte inicia (local da coleta) e termina (local da entrega) dentro do mesmo município. Sendo assim, é importante consultar o seu contador para que o mesmo lhe apresente as regras baseadas na legislação do seu município.

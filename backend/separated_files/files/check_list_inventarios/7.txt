@@ -1,0 +1,6 @@
+Title: 6)	Checagem da contagem
+
+Content:
+Primeiramente deverá retirar os papeis de todos os itens, e fazer a conferencia se não está faltando nenhum papel (pela numeração), e se todos estão rubricados pelo responsável pela coleta.
+Após essa verificação, é importante realizar a conferência da contagem. Para isso, recomendamos que sejam listados os itens com maiores diferenças e solicitado que outro conferente faça a recontagem para verificar se confere com a contagem anterior, em caso de diferença, refazer uma terceira vez a contagem com um terceiro conferente.
+Caso não seja possível fazer essa conferência antes de reabrir a empresa, deve-se agendar um segundo inventário após um período pequeno (1 ou 2 semanas), apenas para os itens de maior diferença. A partir dessa conferência, sabe-se se o inventário foi bem feito ou se deverá descartar o inventário realizado.

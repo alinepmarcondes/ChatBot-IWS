@@ -1,0 +1,12 @@
+Title: == Intercâmbio Bancário
+
+Content:
+==
+
+----
+
+Esta ferramenta permite a emissão de boletos bem como o envio de remessa e recebimento de retorno de acordo com a configuração do layout de cada banco.
+
+Obs.:A configuração do layout é realizado por esta tela. Lembrando que antes da configuração é necessario acertar os valores com os respectivos bancos.
+
+----

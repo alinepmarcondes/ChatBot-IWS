@@ -1,0 +1,45 @@
+Title: == Relatório de Pedidos
+
+Content:
+==
+
+----
+
+Este relatório permite ao usuário filtrar os pedidos de diversas formas, alem de permitir salvar os filtros para buscas futuras.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatório→Gestão de Compras→Pedidos||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+Nessa tela o usuário pode selecionar vários filtros para gerar o relatório como:
+* **Pedido:** informa o número do pedido que deseja filtar, pode ser informado mais de um, basta colocar um ponto e virgula (;) entre um número e outro.
+* **De:** informa a data inicial que deseja filtrar.
+* **Até:** informa a data final que deseja filtrar.
+* **Filial:** informa a empresa do pedido.
+* **Fornecedor:** informa o fornecedor do pedido. Pode ser inserido mais de um filtro.
+* **Comprador:** informa o comprador do pedido. Pode ser inserido mais de um filtro.
+* **Cond. Pagamento:** informa a forma de pagamento do pedido. Pode ser inserido mais de um filtro.
+* **Centro de Custo:** informa o centro de custo do pedido. Pode ser inserido mais de um filtro.
+* **Classificação:** informa se o fornecedor do pedido é de cotação, não cotação ou todos.
+* **Usuário:** informa o usuário que fez o pedido. Pode ser inserido mais de um filtro.
+* **Tipo Data:** informa o tipo de data que deseja usar. Caso tenha sido informado no campo //"De"//, //"Até"//
+* **Status:** informa o status dos pedidos que deseja filtrar. **Aberto** são os pedidos que ainda estão sendo feitos, **Impresso** são os pedidos que já foram feitos porem ainda não chegou nota fiscal e **Faturado** são os pedidos que já chegaram nota fiscal.
+* **Atendimento:** filtra os status que o pedido se encontra (se chegou completo, se chegou com mercadoria faltando ou passando, etc). Essa opção só funciona para quem usa o recebimento.
+* **Unidade:** informa o tipo de pedido a ser exibido.
+* **Ordenação:** informa o campo que será usado para ordenação, número do pedido ou data.
+* **Tipo Ordenação:** informa se o campo selecionado na "ordenação" será crescente ou decrescente.
+* **Exibir Pedidos:** informa se irá exibir pedidos de bonificação, não bonificação ou todos.
+Ao configurar os filtros é possivel salvar para que seja usado outras vezes, para isso basta clicar no botão **Gravar Novo**, o sistema irá pedir uma descrição para identificar o filtro e apartir dai ele já ficar disponivel no campo "**Tipo de Relatório**". \\ Caso o usuário selecione um filtro e faça alterações nele é possivel salvar essas alterações, clicando no botão "**Gravar Alterações**". \\ \\
+
+Para gerar o relatório com filtro selecionado basta clicar no botão "**Filtrar**", será exibida a interface abaixo com resultado dos filtros.
+
+Aqui o usuário pode imprimir o resultado de duas formas:
+* **Completo:** imprime o cabeçalho do pedidos e os itens.
+* **Resumido:** imprime apenas o cabeçalho dos pedidos.
+\\
+O usuário pode aplicar um filtro sem salvar, porem ao clicar em "Filtrar" se não tiver nenhum filtro no selecionado no campo "Tipo de Relatório" será pedido uma descrição para que a mesma seja exibida na tela de resultado como o filtro utilizado. \\

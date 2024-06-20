@@ -1,0 +1,7 @@
+Title: Exportação
+
+Content:
+Nessa aba é possivel enviar as classificaçãos dos produtos (seção, grupo, sub -grupo), marca e os produtos para o e-commerce.
+
+
+Para enviar os itens basta selecionar e clicar no botão "Enviar".

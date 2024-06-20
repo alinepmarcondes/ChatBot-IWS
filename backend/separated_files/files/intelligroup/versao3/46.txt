@@ -1,0 +1,6 @@
+Title: = Menu - Associado
+
+Content:
+=
+
+Para acessar o menu **Associado** clique sobre as informações do usuário, conforme demonstra a figura abaixo.

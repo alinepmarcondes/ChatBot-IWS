@@ -1,0 +1,14 @@
+Title: Adição de Clientes no Convênio sem Planilha
+
+Content:
+Também é possível que o usuário use um convênio tipo cliente sem o uso de uma planilha.
+
+Para que o ocorra o cadastro de um cliente dentro do convênio basta ir na aba **Clientes do Convênio**, localiza-lo no campo cliente e depois clicar no botão **Inserir**.
+
+
+
+Quando for necessário fazer a renovação do período do convênio basta clicar com o botão direito do mouse em cima do botão **Importar** e selecionar a opção **Renovar Convênio...**. Será solicitada a data de liberação para a renovação.
+
+
+
+Se a data informada for superior a mais de 60 dias da ultima data de liberação do convênio o sistema irá sugerir a renovação até o período informado. Clicando em sim serão feitas renovações automáticas da última data de liberação até o período informado.

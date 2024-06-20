@@ -1,0 +1,28 @@
+Title: = Resultado
+
+Content:
+=
+
+Na aba "//**Resultado**//" será listado os fornecedores e seus valores cotados, classificando o ganhador. Nesta interface os resultados podem ser listados de duas formas, por Fornecedor ou por Item, para isso basta escolher na parte inferior como deseja listar.
+
+Ao listar pela aba Fornecedores no Grid de cima será listados os fornecedores e ao selecionar um registro será exibido no grid de baixo os itens cotou o menor preço. Caso queira atribuir um item para outro fornecedor basta selecionar o item e clicar com botão direito sobre ele, aparecera uma interface com os fornecedores que cotarão o item para que seja escolhido, após escolher será pedida uma Justificativa para a troca de fornecedor (é obrigatório colocar uma justificativa se não o sistema irá ignorar a operação).
+
+
+
+Nesta tela há os seguintes botões:
+
+* **Imprimir:** Imprime os a relação dos dados listados na interface.
+* **Gerar Pedido:** Gera os pedidos para cada fornecedor. Se a opção "//Exibir Perdido//" estiver marcada o pedido será exibido após gerado.
+* **Erros de Lançamentos:** Ao gerar uma cotação de compras o sistema disponibiliza um relatório que possibilita identificar possíveis erros de lançamentos nos valores. Quando clicado no botão erros de lançamentos os sistema exibira uma interface com o relatório.
+
+
+
+Essa Interface conta com um filtro para fazer a comparação, que pode ser feita se baseando no ultimo custo do produto ou no segundo colocado na cotação (segundo menor custo cotado do produto), e também tem a porcentagem (%) que será aplicada para identificar os possíveis erros nos lançamentos. \\
+
+No grid superior da interface serão exibidos os dados referentes ao produto como 
+"//**código de barras**//", "//**Descrição**//", "//**Ultimo Custo**//", "//**Custo Vencedor**//", "//**Segundo Colocado**//" (Segundo Custo Colocado) e a "//**Diferença**//". O campo Diferença será a diferença aplicada sobre os custos comparado, essa pode ser feita de duas forma:
+- Se o filtro __**Ultimo Custo**__ estiver marcado , a diferença será o calculo da porcentagem informada sobre o ultimo custo, se esse valor for menor que a diferença entre o __**ultimo custo - custo vencedor**__ o sistema exibira a diferença entre o ultimo custo e o custo vencedor.
+- Se o filtro __**Segundo Colocado**__ estiver marcado, a diferença será o calculo da porcentagem informada sobre o custo vencedor, se esse valor for menor que a diferença entre o __**custo vencedor - segundo colocado**__ o sistema exibira a diferença entre o custo vencedor e o segundo colocado.\\
+Repare que na interface acima o registro que está selecionado o custo vencedor está maior que o segundo colocado e que no grid de baixo o fornecedor Pastifício Santa Amália está com a opção __**Forçado**__ marcado, isso se da por que foi forçado a cotação desse item para ele, ou seja o vencedor foi o fornecedor que teve o menor custo mais foi forçado a cotação para outro fornecedor. \\ \\ Para forçar um item para outro fornecedor basta clicar sobre o registro do item com botão direito do mouse, será exibida uma interface para escolher dentre os fornecedores que cotaram o produto, ao escolher um fornecedor o sistema irá abrir uma janela para que seja informado uma descrição (motivo) pelo qual está trocando o fornecedor vencedor. Se não for informada nem uma descrição a troca não será feita. \\
+
+* **Pedidos Gerados:** Ao clicar neste botão será listados os pedidos gerados a partir da cotação.

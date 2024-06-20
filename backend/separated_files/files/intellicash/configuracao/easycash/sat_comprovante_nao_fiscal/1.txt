@@ -1,0 +1,24 @@
+Title: == Configuração de Compromvante Não Fiscal - SAT
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de criar uma configuração para impressões de comprovantes não fiscais no SAT.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→EasyCash→SAT→Comprovante Não Fiscal||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela mostra todos os comprovantes não fiscais cadastrados e para adicionar mais algum basta clicar no botão "//**Adicionar**//" e aparecerá a seguinte interface:
+
+
+
+Nesta tela basta informar a descrição do comprovante não fiscal e após isso confirmar. Será inserido como próximo numero disponível do índice e com sistema código 0.

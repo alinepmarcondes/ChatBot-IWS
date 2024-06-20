@@ -1,0 +1,4 @@
+Title: Editar
+
+Content:
+Para editar uma NF de parceiro, o usuário deverá informar um período na caixa de diálogo de busca.

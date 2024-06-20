@@ -1,0 +1,6 @@
+Title: = Novo Pedido
+
+Content:
+=
+
+Para criar um novo pedido, o usuário deverá pressionar o menu "Novo Pedido" localizado no canto superior direito.

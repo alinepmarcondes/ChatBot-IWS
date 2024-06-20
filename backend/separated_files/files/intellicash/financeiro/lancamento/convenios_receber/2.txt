@@ -1,0 +1,18 @@
+Title: = Lançamentos
+
+Content:
+=
+
+
+
+A aba "//**Lançamento**//" tem a função de criar os lançamentos de convênios a receber.
+
+Nesta tela há os seguintes campos:
+
+* **Tipo de Cliente:** Para informar o tipo de cliente entre "//**Clientes Normais**//", "//**Convênios**//" e "//**Cartões**//";
+* **Centro de Custo:** Para informar o centro de custo do lançamento a receber;
+* **Data:** para informar a data do lançamento;
+* **Imprimir:** para imprimir dados do lançamento;
+* **Mostrar Apenas Ativos:** para mostrar apenas clientes ativos;
+* **Localizar:** para localizar um cliente em específico;
+* **Debitar:** para realizar o lançamento a receber;

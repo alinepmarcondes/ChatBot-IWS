@@ -1,0 +1,18 @@
+Title: = Importar de Cupom Fiscal
+
+Content:
+=
+
+Ao optar pela opção de importação por cupom fiscal, antes é necessário criar uma nova nota, e em seguida preencher os dados da capa da nota e preencher o CFOP com o código "//**5929 - Lançamento efetuado em decorrência de emissão de documento fiscal relativo a operação ou prestação também registrada em equipamento Emissor de Cupom Fiscal - ECF**//"
+
+Somente após criada a capa nota é necessário clicar no botão de importação e após isso aparecerá a seguinte interface:
+
+
+
+Após isso é necessário escolher os cupons que serão importados e para isso basta localizá-los nessa interface preenchendo os campos na parte superior da tela.
+
+Após localizados todos os cupons desejados irá abrir uma nova interface para confirmar os valores:
+
+
+
+Nesta tela é necessário informar os valores dos produtos e a sua tributação nas tabelas corretamente para prosseguir e após confirmar. Feito isso os itens estarão inseridos na NF.

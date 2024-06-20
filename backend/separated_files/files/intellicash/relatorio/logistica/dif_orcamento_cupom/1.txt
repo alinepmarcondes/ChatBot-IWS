@@ -1,0 +1,28 @@
+Title: == Diferenças Entre Orçamento e Cupom Fiscal
+
+Content:
+==
+
+----
+
+Este relatório mostra as diferenças de um orçamento e o seu cupom fiscal, isto é, ela mostra od detalhes do cupom fiscal em que o orçamento foi vendido, relatando as diferenças de venda.Ou seja, caso o cliente tenha feito o orçamento com 3 itens e no cupom fiscal tenha comprado outro item, será exibido neste relatório a respectiva diferença.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Logística→Dif. Orçamento com Cupom Fiscal||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Nesta interface há três colunas a primeira mostra os orçamentos e os cupons ficais que estão relacionados. A coluna número refere ao número de orçamento e a coluna cupom refere ao cupom fiscal.
+
+A segunda coluna mostra os itens do orçamento selecionado na culuna acima e na terceira coluna mostra os itens que foram vendidos nesse cupom fiscal selecionado na coluna acima.

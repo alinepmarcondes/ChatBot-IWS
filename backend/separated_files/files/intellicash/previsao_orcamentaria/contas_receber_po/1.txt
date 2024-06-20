@@ -1,0 +1,37 @@
+Title: = Lançamentos de Contas a Receber Previstas
+
+Content:
+=
+
+----
+Foi criado no sistema uma nova ferramenta chamada Previsão Orçamentária que irá ajudar os clientes a fazer uma previsão do que será pago/recebido em um determinado período e depois confrontar os dados para ver o que realmente ocorreu.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Previsão Orçamentária→Lanc. Contas a Receber||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela o usuário poderá lançar as Contas a Receber previstas, informando os seguinte campos:
+
+* Sacado: Agente cadastrado no Sistema;
+* Nº Documento: Documento a ser informado pelo usuário ou gerado automaticamente pelo sistema;
+* Entrada: Data de entrada do registro;
+* Vencimento: Data prevista para o pagamento do registro;
+* Valor: Valor do registro;
+* Multa: Taxa de Multa do registro;
+* Juros/Dia: Valor de Juros por Dia do registro;
+* Juros%/Mês: Taxa de Juros por Mês do registro;
+* Desc. Pt.: Desconto do registro;
+* Centro de Custo: Centro de custo do registro;
+* Forma de Cobrança: Forma de cobrança do registro;
+* Descrição: Descrição do registro a ser lançado;
+* Nº Boleto: Número do boleto do registro;
+* Opção "Ratear Centro de Custo": Permite o Rateio do Centro de Custo do registro;
+* Opção "Despesa repetitiva": Permite lançar vários registros.
+
+Após informar os dados basta clicar no botão **Inserir** para que o mesmo seja cadastrado. Também será possível visualizar os registros lançados para determinado Favorecido (basta colocar o nome do campo "Favorecido" e dar "ENTER"), alterar o registro pelo botão **Alterar** e excluir o registro pelo botão **Excluir**.

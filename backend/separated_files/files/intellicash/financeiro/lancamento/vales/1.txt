@@ -1,0 +1,37 @@
+Title: == Lançamento de Vales
+
+Content:
+==
+
+----
+
+Esta ferramenta tem como função a criação de vales para funcionários para que o mesmo realize compras dentro do estabelecimento.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Lançamentos→Vales||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Esta ferramenta tem como função criar os vales pelos usuários a pedido de algum dos funcionários.
+
+Nesta tela há o campos há preencher com os seguintes atributos:
+- **Data:** informa a data de lançamento do vale, vem pré-selecionado a data atual;
+- **Funcionário:** o nome do funcionário que receberá o vale;
+- **Próximo acerto:** indicar a data do próximo acerto de vales:
+- **Valor:** informar o valor do vale que o funcionário deseja fazer;
+- **Nº documento:** para informar numero do documento, porém este vem sugerido pelo sistema;
+- **Descrição:** informar a descrição do vale;
+- **Caixa:** para selecionar um caixa da empresa que será debitado o valor do vale;
+Após preenchidos os dados acima basta clicar no botão ao lado em **inserir**. Após isso será feito um relatório para impressão, caso queira imprimir os dados do pagamento e após isso o vale estará feito.
+
+
+
+Na parte inferior da tela há os seguintes botões:
+* **Imprimir** para imprimir um relatório geral de vales;
+* **Excluir** para excluir um vale selecionado;
+* **Alterar** para alterar um vale;

@@ -1,0 +1,21 @@
+Title: = Matriz para Filial
+
+Content:
+=
+
+Neste aspecto iremos destacar as informações que a Matriz disponibiliza para as suas Filiais: \\
+1.Informa dados : \\
+ a. Centro de Custo \\
+ b. Forma de Recebimento \\
+ c. Forma de Cobrança \\
+
+
+
+2.Informa os Recebimentos/Pagamentos dos registros das Filiais/Matriz que foram manipulados na Matriz(Botão Matriz da Tela de Recebimento) \\
+3.Informa os Recebimentos/Pagamentos dos registros das Filiais/Matriz que foram manipulados nas próprias Filiais \\
+4.	Se for feito baixa na Matriz do registro de alguma filial, a Matriz busca na filial deste registro o status do mesmo. Os tipos dos status são: \\
+a.Liberado (Registro pode ser baixado) \\
+b.	Excluído (Registro não pode ser baixado pois se encontra excluído na origem) \\
+c.	Baixado (Registro não pode ser baixado pois se encontra baixado na origem) \\
+d.	Valor Diferente (Registro não pode ser baixado pois o valor difere da origem) \\
+e.	Indisponível (Registro não pode ser baixado pois não se encontra na origem)

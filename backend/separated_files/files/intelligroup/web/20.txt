@@ -1,0 +1,11 @@
+Title: = Pedidos
+
+Content:
+=
+
+Na aba Pedidos, é possível visualizar todos os pedidos do associado, baseando-se em um período de tempo em que o mesmo deverá informar nos campos de início e término, conforme demonstra a figura abaixo.
+
+
+
+
+Caso não haja pedidos no período informado será exibido a seguinte mensagem.

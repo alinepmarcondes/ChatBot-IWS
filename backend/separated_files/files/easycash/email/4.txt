@@ -1,0 +1,6 @@
+Title: = Configuração do servidor SMTP
+
+Content:
+=
+
+Esta funcionalidade foi dividida nos três sistemas, conforme descrito abaixo:

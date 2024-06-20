@@ -1,0 +1,15 @@
+Title: = Agrupamento
+
+Content:
+=
+
+Ao clicar no botão agrupamento, imagem acima, será exibida a interface de agrupamento de promoções, imagem abaixo.
+
+Nessa interface temos algumas ações:
+* **Novo:** ao clicar em novo será exibida a interface abaixo
+
+nessa interface o usuário precisa informar uma descrição para o agrupamento, o tipo, início, término e se é encerramento automático. Após preenchido as informações basta clicar em confimar para cadastrar o agrupamento.
+* **Alterar:** ao clicar no alterar, abrira a mesma interface do botão novo, porem já preenchida com as informações do agrupamento que está sendo alterado.
+* **Duplicar:** ao clicar no duplicar abrira a interface de cadastro já preenchida com os dados do agrupamento que está sendo duplicado. Ao confirmar um duplicamento de agrupamento o sistema já abrira a interface de itens da promoção com os itens duplicados para que o usuário possa confirmar a promoção.
+* **Encerrar:** ao clicar no encerrar, o sistema irá encerrar todos os itens associados ao agrupamento da promoção.
+* **Itens do Agrupamento:** esse botão exibe os itens associados ao agrupamento.

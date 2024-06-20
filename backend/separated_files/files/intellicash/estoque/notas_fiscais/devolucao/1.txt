@@ -1,0 +1,36 @@
+Title: == Nota Fiscal de Devolução
+
+Content:
+==
+
+----
+
+Foi desenvolvido uma forma de realizar Notas Fiscais de Devolução simplificada que tem como objetivo agilizar o processo.
+
+----
+
+Antes de usar esse novo método é preciso configurar os CFOPs, para isso vá ao menu em:
+
+||Gerenciamento→Cadastro→CFOPs||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+É necessário configurar o CFOP, indicando qual CFOP deve ser usado para realizar a devolução. .:Ex. 1102 (compra para comercialização) → 5202 (Dev. de compras para comercialização). Para mais informações visite o manual de cadastro de CFOP [[manuais:intellicash:cadastros:cfop|Clicando Aqui]]. \\
+
+Após isso para realizar a devolução deve-se entrar no menu em:
+
+||Gerenciamento→Estoque→Notas Fiscais→Devolução||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nessa interface é possivel localizar o documento que irá dar origem a devolução. Esses documentos podem ser uma Nota Fiscal ou um Cupom Fiscal.\\
+Após localizar uma Nota Fiscal, não poderá mais alterar o agente, pois a devolução não poderá ser feita para outro agente que não seja o mesmo do documento de origem. No caso do cupom fiscal essa regra não é obedecida.\\
+O sistema irá limitar a busca nos ultimos X dias, devidamente configurados.
+
+
+
+Alterações de valores ou quantidade deverá ser realizada pela interface da nota fiscal, como de costume.\\

@@ -1,0 +1,12 @@
+Title: Inventários
+
+Content:
+A aba "//**Inventários**//" mostra o inventário do sistema e mostra se houve alteração do inventário manualmente. Nesta tela há duas colunas, à esquerda mostra os dados numéricos, e à direita mostra um gráfico para melhor visualização do inventário.
+
+Na coluna à esquerda contém os seguintes atributos:
+
+* **Data:** informando a data da alteração do inventário no sistema;
+* **Descrição:** informando porque foi alterado;
+* **Qtde Sistema:** informa a quantidade que o sistema tinha em seu inventário;
+* **Correção:** mostra a correção do inventário feita;
+* **Qtde Corrigida:**

@@ -1,0 +1,11 @@
+Title: = Cadastro
+
+Content:
+=
+
+Concluído esta etapa de cadastro o sistema habilitará os seguintes botões:
+
+* **Excluir:** para excluir o funcionário cadastrado (Obs.: O sistema exibirá uma mensagem se realmente deseja excluir o funcionário)
+* **Alterar:** Para alterar os dados do funcionário caso algum dado esteja cadastrado errado existe a possibilidade de ser alterado
+* **Agendar Pagtos():** para agendar os pagamentos do funcionário
+* **Tipos Proventos():** para definir os proventos dos funcionários.

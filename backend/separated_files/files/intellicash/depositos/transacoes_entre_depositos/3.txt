@@ -1,0 +1,6 @@
+Title: = Nova Transação
+
+Content:
+=
+
+Cria um novo número para a transação. O número da transação possui contagem própria e é incrementado em 1 a cada transação.

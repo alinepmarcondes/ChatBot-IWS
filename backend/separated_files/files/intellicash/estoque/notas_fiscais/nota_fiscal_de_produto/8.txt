@@ -1,0 +1,10 @@
+Title: = Sintegra
+
+Content:
+=
+
+
+
+Nesta aba sera exibido um resumo das informações que irão para o sintegra em relação a nota aberta.\\
+Nela mostra na primeira coluna todos os CFOPs da nota fiscal e os valores do imposto e tributação.\\
+Na segunda coluna mostra os itens referentes ao CFOP na primeira coluna e os seus valores de imposto e tributação.

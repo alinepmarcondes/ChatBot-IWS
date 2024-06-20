@@ -1,0 +1,32 @@
+Title: == Laboratório Fiscal
+
+Content:
+==
+
+O laboratório Fiscal é um serviço desenvolvido e mantido pelo **[[http://www.imendes.com.br|Grupo Imendes]]**, cuja finalidade é a classificação tributária online no seu cadastro de produtos, no que diz respeito à ICMS, PIS e a COFINS.
+
+O serviço é executado em 3 etapas\\
+
+\\
+**Análise dos dados atuais na base do cliente**
+1- Recebimento dos dados do Cliente;
+2- Entendimento do contexto e cenário do cliente;
+3- Entendimento sobre possíveis benefícios fiscais.
+\\
+\\
+**Realizar o cadastramento tributário**\\
+Atualizar os dados referentes à:\\
+1- NCM;
+2- Classificação de PIS e COFINS;
+3- Natureza de Rec. Isenta PIS/COFINS(Código EFD);
+4- Classificação e Alíquota de ICMS;
+5- MVA ICMS.
+\\
+\\
+**Análise dos dados obtidos**\\
+Após a conclusão do estudo, realizar um comparativo entre os dados atualizados x dados anteriores.
+\\
+\\
+\\
+\\
+Graças a integração do **IntelliCash** ao **Laboratório Fiscal**, é possivel automatizar o processo, facilitando a atualização e manutenção, além de reduzir o custo operacional.

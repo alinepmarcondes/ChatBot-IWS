@@ -1,0 +1,6 @@
+Title: = Configurações
+
+Content:
+=
+
+Segue abaixo todas as configurações para classificar centro de custos padrões. Essas configuações irão sugerir ou fazer operações internas do sistema, no entanto, aos lugares que será feita uma sugestão, ainda sim poderão ser alterados.

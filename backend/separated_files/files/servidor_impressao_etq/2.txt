@@ -1,0 +1,21 @@
+Title: Configurano o Servidor de Etiqueta
+
+Content:
+O servidor de impressão é responsavel pela impressão em PPL, portanto deve existir um servidor de impressão de etiqueta por impressora.
+
+Ao iniciar o servidor de impressão o usuário deverá definir a porta de comunicação (o padrão é 5075) e as configurações da impressora.
+
+
+Como pode ser visto, a porta pode ser alterado, mudando o campo **porta** e clicando no ok (botão ao lado).
+Caso queira mudar a porta, é preciso desativar o servidor, para isso clique no menu **Arquivo** e clique em "Desativar Servidor", poderá notar que o LED verde da seção Servidor ficará apagada, após salvar a alteração, deve reativar no mesmo lugar.
+
+Para alterar a impressoa, o usuário deverá escolher a porta em que a impressora está conectado, selecionar o modelo (ppla, pplb, zpl entre outras) de acordo com o firmware da sua impressora. Os demais parametros devem ser seguidos de acordo com o manual de cada fabricante a fim de prmitir imprimir corretamente a etiqueta.
+Após todas as alterações realizadas, é preciso Salvar as configurações e reiniciar o servidor. (o LED vermelho ficará aceso caso alguma alteração seja feita e não seja reiniciado o servidor).
+
+Caso queria testar a impressão, o servidor possui um layout padrão, basta clicar em "Testar Impressão Generica".
+
+O servidor possui um "Banco de Dados" para fazer a SPOOL de impressão, e esse banco por padrão se encontra na mesma pasta do executavel sob o nome de "DBPRINTETQ.FDB". Caso precise alterar o arquivo de lugar, será necesário desconectar do banco de dados no meno Arquivo, e após realizar a alteração, reativa-lo.
+
+Na seção Banco de Dados, é possivel verificar o conteudo do SPOOL de impressão, com a lista das etiquetas que serão impressas. Caso o SPOOL esteja parado, é possivel inclusive imprmir uma etiqueta que está na fila, ou até mesmo excluir para não ser impressa.
+
+Em relação ao SPOOL, pode-se programar o intervalo de verificação de impressão que por padrão é 500 ms, ou seja, a cada 500 ms o servidor irá veriicar se foi enviado nova etiqueta para a fila de impressão.

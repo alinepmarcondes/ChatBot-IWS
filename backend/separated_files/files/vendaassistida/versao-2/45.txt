@@ -1,0 +1,4 @@
+Title: Modo impressão Android
+
+Content:
+Com essa configuração ativa, o aplicativo irá utilizar os recursos de impressão do próprio android para realizar as impressões. Ao desativar essa opção a impressão será realizada através do Webservice.

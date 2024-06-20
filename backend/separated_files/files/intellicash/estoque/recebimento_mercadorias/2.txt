@@ -1,0 +1,6 @@
+Title: == Localizar
+
+Content:
+==
+
+O botão localizar abrirá uma janela para que se faça a busca das notas já inseridas pela ferramenta de recebimento. Pelo menos um critério de busca deve ser inserido para que a busca aconteça.

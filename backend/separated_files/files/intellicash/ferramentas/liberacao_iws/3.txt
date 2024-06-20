@@ -1,0 +1,8 @@
+Title: = Atualizar Chave On-line
+
+Content:
+=
+
+Esta opção tenta conectar o IC ao "//**web service**//" que identifica o cliente e retorna uma chave na qual permitirá ou não, o acesso as produtos citados anteriormente.
+
+Para isto é necessário estar conectado à Internet.

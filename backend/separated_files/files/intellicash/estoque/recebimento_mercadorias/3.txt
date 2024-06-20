@@ -1,0 +1,14 @@
+Title: = Utilizando os Dados
+
+Content:
+=
+
+Os dados de notas coletados por esta interface, permite inserir os respectivos itens em uma nota já criada de duas maneiras:
+
+1: Após criar o cabeçalho da nota, importar os itens pelo menu **Importar... -> Entrada -> Recebimento**;
+
+
+
+2: Após **Importar o XML**, utilizar a opção de **Importar Coletor** -> no botão **Coletor**. Esta opção funciona como se o arquivo de coletas do intellistock tivesse sido importado, uma vez que os dados de Recebimento são armazenados nas mesmas tabelas que as importações do IS.
+
+Para mais informações sobre importação de nota fiscal [[manuais:intellicash:estoque:notas_fiscais:nota_fiscal_de_produto|Clique Aqui]].

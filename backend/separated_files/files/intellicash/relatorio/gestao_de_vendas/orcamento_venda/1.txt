@@ -1,0 +1,29 @@
+Title: == Relatório de Orçamentos de Vendas
+
+Content:
+==
+
+----
+
+Relatório que mostra todos os orçamentos criados durante um determinado período de data.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Orçamentos de Vendas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Datas:** Para selecionar se os orçamentos serão pesquisados pela data de emissão ou pela data de validade;
+* **Destinatário:** Para selecionar algum cliente em específico para gerar o relatório;
+* **Situação:** para selecionar algum status do orçamento a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Nesta tela há duas colunas, a primeira mostra os resultados da pesquisa com todos os orçamentos e seus dados, e na segunda coluna mostra todos os produtos de um orçamento selecionado acima;

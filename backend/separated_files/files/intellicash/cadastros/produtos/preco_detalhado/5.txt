@@ -1,0 +1,9 @@
+Title: Cadastro de Produtos
+
+Content:
+No cadastro de Produtos, na aba Cadastro, sub-aba Valores, foi adicionado uma aba chamada "//**Preço Detalhado**//", nela será exibido o preço detalhado que o produto faz parte juntamente com um grafico para ilustrar os valores da tabela.
+
+
+
+No lado direito do gráfico temos uma legenda com a cor do gráfico e o valor dessa cor na composição do preço detalhado. O gráfico apresenta quanto porcentos cada cor representa no preço total, ou seja o gráfico completo tem 100%, e cada fatia é uma porcentagem para compor esses 100%. \\
+Exemplo: na legenda acima temos os seguinte detalhamentos, imposto 10%, lucro 10%, perda 2% e outros 10%. Já no gráfico esses detalhes representam, imposto 31,25% lucro 31,25%, perda 6,25% e outros 31,25%. Se somarmos todas as porcentagens vamos ter o total de 100% que é o gráfico completo.

@@ -1,0 +1,6 @@
+Title: = Ativando permissões
+
+Content:
+=
+
+Ao abrir o aplicativo, será solicitado ao usuário que aceite as permissões.

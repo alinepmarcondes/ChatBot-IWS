@@ -1,0 +1,6 @@
+Title: Properties
+
+Content:
+Cada objeto, ou elemento, possui propriedades que podem ser editadas. Por exemplo, na imagem acima o objeto **Variable1** está selecionado, e na propriedade **UserName** é possível renomeá-lo para **resumo**. A renomeação dos objetos facilita a manipulação de códigos escritos na aba **Calc**.
+
+Cada elemento possui características própria, além das características comuns a todos elementos. Vale a pena aprender um pouco sobre essas configurações para ter maior controle do comportamento de cada elemento.

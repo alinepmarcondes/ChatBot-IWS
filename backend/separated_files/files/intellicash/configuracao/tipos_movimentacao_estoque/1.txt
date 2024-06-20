@@ -1,0 +1,34 @@
+Title: == Tipos de Movimentação de Estoque
+
+Content:
+==
+
+----
+
+Permite Configurar os tipos de operação que irão movimentar o estoque.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Tipos de Movimentação de Estoque||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Dando dois cliquem em umas das operações da esquerda será exibida outra interface para quepossa ser configurado as operações que iram movimenta-la.
+
+
+
+Nessa interface no lado direito são listado os tipos de operação disponível. Para adicionar uma operação ao tipo de movimentação, e na esquerda os utilizados. Para isso há os seguintes botões:
+
+* : Para selecionar todos os itens para a coluna à esquerda;
+* : Para mover um item selecionado para à coluna esquerda;
+* : Para mover um item selecionado para à coluna direita;
+* : Para selecionar todos os itens para a coluna à direita;
+
+Sobre Fator Estoque:
+* **1:** tem fator positivo no estoque;
+* **-1:** tem fator negativo no estoque;
+* **0:** não alimenta estoque;

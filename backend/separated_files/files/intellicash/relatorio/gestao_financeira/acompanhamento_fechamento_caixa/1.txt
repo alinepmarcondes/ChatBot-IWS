@@ -1,0 +1,46 @@
+Title: == Acompanhamento Fechamento de Caixa
+
+Content:
+==
+
+----
+
+Relatório que faz o acompanhamento do fechamento de caixa duranto o período determinado, e exibe o status de cada um dos fechamentos diários no sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Acompanhamento Fechamento de Caixa||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+A aba "//**Acompanhamento**//" mostra uma relatório diário dos fechamentos de caixa, mostra quantos caixas foram digitados e quantos caixas foram fechados na esquerda e à direita mostra os detalhes de cada caixa e fechamento.
+
+Na parte superior desta tela há os seguintes campos:
+
+* **Início e Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Esta tela mostra o relatório de fechamentos de caixa de determinado intervalo de datas e mostra todos os seus dados na coluna á direita.
+
+
+
+A aba "//**Por Espécie**//" mostra uma relatório diário dos fechamentos de caixa por espécie, mostra a espécie e seus dados na esquerda e à direita mostra um gráfico para melhor visualização dos dados.
+
+
+
+Nesta tela mostra um relatório de fechamento de caixa por sangria e suprimento.
+Ao clicar na aba Observações de Cupons aparecerá a seguinte tela:
+
+
+
+Nesta tela mostra todas as observações de cupons feitas.
+Ao clicar na aba Por Operador aparecerá a seguinte tela:
+
+
+
+Esta tela mostra um relatório de fechamento de caixa por operador.

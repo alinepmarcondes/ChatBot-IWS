@@ -1,0 +1,15 @@
+Title: = Criar pedido
+
+Content:
+=
+
+1 - Menu Arquivo->Criar pedido.
+
+Para criar um pedido, o usuário deverá selecionar no campo "Pedido" a opção "Novo Pedido", ou selecionar um pedido não confirmado conforme demonstra a figura abaixo.
+
+
+
+
+Possiveis mensagens de erros:
+
+* Quantidade não pode ser maior que estoque!

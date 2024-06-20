@@ -1,0 +1,22 @@
+Title: == Configurar E-mail
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de criar emails padronizados no sistema, e encaminhá-los à varios clientes, para mais praticidade no procedimento.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Config. E-mail Padrão||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Para melhor comodidade dos usuários do Intellicash foi desenvolvido uma interface para padronizar os e-mails dos seguintes documentos: “Orçamento, Pedido, NF-e e Boleto”. Nesta tela quando o usuário escolher o “Tipo de E-mail” (Orçamento, Pedido…) automaticamente no campo “Componentes do E-mail” mostrará as variáveis necessárias para a composição do e-mail em questão. Para escolher uma variável para o texto do e-mail basta clicar no botão com o Checked azul.
+
+**Ex.:** Prezado

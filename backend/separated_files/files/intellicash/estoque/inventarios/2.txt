@@ -1,0 +1,23 @@
+Title: = Início
+
+Content:
+=
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Inventários||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Esta tela serve para inventariar produto do estoque, na parte superior da tela a empresa a escolher e os botões de início e término para determinar um período a ser feita a pesquisa e o botão "//**Aplicar**//" para realizar a pesquisa, abaixo mostra todos os inventários já feitos e seus dados.
+
+----
+=== Versão 3.0.140.003 ===
+A partir desta versão está disponível o filtro de inventários por depósito, caso a empresa esteja habilidata a trabalhar com multi-depósitos.
+
+
+
+Os inventários novos serão criados para o depósito selecionado no filtro desta interface.
+----

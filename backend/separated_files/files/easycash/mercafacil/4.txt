@@ -1,0 +1,16 @@
+Title: Retaguarda
+
+Content:
+Caminho Intellicash: IWS -> PDV -> Easycash -> Configuração -> Configuração do PDV -> Aba PDV -> Aba Integração API -> Aba Mercafacil
+
+
+
+Deve-se preencher os campos com os dados fornecidos pelo cliente.
+
+**Obs.:** Atentar ao link da api, onde deve-se inserir o link até a informação api, conforme a imagem acima.
+
+Após configurar, deve-se salvar e exportar as configurações:
+
+Caminho: IWS -> PDV -> Exportação para o PDV
+
+A exportação deverá ser: "Com requisição do operador".

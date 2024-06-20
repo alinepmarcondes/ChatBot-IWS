@@ -1,0 +1,20 @@
+Title: = Realizando Baixa na Matriz de Contas a Pagar
+
+Content:
+=
+
+----
+
+Esta ferramenta tem a função de dar baixa nos lançamento financeiros de contas a pagar.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Baixas→Títulos a Pagar||
+ 
+Com este módulo o sistema fornece a opção de baixar Contas a Pagar na Matriz de um título da Filial através dessa interface.
+
+
+
+Mais em [[manuais:intellicash:financeiro:baixas:contas_pagar|Contas a Pagar]].

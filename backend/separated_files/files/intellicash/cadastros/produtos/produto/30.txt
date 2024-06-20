@@ -1,0 +1,33 @@
+Title: Produção Manual (Com Ordem de Produção)
+
+Content:
+Produção Manual, é o tipo de composição que necessita de uma Ordem de Produção para ser produzido e baixar o estoque dos Insumos.
+
+**Cadastrando uma Produção Manual**
+
+
+
+Nesta tela é necessário inserir os insumos da produção manual. Após selecionado o item deve informar a quantidade de itens e o preço de venda do produto(vem pré preenchido) na produção e assim clicar no botão "//**inserir**//" para incluir o produto na produção.
+
+Após cadastrado o kit será necessário recarregar o cadastro do produto, e ao recarregar será aberto por padrão a aba "//**Estrutura da Produção**//".
+
+
+
+A aba "//**Estrutura da Produção**//" mostra os dados referentes ao cadastro da prdoução manual.
+
+
+
+A aba "//**Etapas da Produção**//" são para poder cadastrar as estapas da produção manual deste produto. esse cadastro é essencial na ferramenta de [[manuais:intellicash:estoque:controle_producao|Controle de Produção]].
+
+Nesta interface há o seguinte botão:
+
+* **Det. Produção:** Ao clicar neste botão aparecerá a seguinte interface:
+
+
+
+Nesta interface há os seguintes campos:
+
+* **→:** Para inserir uma etapa na produção do produto;
+* **←:** Para retirar uma etapa da produção do produto;
+* **↓:** Para alterar a ordem das etapas;
+* **↑:** Para alterar a ordem das etapas;

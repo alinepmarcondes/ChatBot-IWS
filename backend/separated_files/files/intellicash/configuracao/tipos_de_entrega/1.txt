@@ -1,0 +1,24 @@
+Title: == Tipos de Entrega
+
+Content:
+==
+
+----
+
+Esta ferramenta cadastra os tipos de entrega para ser utilizado no controle de entregas.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Tipos de Entrega||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao carregar essa interface temos os seguintes botões:
+* **Novo:** cadastra um novo tipo de entrega;
+* **Alterar:** permite alterar a descrição do tipo de entrega;
+* **Desativar/Ativar:** esse botão irá trocar a sua descrição de acordo com status do tipo de entrega. Se ele estiver ativo o botão se chamara **"Desativar"** e ao clicar nele irá desativar o tipo de dentrega. Se o tipo de entrega esticer desativado ele se chamara **"Ativar"** e ao clicar nele irá ativar o tipo de entrega;
+* **Fechar:** fecha a interface;

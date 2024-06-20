@@ -1,0 +1,11 @@
+Title: = Tipo de Arquivo
+
+Content:
+=
+
+
+Esta é uma caixa de opções que se diferencia entre as abas Importação e Exportação, onde para Exportar podemos selecionar tanto o formato “*.xls”, quanto o formato “*.txt”, enquanto que para Importar só podemos escolher um dos tipos de cada vez.
+
+A opção de **Exportar para Texto** permite escolher o sinal separador de colunas, sendo eles, “;” ou “|”.
+
+Na aba de Exportação podemos ainda definir se queremos carregar produtos **Ativos, Inativos ou Ambos.**

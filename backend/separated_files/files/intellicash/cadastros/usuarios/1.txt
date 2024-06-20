@@ -1,0 +1,40 @@
+Title: == Cadastrar Usuários
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada para poder criar os usuários para fazer login na inicialização do software, e também para poder criar permissões ao usuário para cada ferramenta.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→cadastros→Usuários||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Esta tela contém duas colunas, na esquerda mostra os usuários que estão cadastrados no sistema com os atributos usuários e suporte e na coluna a direita há os dados do usuário selecionado com os seguintes atributos:
+
+- **Usuário** para informar o nome de usuário;
+- **Senha** e **Confirmação** para digitar a senha do usuário e confirmar em seguida;
+- **Perfil** para informar qual será o perfil para este usuário. Para mais informações acesse o manual sobre [[manuais:intellicash:configuracao:direitos_atribuicoes_usuarios|Direitos e Atribuições dos Usuários]].
+- **Nível** para informar o nível do perfil;
+- **Empresa** para informar a qual empresa este usuário se refere (caso seja mais de uma empresa);
+
+E logo abaixo há os seguintes botões:
+
+* **Novo** para cadastrar um usuário, ao clicar neste botão os campos acima estarão editáveis para digitar os dados do novo usuário a ser cadastrado:
+
+
+
+Após feito o cadastro libera os seguintes botões operadores:
+
+* **Cancelar** para cancelar e fechar esta operação;
+* **Salvar** para salvar e confirmar esta operação;
+* **Alterar** para alterar dados de um usuário selecionado e ao clicar neste botão irá também abrir os campos para alterar os dados do usuário;
+* **Excluir** para excluir um usuário selecionado;
+* **Fechar** para salvar e fechar esta operação;

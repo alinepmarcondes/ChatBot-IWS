@@ -1,0 +1,8 @@
+Title: Acabamentos
+
+Content:
+A aba "//**Acabamentos**//" mostra um informativo sobre os acabamentos deste produto;
+
+
+
+Para mais informações sobre acabamento, visite o manual de acabamentos [[intellicash:manuais:acabamento|Clicando Aqui]].

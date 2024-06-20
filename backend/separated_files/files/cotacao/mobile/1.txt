@@ -1,0 +1,8 @@
+Title: == Cotação Mobile - Android
+
+Content:
+==
+
+|Para localizar o Cotação Online da IWS na PlayStore [[https://play.google.com/store/apps/details?id=br.com.co.activity|clique aqui]]|
+
+Modulo responsável por fazer a interface entre o fornecedor e a empresa para informar os preços em uma cotação aberta no [[intellicash:manuais:cotacao|Intellicash]] usando a internet.

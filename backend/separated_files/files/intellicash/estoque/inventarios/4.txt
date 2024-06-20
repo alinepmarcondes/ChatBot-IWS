@@ -1,0 +1,15 @@
+Title: Informações de vendas no lançamento de inventário (versão 3.1.7.0)
+
+Content:
+Na tela de lançamento de inventário, foi acrescida as colunas *Data Inv. Anterior*, *Qtde Vend.* e *Indice Dif. sobre Venda*. Esses campos só retornarão valores caso a o filtro *Retornar Indice de diferença sobre Venda* estiver ativo, no popup menu do botão aplicar.
+
+O campo *Data Inv. Anterior* traz a data do ultimo inventário do produto, caso não tenha nenhum inventário será informado a data anterior a primeira movimentação do produto.
+
+O campo *Qtde Vend." traz a quantidade *VENDIDA* do produto entre o dia seguinte à data do inventario anterior até a data do atual inventário.
+
+O campo *Indice Dif. sobre Venda* calcula o indice de relevancia da diferença entre inventarios do produto, ou seja, a diferença entre os inventários dividido pela quantidade vendida no periodo. Caso não tenha tido venda, será retornado valor 100 %.
+
+
+Outra melhoria nessa tela é a opção *Exibir detalhes do ultimo inventário*, caso esteja marcado essa opção, quando o usuário clicar com o botão direito do mouse sobre um item, será mostrado a data do inventário anterior, a quantidade contada nesse inventário, e as quantidade de entrada e saida do intervalo entre as contagens. Diferentemente da coluna de *Qtde Vend.*, nesse campo são retornadas todas saídas, portanto esse numero deverá ser maior ou igual à *Qtde Venda*.
+
+Após inseridos todos os itens inventariados basta clicar no botão "//**Confirmar**//" para concluir a operação.

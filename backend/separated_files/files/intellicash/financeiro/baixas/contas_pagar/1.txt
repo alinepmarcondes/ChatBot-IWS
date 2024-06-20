@@ -1,0 +1,48 @@
+Title: == Contas a Pagar
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de dar baixa nos lançamento financeiros de contas a pagar.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Baixas→Títulos a Pagar||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao entrar nesta tela por padrão abrirá a aba "//**Vencimento**//" para buscar títulos a pagar utilizando a data de vencimento. As outras abas fazem um filtro dos títulos a pagar de acordo com o nome de cada aba.
+
+Na parte inferior da tela há os seguintes botões:
+* **Mostrar Somente Fornecedores** Para mostrar somente contas com fornecedores;
+* **Mostrar Somente Clientes** Para mostrar somente contas com clientes;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Fixar:**
+* **Aplicar:** Para realizar a pesquisa;
+* **Baixar:** Para realizar baixa no lançamento selecionado(s), ao clicar neste botão aparecerá a seguinte interface:
+
+Nesta aba é necessário selecionar a espécie do dinheiro a pagar e após selecioná-las é necessário preencher os campos ao lado de acordo com a espécie referida:
+- **Valor:** Para informar o valor do recebimento do cliente;
+- **Data Depósito:** Para informar a data que será depositada o valor;
+- **CMC7:** Para informar o CMC7do cheque do cliente;
+- **Banco:** Para informar qual o banco selecionado;
+- **Agência:** Para informar a agência do banco
+- **Conta Corr.:** Para informar a conta corrente do cliente;
+- **Nº Cheque:** Para informar o número do cheque do cliente;
+- **Caixa:** Para informar para qual caixa da empresa o dinheiro será depositado;
+- **Inserir:** Para inserir o recebimento do cliente no subtotal;
+- **Dinheiro Exato:**
+
+ Contas e Caixas (aba movimento - botão lançar//)). 
+
+Ao selecionar o caixa e clicar em inserir o sistema irá validar se a conta em questão possui saldo e se não possuir será exibida a seguinte mensagem:
+
+
+
+Se o usuário desejar continuar deverá ter a seguinte permissão:

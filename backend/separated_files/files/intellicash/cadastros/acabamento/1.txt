@@ -1,0 +1,16 @@
+Title: == Acabamento
+
+Content:
+==
+
+----
+
+Acabamento é uma ferramenta desenvolvida para ser utilizada junto ao orçamento, serve para produtos que sofrem algum tipo de serviço e esse tipo de serviço agrega um valor ao preço do item. \\ Um exemplo de uso do acabamento é para empresas que vendem madeira e essa madeira sofre algum tipo de trabalho, como aparelhamento ou um corte específico, nesse caso é preciso cadastrar esse tipo de serviço para poder utilizá-lo. \\
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Acabamentos||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

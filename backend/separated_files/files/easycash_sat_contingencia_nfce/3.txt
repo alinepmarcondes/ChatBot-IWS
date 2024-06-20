@@ -1,0 +1,7 @@
+Title: Considerações Importantes
+
+Content:
+* Na conferência de **VENDAS** teremos, obrigatoriamente 2 registros de encerramento referenciados para cada **CAIXA**, sendo 1 registro para o modelo NFC-e e 1 registro para o modelo SAT (contingência).
+* No **PDV**, os registros da venda utilizarão **OBRIGATORIAMENTE** o mesmo **ID de TURNO** a ser exportado unificado para o retaguarda (fechamento de caixa);
+* No **PDV**, o **SAT** terá um registro aberto automaticamente junto à NFC-e na tabela **CUPOM_R60M** (serão impressos ao final do dia 2 encerramentos);
+* No **PDV JAMAIS** deverá existir dois registros **ATIVOS** e **EM USO** simultaneamente, além de não ter, também, mais de um registro em contingência. Para tratar a validação, foi criado uma trigger (**ECF_BIU0**).

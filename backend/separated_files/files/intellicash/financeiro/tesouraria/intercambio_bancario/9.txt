@@ -1,0 +1,54 @@
+Title: =Gerando Boletos
+
+Content:
+=
+
+Logo depois de preenchidos os campos do Layout de remessa e retornos, já podemos começar a impressão de boletos bancários. Selecionando a aba “Boletos” da mesma tela como se segue na figura seguinte.
+
+
+
+Se estiver apenas uma “Empresa” cadastrada no banco de dados automaticamente o sistema mostrará, caso contrário o usuário poderá escolher a empresa, “Tipo de Boleto” será o banco do boleto, “Tipo de Data” essa opção para escolher o filtro que mostrará os registros disponíveis na data de entrada ou data de vencimento e o “Inicio e Termino” é o espaço de dias para busca no sistema. Em seguida clique no botão “Aplicar”. Havendo agendamento com a data de entrada ou pelo vencimento o sistema mostrará os devidos.
+
+
+
+Na aba “Emissão” existem 2 sub-abas, “Geral” e “Impressos”, sendo que na “Geral” mostrará todos os agendamentos em aberto e que ainda não foram impressos (não foram transformados em boletos) e na “Impressos” os agendamentos que já foram impressos (boletos).O usuário escolherá para quais sacados deseja emitir o boleto ou se preferir poderá selecionar para gerar em “PDF”, isso se torna possível selecionando o campo emitir de tal boleto e clicando no botão “Imprimir Boleto”, que se localiza na parte inferior direita da tela.
+
+
+
+No botão “Imprimir Boletos”, existe a opção de “Visualizar Impressão” e “Editar Boleto...” clicando com o botão direito do mouse, selecionando a visualização o usuário poderá ver o boleto antes de ser impresso caso contrario o ele será automaticamente impresso. Já a opção editar é para configuração interna do boleto.
+
+
+
+Ainda na aba “Emissão” também clicando com o botão direito do mouse no centro da tela abrirá algumas opções para o usuário.
+
+
+
+Com “Alterar” para alterar o valor do titulo ou multa, etc., “Gerar Boleto” onde essa opção permite que o usuário agrupe vários agendamentos em um único boleto, desde eles sejam do mesmo sacado (na figura abaixo mostra amostra a tela mencionada).
+
+
+
+Clicando no botão “Inserir Registro”, apresentará uma tela em que o usuário poderá agrupar um agendamento pelo número da nota ou pelo agente, lembrando que esse deverá do mesmo sacado. 
+
+
+
+Logo após dessa inserção dos registros, o usuário deverá clicar no botão “Gerar” da tela anterior. Nessa situação os vários agendamentos se tornam apenas um boleto que poderá ser visualizado em “Detalhes Financeiros”, nessa parte mostra o enunciado em verde seu houver algum agrupamento.
+
+
+
+
+
+Após aberta a tela de “Gerar Boleto”, o usuário deverá localizar o referido boleto com os seguintes parâmetros, data de “Inicio”, “Termino” e com o fator do boleto “A Receber”. Localizado o boleto, o usuário verá na parte superior da tela o boleto composto e na parte inferior os boletos que compõem o mesmo. Para realizar o procedimento de desmontar o boletodeverá clicar com o botão direito do mouse aonde aparecerá a opção “Excluir Boleto”, basta clicar nessa opção.
+
+
+
+Ainda há “Mensagem do Boleto” que seria exclusiva para um único boleto ou “Mensagem Padrão” para vários boletos. Ambas serão guardadas no banco de dados, ao clicar em mensagem o sistema mostrará caso haja alguma mensagem armazenada o usuário poderá editar, acrescentar ou mesmo excluir.
+
+
+
+O usuário ainda poderá selecionar todos os agendamentos apertando a tecla “F9” e desmarcartodos usando “SHIFT+F9”.
+
+Dentro ainda da aba “Emissão”, selecionando a aba “Impressos”, ela mostrará os boletos que já foram impressos e a mesma tela poderá mostrar mais opções clicando com o botão direito do mouse (Ex.: Excluir o boleto, Detalhes Financeiros e etc.).
+
+
+
+Já selecionando a aba “Excluídos” apresentará os boletos mencionados anteriormente da aba Impressos que foram excluídos.

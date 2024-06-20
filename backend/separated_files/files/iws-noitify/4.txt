@@ -1,0 +1,6 @@
+Title: = Empresas
+
+Content:
+=
+
+Ao realizar a autenticação, se o usuário não possuir nenhuma empresa cadastrada é exibida uma mensagem.

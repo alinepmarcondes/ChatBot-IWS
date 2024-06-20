@@ -1,0 +1,35 @@
+Title: == Análise de Rentabilidade
+
+Content:
+==
+
+----
+
+Este relatorio foi criado para que o usuario consiga verificar a rentabilidade dos produtos dividos em familias.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Análise de Rentabilidade||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes botões:
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Início e Término:** para determinar um período de datas a ser pesquisado;
+* **Tipo:** Para selecionar um atributo a ser pesquisado;
+* **Filtro:** Para selecionar uma categoria do atributo selecionado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+O relatório de análise de rentabilidade tem como objetivo listar a rentabilidade individual de cada item, mostrando quanto ele representa no total de vendas e classificando-o de acordo com as famílias que se enquadra na sua participação.
+
+
+
+É possível fazer alguns filtros por período e tipo. Nessa interface também é possível acessar o cadastro de famílias, clicando com botão direito do mouse sobre o painel inferior do grid. Também é possível desativar um produto por esse relatório, clicando sobre o registro do produto com botão direito do mouse, ou então acessar o cadastro do produto dando dois cliques sobre o registro.
+
+Após realizada a pesquisa mostra abaixo os dados do relatório numericamente e ao lado os dados graficamente para uma melhor visualização.

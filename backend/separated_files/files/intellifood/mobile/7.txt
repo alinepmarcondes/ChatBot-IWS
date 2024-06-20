@@ -1,0 +1,4 @@
+Title: Guia Mesas
+
+Content:
+Clique na guia **Mesas**, nesta guia o usuário consegue visualizar todas as mesas livres, ocupadas, alocadas e reservadas. Também é possível pesquisar por alguma em específico ou abrir uma comanda.

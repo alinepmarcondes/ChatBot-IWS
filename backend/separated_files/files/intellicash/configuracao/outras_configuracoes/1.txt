@@ -1,0 +1,16 @@
+Title: == Outras Configurações
+
+Content:
+==
+
+----
+
+Esta tela serve para configurar algumas opções gerais do sistema, é essencial que essas informações estejam preenchidas corretamente para o bom funcionamento do sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Outras Configurações||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

@@ -1,0 +1,4 @@
+Title: Forma de pagamento
+
+Content:
+Para alterar a forma de pagamento, o usuário deverá selecionar a opção desejada no canto superior esquerdo conforme demonstra a figura abaixo.

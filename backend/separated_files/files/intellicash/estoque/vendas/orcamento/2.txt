@@ -1,0 +1,4 @@
+Title: Atualização 3.0.140.004
+
+Content:
+A partir desta vesrão, quando um item do orçamento é dependente de um vasilhame para ser vendido, será solicitado o Ticket de entrega do vasilhame. Caso não exita, haverá a opção de vender ou empresatar. No caso da venda os vasilhames entrarão na lista de itens do orçamento. No caso do empréstimo, será emitido um ticket de empréstimo. Esses lanaçmento de emprestimo e recebimento de vasilhames podem ser acompanhados pela interface de **Estoque->Controle de Vasilhames->Painel de Consultas**

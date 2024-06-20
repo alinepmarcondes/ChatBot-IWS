@@ -1,0 +1,8 @@
+Title: = Liberação de Contingência (Emergencial)
+
+Content:
+=
+
+Quando a chave de liberação expira e não há conexão com a internet, é possível gerar um código de liberação temporária que pode ser passado por telefone. 
+
+Para forncer ao cliente a contrachave de acesso é necessário acessar o **[[http://wiki.intelliware.com.br/doku.php?id=intelliweb#produto|IntelliWeb→Liberação→Produto→(aba)Contingência]]**

@@ -1,0 +1,13 @@
+Title: Movimentação
+
+Content:
+A aba "//**Movimentação**//" mostra a movimentação do estoque de um determinado produto. Nesta tela há duas colunas, à esquerda mostra os dados numéricos, e à direita mostra um gráfico para melhor visualização da movimentação de estoque. Na coluna à esquerda contém os seguintes atributos:
+
+* **Data:** mostrando a data da movimentação do estoque;
+* **Tipo:** de movimento para informar o tipo de movimento que está sendo realizado;
+* **Saldo:** inicial mostra o estoque que havia no sistema antes da movimentação;
+* **Qtde:** entrada mostra a quantidade de produtos entrada no estoque;
+* **Qtde:** saída mostra a quantidade de produtos saída do estoque;
+* **Saldo:** final mostra o estoque depois da movimentação;
+
+Na parte inferior da tela há os totalizadores da movimentação de estoque mostrando o "//**Saldo Inicial**//", "//**Movimento no Período**//", "//**Saldo Final**//", "//**Giro**//", "//**Troca**//", "//**Terda**//", "//**Reservado**//" e "//**Disponível**//".

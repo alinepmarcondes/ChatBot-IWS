@@ -1,0 +1,4 @@
+Title: Instalação
+
+Content:
+Nesta etapa os arquivos baixados são preparados iniciando a instalação.

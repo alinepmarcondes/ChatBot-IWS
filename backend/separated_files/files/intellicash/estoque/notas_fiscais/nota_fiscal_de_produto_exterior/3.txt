@@ -1,0 +1,24 @@
+Title: Nota Fiscal de Importação
+
+Content:
+A Declaração de Importação teve algumas informações acrescentadas:
+* **Via de transporte internacional**, pode ser:
+- Marítima;
+- Fluvial;
+- Lacustre;
+- Aérea;
+- Postal;
+- Ferroviária;
+- Rodoviária;
+- Conduto / Rede Transmissão;
+- Meios Próprios;
+- Entrada / Saida Ficta.
+- Courier;
+- Handcarry.
+* **Valor da AFRMM**, deve ser informado quando a via de transporte for marítima.
+* **Forma de Importação**, deve ser informado um dos valores:
+- Importação por conta própria;
+- Importação por conta e ordem;
+- Importação por encomenda.
+* **CNPJ do adquirente ou encomendante**, obrigatório quando importação por conta e ordem ou por encomenda.
+* **UF do adquirente ou encomendante**, obrigatório quando importação por conta e ordem ou por encomenda.

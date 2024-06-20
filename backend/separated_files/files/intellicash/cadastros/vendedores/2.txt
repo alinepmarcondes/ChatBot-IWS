@@ -1,0 +1,27 @@
+Title: = Cadastrados
+
+Content:
+=
+
+
+
+Nesta tela mostra na coluna à esquerda os vendedores que já estão cadastrados e os dados dos seus cadastros. Na coluna à direita contém os campos mostrando os dados do vendedor selecionado na coluna esquerda.\\
+Logo abaixo há uma lista mostrandos todos os funcionários cadastrados que não são vendedores. Eles estão disponíveis para o cadastro de vendedor.
+
+Nesta tela há os seguintes campos:
+
+* **Código:** Para informar o código que será utilizado pelo vendedor;
+* **Apelido:** Para informar o Apelido do vendedor;
+* **Desconto:** Para informar o tipo de desconto que este vendedor pode oferecer;
+* **Pagamento de Comissão:** para informar como será realizado o pagamento da comissão do funcionário;
+* **Comissão:** para informar o valor da comissão para o funcionário;
+
+
+
+E os seguintes botões:
+
+* **Alterar:** Para alterar os dados de um vendedor já cadastrado. Para isso é necessário selecionar o mesmo e após aparecer os seus dados na coluna há direita basta alterar os dados desejados e clicar neste botão para concluir a alteração;
+* **Desativar:** Para desativar o vendedor, seu cadastro será mantido porém estará desabilitado.
+* **Usuários:** Serve para vincular um usuário do sistema ao vendedor, feito isso, todas as vendas feitas por tal usuário serão vinculadas ao vendedor e com isso o vendedor ganharia comissão.
+
+Para designar um funcionário ao cargo de vendedor é necessário selecionar um funcionário na lista disponível e ir ao campo "//**Código**//" para digitar um código disponível para o funcionário, caso queira registrar uma percentagem de comissão para o mesmo é necessário ir ao campo "//**Comissão**//" e digitar o valor da comissão para o funcionário e clicar no botão "//**Incluir**//" feito isso automaticamente o nome do funcionário irá para a coluna à esquerda e ja estará cadastrado.

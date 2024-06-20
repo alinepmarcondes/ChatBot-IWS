@@ -1,0 +1,35 @@
+Title: == Relatório de itens com erro no preço
+
+Content:
+==
+
+----
+
+Relatorio que permite a partir de algumas informações detectar possiveis erros de produto.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→Itens com erro no preço||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos para realizar uma pesquisa no sistema:
+
+* **Sem Preço de Custo;**
+* **Sem Preço de Venda;**
+* **Com Preço de Venda Menor que o Preço de Custo;**
+* **Com Markup Menor Que** //"(Um Valor Inserido Pelo Usuário)"// **do Preço de Custo;**
+* **Com Markup Maior Que** //"(Um Valor Inserido Pelo Usuário)"// **do Preço de Custo;**
+* **Erro ao Voltar da Promoção;**
+* **Exibir Estoque;**
+* **Datas:** A escolher entre "//Sem Data//","//Data Cadastro//","//Ult. Alteração de Custo//","//Ult. Alteração de Preço//","//Ultima Venda//" e "//Ultima Compra//"
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Tipo de Produto:** para escolher entre "//Todos//", "//Pesáveis//" e "//Kits//"
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Após realizada a pesquisa será listado abaixo todos os produtos com erro no preço.

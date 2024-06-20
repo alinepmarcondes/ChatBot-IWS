@@ -1,0 +1,42 @@
+Title: = SPED Fiscal
+
+Content:
+=
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Empresa:** Para selecionar uma empresa;
+* **Pasta:** Para informar a pasta onde será salvo o arquivo;
+* **Ano:** Para informar o ano de referência;
+* **Mês:** Para informar o mês de referência;
+* **Finalidade:**Para informar qual é a finalidade do arquivo que está sendo gerado:
+- **Remessa do arquivo original:** Arquivo original;
+- **Remessa do arquivo substituto:** Caso ja tenha enviado o original e precisa retificar e enviar novamente;
+* **Gerar arquivo sem intervenção do usuário:**
+* **Gerar Inf. opcionais de NF com situação 08:**
+* **Gerar bloco K(estoque e produção):** Marcar Esta Opção caso deseje gerar o bloco K no arquivo;
+* **Incluir informações de inventário(Bloco H):** Marcar esta opção caso deseja marcar o bloco H no arquivo. Ao marcar esta opção habilitará novos campos a preencher sobre o bloco H:
+- **Inventário:** Para informar a data do inventário;
+- **Conta contábil:** Para informar a conta contábil;
+- **Utilizar Custo bruto:** Marcar para utilizar o custo bruto;
+- **Finalidade:**
+* **ICMS a recolher:** Para informar os valores sobre o ICMS a recolher:
+- **Vencimento;**
+- **Código da Receita;**
+* **ICMS-ST a recolher:** Para informar os valores sobre o ICMS-ST a recolher:
+- **Vencimento;**
+- **Código da Receita;**
+
+* **Bloquear Lançamentos:** Para bloquear lançamento financeiros no período referência;
+* **Gerar:** Para gerar o arquivo SPED;
+
+Ao clicar no botão "//**Gerar**//", e houver alguma nota fiscal não transmitida aparecerá a seguinte interface lhe informando quais são as notas.
+
+
+
+
+Recomendamos que seja verificado as notas apresentadas na listagem, antes de continuar a geraração do arquivo Sped. Para isto clique em cancelar e verifique as notas em [[manuais:intellicash:estoque:notas_fiscais:nota_fiscal_de_produto|Gerencimento→Estoque→Notas Fiscais→Nota Fiscal de Produto]]
+
+Caso o usuário clique na opção continuar será gerado o arquivo.

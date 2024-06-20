@@ -1,0 +1,8 @@
+Title: Guia comandas
+
+Content:
+Nesta guia o usuário consegue visualizar todas as comandas em aberto, pesquisar por alguma em específico e criar uma nova comanda.
+
+=== Pesquisar comanda ===
+
+Para pesquisar o usuário deverá infomar o número da comanda e pressionar o botão , conforme demonstra a figura abaixo.

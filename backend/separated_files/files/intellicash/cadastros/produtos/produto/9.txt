@@ -1,0 +1,51 @@
+Title: Valores
+
+Content:
+=== Composição ===
+
+A aba "//**Composição**//" mostra os valores financeiros de determinado produto selecionado, e ao lado existe um gráfico para expressar melhor visualização dos valores. Existem três tipos de gráfico nesta tela, “Composição do Custo, Análise do lucro líquido real, e análise do lucro líquido padrão”;
+
+
+
+Para alterar entre os três gráficos citados acima basta clicar com o botão direito do mouse na interface e selecionar a opção:
+
+
+
+Na parte superior direita da tela há uma legenda para o gráfico gerado.
+
+Na coluna à esquerda há os valores do produto com os seguintes campos:
+
+* **Custo:** informa os custos que tal produto traz;
+* **Preço:** informa o preço de venda deste produto;
+* **Markup:** indica o máximo do preço do produto que está acima do seu custo de produção e distribuição.
+* **Markdown:** indica o mínimo do preço do produto que está acima do seu custo de produção e distribuição.
+* **Markup Padrão:** Mostra qual o tipo de markup será o padrão;
+* **Preço Padrão:** informa qual o preço de venda padrão do produto;
+* **Max. Desc.:** informa qual o valor (em %) este produto poderá ter de desconto;
+* **Preço Min.:** informar o preço mínimo que este produto pode ter;
+* **Markup Min.:** mostra o valor mínimo do markup que este produto terá;
+* **Markdown Min:** mostra o valor mínimo do markdown que este produto terá;
+* **Custo Contábil:** informa o custo do produto retirando os valores dos impostos;
+* **Lucro liq. (%):** mostra o lucro líquido do produto em percentuais;
+* **Lucro liq. (R$):** mostra o lucro líquido do produto em reais;
+
+
+=== MarkUp Detalhado ===
+
+O "//**MarkUp Detalhado**//" é uma ferramenta que permite ao usuário configurar as operações que compõem seu markup.
+
+Para utilizar o markup detalhado a primeira coisa a se fazer é cadastrar os detalhes, para isso é preciso acessar o menu em "//**Gerenciamento→Configurações→Geral**//", localizar o item "//**Tipo Markup**//", e cadastrar os sub-itens.
+
+Após cadastrar os tipos de detalhamentos é possivel configurar o detalhamento por produtos ou seção, grupo, sub-grupo. Abaixo será descrito as formas de se cadastrar o MarkUp Detalhado.
+
+* **Cadastro de Produtos:** Para cadastrar um markup detalhado atravez do cadastro de produtos, basta clicar em "//**alterar o cadastro do produto**//", clicar sobre o Label "//**Markup Padrão**//", será exibida uma interface com 2 grid, o da esquerda são os detalhamentos disponiveis e os da direita são os detalhamentos que já fazem parte do markup detalhado do item, para adicionar um novo detalhe basta selecionalo e clicar na seta para direita, para remover basta selecionar e clicar na seta para esquerda.
+* **Atributos:** Na interface de atributos é possivel cadastrar o markup detalhado de 2 formas:
+ - Por Atributo: Para cadastrar o markup detalhado por atributo, basta escolher um dos atributos (Seção, Grupo ou Sub-Grupo), clicar com botão direito do mause sobre ele e escolher a opção "//**Markup Detalhado**//", será exibida a mesma interface descrita para cadastrar o markup. Ao cadastrar um markup detalhado por atributo o sistema irá perguntar se deseja aplicar o markup para todos os produtos, caso escolha "//__SIM__//" o sistema irá cadastrar o detalhamento para todos os itens do atributo escolhido.
+- Por Produtos: Para cadastrar o markup detalhado por produto na interface de atributos, basta selecionar um atributo ir até a aba "//**produtos**//", selecionar um ou mais produtos, clicar com botão direito sobre o grid e escolher a opção "//**MarkUp Detalhado**//".
+* **Relatório de Produtos Geral**: Na interface de produtos geral é possivel cadastrar markup detalhado para um ou mais itens ao mesmo tempo, para isso basta selecionar os produtos que deseja, clicar com botão direito sobre o grid e selecionar a opção "//**MarkUp Detalhado**//".
+
+
+
+Essa é a interface que será utilizada para cadastrar o markup detalhado em todas as interfaces possiveis.
+
+Após cadastrar o markup detalhado, acessando o cadastro de produtos na aba valores é possivel analisar o markup, clicando sobre o label "//**MarkUP Padrão**//", será listados os detalhamentos cadastrados para o produto e clicando com botão direito do mause sobre o grafico e escolhendo a opção "//**Analise do Custo Liquido Padrão**//" é possivel analisar atraves do grafico os detelhamentos e suas proporções.

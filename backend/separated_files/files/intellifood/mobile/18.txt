@@ -1,0 +1,4 @@
+Title: Editar
+
+Content:
+Para editar uma mesa o usuário deverá clicar no botãoda mesa em específico. Será aberto uma tela onde o usuário deverá alterar as informações necessárias e depois clicar no botão **Ok** ou no botão **Cancelar**, conforme demonstra a figura abaixo.

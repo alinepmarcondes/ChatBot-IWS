@@ -1,0 +1,22 @@
+Title: Pedidos
+
+Content:
+Nesta tela ficam todos os pedidos feitos para o fornecedor.
+
+
+
+Na parte superior da tela há os seguintes botões:
+
+* Para marcar os checkbox de acordo com o que deseja sobre os pedidos:
+- **Confirmadas;**
+- **Impressas;**
+- **Pendentes;**
+- **Descartados;**
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Por intervalo:** Ao selecionar esta opção é necessário selecionar um período a ser pesquisado os pedidos. Se esta opção estiver desmarcada, será mostrado todos os pedidos ja realizados.
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Logo abaixo mostra os pedidos existentes e os seus dados, ao selecionar um pedido mostrará na coluna abaixo os produtos que estão inseridos no pedido e todos os seus detalhes.
+
+A partir da versão 140.001 foram adcionados as fontes de dados no RTM e realizados algumas melhorias na tela como por exemplo imprimir somente a linha selecionadaao invés de imprimir todos os registros conforme anteriormente.

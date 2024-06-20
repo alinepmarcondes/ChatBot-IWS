@@ -1,0 +1,16 @@
+Title: == Cadastrar Convênios
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada para cadastrar os convênios da empresa e também visualizar seu histórico financeiro de uma forma mais rápida.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Convênios||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

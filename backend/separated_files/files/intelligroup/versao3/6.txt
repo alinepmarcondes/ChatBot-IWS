@@ -1,0 +1,4 @@
+Title: Associações
+
+Content:
+Para acessar a tela **Cadastro de associações** clique no menu **Cadastrar** e depois em **Associações**.

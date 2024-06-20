@@ -1,0 +1,8 @@
+Title: Cheques
+
+Content:
+A aba "//**Cheques**//" mostra um breve resumo dos cheques que o cliente deu ao estabelecimento.
+
+
+
+Nela há os botões início e término para pesquisar os cheques entre a data de entrada do cheque.

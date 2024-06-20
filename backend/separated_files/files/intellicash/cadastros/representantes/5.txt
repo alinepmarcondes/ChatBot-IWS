@@ -1,0 +1,4 @@
+Title: Dados Adicionais
+
+Content:
+A aba "//**Dados Adicionais**//" mostra os dados do representante, realacionado aos fornecedores, endereço e contato. Nesta tela é possível alterar os seus repectivos dados e também adicionar ou remover fornecedores que este representa.

@@ -1,0 +1,12 @@
+Title: = Configuração da Sweda SI-300S
+
+Content:
+=
+
+
+
+Enquanto que a configuração da impressora Elgin I9 é feita via software para efetuar a transição de porta emulada para USB, a impressora **POS Sweda SI-300S necessita que fisicamente seja modificado um DIP switch na mesma**. No manual do usuário, teremos:
+
+
+
+Deve-se **desligar o switch 8 do DIP Switch 1** para que a impressora fique somente em **modo USB**, conforme o próprio manual do fabricante. Segue a imagem:

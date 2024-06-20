@@ -1,0 +1,27 @@
+Title: = Emissão do RPA
+
+Content:
+=
+O Intellicash possui uma ferramenta para emissão de do RPA. Localizado em:
+||Gerenciamento→Transportadora→RPA||
+
+Nessa ferramenta o usuário deverá informar o valor do serviço prestado, e o sistema irá calcular usando as alíquotas padrões o valor a ser retido e o valor a ser pago ao autônomo.
+
+
+
+Para gerar um novo RPA, o usuário deverá clicar em **NOVO**, então ficarão ativo os campos para serem preenchidos. Por padrão a descrição do serviço vem preenchida como sendo "SERVIÇO de TRANSPORTE", bastando o usuário apenas informar a placa do veículo cujo o transporte foi feito, o número do INSS/PIS do autônomo que será pago e em seguida o valor do serviço prestado.
+
+Caso tenha algum valor a mais para ser acrescentado ao autônomo, pode ser digitado no campo Outro, e então será aberta uma janela para descrever referente a que se trata esse outro valor.
+
+Ao digitar esses valores, o sistema irá calcular a base de cálculo, alíquota, deduções e por fim o valor final de cada imposto a ser descontado no momento do pagamento.
+
+Caso precise alterar algum valor, basta clicar com botão direito do mouse sobre o campo que deseja alterar. Caso altere os campos Base de Cálculo, Alíquota ou deduções, o sistema irá calcular o valor final do imposto. Caso altere diretamente o valor do imposto, então não será modificado os demais campos.
+
+
+
+Ao clicar em **IMPRIMIR** é feita a impressão do RPA, e é armazenado no banco de dados para futuras referências. 
+
+
+Caso precise reimprimir um RPA, pode ser localizado na ABA "RPA Emitidos". Essa aba permite listar os RPA emitidos em um certo periodo, e ao selecionar os RPA, realizar a re-impressão. 
+
+Caso algum RPA tenha sido emitido incorretamente, pode ser feito seu cancelamento clicando com o botão direito do mouse sobre o RPA e escolhendo a opção de "Cancelar".

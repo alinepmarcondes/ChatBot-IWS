@@ -1,0 +1,14 @@
+Title: Cotação Fechada
+
+Content:
+Nessa tela são exibidos todas as cotações fechadas.
+
+
+
+Caso não haja nenhuma cotação fechada será exibido a seguinte mensagem:
+
+
+
+=== Resultados Cotação Fechada ===
+
+Para visualizar o resultado o usuário deverá selecionar a cotação desejada.

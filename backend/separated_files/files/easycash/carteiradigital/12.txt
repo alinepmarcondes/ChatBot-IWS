@@ -1,0 +1,3 @@
+Title: Motivos para que uma transação com QRCode do Estabelecimento possa demorar a ser processada
+
+Content:

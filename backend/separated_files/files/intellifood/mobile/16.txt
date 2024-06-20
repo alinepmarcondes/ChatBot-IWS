@@ -1,0 +1,6 @@
+Title: = Cadastro mesa
+
+Content:
+= 
+
+Para cadastrar mesa o usuário precisa das permissões necessárias. Na tela principal o usuário deverá clicar no botãoe depois em **Cadastro** e depois em **Mesas**, conforme demonstra a figuara abaixo.

@@ -1,0 +1,34 @@
+Title: == Cadastrar Famílias (Rel. Análise Rentabilidade)
+
+Content:
+==
+
+----
+
+Estatela foi criada para cadastrar famílias para poder gerar um relatório de análise que fica no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Análise de Rentabilidade||
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Cadastrar Famílias (Rel. Análise Rentabilidade)||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nessa interface temos as seguintes informações:
+
+- **Família:** é uma descrição que será dada para as classificações na quela faixa de valor;
+- **Inferior:** é o limite inicial daquela família;
+- **Superior:** é o limite final daquela família;
+
+
+
+Abaixo os seguintes botões:
+* **Gravar** para cadastrar os dados inseridos nos campos acima;
+* **Alterar** para alterar os dados de alguma família já cadastrada;
+* **Excluir** para excluir uma família selecionada;
+* **Fechar** para sair e concluir a operação.

@@ -1,0 +1,10 @@
+Title: = Localizar
+
+Content:
+=
+
+
+
+Existem duas abas: Localizar e Cadastro. Na primeira podemos encontar as linhas já cadastradas, a segunda exibe o formulário com os dados da linha selecionada;
+
+O campo "//**Localizar**//" é onde se insere o nome da linha para localiza-la, ou em branco ou com a palavra "TODOS" para buscar todos os registros. Após inserir o nome, basta pressionar a telca __Enter__; Após isso, logo abaixo exibe todas os resultados encontrados. A seleção por duplo click ou pressionando enter leva para a aba Cadastro contendo os dados da seleção.

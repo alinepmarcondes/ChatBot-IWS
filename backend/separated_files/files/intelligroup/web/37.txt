@@ -1,0 +1,4 @@
+Title: Imprimir estoque
+
+Content:
+Para imprimir o estoque, o usuário deverá marcar a opção "Estoque", localizado logo abaixo do botão "Imprimir" e clicar no mesmo conforme demonstra a figura abaixo.

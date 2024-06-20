@@ -1,0 +1,26 @@
+Title: == Relatório de Clientes em Aberto
+
+Content:
+==
+
+----
+
+Relatório que mostra todas as vendas no período selecionado, e em seguinda mostra as vendas recebidas e à receber, e seus detalhes financeiros.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Relatório de Clientes em Aberto||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tela há os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Após realizada a pesquisa mostrará os valores recebidos e a receber na coluna abaixo e ao selecionar algum valor será mostrados os clientes em aberto na coluna à esquerda e o valor total aberto, e na coluna à esquerda mostrará todos os lançamentos realizados por este cliente.

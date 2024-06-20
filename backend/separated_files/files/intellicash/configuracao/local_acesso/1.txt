@@ -1,0 +1,33 @@
+Title: == Locais de Acesso
+
+Content:
+==
+
+----
+
+Os Locais de acesso dentro de configuração, tem como objetivo permitir que o usuário adicione uma nova conexão com outro banco de dados, ou seja, caso o cliente trabalhe com matriz e filiais o mesmo poderá por esta tela criar a comunicação com a sua filial. 
+Porém devemos lembrar que, para de fato entrar no sistema da filial será necessário sair do intellicash e selecionar a filial, com o seu respectivo usuário e senha
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Locais de Acesso||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os campos a se preencher com os seguintes atributos: 
+- **IP ou URL do host:** deve-se colocar o IP do servidor da base de dados;
+- **Porta:** informar a porta TCP que será usada,que por padrão já será informada pelo sistema;
+- **Servidor de aplicativos:** é um software que fornece um ambiente para a execução das aplicações, mas por padrão já será informado pelo sistema;
+- **Descrição:** para descrever o nome do banco;
+- **BD Alias:** para informar o BD;
+
+Após preenchidos corretamente é necessário clicar no botão "ok" para confirmar a operação ou "cancelar" para sair desta tela. Feito isso a Conexão já estará cadastrada.
+
+* **Alterar** para alterar dados do banco de dados, e ao clicar neste botão aparecerá a mesma interface do botão novo;
+* **Excluir** para excluir um banco de dados selecionado;
+* **Cancelar** para fechar e cancelar esta operação;
+* **Ok** para concluir e fechar esta operação;

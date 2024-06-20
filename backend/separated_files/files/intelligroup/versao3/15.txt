@@ -1,0 +1,6 @@
+Title: = Cadastro
+
+Content:
+=
+
+Para acessar as informações cadastrais clique no menu **Cadastrar**.

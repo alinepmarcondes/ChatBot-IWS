@@ -1,0 +1,43 @@
+Title: == Relatório de Entrada e Saída de Estoque
+
+Content:
+==
+
+----
+
+Relatório que mostra as estradas e saídas do estoque de acordo com a configuração utilizada.
+
+----
+
+Primeiramente deve-se escolher quais as operações de entrada/saída são exibidos no relatório. Para configurar o usuário deve entrar em:
+
+|| Gerenciamento -> Configurações -> Tipos de Movimentação de Estoque ||
+
+Selecione o **REL. Entrada e Saída**, e verifique ao lado direito quais as operações compõe o relatório.
+
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Estoque→Análise de Custo→Rel. Entrada e Saída||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tela há os seguintes campos:
+
+* **Início e Término:** para determinar um período de datas a ser pesquisado;
+* **Tipo:** Para selecionar um atributo a ser pesquisado;
+* **Descrição:** Para selecionar uma descrição a ser pesquisada de acordo com o tipo selecionado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Na parte inferior da tela há também, alguns botões para filtrar a pesquisa se desejar com os seguintes campos:
+
+* **Busca Rápida:** para fazer uma pesquisa rápida por um produto;
+* **Filtro:** que ao marcar será considerado os campos ao lado, que por padrão ele aparece configurado pela ultima pesquisa realizada, mas que se desmarcado o filtro abaixo estará desabilitado;
+* **Qtde** e **Valor:** para selecionar qual atributo será pesquisado;
+* **Maior Que:** para informar no campo que a pesquisa pesquisará quantidades maiores que;
+* **Menor Que:** para informar no campo que a pesquisa pesquisará quantidades menores que;
+* **E** e **Ou:** para pesquisar entre "//**Maior Que e Menor Que**//" ou "//**Maior Que ou Menor Que**//";
+* **Aplicar** para realizar a pesquisa.

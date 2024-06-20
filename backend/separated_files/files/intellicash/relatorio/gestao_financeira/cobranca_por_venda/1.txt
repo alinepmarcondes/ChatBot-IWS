@@ -1,0 +1,28 @@
+Title: == Cobrança por Venda
+
+Content:
+==
+
+----
+
+Este relatório mostra todas as vendas vencidas dos clientes, no período selecionado, e mostra os detalhes financeiros.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Cobrança por Venda||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+* **Início e Término:** para determinar um período de datas a ser pesquisado;
+
+* **Somente P.J. (Pessoas Jurídicas):** escolher esta opção mostrará apenas pessoas jurídicas no resultado da pesquisa;
+* **Somente P.F. (Pessoas Físicas):** escolher esta opção mostrará apenas pessoas físicas no resultado da pesquisa;
+* **Mostrar Compra Mais Antiga:**
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Após realizada a pesquisa será mostrada na coluna abaixo os clientes com crédito estourado e os seus dados.

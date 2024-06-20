@@ -1,0 +1,8 @@
+Title: = Recebimento
+
+Content:
+=
+
+
+
+Para saber mais informações sobre essa ferramenta visite o manual de [[manuais:intellicash:financeiro:baixas:contas_receber|Recebimento]]

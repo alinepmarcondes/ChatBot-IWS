@@ -1,0 +1,6 @@
+Title: = Localizar por Código Interno
+
+Content:
+=
+
+Para localizar um orçamento por código interno, o usuário deverá acessar o menu localizado no canto superior direitoe pressionar o item "Localizar por cód. interno".

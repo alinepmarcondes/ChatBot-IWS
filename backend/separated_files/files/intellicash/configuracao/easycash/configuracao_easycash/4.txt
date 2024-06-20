@@ -1,0 +1,10 @@
+Title: Integração
+
+Content:
+Essa aba contém as configurações referente a integração com a retaguarda, ou seja, como o sistema de frente de caixa vai enviar os dados.
+
+
+
+
+
+* **Falta de Estoque:** Essa configuração serve para se seja escolhido em que botão o cliente prefere que venha o foco da mensagem de falta de estoque e questiona se deseja vender mesmo assim 'SIM' ou'NÃO'

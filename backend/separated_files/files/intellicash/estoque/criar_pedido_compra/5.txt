@@ -1,0 +1,26 @@
+Title: = Relatório de Compras
+
+Content:
+=
+
+
+A aba "//**Relatório de compras**//" apresenta um relatório sobre os pedidos confirmados e enviados para os fornecedores.
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Filtrar Data Por:** Para escolher entre a data de início ou término do pedido a se pesquisar;
+* **Início** e **Término:** Para determinar um período de datas a ser pesquisado;
+* **Imprimir:** Para imprimir os dados do item.
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+
+Nesta interface há 4 colunas distintas:
+
+A coluna "//**Pedido de Compra**//" exibe uma lista de todos os pedidos confirmados no intervalo de tempo determinado no filtro de datas;
+
+A coluna "//**Clientes**//" exibe a lista de Clientes a quem foram emitidos os pedidos, ou seja, aqui é possível identificar se o pedido foi exportado de forma "__//segmentada//__" ou "//__consolidada__//". Quando o pedido é feito de forma Consolidada teremos apenas um Cliente que por sua vez é o cliente gestor das compras. Por outro lado, quando o pedido é Segmentado, teremos a lista de todos os associados que efetuaram a compra naquele pedido selecionado na área anterior;
+
+A coluna "//**Fornecedor**//" exibe a lista de fornecedores que contenham algum volume de compra para o cliente selecionado;
+
+A coluna "//**Produtos**//" exibe a lista de produtos pedidos, que pode conter o volume do pedido individual do cliente caso a modalidade do pedido tenha sido Segmentada, ou o montate de todos os pedidos caso a modalidade tenha sido Consolidada;

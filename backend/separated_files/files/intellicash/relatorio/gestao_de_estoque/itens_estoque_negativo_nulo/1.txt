@@ -1,0 +1,34 @@
+Title: == Itens Com Estoque Negativo Ou Nulo
+
+Content:
+==
+
+----
+
+Este relatório mostra os produtos que estão com estoque negativo, nulo ou ainda produtos inativos no sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Estoque→Análise de Qtde→Itens Com Estoque Negativo ou Nulo||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+
+Esta tela mostra um relatório de estoque com itens negativos, nulos e também inativos.
+
+Na parte superior da tela há os seguintes campos:
+
+* **Data:** para selecionar uma data a ser pesquisada;
+* **Tipo:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Categoria:** Para selecionar uma categoria do atributo selecionado;
+* **Produtos Inativos:** Marcar esta opção o relatório irá pesquisar por produtos inativos no sistema;
+* **Estoque Negativo:** Marcar esta opção o relatório irá pesquisar por produtos com estoque negativo no sistema no sistema;
+* **Produtos Zerado:** Marcar esta opção o relatório irá pesquisar por produtos com estoque zerado no sistema;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+* **Gerar Cotação**: permite ao usuário gerar uma cotação com os itens da tela, ou adicionar a uma cotação já existente.
+* **Zerar Itens**: permite ao usuário zerar os itens com estoque negativos. Ao clicar nessa opção será criado um inventário com os itens que estão com estoque negativos.

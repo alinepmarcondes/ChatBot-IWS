@@ -1,0 +1,4 @@
+Title: Help
+
+Content:
+Esse menu não vai te ajudar em nada. As referências são apenas uma documentação das classes do Report Builder. Não tem exemplo e nem explica o que as ferramentas de edição fazem.

@@ -1,0 +1,19 @@
+Title: Cadastrando Tipos Proventos
+
+Content:
+Nesse momento já poderemos também cadastrar o tipos de proventos dos funcionários em geral. Esses proventos nada mais são que salários, salário família, horas extras e etc. esse cadastro fica a cargo de cada usuário sempre seguindo a orientação do setor administrativo da empresa, pois cada empresa tem sua disciplina na questão de renumeração de seus colaboradores. A Seguir mostraremos uma tela com exemplos de tipos de proventos mais comuns.
+
+
+
+Para se cadastrar um novo provento o usuário deverá já estar com tela de tipos de proventos aberto, que conterá a lista de proventos, caso já esteja cadastrado algum provento, os botões “//**Excluir**//”, ”//**Alterar**//” e ”//**Novo**//”.
+
+Clicando no botão “//**Novo**//” Aparecerá a seguinte interface:
+
+
+
+Nela há os seguintes campos:
+
+* **Provento:** para informar o tipo do provento, Ex.: Salário Base, também relacionará ao seu centro de custo já cadastrado, caso alguma dúvida, dê uma olhada no manual de [[manuais:intellicash:cadastros:plano_contas|centro de custos]]
+* **Fator:** se positivo refere-se que a empresa terá que pagar a seu funcionário, negativo quando o funcionário esta devendo para a empresa, Ex.: Vales, o campo “//**Regular**//” quer dizer se aquele provento se incide todos os meses.
+
+Da mesma forma se dá, quando se quer alterar algum tipo de provento, selecionando a linha do provento correspondente que se deseja alterar e clicando no botão “//**Alterar**//”, o sistema mostrará uma tela igual a do cadastro de proventos só que ela virá preenchida com os dados da linha selecionada o que difere esta tela do cadastro de um novo provento e que nela o usuário poderá alterar também a ordem em que e listado os proventos.

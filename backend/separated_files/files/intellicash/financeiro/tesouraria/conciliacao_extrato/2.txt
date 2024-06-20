@@ -1,0 +1,6 @@
+Title: = Acesso as Funcionalidades
+
+Content:
+=
+
+Para ter acesso a todas as funcionalidades da Conciliação do Extrato Bancário basta acessar a interface que se encontra em (Gerenciamento -> Financeiro -> Tesouraria -> Conciliação de Extrato Bancário).

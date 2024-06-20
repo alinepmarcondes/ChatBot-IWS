@@ -1,0 +1,8 @@
+Title: == REPORT BUILDER
+
+Content:
+==
+
+Este manual tem como intenção documentar as informações mais básicas a cerca da ferramenta de configuração de impressão para relatórios utilizado no **IC** e também em outras ferramentas.
+
+Em praticamente toda parte do IC é possível encontrar um botão **Imprimir** com a opção de edição da página de impressão e isso é feito com a ferramenta chamada Report Builder.

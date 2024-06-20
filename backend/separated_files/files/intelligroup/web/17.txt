@@ -1,0 +1,4 @@
+Title: Itens da compra
+
+Content:
+Para visualizar as informações da nota e os itens da compra, o usuário deverá clicar sobre a compra desejada, onde as informações serão exibidas logo abaixo conforme demonstra a figura abaixo.

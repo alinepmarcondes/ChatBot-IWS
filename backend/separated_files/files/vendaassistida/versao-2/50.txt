@@ -1,0 +1,4 @@
+Title: Teclado numérico
+
+Content:
+Essa configuração define o tipo do teclado para o campo de pesquisa de produtos na tela de orçamento.

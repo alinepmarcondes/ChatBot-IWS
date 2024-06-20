@@ -1,0 +1,6 @@
+Title: = Informações do Produto
+
+Content:
+=
+
+Para ver as informações do produto, o usuário deverá manter o produto do orçamento pressionado até que o menu de opções apareça na barra superior e pressionar o botão .

@@ -1,0 +1,6 @@
+Title: = Permissões
+
+Content:
+=
+
+Antes de acessar esta tela é necessário lembrar que apenas quem tem permissão pode utilizá-la. Por isso é necessário informar login e senha.

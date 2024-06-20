@@ -1,0 +1,22 @@
+Title: = Cotações
+
+Content:
+=
+
+A aba "//**Cotações**//" Lista as cotações de acordo com filtro na parte inferior da interface (//Em Aberto, Fechadas, Descartadas//). Por padrão esse filtro inicia como "__Em Aberto__".\\
+
+Nesta tela há os seguintes botões:
+
+* **Novo:** Cadastra uma nova cotação. Ao clicar nesse botão será exibida uma outra interface para informar uma Descrição, Prazo para Fechamento, Prazo Desejado e a Taxa Financeira; 
+- **Descrição**: Uma descrição para identificar a cotação
+- **Prazo de Fechamento**: Uma data prevista para fechar a cotação;
+- **Prazo Desejado**: Um prazo para entregar os produtos após o fechamento;
+- **Taxa de Aplicação Financeira**: Valor em porcentagem que será aplicado no valor do produto. Essa taxa é utilizada na hora de fechar a cotação e verificar qual fornecedor tem a melhor forma de pagamento). De acordo com a taxa financeira é possível verificar se compensa pagar o produto a vista com um preço menor ou com 30 dias.
+* **Alterar**: Altera os dados da cotação como: Descrição, prazo de fechamento, Prazo Desejado e taxa financeira;
+* **Excluir**: Exclui a cotação;
+* **Fechar:** Para encerrar a cotação;
+* **Disponibilizar:** Para disponibilizar online para os fornecedores fazem pela cotação web;
+* **Enviar e-mail:** Envia e-mail para os representantes informado sobre a cotação (Esse botão só ficará habilitado se a cotação estiver diponível). Ao clicar nesse botão será exibida outra interface para selecionar os representantes que deseja enviar o e-mail.
+Nessa interface é possivel localizar um representante, localizar um fornecedor, tanto a localização de representante quanto fornecedor podem ser feitas por nome ou documento. Também é possivel filtrar apenas representantes que tenham e-mail, além de poder cadastrar ou alterar um representante. 
+Após selecionar os representante que deseja enviar e-mail, basta clicar no botão **"Enviar"**. \\
+Na aba Configuração é possivel configurar o texto que será exibidono e-mail.

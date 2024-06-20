@@ -1,0 +1,14 @@
+Title: = Pedidos
+
+Content:
+=
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Nesta interface há suas colunas, a primeira coluna mostra os pedidos mostrando seus dados e a sua situação, e na segunda coluna mostra os itens de um pedido selecionado na coluna acima e os seus dados.

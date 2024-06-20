@@ -1,0 +1,8 @@
+Title: = Emissão em Contingência(NFC-e) com o SAT para Estado de SP
+
+Content:
+=
+
+No estado de São Paulo não é possível utilizar a contingência offline no formato que ocorre em outras unidades federativas, portanto, na versão **1.4.020.002** a aplicação passou por melhorias para comportar o SAT como contingência.\\
+\\
+**Fonte:** [[https://www.projetoacbr.com.br/forum/topic/72037-nfce-sp-desobrigado-a-posse-de-sat-previamente-ativado-para-credenciamento-do-contribuinte-para-emiss%C3%A3o-de-nfce/ |nfce-sp-desobrigado-a-posse-de-sat-previamente-ativado-para-credenciamento-do-contribuinte-para-emissao-de-nfce]]

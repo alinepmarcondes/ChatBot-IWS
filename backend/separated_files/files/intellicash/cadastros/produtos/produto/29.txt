@@ -1,0 +1,45 @@
+Title: Kit (Cesta)
+
+Content:
+Kit ou Cesta, é o tipo de composição em que ao vender o produto, serão exibidos os itens que o compõe. Usado por exemplo em Cestas Básicas.
+
+**Cadastrando Kit**
+
+
+
+Nesta tela há um campo a ser procurado o produto e ao fazer uma busca aparecerá a seguinte tela:
+
+
+
+Ao localizar e selecionar um produto e clicar em ok a tela volta com os campos não selecionáveis preenchidos:
+
+
+
+Após selecionado o item na tela anterior deve informar a quantidade de itens e o preço de venda do produto(vem pré preenchido) no kit/produção e assim clicar no botão inserir para incluir o produto no kit/produção.
+
+Nesta tela há os seguintes campos:
+
+* **Excluir:** Para excluir um item da lista de cadastro do kit;
+* **Cancelar:** Para cancelar a operação de cadastro do kit;
+* **Salvar:** Para salvar e cadastrar o kit;
+
+Após cadastrado o kit será necessário recarregar o cadastro do produto, e ao recarregar será aberto por padrão a aba "//**Kit(Cesta)**//".
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Alterar Estrutura:** Ao clicar neste botão abrirá uma interface semelhante à de inserir itens como visto acima;
+* **Recalcular:** Para recalcular os valores dos itens e do kit, após alterada estrutura da cesta;
+
+Ao clciar na aba "//**Histórico de Vendas (Kit)**//" aparecerá a seguinte interface:
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Início** e **Término:** Para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** Para imprimir os dados do item.
+
+Esta interface mostra o histórico de vendas do kit (cesta) durante um determinado período de datas, e nela há duas colunas, à primeira mostrando as vendas da cesta e os seus dados, e na segunda coluna mostra os itens que foram vendido na cesta selecionada na coluna acima.

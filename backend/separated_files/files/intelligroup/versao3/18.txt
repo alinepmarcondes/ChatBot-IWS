@@ -1,0 +1,4 @@
+Title: Fornecedores
+
+Content:
+Para acessar a tela **Cadastro de fornecedores** clique no menu **Cadastrar** e depois em **Fornecedores**.

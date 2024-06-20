@@ -1,0 +1,21 @@
+Title: = Alterar Preço com Base no Markup Detalhado
+
+Content:
+=
+
+----
+
+Esta ferramenta tem a função de alterar o preço dos produtos com base no Markup Detalhado.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Alterar Preço com Base no Markup Detalhado||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nessa interface é possivel filtrar os produtos por atributos e tambem fazer um filtro com os itens que aplicando o markup detalhado a diferença seja menor ou maior que um valor estipulado (esse valor é em porcentagem). Após listar os itens no grid o usuário pode alterar as culunas **Markup Ajustado** e ou **PreçoAjustado**, ambos já são carregados com o valor de acordo com markup detalhado. \\
+Ao clicar no botão "//**Alterar Preço**//" o sistema irá alterar o preço dos itens selecionados para o preço que está no campo **Preço Ajustado**.

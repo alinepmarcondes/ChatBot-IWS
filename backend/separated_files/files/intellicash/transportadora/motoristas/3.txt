@@ -1,0 +1,8 @@
+Title: == Cadastrar Motorista
+
+Content:
+==
+Ao clicar no botão “**Novo**” aparecerá a janela Novo Motorista, a mesma terá campos distintos de Pessoa Física para jurídica:
+* **Pessoa Física:** Se selecionado Pessoa Física teremos os seguintes campos a serem preenchidos"//**CPF**//", "//**RG**//", "//**Nome**//", "//**Apelido**//","//**CNH**//" e "//**Observações**//".
+
+* **Pessoa Jurídica:** Se selecionado Pessoa Jurídica teremos os seguintes campos a serem preenchidos"//**CNPJ**//", "//**I.E**//", "//**Nome**//", "//**Fantasia**//","//**CNH**//" e "//**Observações**//".

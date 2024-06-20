@@ -1,0 +1,39 @@
+Title: Cadastrando uma Transportadora
+
+Content:
+Ao clicar no botão "//**Novo**//" aparecerá uma interface para informar e a validar o CNPJ que será cadastrado. Após digitar o CNPJ e cadastrá-lo aparecerá uma nova interface para cadastrar a transportadora.
+
+
+
+Nesta tela há os seguintes campos: 
+
+* **Razão social:** Para informar a razão social da transportadora;
+* **Fantasia:** Para informar o nome fantasia da transportadora;
+* **CNPJ:** Para informar o CNPJ da transportadora;
+* **Inscrição estadual:** Para informar a Inscrição estadual da transportadora;
+* **UF:** Para informar o estado da transportadora;
+* **Data última tabela:** Para informar qual o ultimo dia foi utilizado a tabela da tranportadora;
+* **Cod. Última tabela:** Para informar qual o último código da tabela utilizada pela transportadora;
+* **Site:** Para informar o site da transportadora;
+* **Destaca ICMS:** Para informar se a transportadora destaca ou não ICMS;
+* **Tipo PM:**
+* **P. PM:**
+* **Prazo médio entrega:** Para informar o prazo, em dias, da entrega da transportadora ao estabelecimento;
+* **Valor Frete Mínimo:** Para informar o valor mínimo de frete da tranportadora;
+* **Percentagem Frete:** Para informar qual a percentagem de frete, da transportadora, que será inserido na nota;
+* **Frete incide sobre:** Para informar se o frete incidirá sobre o valor total dos produtos, ou o valor total da nota;
+* **Regime de tributação:** Para informar o tipo de regime tributário da transportadora;
+
+Após Confirmados os dados do cadastro aparecerá uma nova interface referente à endereços.
+
+
+
+Nesta interface deverão ser preenchidos os campos “//**Tipo**//” (para informar o tipo de endereço da tranportadora), “//**CEP**//”, “//**Logradouro**//”, “//**Nº**//”, “//**Complemento**//”, “//**Bairro**//”, “//**Cidade**//”, “//**UF**//”, “//**País**//”, “//**Ponto de Referência**//”, “//**I.E. Isento**//” e “//**I.E.**//”.
+
+Após Cadastrar o Endereço da transportadora é há à interface referente à contatos da transportadora:
+
+
+
+Nesta interface deverão ser preenchidos os campos “//**Tipo**//” (para informar o tipo de telefone da transportadora), “//**Telefone**//”, “//**Operadora**//” e “//**Contato**//”.
+
+Após isso a transportadora será cadastrada e automaticamente irá para a aba "//**Cadastro**//".

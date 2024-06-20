@@ -1,0 +1,6 @@
+Title: = Pedidos Abertos
+
+Content:
+=
+
+Para retomar um pedido aberto, o usuário deverá pressionar o menu "Pedido Aberto" localizado no canto superior direito.

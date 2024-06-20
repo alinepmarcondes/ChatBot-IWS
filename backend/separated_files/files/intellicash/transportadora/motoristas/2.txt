@@ -1,0 +1,9 @@
+Title: == Localizar
+
+Content:
+==
+A aba “**Localizar**” tem a função de localizar motoristas já cadastrados.
+Nela há os seguintes campos:
+***Localizar:**Busca um motorista cadastrado pelo nome, apelido ou documento;
+***Todos:**Para listar todos os motoristas já cadastrados;
+***Exibir Inativos:**Quando habilitado, mostra também os cadastros inativos de motoristas;

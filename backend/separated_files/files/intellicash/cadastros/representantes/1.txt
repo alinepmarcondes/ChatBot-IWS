@@ -1,0 +1,16 @@
+Title: == Cadastrar Representantes
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar representantes dos fornecedores para a cotação web.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Representantes||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

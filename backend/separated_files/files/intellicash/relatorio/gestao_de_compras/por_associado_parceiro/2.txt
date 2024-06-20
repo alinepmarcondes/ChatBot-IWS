@@ -1,0 +1,11 @@
+Title: = Gerar Pedido por Produto
+
+Content:
+=
+
+Na aba de "//**Produtos Próprios**//" separados "//**Por Produtos**//" há um check box para cada produto que determina quais produtos serão inseridos nos orçamentos de cada cliente que aparece para os produtos selecionados.
+
+"//**Gerar Pedido**//" quando acionado pela área "//**Por Associados**//" irá gerar um orçamento para cada associado, assim como "//**Por Produtos**//", e adicionará todos os produtos próprios com resultados para aquele associado.
+
+Em ambos os casos a quantidade sugerida é a quantidade de venda de cada produto. Caso haja uma quantidade mínima definida para o produto e o estoque esteja abaixo dessa quantidade, a sugestão será a **venda + quantidade mínima**.
+Esta quantidade pode ser alterada normalmente ao abrir o orçamento do cliente(associado).

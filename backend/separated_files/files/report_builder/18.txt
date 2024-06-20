@@ -1,0 +1,4 @@
+Title: Report Bands / Objects
+
+Content:
+No canto superior esquerdo há uma caixa que possui três filtros: **Variables**, **Events**, **Module**. A exibição de eventos é mais apropriada, pois o comportamento de cada seção do relatório se comporta de uma determinada forma em cada evento.

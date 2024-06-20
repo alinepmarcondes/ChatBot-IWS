@@ -1,0 +1,70 @@
+Title: == CT-e
+
+Content:
+==
+
+A aba “CT-e” tem a função de visualizar os dados do CT-e, financeiro e informações de transmição e xml da CT-e.
+
+
+
+No primeiro grid há os seguintes campos:
+
+* Tomador;
+* CNPJ/CPF;
+* Tipo Tom.;
+* Tipo serv.;
+* CFOP;
+* Valor do Serviço;
+* Valor Receber;
+* Detalhes dos Valores;
+* Informar Detalhes dos Valores; 
+
+* **Modelo:** Modelo do CT-e (57);
+* **Série:** Série do CT-e;
+* **Número:** Número do CT-e;
+* **Emissão:** Data de emissão do CT-e;
+* **Saída:** Data da Transmissão do CT-e;
+
+O segundo grid é dividido em cinco partes "**Participantes**", "**Complementares**", "**Veículo**", "**Financeiro**" e "**CT-e**":
+
+* **Aba Participantes:** Dados dos agentes que fazem parte do CT-e.
+
+----
+* **Aba Complementos:** Nela temos informações como "Dados complementares"," Documentos para entrega", "Informações da Carga" e "Seguro".
+
+----
+* **Aba Veículo:**Dados do veículo que irá realizar o transporte da carga.
+
+----
+* **Aba Financeiro:**Dados financeiros do CT-e; 
+ 
+
+
+Nela temos os seguintes botões:
+* **Novo a Receber**: Para lançar contas a receber; 
+* **Novo a Pagar**:Para lançar contas a pagar; 
+* **Alterar**: Para alterar um financeiro gerado;
+* Ambos irão abrir a seguinte janela:
+
+* **Excluir**": Para excluir um financeiro gerado.
+
+----
+* **Aba CT-e:**Mostrará as informações referente a transmissão do CT-e.
+
+
+Nesta tela há os seguintes campos:
+
+* Parte Aleatória da Chave;
+* Chave de Consulta da CTe;
+* Protocolo de Autorização;
+* Nº do Recibo;
+* Data e Hora do Recibo;
+
+* **Exportar Para XML:** para exportar os dados do Conhecimento de Transporte para um arquivo no formato ".xml";
+* **Enviar por Email:** Para enviar por e-mail em anexo o arquivo xml e o DACTe em pdf;
+* **Tipo de envio:** Permite selecionar qual o tipo de envio do CT-e, Normal, FS-DA, SVC-RS ou SVC-SP(contingência). 
+* **Transmitir CT-e:** permite enviar a CT-e caso não tenha sido enviada.
+* **Status Serviço:** para consultar a disponibilidade do serviço.
+* **Consultar CT-e:** Consultar o status da CT-e, e caso tenha o status divergente do Intellicash, faz a correção.
+* **Gerar XML:** Para gerar o arquivo XML caso ainda não tenha sido gerado. Caso já tenha sido gerado um XML, será exportado o XML para arquivo.
+* **Imprimir DACT-e:** para imprimir a DACT-e dos Conhecimentos de Transporte já transmitidas.

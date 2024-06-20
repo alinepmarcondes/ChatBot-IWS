@@ -1,0 +1,4 @@
+Title: Produtos
+
+Content:
+Para acessar a tela **Cadastro de produtos** clique no menu **Cadastrar** e depois em **Produtos**.

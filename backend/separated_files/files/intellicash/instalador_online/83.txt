@@ -1,0 +1,12 @@
+Title: Código 610
+
+Content:
+Mensagem de erro: //Falha ao copiar arquivos! Entre em contato com o suporte!//
+
+Soluções possíveis:
+* Verifique se o usuário do //**Windows**// possui permissões necessárias para executar o //**Instalador Online**//.
+
+Realize estes procedimentos a seguir:
+* Finalize o programa de instalação;
+* Faça as possíveis soluções;
+* Tente executar o //**Instalador Online**// novamente.

@@ -1,0 +1,18 @@
+Title: Instalação
+
+Content:
+Para instalar o serviço, é preciso executar o prompt de comando como administrador. 
+
+
+Localizar a pasta onde o arquivo **IwsRestartSW.exe** se encontra e digitar o comando:\\
+''IwsRestartSW.exe -install''
+
+
+
+Caso tenha instalado com sucesso irá aparecer a mensagem:
+
+
+Para confirmar se o serviço foi devidamente instalado acesse o painel de serviços do Windows e procure por **IWS RestartSW**.
+
+
+Para inicializar o serviço, clique sobre o botão de inicializar serviço na parte superior (setinha verde). Caso contrário o serviço será inicializado automaticamente quando o computador for reinicializado.

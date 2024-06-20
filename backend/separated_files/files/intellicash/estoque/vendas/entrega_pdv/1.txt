@@ -1,0 +1,42 @@
+Title: == Ferramenta de Controle de Entrega do PDV
+
+Content:
+==
+
+----
+
+ Funcionalidade criada para permitir consultar todas entregas solicitadas no EasyCash, possibilitando visualizar os detalhes de cada uma, bem como do cupom vinculado. Possibilita ainda agendar e gerenciar as entregas agendadas.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||//Gerenciamento-> Estoque-> Vendas-> Controle de Entregas-> Entrega PDV//||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado. Eles virão preenchidos com o intervalo de um dia, podendo ser alterado;
+* **Nº ECF:** Para informar o número da ECF;
+* **Cliente:** Para informar o cliente desejado;
+* **COO:** Para informar o número do COO impresso no cupom fiscal;
+* **Logradouro:** Para informar endereço que deseja pesquisar;
+* **Cidade:** Para informar a cidade desejada;
+* **Estado:** Para informar o estado desejado;
+* **Status** Para filtar por Status de entrega, podendo ser "Todos", "Pendente", "Trânsito" ou "Entregue". Por padrão, serão exibidos "Todos".
+* **Filtrar:** Para realizar a pesquisa;
+* **Limpar:** Para limpar os campos do filtro;
+
+
+
+Após efetuar a pesquisa, uma lista com todos registros encontrados será apresentada no campo "//**Registros**//". Note que ao selecionar um registro da lista, no final da página será apresentado um detalhamento contendo o número do cupom fiscal (COO) e seu respectivo valor. Note também que todas as abas da janela foram habilitadas. Ao dar um duplo clique sobre qualquer registro da lista, automaticamente, a aba "//**Cadastro**//" será aberta. Cada aba será descrita adiante:
+ 
+* Aba "//**Cadastro**//": detalha os dados de entrega do registro que foi selecionado na listagem (Grid) principal. Os dados foram agrupados em:
+- "//**Dados do cliente:**//" Nome e endereço de entrega;
+- "//**Telefone de entrega;**//"
+- "//**Informações complementares:**//" Parâmetros de entrega, dados adicionais, nome do empacotador e volume.
+* Aba "//**Cupom Fiscal Vinculado**//": Apresenta uma listagem de todos os itens do cupom, contendo o EAN, a descrição do produto, quantidade e valor para cada item.
+* Aba "//**Mapa**//": Localizada dentro da aba principal (Busca), dentro do agrupamento dos "registros", acessa-se um mapa. Ao clicar no botão "Carregar", será apresentado neste mapa marcadores com a **localização aproximada** de cada registro presente na listagem principal. Destaca-se "localização aproximada" pois caso o logradouro não seja localizado, o marcador será inserido no bairro e, caso o bairro também não seja encontrado, o marcador ficará em algum ponto na cidade da entrega. A precizão dos marcadores está diretamente relacionada ao endereço cadastrado pelo usuário, de forma que seja "entendida" pelo google maps. Ao se passar o mouse sobre o marcador, será apresentado o nome do destinatário e o cupom (COO) a ele vinculado. A navegação no mapa é feita de forma idêntica ao google maps.
+
+Por fim, em qualquer aba, o botão "Imprimir" ficará ativo, caso exista algum registro retornado. Ao clicar neste botão, um relatório detalhado com os dados do cliente e do cupom, para cada registro presente na listagem principal será gerado. Ao clicar com o botão direito do mouse sobre o botão mensionado, será possível modificar o leiaute (rtm) de impressão.

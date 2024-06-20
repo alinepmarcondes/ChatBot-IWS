@@ -1,0 +1,6 @@
+Title: = Nome do dispositivo
+
+Content:
+=
+
+No primeiro acesso da aplicação será necessário que informe o nome do dispositivo onde está instalado o **IntelliFood**.

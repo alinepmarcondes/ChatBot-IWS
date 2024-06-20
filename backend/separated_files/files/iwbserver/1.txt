@@ -1,0 +1,13 @@
+Title: == Servidor do IntelliWeb
+
+Content:
+==
+
+''**Versão liberada dia: 05/05/2023**\\
+**Versão Intellicash: Mínima 3.1.012.003 **\\
+**Versão EasyCash: Mínima 1.4.019.003 **\\
+**Versão Executável: 1.0.0.0 **\\
+**[[http://wiki.intelliware.com.br/doku.php?id=intellicash:atualizacoes:3.1.012.003|IntelliCash: 3.1.012.003 ]]**
+''\\
+
+Sistema de liberação automática de licença para o conjunto de programas da IWS.

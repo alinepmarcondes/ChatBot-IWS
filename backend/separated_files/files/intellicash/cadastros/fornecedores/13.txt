@@ -1,0 +1,15 @@
+Title: Cotações
+
+Content:
+A aba "//**Cotações**//" mostra todas as cotações que foram realizadas por este fornecedor.
+
+
+
+Nesta interface há os seguitnes campos:
+
+* **Listar Cotações:** Para escolher qual lista de cotação será mostrada, entre "//**Em Aberto**//", "//**Fechadas**//" e "//**Descartadas**//";
+* **Filtrar data por:** Para escolher como será pesquisado a data, entre "//**Início**//", "//**Fechamento**//" ou "//**Ignorar Datas**//";
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+
+Ao dar dois cliques em uma cotação, será aberto uma nova interface, direcionando para a ferramenta de cotação. Para mais informações [[manuais:intellicash:estoque:cotacao|Clique Aqui]].

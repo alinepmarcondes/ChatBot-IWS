@@ -1,0 +1,13 @@
+Title: = Servidor SMTP Padrão
+
+Content:
+=
+
+Por padrão, o sistema utilizará as seguintes configurações:\\
+\\
+**E-mail:** nfce.noreply@iws.com.br\\
+**SMTP:** mail.iws.com.br\\
+**Porta:** 465\\
+**Requer autenticação:** SSL\\
+\\
+A menos que o usuário configure outro servidor SMTP como o **GMail**. Caso o cliente opte por este provedor, pode ser feita conforme a imagem abaixo:

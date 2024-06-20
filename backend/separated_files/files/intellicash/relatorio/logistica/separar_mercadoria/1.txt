@@ -1,0 +1,31 @@
+Title: == Separar Mercadorias
+
+Content:
+==
+
+----
+
+Relatório criado para organizar e separar mercadorias para serem entregas.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Logística→Separar Mercadorias||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Filtro:** para selecionar um filtro relacionado a nota fiscal entre:
+- **Pedido;**
+- **Nota Fiscal Não Confirmada;**
+- **Nota Fiscal;**
+- **Todas;**
+* **Área:** para selecionar um área à ser separada a mercadoria;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+* **Cidades:** para usá-lo deve-se selecionar um período, filtro, área (se existir) e clicar no **botão Aplicar** para que o sistema carregue as cidades disponíveis no período informado (neste momento serão listados todos os registros). Após o carregamento da lista de cidades disponíveis, basta selecionar quais cidades deseja que o filtro seja aplicado (**botão com a seta direcional para direita** para **selecionar** e **botão com a seta direcional para esquerda** para **retirar a seleção**).

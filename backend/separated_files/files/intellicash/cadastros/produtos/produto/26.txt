@@ -1,0 +1,28 @@
+Title: Equivalência de Preço
+
+Content:
+Existem dois tipos de equivalência como visto, //Equivalência de Preço// e //Equivalência de Produto//. Equivalência de preço serve para criar um grupo de itens que são semelhantes, mas não iguais, porém contém o mesmo preço, e caso haja uma alteração de preço nos produtos, a alteração de apenas um desses produtos alterará todo o grupo, evitando perda desnecessária de tempo.
+
+Nesta tela há três botões:
+
+* **Remover Desta Grade:** para remover um produto selecionado daquela grade de equivalências.
+* **Inserir Outros Itens:** para inserir mais itens nesta equivalência e ao clicar neste botão abrirá a seguinte tela:
+
+
+
+Há um campo de texto para pesquisar um produto pelo código ou descrição do item e há também as seguintes opções:
+-**Cotação:** para pesquisar itens com cotação;
+-**Não Cotação:** para pesquisar itens sem cotação;
+-**Exibir Estoque:** para exibir na pesquisa realizada o estoque do produto;
+
+* **Novo prod. Nesta grade:** para criar um produto novo com as mesmas características dos produtos na grade com um complemento para descrevê-las e ao clicar neste botão abrirá a seguinte tela:
+
+
+
+Nesta tela há os seguintes campos:
+* **Descrição Base (Grade):**, para informar o nome da descrição base dos produtos da grade;
+* **Verificar EAN:** para verificar o código EAN do produto;
+* **Código:** para informar o código para o novo produto;
+* **Complemento:** descrição é o nome adicional que diferenciará tal produto dos demais;
+
+Além disso, há o botão cadastrar para cadastrar o produto novo e adicioná-lo na equivalência.

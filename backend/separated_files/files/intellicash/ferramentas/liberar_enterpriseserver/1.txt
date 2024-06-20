@@ -1,0 +1,20 @@
+Title: == Liberar EnterpriseServer
+
+Content:
+==
+
+----
+
+O IntelliCash, assim como outros produtos, dependem da liberação feita pelo IntelliWeb. Este é um novo conceito criado para facilitar o processo de validação das chaves. Todavia, é importante salientar que o EnterpriseServer ainda mantém sua forma de liberação original.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Liberar EnterpriseServer||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Após isso é necessário copiar a chave de liberação que está mostrando no Enterprise e após isso enviar para a IWS e será enviado de volta uma contra chave para liberar o EnterpriseServer.

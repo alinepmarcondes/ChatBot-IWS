@@ -1,0 +1,9 @@
+Title: Contingência
+
+Content:
+Baseia-se em dois tipos de falha de conexão:
+* **Tipo 01**:
+
+
+
+* **Tipo 02**:

@@ -1,0 +1,8 @@
+Title: Código 101
+
+Content:
+Mensagem de erro: //Intellicah não instalado.//
+
+Soluções possíveis:
+* Verifique se o //**Intellicah**// está instalado.
+* Se o //**Intellicah**// estiver instalado é necessário que seja executado pelo menos uma vez para ser registrado pelo //**Sistema operacional**//.

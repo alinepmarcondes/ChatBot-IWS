@@ -1,0 +1,11 @@
+Title: == Integração Matriz e Filial
+
+Content:
+==
+
+----
+
+A integração entre várias lojas é um projeto que está sendo desenvolvido pela Intelliware desde 2012, e inicialmente foram divididas em 3 etapas, Cadastro, Movimentação e Financeiro.
+A primeira coisa que deve ser feito é informar em todas as empresas quais são os endereço das Filiais e da Matriz através de um cadastro.
+
+----

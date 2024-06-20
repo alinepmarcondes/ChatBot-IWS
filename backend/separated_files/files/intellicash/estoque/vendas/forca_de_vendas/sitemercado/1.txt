@@ -1,0 +1,45 @@
+Title: = SiteMercado
+
+Content:
+=
+
+----
+
+ SiteMercado é um e-commerce voltado principalmente para supermercado.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||//Gerenciamento-> Estoque-> Vendas-> Força de Vendas-> SiteMercado//||
+
+Ao acessar o caminho acima o usuário é derecionado para interface do SiteMercado, na aba Pedidos, porem é preciso antes de mais nada fazer as configurações para utilizar a ferramenta, para isso vamos até a aba Configurações, sub-aba Autenticação.
+
+
+Nessa aba o usuário irá fazer as configurações necessarias para utilizar a ferramenta, onde irá informar o usuário e senha, url de comunicação e vendedor. Essas informações são cadastradas através do botão **Alterar**, já o código da loja é cadastrado clicando sobre o label "Código da Loja".\\
+
+Depois de feito as configurações descritas acima é preciso configurar os produtos que serão exportados para o SiteMercado, para isso basta ir na sub-aba Produtos.
+
+
+Nessa interface será listado os itens configurados para exportar para o siteMercado. A inserção pode ser de duas formas:
+- **Em lista:** para inserir em lista o usuário precisa informar um atributo, selecionar os filtros que deseja, será listado os itens onde pode ser inserido mais de um ao mesmo tempo;
+- **Item a item:** para inserir item a item o usuário pode utilizar o campo Localizar para pesquisar o item que deseja inserir;
+
+Nessa tela o usuário pode informar um acréscimo para que seja aplicado nos itens ao exportar para o siteMercado. Esse acréscimo é em porcentagem. Ao informar um acréscimo, o sistema irá aplicar uma regra de arredondamento no valor do item que é a seguinte. Valores terminados em 1,2,3,4 arredonda para 0, valores terminados em 5,6,7,8 arredonda para 9, exemplo 10,91 até 10,94 o sistema arredonda para 10,90 ou valor de 10,95 até 10,98 o sistema arredondae para 10,99.
+
+Você também tem a opção de:
+
+
+
+Para remover um item da lista basta selecionar o item e clicar no botão "Excluir" na parte inferior da tela;
+
+Após ter feito todas as configurações vamos para aba Pedidos. Nessa aba que serão feita as importações dos pedidos e as respectivas ações.
+
+
+
+Ao acessar a aba pedidos temos a opção de baixar os pedidos gerados, clicando no botão "Baixar Pedidos" será solicitado um periodo que é do tipo data e hora. No campo inicio já vem preenchido com termino da ultima sincronização. \\ Apósbaixaros pedidos podemos filtrar os pedidos por um periodo e logo abaixo listar os pedidos de acordo com cada aba, que são elas:
+* **Importados:** lista os pedidos que foram confirmados no e-commerce porem ainda não foi feito nenhuma ação com eles;
+* **Separação:** mostra os pedidos que já estão em status de separação;
+* **Aguardando Entrega/Retirada:** mostra os pedidos que já fora separados e estão aguardando a entrega / retirada. Nesse status é possivel confirmar esses pedidos em orçamento e em seguida transformar em nota fiscal ou cupom fiscal. Para isso basta selecionar os pedidos que deseja, clicar no botão **Importar Pedido**, o sistema irá gerar o orçamento desse pedido e na coluna "Documento ERP" irá listar o número do orçamento gerado. \\ Após gerar o orçamento pode-se gerar o documento fiscal que pode ser nota fiscal ou cupom fiscal. Para isso basta selecionar os pedidos que deseja gerar e que já tenha sido gerado um orçamento do mesmo, clicar no botão **Exportar** o sistema irá solicitar se é nota fiscal ou cupom fiscal em seguida gerar o documento selecionado. Após gerado o documento fiscal no campo "Documento ERP" será listado o tipo de documento gerado e o número do documento;
+* **Entregue:** mostra os pedidos que já foram finalizados ou seja, já foi gerado o documento fiscal e o cliente já retirou/recebeu a mercadoria;
+* **Cancelado:** mostra os pedidos que foram cancelados. Nessa aba também é possivel gerar a nota fiscal de devolução, caso o documento fiscal de venda que foi gerado do pedido foi uma nota fiscal, se for cupom fiscal é preciso gerar pelas interfaces já existente para esse fim no intellicash. Para gerar o documento de devolução basta selecionar os pedidos e clicar no botão **Gerar Devolução**;

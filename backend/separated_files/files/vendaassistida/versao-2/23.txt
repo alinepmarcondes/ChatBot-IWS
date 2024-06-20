@@ -1,0 +1,4 @@
+Title: Adicionar
+
+Content:
+Para adicionar um Histórico de Relacionamento, o usuário deverá pressionar o botãolocalizado no canto inferior direito da tela.

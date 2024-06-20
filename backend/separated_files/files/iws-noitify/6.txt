@@ -1,0 +1,4 @@
+Title: Selecionar a empresa
+
+Content:
+Para editar ou excluir uma empresa, pressione uma empresa por um segundo. A barra de título será alterada.

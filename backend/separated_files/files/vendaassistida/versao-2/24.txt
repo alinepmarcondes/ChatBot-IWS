@@ -1,0 +1,4 @@
+Title: Editar
+
+Content:
+Para editar, o usuário deverá manter pressionado o Histórico de Relacionamento desejado até que o menu de opções apareça na barra superior e pressionar o botão .

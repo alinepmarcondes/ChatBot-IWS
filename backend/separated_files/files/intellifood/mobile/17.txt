@@ -1,0 +1,4 @@
+Title: Cadastrar
+
+Content:
+Para cadastrar uma mesa o usuário deverá clicar no botãolocalizado no canto inferior direito. Será aberto uma tela onde o usuário deverá informar o nome da mesa e depois clicar no botão **Ok** ou no botão **Cancelar**, conforme demonstra a figura abaixo.

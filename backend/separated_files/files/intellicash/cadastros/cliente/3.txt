@@ -1,0 +1,14 @@
+Title: Busca Avançada
+
+Content:
+A IWS desenvolveu um método de pesquisa avançada, que, permite pesquisar por várias ou uma caracteristica de seus clientes e ligar essas informações para buscar um cliente em específico, onde é necessário informar no mínimo um campo ou preencher todos para realizar a busca.
+
+para abrir esta interface é necessário clicar no botão "//**Busca Avançada**//" ou apenas pressionar o botão "//**F3**//".
+
+
+
+Esta interface mostra todas os campos disponíveis para realizar a pesquisa no sistema pelos clientes e após preenchidos os campos desejados basta clicar no botão "//**Buscar**//". Feito isso os resultados da pesquisa aparecerão na aba "//**Resultado**//".
+
+
+
+Nesta interface mostra os resultados da pesquisa e na parte inferior da tela mostra uma pesquena legenda das informações que foram utilizadas na pesquisa, também há a opção de "//**Imprimir**//" para imprimir os dados referente à pesquisa.

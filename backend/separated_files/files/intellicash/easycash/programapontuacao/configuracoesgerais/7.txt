@@ -1,0 +1,45 @@
+Title: Resgate em Produtos
+
+Content:
+Analisando o procedimento a ser realizado nesta, teremos:
+
+**1) Busca do cliente:** O cliente pode ser buscado por nome ou CPF/CNPJ. Caso encontre mais de uma ocorrência relacionada ao nome digitado, uma segunda tela será exibida para que se possa escolher o cliente correto. Caso o cliente possua pontos acumulados, será exibido em "2" os produtos disponíveis. Caso não possua, um alerta será exibido informando que o cliente não possui pontos disponíveis.
+Note que há uma divisão entre os totais de pontos acumulados por valor e por produto. O saldo de pontos será exibido proporcionalmente ao saldo adquirido nos respectivos tipos de programas vigentes.
+
+**2) Produtos disponíveis para resgate dos pontos:** Todos os produtos cadastrados para premiação serão exibidos nesta área. Ela possui dois filtros, sendo o primeiro aplicado pela descrição ou código EAN do produto e o segundo filtro, pelo total de pontos. Ao limpar o filtro (clicar em "Limpar"), todos os produtos voltarão a ser exibidos. Ao selecionar um produto, deve-se clicar em "Incluir" para que possa ser inserido na área 3. Ao incluir um produto, será exibida uma pequena janela para que se possa inserir a quantidade desejada.
+
+**3) Produtos escolhidos para a premiação do cliente:** Todos os produtos escolhidos serão exibidos nesta área, podendo ser removido ou ter a quantidade alterada a qualquer momento. O total de pontos a ser abatido do cliente é exibido no canto inferior direito da tela. Há ainda a possibilidade de se descartar todas alterações (botão "Limpar"), limpando a tela para o usuário sem nenhum registro em banco de dados. Para registrar a operação, basta clicar em "Finalizar". O sistema validará o total abatido com o total disponível para o cliente, barrando o processo, caso o total a ser retirado ultrapasse o total de pontos acumulados do cliente.
+
+=== Localizar e exibir resgates ===
+Após finalizar um resgate, é possível localizá-lo e reapresentá-lo na tela novamente. Para isso, basta clicar no botão "Localizar (F9)". Ao clicar, a seguinte tela será apresentada:
+
+
+Nesta tela, os filtros de data ("Início e Término") são obrigatórios. Os demais, opcionais. O filtro "Situação" possui o seguinte entendimento:
+**Estornado** = //Resgates que foram estornados, ou seja, não houve emissão de nota fiscal e os pontos foram devolvidos ao cliente//.
+
+**Finalizado** = //Dado baixa nos pontos do cliente, porém estão pendentes de nota fiscal//.
+
+**Efetuado** = //Nota fiscal emitida//.
+
+**Todos** = //Não filtra por situação//.
+
+Após encontrar e escolher um resgate, ao clicar em "OK" os dados do mesmo serão apresentados na tela principal do resgate de pontos, adicionando um pequeno painel contendo a situação e o número do resgate, tal qual a figura abaixo, à esquerda:
+
+
+
+=== Estornar resgates ===
+Para estornar um resgate, o mesmo deverá estar na situação "Finalizado", ou seja, pendente de nota fiscal. Inicialmente deve-se localizar e abrir um resgate já finalizado. Ao abrir o resgate na tela principal, o botão "Estornar (Ctrl + E)" será habilitado. Ao clicar no botão, a permissão de usuário "PONTUAÇÃO → Estornar Resgate" será validada e o estorno será realizado. Basicamente, o estorno criará uma nova aquisição para o cliente com o total de pontos do estorno. Nos relatórios constará que o resgate foi estornado e a nova aquisição, indicada que foi proveniente de um estorno:
+
+
+
+
+
+
+
+
+=== Nota Fiscal (Baixa do Estoque) ===
+Uma vez efetuado o procedimento do item anterior, deve-se gerar uma nota fiscal de bonificação, para que seja dada baixa no estoque do referido item. Para que isso ocorra, deve-se acessar:
+
+||Gerenciamento → Estoque → Notas Fiscais → Resgate Pontos Fidelidade||
+
+Uma vez na tela, deve-se efetuar o filtro pela data, localizar o resgate de pontos lançado e em seguida clicar em "Gerar NF". Para este tipo de procedimento, o CFOP recomendado é o **5910 (Remessa em bonificação, doação ou brinde)**.

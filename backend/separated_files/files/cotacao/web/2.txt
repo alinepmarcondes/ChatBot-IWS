@@ -1,0 +1,7 @@
+Title: == Compatibilidade
+
+Content:
+==
+
+
+O Cotação Online (CO) é compatível com IE+8, Chrome, Firefox, Opera e Safari.

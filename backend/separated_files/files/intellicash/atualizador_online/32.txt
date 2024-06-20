@@ -1,0 +1,19 @@
+Title: Código 301
+
+Content:
+Mensagem de erro: //Falha ao extrair aquivos, cancelando atualização!//
+
+Procedimentos realizados:
+* Download dos Arquivos;
+
+Erro no procedimento:
+* Extrair arquivos baixados.
+
+Soluções possíveis:
+* Verifique se o usuário do //**Windows**// possui permissões necessárias para executar o //**Atualizador Online**//.
+* Verifique se os aquivos de downloads não estão corrompidos.
+
+Realize estes procedimentos a seguir:
+* Encerre o programa de atualização;
+* Faça possíveis soluções;
+* Tente executar o //**Atualizador Online**// novamente.

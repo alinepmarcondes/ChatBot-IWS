@@ -1,0 +1,24 @@
+Title: == Contas Previsto x Realizado
+
+Content:
+==
+
+----
+
+Esta ferramenta mostra um relatório de contas previsto vs realizado, ou seja, mostra qual foi o previsto das contas (Receitas e Despesas) e mostra o que foi realizado nesse período informando se o que era previsto foi concluído.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Análise de Resultados→Contas Previsto x Realizado||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.

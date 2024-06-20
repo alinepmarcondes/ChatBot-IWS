@@ -1,0 +1,22 @@
+Title: = Lotes dos Convênios
+
+Content:
+=
+
+Esta tela serve para cadastrar os lotes dos convênios.
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Convênio:** Deve escolher qual convênio irá cadastrar os lotes;
+* **Tipo de Lote:** Deve informar qual o tipo de lote irá utilizar;
+- **Dias da Semana;** 
+- **Intervalo;**
+* **Início e Término:** Deve informar qual o intervalo dos lotes;
+- **Dias da Semana:** Em caso de dias da semana é necessário informar qual dias da semana iniciará um lote, e, em qual dia da semana se encerrará o lote;
+- **Intervalo:** Em caso de intervalo é necessário informar o dia do mês que iniciará o lote, e, em qual dia se encerrará o lote;
+* **Intervalo:** Neste campo é onde será informado qual o intervalo de dias após encerramento do lote, irá receber do convênio;
+* **Ok:** Para inserir as informações no sistema;
+
+Para excluir algum item selecionado basta clicar sobre um lote com o botão direito e aparecerá a opção "//**Excluir**//";

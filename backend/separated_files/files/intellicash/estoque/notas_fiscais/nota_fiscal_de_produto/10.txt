@@ -1,0 +1,35 @@
+Title: = Ajustes da NF
+
+Content:
+=
+
+
+
+Esta interface tem a função de realizar ajuste de valores na nota fiscal.
+
+Nesta tela há os seguintes campos:
+
+* **Inserir Ajuste:** Para inserir um ajuste para a nota fiscal. Ao clicar neste botão aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Descrição;**
+* **Reflexo na Apuração de ICMS;** 
+* **Tipo de Apuração;**
+* **Responsabilidade;**
+* **Influência no Recolhimento;**
+* **Origem;**
+* **Código;**
+* **Descrição Complementar;**
+* **Base de Cálculo;**
+* **Alíquota;**
+* **Valor ICMS;**
+* **Outros Valores;**
+* **Código da Receita;**
+* **Código da Obrigação a Recolher;**
+
+
+
+* **Excluir Ajuste:** Para excluir o ajuste da nota fiscal.

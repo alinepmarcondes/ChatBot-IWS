@@ -1,0 +1,13 @@
+Title: == Produtos próprios
+
+Content:
+==
+
+1 - Menu Cadastro->Produtos próprios.
+
+Para listar os produtos próprios, o usuário deverá informar um período nos campos de ínicio e término e clicar sobre o botão "Aplicar". Logo após será exibida uma listagem com todos os produtos próprios disponíveis no período conforme demonstra a figura abaixo.
+
+
+
+
+Caso não haja produtos no período informado será a seguinte mensagem.

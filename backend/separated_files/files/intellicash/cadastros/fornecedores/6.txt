@@ -1,0 +1,14 @@
+Title: Outros Dados
+
+Content:
+Nesta tela há mostra os dados mais específicos do Fornecedor.
+
+
+
+Na primeira parte há a parte de configurações do fornecedor, na segunda parte há os dados de fornecimento do fornecedor embaixo há informações adicionais do fornecedor e as formas de pagamento para este fornecedor como mostra a imagem abaixo:
+
+
+
+A coluna à esquerda mostra as formas de pagamento que você pode receber deste cliente, e a coluna à direita mostra as formas disponíveis de pagamento que você pode atribuir a este cliente;
+* para adicionar uma forma de pagamento ao fornecedor basta o usuárioselecionar uma forma de pagamento da coluna direita (Disponíveis) para a esquerda (Formas de recebimento para este cliente), assim este botão serve para designar as formas de pagamento que este cliente pode ter.
+* para retirar uma forma de pagamento basta selecionar a mesma e após isso clicar neste botão, assim este botão serve para restringir as formas de pagamento que este cliente pode ter.

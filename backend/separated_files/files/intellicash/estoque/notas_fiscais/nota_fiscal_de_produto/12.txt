@@ -1,0 +1,14 @@
+Title: = Referência
+
+Content:
+=
+
+Nesta aba ficam as referências da nota fiscal. Caso a nota que você criou dependa de outra nota fiscal, como o exemplo de devolução, que para se devolver uma coisa é necessário tê-la primeiro, ou uma nota fiscal de cupom fiscal, que para criá-la é necessário informar qual o cupom será referência.
+
+
+
+Nesta tela há os seguintes botões:
+
+* **Inserir NF:** Para inserir uma Nota Fiscal como referência;
+* **Inserir CF:** Para inserir uma Cupom Fiscal como referência;
+* **Excluir:** Para excluir uma nota fiscal ou cupom fiscal das referências;

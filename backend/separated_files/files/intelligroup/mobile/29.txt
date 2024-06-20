@@ -1,0 +1,6 @@
+Title: = Sugestão de Compra
+
+Content:
+=
+
+Para acessar a sugestão de compra, o usuário deverá acessar o menu lateral esquerdo "Sugestão de compra".

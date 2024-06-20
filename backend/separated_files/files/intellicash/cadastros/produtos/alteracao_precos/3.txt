@@ -1,0 +1,44 @@
+Title: Alteração de Preço MultEmpresa
+
+Content:
+Caso o sistema controle MultEmpresas, ao acessar a alterção de preço , aparecerá a seguinte interface:
+
+
+
+Ao entrar nesta ferramenta automaticamente entrará na aba "//**Seleção**//".
+
+Na parte inferior desta tela há um grid com todas as empresas cadastradas, com os seguintes campos:
+
+* **Empresa:** Mostra a descrição da empresa;
+* **Custo:** Mostra o custo atual do produto;
+* **Preço Atual:** Mostra o preço atual do produto;
+* **Máx. Desconto Atual:** Mostra o máximo de desconto atual do produto;
+* **Preço Mínimo Atual:** Mostra o preço mínimo atual do produto;
+* **Markup Mín. Atual:** Mostra o markup do preço mínimo atual;
+* **MarkUp Atual:** Mostra o markup atual do produto;
+* **Preço Novo:** onde é informado o novo preço do produto;
+* **Máx. Desconto Novo:** Onde é informado o novo máximo de desconto do produto;
+* **Preço Mínimo Novo:** Onde é informado o novo preço mínimo do produto;
+* **MarkUp Novo:** Onde é informado o novo markup do produto;
+* **Markup Mín. Novo:** Onde é informado o novo markup do preço mínimo;
+
+
+Na parte superior da tela há o campo de texto para pesquisar um produto por código ou descrição e algumas opções de pesquisa como:
+- Ao lado os botões para definir a pesquisa pelas palavras a escolher entre:
+* **Contendo**, se a palavra a ser pesquisada pode estar no começo meio ou fim;
+* **Iniciando**, se palavra a ser pesquisada estiver apenas no inicio da palavra;
+- **Ativar Auto Busca** para realizar a pesquisa simultaneamente enquanto digita no teclado (não recomendado para sistemas com grandes quantidades de produtos cadastrados, pois pode demorar mais que o esperado);
+- **Ativar Busca Rápida** para realizar uma pesquisa mais rápida;
+- **Localizar Pelo Código** para realizar uma pesquisa do produto apenas pelo código;
+Feito uma pesquisa após apertar enter aparecerá a lista de resultados da pesquisa e o cursor do teclado já partirá automaticamente para os produtos sem precisar do mouse, após selecionar o produto e apertar enter, o curso já irá para o grid com as empresas, dando foco no primeiro registro e na coluna "//**Preço Novo**//" para alterar o preço, após apertar enter novamente o foco irá para a próxima empresa, quando o último registro for alterado e precionado o enter, o foco irá para o botão selecionar. Ao clicar no botão **selecionar**, o sistema irá enviar o item para lista de confirmação aba **Itens**, caso o usuário clique no botão **Cancelar** a janela será fechada e a alteção perdida (não irá para aba itens).
+
+
+
+Ao clicar com o botão direito do mouse sobre a interface há as seguintes opções:
+
+
+
+* **Marcar Todos:** Para marcar todos os produtos para alteração de preços;
+* **Desmarcar Todos:** para desmarcar todos os produtos para alteração de preços;
+* **Inverter Seleção:** Para inverter a seleção dos produtos;
+* **Excluir Selecionados:** Para excluir os itens selecionados da lista de confirmação;

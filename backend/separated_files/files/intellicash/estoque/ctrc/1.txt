@@ -1,0 +1,30 @@
+Title: = Conhecimento de Transporte Rodoviário de Cargas
+
+Content:
+==
+
+----
+
+Esta ferramenta é para os clientes que são transportadora e precisam emitir conhecimento de transporte rodoviário de cargas.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Conhecim. de Transp. Rodov. de Cargas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+* **Localizar:** para localizar uma nota fiscal do conhecimento de transporte rodoviário de carga (Modelo 08 NF);
+
+
+
+Após isso é necessário localizar uma nota e os dados serão carregados na interface.
+
+* **Confirmar:** 
+* **Faturamento:** para gerar os lançamento financeiros sobre o conhecimento de transporte;
+* **Excluir:** para excluir o conhecimento de transporte;
+* **Alterar:** para alterar dados do conhecimento de transporte;
+* **Nova:** para cadastrar um novo conhecimento de transporte;

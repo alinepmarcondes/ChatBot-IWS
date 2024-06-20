@@ -1,0 +1,13 @@
+Title: = Excluir produtos próprios
+
+Content:
+=
+
+Para excluir um produto próprio, o usuário deverá informar um período nos campos de início e término e clicar sobre o botão "Aplicar". 
+
+Após clicar sobre o botão "Aplicar", o usuário deverá clicar sobre o ícone de excluir do produto desejado, localizado na última coluna conforme demonstra a figura abaixo.
+
+
+
+
+Se o usuário clicar no botão "Ok" a exclusão será confirmada e uma mensagem será exibida.

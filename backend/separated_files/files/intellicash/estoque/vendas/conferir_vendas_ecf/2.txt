@@ -1,0 +1,16 @@
+Title: = [SAT] Conferir Vendas com a SEFAZ
+
+Content:
+=
+
+
+
+Uma vez confirmado, na //coluna SEFAZ//, no registro correspondente ao dia, o checkbox será marcado.
+
+Na tela de conferência de vendas ao clicar em //CONFIRMAR//, será efetuada duas validações:
+
+**1)** Caso exista algum caixa que não foi conferido os cupons com a SEFAZ, será mostrada a mensagem:
+
+
+
+**2)** Caso exista algum caixa que foi conferido mas que apresenta divergências, é mostrada a mensagem:

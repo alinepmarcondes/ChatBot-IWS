@@ -1,0 +1,20 @@
+Title: = Configurações Gerais
+
+Content:
+=
+
+----
+
+Interface de cadastro e alteração do processo de aquisição e resgate de pontos.
+
+----
+
+Pode ser acessada em:
+
+||Gerenciamento → EasyCash → Programa de Pontuação → Configurações Gerais||
+
+A tela principal possui três abas:\\ 
+
+**1) Pontuação:** Configuração da aquisição de pontos;\\
+**2) Resgate:** Configuração dos resgates;\\
+**3) Histórico:** Histórico tanto das pontuações quanto dos resgates cadastrados, mas que não estão mais ativos.

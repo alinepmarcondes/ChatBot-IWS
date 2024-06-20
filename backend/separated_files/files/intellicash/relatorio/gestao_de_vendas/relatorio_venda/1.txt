@@ -1,0 +1,16 @@
+Title: == Relatório de Vendas
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de gerar um relatório de vendas, classificadas de diversas maneiras.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatório→Gestão de Vendas→Relatório de Vendas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

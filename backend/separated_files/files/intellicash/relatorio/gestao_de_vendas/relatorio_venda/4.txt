@@ -1,0 +1,8 @@
+Title: = Pesquisa Por Cupom
+
+Content:
+=
+
+
+
+A aba "//**Pesquisa por Cupom**//" mostra um relatório de vendas por cupom pesquisando pelo número do cupom no campo acima ("//**Nº Cupom**//"), por isso o cabeçalho de pesquisa não é necessário usar nesta aba. A imagem acima mostra um exemplo de pesquisa por cupom onde há uma coluna à esquerda mostrando as vendas totalizadas, e na coluna à direita mostra na primeira coluna os resultados da pesquisa com os cupons e seus dados e na coluna abaixo mostra os itens de cada cupom selecionado.

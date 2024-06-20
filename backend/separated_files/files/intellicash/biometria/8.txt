@@ -1,0 +1,8 @@
+Title: Identificação 1:N
+
+Content:
+Esse método de identificação determina a identidade de uma pessoa __sem qualquer reivindicação prévia necessária__ e responde à pergunta:\\ 
+
+
+
+Ela confirma a identidade de um indivíduo comparando um modelo biométrico escaneado com todos os modelos biométricos armazenados no banco de dados. Um sistema biométrico usando a abordagem um-para-muitos encontra uma identidade de um banco de dados em vez de verificar uma identidade reivindicada ou pesquisar uma parte segmentada de modelos biométricos armazenados.

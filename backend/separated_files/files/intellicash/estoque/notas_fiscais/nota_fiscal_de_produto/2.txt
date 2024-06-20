@@ -1,0 +1,8 @@
+Title: = Dados da NF
+
+Content:
+=
+
+
+
+Nesta interface ficam os dados principais da nota, nela contem os dados sobre odestinatário, o endereço do mesmo, os valores da nota, sua tributação. É tambémonde faz as principais operações da nota fiscal.

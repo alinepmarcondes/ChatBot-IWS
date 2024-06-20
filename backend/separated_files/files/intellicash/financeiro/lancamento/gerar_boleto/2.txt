@@ -1,0 +1,36 @@
+Title: = Gerando um Boleto
+
+Content:
+=
+
+Ao clicar no botão novo para gerar um novo boleto aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Sacado:** Para informar qual é o agente sacado;
+* **Nº documento** para informar o numero do documento (o sistema sempre irá sugerir uma opção);
+* **Entrada** para informar a data de entrada do lançamento;
+* **Vencimento** para informar o data de vencimento do lançamento a pagar; 
+* **Valor** para informar o valor do lançamento;
+* **Multa** para informar, caso houver, multa do lançamento em porcentuais;
+* **Juros/Dia** para informar os juros diariamente;
+* **Juros/Mês** para informar os juros mensais;
+* **Desc. Pt.** para informar um desconto em porcentuais;
+* **Centro de Custo** para informar o centro de custo do lançamento (para mais informações [[manuais:intellicash:cadastros:plano_contas|Clique Aqui]];
+* **Forma de Cobrança** para informar a forma de cobrança do lançamento;
+* **Descrição** para informar uma breve descrição do lançamento;
+* **Nº boleto** para informar o número do boleto;
+* **Cancelar:** Para cancelar a operação;
+* **Gerar:** Para gerar o boleto;
+
+Antes de falarmos sobre essa interface é necessário inserir os registros e ao clicar no botão "//**Inserir Registros**//" aparecerá a seguinte interface:
+
+
+
+Nela há os seguintes campos:
+
+* **Número da Nota:** Para informar o número da nota;
+* **Agente:** Para informar o nome do agente;
+* **Localizar:** Para realizar a pesquisa;

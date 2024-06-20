@@ -1,0 +1,12 @@
+Title: == Configuração Intellicash
+
+Content:
+==
+De posse do usuário e senha, é preciso inicialmente fazer a configuração do **Intellicash** para acessar sua conta do **Clube de Promoções Scanntech** e realizar a integração das promoções, para isso acesse IWS->Configurações->Scanntech, e será aberto a janela abaixo.
+
+
+Deverá ser preenchido com o __usuário__, __senha__ e __código de empresa__ enviado pela Scanntech. Por padrão já constará o endereço de URL, entretanto caso seja necessário adicionar ou remover algum endereço, pode-se usar os sinais de **+** e **-**, respectivamente. 
+
+
+
+Ainda nessa janela, é possível configurar o tempo de intervalo em que o **Intellicash**, através do sincronizador, irá atualizar as informações com a plataforma **Scanntech**.

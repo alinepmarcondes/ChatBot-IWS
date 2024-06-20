@@ -1,0 +1,9 @@
+Title: = Dependências
+
+Content:
+=
+
+Para acessar o sistema HTTPS da plataforma DMCard torna-se necessário adicionar na pasta __Client do EasyCash__ e no __diretório principal do Intellicash__ as seguintes DLL:
+
+* **libcrypto-1_1.dll** (OpenSSL library 1.1.1.7)
+* **libssl-1_1.dll** (OpenSSL library 1.1.1.7)

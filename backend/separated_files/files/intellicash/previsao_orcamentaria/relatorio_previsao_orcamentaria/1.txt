@@ -1,0 +1,36 @@
+Title: = Relatório de Previsão Orçamentária
+
+Content:
+=
+
+----
+Foi criado no sistema uma nova ferramenta chamada Previsão Orçamentária que irá ajudar os clientes a fazer uma previsão do que será pago/recebido em um determinado período e depois confrontar os dados para ver o que realmente ocorreu.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Previsão Orçamentária→Lanc. Contas a Receber||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Neste relatório o sistema confrontará os dados previstos com os efetivados através do Centro de Custos.
+
+
+
+O filtro usado no relatório para as contas previstas seria a **data de vencimento** e para as contas efetivadas a **data de pagamento** das mesmas. 
+
+Ao aplicar o sistema mostrará de um lado as **Receitas** e do outro lado as **Despesas** e entre os campos destacamos:
+
+* Descrição: Descrição do Centro de Custo das contas;
+* Vlr. Previsto: Valor das contas previstas no período informado de acordo com o Centro de Custo;
+* Vlr. Efetivado: Valor das contas efetivadas (pagas ou recebidas) no período informado de acordo com o Centro de Custo;
+* Diferença : Valor da diferença entra o valor previsto e efetivado.
+
+Se clicar duas vezes sobre um Centro de Custo o sistema mostrará outra tala confrontando as contas previstas e efetivadas do perído para análise.
+
+
+
+Na figura acima podemos verificar que somente uma conta prevista foi realmente efetivada no período informado.

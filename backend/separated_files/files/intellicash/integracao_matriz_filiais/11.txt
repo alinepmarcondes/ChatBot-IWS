@@ -1,0 +1,7 @@
+Title: == Sincronização das Operações
+
+Content:
+==
+
+A seguir foi feito o módulo de integração de Operações, ou seja, as operações de entrada e saída dos produtos tanto por nota fiscal quanto por cupom fiscal. \\
+Uma ressalva que deve ser feita é em relação a venda de cupom fiscal, devido ao volume muito alto de documentos, foi idealizado um agrupamento de dados, ou seja, no banco de dados da matriz não são exibidos os dados relativos ao cupom fiscal individualmente, mas o total vendido por dia por produto. Isso significa que na base de dados consolidado será exibido a informação que foi vendido 100 pacotes de arroz da marca X, mas não mostrará em quais cupons, nem em qual hora, etc.

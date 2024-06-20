@@ -1,0 +1,60 @@
+Title: == Controle de Perda
+
+Content:
+==
+
+----
+
+O controle de perda é semelhante ao controle de troca de fornecedor, entretanto tem a diferença de ser usado para controlar as perdas do estabelecimento.
+
+----
+
+Antes de inserir os itens na perda é preciso cadastrar os motivo das perdas. 
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→Motivo||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Para mais informações sobre configuração basta visitar o manual de configuração de motivos [[manuais:intellicash:configuracao:motivo|Clicando Aqui]]
+
+
+Após cadastrado, para abrir esta ferramenta basta entrar no menu em:
+
+||Estoque→Controle de Perdas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Ao acessar essa interface já serão carregados todos os itens inseridos para perdas. No primeiro grid será informado os itens somando o total de qtde e o total de custo, já no segundo grid (Informações adicionais) serão listados os detalhes de cada item, como, funcionário responsável, data de vencimento, motivo e observação. \\
+Para adicionar um item na lista de perdas basta preencher os campos citados abaixo: \\
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Produto:** Nesse campo deve ser informado o código ou a descrição do item;
+* **Data:**Nesse campo deverá ser informada a data que o item será inserido na perda;
+* **Qtde:** Nesse campo é informado a quantidade de perda do item;
+* **Custo** Nesse campo pode ser informado o custo que deseja inserir na perda, por padrão esse campo já vem com custo do produto;
+* **Validade:** Nesse campo informado a data de validade do item (esse campo não é obrigatório);
+* **Motivo:** Nesse campo é informado o motivo da perda, esse campo é obrigatório o sistema não irá permitir inserir um item sem informar um motivo e uma quantidade;
+* **Funcionário:** Nesse campo é informado o funcionário responsável pela perda (esse campo não é obrigatório);
+* **Observação:** Nesse campo é informado uma observação relacionada a perda (esse campo não é obrigatório);
+
+Após preencher os campos basta clicar no botão inserir para adicionar o item na lista de perdas. Ao inserir o sistema já irá atualizar a lista de itens na perda e direcionar o foco para campo **Produto** para inseri um novo item. \\ \\
+
+Para confirmar uma perda basta selecionar os itens que deseja confirmar (//clicando bom botão direito do mouse sobre o grid tem a opção de Marcar Todos, Desmarcar Todos ou Inverter Seleção//) e clicar no botão **Confirmar**, o sistema irá abrir um tela com todos os __motivos__cadastrados para o usuário escolher quais tipos de motivo ele deseja gerar a perda. 
+
+
+
+Após escolher quais motivos serão gerados (somente os produtos com os motivos selecionados irão para a Nota Fiscal) o sistema irá pedir qual **CFOP** o usuário deseja usar para gerar a nota e em seguida irá abrir a interface de Nota Fiscal com a nota que foi gerada. \\
+
+
+
+Para realizar uma transferência de Mercadoria da Perda para Devolução basta clicar no botão ** Transferir**. Ao clicar nesse botão o sistema pega os itens selecionados na interface e suas quantidades disponíveis (Qtde), e carrega uma nova interface com esses itens e suas respectivas quantidades para que o usuário possa ajustar as quantidades que deseja transferir, conforme imagem abaixo.
+
+
+
+Nessa interface é preciso que o usuário escolha um motivo e esse motivo é o mesmo cadastrado na interface de devolução. Caso o usuário não queira transferir um determinado item, basta deixar a quantidade transferência vazio ou zero.

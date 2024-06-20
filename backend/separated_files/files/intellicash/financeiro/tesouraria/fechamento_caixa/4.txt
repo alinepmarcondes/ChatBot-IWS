@@ -1,0 +1,17 @@
+Title: =Formas de Pagamento
+
+Content:
+=
+
+As formas de pagamento serão agrupadas:
+
+* Dinheiro (Dinheiro / Sangria /Suprimento)
+* Cheque (Cheque a vista(todo cheque datado com a data da compra))
+* Cheque pré (Cheque pré-datado(todo cheque datado com a data maior que o dia da compra))
+* Convenio (Caracteriza convenio toda a forma de pagamento em que o devedor passa a ser um terceiro, que não seja nem o cliente nem o supermercado. Criando exceção para cartões de credito e debito, onde apesar de ser um terceiro se enquadra no item **Cartões**)
+* Funcionários (São clientes que tem os valores descontados no salário, as compras são permitidas mediante autorização / vale compras)
+* Clientes (São clientes que pagam posteriormente **Crediário**)
+* Cartões
+* Cartão de Crédito (Todos os tipos de cartão de crédito (TEF) / Todos os tipos de cartão de crédito (POS))
+* Cartão de Débito (Todos os tipos de cartão de débito (TEF) / Todos os tipos de cartão de débito (POS) / Todos os Cartões de alimentação (TEF) /Todos os Cartões de alimentação (POS))
+* Outros (Nesta forma entram as formas de Recebimento como **Vale Troca**, **Troca de Mercadoria**)

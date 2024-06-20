@@ -1,0 +1,7 @@
+Title: = Sair
+
+Content:
+=
+
+Para sair a aplicação vá para tela de **Notificações** e clique no botãoe depois em **Sair**.
+Conforme demonstra a figura abaixo.

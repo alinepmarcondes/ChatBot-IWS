@@ -1,0 +1,22 @@
+Title: = Realizando Baixa na Matriz através da Filial
+
+Content:
+=
+
+
+----
+
+Esta ferramenta tem a função de dar baixas em lançamentos financeiros de contas a receber.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Baixas→Títulos a Receber||
+
+Com este módulo o sistema fornece a opção de baixar um título de outra Filial/Matriz através dessa interface. Para realizar este procedimento basta clicar no botão "//**Matriz**//" que aparece na parte inferior esquerda na interface de Recebimento de Clientes.
+
+
+
+
+Mais em [[manuais:intellicash:financeiro:baixas:contas_receber|Contas a Receber]].

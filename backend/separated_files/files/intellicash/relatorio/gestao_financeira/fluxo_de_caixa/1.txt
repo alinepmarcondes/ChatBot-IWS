@@ -1,0 +1,37 @@
+Title: == Fluxo de caixa
+
+Content:
+==
+
+----
+
+Esta ferramenta serve para mostrar um relatório de fluxo de caixa, mostrando sua situação atual e situação futura.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Financeira→Fluxo de caixa||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tela há os seguintes campos:
+
+* **Término:** para determinar a data de término do relatório a ser pesquisado, ou seja, pesquisará toda a movimentação do sistema até a data de término selecionada;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** Para imprimir dados do relatório;
+* : Para filtrar as contas e caixas a serem utilizadas como ponto de partida do fluxo de caixa;
+* **Contas a Receber:** Para exibir ou não as contas a receber em atraso;
+* **Contas a Pagar:** Para exibir ou não as contas a pagar em atraso;
+
+Abaixo mostra a situação atual do fluxo de caixa mostrando os caixas da empresa e seus detalhes numericamente à esquerda e graficamente a direita.
+
+E logo abaixo mostra situação futura, de acordo com os dados do sistema, porém este gráfico só será exibido ao selecionar uma data após a data atual, ou seja, o sistema irá mostrar um gráfico do dia atual até a data escolhida e irá criar um relatório de acordo com os dados do sistema;
+
+Após um duplo clique em algum dos dados da situação futura aparecerá os detalhes do fluxo de caixa na seguinte tela:
+
+
+
+Nesta tela mostra todos os detalhes do fluxo de caixa e abaixo há o botão imprimir para imprimir dados do detalhe do fluxo de caixa.

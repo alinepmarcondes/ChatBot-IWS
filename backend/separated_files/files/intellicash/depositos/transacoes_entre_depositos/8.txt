@@ -1,0 +1,10 @@
+Title: = Status
+
+Content:
+=
+
+As transações possuem os seguintes status: 
+* **ABERTA**: sujeita a qualquer alteração;
+* **IMPRESSA**: indica que a lista de produtos foi para separação;
+* **FINALIZADA**: significa que os produtos já foram encaminhados para o embarque;
+* **CANCELADA**: a transação está suspensa.

@@ -1,0 +1,18 @@
+Title: Outros Dados
+
+Content:
+A aba "//**Outros Dados**//" ...
+
+
+
+Na parte de referências comerciais mostra as referencias de outros locais que o cliente tem e existem três botões:
+- Para excluir dados das referências;
+- Para alterar dados das referências;
+- Para adicionar dados das referências;
+
+Existe também a parte de outros com as opções de marcação a seguir:
+* Autorizar venda a prazo;
+* Avisar no vencimento;
+* Incluir na mala direta;
+* P.N.: Pede Nota, informativo se o cliente solicitada NF mensalmente;
+* Residência comprovada;

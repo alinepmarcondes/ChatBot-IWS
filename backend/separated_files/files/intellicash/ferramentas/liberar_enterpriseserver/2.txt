@@ -1,0 +1,6 @@
+Title: = No que isso implica?
+
+Content:
+=
+
+Isto implica, que não basta liberar o IntelliCash com a nova ferramenta de liberação. É necessário realizar a liberação do EnterpriseServer, que segue o método tradicional de liberação.

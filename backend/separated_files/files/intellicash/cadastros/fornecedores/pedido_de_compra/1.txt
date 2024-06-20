@@ -1,0 +1,33 @@
+Title: == Pedido de Compra
+
+Content:
+==
+
+A aba "//**Pedido**//" tem a função de criar os pedidos para os fornecedores.
+
+
+
+* **Agendar Verba:** Para agendar uma verba do fornecedor. Ao clicar neste botão aparecerá a seguinte interface:\\ Nela há os seguintes campos:\\ 
+- **Agente:** Para informar o agente da verba(será pré-preenchido o fornecedor do pedido).
+- **Nº Documento:** Para informar o número do documento da verba;
+- **Fator:** Para informar se o fator será positivo(A recebeer) ou negativo(a pagar).
+- **Vencimento:** Para informar o vencimento do agendamento da verba;
+- **Valor:** Para informar o valor da verba;
+- **Centro de Custo:** Para classificar o centro de custo que terá a verba;
+- **Descrição:** Para informar uma breve descrição sobre o agendamento;
+
+* **Formas de Pg.:** Ao clicar nesta opção, será aberto uma nova interface para criar um agendamento financeiro de contas a pagar para o fornecedor;\\ Nesta tela há os seguintes campos:\\ 
+- **Favorecido:** Mostra o fornecedor favorecido;\\
+- **Valor:** Para informar o valor do pedido;\\
+- **Multa:** Para informar se este pedido tem algum tipo de multa;\\
+- **Juros/Dia:** Para infomar o juros por dia do pedido;\\
+- **Juros%/Mês:** Para infomar o juros por mês do pedido;\\
+- **Desc. Pt.:** Para informar o desconto do pedido em porcentagem;\\
+- **Centro de Custo:** Para informar o centro de custo do pedido;\\
+- **Forma de Cobrança:** Para informar a forma de cobrança do pedido;\\
+- **Nº Documento:** Para informar o número do documento do pedido;\\
+- **Nº Boleto:** Para informar o número do boleto, caso escolha boleto como forma de pagamento;\\
+- **Descrição:** Para informar a descrição do lançamento financeiro do pedido;\\
+- **Nº Parcelas:** Para informaro número de parcelas de pagamento do pedido;\\
+- **Vencimento:** Para informar a data de vencimento do pedido;\\
+- **Lançar:** Para lançar no sistema os dados e o faturamento do pedido;\\

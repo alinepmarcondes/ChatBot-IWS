@@ -1,0 +1,22 @@
+Title: == Confirmação de Preços
+
+Content:
+==
+
+----
+
+A **Confirmação de Preços** do //Intellicash// é uma interface que foi desenvolvida para facilitar o processo de precificação, e dessa forma fazer com que a empresa possua seus preços sempre atualizados.\\
+
+A ideia por trás dessa funcionalidade é que a cada entrada de nota fiscal o produto precisa ter seu preço de venda revisado, pois a cada entrada o seu custo pode ser diferente.\\
+
+----
+
+Primeiramente deve-se escolher quais as operações de entrada que irá alterar o custo do produto. **Por padrão apenas as compras alteram o custo do produto**. Para alterar essa configuração ou verificar se está correto, o usuário deve entrar em:
+
+|| Gerenciamento -> Configurações -> Tipos de Movimentação de Estoque ||
+
+Selecione o **CALCULO DO CUSTO PRODUTO**, e verifique ao lado direito quais as operações que alteram o custo do produto.
+
+
+
+Outra condição para que a entrada de uma operação no //Intellicash// alimente a lista de revisão de custo, é não possuir outra operação com esse mesmo produto com uma data mais atual. O sistema entende que se existe uma operação mais recente que altere o custo do produto, então a alteração mais relevante já está registrada e não tem porque incomodar o usuário com informações irrelevantes.

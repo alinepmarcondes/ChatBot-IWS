@@ -1,0 +1,16 @@
+Title: == Cadastrar Contas e Caixas
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar as contas e caixas do sistema para controlar a movimentação financeira do estabelecimento;
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Contas e Caixas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

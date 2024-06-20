@@ -1,0 +1,7 @@
+Title: Equipamentos Testados
+
+Content:
+* Bematech MP-4200 TH (KC1 = 1 e KC2 = 0)
+* Sweda Si300 (KC1 = 1 e KC2 = 0)
+* Elgin i9 (KC1 = 48 e KC2 = 48)
+* Print iD Touch (KC1 = 48 e KC2 = 48)

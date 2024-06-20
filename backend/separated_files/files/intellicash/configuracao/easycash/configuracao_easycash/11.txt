@@ -1,0 +1,27 @@
+Title: = Aba Dav/Pré-venda
+
+Content:
+=
+
+Aqui iremos configurar algumas opções referentes ao funcionamento do DAV (Documento Auxiliar de venda) e PV (Pré - Venda) que serão utilizados integrando à retaguarda. Portanto é necessário começarmos marcando a opção //**“Acesso direto a Retaguarda(Config.:2306)”**//. Caso essa configuração fique desmarcada não será possível realizar a venda do DAV e do PV no frente de caixa.
+No caso do PV o documento não será emitido pelo sistema de retaguarda Intellicash e sim em um terminal EasyCash específico que não tenha impressora fiscal conectada, no entanto, esse documento será gravado direto no Intellicash, portanto é uma regra ter rede para emitir um PV. 
+
+Caso falhe a rede no momento em que se está criando esse PV poderá ocorrer uma sequência de erros não permitindo inserir itens até que se estabeleça uma conexão.
+
+A opção //**"Utilizar código interno(Config.:1807)"**//, atualmente está disponível apenas para o PV e será implementado futuramente para o DAV, por isso essa configuração encontra-se no campo Geral. Se esta configuração estiver marcada ao tentar inserir um item na pré-venda abrirá uma tela pedindo que insira o código interno, este poderá ser tanto numérico como letras com no máximo 50 posições.
+
+Já no campo DAV temos as seguintes opções:
+* **Impressão da confirmação da venda:** Marcando essa opção, ao finalizar uma venda abrirá uma tela de visualização de confirmação, mas essa configuração só será válida se o turno for controlado pela retaguarda, pois no caso de turno controlado pelo frente de caixa, mesmo marcando essa configuração não abrirá a visualização. Nessa configuração poderá visualizar um botão () que permitirá confirmar a impressão da forma desejada. Esse botão só está disponível na tela de configuração do EasyCash, pois essa configuração deverá ser caixa a caixa
+* **Processar ao Localizar:** Se marcada, ao localizar um orçamento no frente de caixa, automaticamente começará a vendê-lo sem necessidade de dar Ok. Se desmarcada, quando localizar um orçamento ficará parado na tela até que você clique no botão Ok.
+* **Destacar Vendendor no cupom fiscal:** Quando marcada está configuração, ao imprimir o cupom fiscal, será informado quem foi o vendedor do DAV.
+* **Turno administrado pela retaguarda:** Se marcada, o frente de caixa irá trabalhar de forma limitada a venda proveniente de orçamento, não permitindo inserir itens pois o campo de busca de itens não ficará disponível.
+ 
+
+Obs.: Caso o DAV tenha mais de um vendedor, será mostrado todos os nomes no cupom fiscal.
+
+* **Retorno do DAV pelo Operador do frente:** Esta configuração deverá estar marcada se o cliente utilizar o DAV controlado pela Retaguarda e quiser o retorno de caixa para um operador específico. 
+Para utilizar esta configuração deve-se ter alguns cuidados, como por exemplo a associação de operadores de caixa com os usuários do Intellicash. Para maiores informações de como fazer esta associação e outras configurações [[intellicash:atualizacoes:3.0.137.015|Clique aqui]]
+
+* **Impressão do campo de observação do DAV:**
+
+Esta configuração permite imprimir ou não as observações do orçamento. Esta possui 3 opções sendo elas: **Não imprime observação,Imprime ou Pergunta ao usuário.**

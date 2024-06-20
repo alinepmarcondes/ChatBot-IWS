@@ -1,0 +1,36 @@
+Title: Fornecedor
+
+Content:
+Pressionelocalizado no canto superior esquerdo da tela de "Cotações", conforme demonstra a figura abaixo.
+
+
+
+No menu pressione "Fornecedores", conforme demonstra a figura abaixo.
+
+
+
+=== Adicionar novo Fornecedor ===
+
+Para adicionar um novo fornecedor o usuário deverá pressionar o botãolocalizado no canto inferior direito. 
+
+
+
+Será exibida uma caixa de diálogo onde o representante deverá informar o documento(CPF ou CNPJ) do fornecedor e clicar sobre o botão "Salvar" para concluir)
+
+
+
+Possíveis mensagens de erros:
+* O fornecedor "documento do fornecedor" não está cadastrado ou não existe!
+* Formato inválido.
+* O fornecedor "documento do fornecedor" já está adicionado a este representante!
+
+=== Excluir Fornecedor ===
+
+Para excluir, o representante deverá selecionar o fornecedor desejado. Será exibida uma mensagem onde o mesmo deverá pressionar o botão "Sim" para confirmar ou o botão "Não" para cancelar.
+
+
+
+O representante não pode excluir um fornecedor no qual esteja utilizando no momento.
+
+Possíveis mensagens de erros:
+* Este fornecedor não pode ser excluído, pois esta sendo utilizado!

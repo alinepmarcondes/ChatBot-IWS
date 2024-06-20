@@ -1,0 +1,13 @@
+Title: = Informações do Produto:
+
+Content:
+=
+
+
+
+* **__Selecionar__:** Permite selecionar o produto. Só serão salvos e totalizados os produtos selecionados. Por padrão todos os produtos vêm selecionados.
+* **__Cód. EAN__:** Código de barras do Produto.
+* **__Descrição__:** Descrição do Produto
+* **__Data Ultima Entrada__:** Data da Ultima entrada do produto, independente do período escolhido. As operações de entrada são as mesmas configuradas para o relatório de compras no cadastro de produtos.
+* **__Qtde Ultima Entrada__:** Última quantidade que foi dada entrada, independente do período escolhido (na data exibido no campo “Data Ultima Entrada”).
+* **__Qtde Estoque__:** A qtde em estoque na data atual.

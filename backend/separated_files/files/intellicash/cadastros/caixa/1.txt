@@ -1,0 +1,35 @@
+Title: == Cadastrar caixa
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar os funcionários que serão caixa no intellicash. Mas para isso é necessário cadastrar um usuário, pois esta ferramenta só designa caixa, à um usuário do IntelliCash.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Caixa||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+É nesta tela que ficarão os funcionários designados como caixa.
+Abaixo existem dois botões:
+* **Configurar** para configurar os funcionários que serão;
+* **Fechar** para salvar e fechar esta tela;
+
+Após clicar em "//**Configurar**//" aparecerá uma nova tela:
+
+
+
+Nesta tela existem duas colunas, "//**Não é Caixa**//" para os funcionários que não são configurados como caixas e "//**Caixa**//" para aqueles que são caixas.
+Nela estão os nomes de todos os funcionários e por padrão todos eles estarão na coluna "//**Não é Caixa**//";
+Alem disso nesta tela haverá três botões:
+
+*Este botão servirá para colocar o nome da coluna esquerda (não é caixa) para a direita (caixa), designado os mesmos como caixa;
+*Este botão serve para retirar o operador de caixa desta função;
+*Assim como a primeira tela nesta há um botão Fechar que salva e fecha esta operação;

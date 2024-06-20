@@ -1,0 +1,6 @@
+Title: = NF Parceiro
+
+Content:
+=
+
+Para visualizar as notas fiscais de parceiro, o usuário deverá acessar o menu lateral esquerdo "NF Parceiro".

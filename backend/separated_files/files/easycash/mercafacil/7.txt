@@ -1,0 +1,19 @@
+Title: Primeira carga do Sincronizador
+
+Content:
+Deve-se atentar nos seguintes pontos:
+
+ - Checkbox do produtos deve estar marcado;
+ - Checkbox do operadores deve estar marcado;
+ - Período de vendas anteriores deve ser de um mês da data atual;
+ - Checkbox "Gerar DUMP de envio" deve estar marcado.
+
+Após realizar as marcações acima, deve-se gerar a carga inicial.
+
+
+
+Na aba "Sincronizador", as configurações devem estar da forma conforme a figura abaixo:
+
+
+
+Observação: O tempo do campo "Intervalo de Exportações(h), vem como padrão o valor de 12 horas, porém, poderá ser trocado para 2 horas.

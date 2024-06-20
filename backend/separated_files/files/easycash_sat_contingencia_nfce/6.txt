@@ -1,0 +1,23 @@
+Title: Servidor de Fila SAT
+
+Content:
+No arquivo INI do EasyCash teremos as seguintes tags alteradas no grupo **[SAT]**:
+
+* **Remoto = 1** - Indica que as transmissões das vendas em SAT irão ser direcionadas para um SAT conectado em outra máquina.
+* **RemotoHost = 192.168.0.239** – Indica para qual máquina, que tenha o servidor FILA configurado, as vendas serão direcionadas.
+
+
+
+No **SERVIDOR** onde temos o equipamento receptor deveremos ter também uma nova cópia do servidor do EasyCash que fará o gerenciamento destes documentos recebidos. Em seu arquivo INI temos a tag **[SAT]** com seu parâmetros próprios.
+
+
+
+A sua interface também é modificada conforme a imagem:
+
+
+
+O ícone da bandeja do Windows também é modificado conforme a imagem:
+
+
+
+Uma das opções gerenciais que temos neste servidor de fila é a possibilidade de visualizar e exportar os documentos recebidos para processamento além de abrir o seu respectivo XML, conforme a imagem:

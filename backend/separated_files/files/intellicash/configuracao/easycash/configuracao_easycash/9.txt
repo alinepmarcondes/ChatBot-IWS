@@ -1,0 +1,11 @@
+Title: Ticket Presente
+
+Content:
+Ferramenta ideal para o estabelecimento que gostaria de emitir um ticket de presente para seu cliente.
+
+Para utilizar esta ferramenta é necessário fazer sua configuração. Para isto entre em **configuração –> Ticket de Presente**. 
+ Ticket de Presente**;
+* **Solicitar permissão ao usuário:** Caso o estabelecimento queira restringir esta tela para apenas alguns funcionários é necessário habilitar esta configuração e não esquecer de entrar na tela de permissões de operadores de caixa e liberar a venda para os usuários chaves.
+* **Nº Vias:** Quando configurado é o número máximo de vias que o usuário pode emitir ou seja, se estiver configurada 6 vias o usuário ao fazer o ticket pode escolher de 1 a 6 vias para impressão.
+* **Nº Linhas vazias rodapé:** quando configurada é o numero de linhas que ficará em branco caso o usuário queira digitar uma observação.
+* **Texto Padrão:** É um texto que o usuário pode digitar e que saíra em todas as vias do ticket de presente.

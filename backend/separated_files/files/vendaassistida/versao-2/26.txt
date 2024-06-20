@@ -1,0 +1,6 @@
+Title: = Forma de Cobrança
+
+Content:
+=
+
+Para alterar a forma de cobrança, o usuário deverá acessar o menu localizado no canto superior direito e pressionar o item "Forma de Cobrança".

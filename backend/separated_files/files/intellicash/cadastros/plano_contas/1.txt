@@ -1,0 +1,40 @@
+Title: == Cadastrar Plano de Contas
+
+Content:
+==
+
+----
+
+Esta ferramenta tem como função cadastrar um plano de contas (centro de custo), para classificar as despesas e receitas da empresa, a fim de um controle na gestão empresarial.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Plano de Contas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela ficam todos os planos de contas cadastrados, e na parte inferior há os seguintes botões:
+
+* **Imprimir** para imprimir dados dos planos de contas;
+* **Novo item raíz:** ao clicar neste botão será aberto uma interface para que seja criado um item principal no plano de contas;
+
+
+
+Nesta tela há os itens a preencher com os atributos descrição, fator e conta contábil além dos seguintes botões operadores:
+**Ok** para fechar e criar um novo item raiz.
+**Cancelar** para fechar e cancelar esta operação.
+
+* **Novo sub-item** para criar um item para registrar um novo sub-item no plano de contas e ao clicar neste botão aparecerá a mesma tela mostrada acima;
+* **Alterar** para alterar dados de um item e ao clicar neste botão aparecerá a mesma tela citada acima.
+* **Excluir** para excluir um item do plano de contas.
+* **Fechar** para fechar e salvar todas as alterações feitas.
+
+Depois de registrado um item no sistema após um clique duplo em cima de seu nome aparecerá a seguinte tela:
+
+
+
+Esta tela mostra alguns detalhes do plano de contas selecionado mostrando os detalhamentos de entrada e saída do item selecionado. Nela há os botões de início e término para realizar uma pesquisa do detalhamento do centro de custo em um determinado período.

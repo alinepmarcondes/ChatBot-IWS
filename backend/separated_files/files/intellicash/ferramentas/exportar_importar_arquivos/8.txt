@@ -1,0 +1,4 @@
+Title: Duplicar Configuração
+
+Content:
+A função deste botão **(Dupl.)** é permitir a reprodução de um Layout de Exportação na aba de Importação e vice-versa. O propósito é facilitar a troca de dados respeitando um determinado padrão. Sendo assim, quando duplicamos um layout de Importação, este mesmo layout estará disponível em Exportação, com o mesmo nome seguido do numero 1, indicando que se trata de uma cópia.

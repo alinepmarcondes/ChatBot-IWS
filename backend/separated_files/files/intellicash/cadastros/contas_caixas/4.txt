@@ -1,0 +1,26 @@
+Title: = Dados Conta Corrente
+
+Content:
+=
+
+A aba "//**Dados Conta Corrente**//" mostra apenas um informativo dos dados do banco para o cliente.
+
+
+
+Nela há o botão "//**Alterar**//" para alterar os dados da conta e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela há os seguintes campos a preencher:
+
+* **Cód. Banco:** para informar o código do banco de acordo com a FEBRABAN(Federação Brasileira de Bancos), após informado o código automaticamente preencherá o campo "//**Banco**//";
+* **Agência:** Para informar a agência do banco;
+* **Conta Corrente:** Para informar a conta do banco;
+* **Valor de Manut.:** Para informar o valor da taxa de manutenção do banco;
+* **Titular:** Para informar o titular da conta;
+* **Conta Ativa:** Informar se a conta está ativa ou não;
+* **Gerente:** Para informar o gerente do banco;
+* **Conta Preferencial:** Para informar se esta conta é preferencial do cliente;
+* **Site:** Para informar o site do banco;
+* **Telefone:** Para informar o telefone do banco;
+* **E-mail:** Para informar o email do banco;

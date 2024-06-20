@@ -1,0 +1,7 @@
+Title: Enviar produtos, preços e Cód. Barras
+
+Content:
+Permite forçar o envio de produtos para a ScannTech, existem 3 opções para forçar o envio:
+- **Enviar todos os produtos ativos**: caso o usuário não tenha o costume de desativar itens que não trabalha mais, irá enviar informações desnecessárias além de demorar muito;
+- **Todos Produtos Vendidos Desde**: nessa opção o usuário escolhe uma data e serão enviados todos os produtos que tiveram venda ou que foram cadastrados após essa data;
+- **Enviar Todos pelo Sincronizador**: nessa opção o sistema irá enviar todos os produto como pendentes de envio e serão enviados pelo sincronizador em background. Apesar de ser a opção menos incomoda, é a opção mais lenta.

@@ -1,0 +1,28 @@
+Title: Configurar o Sincronizador
+
+Content:
+O **Sincronizador** é configurado pelo arquivo //SincrScannTech.ini// que se encontra junto ao executável do **Sincronizador**.
+
+Dentro do arquivo deve ser informado o endereço do servidor do **Intellicash** e o nome do banco de dados, além da API de autenticação da IWS. 
+
+**[Server]**\\
+**Host=127.0.0.1**\\ 
+**[Db]**\\
+**Alias=INTELLISTORE3**\\
+**User=SYSDBA**--> usuário BD\\
+**Pass=masterkey**--> senha BD\\
+**[Api]**\\
+**Url=api.iws.com.br**--> API de validação\\
+**[Application]**\\
+**Shutdown=23:00:00**--> hora de reiniciar a operação\\
+**Interval=10**--> intervalo entre execuções\\
+**[Logs]**\\
+**Debug=0**--> log detalhado das operações\\
+**DBDiasLog=60**--> tempo em dias de armazenagem dos log em BD\\
+**DBDiasLogErros=90** --> tempo em dias dearmazenagem dos logs com erro no BD\\
+
+
+
+Após alterar as configurações reinicie o **Sincronizador** para efetivar as alterações.
+
+Para fazer o download do sincronizador, acesse o link a [[http://intelliware.com.br/download/scanntech/|seguir]].

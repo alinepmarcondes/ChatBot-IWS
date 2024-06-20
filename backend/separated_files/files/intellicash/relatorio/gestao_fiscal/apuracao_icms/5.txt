@@ -1,0 +1,10 @@
+Title: = Detalhamento da Apuração
+
+Content:
+=
+
+
+
+Nesta interace há 2 colunas, à esquerda mostratodos os CFOPs que constam em alguma nota fiscal do período seleiconado.
+
+À direta mostra todas as notas fiscais de um CFOP selecionado na coluna a esquerda e a apuração do ICMS de cada uma das notas fiscais.

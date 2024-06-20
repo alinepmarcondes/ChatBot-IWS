@@ -1,0 +1,21 @@
+Title: Botões e Funcionalidades
+
+Content:
+**Tipos de Promoção**: ()Loja () Encarte;\\
+Determinam para qual será o tipo de promoção aplicado para todos os itens da lista que estiverem selecionados na hora de inserir a promoção;
+
+**Encerramento Automático**: Quando marcado, encerrará automaticamente as promoções de acordo com a data de encerramento. Necessita que todos os itens selecionados da lista tenham uma data de encerramento definida.
+
+**Browse**: Abre uma janela de seleção de arquivo de texto. Qualquer arquivo de texto com formato csv cujo primeiro campo seja o EAN funciona como arquivo de importação de promoções. 
+
+
+
+**Atualizar**: Recarrega as promoções importadas;
+
+**Inserir Promo**: Insere as promoções na lista de itens de promoção pendentes e exibe as promoções pendentes;
+
+**Fechar**: Fecha a janela.
+
+A tabela de promoções possui os seguintes campos editáveis: **Preço Prom., Mkp Prom., Início, Término**.
+
+O Clique duplo em uma linha abre a janela de Cadastro de Produtos.

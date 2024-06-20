@@ -1,0 +1,4 @@
+Title: Servidor de imagens
+
+Content:
+Ao clicar em "Servidor de Imagens" é aberto um dialog para o usuário inserir um host do servidor de imagem.

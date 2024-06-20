@@ -1,0 +1,10 @@
+Title: = Cadastro em um banco Multiempresa
+
+Content:
+=
+
+Em caso de MultiEmpresa ao cadastrar um Vendedor o sistema irá solicitar a empresa do mesmo após clicar no campo incluir.
+
+
+
+E quando for feita a alteração o sitema irá mostrar o campo empresa para que o usuário possa alterar ou visualizar.

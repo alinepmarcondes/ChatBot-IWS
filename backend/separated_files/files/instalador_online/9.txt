@@ -1,0 +1,4 @@
+Title: Concluindo Instalação
+
+Content:
+Clique em //“Concluir”// para encerrar o “Assistente de Instalação”.

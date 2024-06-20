@@ -1,0 +1,6 @@
+Title: Campo Vazio
+
+Content:
+O campo **“VAZIO”** é muito importante para fazer importação de tabelas que possuem colunas que não fazem parte do nosso banco de dados. Como no exemplo acima, temos os campos **CÓDIGO (1)** que poderia ser um código de catálogo, e o segundo campo que se refere ao **CÓDIGO** de barras, __fundamental__ para a importação de um produto. Neste caso, o primeiro campo “Código” não nos interessa e por isso, ao colocar uma coluna “VAZIO” em sua posição este campo será ignorado no momento da importação.
+
+Podemos observar o mesmo com o campo **“CODIGO (coluna A do Excel)”**, , que não existe nos registros do sistema.

@@ -1,0 +1,12 @@
+Title: = Configuração do Easycash
+
+Content:
+=
+
+Para o Easycash, ao atualizar, deve-se acessar as configurações no seguinte caminho: PDV -> Liberação
+
+
+
+Nesta tela, deve-se informar o IP do servidor (de onde está instalado o servidor IWB).
+
+Podemos também configurar diretamente pelo arquivo **Easycash.ini**:

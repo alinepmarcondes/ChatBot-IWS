@@ -1,0 +1,4 @@
+Title: Configurações
+
+Content:
+Para fazer as configurações basta ir na aba "Configurações", clicar no botão "Alterar" e preencher os dados de acordo com as informações recebidas da consulta tributária.

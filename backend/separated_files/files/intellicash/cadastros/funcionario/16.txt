@@ -1,0 +1,16 @@
+Title: = Funcionários Pagamentos
+
+Content:
+=
+
+Já na aba “//**Funcionários Pagtos**//” se divide em duas sub abas “//**Geral**//”, demonstra uma tela semelhante à de “//**Funcionários Geral**//” a diferença esta em ela só exibirá o “//**Nome**//”, “//**Setor**//”, “//**Salário**//” e “//**Último Pagamento**//” não demonstrando os demais dados pertinentes a tela anterior, e “//**Relatório Salários**//” também se divide em três sub abas “//**Contas**//”, “//**Salários**//” e “//**Por Setor**//”. Em todas elas o usuário deverá escolher a data de “//**Inicio**//” e “//**Término**//”, tipo de data “//**Pagamento ou Entrada**//” e “//**Mostrar somente Salários**//” após essa escolha o usuário deverá clicar em “//**Aplicar**//”.
+
+
+
+Nessa tela demonstra quais as possíveis contas saiu o dinheiro para o pagamento de funcionário, no exemplo acima está exibindo somente o caixa empresa, mas dependendo do tipo de data poderá ser apresentados mais caixas. Dando um duplo clique na conta apresentada ou clicando na aba “//**Salários**//” a tela mostrará os detalhes da composição salarial de cada funcionário cadastrado no sistema desde que o mesmo esteja com o status “//**Ativo**//” no sistema. Ex.: data de pagamento, data de entrada, vencimento, nome, proventos, vales, valor do pagamento e etc..
+
+
+
+Logo no aba “//**Por Setor**//”, há possibilidade de o usuário ter um controle de sua folha por setor da empresa (Ex.: Administração, Empacotador, Limpeza, etc.), dividindo a tela em dois quadrantes, a primeira denominada de “Setores” discrimina os setores da empresa e suas respectivas despesas agrupadas pelo montante de funcionários de cada do setor (Ex.: Administração, seus respectivos Rendimentos, salário família, horas extras, etc.) já o segundo quadrante chamando “//**Funcionários por Setor**//” demonstra quais são os funcionários são do setor selecionado no quadrante primeiro e os dados pertinentes aquele determinado funcionário. 
+
+O usuário poderá navegar nesta tela clicando em cima do setor selecionado ou utilizar a seta para cima ou baixo que sistema buscará automaticamente os funcionários daquele determinado setor.

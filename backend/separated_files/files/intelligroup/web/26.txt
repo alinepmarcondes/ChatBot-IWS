@@ -1,0 +1,13 @@
+Title: = Editar nota fiscal
+
+Content:
+=
+
+Para editar uma nota fiscal, o usuário deverá informar o perído em que a nota fiscal foi cadastrada, e clicar no campo "Editar" da nota desejada conforme demonstra a figura abaixo.
+
+
+
+
+Após clicar sobre o botão "Editar", será aberto um formulário com as informações da nota a serem alteradas. 
+
+Realizada as alterações, o usuário deverá clicar no botão "Salvar", onde será exibida uma mensagem confirmando que as alterações foram salvas com sucesso. Em caso de erro, será informado uma mensagem com os campos que apresentarem inconsistências.

@@ -1,0 +1,10 @@
+Title: = Tratamento de Cliente e Funcionário de forma separada no Fechamento de Caixa
+
+Content:
+=
+
+Também é permitido realizar o tratamento de Cliente e Funcionário de forma separa no Fechamento de Caixa (//Gerenciamento -> Financeiro -> Tesouraria -> Movimento dos Pdvs//) e em (//Gerenciamento -> Financeiro -> Tesouraria -> Fechamento de Caixa//).
+
+Para tal foi criada a configuração **5903 - Controle de Fechamento de Caixa por Funcionário** que vai padronizada como **SIM** e funciona como é atualmente o sistema (dando prioridade ao **Funcionário**).
+
+Se desejar tratar o Cliente e Funcionário de forma separada deve-se mudar a configuração **5903** para **NÃO** e ao alterá-la o sistema irá rodar uma função que irá pegar todos os Funcionários ativos e transformá-los em Clientes independentes, permitindo o controle via EasyCash pelo Cliente.

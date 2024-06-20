@@ -1,0 +1,6 @@
+Title: = Alterar senha
+
+Content:
+=
+
+Para acessar a tela **Alterar senha** clique no menu com o nome do usuário logado e depois em **Alterar senha** conforme demostra a figura abaixo.

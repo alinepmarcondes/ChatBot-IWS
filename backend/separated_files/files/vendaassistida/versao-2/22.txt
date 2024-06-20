@@ -1,0 +1,6 @@
+Title: = Histórico de Relacionamento
+
+Content:
+=
+
+Para visualizar o Histórico de Relacionamento do orçamento, o usuário deverá acessar o menu localizado no canto superior direitoe pressionar o item "Hist. de Relacionamento".

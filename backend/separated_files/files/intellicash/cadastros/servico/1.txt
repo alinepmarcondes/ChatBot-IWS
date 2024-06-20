@@ -1,0 +1,24 @@
+Title: == Cadastro de Serviços
+
+Content:
+==
+
+----
+
+Esta tela é para cadastrar os serviços que depois serão utilizados na nota fiscal de serviço
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Serviços||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+
+Dentro do cadastro do serviço há as seguintes opções, como:
+* **Imprimir** para imprimir o cadastro do Serviço selecionado;
+* **Alterar** para alterar o cadastro do Serviço selecionado;
+* **Excluir** para excluir o cadastro do Serviço selecionado.

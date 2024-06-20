@@ -1,0 +1,22 @@
+Title: Produção Vasilhame
+
+Content:
+Produção de Vasilhame é o tipo de Produção que deve ser utilizado para produtos que utilizam vasilhame retornável. \\ Um exemplo desse tipo de estrutura pode se utilizar a cerveja de garrafas, onde o usuário ao comprar o produto ele leva o casco para abater no valor do item.\\
+
+**Cadastrando uma Produção Vasilhame**
+
+O sistema irá abrir uma interface para informar qual ou quais insumos irão compor esse kit. No campo insumo o usuário pode digitar tanto o código do item ou a descrição, o campo **Qtde** deve ser informado a quantidade do insumo para compor o kit, essa quantidade será a quantidade que irá para o estoque do vasilhame ao vender o kit(para cada unidade vendida do kit será alimentado a quantidade informada do insumo. Por exemplo vendeu 10 unidade do kit, será dada entrada em 10 x a qtde informada do insumo no kit).
+
+
+
+
+
+
+
+A aba "//**Estrutura de Produção**//" mostra os dados referentes ao cadastro do vasilhame. Caso deseje alterar a produção manual, basta clicar no botão "//**Alterar Estrutura**//" na parte inferior da tela.
+
+
+
+A aba "//**Hit. Produção**//" mostra o histórico de todos os vasilhames realizados durante um intervalo de datas selecionado.
+
+A primeira coluna mostra as prdouções realizadas e a quantidade e na segunda coluna mostra os insumos desta produção.

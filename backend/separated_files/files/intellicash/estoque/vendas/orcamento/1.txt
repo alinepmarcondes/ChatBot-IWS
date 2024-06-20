@@ -1,0 +1,35 @@
+Title: = Orçamento
+
+Content:
+=
+
+----
+
+Orçamento é um documento auxiliar de venda, sem validade fiscal, ele só se transformará em documento fiscal ao ser confirmado, nesse caso deve ser exportado para cupom fiscal caso não tenha associado a um cliente e para nota ou cupom caso tenha um cliente identificado.
+ Para criar um orçamento basta acessar o orçamento ou localizar o cliente para quem deseja fazer o orçamento, ir até a aba Orçamento.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em: 
+
+||Gerenciamento→Estoque→Vendas→Orçamento||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+ \\
+
+Para localizar um orçamento é preciso clicar no botão localizar ou pressionar a tecla F3, será aberta outra tela onde é possível localizar qualquer orçamento daquele agente, podendo filtrar por período e situação do orçamento.
+
+ \\
+
+**1. Localizar:** Ao ser chamado por dentro do orçamento do cliente ela vem com campo cliente já preenchido e então basta localizar apenas orçamento deste cliente, já pela interface de orçamento ela vem com campo cliente em branco e permite localizar orçamento de um determinado cliente informado o nome dele, ou marcando a opção "//**Consumidor**//", neste caso irá mostrar somente os orçamentos feitos para consumidor, ou ainda pode aplicar sem informar o cliente e sem marcar a opção consumidor e o sistema ira listar todos os orçamentos na situação e período escolhido. Se informado algum valor no campo "//**Número do Orçamento**//" o sistema irá tentar localizar um orçamento que tenha aquele número, independente dos demais filtros da interface.
+
+Clicando com botão direito do mouse sobre o botão aplicar tem a opção "//**Aplicar ao Entrar**//". Essa opção quando estiver marcada, ao entrar na interface o sistema já irá efetuar o clique do botão aplicar, com o intervalo padrão de sete dias e com as opções de filtro da situação que o usuário havia deixado da última vez que utilizou essa interface.
+
+**2. Novo:** Abre um novo orçamento. Ao clicar com botão direito do mouse sobre este botão será exibida duas opções:
+* **Duplicar Orçamento:** Essa opção duplica o orçamento que estiver aberto.
+* **Mesclar Orçamentos:** Ao escolher está opção será exibida uma outra interface para selecionar os orçamentos que deseja mesclar, ao selecionar os orçamentos e clicar em salvar o sistema ira criar um novo orçamento com os itens dos orçamentos selecionados e ira descartar os orçamentos selecionados.
+
+
+
+Lista de Configurações Relacionadas ao Orçamento

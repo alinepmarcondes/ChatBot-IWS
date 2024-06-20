@@ -1,0 +1,37 @@
+Title: = Localizar
+
+Content:
+=
+
+A aba "//**localizar**//" tem a função de localizar ou cadastrar novos representantes no sistema;
+
+
+
+Nesta tela existe um campo de texto para pesquisar por um representante no sistema ou cadastrar um representante clicando no botão "//**Novo**//". Ao clicar no botão novo aparecerá a seguinte interface:
+
+
+
+Nesta tela é necessário informar o CPF/CNPJ do representante e após validado aparecerá a seguinte interface para o cadastro do representante:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Tipo:** para informar se é uma pessoa física ou jurídica;
+* **Nome/R.S.:** para informar o nome do representante;
+* **Fantasia:** para informar o nome fantasia do representante;
+* **CPF/CNPJ:** para informar o CPF/CNPJ do representante;
+* **Email:** para informar o email do representante;
+* **Tipo Telefone:** para informar o tipo de telefone do representante;
+* **DDD:** para informar o DDD do telefone;
+* **Telefone:** para informar o telefone do representante;
+
+
+
+
+
+Nesta tela é necessário informar a senha do representante e confirmá-la. Após isso é aparecerá a seguinte interface para localizar o fornecedor que o representante representa:
+
+
+
+Após isso basta localizar o fornecedor e o representante estará cadastrado. Caso dejese alterar algum dado do representante basta localizar o representante e após isso ir até a aba "//**Cadastro**//" e alterar os dados do representante.

@@ -1,0 +1,6 @@
+Title: = Compras
+
+Content:
+=
+
+Para acessar o Histórico de Compras, o usuário deverá acessar o menu lateral deslizando o dedo horizontalmente na tela de orçamento da equerda para a direita.

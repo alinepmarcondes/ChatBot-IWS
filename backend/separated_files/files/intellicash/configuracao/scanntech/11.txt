@@ -1,0 +1,4 @@
+Title: Enviar movimento de vendas por período
+
+Content:
+Permite ao usuário selecionar um período para reenviar os cupons de venda.

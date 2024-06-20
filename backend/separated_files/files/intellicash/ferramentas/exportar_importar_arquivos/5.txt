@@ -1,0 +1,9 @@
+Title: = Inclusão e Exclusão de Campos
+
+Content:
+=
+
+Além dos botões **“Adicionar”** e **“Remover”** podemos utilizar o facilitador clicando com o botão direito na tabela de campos onde termos três opções:
+* **Remover Todos:** Remove todos os campos;
+* **Remover Seleção:** Remove todos os campos selecionados;
+* **Adicionar Todos:** Adiciona todos os Campos.

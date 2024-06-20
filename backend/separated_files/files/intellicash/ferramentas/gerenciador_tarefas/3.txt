@@ -1,0 +1,10 @@
+Title: = Tarefas (Usuário)
+
+Content:
+=
+
+Quando o usuário entrar no sistema e se estiver alguma tarefa que foi designada a ele o sistema apresentará uma tela contendo as tarefas que foram definidas a ele. O usuário poderá interagir com a tarefa detalhando os procedimentos da tarefa no campo “DESCRIÇÃO”, demonstrando a situação em que se encontra a tarefa no campo “SITUAÇÃO” que poderá ser demonstrado como em progresso (caso já esteja em andamento a tarefa) e concluída (caso já esteja terminada a tarefa) e a “DATA” em que foi feita a tarefa e clicar no botão aplicar. Após o usuário descrever o andamento da tarefa o mesmo poderá fechar a tela que o sistema INTELLICASH abrirá normalmente.
+
+
+ 
+Depois de concluída a tarefa e caso o gerenciador de tarefas esteja com a opção “Fechar Tarefas ao concluir” marcada, as tarefas concluídas sairão da aba Tarefas e irão para a aba Histórico de Tarefas. Demonstrando a tarefa designada e logo abaixo os passos que foram dados para realização da mesma.

@@ -1,0 +1,16 @@
+Title: == Faturamento e Cobrança
+
+Content:
+==
+
+----
+
+Esta ferramenta serve para faturar e gerar uma cobrança para um conveniado do sistema e também fazer o recebimento do mesmo.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Lançamentos→Faturamento e Cobrança||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

@@ -1,0 +1,9 @@
+Title: Resultado
+
+Content:
+Após importar os divergêntes basta ir na aba resultado, informar a data que foi consultado os divergêntes e aplicar.
+
+O sistema irá listar os itens que possuem divergência, destacando em vermelho os dados do Intellicash e em verde os dados da consulta tributária.\\
+Clicando no botão **"Ações"** é possivel aceitar as alterações e corrigir o cadastro de acordo com os dados enviados pela consulta tributária. \\
+Uma vez classificado os itens pela consulta tributária, ao acessar o seu cadstro na aba impostos é destacado um logo da consulta tributária, para que o usuário possa saber que aquele item está classificado de acordo com a consulta tributária.\\
+Qualquer alteração fiscal que o item sofra por parte do usuário essa logo é removida e o item entra novamente no log de envio para consulta tributária.

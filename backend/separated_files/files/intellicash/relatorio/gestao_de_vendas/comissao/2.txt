@@ -1,0 +1,16 @@
+Title: = Por Vendedor
+
+Content:
+=
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+
+
+Após realizada a pesquisa será mostrado na coluna à esquerda os vendedores e suas respectivas comissões de acordo com o que cada vendedor vendeu no período selecionado e na coluna à direita mostra um gráfico das comissões dos vendedores para melhor visualização;

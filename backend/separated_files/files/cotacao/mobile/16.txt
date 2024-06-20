@@ -1,0 +1,4 @@
+Title: Produtos Cotados Anteriormente
+
+Content:
+A partir da versão 3.0.4.5 foi incrementado um checkbox permitindo ao representante visualizar os itens e valores cotados por ele anteriormente, que estão presentes na atual cotação. Esse retorno se restringe a somente o último lançamento cotado.Ao realizar a marcação na checkbox, a aplicação atualiza automaticamente as informações da tela.

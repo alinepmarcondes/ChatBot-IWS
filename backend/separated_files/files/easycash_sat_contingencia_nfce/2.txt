@@ -1,0 +1,4 @@
+Title: Fluxograma
+
+Content:
+Fluxograma básico do processo de acionamento do equipamento SAT, quando em processo de contingência.

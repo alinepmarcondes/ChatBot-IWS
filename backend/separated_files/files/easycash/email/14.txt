@@ -1,0 +1,41 @@
+Title: EasyCash
+
+Content:
+A regra de envio de e-mail no processo de venda segue, a princípio:
+
+* **Agente devidamente identificado no cupom fiscal**
+* **Deve ter pelo menos 1 e-mail válido devidamente configurado no sistema**
+
+Se estiver configurado o sistema e as condições acima forem satisfeitas após a transmissão do mesmo será mostrada a mensagem:
+
+
+
+Caso o usuário clique em **SIM**, será aberta a tela mostrando todos os e-mails do cliente, senão será impresso o DANFE normalmente.
+
+
+
+Nesta tela, o operador pode executar 3 operações auxiliares que seria:
+
+* **Alteração do e-mail padrão** -> Deve ter permissão ALTERARCLIENTE
+* **Cadastro de um novo e-mail** -> Deve ter permissão INSERIRCLIENTE
+* **Alteração de um e-mail existente** -> Deve ter permissão ALTERARCLIENTE
+
+Lembrando que __o e-mail padrão sempre virá automaticamente selecionado nesta tela ao abrir a mesma__.
+
+Essas alterações serão exportadas para a retaguarda no fechamento do turno.
+
+
+
+Abaixo um exemplo de alteração de e-mail:
+
+
+
+Uma vez selecionado o e-mail, o sistema irá efetuar o envio, conforme a imagem:
+
+
+
+Se o envio for efetuado com sucesso, a mensagem automaticamente será fechada e a tela limpa. Caso ocorra algum problema o sistema avisará o usuário com uma mensagem conforme a tela abaixo:
+
+
+
+Em seguida prosseguirá com a impressão do DANFE.

@@ -1,0 +1,49 @@
+Title: = Dados
+
+Content:
+=
+
+
+
+Nesta tela existe uma coluna (Conta/Caixa) que contém todas as contas e caixas cadastradas neste sistema.
+
+Ao lado mostra a descrição do banco selecionado na coluna “Conta/Caixa”.
+
+Nesta parte mostra os dados da Conta/Caixa com os seguintes atributos:
+
+* **Tipo:** informa se é conta ou caixa;
+* **Descrição:** informa a descrição da conta;
+* **Limite:** informa o limite da conta;
+* **Conta Contábil:** informa a conta contabil da conta;
+* **Saldo Atual:** informa o saldo atual da conta;
+* **Observações:** informa as observações da conta;
+* **Conta Custódia:** se esta opção estiver marcada, é uma conta apenas para guardar cheques
+
+Além dos seguintes botões:
+
+* **Alterar():** Este botão serve para alterar a conta contábil da conta/caixa;
+* **Ajustar():** Para alterar o valor manualmente da conta/caixa do sistemapara isso é necessário digitar o valor do saldo atual na conta, indicar a data da conta e a descrição deste saldo;
+
+* **Transferência():** Serve para transferir valores de uma conta para outra.
+
+Nesta tela existe a parte de Destino. Nela deve ser informado para qual conta deseja realizar a transferência, o atributo valor para o valor da transferência, a data em que se realizou ou deseja realizar, o atributo espécie para indicar a forma de transferência e a descrição da transferência;
+* **Transf. Cx PDV():** Para tranferir valores de uma conta/caixa para a conta PDV.
+
+Esta tela diferente da transferncia que pode ser feito para todos os outros contas e caixas é apenas para o caixa PDV. 
+Assimos campos vem automaticamente preenchidos fazendo com que apenas seja necessário colocar o valor da transferência e se desejar alterar a descrição da transferência;
+
+No canto inferior esquerdo da tela há os seguintes botões:
+* Para voltar a primeira conta da coluna;
+* Para voltar uma conta da coluna;
+* Para seguir uma conta da coluna;
+* Para seguir até a última conta da coluna;
+
+E no canto inferior direito da tela existem os seguintes botões:
+
+* **Novo:** para adicionar uma nova conta/caixa ao sistema e aparecerá a seguinte tela:
+
+Existe o tipo a escolher entre conta e caixa e os atributos descrição, descrição resumida, limite e uma caixa de marcação com o nome de caixa custódia e também indicar o saldo inicial da conta.
+* **Alterar:** para alterar dados da conta/caixa selecionada e aparecerá a seguinte tela:
+
+Existe o tipo a escolher entre conta e caixa e para alterar a descrição, descrição resumida, limite e uma caixa de marcação com o nome de caixa custódia;
+* **Excluir:** para excluir a conta/caixa selecionada;

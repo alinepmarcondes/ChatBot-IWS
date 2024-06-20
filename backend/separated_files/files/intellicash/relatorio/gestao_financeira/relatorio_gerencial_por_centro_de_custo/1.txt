@@ -1,0 +1,28 @@
+Title: == Relatório Gerencial por Centro de Custo
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de mostrar um relatório gerencial, classificado por centro de custos.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Relatório Gerencial por Centro de Custo||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta tela há três abas para escolher como realizar o relatório com os seguintes nomes:
+
+* "//**Entrada**//" para selecionar o centro de custo pela data de entrada;
+* "//**Vencimento**//" para selecionar o centro de custo pela data de vencimento;
+* "//**Pagas**//" para selecionar o centro de custo pela data de pagamento;
+
+Logo abaixo há duas abas para selecionar o tipo de centro de custo, o fator, entre "//**Receita**//" e "//**Despesa**//";
+
+Há também o botão "//**Data Final**//" para escolher um mês e ano para realizar a pesquisa. realizado a pesquisa o sistema irá mostrar a movimentação de um ano, ou seja, do mês escolhido até um ano atrás.

@@ -1,0 +1,27 @@
+Title: = NFe
+
+Content:
+=
+
+Esta aba apresenta as informações de transmição e xml da nota fiscal.
+
+
+
+Nesta tela há os seguintes campos:
+
+* Parte Aleatória da Chave;
+* Chave de Consulta da NFe;
+* Protocolo de Autorização;
+* Nº do Recibo;
+* Data e Hora do Recibo;
+
+* **Exportar Para XML:** para exportar os dados da nota fiscal para um arquivo no formato ".xml";
+* **Enviar por Email:** Para enviar por e-mail em anexo o arquivo xml e o DANFe em pdf;
+* **Gerar XML:** Para gerar o arquivo XML caso ainda não tenha sido gerado. Caso já tenha sido gerado um XML, será exportado o XML para arquivo.
+* **Consulta NF-e:** Consultar o status da NF-e, e caso tenha o status divergente do Intellicash, faz a correção.
+* **Tipo de envio:** Permite selecionar qual o tipo de envio da NF-e, Normal ou SVC-AN (contingencia). 
+* **Transmitir NF:** permite enviar a NF-e caso não tenha sido enviada.
+* **Status Serviço:** para consultar a disponibilidade do serviço.
+* **Imprimir DANFe:** para imprimir a DANFe das notas já transmitidas.
+* **Carta de Correção:** permite criar e enviae evento de carta de correção eletronica.
+* **NF Complementar:** permite criar e nota fiscal complementar.

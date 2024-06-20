@@ -1,0 +1,16 @@
+Title: Configurar o Sincronizador
+
+Content:
+O **Sincronizador** é configurado pelo arquivo //SincrScannTech.ini// que se encontra junto ao executável do **Sincronizador**.
+
+Dentro do arquivo deve ser informado o endereço do servidor do **Intellicash** e o nome do banco de dados, além da API de autenticação da IWS. 
+
+[Server]\\
+Host=127.0.0.1\\
+[Db]\\
+Alias=INTELLISTORE3\\
+[Api]\\
+Url=api.iws.com.br\\
+
+
+Após alterar as configurações reinicie o **Sincronizador** para efetivar as alterações.

@@ -1,0 +1,14 @@
+Title: == Alteração de preços
+
+Content:
+==
+
+----
+
+Esta ferramenta foi criada para realizar uma alteração de grande quantidade de produtos em menos tempo e mais prático, utilizando somente o teclado.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Alteração de preços||

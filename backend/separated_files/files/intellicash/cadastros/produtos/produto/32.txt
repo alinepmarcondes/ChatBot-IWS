@@ -1,0 +1,28 @@
+Title: Desmembramento
+
+Content:
+Desmembramento, é uma decomposição, ao dar entrada em um item desse tipo, serão exbidos suas partes.(Esse tipo não permite notas de saida, apenas de entrada)
+
+**Cadastrando um Desmembramento**
+
+
+
+Nesta tela é necessário inserir os itens do desmembramento. Após selecionado o item deve informar a quantidade que o item representa do produto completo em percentagem, e o preço de custo do produto no desmembramento e assim clicar no botão "//**inserir**//" para incluir o produto no desmembramento.
+
+(Valores Fictícios).
+
+A "//**Quantidade Real**//" deve ser preenchida corretamente e não pode ultrapassar o valor da quantidade inserida na nota, deve ser correspondente.
+
+Para calcular a quantidade real é realizado o seguinte cálculo:
+
+**Quantidade Inserida na NF x Porcentagem do campo "Proporção Quantidade Real" / 100**
+
+EX:
+
+Pé suíno: Proporção qtde real: 6,25%
+
+Então...
+
+(10 x 6,25) / 100 = 0,625 → É a quantidade inserida no campo quantidade real.
+
+Onde 10 é o valor da quantidade do item inteiro na NF (10kg).

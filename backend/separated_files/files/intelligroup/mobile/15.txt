@@ -1,0 +1,6 @@
+Title: == Parceiros
+
+Content:
+==
+
+Para visualizar os parceiros, o usuário deverá acessar o menu lateral "Parceiros".

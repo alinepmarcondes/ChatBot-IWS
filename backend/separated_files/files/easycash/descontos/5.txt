@@ -1,0 +1,7 @@
+Title: =Desconto em produtos compostos:
+
+Content:
+=
+Produtos compostos são os que possuem um único código de barras, porém são desmembrados item a item no ato da venda. Pelo fato do desmembramento, algumas peculiaridades são necessárias, destacando principalmente o fato de o sistema ter que garantir que estão agrupadas na venda, para o caso de venda em atacado. 
+Para o caso de atacarejo por forma de pagamento, o reagrupamento será necessário mesmo que já tenha sido previamente reagrupados, caso ao contrário o sistema não será capaz de listar as formas de pagamento com desconto.
+Outraquestão a ser destacada é que o sistema não aplicará nenhuma promoção especial nessa categoria de produto.

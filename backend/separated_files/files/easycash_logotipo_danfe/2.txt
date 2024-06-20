@@ -1,0 +1,40 @@
+Title: NFC-e
+
+Content:
+Foi criado no EasyCash a seguinte aba:
+
+
+
+Ao clicar em alterar, teremos:
+
+
+
+Existe dois modos de imprimir o logo nos relatórios da POS. Utilizando um arquivo do sistema ou gravando o logo dentro da POS e depois acessando o mesmo e imprimindo.
+
+Os valores de **KC1**(Keycode 1) e **KC2**(Keycode 2) são os endereços onde está gravado o logo dentro da impressora POS. Utiliza a tabela ASCII para representar, logo 48 = 0(zero) para Elgin. Para a Bematech deve-se utilizar 1 e 0 para habilitar o modo legado de gravação.
+
+O **FatorX** é para imprimir o logotipo reduzido ou 2 para expandido na largura e o **FatorY** é utilizado regular a altura, sendo variável em 1 e 2.
+
+Para esta tarefa foram criadas as configurações:
+
+* **8207**- NFC: Impressão - Logomarca
+* **14607** - NFCeSAT: Impressão - Logomarca - KC1KC2FXFY
+* **14707** - NFCeSAT: Impressão - Logomarca - Adicional
+* **14807** - NFCeSAT: Impressão - Logomarca - Fonte
+* **14907** - NFCeSAT: Impressão - Logomarca - Alinhamento
+
+O alinhamento somente é válido para quando for arquivo do sistema, quando o logo estiver gravado na memória, o posicionamento é definido pelo equipamento.
+
+Foi criada também uma configuração para definir a montagem do cabeçalho nos relatórios, conforme a imagem:
+
+
+
+Caso, além do logotipo o cliente queira alguma outra informação a ser impressa no cabeçalho, basta retirar a seleção ou selecionar conforme a necessidade.
+
+Nesta tela, vale ressaltar que o primeiro botão **Imprimir**, imprime o logo em arquivo selecionado.
+
+No agrupamento **Logo da Memória da POS**, temos também:
+
+//Imprimir:// Imprime o logo gravado na memória da POS nas posições KC1 e KC2.\\
+//Gravar Logo:// Grava o logo na memória da POS nas posições KC1 e KC2.\\
+//Apagar Logo:// Apaga o logo da memória da POS nas posições KC1 e KC2.\\

@@ -1,0 +1,35 @@
+Title: == Cadastro de Fornecedores Parceiros e Produtos Próprios
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de cadastrar fornecedores parceiros e sua participação percentual sobre as vendas, o mesmo vale para as empresas com produtos próprios que tem uma participação de venda.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastro→Parceiros/Prods.Próprios||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+
+
+Nesta tela há as seguintes funções:
+
+* **Localizar (F2):** Para localizar um parceiro/produto próprio ja cadastrado;
+* **Mostrar Todos:** Para mostrar todos os parceiros/produtos próprios;
+* **Novo:** Para cadastrar um novo parceiro/produto próprio e ao clicar neste botão é necessário selecionar um fornecedor e após isso irá aparecer a seguinte interface:Nela contém os seguintes campos:
+- **Início:**
+- **Desconto:**
+- **Taxa de Retorno:**
+- **Observação:** Para inserir uma observação do parceiro;
+* **Alterar:** Para alterar os dados do cadastro de um parceiro/produto próprio;
+* **Excluir:** Para excluir um parceiro/produto próprio cadastrado;
+* **Imprimir:** Para imprimir dados do parceiro/produto próprio;
+
+Ao tentar cadastrar um item com a mesma descrição de um item já cadastrado, será exibida a seguinte mensagem:

@@ -1,0 +1,12 @@
+Title: == Importação de Promoções
+
+Content:
+==
+
+Nesta ferramenta também foi incluído um botão **Importar** (figura 1) que abrirá uma janela (figura 2) que irá gerenciar o processo de importação de arquivos e configuração das promoções.
+
+
+FIGURA 1: Botão Importar
+
+
+FIGURA 2: Lita de Item Importação

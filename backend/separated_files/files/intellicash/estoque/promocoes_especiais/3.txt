@@ -1,0 +1,8 @@
+Title: Comportamento das promoções especiais
+
+Content:
+As promoções especiais não precisam ser exportadas ao frente de caixa, ao realizar ou desativar a promoção, automaticamente será exportado para o **EasyCash** para ser efetivado após a próxima venda, entretanto só serão aplicados os descontos parametrizados na promoção se estiver dentro do período de vigência.
+
+
+
+A **Promoção Especial** permite que o usuário parametrize vários produtos distintos como sendo um mesmo item na contabilização da quantidade necessária para atingir a promoção. Por exemplo, considerar os sabores de um tipo de suco como sendo o mesmo produto e caso o cliente leve um de cada sabor, mesmo assim atinja a quantidade necessária para o desconto.

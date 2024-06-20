@@ -1,0 +1,4 @@
+Title: DBCalc
+
+Content:
+Semelhante ao **Variable** mas possui operações pré-programadas como **SOMA** e **MÉDIA**, por exemplo, que isão atuar sobre um **DBText**. Por exemplo, imagine uma tabela cuja última coluna seja **Subtotal** e no **Footer** haverá o campo **Total**. Então, o campo com o valor Total pode ser um DBCalc com a soma do DBText que recebe o valor de Subtotal.

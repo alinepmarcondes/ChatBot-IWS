@@ -1,0 +1,12 @@
+Title: Código 001
+
+Content:
+Retorno da mensagem de erro da DLL do //**Atualizador Online**//. 
+
+Soluções possíveis:
+* Verifique se o **Alias** do Banco foi informado corretamante na[[manuais:intellicash:atualizador_online#etapa_01_-_configuracoes_iniciais|Etapa 01]].
+* Verifique se o Banco de Dados esta na versão mÍnima para funcionar o //**Atualizador Online**//. 
+* Verifique se todos os campos foram preenchidos corretamente na [[manuais:intellicash:atualizador_online#etapa_01_-_configuracoes_iniciais|Etapa 01]].
+* Verifique se os serviços do //**Firebird**// estão ativos e em execução.
+* Verifique se a //**midas.dll**// está na versão apropriada para o funcionamento do //**Intellicash**//.
+* Verifique o //**Firebird**// está na versão apropriada para o funcionamento do //**Intellicash**//.

@@ -1,0 +1,24 @@
+Title: =Processo
+
+Content:
+=
+
+1.Puxar Movimento do dia
+Ao finalizar o turno do Caixa no EasyCash o sistema já importa os dados do fechamento (se não vier fazer a reimportação na tela de conferência de vendas).
+
+2.	Digitar totais por forma de pagamento
+Somar os totais do fechamento de cada turno por operador, agrupados por forma de pagamento. Digitar esses totais no sistema por turno (**Digitação**).
+
+3.	Conferir totais
+Será apresentada uma interface com os totais puxados pelo sistema e os totais digitados, para conferir pode-se obter mais detalhamento dando dois cliques em cada forma de pagamento, até chegar a forma mais detalhada que seria por cupom (**Conferência**).
+
+4.	Ajustar diferenças
+Caso tenha alguma diferença do real e do sistema, deverão ser apuradas essas diferenças, de forma que cada cupom seja remanejado para a forma correta em que foi pago. Caso a diferença não seja corrigida por meio do remanejamento, este poderá lançar uma correção de caixa.
+
+
+5.	Confirmar caixa por turno
+Confirmar quando tiver certeza que está tudo correto. Pois o processo de estorno é custoso, uma vez que toda movimentação financeira feita posterior e que tenha algum vinculo com o fechamento, deverá ser estornado manualmente antes.
+
+
+6.	Lançar Movimento do dia
+Após confirmar todos os turnos, é feito o lançamento financeiro, para concretizar o fechamento, esse lançamento poderá ser feito turno por turno, ou agrupados vários turnos do mesmo dia.

@@ -1,0 +1,11 @@
+Title: == Recuperar senha
+
+Content:
+==
+
+Para recuperar a senha, o usuário deverá pressionar o link "Esqueceu a senha?" localizado abaixo do campo "Senha".
+
+
+
+
+Se as informações estiverem corretas, será enviado uma notificação com a nova senha para o e-mail de cadastro do associado.

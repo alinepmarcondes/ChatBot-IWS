@@ -1,0 +1,39 @@
+Title: Configuração EasyCash
+
+Content:
+Na forma de recebimento citado no tópico anterior deve estar setada a seguinte configuração:
+
+
+
+Além de estar setada a configuração acima, deve na configuração do EasyCash:
+
+
+
+Nesta tela, teremos:
+
+**Agente Responsável, E-Mail e Tel. Comercial -** Estas informações mostradas aqui são as informações que por padrão o sistema usará caso a informação do cliente esteja incompleta ou não exista para acessar a API do PIC PAY. As 
+informações do comprador na API são obrigatórias. Vide [[https://ecommerce.picpay.com/doc/|PicPay - E-Commerce Public API (1.0)]].\\
+Por padrão, o sistema irá pegar o documento do agente responsável ao invés do CNPJ da empresa, uma vez que a API pede um CPF. No entanto, vimos em teste que por enquanto nenhuma restrição é efetuada nesta informação quanto ao tipo(CPF/CNPJ).
+
+**IP, porta e token -** São informações que __serão disponibilizadas do nosso servidor__ para que o CNPJ de determinado cliente acesse a API intermediária com a API do PIC PAY. Os valores default são:\\
+\\
+''IP: picpay.iws.com.br''\\
+''Porta: 80''\\
+\\
+**Tempo Base/Incremento/Qtde. Tentativas -** Refere-se ao tempo de exibição do QR Code na tela e ao tempo de espera para efetuar uma nova requisição de status do pagamento para o servidor.\\
+Teremos:\\
+\\
+''Tempo Base / Requisição de status /'' \\
+''Tempo Base + Incremento / Requisição de status /'' \\
+''...''\\
+\\
+Logo:\\
+\\
+''5 segundos / Requisição de status /'' \\
+''5 + 2 segundos / Requisição de status /'' \\
+''7 + 2 segundos / Requisição de status /'' \\
+''...''\\
+\\
+O processo se repete pelo tempo definido no campo Qtde. Tentativas. Isso evita que o sistema faça muitas requisições de status para o servidor. É um processo muito utilizado pela Netflix, por exemplo.
+
+**Perguntar ao cliente telefone e e-mail incompleto -** Caso esta opção esteja marcada, se no momento de montar as informações para a API do PIC PAY for detectado que o cliente em questão não possui telefone ou e-mail, ao invés de mandar as informações **DEFAULT** da empresa, será solicitado para que o mesmo informe os dados corretos.

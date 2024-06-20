@@ -1,0 +1,8 @@
+Title: = Por Produto
+
+Content:
+=
+
+
+
+Nesta aba serão exibidos os resultados da venda no período, classificados por produtos;

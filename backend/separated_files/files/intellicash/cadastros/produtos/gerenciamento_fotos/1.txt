@@ -1,0 +1,43 @@
+Title: == Gerenciamento de Fotos
+
+Content:
+==
+
+----
+
+Esta ferramenta serve para gerenciar as fotos dos produtos no sistema, e se desejar, que as fotos subam para a web.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Gerenciamento de Fotos||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta aba há os seguintes campos:
+* **Apenas Produtos com Estoque:** marcar esta opção mostrará apenas produtos com estoque;
+* **Apenas Prdoutos Cadastrados Após:** marcar esta opção mostrará apenas produtos cadastrados após uma data escolhida no campo ao lado;
+* **Aplicar:** para realizar a pesquisa;
+* **Tipo de Importação:** para escolher como importar a imagem;
+- **Importar Arquivo:** para importar a imagem de um arquivo do windows;
+- **Pesquisar no Google:** para importar a imagem do google e ao utilizar esta opção aparecerá a seguinte interface:
+
+Nesta interface há as seguintes funções:
+- **Nova Consulta:** para caso queira usar outra descrição para pesquisar o item, ao lcicar neste botão irá realizar a pesquisa novamente;
+- **Salvar:** para salvar a imagem do produto;
+- : para ir a primeira imagem da pesquisa;
+- : para voltar uma imagem da pesquisa;
+- : para passar uma imagem da pesquisa;
+- : para ir à ultima pesquisa;
+
+* **Adicionar():** para realizar o upload da foto após escolher um tipo de importação;
+* **Enviar Web Automaticamente:** ao marcar esta opção, quando fizer upload de uma foto o sistema automaticamente enviará a foto para os servidores web;
+
+
+
+Nesta aba há os seguintes campos:
+* **Recarregar:** para atualizar os produtos com foto;
+* **Enviar Selecionados Para Nuvem:** para enviar as imagens dos produtos selecionados para as nuvens;

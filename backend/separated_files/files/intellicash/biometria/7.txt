@@ -1,0 +1,4 @@
+Title: Verificação 1:1
+
+Content:
+Este método de autenticação confirma ou nega a identidade de uma pessoa usando uma varredura biométrica e normalmente segue a __apresentação física de um documento de identificação__ (por exemplo, cartão de seguro social, carteira de motorista, etc.) ou a entrada de uma credencial pessoal (por exemplo, PIN, nome de usuário/senha). A credencial fornecida localiza um modelo biométrico armazenado que foi vinculado a ele apartir de um registro anterior. Depois que a credencial é fornecida, a pessoa digitaliza sua biometria e o modelo capturado é comparado apenas com o modelo armazenado que foi localizado com a credencial. A verificação biométrica responde à pergunta:\\

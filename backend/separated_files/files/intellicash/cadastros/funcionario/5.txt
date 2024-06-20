@@ -1,0 +1,4 @@
+Title: Dados
+
+Content:
+A aba "//**Dados**//" mostra os dados do cadastro do funcionário e nela também é possível alterar ou excluir os dados do funcionário.

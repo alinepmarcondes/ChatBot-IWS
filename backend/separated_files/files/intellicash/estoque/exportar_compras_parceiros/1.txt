@@ -1,0 +1,20 @@
+Title: == Exportação de Compras e Vendas
+
+Content:
+==
+
+----
+
+Esta função substitui o item **Gerenciamento -> Relatórios -> Exportar Parceiros** e é acessível a partir de agora em **Gerenciamento -> Estoque -> Exportar Compras de Parceiros**.
+
+Diferenças da função antiga para a nova:
+
+Agora existem três abas na tela que são **Cadastro do Grupo**, **Fornecedores** e **Produtos**.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Exportar Compras de Parceiros||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

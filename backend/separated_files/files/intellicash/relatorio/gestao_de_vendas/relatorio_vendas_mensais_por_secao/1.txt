@@ -1,0 +1,37 @@
+Title: == Relatório de Vendas Mensais por Seção
+
+Content:
+==
+
+----
+
+Este relatório mostra as informações das vendas realizadas diariamente em um mês específico.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Vendas Mensais x Seção||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela você deve selecionar um mês em específico para gerar um relatório, nos botões mês e ano, ao lado há o botão aplicar para realizar a pesquisa e imprimir para imprimir os dados do relatório.
+Abaixo há uma coluna mostra o relatório mensal de vendas por seção anualmente e todos os seus dados de vendas, ao lado há um gráfico para melhor visualização.
+Para saber mais afundo de uma seção você pode dar um duplo clique em uma seção selecionada e abrirá a seguinte tela:
+
+
+
+Esta tela mostra todos os dados de vendas de um grupo selecionado tornando-o ainda mais visível a gestão de vendas de produtos e ao lado mostrar um gráfico para melhor visualização. 
+Para saber mais afundo de um grupo você pode dar um duplo clique em uma seção selecionada e abrirá a seguinte tela:
+
+
+
+Esta tela mostrará um relatório de todo o subgrupo e ao lado haverá um gráfico mostrando suas vendas mensais e ao dar um duplo clique no subgrupo aparecerá a seguinte tela:
+
+
+
+Esta tela mostrará um relatório de todos os produtos neste subgrupo e ao lado haverá um gráfico mostrando suas vendas mensais e ao dar um duplo clique no produto selecionado aparecerá a seguinte tela:
+ 
+Nesta tela há um atalho da tela de cadastro de produtos que está em Gerenciamento→Cadastros→Produtos→Cadastros;

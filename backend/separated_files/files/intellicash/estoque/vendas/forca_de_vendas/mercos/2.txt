@@ -1,0 +1,32 @@
+Title: Aba Importação
+
+Content:
+Nessa aba o IC baixa os pedidos e clientescadastrados no mercos.\\
+**Sub-aba Pedidos:**
+
+
+Nessa aba são listados os pedidos importados do sistema mercos. No grid superior são listados as informações do pedido e no inferior os itens que contem no pedido selecionado.
+
+**Importar:** ao clicar no botão importar o IC comunica com sistema mercos e baixa os pedidos que foram feitos após a data e hora da ultima importação. \\
+**Confirmar:** ao clicar no botão confirmar o IC irá importar os pedidos selecionados para o cadastro do cliente.\\
+**Recarregar:** ao clicar no botão recarregar o IC irá recarregar os pedidos pendentes na lista para confirmação.\\
+**Ações:** ao clicar no botão de ações temos as seguintes opções:
+* **Marcar Todos:** Marca todos os registros da interface;
+* **Desmarcar Todos:** Desmarca todos os registros da interface;
+* **Inverter Seleção:** Inverte a seleção dos registros na interface;
+* **Descartar Selecionados:** descarta os pedidos selecionados;
+ \\
+
+**Sub-aba Clientes:**
+
+
+Nessa aba são listados os clientes importados do sistema mercos.
+
+**Importar:** ao clicar no botão importar o IC comunica com sistema mercos e baixa os clientes que foram cadastrados ou alterados após a data e hora da ultima importação. \\
+**Confirmar:** ao clicar no botão confirmar o IC irá importar os clientes selecionados para o IC. Se o cliente já existir será alterado caso contrario será cadastrado.\\
+**Recarregar:** ao clicar no botão recarregar o IC irá recarregar os clientes pendentes na lista para confirmação.\\
+**Ações:** ao clicar no botão de ações temos as seguintes opções:
+* **Marcar Todos:** Marca todos os registros da interface;
+* **Desmarcar Todos:** Desmarca todos os registros da interface;
+* **Inverter Seleção:** Inverte a seleção dos registros na interface;
+* **Descartar Selecionados:** descarta os clientes selecionados;

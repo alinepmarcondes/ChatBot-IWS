@@ -1,0 +1,44 @@
+Title: == Visualização Dos relatórios
+
+Content:
+==
+
+Os relatórios se encontram no menu em:
+
+||Relatórios→Gerador→(Selecionar o gerador desejado)||
+
+Nos relatórios que são feitos através do gerador de relatórios, cada um tem uma interface dependendo dos parâmetros que são gerados em cada uma das consultas SQL que são colocadas para cada relatório.
+
+
+
+Segue alguns modelos dos possíveis filtros que podem ser configurados na hora de se criar ou configurar um relatório:
+
+
+
+Este filtro teve seu parâmetro configurado com o tipo de dado Texto e complemento igual 9 no gerador de relatório.
+
+
+
+Este filtro teve seu parâmetro configurado com o tipo de dado Numérico e complemento vazio no gerador de relatório.
+
+
+
+Este filtro teve seu parâmetro configurado com o tipo de dado Chave e no complemento foi colocada uma consulta que retorna as marcas que foram cadastradas no sistema.
+
+
+
+Este filtro teve seu parâmetro configurado com o tipo de dado Data no gerador de relatório.
+
+
+
+Este filtro teve seu parâmetro configurado com o tipo de dado Data/Hora no gerador de relatório.
+
+
+
+Após inserir os dados nos filtros, que são os parâmetros de entrada, basta clicar no botão Aplicar, para o sistema retornar os dados conforme a configuração do relatório.
+
+Caso o relatório tenha configurado os parâmetros de saída com Link fixo ou relatório, o sistema irá abrir uma interface quando for dado um duplo click no campo onde tenha sido configurado. No caso do link fixo o sistema pode abrir interface do Cadastro de Fornecedor, Cadastro do Produto e Nota Fiscal. No caso de Relatório, o sistema irá abrir o relatório que foi escolhido na configuração.
+
+Nos relatórios criados através do gerador de relatórios é possível Imprimir, Exportar .XLS, Exportar .TXT e Exportar .PDF e enviar o arquivo .PDF por Email.
+
+Quando o relatório tiver algum campo chamado de “EMAIL”, o sistema irá habilitar uma opção “Enviar Email”, quando o usuário clicar com o botão direito do mouse. Esta opção irá abrir a interface de enviar email do sistema, copiando o email que foi selecionando para que o usuário insira o assunto e a mensagem do email.

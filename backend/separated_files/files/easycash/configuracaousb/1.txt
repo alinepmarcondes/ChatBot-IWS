@@ -1,0 +1,9 @@
+Title: == Suporte direto a USB
+
+Content:
+==
+
+
+
+A partir da [[easycash:versoes:1.4.012.000|versão 1.4.012.000]] o sistema suporta a configuração da porta da impressora via USB diretamente, não precisando mais emular uma porta serial para poder acessar o dispositivo.
+As configurações possíveis são:

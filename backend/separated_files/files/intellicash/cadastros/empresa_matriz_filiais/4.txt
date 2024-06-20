@@ -1,0 +1,48 @@
+Title: Dados
+
+Content:
+Nesta tela mostra todos os dados principais da matriz ou filial selecionada, nesta tela podem-se alterar dados ou excluir a empresa do cadastro. Ao clicar em alterar aparecerá a seguinte tela:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Razão Social:** Para informar a Razão Social da empresa;
+* **Fantasia:** Para informar o nome fantasia da empresa;
+* **CNPJ:** Para informar o CNPJ da empresa;
+* **Inscrição Estadual:** Para informar a inscrição estadual da empresa, se houver;
+* **Insc. Est. do Subst. Trib:** 
+* **Inscrição Municipal:** Para informar a Inscrição do municipio, caso haja;
+* **UF:** Para informar a UF da empresa;
+* **Tipo Empresa:** Para informar o tipo de empresa (loja, supermercado, padaria, etc.);
+* **CNAE:** Classificação Nacional de Atividades Economicas;
+* **Data Abertura:** Para informar a data de abertura de empresa;
+* **Data Encerramento:** Para informar a data de encerramento da empresa;
+* **Caixa Empresa:** Para informar qual o caixa da empresa;
+* **Tipo de Emissão de Nota Fiscal:** 
+* **Número de Série do Certificado:**
+* **Regime de Tributação:** Para informar qual é o regime de tributação da empresa (Simples Nacional, Lucro Presumido ou Lucro Real);
+* **Alíq. Simples Nac.:** Para informar qual a alíquota do simples nacional está usado (apenas no caso de simples nacional);
+* **Alíq. PIS:** Para informar a alíquota de PIS da empresa;
+* **Alíquota COFINS:** Para informar a alíquota de COFINS da empresa;
+* **Alíquota ISS:** Para informar a alíquota de ISS da empresa;
+* **Regime Quando ao PIS/COFINS:**
+* **Apropriação de Cred.:**
+* **Contribuinte de IPI:** Esta opção deve ser marcada quando a empresa é contribuinte de IPI;
+* **Site:** Para informar o site da empresa (se houver);
+* **Gerente:** Para informar o gerente da empresa;
+* **Cód. no Sist. Contábil:**
+* **Enviar E-mail Diretamente:** Marcar esta opção caso deseje enviar emails diretamente do sistema(Ao marcar esta opção é necessário configurar as informações para envio de email na aba "//**Email**//" futuramente);
+
+O cliente também poderá criar observações:
+
+
+
+Nesta parte contém alguns botões:
+* para ir a primeira observação;
+* para ir a ultima observação;
+* para voltar uma observação;
+* para seguir uma observação;
+* para adicionar uma observação;
+* para excluir uma observação;
+* para adicionar uma observação entre duas;

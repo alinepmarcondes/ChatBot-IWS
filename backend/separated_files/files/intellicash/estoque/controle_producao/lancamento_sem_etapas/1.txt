@@ -1,0 +1,25 @@
+Title: == Lançamento de Produção sem Etapas
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de realizar as entradas de produção sem ter que passar por todas as etapas. Aqui o usuário irá lançar a quantidade que deseja e confirmar o apontamento direto.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Controle de Produção→Lançamento sem Etapas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nessa interface o usuário irá localizar o item, e informar a quantidade que deseja dar entrada e clicar em inserir, o item irá para aba confirmação. Aqui o usuário pode inserir varios oitens e confirmar todo de uma vez.
+
+
+
+Na aba confirmação o usuário pode revisar o itens, remover, marcar ou desmarcar o item para confirmação. \\
+Ao confirmar o sistema irá fazer a baixa dos insumos necessarios para produção da quantidade informada e alimetara o estoque do item acabado.

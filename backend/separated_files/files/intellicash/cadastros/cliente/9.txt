@@ -1,0 +1,41 @@
+Title: Dados Adicionais
+
+Content:
+A aba "//**Dados Adicionais**//" mostram todos os dados adicionais do cliente, em janelas, pode maximizar ou minimizar essas telas de acordo com o que deseja e também pode adicionar dados, alterar e excluir, se desejar.
+
+
+
+Existem também os seguintes botões para as operações a seguir em cada janela se disponível:
+
+*Para adicionar dados do cliente;
+*Para alterar dados do cliente;
+*Para excluir dados do cliente;
+*Para minimizar a tela;
+*Para maximizar a tela;
+
+Ao clicar no botão "//**Alterar**//" ou "//**Adicionar**//" em uma determinada janela, esta abrirá a mesma interface de cadastro visto anteriormente na tela de cadastros.
+
+A primeira janela mostra os dados pessoais do cliente:
+
+
+
+Na segunda janela, mostra os endereços do cliente:
+
+
+
+Nesta aba existem dois botões distintos:
+
+*Para traçar a rota do endereço de seu cliente até o local de funcionamento de seu estabelecimento;
+*Mostrar no Google Maps o endereço do cliente;
+
+Na terceira janela, há à aba de contato do cliente, referente a telefones e emails:
+
+
+
+
+
+Na quarta janela, os filhos do cliente:
+
+
+
+E na quinta janela, a situação do cliente:

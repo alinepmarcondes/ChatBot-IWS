@@ -1,0 +1,13 @@
+Title: == Cadastro
+
+Content:
+==
+
+A aba “**Cadastro**” tem a função de visualizar, editar, duplicar e inativar os dados do roteiro já cadastrado e também gerar um CT-e. 
+
+
+
+* Os botões** Alterar** e **Duplicar** abrirão a seguinte janela, possibilitando que faça alteração ou duplique um roteiro já cadastrado.
+ 
+* O botão **Excluir** irá inativar o roteiro cadastrado.
+* O botao **Gerar CT-e** faz com que seja gerado um conhecimento de transporte baseado nas informações do roteiro. Ao clicar sobre o botão, irá aparecer uma interface para localizar quem é o tomador do serviço (para quem será emitido o CT-e), a seguir será perguntado se a viagem é de Ida, caso escolher “**sim**”, então os valores copiados para o CTE serão os valores de IDA, caso escolha “**não**”, serão os valores de VOLTA.

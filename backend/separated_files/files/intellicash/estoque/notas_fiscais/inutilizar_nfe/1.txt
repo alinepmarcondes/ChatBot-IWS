@@ -1,0 +1,21 @@
+Title: == Inutilizar NF-e
+
+Content:
+==
+
+----
+
+Ferramenta que permite inutilizar eletrônicamente uma ou mais numerações de NF-e que eventualmente foi pulada.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Notas Fiscais→Inutilizar NF-e||
+Ao clicar nesta opção aparecerá a interface solicitando uma justificativa.
+
+O usuário deverá informar o motivo de inutilizar numeração de NF-e. Em seguida deverá informar o numero inicial e o numero final do intrvalo que deseja inutilizar.
+
+
+
+Caso seja inutilizada corretamente, será exibido uma mensagem confirmando a operação com o numero de protocolo da inutilização.

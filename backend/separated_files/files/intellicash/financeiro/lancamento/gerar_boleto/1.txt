@@ -1,0 +1,29 @@
+Title: == Geração de Boletos
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de agrupar vários lançamentos financeiros de várias notas fiscais, e agrupá-los e tornar apenas 1 boleto de pagamento, seja a receber ou a pagar.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Lançamentos→Gerar Boleto||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há duas colunas, na primeira intitulada "//**Boletos**//" mostra todos os boletos gerados durante o período selecionado e seus dados. Na segunda coluna intitulada "//**Registros do Boleto**//" mostra todas as notas fiscais que estão criando este boleto e mostra seus dados;\\
+Há também na parte superior desta há as abas "//**Data de Entrada**//" e "//**Data de Vencimento**//" para escolher uma das duas na hora de realizar a pesquisa dos boletos.
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item;
+* **Fator do Boleto:** Para informar se o boleto que deseja gerar é a pagar ou a receber;
+* **Novo:** Para gerar um novo boleto;

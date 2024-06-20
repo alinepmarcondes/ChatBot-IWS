@@ -1,0 +1,26 @@
+Title: == Motoristas
+
+Content:
+==
+
+Funcionalidade criada para que seja possível cadastrar motoristas que irão trabalhar para empresa seja eles com vínculo ou não com a mesma.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Transportadora→Motoristas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+Na parte superior há uma barra de ferramentas com algumas funcionalidades:\\
+***Imprimir:** Imprime os dados listados. ao clicar do lado direito do botão o sistema oferece as opções de:
+- Visualizar Impressão;
+- Exportar para PDF;
+- COnfigurar o Layout de Impressão.
+* **Novo:** abre a interface para cadastro de um novo motorista;\\
+* **Alterar:**Permite alterar dados do Motorista. Para habilitar esse botão é preciso acessar o cadastro de um motorista;\\
+* **Excluir:** : Torna o motorista inativo. Para habilitar esse botão é preciso acessar o cadastro de um motorista;\\
+* **Duplicar:** Esse botão faz parte de uma interface padrão, mas que no cadastro de motorista não tem funcionalidades e por isso fica desativado;\\
+* **Anterior** e **Próximo:** torna-se disponível na aba Cadastro, assim podemos exibir o próximo cadastro ativo no banco ou os cadastros anteriores, se houver.

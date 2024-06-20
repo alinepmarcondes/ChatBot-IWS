@@ -1,0 +1,6 @@
+Title: Foto
+
+Content:
+A aba "//**Foto**//" tem a função de inserir ou excluir a foto de um determinado cliente.
+
+Na aba "//**Localizar**//" também é possível visualizar a foto do cliente (caso ele possua) segurando o botão "//**Shift**//" e clicando no cliente desejado.

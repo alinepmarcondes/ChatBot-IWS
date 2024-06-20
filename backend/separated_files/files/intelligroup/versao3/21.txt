@@ -1,0 +1,4 @@
+Title: Operadora
+
+Content:
+Para acessar a tela **Cadastro de operadoras** clique no menu **Cadastrar** e depois em **Operadoras**.

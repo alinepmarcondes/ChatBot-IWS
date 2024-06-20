@@ -1,0 +1,15 @@
+Title: Adicionar
+
+Content:
+Para adicionar a venda de um produto da associação, o usuário deverá pressionar o botãolocalizado no canto inferior direito.
+
+Será aberto um formulário onde o usuário deverá preencher os seguintes campos:
+* Còdigo EAN do produto
+* Data da venda do produto
+* Quantidade vendida
+* Valor total da venda
+
+
+
+
+Para concluir o usuário deverá pressionar o botão "Salvar".

@@ -1,0 +1,4 @@
+Title: Download do Instalador Online
+
+Content:
+O download do instalador pode ser feito a partir do seguinte endereço [[https://intelliware.com.br/download/instalador-online//|https://intelliware.com.br/download/instalador-online/]]. Clique no botão "Download IWStore".

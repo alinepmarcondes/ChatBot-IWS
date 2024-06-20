@@ -1,0 +1,6 @@
+Title: = Importar do Coletor
+
+Content:
+=
+
+A opção de "//**Importar Coletor**//" é utilizada caso tenha feito recebimento pelo Intellistock, pois irá exibir quais os produtos foram coletados para essa Nota Fiscal e permitirá associar os itens que serão lançados na NF com os itens devidamente recebidos.

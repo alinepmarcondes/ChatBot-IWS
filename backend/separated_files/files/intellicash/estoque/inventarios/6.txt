@@ -1,0 +1,12 @@
+Title: Zerar Itens Por Classes
+
+Content:
+Ao clicar com o botão direito do mouse em cima de algum inventário realizado há algumas opções como //Desconfirmar//, //Excluir// além de //Zerar Estoque//.
+
+
+
+Ao clicar em "//**Zerar Estoque de Itens Não Inventariados Por Classe**//" aparecerá a seguinte interface:
+
+
+
+Após isso é necessário selecionar o tipo de classe para selecionar todos os produtos dessa classe, após isso basta confirmar a operação.

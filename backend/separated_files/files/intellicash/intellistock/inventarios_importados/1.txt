@@ -1,0 +1,38 @@
+Title: == Coletas de Inventários
+
+Content:
+==
+
+----
+
+Esta ferramenta exibi todos os arquivos carregados do coletor de dados para o sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→IntelliStock→Inventários Importados||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Todos:** Exibe todas as coletas de todos os tempos, inseridas ou não;
+* **Aplicados:** Filtra somente os itens que foram inseridos no inventário;
+* **Pendentes:** Para listar todos os inventários ;
+* **Localizar:** para realizar a pesquisa;
+* **Agrupar Inv.:** para agrupar vários inventários juntos;
+* **Inserir:** Botão para lançar os itens de inventários selecionados no inventário como aberto;
+
+Na primeira coluna mostra uma listagem de Arquivos de coletas de inventários descarregados e na segunda coluna uma listagem de itens coletados dos arquivos descarregados;
+
+Acessando o menu **Estoque→Inventários**, ao abrir um inventário e clicar no botão "//**Importar**//", os itens inseridos pela tela de inventários coletados aparecerão na janela de itens a serem confirmados, assim como acontece quando se importa um arquivo de texto.
+
+O arquivo conterá a seguinte estrutura:
+ean|quantidade|data|id usuário coletor|código coletor|hora da coleta
+
+**7891000530603|3|26/11/15 00:00:00|43981230043001|b0b1cb74-9eaf-4b32-8407-0e4c66719ebc|14:44:41**
+
+O método de importação de arquivos de inventários foi alterado de forma que essa nova estrutura de arquivos não se torna um problema na importação.

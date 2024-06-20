@@ -1,0 +1,32 @@
+Title: == Relatório de Pré Venda
+
+Content:
+==
+
+----
+
+Este relatorio exibe as pré-vendas realizadas no frente de caixa. 
+
+Lembrando que pela regra do PAF todas as pré-vendas devem ser convertidas em cupom fiscal.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatório→Gestão de Vendas→Pré Venda||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Filtrar:** para filtrar as pré vendas;
+- **Pendentes:** São os pré vendas que ainda constam em aberto no terminal de pré venda.
+- **Finalizadas:** Pré vendas que já foram finalizadas no terminal, porém ainda não foram chamadas no frente de caixa
+- **Confirmadas:** os Pré-vendas que já foram efetivados no terminal e vendidos no frente de caixa (ECF).
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Após realizada a pesquisa serão listadas as pré vendas abaixo e ao selecionar alguma delas será listados os itens da pré venda na coluna abaixo.

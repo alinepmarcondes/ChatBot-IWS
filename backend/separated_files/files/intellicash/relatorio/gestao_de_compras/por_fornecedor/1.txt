@@ -1,0 +1,24 @@
+Title: == Relatório de Compras por Fornecedor
+
+Content:
+==
+
+----
+
+Este relatório exibe as compras realizadas, classificadas por fornecedor.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Compras→Por Fornecedor||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Após realizada a pesquisa será listado abaixo todos os fornecedores com compra, e após clicar em algum dos fornecedores, será listado abaixo todas as compras do fornecedor selecionado.

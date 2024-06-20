@@ -1,0 +1,15 @@
+Title: == Tray
+
+Content:
+==
+----
+
+O tray corp é um e-commerce que permite ao consumidor fazer compras de maneira rápida e fácil, recebendo o produto em casa sem a necessidade de se deslocar a uma loja física.\\
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoques→Vendas→Força de Vendas→Tray||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

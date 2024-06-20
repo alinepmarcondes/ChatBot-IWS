@@ -1,0 +1,26 @@
+Title: == Configurar Objetos
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de configurar objetos apenas e, somente apenas, da matriz para as filiais.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Configurar Objetos||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Filtro:** para filtrar os objetos em "//**Somente Diferenças**//" ou "//**Mostrar Tudo**//";
+* **Sair:** para sair desta tela
+* **Recarregar:** para recarregar os objetos;
+* **Corrigir:** para corrigir os valores alterados da matriz para a filial;
+* : ao clicar neste botão irá transferir os valores da matriz para a filial;

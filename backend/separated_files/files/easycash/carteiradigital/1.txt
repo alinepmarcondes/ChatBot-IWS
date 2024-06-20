@@ -1,0 +1,8 @@
+Title: == Carteira Digital
+
+Content:
+==
+
+
+
+Integração do EasyCash com o módulo **o CardSE da Software Express** e com a **implementação de acesso direto a API do PicPay**.

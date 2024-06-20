@@ -1,0 +1,16 @@
+Title: == Produtos do Ativo Imobilizado
+
+Content:
+==
+
+----
+
+Esta ferramenta mostra todos os produtos que fazer parte do ativo imobilizado, ou seja, itens que o cliente compra com a finalidade de usá-lo no próprio estabelecimento.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Produtos→Ativo Permanente||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

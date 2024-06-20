@@ -1,0 +1,16 @@
+Title: == Lançamentos de Pedidos Futuros
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de criar uma previsão orçamentaria classificada por seção ao invéz de centro de custo como mostra previsão orçamentária.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Financeiro→Lançamentos→Pedidos Futuros||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:

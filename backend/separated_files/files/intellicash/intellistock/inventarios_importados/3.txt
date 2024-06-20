@@ -1,0 +1,10 @@
+Title: 3.1.15.0
+
+Content:
+Foi incluída uma estrutura que permite o ISA inserir em banco as tentativas de inserir a coleta que não deram certo. dessa forma, o gird de arquivos lista o número de erros da importação, assim como quando selecionado apresenta uma tabela com as linhas do arquivo que não foram inseridas.
+
+
+
+Outras melhorias sensíveis foram implementadas, com o contador de itens no rodapé.
+
+Quando o inventário gerado pela importação é excluído, os itens da importação voltam para o status de **não aplicados**.

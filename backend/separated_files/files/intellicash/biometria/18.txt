@@ -1,0 +1,40 @@
+Title: Configurações
+
+Content:
+Para entras nas configurações do frente de caixa, deve-se acessar:
+
+
+
+Acessando a seguinte tela:
+
+
+
+Ao clicar no botão **Alterar**:
+
+
+
+Nesta tela temos as seguintes opções:
+
+**__Permite Cadastrar Biometria no Frente de Caixa__**: Esta opção é para o caso do cliente **não querer que nenhum cadastro de biometria seja realizado pelo frente de caixa**. Caso esteja marcada, quando o agente não for localizado no frente de caixa, não será exibida a opção de cadastro para o operador.
+
+**Porcentual mínimo para a qualidade da imagem de captura**: Define o valor mínimo em porcentual da qualidade da imagem da impressão digital no momento da captura no leitor biométrico. Caso o valor retornado seja inferior será pedido para o operador refazer a leitura. O valor default é de **70%**.
+
+**Porcentual mínimo para o match entre 2 templates**: Define o valor mínimo em porcentual do nível de confiança no retorno da comparação entre dois templates. Caso o dispositivo ao comparar a digital do usuário com os templates cadastrados, retorne um valor inferior, não será garantido acesso, pedindo para realizar uma nova leitura. O valor default é de **100%**.
+
+**Digital a ser lida e cadastrada no frente de caixa**: Para garantir agilidade no frente de caixa, deve-se escolher um dedo para ser o padrão na identificação e no cadastro. No momento do cadastro no frente de caixa, este dedo poderá ser alterado, sendo apenas uma sugestão. O valor default é o **07** que é o __dedo indicador__.
+
+Nesta tela, por questão de segurança, foram adicionadas algumas validações, conforme descrito abaixo:
+
+* Caso defina um porcentual mínimo para a qualidade da imagem de captura abaixo de **70%**, irá mostrar o aviso:
+
+
+
+* Caso defina um porcentual mínimo para a qualidade da imagem de captura abaixo de **50%**, irá mostrar o aviso:
+
+
+
+* Caso defina um porcentual mínimo para o match entre dois templates abaixo de **100%**, irá mostrar o aviso:
+
+
+
+* Caso defina um porcentual mínimo para o match entre dois templates abaixo de **80%**, irá mostrar o aviso:

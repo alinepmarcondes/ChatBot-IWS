@@ -1,0 +1,29 @@
+Title: == Aniversariantes
+
+Content:
+==
+
+----
+
+Relatorio que permite visualizar os clientes que fazer aniversario em um período.
+
+Lembrando que para ser exibido o cadastro de cliente deve ter esta informação.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Clientes→Aniversariantes||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes botões:
+
+* **Tipo:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Após feita a busca mostrará os resultado na tela abaixo com o nome e os dados do aniversariante ou próximo

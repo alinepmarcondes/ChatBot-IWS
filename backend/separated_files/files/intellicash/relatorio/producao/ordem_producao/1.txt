@@ -1,0 +1,30 @@
+Title: == Relatório de Ordem de Produção
+
+Content:
+==
+
+----
+
+Este relatório mostra as informações sobre os produtos com produção manual, e mostra os resultados das produções realizadas.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Produção→Ordem de Produção||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Produto:** para pesquisar por um produto em específico;
+* **Ordem de Produção:**para pesquisar por uma ordem de predução em específico;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Status:** para informar o status da produção;
+* **Processo:** para informar o processo da produção desejada;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+
+Após realizar a pesquisa aparecerá na primeira coluna os produtos da ordem de produção e seus dados. Na coluna "//**Insumos**//" mostra os insumos do produto selecionado na primeira coluna e seus dados. Na coluna "//**Histórico de Produção**//" mostra o histórico das produções existentes do produto selecionado na primeira coluna e seus dados e na coluna "//**Histórico de Etapas**//" mostra o histórico de etapas do produto selecinado na primeira coluna e seus dados.

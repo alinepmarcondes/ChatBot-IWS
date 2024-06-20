@@ -1,0 +1,11 @@
+Title: = Orçamento
+
+Content:
+=
+
+A unidade multidimensional é usada para calcular a quantidade do produto dentro de um orçamento. \\
+Ao fazer um orçamento, e inserir um item que possua quantidade multidimensional, não será possivel inserir o campo quantidade, e seu lugar irá abrir uma interface para digitar as dimensões.
+
+
+
+Abaixo das dimensões é exibido o fator que está configurado na unidade, ao lado permite digitar a quantidade de produtos com essa dimensão, ao lado direito é exibido a quantidade total do produto.

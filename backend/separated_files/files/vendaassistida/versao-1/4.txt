@@ -1,0 +1,4 @@
+Title: Removido o campo CÓDIGO do CLIENTE
+
+Content:
+Foi removido o campo "código" ao realizar um novo cadastro de clientes e tratado caracter especial vindo dos correios quando o endereço possui hífen (por exemplo).

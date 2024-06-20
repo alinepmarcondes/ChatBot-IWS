@@ -1,0 +1,6 @@
+Title: = Botões de Navegação
+
+Content:
+=
+
+Alteram entre uma transação e outra, carregando as informações correspondentes na interface.

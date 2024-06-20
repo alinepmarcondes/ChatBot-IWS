@@ -1,0 +1,6 @@
+Title: == Autenticação
+
+Content:
+==
+
+Na tela de autenticação, o usuário deverá informar seu nome de usuário e senha conforme demonstra a figura abaixo.

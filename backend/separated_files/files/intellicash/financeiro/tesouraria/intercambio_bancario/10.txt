@@ -1,0 +1,30 @@
+Title: Transmissão - Boletos (Arquivo de Remessa)
+
+Content:
+Dependendo do convênio que o usuário tenha com o banco, será necessário a emissão do arquivo de remessa para o banco. Selecionando a aba “Transmissão - Boletos” da mesma tela como se segue na figura seguinte.
+
+
+
+Se encontrar apenas uma “Empresa” cadastrada no banco de dados automaticamente o sistema mostrará, caso contrário o usuário poderá sugerir a empresa, “Tipo de Boleto” será selecionado o banco da remessa, “Tipo de Data” essa opção para escolha dos lançamentos financeiros por data de entrada ou data de vencimento e o “Inicio e Termino” é o espaço de dias para busca no sistema. Em seguida clique no botão “Aplicar”. Havendo agendamento com a data de entrada ou pelo vencimento o sistema mostrará os devidos.
+
+
+
+Nessa tela há varias sub-abas, “A Transmitir”, “Transmitidos Pendentes”, “Transmitidos e Confirmados”, “Baixados”, “Transm./Rec. Com Erro”, “Transm./Rec. Contestados”, “Cancelados” e “Arquivos” que serão apresentados a seguir:
+
+Com a aba “A Transmitir” selecionada, o sistema apresentará todos os agendamentos, o total de registros e o total em valores correspondentes no determinado espaço de tempo que foi selecionado pelo usuário. Marcando os agendamentos desejados para serem transmitidos na remessa, o usuário deverá indicar o caminho aonde o arquivo poderá ser gerado (esse processo poderá ser feito uma única vez, pois o sistema guardará o caminho para uma próxima geração de arquivos, a não ser que o usuário deseje alterar o caminho especificado) e clicando em no botão “Gerar” que se encontra logo abaixo da tela.
+
+
+
+Aba “Transmitidos Pendentes” conterá os agendamentos que já foram gerados e estão aguardando a resposta do banco para sua confirmação.
+
+Aba “Transmitidos e Confirmados” conterá os agendamentos que tiveram a sua confirmação de registro perante o banco após o retorno processado no sistema.
+
+Aba “Baixados” conterá os agendamentos que foram baixados no sistema (liquidados) após o retorno processado no sistema. 
+
+Aba “Transm./Rec. Com Erro” conterá os agendamentos que foram enviados/recebidos com erro, mostrando quais erros ocorreram no arquivo enviado pelo banco após o retorno processado no sistema.
+
+Aba “Transm./Rec. Contestados” conterá os agendamentos que foram contestados pelo banco após o retorno processado no sistema.
+
+Aba “Cancelados” constará agendamentos que foram cancelados pelo banco após o retorno processado no sistema.
+
+Aba “Arquivos” mostrará os arquivos de retorno que já foram processados pelo sistema em um determinado período.

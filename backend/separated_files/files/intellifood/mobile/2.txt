@@ -1,0 +1,6 @@
+Title: = Servidor
+
+Content:
+=
+
+Para exibir todos servidores cadastrados no aplicativo, o usuário deverá pressionar o botãoe depois em **Servidor** na tela de login, conforme demonstra a figura abaixo.

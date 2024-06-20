@@ -1,0 +1,25 @@
+Title: ==Pagamento com Cheque de Terceiros
+
+Content:
+==
+
+Para usar esse recurso, basta o usuário ir para tela de "Títulos a pagar em aberto" que se localiza em "Gerenciamento→Financeiro→Baixas→Títulos a Pagar". Utilizando os filtros desejados o usuário poderá localizar o título em que se deseje efetuar a baixa, selecionando o mesmo e clicando no botão baixar o sistema abrirá a tela de pagamento.
+
+
+
+
+
+Ao selecionar a forma de pagamento Cheques Tercereiros e clicar no botão "Inserir", o sistema abrirá uma nova tela para poder selecionar o cheques e efetuar o pagamento.
+
+
+
+Já com a tela em execução o usuário poderá localizar o cheque pelo seu número ou clicardiretamente no botão "Localizar", o sistema mostrará todos os cheques de terceiros disponível no sistema, após essa busca se os usuário deseja localizar o cheque de um determinado cliente basta digitar o nome no campo "Cliente".
+Com o cheque localizados, o usuário deverá selecionar quais cheques deseje utilizar para efetuar a baixa. Nesta ocasião o deverá selecionar o valor próximo da baixa a ser realizada. 
+
+
+
+Após selecionar os cheques a serem usados o usuário deverá clicar no botão "Confirmar", feito esse procedimento o sistema voltará para a tela de pagamento com o valor do cheque de terceiro preenchido, em nosso caso o restante para completar o pagamento será feito em dinheiro.
+
+
+
+Caso o usuário deseje verificar quais forão os cheques que compuseram o pagamento em questão, deverá ir até a abas "Cheques", "Pagamentos" e "Data Pg" que se localizam na tela "Contas e Caixas", localizado em "Gerenciamento→Cadastro→Contas e Caixas".

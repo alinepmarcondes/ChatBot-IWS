@@ -1,0 +1,47 @@
+Title: == Relatório de Devoluções de Venda ECF
+
+Content:
+==
+
+----
+
+Relatório que mostra as devoluções de produtos do cliente ao estabelecimento, em um determinado período.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Vendas→Devoluções de Venda ECF||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Dt Devolução:** para realizar o relatório pesquisando pela data de devolução;
+* **Dt Troca:** para realizar o relatório pesquisando pela data da troca;
+* **Dt Nota Fiscal:** para realizar o relatório pesquisando pela data da nota fiscal;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+* **Devoluções Descartadas:** Marcar esta opção irá mostrar devoluções descartadas;
+* **Devoluções Abertas:** Marcar esta opção irá mostrar devoluções abertas;
+* **Troca Pendente:** Marcar esta opção irá mostrar trocas pendentes;
+* **Troca Efetuada:** Marcar esta opção irá mostrar trocas efetuadas;
+* **Nota Fiscal Emitida:**
+
+A aba "//**Devoluções**//" mostra na primeira coluna os clientes que realizaram a devolução, e na coluna abaixo mostra os itens que foram devolvidos pelo cliente.
+
+
+
+A aba "//**Itens**//" mostra um relatório de todos os itens que foram devolvidos.
+
+
+
+A aba "//**Categorias**//" mostra um relatório de todos os itens que foram devolvidos mostrando em categorias, de acordo com a categoria selecionada.
+
+
+
+A aba "//**Clientes**//" mostra um relatório de todos os clientes que realizaram uma devolução.

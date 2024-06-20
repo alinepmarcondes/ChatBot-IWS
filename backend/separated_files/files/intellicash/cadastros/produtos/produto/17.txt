@@ -1,0 +1,75 @@
+Title: Histórico de Vendas
+
+Content:
+A aba "//**Venda**//" informa o histórico de venda dos produtos, em quatro modos distintos: Vendas Diárias, Vendas por Cliente, Venda Combinada e Venda por Hora.
+
+=== Vendas Diárias ===
+
+
+
+Nesta tela mostra o histórico de vendas de um determinado produto por dia e nela há duas colunas, à esquerda mostra os dados numéricos das vendas e nela há duas abas, "//**Vendas**//" e "//**Promoções**//", e na coluna à direita há um gráfico do histórico de venda para melhor visualização.
+
+Na aba "//**Venda**//" há os seguintes atributos:
+
+* **Data:** informa a data da venda do produto;
+* **Qtde.:** Mostra a quantidade vendida nesta data;
+* **Total:** mostra a venda total do produto nesta data;
+* **Margem:** Mostra margem de lucro, em valor real; 
+* **Margem (%):** Mostra a margem de lucro, em valor percentual;
+* **Promoção:** mostra a quantidade de itens que foram vendidos na promoção;
+
+E na aba "//**Promoções**//" há as promoções agendadas para certo período de tempo com os seguintes atributos:
+
+* **Início:** mostra o início da promoção;
+* **Término:** mostra o término da promoção;
+* **Preço normal:** mostra o preço normal do produto;
+* **Preço promoção:** mostra o preço promoção deste produto naquele período;
+* **Qtde:**mostra a quantidade vendida neste período de promoção;
+* **Custo:** mostra o custo que o produto teve neste período;
+* **Total:** mostra o total vendido no período de promoção;
+* **Markup:** mostra o valor do markup do produto no período de promoção;
+
+=== Vendas por Cliente ===
+
+
+
+A aba "//**Cliente**//" mostra o histórico de vendas de um determinado produto por cliente e nela há duas colunas, à esquerda mostra os dados numéricos das vendas, e à direita mostra um gráfico do histórico de vendas por cliente. Na coluna à esquerda há os seguintes atributos:
+
+* **Nome:** mostra o nome do cliente que comprou o produto;
+* **Fantasia:** mostra o apelido/fantasia do cliente que comprou o produto;
+* **Documento:** mostra o documento do cliente;
+* **Qtde.:** mostra a quantidade vendida para o cliente;
+* **Custo:** mostra o custo deste produto;
+* **Venda:** mostra a venda total do produto;
+* **Margem bruta:** mostra a margem bruta da venda do produto;
+* **Margem (%):** mostra a margem da venda do produto em perncentual;
+* **Participação:** mostra a participação do lciente sobre o total vendido;
+
+=== Venda Combinada ===
+
+
+
+A aba "//**Venda Combinada**//" mostra um histórico de quais produtos são mais vendidos com o produto selecionado. Nesta tela há duas colunas, à esquerda mostra os dados numéricos da venda combinada e à direita o gráfico da venda combinada para melhor visualização.
+
+Na coluna à esquerda contém os seguintes atributos:
+
+* **Nº:** mostra em ordem crescente dos produtos mais vendidos combinado com o produto selecionado;
+* **Descrição:** mostra o nome dos produtos combinados;
+* **Qtde:** mostra a quantidade vendida do produto combinado com o produto selecionado;
+* **Valor:** mostra o valor total dos produtos combinados vendidos;
+* **Máximo de produtos retornados:** com este campo, o cliente poderá selecionar, ao realizar a pesquisa, o número máximo de produtos combinados que pretende visualizar.
+
+
+
+=== Vendas por Hora ===
+
+
+
+A aba "//**Vendas por Hora**//" mostra um histórico de vendas nas faixas horárias de um determinado período. Nesta tela há duas colunas, à esquerda mostra os dados numéricos da venda por hora e à direita mostra o gráfico da venda por hora para melhor visualização.
+
+Na coluna à esquerda contém os seguintes atributos:
+
+* **Hora:** mostra a faixa horária que está sendo verificada;
+* **Qtde:** mostra a quantidade vendida nesta faixa horária;
+* **Número Cupons:** mostra o número de cupons feitos nesta faixa horária que contenha os produtos;
+* **Total:** mostra o valor total das vendas nas faixas horárias;

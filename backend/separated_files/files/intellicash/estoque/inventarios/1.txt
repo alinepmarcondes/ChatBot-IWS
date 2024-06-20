@@ -1,0 +1,10 @@
+Title: == Inventários
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de realizar um inventário (contagem do estoque).
+
+----

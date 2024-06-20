@@ -1,0 +1,9 @@
+Title: == Sincronizador Intellicash
+
+Content:
+==
+O **Sincronizador Scanntech** é um aplicativo desenvolvido para sincronizar as informações do **Intellicash** com a **Scanntech** de forma automatizada. Cabe ao **Sincronizador** a função de verificar se há novos produtos ou informações a serem enviados à **Scanntech**, assim como importar as promoções geradas. 
+
+O **Sincronizador** é executado junto com o Windows, e não deve ser finalizado para evitar que as informações não sejam sincronizadas, e a empresa seja privada das oportunidades geradas pela **Scanntech**.
+
+O ícone do **Sincronizador** deverá sempre estar ao lado do relógio do Windows, e ao clicar sobre ele será exibido uma janela com o log da ultima execução. Caso queria forçar uma execução, basta clicar sobre o botão **Start**.

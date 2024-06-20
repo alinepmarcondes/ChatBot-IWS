@@ -1,0 +1,4 @@
+Title: Cancelar pedido
+
+Content:
+Para cancelar um pedido feito na sugestão de compra, o usuário deverá clicar sobre o botão "Cancelar" localizado no canto superior esquerdo da listagem de produtos conforme demonstra a figura abaixo.

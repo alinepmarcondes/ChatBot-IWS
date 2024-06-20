@@ -1,0 +1,14 @@
+Title: = Recuperar senha
+
+Content:
+=
+
+Para recupear a senha, o representante deverá clicar sobre o link "Esqueceu a senha?" localizado abaixo do campo de senha.
+
+
+
+Será aberto um formulário onde o representante deverá informar seu documento (CPF ou CNPJ) de cadastro e o texto exbido na imagem.
+
+
+
+Para concluir, o representante deverá clicar sobre o botão "Recuperar". Se as informações estiverem corretas, será enviado um notificação para o e-mail de cadastro do representante com a sua nova senha de acesso.

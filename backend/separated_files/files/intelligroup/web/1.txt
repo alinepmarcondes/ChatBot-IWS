@@ -1,0 +1,8 @@
+Title: == Acessibilidade
+
+Content:
+==
+
+Para acessar o Intelligroup, utilize as versões mais atualizadas do [[https://www.mozilla.org/pt-BR/firefox/new/|Firefox]], [[http://www.google.com.br/chrome/browser/desktop/|Google Chrome]] ou [[http://windows.microsoft.com/pt-br/internet-explorer/download-ie|Internet Explorer]].
+
+Feito o download, é possivel acessar o Intelligroup a partir do seguinte endereço http://ig.iws.com.br, onde será necessário informar o endereço IP da associação para acesso, conforme demonstra abaixo.

@@ -1,0 +1,10 @@
+Title: Acesso as Funcionalidades
+
+Content:
+----
+
+----
+
+Para ter acesso a todas as funcionalidades do Intercâmbio Bancário basta acessar a tela que se encontra em:
+
+||Gerenciamento→Financeiro→Tesouraria→Intercâmbio Bancário||

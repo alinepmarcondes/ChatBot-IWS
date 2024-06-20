@@ -1,0 +1,30 @@
+Title: = Painel de Consulta
+
+Content:
+==
+
+----
+
+Esta tela permite que seja controlado os vasilhames de maneira automatizada do estabelecimento. Permitindo que seja cadastrado o ticket para apresentar no caixa, quando o cliente entrega o vasilhame. 
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Controle de Vasilhame→Painel de Consultas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+**1 - Localizar**: utilizado para encontar entregas (tickets) ou empréstimos;
+
+
+
+Possui duas sub-abas:
+
+**Entrega**: utilizado para receber os vasilhames trazidos pelo cliente ao estabelecimento e emitir o ticket. É a primeira aba selecionado ao abri o painel de consultas. Permite realizar a busca pelo número do ticket no campo **Ticket Entrega** na parte inferior, adicionalmente permite abrir um novo ticket pelo botão **Nova Entrega**;
+
+**Empréstimo**: utilizado para receber os vasilhames que foram emprestados no passado, efetuar a venda dos vasilhames ou dar baixa em algum ticket que o frente não conseguiu executar.
+
+
+
+**2 - Entrega**: é uma aba que permite abrir um novo **ticket de entrega**, ou ainda exibir um ticket selecionado da busca feita na aba Localizar.

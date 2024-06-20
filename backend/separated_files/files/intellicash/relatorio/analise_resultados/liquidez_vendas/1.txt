@@ -1,0 +1,24 @@
+Title: == Relatório de Liquidez de Vendas
+
+Content:
+==
+
+----
+
+Este relatório mostra as vendas líquidas e as despesas para fazer um comparativo, se o valor das vendas supri o valor das despesas.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Análise de Resultados→Liquidez de Vendas||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.

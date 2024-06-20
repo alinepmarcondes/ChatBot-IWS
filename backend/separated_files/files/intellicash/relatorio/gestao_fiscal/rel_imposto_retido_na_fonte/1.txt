@@ -1,0 +1,21 @@
+Title: == Relatório de Imposto Retido na Fonte
+
+Content:
+==
+
+----
+
+Esse relatório é usado para consultar as Notas Fiscais emitidas com IRRF e/ou CSLL retido. 
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão fiscal→Imposto Retido na Fonte||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+Este relário irá listar todas as Notas Fiscais emitidas no periodo selecionado que tenha retenção de impostos (IRRF - Imposto de Renda Retido na Fonte e/ou CSLL - Contribuição Social sobre Lucro Liquido).
+
+Normalmente esses impostos são retidos ao realizar faturamento para orgãos publicos.

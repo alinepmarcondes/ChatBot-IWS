@@ -1,0 +1,6 @@
+Title: = Importar Chave IWS
+
+Content:
+=
+
+Importar um arquivo de liberação é a opção off-line que necessita de um arquivo contendo a chave de liberação gerada pelo IntelliWeb. Para isso é necessário enviar a Chave de Envio para o suporte poder realizar o processo.

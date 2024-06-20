@@ -1,0 +1,8 @@
+Title: = Resumo
+
+Content:
+=
+
+
+
+A aba "//**Resumo**//" mostra um resumo de todos os valores da apuração de ICMS durante o período selecionado.

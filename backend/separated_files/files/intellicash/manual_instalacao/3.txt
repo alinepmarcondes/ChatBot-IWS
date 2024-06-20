@@ -1,0 +1,84 @@
+Title: Instalação do Intellicash
+
+Content:
+Assim que executado o instalador clique em “Avançar” porém atenção é recomendado que você feche todos os aplicativos antes de continuar a instalação.
+
+
+
+A próxima tela apresenta dois modos de instalação: Server e o Client. No modo Server é apresentado a opção de instalação do Sincronizador ScannTech. Além dos modos de instalação também é apresentado a opção de instalar a aplicação do GNFe.
+
+
+
+=== Instalação modo Server ===
+
+O modo de instalação Server consiste no preparo do servidor, ou seja, configuração do Banco de Dados e instalação dos serviços de conexão. Para iniciar o modo Server selecione //"Server"//, se deseja instalar o "Sincronizador ScannTech" marque a opção //"Instalar o Sincronizador ScannTech"// e depois clique em //"Avançar"//.
+
+
+
+A próxima tela apresenta as opções: //"Instalar o Intellicash no diretório recomendado"// e //"Instalar o Banco de Dados no diretório recomendado"//. Se o usuário necessitar um diretório diferente, desmarque a(as) opção(ões) e clique no botão //"Procurar"// referente a opção desmarcada, selecione um novo diretório, clique em //"Ok"// e depois em //"Avançar"//.
+
+
+
+Na tela seguinte é apresentado as configurações do Banco de Dados. Para restaurar uma Base de Dados vazia marque a opção //"Restaurar uma Base de Dados Vazia"//. No campo //"Alias do Banco"// deverá ser preenchido o nome do Banco de Dados.
+
+
+
+Se o usuário já possuir uma base de dados, desmarque a opção //"Restaurar uma Base de Dados vazia"//, clique em //"Procurar"//, selecione a Base de Dados, clique em //"Abrir"//.
+
+
+
+Se for identificado que há uma instalação do Firebird no computador, será exibido uma mensagem com a opção de reinstalar o Firebird.
+
+
+
+Caso o usuário **NÃO** marque a opção //"Restaurar uma Base de Dados vazia"// e também **NÃO** seleciona nenhuma Base de Dados, ao clicar em //"Avançar"// será exibido a seguinte mensagem:
+
+
+
+A próxima tela apresenta o Status da instalação.
+
+
+
+A próxima tela é apresentado um formulário de pré cadastro. Preencha os campos corretamente e depois clique em //"Avançar"//.
+
+
+
+Se for marcado para instalar o "Sincronizador ScannTech" a próxima tela será de configurações do "Sincronizador ScannTech". Após definir as configurações clique em //"Avançar"//.
+
+
+
+=== Instalação modo Client ===
+
+O modo de instalação Client consiste no preparo do Terminal de se comunicar com o Servidor Intellicash. Para iniciar o modo Client selecione //"Client"// e depois clique em //"Avançar"//. 
+
+
+
+A próxima tela apresenta a opção: //"Instalar o Intellicash no diretório recomendado"//. Se o usuário necessitar um diretório diferente, desmarque essa opção, clique no botão //“Procurar”//, selecione um novo diretório e clique no botão “Ok”. No campo: //"Informe o endereço IP do Servidor Intellicash"//. O usuário deverá informar corretamente o endereço IP do servidor. No campo “Alias do Banco” deverá ser preenchido o nome do Banco de Dados. Clique no botão //"Avançar"// para continuar.
+
+
+
+=== Instalação GNFe ===
+
+Para instalar da aplicação GNFe marque a opção //"Instalar o GNFe"// e depois clique em //"Avançar"//.
+
+
+
+Na tela de Configuração do GNFe o usuário pode preencher os campos e marcar as opções de acordo com a necessidade da empresa. Clique em //"Avançar"// para continuar.
+
+
+
+=== Finalizando instalação ===
+
+Após concluir o modo de instalação escolhido pelo usuário, na tela seguinte clique no botão //"Instalar"// para realizar as ultimas configurações.
+
+
+
+Na próxima tela é apresentado o status da instalação.
+
+
+
+Na tela sequinte o usuário pode selecionar a aplicação que deseja o atalho na Área de Trabalho. Clique em //"Avançar"// para continuar.
+
+
+
+A última tela apresenta a opção de executar o Intellicash após a finalização. Clique em //"Concluir"// para finalizar a instalação do Intellicash.

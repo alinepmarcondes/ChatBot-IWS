@@ -1,0 +1,25 @@
+Title: Internet Explorer
+
+Content:
+=== Cookies ===
+
+1 - Acesse o menu Ferramentas->Opções da internet.
+
+2 - Clique na aba "Privacidade".
+
+3 - No item "Configurações", mova o botão para baixo até o item "Aceitar todos
+os cookies".
+
+4- Clique no botão "Ok".
+
+=== Pop-up ===
+
+1 - Acesse o menu Ferramentas->Opções da internet.
+
+2 - Clique na aba "Privacidade".
+
+3 - No item "Bloqueador de pop-ups" clique no botão "Configurações".
+
+4 - No campo "Endereço do site com permissão", informe o endereço "intelligroup.intelliware.com.br" (sem aspas).
+
+5 - Clique no botão "Adicionar".

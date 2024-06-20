@@ -1,0 +1,4 @@
+Title: View
+
+Content:
+O menu View permite exibir ou ocultar elemento da interface que ajudam na edição do relatório assim como as barras de ferramentas utilizadas para incluir ou editar os elementos visuáis da página.

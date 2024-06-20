@@ -1,0 +1,15 @@
+Title: = Preparando para Atualizar
+
+Content:
+=
+
+É de suma importância que o sistema **Intellicash** esteja sempre o mais atualizado possível, pois isso garante que o usuário desfrute das melhorias constantes que são implementadas.
+
+Primeiramente, antes de atualizar o IC (IntelliCash), é preciso verificar se o servidor está atualizado. Para isso verifique onde está instalado o **EnterpriseServer.exe**, clique com o botão direito do mouse sobre o arquivo e clique em propriedades. Na aba **Detalhes**, veja qual a versão do arquivo.
+
+No Manual de Atualização, sempre é exibido no cabeçalho qual a versão ideal do EnterpriseServer para funcionar com a versão atualizada do IC.
+
+
+
+
+Os demais arquivos são atualizados pela aplicação principal (**Intellicash3.exe**).

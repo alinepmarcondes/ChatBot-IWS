@@ -1,0 +1,27 @@
+Title: = Vendas Classificadas
+
+Content:
+=
+
+
+
+A aba "//**Vendas Classificadas**//" mostra um relatório de vendas classificadas pelos [[manuais:intellicash:cadastros:produtos_atributos|Atributos]] dos produtos selecionando uma das abas na parte inferior da tela. A imagem acima mostra um exemplo de //Vendas Classificadas Por Fabricante// onde há uma coluna à esquerda mostrando as vendas totalizadas, ao meio mostra o relatório das vendas por fabricante (Por escolher a aba "//**Por Fabricante**//") e à direita um gráfico para melhor visualização.
+
+Nas vendas classificadas, ao dar um duplo clique em alguma venda aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+* **Pedido:** 
+* **Cadastro:** Irá abrir o cadastro do produto selecionado no grid;
+* **Notas Fiscais:** Irá abrir uma interface para pesquisar as notas fiscais, que contém o produto selecionado;
+* **Obs:** Para colocar uma informação sobre o produto;
+
+Na parte inferior da tela há algumas opções:
+
+* **Localização Rápida:** para pesquisar um produto em específico da lista;
+* **Permitir Seleção Múltiplas:** para selecionar mais de um item apertando o botão "//**Shift**//"

@@ -1,0 +1,4 @@
+Title: Descontos nos Itens
+
+Content:
+Foi corrigido a interface para que o TOTAL seja atualizado conforme o desconto informado nos campos% ou R$.

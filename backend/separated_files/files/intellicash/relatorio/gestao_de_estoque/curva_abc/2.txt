@@ -1,0 +1,33 @@
+Title: Varsão 3.1.8.0 Filtro por Seção
+
+Content:
+Incluído filtro que permite incluir seções para a consulta do relatório.
+
+
+
+Para exemplificar melhor, vamos analisar o valor de estoque dos produtos, então nesse caso estariam classificados como ”A” todos os produtos em que o somatório dos seus valores represente até 80% do valor do estoque, lembrando que seriam os produtos com maiores valores. Dos 20% restantes, são classificados como “B” os 15% mais relevantes e o resto como “C”.
+
+Dessa maneira, conseguimos verificar que alguns poucos produtos são os que representam a grande maioria, e invés de gastar esforços em analisar todos os produtos, focamos nos itens de maior relevância.
+
+No Intellicash foi criado o relatório Curva ABC, dentro da gestão de estoque, pois ele é focado em analisar os produtos, e permitimos as seguintes curvas, que estão dividas pelas abas:
+
+* **Estoque Custo:** Análise do estoque pelo Custo do produto, considerando o último valor de compra;
+* **Estoque Qtde:** Análise do estoque pela Quantidade do produto em estoque;
+* **Qtde Vendida:** Análise da quantidade de cada produto vendido;
+* **Valor Venda:** Análise da representatividade dos produtos em relação a venda;
+* **Lucro Bruto:** Análise da representatividade dos produtos em relação ao Lucro Bruto (Preço de Venda subtraído do último preço de compra).
+
+É permitido também escolher se deseja analisar os produtos um a um, ou se deseja considerar os produtos equivalentes em preços como um só item. A ideia é que um produto que contém várias fragrâncias, e separados se tornam irrelevantes, ao serem considerados como um item só, refletem outra realidade.
+
+O relatório é bastante simples, chamando a atenção pelo gráfico, onde são retratados em verde os itens mais significativos, e em vermelho os menos significativos. Na tabela ao lado, temos os valores usados para confecção do gráfico, onde são mostrados:
+
+* **Classe:** "//**A**//" 80%, "//**B**//" 15% e "//**C**//" 5%;
+* **Participação(%):** é a participação da classe no atributo escolhido, aproximadamente 80/15/5;
+* **Itens(%):** é a porcentagem de itens que faz parte de cada classe, por exemplo a classe “A” pode representar 80% do valor de estoque, mas possui apenas 10% dos itens comercializados;
+* **Itens:** A quantidade de que fazem parte da classe;
+* **Valor:** o valor em análise, que pode ser monetário ou quantitativo:
+- **Estoque Custo**, mostra o valor de custo do produto (ultimo preço de compra);
+- **Estoque Qtde**, o campo valor mostra a soma das quantidades dos itens em estoque;
+- **Qtde Vendida**, o campo valor mostra a soma das quantidades dos itens vendidos;
+- **Valor Venda**, o campo valor mostra a soma do valor de venda do período;
+- **Lucro Bruto**, o campo valor mostra o somatório do lucro dos itens; vendidos;

@@ -3,7 +3,7 @@ import "./Chat.css";
 import Manual from "../Manual/Manual";
 import ListIcon from "../icons/listIcon";
 import NewIcon from "../icons/newIcon";
-import { useNavigationState } from "../hooks/useNavigationState"; 
+import { useNavigationState } from "../hooks/useNavigationState";
 
 function Chat() {
   const [showManual, setShowManual] = useState(false);
@@ -14,7 +14,7 @@ function Chat() {
   const navigationState = useNavigationState();
 
   useEffect(() => {
-    fetchChats(); 
+    fetchChats();
     if (navigationState.chat) {
       setCurrentChat(navigationState.chat);
     }
@@ -23,6 +23,10 @@ function Chat() {
   useEffect(() => {
     scrollToBottom();
   }, [currentChat]);
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [currentChat?.content]);
 
   const scrollToBottom = () => {
     if (messagesEndRef.current) {
@@ -34,14 +38,14 @@ function Chat() {
     try {
       if (inputValue.trim() !== "") {
         const content = [{ timestamp: String(new Date()), sender: 'user', message: inputValue }];
-        const userId = localStorage.getItem('userId');  // Obter o ID do usuário do localStorage
-  
+        const userId = localStorage.getItem('userId');
+
         const newChat = {
           title: inputValue.split(' ').slice(0, 5).join(' '),
           content: content,
-          userId: userId  // Incluir o ID do usuário
+          userId: userId
         };
-  
+
         const response = await fetch('http://localhost:5000/chats', {
           method: 'POST',
           headers: {
@@ -51,27 +55,27 @@ function Chat() {
         });
         const data = await response.json();
         const createdChat = data.chat;
-  
+
         setCurrentChat(createdChat);
         setChats([...chats, createdChat]);
-  
-        console.log('Chat criado com sucesso!');
+        setInputValue("");
+        console.log('Chat created successfully!');
       } else {
         setCurrentChat(null);
       }
     } catch (error) {
-      console.error('Erro ao criar chat:', error);
+      console.error('Error creating chat:', error);
     }
   };
 
   const fetchChats = async () => {
     try {
-      const userId = localStorage.getItem('userId');  // Obter o ID do usuário do localStorage
+      const userId = localStorage.getItem('userId');
       const response = await fetch(`http://localhost:5000/chats?userId=${userId}`);
       const data = await response.json();
       setChats(data);
     } catch (error) {
-      console.error('Erro ao buscar chats:', error);
+      console.error('Error fetching chats:', error);
     }
   };
 
@@ -87,34 +91,40 @@ function Chat() {
         if (!currentChat) {
           await addNewChat();
         } else {
-          const updatedChats = [...chats];
-          const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
-          if (updatedChatIndex !== -1) {
-            const updatedChat = {
-              ...updatedChats[updatedChatIndex],
-              content: [...updatedChats[updatedChatIndex].content, newMessage]
-            };
-            updatedChats[updatedChatIndex] = updatedChat;
-            setChats(updatedChats);
-            setCurrentChat(updatedChat);
+          if (currentChat && currentChat._id) {
+            const updatedChats = [...chats];
+            const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
+            if (updatedChatIndex !== -1) {
+              const updatedChat = {
+                ...updatedChats[updatedChatIndex],
+                content: [...updatedChats[updatedChatIndex].content, newMessage]
+              };
+              updatedChats[updatedChatIndex] = updatedChat;
 
-            await fetch(`http://localhost:5000/chats/${currentChat._id}/content`, {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json'
-              },
-              body: JSON.stringify(newMessage)
-            });
-            console.log('Mensagem enviada com sucesso!');
+              const response = await fetch(`http://localhost:5000/chats/${currentChat._id}/content`, {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: inputValue })
+              });
+              const data = await response.json();
+
+              setCurrentChat(data.chat);
+              setChats(chats.map(chat => (chat._id === data.chat._id ? data.chat : chat)));
+            }
+          } else {
+            console.error('Current chat is undefined or missing _id property.');
           }
         }
       } catch (error) {
-        console.error('Erro ao enviar mensagem:', error);
+        console.error('Error sending message:', error);
       }
 
       setInputValue("");
     }
   };
+
 
   const openManual = () => {
     setShowManual(true);
@@ -130,6 +140,19 @@ function Chat() {
       sendMessage();
     }
   };
+  // Function to format the response message
+  const formatResponseMessage = (rawMessage) => {
+    // Replace "<end_of_turn>" with newlines for formatting
+    const formattedMessage = rawMessage.replace(/<end_of_turn>/g, '\n');
+
+    // Additional formatting if needed (e.g., adding bullet points or numbered list)
+    // Example: Assuming numbered list
+    const numberedSteps = formattedMessage.replace(/\d+\./g, match => {
+      return `\n${match}`;
+    });
+
+    return numberedSteps.trim();  // Trim any extra whitespace
+  };
 
   return (
     <div className="chat-container">
@@ -140,7 +163,7 @@ function Chat() {
         </button>
         <h1 className="chat-title">{currentChat ? currentChat.title : "Starting a new chat"}</h1>
         <button className="chat-add-button" onClick={addNewChat}>
-          <NewIcon className="chat-add-button"/>
+          <NewIcon className="chat-add-button" />
         </button>
       </div>
       <div className="chat-body">
@@ -150,8 +173,7 @@ function Chat() {
               key={index}
               className={`message-box ${message.sender === 'user' ? "sent" : "received"}`}
             >
-              <div className="message-text">{message.message}</div>
-              <div className="message-info">
+              <div className="message-text">{message.sender === 'bot' ? formatResponseMessage(message.message) : message.message}</div>              <div className="message-info">
                 <span className="timestamp">{new Date(message.timestamp).toLocaleString()}</span>
               </div>
             </div>

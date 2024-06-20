@@ -1,0 +1,21 @@
+Title: == Visualizar Impressos
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de visualizar arquivos impressos novamente e abrir um layout para a impressão do mesmo.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Visualizar Impressos||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+
+Ao entrar nesta tela é necessário escolher um arquivo para imprimir, apenas arquivos com formato report (.raf), para a impressão sair corretamente. Após isso basta abrir o arquivo e abrirá a tela de impressão com o arquivo gerado.

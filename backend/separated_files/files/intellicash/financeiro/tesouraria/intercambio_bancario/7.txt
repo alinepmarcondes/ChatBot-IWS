@@ -1,0 +1,51 @@
+Title: Cadastrando Layout de Boleto (Remessa)
+
+Content:
+Logo após ser cadastrada a conta desejada o usuário poderá cadastrar o layout para confecção de boleto/remessa.
+
+Para ser realizado esse processo, basta clicar no botão “Novo” dentro das abas "//**Layout Boleto**//" e "//**Layout Remessa - Boleto**//" selecionadas.
+
+
+
+Logo após ser clicado o botão “Novo”, o sistema liberará uma nova tela para a descrição do layout.
+
+
+
+No campo “Descrição” o usuário preencherá com o nome do boleto/remessa que deseja, referenciando se será de 240 ou 400 posições, “Tipo” será preenchido A RECEBER, “Banco” será escolhido o que acabou de ser cadastrado, “Carteira” deverá ser preenchido com o número que o banco fornecer (os dois primeiros dígitos) e o campo “Cod. Cedente” deverá ser preenchido com o código de convênio entre o cliente e o banco também fornecido pelo banco.
+
+Logo após ser clicado o botão “OK”, poderá ser montada a estrutura do boleto, lembrando que caso haja a necessidade de alterar ou mesmo excluir tal boleto estará disponibilizado os botões “Alterar” e “Excluir”. 
+
+Já na Estrutura do boleto o usuário clicará com o botão direito no espaço entre Estrutura e Definições de Campos, o sistema mostrará a opção de criar um “Novo”, “Alterar” e “Excluir” para que possa dar início ao processo de montagem.
+
+
+
+O usuário escolherá “Novo” para criar a estrutura do arquivo que poderá ser Header de Arquivo, Header do Lote, Detalhe - P, Detalhe - Q, Detalhe – R, Trailer do Lote e Trailer do Arquivo. Todas essas informações estão contidas no manual fornecido pelo banco.
+
+
+
+A “Descrição” será preenchida com Header de Arquivo, Header do lote, etc. No “Nível” será de acordo com a descrição sendo 1 para Header, 2 para Detalhes e 3 para Trailers, o “Tamanho” será 240 ou 400 posições de acordo com o contrato estabelecido entre o Cliente e o Banco.
+
+Para Definição dos Campos o usuário clicará com o botão direito do mouse no espaço reservado para definição, como segue a figura a seguir.
+
+
+
+A definição dos campos segue o mesmo princípio da estrutura do arquivo, lembrando que ela está relacionada com a estrutura, cada linha da estrutura tem seus campos definidos, exemplo Header de Arquivo e suas Definições de Campos, Header de Lote e suas Definições de Campos, etc.
+
+
+
+Os campos dessa tela são compostos por:
+
+* **Descrição:** aonde será informada a descrição do campo;
+* **Posição:** indica a posição inicial do campo na linha a ser gerada (cada linha da estrutura tem sua posição inicial com o número 1);
+* **Quantidade** será acrescentado o tamanho da descrição informada acima;
+* **Formato:** deverá ser preenchido com as opções Alfanumérico (letras ou números) ou Numérico, Data com o formato devido, Hora e Sequencial (um contador interno do sistema);
+* **Alinhamento:** Esquerda (alfanuméricos) ou Direita (numéricos);
+* **Preenchimento:** zeros (numéricos) ou vazios (alfanuméricos);
+* **Tipo:** deverá ser texto fixo (preenchido com dados que não são fornecidos pelo sistema), database (são dados que o sistema informa, Ex.: Endereço do sacado) e condição ( são dados que sistema fornece aonde pode conter duas informações. Ex.: numero de inscrição da empresa ou sacado “CNPJ/CPF”, o usuário deverá escolher o campo a ser comparado, tamanho, valor da condição, valor verdadeiro ou valor falso, logo abaixo terá uma figura com o exemplo citado);
+* **Valor:** destinado para inserção de tipo texto fixo (dados fornecidos pelo banco, zeros ou vazios). 
+
+Esses dados acima informados estão contidos no manual fornecido pelo banco, lembrando que o valor da posição no final não deverá ultrapassar 240 ou 400 de acordo com o contrato estabelecido entre o cliente e o banco. 
+
+
+
+Cada linha de estrutura do layout deverá conter essas informações acima citadas para completa geração do arquivo de “Remessa”, caso necessário existe a opção de alterar ou excluir linhas tanto da estrutura quanto a definições dos campos do layout.

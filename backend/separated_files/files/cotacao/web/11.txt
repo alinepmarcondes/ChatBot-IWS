@@ -1,0 +1,10 @@
+Title: = Dados
+
+Content:
+=
+
+Para alterar os dados de cadastro (Nome e E-mail), o representante deverá acessar o Menu "Representante".
+
+
+
+Na aba "Dados" o usuário deverá realizar as alterações necessárias e clicar sobre o botão "Salvar" para concluir.

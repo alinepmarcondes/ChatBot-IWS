@@ -1,0 +1,4 @@
+Title: Editar um Cliente
+
+Content:
+Para editar, o usuário deverá manter pressionado o cliente desejado até que o menu de opções apareça na barra superior e pressionar o botão .

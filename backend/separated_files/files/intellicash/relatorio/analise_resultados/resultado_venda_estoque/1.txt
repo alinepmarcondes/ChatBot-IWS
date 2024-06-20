@@ -1,0 +1,36 @@
+Title: == Relatório de Resultados de Vendas x Estoque
+
+Content:
+==
+
+----
+
+Esta ferramenta apresenta um relatório para mostrar a rentabilidade de um produto, ou seja, o quanto foi lucrado com a venda apenas deste item.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Análise de Resultados→Resultados de Vendas x Estoque||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Classe:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Filtro:** Para selecionar uma categoria do atributo selecionado;
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Aplicar:** Para realizar a pesquisa e gerar o relatório;
+* **Imprimir:** para imprimir os dados do item.
+* **Exibir itens que não controlam estoque:** Caso essa opção esteja desmarcada, então será exibido apenas itens que possuem controle de estoque, caso esteja desmarcado então serão exibidos os demais itens, como por exemplo produtos com produção automatica.
+
+Há também um atalho para criar uma configuração para os fatores que irão determinar este relatório. À esquerda ficam os fatores que serão levados em conta, e a direita os fatores que estão disponíveis para a utilização deste relatório.
+
+
+
+
+
+Abaixo mostra os resultados da pesquisa realizada e na parte inferior da tela mostra os valores totais dos itens da pesquisa.

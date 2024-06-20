@@ -1,0 +1,4 @@
+Title: Enviar fechamento de promoções
+
+Content:
+Permite enviar o o fechamento de promoções de um certo intervalo de data escolhido pelo usuário.

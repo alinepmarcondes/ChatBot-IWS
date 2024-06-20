@@ -1,0 +1,24 @@
+Title: = Transferência de Cheques para Matriz
+
+Content:
+=
+
+----
+
+Esta ferramenta tem a função de cadastrar as contas e caixas do sistema para controlar a movimentação financeira do estabelecimento;
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Cadastros→Contas e Caixas**(Aba Cheques - Sub-aba Movimento)**||
+
+Os cheques das filiais poderão ser transferidos para Matriz para que sejam usados no pagamento com cheques de terceiros ou outros fins. 
+
+Para fazer esta transferência Selecione os cheques que deseja transferir e clique com o botão direito do mouse (selecione a opção **Transferir Cheques para Matriz...**).
+
+
+
+
+
+Mais em [[manuais:intellicash:cadastros:contas_caixas|Cadastrar Contas e Caixas]].

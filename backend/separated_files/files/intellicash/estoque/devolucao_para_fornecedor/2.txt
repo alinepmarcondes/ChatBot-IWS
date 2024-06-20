@@ -1,0 +1,49 @@
+Title: = Menu de Ferramentas
+
+Content:
+=
+
+
+
+**Automático/Manual**: alterna entre as modalidades de lançamento de protudos para troca. O modo **auto** irá lançar o item para o Fabricante registrado no cadastro do produto, em um documento aberto ou abrirá um novo documento de troca para o Fabricante.
+
+O modo **manual** tenta lançar o item para o Fornecedor/Documento em exibição na tela. Se o produto não possuir nenhuma correspondência com o Fornecedor, uma mensagem aparecerá impedindo que o item seja lançado. O modo **manual** também permite que um novo documento seja aberto para um fornecedor.
+
+**Novo**: permite abrir um documento de troca para um fornecedor, após a localização do agente desejado.
+
+**Localizar**: Função para localizar documentos de troca já criados.
+
+
+
+**Navegação**: alterna entre documentos já criados. A barra de título indica a situação do Documento.
+
+**Importar**: importar devoluções permite o carregamento de um arquivo de texto ou importar os lançamentos de Troca gerados pelo IntelliStock (a partir da versão 3.1.4.016). A definição da fonte de dados está destacada na próxima imagem no //radio button// **Arquivo/Tabela**.
+
+
+
+**Exportar**: salva uma planilha do Excel com os dados disponíveis na tela.
+
+**Alterar Fornecedor**: altera os lançamentos selecionados na tela para um documento referente ao fornecedor selecionado.
+
+**P/Perda**: transfere os lançamentos selecionados para o controle de perdas, solicitando a quantidade de transferência e o respectivo motivo.
+
+
+
+
+**Imprimir**: possui a opção de um menu pop-up que permite configurar as páginas de impressão, assim como imprime o documento em exibição.
+
+**Descartar**: remove os itens selecionados do documento atual.
+
+**Confirmar**: gera a Nota Fiscal de Perda/Devolução para o fornecedor do documento e encerra o documento.
+
+**Ajuda**: Abre o wiki.
+
+Na Barra de título do documento, no canto direito, há 1 botão: **Cancelar Documento** que alteram o status do documento para cancelado quando houver algum documento em aberto e sem item.
+
+
+
+**Aba Pendente por fornecedores**
+
+
+
+Essa aba apresenta todos os itens pendentes para um determinado fornecedor.

@@ -1,0 +1,14 @@
+Title: iDBio Pro (Control iD)
+
+Content:
+Informações adicionais podem ser encontradas em [[https://www.controlid.com.br/automacao-comercial/idbio/|Leitor Biométrico iDBio]].
+
+
+=== Informações Adicionais(Fabricante) ===
+
+
+
+=== Integração ===
+
+* Deve-se utilizar no mínimo a versão **1.2.2** do firmware do equipamento.
+* O arquivo **libcidbio.dll**, que é a dll de comunicação com o equipamento, deve ser colocada junto com o executável do IntelliCash, sendo no mínimo a versão de **18/10/2018 10:25**.

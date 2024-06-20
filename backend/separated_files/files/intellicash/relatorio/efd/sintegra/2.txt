@@ -1,0 +1,45 @@
+Title: = SPED Fiscal
+
+Content:
+=
+
+
+
+Nesta interface há os seguintes campos:
+
+* **Empresa:** Para selecionar uma empresa;
+* **Pasta:** Para informar a pasta onde será salvo o arquivo;
+* **Ano:** Para informar o ano de referência;
+* **Mês:** Para informar o mês de referência;
+* **Aplicar:** Para aplicar os filtros de data, e também preenche os campos "//**Natureza**//", "//**Convênio**//" e "//**Finalidade**//", com valores default, que podem ser alterados.
+* **Natureza:**
+- **Interestaduais som. oper. sujeitas ao reg. de ST:**
+- **Interestaduais - Operações com ou sem ST:**
+- **Totalidade das operações do informante:**
+* **Convênio:**
+- **Convênio 31/99:**
+- **Convênio xx/02:**
+- **Atual:**
+* **Finalidade:**Para informar qual é a finalidade do arquivo que está sendo gerado:
+- **Normal:** Arquivo original;
+- **Retificação total de arquivo:** Caso ja tenha enviado o original e precisa retificar e enviar novamente;
+- **Retificação aditiva de arquivo:**
+- **Retificação corretiva de arquivo:**
+- **Desfazimento:**
+Os registros a seguir devem ser marcados com orientação do contador da empresa:
+* **Gerar Registros 10,11 e 90(Cabeçalho e totalização);**
+* **Gerar Registros 50 e 54;**
+* **Gerar Registros 60M e 60A;**
+* **Gerar Registro 60D;**
+* **Gerar Registro 60I;**
+* **Gerar Registro 60R;**
+* **Gerar Registro 61;**
+* **Gerar Registro 70;**
+* **Gerar Registro 71;**
+* **Gerar Registro 74, na data;**
+* **Gerar Registro 75;**
+* **Gerar Registro 88EAN;**
+* **Gerar Registro 88SME;**
+* **Gerar Registro 88SMS;**
+* **Bloquear Lançamentos:** Para bloquear lançamento financeiros no período referência;
+* **Gerar:** Para gerar o arquivo SPED;

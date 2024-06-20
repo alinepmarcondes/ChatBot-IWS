@@ -1,0 +1,16 @@
+Title: == Apuração de PIS/COFINS
+
+Content:
+==
+
+----
+
+
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão Fiscal→Apuração de PIS/COFINS||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

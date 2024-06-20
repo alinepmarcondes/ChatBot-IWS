@@ -1,0 +1,21 @@
+Title: Tela
+
+Content:
+São configurações para que o usuário possa personalizar o sistema com algumas de suas características que serão exibidas na tela de venda. Por isso dividimos em duas partes: Títulos e Logomarca.
+* **Título Superior:** É sugerido colocar o nome do estabelecimento.
+* ** Título Inferior:** É sugerido colocar “slogan” da empresa.
+* **Logomarca:** Você poderá inserir a logomarca da empresa.
+
+
+
+
+Para inserir os Títulos e a logomarca clique em **//Alterar//** que será aberta uma nova tela. Nessa existe os campos onde você ira digitar os títulos que deseja ser exibido. Caso ainda deseja alterar a fonte dos textos é preciso clicar no botão que tem ao lado do campo de digitação com um símbolo de um lápis.
+
+
+
+No caso da logomarca é necessário clicar no botão de localizar e inserir o local onde está o logo da empresa. Lembrando que essa configuração também está disponível na retaguarda.
+
+
+
+O logotipo pode ser no formato .jpg e .jpeg. E as dimensões recomendada é de 465X465. 
+Caso não consiga inserir um arquivo, abra ele no Paint e salve-o no formato .jpg ou .jpeg e tente novamente.

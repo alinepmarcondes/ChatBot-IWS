@@ -1,0 +1,6 @@
+Title: = Produto Próprio
+
+Content:
+=
+
+Para cadastrar uma venda de produto da associação (produto próprio), o usuário deverá acessar o menu lateral esquerdo "Produtos próprios".

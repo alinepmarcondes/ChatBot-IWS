@@ -1,0 +1,26 @@
+Title: = Localizar
+
+Content:
+=
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Localizar:** Para localizar todos os associados cadastrados;
+* **Mostrar Todos:** Para mostrar todos os associados;
+* **Empresa:** Para selecionar a empresa desejada;
+
+E os seguintes botões na parte inferior da tela:
+
+* **Novo:** Para cadastrar um novo associado;
+* **Alterar:** Para alterar os dados de uma associado cadastrado;
+* **Excluir:** Para excluir um associado;
+* **Usuários:** Para associar algum usuário à empresa associada. Eles devem ser associados para fazer login no **IntelliGroup**.
+* **Imprimir:** Para imprimir os dados dos cadastros dos associados;
+
+Ao clicar no botão "//**Novo**//" aparecerá uma interface para localizar um agente cadastrado no sistema e após isso aparecerá a seguinte interface:
+
+
+
+Nesta interface é necessário informar a data de adesão e a participação percentual do associado. Feito isso basta confirmar e o associado estará cadastrado.

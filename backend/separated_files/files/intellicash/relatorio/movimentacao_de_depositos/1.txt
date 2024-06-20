@@ -1,0 +1,21 @@
+Title: == Movimentação de Depósitos
+
+Content:
+==
+----
+
+Este relatório permite verificar as movimentações ocorridas em cada depósito. 
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios->Gestão de Estoque->Movimentação entre Depósitos||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+
+Os filtros consistem em definir: **Empresa**, **Depósitos**, **intervalo de tempo** e **tipo de movimentação**.
+
+Adicionalmente, existem três abas que agrupam os resultados de movimentações **por dia**, **por item** ou **por depósito**.

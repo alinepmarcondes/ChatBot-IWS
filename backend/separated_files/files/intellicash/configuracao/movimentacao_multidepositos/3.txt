@@ -1,0 +1,14 @@
+Title: = Atributos
+
+Content:
+=
+
+Esta aba permite associar os atributos do produto que movimentarão o depósito selecionado.
+
+
+
+O botão **Cadastrar** exibirá uma interface para a seleção dos atributos que serão atribuídas ao deósito:
+
+
+
+Após selecionado o grupo dos atributos, a interace de seleção do sub-grupo será exibida:

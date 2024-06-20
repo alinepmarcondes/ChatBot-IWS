@@ -1,0 +1,18 @@
+Title: = Confirmação
+
+Content:
+=
+
+
+
+Na interface de confirmação é possível confirmar vários agendamentos ao mesmo tempo. Essa interface pode ser acessada clicando sobre a barra de notificação na parte inferior do sistema, podendo essa barra estar descrita de duas formas:
+- **Nenhum Agendamento:** Quando estiver com essa descrição significa que não consta nenhum agendamento para data atual.
+- **Pedido para Gerar:** Significa que na data atual existe agendamento para gerar. 
+
+ 
+
+Ao acessar a interface de confirmação os dados são carregados com a data atual, podendo o usuário alterar a data a qualquer momento clicando sobre o Checkbox **"__Alterar datas__"** e mandar aplicar para recarregar os dados. Nessa tela clicando com botão direito do mouse sobre o grid temos as opções de __selecionar todos__ os registros, __desmarcar todo__s os registro ou __inverter seleção__ e em seguida __Gerar__ ou __Descartar__ os agendamentos selecionados. \\
+Clicando com botão direito do mouse sobre o botão **__Gerar__** temos as seguintes opções;
+***Exibir Pedidos Gerados:** Exibe o pedido que foi gerado;
+* **Imprimir Pedido ao Gerar:** Imprime o pedido que foi gerado automaticamente;
+* **Configurar Impressão:** Abre a interface para configurar o layout de impressão do pedido;

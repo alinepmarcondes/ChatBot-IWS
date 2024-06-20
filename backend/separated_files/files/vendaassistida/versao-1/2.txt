@@ -1,0 +1,8 @@
+Title: == 2.9.5
+
+Content:
+==
+\\
+**IMPORTANTE**\\
+A partir desta versão a senha utilizada pelo serviço do VA não é mais criptografada e sim a senha DECRIPTOGRAFADA, exemplo senha K, masterkey e etc.
+Exemplo do .ini

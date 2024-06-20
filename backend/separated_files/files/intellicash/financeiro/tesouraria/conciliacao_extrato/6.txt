@@ -1,0 +1,6 @@
+Title: = Importação do Arquivo de Retorno
+
+Content:
+=
+
+Com todas as configurações já preenchidas o sistema está apto para importar os arquivos arquivos. Para tal procedimento deveremos selecionar o **Tipo de Extrato** e clicar no botão de **Importar Retorno**.

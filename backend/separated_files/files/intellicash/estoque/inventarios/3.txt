@@ -1,0 +1,24 @@
+Title: = Novo Inventário
+
+Content:
+=
+
+Na parte inferior da tela há o botão "//**Novo**//" para inventariar novos produtos e ao clicar neste botão aparecerá ao lado descrição para preencher e os botões "//**Inserir**//" e "//**Cancelar**//".
+
+
+
+Após inseridos aparecerá a seguinte tela:
+
+
+
+Nesta tela há os seguintes campos:
+
+* **Data da Contagem:** É o dia em que o estoque foi contado;
+* **Retroagir Histórico Desde:**Ao informar uma data para retroagir, o sistema irá verificar qual era o estoque na data solicitada. Por exemplo, supondo que foi feito um inventário em 12/03/2018 informando 10 unidades, ao mandar o sistema retroagir para o dia 01/03/2018, o sistema irá fazer os cálculos de acordo com as entradas e saídas informando assim a quantidade em estoque para que na data de 12/03/2018 tenha 10 unidades. 
+* **Código:** para informar o código EAN do produto;
+* **Quantidade:** para informar a quantidade do produto;
+* **Inserir:** para inserir um item preenchendo os campos citados anteriormente;
+* **Imprimir:** para imprimir dados dos produtos;
+* **Aplicar:** para realizar a pesquisa;
+* **Exportar:** para exportar os dados dos itens;
+* **Importar:** para importar dados dos itens.

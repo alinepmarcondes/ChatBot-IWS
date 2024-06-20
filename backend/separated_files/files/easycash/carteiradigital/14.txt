@@ -1,0 +1,4 @@
+Title: Cadastro Lojista
+
+Content:
+O primeiro procedimento a ser realizado é cadastrar o cliente como lojista na plataforma do PicPay e em seguida fornecer para o suporte da IWS os dois tokens apresentados na seguinte tela:

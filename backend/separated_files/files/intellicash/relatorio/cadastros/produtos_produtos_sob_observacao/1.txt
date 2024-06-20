@@ -1,0 +1,27 @@
+Title: == Produtos Sob Observação
+
+Content:
+==
+
+----
+
+Este relatório mostra todos os produtos que estão com algum tipo de observação no sistema.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Cadastros→Produtos→Produtos SobObservação||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes botões:
+
+* **Filtro:** Para escolher uma opção de filtragem das observações dos produtos;
+* **Funcionários:** Para selecionar um funcionário do sistema que realizou a observação;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.
+
+Após realizada a pesquisa será listado abaixo todos os resultados de itens sob observação.

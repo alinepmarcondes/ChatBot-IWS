@@ -1,0 +1,13 @@
+Title: = Configurações
+
+Content:
+=
+
+Para que a integração de Matriz e Filiais funcione de forma correta se faz necessário configurar alguns parâmetros no sistema:
+
+* **ID 4 Empresa:** Nesta configuração deve selecionar uma empresa, se houver mais de uma cadastrada no sistema, correspondente de cada base.	
+* **ID 1201	Empresa Padrão para movimento financeiro:**	Empresa Padrão para movimento financeiro, mas essa configuração só pode ser alterada pelos técnicos.
+* **ID 2003	Mostrar os faturamentos de todas as empresas:**	Mostra todos os faturamentos de todas as Empresas na Base Matriz na tela de Recebimento de Clientes
+* **ID 4003	Exportar dados para matriz:** Esta configuração deve ser configurada como SIM nas filiais, para exportar os cadastros da matriz, na matriz essa configuração deve ser NÃO
+* **ID 4103	Base Matriz:** Informa se a base que está utilizando é a Matriz ou não(Para matriz deve SIM, para filiais deve ser NÃO).
+* **ID 4303	Exportar cadastro financeiro para as filiais:** Se estiver configurada para exportar o sistema irá mostrar a aba “Financeiro” na Exportação de Matriz e Filiais. Essa opção geralmente é usada para clientes que desejam que as Filiais tenham o mesmo cadastro da Matriz (neste caso não é recomendado cadastrar registros financeiros nas Filiais).

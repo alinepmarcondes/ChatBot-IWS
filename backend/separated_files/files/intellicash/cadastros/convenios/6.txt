@@ -1,0 +1,37 @@
+Title: = Clientes Do Convênio
+
+Content:
+=
+
+Existem alguns convênios que costumam a enviar para a empresa conveniada planilhas discriminando seus funcionários e seus limites de crédito. Pensando em minimizar o trabalho do usuário a IWS aprimorou essa parte do sistema no **Intellicash**.
+
+
+
+Após localizar o convênio desejado, o usuário poderá importar a planilha para o sistema, mas para tal a planilha deverá estar no formato indicado nesse manual. O primeiro campo será o “**REGISTRO**” do funcionário no empresa que ele trabalha, seguido de “**NOME**”, “**CPF**” e etc. conforme a figura abaixo, e na aba inferior renomear como “**CADASTRO**”.
+
+
+
+Na segunda aba da planilha deverá ser renomeada como “**CREDITO**”, com os campos “**REGISTRO**”, “**NOME**” e etc. conforme a figura abaixo.
+
+
+
+Ao Clicar no botão “//**Importar**//”, o sistema pedirá para o usuário a data do período de liberação do crédito, após a escolha da data o usuário deverá localizar a planilha no seu computador. Obs.: Não faça importação com Excel aberto, pois poderá ocorrer um erro, caso isso aconteça, feche o Excel e tente importar novamente.
+
+
+
+Caso exista algum conveniado que não conste na planilha o usuário poderá inseri-lo manualmente, desde que a mesma esteja cadastrada como cliente. Se não estiver cadastrado entre em “**//Gerenciamento→Cadastro→Clientes//**” e cadastre-o.
+Mais informações sobre cadastrar clientes [[manuais:intellicash:cadastros:cliente|Clique aqui.]]
+
+Primeiramente o usuário deverá colocar o nome do conveniado em cliente e logo a após clicar no botão “//**Inserir**//”, o sistema localizará este com seus dados e inserirá no convênio escolhido.
+
+
+
+Dando dois cliques no nome do conveniado ou sistema direcionará para aba “//**Histórico**//”, aonde usuário poderá visualizar mediante a aplicação de um período de inicio e término, o cupom fiscal que está vinculada a compra de determinado usuário e seus respectivos produtos.
+
+
+
+Na aba de “//**Notas Fiscais**//”, serão representadas as notas fiscais do convênio que foram emitidas entre as datas de "//**Início**//" e "//**Término**//", os "//**Faturamentos**//" e “//**Cupons**//” vinculados a mesma.
+
+
+
+Já na aba “//**Relatórios**//”, o usuário poderá visualizar os conveniados que efetuaram compras ou não em um determinado período, já na aba “//**Mensal**//”, o sistema representará graficamente o “//**Dia**//”, “//**Valor**//” e “//**Quantidade de Conveniados**//” que efetuaram compras.

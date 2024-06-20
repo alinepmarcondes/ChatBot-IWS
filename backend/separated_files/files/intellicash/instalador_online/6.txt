@@ -1,0 +1,4 @@
+Title: Sincronizador ScannTech
+
+Content:
+Na tela **Modos de Instalação** marque a opção "Sincronizador ScannTech".

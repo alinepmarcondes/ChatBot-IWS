@@ -1,0 +1,17 @@
+Title: Servidor EasyCash
+
+Content:
+Para facilitar a configuração do que será enviado, foi criado um sistema de montagem do assunto e corpo do e-mail assim como acontece com o termo de compromisso no frente de caixa.
+
+=== Anexo ===
+
+
+=== E-Mail - Título ===
+
+
+
+=== E-Mail - Mensagem ===
+
+
+
+As mensagens acima já vem pré-configuradas. Lembrando que a mensagem promocional do frente de caixa foi portado para o servidor também, podendo ser inserida no corpo do e-mail. A mesma também é configurável conforme podemos observar na aba abaixo:

@@ -1,0 +1,35 @@
+Title: Funcionamento
+
+Content:
+Com a configuração de acesso direto a API do PIC PAY desmarcada, ao selecionar a forma de pagamento **CARTEIRA DIGITAL** na tela de fechamento do cupom, será aberta a opção:
+
+
+
+No final do fluxo da carteira digital pela Software Express será impresso:
+
+
+
+Caso seja efetuado um cancelamento teremos:
+
+
+
+No caso da carteira digital **ITI/ITAU** é utilizado o QrCode para validar a transação, então será mostrada a tela:
+
+
+
+Na retaguarda ao acessar no menu de gerenciamento a seguinte opção:
+
+
+
+Teremos acesso aos dados do turno e podemos validar a venda na forma definida:
+
+
+
+=== Observações ===
+
+== Tratamento de QRCode ==
+
+Especificamente nas transações de venda(Crédito/Débito) e seus respectivos cancelamentos, __da carteira digital da Cielo__, o QRCode deve ser exibido no pinpad. Para que o pinpad possa exibir o QRCode, este deve ter os **seguintes requisitos**:
+
+* Versão mínima deve ser 2.03 ABECS 
+* Deve possuir capacidade para tratamento de arquivos multimídia, especificamente o formato PNG

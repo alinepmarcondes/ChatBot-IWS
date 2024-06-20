@@ -1,0 +1,77 @@
+Title: == Controle de Pedidos/Orçamentos
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de realizar o gerenciamento dos pedidos e dos orçamentos realizado pelo estabelecimento. A partir desta tela o usuário poderá realizar alterações quanto ao status.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Controle Pedidos/Orçamentos||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes botões:
+
+* **Orçamento** e **pedidos** para optar sobre um dos dois botões;
+* **Início** e **término** para determinar um período de datas;
+* **Situação** para escolher os pedidos que serão pesquisados (aberto, a faturar, vencido, impresso, faturado e descartado);
+* **Mostrar somente devoluções** para filtrar as pesquisas;
+* O botão **área** só estará habilitado se o pedido estiver impresso, nos outros casos estende-se que o pedido já está finalizado ou ainda pode sofrer alteração e, portanto não é possível mandar para nota;
+
+* **Cliente**: para pesquisar os orçamentos de um cliente em específico. Esse filtro irá trazer todos os clientes que o nome contem o texto digitado;
+* **Número do orçamento** para pesquisar um número de pedido em específico;
+* **Número Interno**: para pesquisar pedido pelo número interno;
+* **Número do E-Commerce**: para pesquisar pedido pelo número do e-commerce;
+* **Aplicar** para realizar as alterações;
+* **Imprimir** para imprimir dados dos pedidos;
+* **Entrega** para encaminhar uma entrega para o destinatário selecionado e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Nesta tela é necessário que informe a data e a hora e a preferência do cliente para prosseguir ou caso deseje alterar o endereço da entrega basta clicar no botão **alterar endereço** e ao clicar neste botão aparecerá a seguinte tela para cadastrar endereço:
+
+
+
+
+* **Hist. Relac.** Para mostrar o histórico de relacionamento do cliente selecionado no sistema e ao clicar neste botão aparecerá a seguinte tela:
+
+
+
+Na parte superior desta tela há os seguintes botões:
+
+* **Início** e **Término:** para determinar um período de datas a ser pesquisado;
+* **Aplicar:** Para realizar a pesquisa;
+* **Filtrar Assunto:** Para pesquisar o assunto em "//**Pesquisa**//" ou em "//**Filtro**//" no sistema;
+* **Loc. Nº Doc:** Para localizar algum documento pelo seu número;
+* **Loc. Assunto:** Para localizar um documento pelo assunto;
+
+E na parte inferior há os seguintes botões:
+
+* **Inserir:** Para inserir um novo documento no histórico de relacionamento;
+* **Novo:** Para criar um novo documento no histórico de relacionamento;
+* **Excluir:** Para excluir um novo documento no histórico de relacionamento;
+* **Imprimir:** Para imprimir algum documento do histórico de relacionamento;
+
+Clicando com botão direito do mouse sobre o grid superior temos as seguintes opções:
+
+* **Alterar Cliente / Fornecedor:** Altera o cliente/ fornecedor do orçamento.
+* **Alterar Status:** Altera o status do orçamento. Não é possivel alterar o status se o orçamento estiver vencido ou já foi faturado.
+* **Alterar Vencimento:** Altera o vencimento do orçamento.
+* **Alterar Observação:** Altera a observação do orçamento.
+* **Excluir:** Descarta o orçamento. Não é possivel descartar um orçamento que já esteja faturado.
+* **Alterar Entrega:** Altera a entrega.
+* **Confirmar Entrega:** Confirma a Entrega.
+* **Mesclar Orçamentos:** Mescla os orçamentos selecionados. Para mesclar, os orçamentos precisam ser do mesmo agente e devem estar com os status (Aberto, Impresso ou Vencido).
+
+Abaixo há duas colunas:
+
+A primeira coluna mostra os pedidos e seus dados e na segunda coluna mostra os produtos do pedido selecionado acima e seus dados.
+
+* **Exportar:** Para exportar os dados do pedido para nota fiscal;

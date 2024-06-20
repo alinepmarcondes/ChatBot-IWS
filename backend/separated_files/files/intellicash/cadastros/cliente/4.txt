@@ -1,0 +1,4 @@
+Title: Cadastrando um Cliente
+
+Content:
+Após clicar no botão novo aparecerá uma nova tela:

@@ -1,0 +1,21 @@
+Title: == Etiquetas
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de imprimir etiquetas para inseri-las nas gôndolas do estabelecimento.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Estoque→Etiquetas||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior desta interface há os seguintes itens:
+* **Item** para pesquisar por um produto pelo nome ou código;

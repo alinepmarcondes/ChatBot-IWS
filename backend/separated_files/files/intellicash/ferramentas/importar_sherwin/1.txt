@@ -1,0 +1,37 @@
+Title: == Importar Sherwin
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de importar os produtos da sherwin.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Importar Sherwin||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+Nessa interface o usuário pode selecionar a pasta onde está o arquivo .txt enviado pela Sherwin com os produtos e clicar no botão carregar. O sistema irá recarregar todos os produtos que constam no arquivo, esse processo pode ser lento devido ao grande número de itens que o arquivo contem. \\
+Ao terminar de importar o usuário pode listar os produtos na tela utilizando os filtros disponiveis. \\
+Para realizar o cadastro dos itens no IC é preciso antes realizar algumas configurações, para isso vamos até a aba configurações.
+
+
+Nessa aba precisamos fazer 3 configurações que são elas:
+-** Base:** no grid base temos na coluna __Base__ as bases enviadas pela Sherwin, selecionado a base e clicando no botão **"Alterar"** o usuário deverá selecionar um produto já cadastrado no IC que __representa__ aquela base;
+- **Corante:** no grid corante temos na coluna __Corante__ os corantes enviados pela Sherwin, selecionado o corante e clicando no botão **"Alterar"** o usuário deverá selecionar um produto já cadastrado no IC que __representa__ aquele corante;
+- **Produto de Referência:** no grid de produtos de referência, temos as embalagems enviadas pela Sherwin, selecionando uma embalagem e clicando no botão **"Alterar"** o usuário deverá selecionar um produto já cadastrado no IC para __representar__ aquela embalagem. Ao cadastrar um produto da Sherwin com aquela embalagem, toda classificação do produto cadastrado será baseada no item que foi selecionada na configuração para essa emabalagem.
+\\
+Após feita todas as configurações o usuário pode voltar na aba **"Importação"** utilizar os filtros para listar os produtos e clicar no botão **"Cadastrar"** para realizar o cadastro de todos os itens listados na tela. Ao clicar para cadastrar o sistema irá cadastrar o produto e um kit e composto do tipo produção automática para ele com todos os corantes mais a base. \\
+
+\\
+\\
+Caso o usuário não deseja cadastrar todos os itens para depois utilizar, o mesmo pode utilizar do botão **"Tintometrico"** adicionado na tela de orçamento. \\
+Ao clicar nesse botão será exida a interface abaixo.
+
+
+Ao acessar essa interface o usuario pode utilizar os filtros para localizar os produtos dentro da base de dados importadas da Sherwin. Ao clicar em **"Inserir"** caso o produto não esteja cadastrado o IC utilizará da mesma logica explicada na tela de importação e realizará o cadastro desse item antes de inserir o mesmo no orçamento.

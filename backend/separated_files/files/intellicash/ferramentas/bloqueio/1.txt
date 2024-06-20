@@ -1,0 +1,28 @@
+Title: == Bloqueio
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de bloquear períodos(em meses) para que nao permita fazer nenhum lançamento fiscal e financeiro em determinado período
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Ferramentas→Bloqueio||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela mostra um bloqueio fiscal e financeiro em períodos mensais. Na coluna à esquerda há os períodos e seus dados e na coluna há esquerda um histórico fiscal e financeiro de alterações de bloqueio e na parte inferior um campo de observações. Para bloquear um período que não esteja já listado, basta clicar no botão "//**Bloquear Período**//" no canto inferior esquerdo da tela e ao clicar aparecerá a seguinte tela:
+
+
+
+Nesta parte deverá apenas selecionar o período que deseja bloquear, haverá os botões "//**Cancelar**//" para fechar e cancelar esta operação e "//**Ok**//" para confirmar e prosseguir e apósconfirmar esta operação, este período já estará bloqueado tanto fiscal como financeiro. Para alterar estas configurações basta clicar com o botão direito do mouse para alterar configurações seja bloqueio ou desbloqueio basta confirmar a operação, e no caso de desbloqueio é obrigatoriamente justificar o motivo da operação:
+
+
+
+Após justificado basta clicar no botão "//**Desbloquear**//" para concluir a operação.

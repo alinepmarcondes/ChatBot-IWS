@@ -1,0 +1,27 @@
+Title: == Movimentação dos Produtos
+
+Content:
+==
+
+----
+
+Este relatorio permite verificar toda movimentação que ocorreu com determinados ou todos os produtos em um período de data. Dentre as informações mostra a venda em cupom fiscal, transferencias, bonificações, etc.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Estoque→Análise de Qtde→Movimentação dos Produtos||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Na parte superior da tela há os seguintes campos:
+
+* **Início e Término:** para determinar um período de datas a ser pesquisado;
+* **Classe:** Para selecionar uma classificação de atributo a ser pesquisado;
+* **Filtro:** Para selecionar alguma classificação da classe selecionada;
+* **Empresa:** para selecionar uma empresa para realizar a pesquisa;
+* **Aplicar:** Para realizar a pesquisa;
+* **Imprimir:** para imprimir dados do relatório.

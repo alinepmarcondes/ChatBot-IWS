@@ -1,0 +1,10 @@
+Title: == Cadastro
+
+Content:
+==
+A aba “**Cadastro**” tem a função de visualizar, editar e inativar os dados do veículo já cadastrado. 
+
+
+* O botão **Alterar** abrirá a seguinte janela para editar os dados do veículo cadastrado.
+
+* O botão **Excluir** irá inativar o veículo cadastrado.

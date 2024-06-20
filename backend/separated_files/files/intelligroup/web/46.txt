@@ -1,0 +1,22 @@
+Title: == Alterar senha
+
+Content:
+==
+
+Para alterar sua senha, o usuário deverá clicar sobre o seu nome de usuário, localizado no canto superior direito e clicar no item Alterar Senha conforme demonstra a figura abaixo. 
+
+
+
+Menu para alterar senha.
+
+Após clicar, será aberto um formulário onde o usuário deverá informar sua nova senha conforme demonstra a figura abaixo. 
+
+
+Possíveis mensagens de erros:
+* A senha atual não confere com a senha informada! 
+* O campo senha tem o formato inválido.
+* O campo senha_atual tem o formato inválido.
+* O campo nova_senha tem o formato inválido.
+* O campo confirmar tem o formato inválido.
+
+Para concluir a ação, clique no botão Salvar, onde será exibida uma mensagem informando que senha foi ou não alterada com sucesso conforme demonstra a figura abaixo.

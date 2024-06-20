@@ -1,0 +1,12 @@
+Title: Licitações
+
+Content:
+Nesta aba é destinada para usuários que fazem uso de **Licitações**.
+
+
+
+Essa aba também possui a **Descrição Especial por Cliente**, caso algum cliente queira que determinado produto tenha diferenciado(casos que entram para licitações). Basta Adicionar o cliente especifico e o novo nome para o produto.
+
+
+
+Nela também conta com a nova funcionalidade que é **Unidade Especial por Cliente**. Pois existem casos em que há licitações que exigem uma descrição de unidade diferenciada. Sua usabilidade é identica ao da descrição especial por cliente.

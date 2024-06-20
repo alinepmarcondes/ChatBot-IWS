@@ -1,0 +1,14 @@
+Title: Entrega
+
+Content:
+A aba Entrega permite cadastrar as entregas de vasilhames na recepção, que emitirá para o cliente um ticket referente à sua entrega, que será apresentado ao frente de caixa na efetuação da compra.
+
+Inicialmente o foco aparece no campo **Vasilhame:** onde pode ser escolhido qual vasilhame o cliente traz consigo. Em seguida o foco passa para o campo **Qtde** e finalmente para Inserir.
+
+Esta operação abre um ticket, como cliente "Consumidor". O cliente pode ser trocado antes de se inserir o item no ticket. Um cliente pode ser cadastrado clicando-se no botão **Cliente**.
+
+O Ticket somente estará disponível para o frente de caixa quando for finalizado e impresso. O botão **Finalizar** encontra-se na barra inferior da interface. O botão imprimir é habilidado quando o status do ticket está como **Impresso**, o que siginifica que ele já está disponível e uma nova impressão não altera o status do ticket.
+
+A opção **Devolver** deve ser utilizada para quando o cliente ir para a área de varejo e voltar para a recepção para recolher os vasilhames que levou. Isso indica que o cliente tinha intenção de comprar algum produto que utiliza o vasilhame, mas não o fez. Por isso a poção só está habilitada quando o ticket e impresso.
+
+A opção **Descartar** destina-se a cancelar tickets que foram criados erroneamente.

@@ -1,0 +1,18 @@
+Title: = Impressora Integrada SP-RME4
+
+Content:
+=
+
+Deve-se instalar o driver da impressora, através do arquivo [[https://www.sprt-printer.com/download_catalog/driver/|SP-DRV2154Win_20221212]] e setar a mesma como impressora padrão do sistema. No Windows ela será instalada como **80mm Series Printer**.
+
+
+
+Utilizando o software [[https://www.sprt-printer.com/download_catalog/tools/|Setting Tool 3.58_4.9]], efetue a seguinte configuração:
+
+
+
+No arquivo **EasyCash1.ini** sete a seguinte configuração:
+
+
+
+Ao abrir o EasyCash, na tela de configurações da impressora, sete as seguintes configurações:

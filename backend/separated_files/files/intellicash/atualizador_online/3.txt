@@ -1,0 +1,6 @@
+Title: = Etapa 02 - Preparo para atualização
+
+Content:
+=
+
+Nesta etapa são informadas a **Versão atual** e a **Última versão**. Para ativar o botão **Atualizar** marque a opção **Não há nenhuma conexão ativa no Banco de Dados.** e depois clique em **Atualizar**.

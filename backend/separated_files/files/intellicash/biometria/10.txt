@@ -1,0 +1,24 @@
+Title: = Configuração do Leitor Biométrico
+
+Content:
+=
+
+
+
+Segue a imagem da tela:
+
+
+
+Nesta tela, teremos:
+
+**Utilizar leitor biométrico:** Habilita o sistema a utilizar biometria.
+
+**Usar configuração por máquina:** O sistema passa a utilizar a configuração gravada no arquivo **IntelliCash3.ini** tag **BIOMETRIA**, podendo o cliente utilizar um leitor específico para uma determinada máquina. Segue a imagem:
+
+
+
+**Leitor:** Indica qual leitor será utilizado.
+
+**Valor do porcentual mínimo para a qualidade da imagem de captura:** Esta é uma configuração genérica. A cada captura, a função do leitor, retorna um porcentual de 0-100 que define a qualidade da imagem do dedo capturado. Com esta configuração, a cada captura, se a qualidade for inferior ao valor informado aqui, será pedido para o usuário efetuar uma nova captura. O valor default é de **70%**.
+
+**Valor do porcentual mínimo para considerar o match entre 2 templates:** Esta é uma configuração genérica. A função MatchTemplates retorna um valor entre 0-20000 que define a semelhança entre 2 templates. Neste caso, estamos setando o valor mínimo em porcentagem para considerar dois templates iguais. O valor default é de **100%**.

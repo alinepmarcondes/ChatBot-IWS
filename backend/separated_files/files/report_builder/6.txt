@@ -1,0 +1,6 @@
+Title: Report
+
+Content:
+Report, como diz o nome, permite configurar os elementos relacionados ao relatório em si, por exemplo, incluir um rodapé e um cabeçalho e remover o sumário do relatório.
+
+A primeira opção **DATA** é muito importante pois define qual será a fonte de dados responsável pelo "loop" de informações na seção "Detalhes" (**DETAILS**).

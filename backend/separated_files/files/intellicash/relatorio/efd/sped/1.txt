@@ -1,0 +1,16 @@
+Title: == Gerador de SPED
+
+Content:
+==
+
+----
+
+Ferramenta que possui por finalidade a geração dos arquivos SPED's à fins fiscais. 
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→EFD→Arquivo SPED||
+
+Ao clicar nesta opção aparecerá a seguinte interface:

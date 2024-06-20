@@ -1,0 +1,16 @@
+Title: = Associando Produtos ao Acabamento
+
+Content:
+=
+
+Para informar quais acabamentos o produto pode utilizar é preciso acessar o cadastro de produtos, ir à aba cadastro e depois Acabamentos.
+
+
+
+Para adicionar ou remover a relação de um acabamento com produto basta clicar no botão **"Adicionar /Remover"**, será listada a interface a baixo onde será feita a associação ou desassociação dos acabamentos.
+
+
+
+Nessa interface, no grid da esquerda serão listados todos os acabamentos cadastrados e ativos do sistema, já no grid da direita serão listados todos os acabamentos associados ao produto.\\
+Para **adicionar** ou **remover** a associação de um acabamento com produto basta utilizar as setas de ações que estão no centro da interface. Os botões que contém 2 setas adicionam/removem todos os registros de uma só vez dependendo da direção das setas //(ao colocar o mouse sobre as setas é exibida uma legenda com a ação de cada uma)//, já os botões de 1 seta adicionam/removem somente o registro selecionado. \\
+Para fechar basta clicar no botão **"Fechar"**.

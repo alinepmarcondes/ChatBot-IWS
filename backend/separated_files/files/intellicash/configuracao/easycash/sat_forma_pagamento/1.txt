@@ -1,0 +1,24 @@
+Title: == Configuração de Forma de Pagamento - SAT
+
+Content:
+==
+
+----
+
+Esta ferramenta tem a função de criar uma configuração para formas de pagamento no SAT.
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Configuração→EasyCash→SAT→Forma de Pagamento||
+ 
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+
+Nesta tela mostra todas as formas de pagamentos cadastradas e para adicionar mais algum basta clicar no botão "//**Adicionar**//" e aparecerá a seguinte interface:
+
+
+
+Nesta tela basta informar a descrição da forma de pagamento e após isso confirmar. Será inserido como próximo numero disponível do índice e com sistema código 0.

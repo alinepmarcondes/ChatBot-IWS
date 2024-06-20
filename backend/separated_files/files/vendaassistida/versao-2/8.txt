@@ -1,0 +1,6 @@
+Title: == Orçamento
+
+Content:
+==
+
+Para realizar um orçamento o usuário poderá [[https://wiki.intelliware.com.br/doku.php?id=manuais:vendaassistida:versao-2&#selecionar_cliente|selecionar cliente]] ou utilizar o cliente "Consumidor".

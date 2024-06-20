@@ -1,0 +1,25 @@
+Title: == Relatório de Ruptura pelo Estoque
+
+Content:
+==
+
+----
+
+Este relatório tem a finalidade de mostrar itens que possivelmente tiveram ruptura de estoque em um determinado periodo. Utiliza-se como base a posição de estoque do produto;
+
+----
+
+Para abrir esta ferramenta basta entrar no menu em:
+
+||Gerenciamento→Relatórios→Gestão de Estoque→Ruptura→Ruptura pelo Estoque||
+
+Ao clicar nesta opção aparecerá a seguinte interface:
+
+
+Este relatório faz uma varredura em todos os itens que estão ativos para venda, verificando todo o intervalo solicitado, e é feito a checagem dos dias em que o estoque esteve menor ou igual a zero, e incrementado os dias de rupura. Caso o item tenha estado em ruptura um ou mais dias, é informado no relatório.
+
+Um mesmo item pode aparecer mais de uma vez, pois ele pode ter tido mais de um intervalo de de ruptura, por exemplo, feito o relatório do dia 01 ao dia 30, e o item teve seu estoque zerado entre os dia 03 e 05, e depois novamente entre os dias 10 e 12, nesse caso esse item aparecerá duas vezes no relatório.
+
+Caso um item tenha sido cadastrado dentro do intervalo de data solicitada, será analisado o periodo entre seu cadastro e o termino do periodo, pois faz sentido que o periodo anterior ao seu cadastro o item esteja com estoque zerado.
+
+O relatório ainda faz uma estimativa de perda de faturamento, essa estimativa é baseada na média de venda diaria pela quantidade de dias que o estoque não possuiu vendas multiplicado pelo preço de venda do item.

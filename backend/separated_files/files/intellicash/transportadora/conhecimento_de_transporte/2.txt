@@ -1,0 +1,15 @@
+Title: == Localizar
+
+Content:
+==
+
+A aba "**Localizar**" permite buscar os CT-e. Os filtros são opcionais, ou seja, caso não preencha nenhum serão trazidos todos os CT-e.
+
+Nela temos os seguintes filtros:
+* **Tomador:** localizar pelo agente para quem o frete foi emitido;
+* **Remetente:** localizar pelo agente que enviou a carga;
+* **Destinatário:** localizar pelo agente que irá receber a carga;
+* **Número:** localizar pelo número do CT-e;
+* **Início e Termino:** para determinar um período de datas a ser pesquisado;
+* **Exibir Não enviadas:** mostra apenas as notas que não foram enviadas;
+* **Exibir Apenas Canceladas:** mostra apenas as notas que foram canceladas;

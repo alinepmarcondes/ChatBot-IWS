@@ -1,0 +1,6 @@
+Title: Resgate em Valor (Contingência)
+
+Content:
+Esta opção tem como objetivo viabilizar um resgate de pontos em forma de desconto ao cliente quando o EasyCash estiver sem acesso ao sistema de retaguarda, já que o resgate por valor é realizado diretamente no frente de caixa. Porém nada impede de que seja utilizada com o sistema on-line também. Ao trabalhar on-line, o EasyCash detectará a existência de um ticket pendente e priorizará a utilização do mesmo. No entanto, ao trabalhar off-line, os tickets só serão efetivados quando a conexão for reestabelecida.
+
+Se o cliente selecionado possuir saldo em pontos para resgate em Valor, a aba **"Valor - Contingência"** será aberta. Na área **"Desconto"**, insere-se o valor do desconto (campo **"Desconto"**) ou o total em pontos (campo **"Pontos"**). Ao preencher o campo "Pontos" o campo "Desconto" será calculado automaticamente e vice-versa. Por padrão, a data de vencimento (campo **"Vencimento"**) foi definida em 1 dia, podendo ser alterada mediante a permissão **"PONTUAÇÃO: Alterar Vencimento Ticket"**. Após preencher os dados, basta clicar em **"Inserir"** que o par "Desconto-Pontos" será apresentado na área **"Resgate"**.

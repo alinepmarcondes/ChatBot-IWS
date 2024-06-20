@@ -1,0 +1,6 @@
+Title: = Habilitar cookies e janelas de pop-up
+
+Content:
+=
+
+Para que o usuário consiga utilizar o Intelligroup, o mesmo deverá habilitar os cookies do navegador e permitir as janelas de pop-ups. Abaixo é descrito como realizar os procedimento nos principais navegadores.
