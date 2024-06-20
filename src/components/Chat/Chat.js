@@ -4,7 +4,6 @@ import Manual from "../Manual/Manual";
 import ListIcon from "../icons/listIcon";
 import NewIcon from "../icons/newIcon";
 import { useNavigationState } from "../hooks/useNavigationState";
-import llm from "../utils/llm";
 
 function Chat() {
   const [showManual, setShowManual] = useState(false);
@@ -13,10 +12,6 @@ function Chat() {
   const [inputValue, setInputValue] = useState("");
   const messagesEndRef = useRef(null);
   const navigationState = useNavigationState();
-
-  useEffect(() => {
-    llm(); // Initial call to ensure the model is loaded
-  }, []);
 
   useEffect(() => {
     fetchChats();
@@ -62,14 +57,14 @@ function Chat() {
         const createdChat = data.chat;
 
         setCurrentChat(createdChat);
-        setChats([...chats, createdChat]);
+        setChats([...chats, createdChat]); // Fixed: Use createdChat instead of currentChat
         setInputValue("");
-        console.log('Chat criado com sucesso!');
+        console.log('Chat created successfully!');
       } else {
         setCurrentChat(null);
       }
     } catch (error) {
-      console.error('Erro ao criar chat:', error);
+      console.error('Error creating chat:', error); // Fixed: Corrected console message
     }
   };
 
@@ -80,7 +75,7 @@ function Chat() {
       const data = await response.json();
       setChats(data);
     } catch (error) {
-      console.error('Erro ao buscar chats:', error);
+      console.error('Error fetching chats:', error); // Fixed: Corrected console message
     }
   };
 
@@ -96,29 +91,35 @@ function Chat() {
         if (!currentChat) {
           await addNewChat();
         } else {
-          const updatedChats = [...chats];
-          const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
-          if (updatedChatIndex !== -1) {
-            const updatedChat = {
-              ...updatedChats[updatedChatIndex],
-              content: [...updatedChats[updatedChatIndex].content, newMessage]
-            };
-            updatedChats[updatedChatIndex] = updatedChat;
-            setChats(updatedChats);
-            setCurrentChat(updatedChat);
+          // Check if currentChat is defined and has _id property
+          if (currentChat && currentChat._id) {
+            const updatedChats = [...chats];
+            const updatedChatIndex = updatedChats.findIndex(chat => chat._id === currentChat._id);
+            if (updatedChatIndex !== -1) {
+              const updatedChat = {
+                ...updatedChats[updatedChatIndex],
+                content: [...updatedChats[updatedChatIndex].content, newMessage]
+              };
+              updatedChats[updatedChatIndex] = updatedChat;
 
-            // Call the llm function to get the response
-            const botResponse = await llm(inputValue);
+              // Removed: Redundant setting of chats and currentChat
+              // setChats(updatedChats);
+              // setCurrentChat(updatedChat);
 
-            const botMessage = {
-              timestamp: String(new Date()),
-              sender: 'bot',
-              message: botResponse
-            };
+              const response = await fetch(`http://localhost:5000/chats/${currentChat._id}/content`, {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: inputValue })
+              });
+              const data = await response.json();
 
-            updatedChats[updatedChatIndex].content = [...updatedChat.content, botMessage];
-            setChats([...updatedChats]);
-            setCurrentChat({ ...updatedChat, content: [...updatedChat.content, botMessage] });
+              setCurrentChat(data.chat);
+              setChats(chats.map(chat => (chat._id === data.chat._id ? data.chat : chat)));
+            }
+          } else {
+            console.error('Current chat is undefined or missing _id property.');
           }
         }
       } catch (error) {
@@ -128,6 +129,7 @@ function Chat() {
       setInputValue("");
     }
   };
+
 
   const openManual = () => {
     setShowManual(true);
@@ -153,7 +155,7 @@ function Chat() {
         </button>
         <h1 className="chat-title">{currentChat ? currentChat.title : "Starting a new chat"}</h1>
         <button className="chat-add-button" onClick={addNewChat}>
-          <NewIcon className="chat-add-button"/>
+          <NewIcon className="chat-add-button" />
         </button>
       </div>
       <div className="chat-body">

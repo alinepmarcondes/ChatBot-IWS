@@ -3,6 +3,10 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const fs = require('fs');
+const { OpenAI } = require('openai');
+
+// Certifique-se de substituir 'YOUR_API_KEY_HERE' pela sua chave de API real
+const client = new OpenAI({ apiKey: "lm-studio" });
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -198,24 +202,55 @@ app.post('/chats/:chatId/content', async (req, res) => {
   try {
     const { chatId } = req.params;
     const { message } = req.body;
+
+    // Validar entrada
+    if (!chatId || !message) {
+      return res.status(400).json({ error: 'Missing chatId or message in request body.' });
+    }
+
+    // Verificar se o chat existe
     const chat = await Chat.findById(chatId);
     if (!chat) {
-      return res.status(404).json({ error: 'Chat não encontrado.' });
+      return res.status(404).json({ error: 'Chat not found.' });
     }
+
+    // Criar nova mensagem do usuário
     const newMessage = {
       _id: new mongoose.Types.ObjectId(),
       timestamp: String(new Date()),
       sender: 'user',
       message: message
     };
+
+    // Adicionar nova mensagem ao conteúdo do chat
     chat.content.push(newMessage);
+
+    // Gerar resposta do bot usando o LLM
+    const botResponse = await getEmbedding(message);
+
+    // Adicionar mensagem do bot ao conteúdo do chat
+    const botMessage = {
+      _id: new mongoose.Types.ObjectId(),
+      timestamp: String(new Date()),
+      sender: 'bot',
+      message: botResponse
+    };
+    chat.content.push(botMessage);
+
+    // Salvar as alterações no chat
     await chat.save();
-    res.status(201).json({ message: 'Mensagem adicionada com sucesso!', chat });
+
+    res.status(201).json({ message: 'Message successfully added to chat!', chat });
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: 'Erro ao adicionar mensagem ao chat.' });
+    console.error('Error adding message to chat:', error);
+    res.status(500).json({ error: 'Error adding message to chat.' });
   }
 });
+
+function getEmbedding(text, model = "nomic-ai/nomic-embed-text-v1.5-GGUF") {
+  text = text.replace("\n", " ");
+  return client.embeddings.create({ input: [text], model: model });
+}
 
 // Rota para atualizar o título de um chat
 app.put('/chats/:chatId/title', async (req, res) => {
