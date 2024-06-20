@@ -1,8 +1,8 @@
+const { ChromaClient } = require('chromadb');
+const fs = require("fs").promises;
 const express = require('express');
 const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
 const cors = require('cors');
-const fs = require('fs');
 const axios = require('axios'); // Use axios for HTTP requests
 
 const app = express();
@@ -238,29 +238,53 @@ app.post('/chats/:chatId/content', async (req, res) => {
   }
 });
 
-async function getBotResponse(text, model = "NikolayKozloff/Llama-3-portuguese-Tom-cat-8b-instruct-Q6_K-GGUF") {
+async function getBotResponse(user_input_question, model = "NikolayKozloff/Llama-3-portuguese-Tom-cat-8b-instruct-Q6_K-GGUF") {
   try {
-    // Chama o endpoint de completions para obter a resposta do modelo
-    const completionResponse = await axios.post('http://localhost:1234/v1/chat/completions', {
-      messages: [{ role: "user", content: text }],
-      model: model
-    });
+    // Step 1: Send POST request to get context from the first server
+    const data = {
+      user_input_question: user_input_question
+    }; 
 
-    const message = completionResponse.data.choices[0].message.content;
+    console.log(`Received ${user_input_question}`);
+    let context = null;  // Initialize context variable
 
-    // Chama o endpoint de embeddings para obter os embeddings do texto
-    const embeddingResponse = await axios.post('http://localhost:1234/v1/embeddings', {
-      input: [text],
-      model: model
-    });
+    // Send POST request to the first server
+    await axios.post('http://localhost:5050/process_question', data)
+      .then(response => {
+        if (response.status === 200) {
+          // Extract and store the context from the response
+          context = response.data.context;
+          console.log("Context received:", context);
+        } else {
+          throw new Error(`Error: ${response.status}, ${response.statusText}`);
+        }
+      })
+      .catch(error => {
+        // Handle error from the first server
+        throw new Error(`Error sending request to http://localhost:5050/process_question: ${error.message}`);
+      });
 
-    const embedding = embeddingResponse.data.data[0].embedding;
+    // Step 2: Send POST request to get response from the second server using the obtained context
+    if (context !== null) {
+      const completionResponse = await axios.post('http://localhost:1234/v1/chat/completions', {
+        messages: [
+          { role: "system", content: `Responda à pergunta com base apenas no seguinte contexto, quando houver instrução, informe a instrução: ${context}` },
+          { role: "user", content: user_input_question },
+        ],
+        model: model
+      });
 
-    return {
-      message: message,
-      embedding: embedding
-    };
+      // Extract the response message from the completion response
+      const message = completionResponse.data.choices[0].message.content;
+      console.log("Response received:", message);
 
+      return {
+        message: message,
+        embedding: []
+      };
+    } else {
+      throw new Error("Context is null. Failed to retrieve context from http://localhost:5050/process_question.");
+    }
   } catch (error) {
     console.error('Error generating bot response:', error);
     return { message: "Error generating response.", embedding: [] };
@@ -290,4 +314,3 @@ app.put('/chats/:chatId/title', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-``
