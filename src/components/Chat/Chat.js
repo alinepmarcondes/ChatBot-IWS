@@ -4,12 +4,14 @@ import Manual from "../Manual/Manual";
 import ListIcon from "../icons/listIcon";
 import NewIcon from "../icons/newIcon";
 import { useNavigationState } from "../hooks/useNavigationState";
+import { marked } from 'marked';
 
 function Chat() {
   const [showManual, setShowManual] = useState(false);
   const [chats, setChats] = useState([]);
   const [currentChat, setCurrentChat] = useState(null);
   const [inputValue, setInputValue] = useState("");
+  const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef(null);
   const navigationState = useNavigationState();
 
@@ -88,6 +90,8 @@ function Chat() {
       };
 
       try {
+        setLoading(true); // Mostrar indicador de carregamento
+
         if (!currentChat) {
           await addNewChat();
         } else {
@@ -119,12 +123,13 @@ function Chat() {
         }
       } catch (error) {
         console.error('Error sending message:', error);
+      } finally {
+        setLoading(false); // Ocultar indicador de carregamento
       }
 
       setInputValue("");
     }
   };
-
 
   const openManual = () => {
     setShowManual(true);
@@ -140,18 +145,9 @@ function Chat() {
       sendMessage();
     }
   };
-  // Function to format the response message
+
   const formatResponseMessage = (rawMessage) => {
-    // Replace "<end_of_turn>" with newlines for formatting
-    const formattedMessage = rawMessage.replace(/<end_of_turn>/g, '\n');
-
-    // Additional formatting if needed (e.g., adding bullet points or numbered list)
-    // Example: Assuming numbered list
-    const numberedSteps = formattedMessage.replace(/\d+\./g, match => {
-      return `\n${match}`;
-    });
-
-    return numberedSteps.trim();  // Trim any extra whitespace
+    return marked.parse(rawMessage);
   };
 
   return (
@@ -173,11 +169,18 @@ function Chat() {
               key={index}
               className={`message-box ${message.sender === 'user' ? "sent" : "received"}`}
             >
-              <div className="message-text">{message.sender === 'bot' ? formatResponseMessage(message.message) : message.message}</div>              <div className="message-info">
+              <div className="message-text" dangerouslySetInnerHTML={{ __html: message.sender === 'bot' ? formatResponseMessage(message.message) : message.message }}></div>
+              <div className="message-info">
                 <span className="timestamp">{new Date(message.timestamp).toLocaleString()}</span>
               </div>
             </div>
           ))}
+          {loading && (
+            <div className="loading-indicator">
+              <div className="loading-spinner"></div>
+              <span>Carregando resposta...</span>
+            </div>
+          )}
           <div ref={messagesEndRef} />
         </div>
         <div className="chat-input">

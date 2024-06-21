@@ -253,7 +253,7 @@ async function getBotResponse(user_input_question, model = "NikolayKozloff/Llama
       .then(response => {
         if (response.status === 200) {
           // Extract and store the context from the response
-          context = response.data.context;
+          context = response.data;
           console.log("Context received:", context);
         } else {
           throw new Error(`Error: ${response.status}, ${response.statusText}`);
@@ -266,23 +266,41 @@ async function getBotResponse(user_input_question, model = "NikolayKozloff/Llama
 
     // Step 2: Send POST request to get response from the second server using the obtained context
     if (context !== null) {
-      const completionResponse = await axios.post('http://localhost:1234/v1/chat/completions', {
-        messages: [
-          { role: "system", content: `Responda à pergunta com base apenas no seguinte contexto, quando houver instrução, informe a instrução: ${context}` },
-          { role: "user", content: user_input_question },
-        ],
-        model: model
-      });
+      if(context === undefined){
+        const completionResponse = await axios.post('http://localhost:1234/v1/chat/completions', {
+          messages: [
+            { role: "system", content: `APENAS RESPONDA: Não foi possível encontrar uma resposta no manual, poderia ser mais específico?`},
+            { role: "user", content: user_input_question },
+          ],
+          model: model
+        });
+          const message = completionResponse.data.choices[0].message.content;
+          console.log("Response received:", message);
 
-      // Extract the response message from the completion response
-      const message = completionResponse.data.choices[0].message.content;
-      console.log("Response received:", message);
+          return {
+            message: message,
+            embedding: []
+          };
+          
+      }else
+      {
+        const completionResponse = await axios.post('http://localhost:1234/v1/chat/completions', {
+          messages: [
+            { role: "system", content: `Responda à pergunta com base apenas no seguinte contexto, quando houver instrução, informe a instrução: ${context}` },
+            { role: "user", content: user_input_question },
+          ],
+          model: model
+        });
 
-      return {
-        message: message,
-        embedding: []
-      };
-    } else {
+        // Extract the response message from the completion response
+        const message = completionResponse.data.choices[0].message.content;
+        console.log("Response received:", message);
+
+        return {
+          message: message,
+          embedding: []
+        };
+    }} else {
       throw new Error("Context is null. Failed to retrieve context from http://localhost:5050/process_question.");
     }
   } catch (error) {

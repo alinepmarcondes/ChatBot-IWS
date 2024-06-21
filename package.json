@@ -21,6 +21,7 @@
     "fs": "^0.0.1-security",
     "jest-mock": "^29.7.0",
     "jsonwebtoken": "^9.0.2",
+    "marked": "^13.0.0",
     "mongoose": "^8.3.3",
     "openai": "^4.52.0",
     "path": "^0.12.7",
